@@ -1,13 +1,13 @@
 import React from 'react';
 import { RouteObject } from 'react-router-dom';
 import NotFound from '@/pages/NotFound';
-import CourseList from '@/pages/CourseList';
+import Episode from '@/pages/Episode';
 
 export default [
   {
     path: '/',
-    element: <CourseList />,
-    children: [{ index: true, element: <CourseList /> }],
+    element: <Episode />,
+    children: [{ index: true, element: <Episode /> }],
   },
   {
     path: '/*',

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FBFAF5;
+  }
+}
+
+@layer components {
+  .logo {
+    @apply relative;
+
+    >.text {
+
+      @apply text-6xl font-bold absolute;
+
+      text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+
+      $increment-left: var(--x-distance, 6px);
+      $increment-top: var(--y-distance, 4px);
+
+      @for $i from 1 through 5 {
+        &:nth-child(#{$i}) {
+          left: #{calc(($i - 1) * $increment-left)};
+          top: #{calc(($i - 1) * $increment-top)};
+        }
+      }
+    }
+  }
+}
