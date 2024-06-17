@@ -43,7 +43,7 @@ const Episode = () => {
       <main>
         <section className="meta">
           <h1>{ episodeData.title }</h1>
-          <Player audio_url={ episodeData.audio } { ...lastNext } toLast={ () => {
+          <Player audio_url={ episodeData.audio.replace("http://", "https://") } { ...lastNext } toLast={ () => {
             setCurIndex(curIndex - 1);
           } } toNext={ () => {
             setCurIndex(curIndex + 1);
