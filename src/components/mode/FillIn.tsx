@@ -1,6 +1,6 @@
-import React, { FC, useCallback, useEffect, useRef, createRef } from 'react';
+import React, { FC, useCallback, useEffect, useRef } from 'react';
 import { Scripts } from '@/types';
-import { loadCEFR } from '@/tools/words';
+import { loadCEFR } from '@/utils/words';
 
 export type fillInProps = {
   scripts: Scripts;
@@ -23,7 +23,7 @@ const FillIn: FC<fillInProps> = (props) => {
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     const index = parseInt(e.currentTarget.dataset.index || '0');
-    const isLetter = /^[a-zA-Z]$/;
+    const isLetter = /^[a-zA-Z\-]$/;
     e.preventDefault();
 
     if (e.key === 'Backspace') {
@@ -45,9 +45,9 @@ const FillIn: FC<fillInProps> = (props) => {
     }
   }, []);
 
-  let current = 0;
+  let cur = 0;
 
-  if(!words || words.length === 0) {
+  if (!words || words.length === 0) {
     return <div>Loading...</div>
   }
 
@@ -62,8 +62,9 @@ const FillIn: FC<fillInProps> = (props) => {
               const el = <span key={ word_index }> {
                 Array.from(
                   { length: word.length }).map((_, index) => {
-                    const now = current + index;
-                    return <input key={ index }
+                    const now = cur + index;
+                    return <input
+                      key={ index }
                       maxLength={ 1 }
                       data-index={ now }
                       onKeyDown={ (e) => handleKeyDown(e) }
@@ -73,7 +74,7 @@ const FillIn: FC<fillInProps> = (props) => {
                   })
 
               } </span>;
-              current += word.length;
+              cur += word.length;
               return el;
             } else {
               return <span key={ word_index }> { word } </span>

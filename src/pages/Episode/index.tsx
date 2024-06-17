@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Logo from '@/components/Logo';
 
 import WaveForm from '@/components/WaveForm';
@@ -15,17 +15,17 @@ const episodeData = {
     'Listen to the programme to find out the answer.',
   ],
   vocabulary: [
-    { text: 'routine', desc: 'the usual, fixed way of doing things' },
-    { text: 'common sense', desc: 'our judgement to make sensible decisions' },
-    { text: 'match', desc: 'work equally on both sides' },
-    { text: 'inflexible', desc: 'unwilling to change' },
-    { text: 'bias', desc: 'unfairness; treating one group of people more favourably than another' },
-    { text: 'active', desc: 'involved with (something)' },
+    {text: 'routine', desc: 'the usual, fixed way of doing things'},
+    {text: 'common sense', desc: 'our judgement to make sensible decisions'},
+    {text: 'match', desc: 'work equally on both sides'},
+    {text: 'inflexible', desc: 'unwilling to change'},
+    {text: 'bias', desc: 'unfairness; treating one group of people more favourably than another'},
+    {text: 'active', desc: 'involved with (something)'},
   ],
   transcript: [
-    { author: 'Georgina', text: 'Hello. This is 6 Minute English from BBC Learning English. I ’m Georgina.' },
-    { author: 'Neil', text: 'And I ’m Neil.' },
-    { author: 'Georgina', text: 'In this programme we ’re going to be talking about the world of work.' },
+    {author: 'Georgina', text: 'Hello. This is 6 Minute English from BBC Learning English. I ’m Georgina.'},
+    {author: 'Neil', text: 'And I ’m Neil.'},
+    {author: 'Georgina', text: 'In this programme we ’re going to be talking about the world of work.'},
     {
       author: 'Neil',
       text: 'Ah yes, travelling to an office five days a week, sitting at a desk all day, and then going home.',
@@ -50,7 +50,7 @@ const episodeData = {
       author: 'Georgina',
       text: 'Ah yes, I hadn ’t forgotten. So, Neil, I know you work very hard. But according to data from the Organization for Economic Cooperation and Development –the OECD –workers from which country work the longest hours? Is it … a) South Korea b) Germany, or c) Mexico?',
     },
-    { author: 'Neil', text: 'Well, as I ’m not on the list, let ’s go for c) Mexico.' },
+    {author: 'Neil', text: 'Well, as I ’m not on the list, let ’s go for c) Mexico.'},
     {
       author: 'Georgina',
       text: 'OK, Neil, we ’ll find out if that ’s right at the end of the programme. But let ’s talk more about flexible working now. Different countries have different laws about working flexibly –but here in the UK, for last 14 years, employees –workers –have had the right to request flexible working.',
@@ -103,7 +103,7 @@ const episodeData = {
       author: 'Georgina',
       text: 'It sounds like something that needs to be looked at. But now, Neil, let ’s get the answer to my question: According to official data, in which country do workers work the longest hours?',
     },
-    { author: 'Neil', text: 'And I said Mexico.' },
+    {author: 'Neil', text: 'And I said Mexico.'},
     {
       author: 'Georgina',
       text: 'Which is correct, well done! According to the OECD, the average Mexican spends 2,255 hours at work per year –the equivalent of around 43 hours per week. Germans, on the other hand, clock up the fewest hours.',
@@ -112,8 +112,8 @@ const episodeData = {
       author: 'Neil',
       text: 'Well, my working day is nearly over, so let ’s just recap some of the vocabulary we ’ve discussed. Starting with routine –the usual, fixed way of doing things.',
     },
-    { author: 'Georgina', text: 'Common sense is our judgement to make sensible decisions.' },
-    { author: 'Neil', text: 'When you need something to match it has to work equally on both sides.' },
+    {author: 'Georgina', text: 'Common sense is our judgement to make sensible decisions.'},
+    {author: 'Neil', text: 'When you need something to match it has to work equally on both sides.'},
     {
       author: 'Georgina',
       text: 'And when someone is inflexible , they are unwilling to change –sometimes we say they won ’t budge!',
@@ -130,27 +130,26 @@ const episodeData = {
       author: 'Neil',
       text: "Don't forget that we have an app too, which you can download for free from the app stores. We help you learn English on the move! Grammar, vocabulary, and interesting topics –we have them all!",
     },
-    { author: 'Georgina', text: 'Bye for now.' },
-    { author: 'Neil', text: 'Goodbye.' },
+    {author: 'Georgina', text: 'Bye for now.'},
+    {author: 'Neil', text: 'Goodbye.'},
   ],
   authors: ['Georgina', 'Neil', 'Sarah Jackson, workplace consultant'],
 };
 
 const Episode = () => {
   return (
-    <div>
+    <div className="episode">
       <header>
-        { ' ' }
-        <Logo
-          text="POD!"
-          distance={ {
-            x: 8,
-            y: 4,
-          } }
-        />
+        <Logo text="POD!" />
       </header>
-      <WaveForm url={ Music } />
-      <FillIn scripts={ episodeData.transcript } />
+      <main>
+        <section className="meta">
+          <WaveForm url={Music} />
+        </section>
+        <section className="pro">
+          <FillIn scripts={episodeData.transcript} />
+        </section>
+      </main>
     </div>
   );
 };

@@ -6,6 +6,10 @@
   body {
     background-color: #FBFAF5;
   }
+
+  #root {
+    padding: 30px 120px;
+  }
 }
 
 @layer components {
@@ -26,8 +30,12 @@
 
 
       input {
-        width: 30px;
-        border: 1px solid #333;
+        @apply w-[25px] h-[25px] outline outline-2 outline-gray-300 text-center;
+
+
+        &:focus {
+          @apply outline-2 outline-blue-500 z-10 relative;
+        }
       }
 
     }
@@ -50,6 +58,22 @@
           left: #{calc(($i - 1) * $increment-left)};
           top: #{calc(($i - 1) * $increment-top)};
         }
+      }
+    }
+  }
+
+  .episode {
+    >header {
+      @apply  h-36;
+    }
+
+    >main {
+      @apply flex flex-nowrap gap-4;
+      .meta {
+        flex: 1 0 50%;
+      }
+      .pro {
+
       }
     }
   }
