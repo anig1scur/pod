@@ -6,7 +6,7 @@ import Info from '@/components/Info';
 import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
-import { episodes } from "@/assets/6mins/index";
+import { episodes } from "@/utils/6min";
 
 const Episode = () => {
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
