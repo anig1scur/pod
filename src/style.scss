@@ -4,9 +4,22 @@
 
 
 @layer base {
+  html {
+
+    ::-webkit-scrollbar {
+      width: 16px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #D93D86;
+      outline: 2px solid black;
+    }
+  }
+
   body {
     color: #191919;
     background-color: #faf8ef;
+    padding-bottom: 20px;
   }
 
   #root {
@@ -29,19 +42,10 @@
   }
 
   .fill_in {
-    height: 75vh;
-    max-height: 75vh;
+    height: 70vh;
+    max-height: 70vh;
     overflow-y: auto;
     padding-right: 15px;
-
-    &::-webkit-scrollbar {
-      width: 16px;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background-color: #D93D86;
-      outline: 2px solid black;
-    }
 
     .script {
       @apply flex mb-2;
@@ -70,10 +74,9 @@
   }
 
   .logo {
-    @apply relative;
+    @apply relative w-32;
 
     >.text {
-
       @apply text-6xl font-bold absolute;
 
       text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
@@ -116,7 +119,7 @@
 
   .episode {
     >header {
-      @apply h-28;
+      @apply h-28 flex justify-center;
     }
 
     >main {
@@ -133,6 +136,7 @@
 
       .pro {
         flex: 1 0 50%;
+        padding-top: 20px;
       }
     }
   }
