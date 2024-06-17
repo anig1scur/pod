@@ -4,18 +4,18 @@
 
 @layer base {
   body {
-    background-color: #FBFAF5;
+    color: #191919;
+    background-color: #faf8ef;
   }
 
   #root {
-    padding: 30px 120px;
+    padding: 30px 15% 0 10%;
   }
 }
 
 @layer components {
 
   .fill_in {
-    @apply p-6;
 
     .script {
       @apply flex mb-2;
@@ -25,16 +25,19 @@
       }
 
       p {
-        @apply text-xl;
+        @apply text-xl leading-8 break-words;
       }
 
+      .blank {
+        @apply mx-2;
+      }
 
       input {
         @apply w-[25px] h-[25px] outline outline-2 outline-gray-300 text-center;
 
 
         &:focus {
-          @apply outline-2 outline-blue-500 z-10 relative;
+          @apply outline-2 outline-pink-500 z-10 relative;
         }
       }
 
@@ -64,16 +67,34 @@
 
   .episode {
     >header {
-      @apply  h-36;
+      @apply h-28;
     }
 
     >main {
-      @apply flex flex-nowrap gap-4;
+      @apply flex flex-nowrap gap-12;
+
       .meta {
         flex: 1 0 50%;
-      }
-      .pro {
 
+        h1 {
+          @apply text-3xl font-bold;
+        }
+      }
+
+      .pro {
+        height: 1000px;
+        max-height: 1000px;
+        overflow-y: auto;
+        padding-right: 15px;
+
+        &::-webkit-scrollbar {
+          width: 16px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #D93D86;
+          outline: 2px solid black;
+        }
       }
     }
   }

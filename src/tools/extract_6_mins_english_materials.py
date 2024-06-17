@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 
-grouped_content = {
+data = {
+    "title": "",
+    "img": "",
     "introduction": [],
     "this_week_question": [],
     "vocabulary": [],
@@ -30,6 +32,16 @@ with open("./example.html", "r") as f:
     contents = f.read()
 
     soup = BeautifulSoup(contents, "html.parser")
+
+    # 1. title + image
+    title = soup.find("meta", attrs={"property": "og:title"})
+    image = soup.find("meta", attrs={"property": "og:image"})
+    if title:
+        data["title"] = title["content"].strip("BBC Learning English - 6 Minute English / ")
+    if image:
+        data["img"] = image["content"]
+
+    # 2. 处理文本
     richtext = soup.find("div", class_=["widget-richtext"])
     texts = richtext.find(class_=["text"])
 
@@ -47,7 +59,7 @@ with open("./example.html", "r") as f:
             if current_section == "this_week_question":
                 found_question_section = True
                 if last_p_before_question:
-                    grouped_content["introduction"].append(last_p_before_question)
+                    data["introduction"].append(last_p_before_question)
         elif element.name == "strong":
             # Set the current section based on the <strong> text
             heading = element.get_text(strip=True)
@@ -57,9 +69,7 @@ with open("./example.html", "r") as f:
                 # Collect vocabulary terms and descriptions
                 vocab_text = heading
                 desc_text = element.next_sibling.strip() if element.next_sibling else ""
-                grouped_content[current_section].append(
-                    {"text": vocab_text, "desc": desc_text}
-                )
+                data[current_section].append({"text": vocab_text, "desc": desc_text})
         elif element.name == "p":
             # Handle potential nested <span> tags in <p> tags
             if element.find("span"):
@@ -80,26 +90,23 @@ with open("./example.html", "r") as f:
                     author = strong_text
 
                 text = clean_text(element).replace(author, "", 1).strip()
-                if author not in grouped_content["authors"]:
-                    grouped_content["authors"].append(author)
+                if author not in data["authors"]:
+                    data["authors"].append(author)
 
                 if text and text != "Note: This is not a word-for-word transcript.":
-                    grouped_content[current_section].append(
-                        {"author": author, "text": text}
-                    )
+                    text = text.replace(" ’", "’")
+                    data[current_section].append({"author": author, "text": text})
             elif current_section == "vocabulary" and element.find("strong"):
                 vocab_text = element.find("strong").get_text(strip=True)
                 desc_text = clean_text(element).replace(vocab_text, "").strip()
                 if vocab_text.lower() == "transcript":
                     current_section = "transcript"
                     continue
-                grouped_content[current_section].append(
-                    {"text": vocab_text, "desc": desc_text}
-                )
+                data[current_section].append({"text": vocab_text, "desc": desc_text})
             elif current_section != "vocabulary" and current_section != "transcript":
                 # For other sections, append text content
                 text = clean_text(element)
                 if text and text != "Note: This is not a word-for-word transcript.":
-                    grouped_content[current_section].append(text)
+                    data[current_section].append(text)
 
-print(grouped_content)
+print(data)

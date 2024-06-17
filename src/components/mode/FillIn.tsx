@@ -59,7 +59,7 @@ const FillIn: FC<fillInProps> = (props) => {
           <p>{ script.text.split(' ').map((word, word_index) => {
 
             if (words.includes(word)) {
-              const el = <span key={ word_index }> {
+              const el = <span className="blank" key={ word_index }> {
                 Array.from(
                   { length: word.length }).map((_, index) => {
                     const now = cur + index;
