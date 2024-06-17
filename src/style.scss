@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   body {
     color: #191919;
@@ -15,13 +16,38 @@
 
 @layer components {
 
+  .player {
+    @apply border-[3px] border-black rounded-lg p-4 flex gap-6 flex-col;
+
+    .control {
+      @apply flex items-center gap-4;
+
+      button {
+        @apply w-12 h-12 rounded-full bg-black text-white;
+      }
+    }
+  }
+
   .fill_in {
+    height: 75vh;
+    max-height: 75vh;
+    overflow-y: auto;
+    padding-right: 15px;
+
+    &::-webkit-scrollbar {
+      width: 16px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #D93D86;
+      outline: 2px solid black;
+    }
 
     .script {
       @apply flex mb-2;
 
       h3 {
-        @apply text-xl min-w-28 max-w-28 font-bold text-ellipsis text-nowrap overflow-hidden mr-4;
+        @apply text-xl min-w-28 max-w-28 font-bold text-ellipsis text-nowrap overflow-hidden mr-2;
       }
 
       p {
@@ -33,8 +59,7 @@
       }
 
       input {
-        @apply w-[25px] h-[25px] outline outline-2 outline-gray-300 text-center;
-
+        @apply text-lg w-[25px] h-[25px] outline outline-2 -outline-offset-1 outline-[#00000066] text-center bg-transparent;
 
         &:focus {
           @apply outline-2 outline-pink-500 z-10 relative;
@@ -65,6 +90,30 @@
     }
   }
 
+  .info {
+    @apply flex flex-col gap-4 border-[3px] border-black rounded-lg p-4 text-lg;
+
+    h3 {
+      @apply text-4xl font-bold mb-3;
+    }
+
+    li {
+
+      // @apply flex items-center gap-2
+      &:not(:last-child) {
+        @apply mb-2;
+      }
+    }
+
+    .text {
+      @apply text-2xl font-bold mb-0;
+    }
+
+    .desc {
+      @apply text-zinc-700;
+    }
+  }
+
   .episode {
     >header {
       @apply h-28;
@@ -75,26 +124,45 @@
 
       .meta {
         flex: 1 0 50%;
+        @apply flex flex-col gap-4;
 
         h1 {
-          @apply text-3xl font-bold;
+          @apply text-5xl font-bold mb-2;
         }
       }
 
       .pro {
-        height: 1000px;
-        max-height: 1000px;
-        overflow-y: auto;
-        padding-right: 15px;
+        flex: 1 0 50%;
+      }
+    }
+  }
 
-        &::-webkit-scrollbar {
-          width: 16px;
-        }
+  .mode_tab {
+    @apply relative h-28 w-60 m-auto;
 
-        &::-webkit-scrollbar-thumb {
-          background-color: #D93D86;
-          outline: 2px solid black;
-        }
+    div {
+      @apply cursor-pointer absolute text-2xl font-bold p-2 border-black border-[3px] bg-white w-24 text-center;
+
+      &:nth-child(1) {
+        left: 0;
+        top: 0;
+        z-index: 0;
+      }
+
+      &:nth-child(2) {
+        left: 85px;
+        top: 20px;
+        z-index: 1;
+      }
+
+      &:nth-child(3) {
+        left: 150px;
+        top: -15px;
+        z-index: 2;
+      }
+
+      &.active {
+        @apply bg-[#D93D86] text-white z-10;
       }
     }
   }

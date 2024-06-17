@@ -3,18 +3,18 @@ from bs4 import BeautifulSoup
 data = {
     "title": "",
     "img": "",
-    "introduction": [],
+    "intro": [],
     "this_week_question": [],
-    "vocabulary": [],
+    "vocab": [],
     "transcript": [],
     "authors": [],
 }
 
 sections = {
-    "Introduction": "introduction",
+    "Introduction": "intro",
     "This week's question": "this_week_question",
     "This week's question:": "this_week_question",
-    "Vocabulary": "vocabulary",
+    "Vocabulary": "vocab",
     "TRANSCRIPT": "transcript",
     "Transcript": "transcript",
 }
@@ -37,7 +37,9 @@ with open("./example.html", "r") as f:
     title = soup.find("meta", attrs={"property": "og:title"})
     image = soup.find("meta", attrs={"property": "og:image"})
     if title:
-        data["title"] = title["content"].strip("BBC Learning English - 6 Minute English / ")
+        data["title"] = title["content"].strip(
+            "BBC Learning English - 6 Minute English / "
+        )
     if image:
         data["img"] = image["content"]
 
@@ -59,13 +61,13 @@ with open("./example.html", "r") as f:
             if current_section == "this_week_question":
                 found_question_section = True
                 if last_p_before_question:
-                    data["introduction"].append(last_p_before_question)
+                    data["intro"].append(last_p_before_question)
         elif element.name == "strong":
             # Set the current section based on the <strong> text
             heading = element.get_text(strip=True)
             if heading in sections:
                 current_section = sections.get(heading)
-            elif current_section == "vocabulary":
+            elif current_section == "vocab":
                 # Collect vocabulary terms and descriptions
                 vocab_text = heading
                 desc_text = element.next_sibling.strip() if element.next_sibling else ""
@@ -94,16 +96,17 @@ with open("./example.html", "r") as f:
                     data["authors"].append(author)
 
                 if text and text != "Note: This is not a word-for-word transcript.":
+                    # 这么替换有点宽泛了
                     text = text.replace(" ’", "’")
                     data[current_section].append({"author": author, "text": text})
-            elif current_section == "vocabulary" and element.find("strong"):
+            elif current_section == "vocab" and element.find("strong"):
                 vocab_text = element.find("strong").get_text(strip=True)
                 desc_text = clean_text(element).replace(vocab_text, "").strip()
                 if vocab_text.lower() == "transcript":
                     current_section = "transcript"
                     continue
                 data[current_section].append({"text": vocab_text, "desc": desc_text})
-            elif current_section != "vocabulary" and current_section != "transcript":
+            elif current_section != "vocab" and current_section != "transcript":
                 # For other sections, append text content
                 text = clean_text(element)
                 if text and text != "Note: This is not a word-for-word transcript.":

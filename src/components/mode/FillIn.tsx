@@ -24,6 +24,11 @@ const FillIn: FC<fillInProps> = (props) => {
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     const index = parseInt(e.currentTarget.dataset.index || '0');
     const isLetter = /^[a-zA-Z\-]$/;
+
+    if (e.ctrlKey) {
+      return;
+    }
+
     e.preventDefault();
 
     if (e.key === 'Backspace') {
@@ -55,7 +60,7 @@ const FillIn: FC<fillInProps> = (props) => {
     {
       scripts.map((script, script_index) => {
         return <div key={ script_index } className='script'>
-          <h3>{ script.author }</h3>
+          <h3 title={script.author}>{ script.author }</h3>
           <p>{ script.text.split(' ').map((word, word_index) => {
 
             if (words.includes(word)) {

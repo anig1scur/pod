@@ -1,10 +1,8 @@
-export type Mode = {
-  Read: 'Read';
-  FillIn: 'FillIn';
-  Listen: 'Listen';
+export enum Mode {
+  R = 'Read',
+  L = 'Listen',
+  F = 'Fill in'
 }
-
-export type ModeType = Mode[keyof Mode];
 
 export type Dialogue = {
   author: string;

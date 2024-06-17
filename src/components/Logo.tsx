@@ -30,7 +30,7 @@ const Logo: FC<logoProps> = (props) => {
 
   const {
     text,
-    distance = { x: 6, y: 4 }
+    distance = { x: 7, y: 4 }
   } = props;
 
   const theme = props.theme || Theme.colorful;

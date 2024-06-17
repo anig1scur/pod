@@ -1,5 +1,4 @@
 import React, { useEffect, FC, useRef } from 'react';
-import cx from 'classnames';
 import WaveSurfer from 'wavesurfer.js'
 
 
@@ -21,16 +20,15 @@ const WaveForm: FC<waveFormProps> = (props) => {
         container: waveform.current,
         url: props.url,
         waveColor: props.waveColor || 'pink',
-        progressColor: props.progressColor || 'dark',
+        progressColor: props.progressColor || '#D93D86',
       });
       wavesurfer.load(props.url);
     }
-  }
-    , [props.url, props.waveColor, props.progressColor]);
+  }, [props.url, props.waveColor, props.progressColor]);
 
 
   return (
-    <div id="waveform" ref={ waveform } style={ { height: "100px" } }></div>
+    <div id="waveform" ref={ waveform } style={ { height: "100px" } }/>
   );
 
 }
