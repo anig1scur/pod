@@ -1,0 +1,190 @@
+{
+  "title": "coin's energy cost",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p09sq1yx.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-210927",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/210927_6min_english_bitcoin_download.mp3",
+  "intro": [
+    "In this programme, Sam and Neil talk about the use of the virtual currency, bitcoin. It\u2019s all very well for billionaires like Elon Musk, but what about the ordinary, average person \u2013 is bitcoin a good option for them? We discuss the topic and teach you vocabulary."
+  ],
+  "this_week_question": [
+    "What year was bitcoin first released? Was it\u2026?",
+    "a) 2009",
+    "b) 2015",
+    "c) 2019",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "get-rich-quick",
+      "desc": "describes a plan to make a lot of money in a short time, often with little effort or risk"
+    },
+    {
+      "text": "risk-averse",
+      "desc": "unwilling to take risks or wanting to avoid risks as much as possible"
+    },
+    {
+      "text": "dip a toe into (something)",
+      "desc": "try doing something slowly and carefully to test whether it will be successful and whether you will like it"
+    },
+    {
+      "text": "pension plan",
+      "desc": "financial plan funded by contributions from your salary to save money for when you retire"
+    },
+    {
+      "text": "put things into perspective",
+      "desc": "find the true, objective value or importance of something by comparing it to something similar"
+    },
+    {
+      "text": "on standby",
+      "desc": "ready to work or be used when needed"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Rob",
+      "text": "Hello. This is 6 Minute English from BBC Learning English. I\u2019m Rob."
+    },
+    {
+      "author": "Sam",
+      "text": "And I\u2019m Sam."
+    },
+    {
+      "author": "Rob",
+      "text": "Have you seen my lottery ticket, Sam? I seem to have lost it somewhere\u2026"
+    },
+    {
+      "author": "Sam",
+      "text": "Is this another one of your get-rich-quick schemes, Rob? People invent all kinds of ways to make a lot of money quickly and with little effort. Well, if you really want to get rich quick, maybe you should copy technology tycoon Elon Musk. Recently he invested one and a half billion dollars in the cryptocurrency, bitcoin."
+    },
+    {
+      "author": "Rob",
+      "text": "Bitcoin has made some people very rich, very quickly, but as we\u2019ll be hearing in this programme, it\u2019s not without its critics."
+    },
+    {
+      "author": "Sam",
+      "text": "Creating bitcoins, a process known as mining, uses huge amounts of electricity and green campaigners are now questioning bitcoin\u2019s impact on global energy use."
+    },
+    {
+      "author": "Rob",
+      "text": "But before we find out more, it\u2019s time for my quiz question. What year was bitcoin first released? Was it\u2026 a) 2009 b) 2015, or c) 2019?"
+    },
+    {
+      "author": "Sam",
+      "text": "I\u2019ll go for b) 2015."
+    },
+    {
+      "author": "Rob",
+      "text": "OK, we\u2019ll find out the answer later in the programme."
+    },
+    {
+      "author": "Sam",
+      "text": "In this programme, we are going to talk about bitcoin. The use of the virtual currency\u2026 it\u2019s all very well for billionaires like Elon Musk, but what about the ordinary, average person \u2013 is bitcoin a good option for them?"
+    },
+    {
+      "author": "Rob",
+      "text": "Well, that\u2019s exactly what BBC World Service programme Tech Tent wanted to find out by interviewing people in the street. Here\u2019s what one bitcoin fan, Heather Delany, had to say:"
+    },
+    {
+      "author": "Heather Delany \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ",
+      "text": "Heather Delany I invested in bitcoin a number of years ago\u2026 with the initial investment of only around five dollars it meant that my risk was essentially the cost of a cup of coffee and a pastry, and as somebody who\u2019s quite risk-averse when it comes to investment, it did allow me to dip my toe into bitcoin. Over time I was able to invest at various points as I really see bitcoin as more of a long-term investment and part of my overall pension plan."
+    },
+    {
+      "author": "Sam",
+      "text": "Heather describes herself as risk-averse \u2013 she wants to avoid risks as much as possible."
+    },
+    {
+      "author": "Rob",
+      "text": "By only investing five dollars she was able to dip a toe into bitcoin - try doing something slowly and carefully to test whether she liked it."
+    },
+    {
+      "author": "Sam",
+      "text": "Over time, Heather\u2019s bitcoin investment became part of her pension plan - a financial plan funded by your salary to save money for when you retire."
+    },
+    {
+      "author": "Rob",
+      "text": "So, everything seems to be working out for Heather."
+    },
+    {
+      "author": "Sam",
+      "text": "But the recent buzz around bitcoin has also highlighted another, less positive side of the story - bitcoin\u2019s environmental footprint."
+    },
+    {
+      "author": "Rob",
+      "text": "Mining bitcoins, the complex process that creates new coins, uses a lot of electricity. Recent estimates show that bitcoin has now overtaken the entire annual electricity use of Argentina!"
+    },
+    {
+      "author": "Sam",
+      "text": "Michel Rauchs works at Cambridge University\u2019s Centre for Alternative Finance which monitors bitcoin\u2019s electrical consumption. Here he is in conversation with BBC World Service\u2019s, Tech Tent:"
+    },
+    {
+      "author": "Michel Rauchs",
+      "text": "Bitcoin consumes just a colossal amount of electricity and now  whether that electricity expenditure is really worth the benefits, I think that really depends on how you value bitcoin itself\u2026 but just looking at the electricity consumption, I think we need to put things a bit into perspective \u2026 so, on the one hand if you compare it to a country like Argentina, it\u2019s just incredible, awe-inspiring\u2026 on the other hand, if you compare it to, for example, home appliances that are always on \u2013 on standby but not being used \u2013 in the US alone, that consumes twice as much electricity on a yearly basis as the entire bitcoin network."
+    },
+    {
+      "author": "Sam",
+      "text": "Michel thinks that to assess bitcoin\u2019s energy use we must put things into perspective - find the true, objective value of something."
+    },
+    {
+      "author": "Rob",
+      "text": "Comparing bitcoin\u2019s energy use to a huge country like Argentina sounds monstrous. But looked at another way, bitcoin only consumes half the electricity used by all US televisions and other home appliances left on standby \u2013 which means powered on and ready to work when needed."
+    },
+    {
+      "author": "Sam",
+      "text": "So maybe the best get-rich-quick scheme is to save money on your electricity bills by turning off your TV, Rob."
+    },
+    {
+      "author": "Rob",
+      "text": "Well, it\u2019s got to be easier than mining bitcoins \u2013 which reminds me\u2026."
+    },
+    {
+      "author": "Sam",
+      "text": "\u2026of your quiz question. You asked what year bitcoin was first released, 2009, 2015 or 2019. And I said b) 2015."
+    },
+    {
+      "author": "Rob",
+      "text": "Which was the wrong answer, I'm afraid, Sam! It was first released in 2009."
+    },
+    {
+      "author": "Sam",
+      "text": "So maybe we\u2019d better keep buying lottery tickets. After all, it\u2019s a pretty good get-rich-quick scheme \u2013 a way to make a lot of money, quickly."
+    },
+    {
+      "author": "Rob",
+      "text": "Let\u2019s recap the other vocabulary now. Someone who is risk-averse doesn\u2019t like taking risks."
+    },
+    {
+      "author": "Sam",
+      "text": "If you dip a toe into something , you test it out slowly and carefully to see how it feels."
+    },
+    {
+      "author": "Rob",
+      "text": "A pension plan is a way of saving money for your retirement."
+    },
+    {
+      "author": "Sam",
+      "text": "Putting things into perspective means assessing the real importance of something, often by comparing it to something similar."
+    },
+    {
+      "author": "Rob",
+      "text": "Like comparing the energy use of bitcoin with the energy used by electrical appliances left on standby \u2013 ready to be used."
+    },
+    {
+      "author": "Sam",
+      "text": "And that\u2019s all we have time for."
+    },
+    {
+      "author": "Rob",
+      "text": "Bye for now!"
+    },
+    {
+      "author": "Sam",
+      "text": "Bye bye!"
+    }
+  ],
+  "authors": [
+    "Rob",
+    "Sam",
+    "Heather Delany \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ",
+    "Michel Rauchs"
+  ]
+}

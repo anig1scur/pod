@@ -1,0 +1,180 @@
+{
+  "title": "Faking it: Computers that spot a real smile",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p07n1hjq.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-190919",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/190919_6_min_english_fake_smile_download.mp3",
+  "intro": [
+    "Sometimes it can be difficult to tell if someone is really smiling or the smirk on their face is fake. But now there are computers that are able tell real smiles from fake ones better than humans can. How do they work and what are the benefits? It's something Neil and Sam are discussing in 6 Minute English - as well as teaching you some useful vocabulary that will hopefully bring a smile to your face."
+  ],
+  "this_week_question": [
+    "The expressions we can make with our face are controlled by muscles. How many muscles do we have in our face? Is it:",
+    "A: 26 B: 43 C: 62",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "facial",
+      "desc": "adjective to do with the face"
+    },
+    {
+      "text": "to infer",
+      "desc": "to come to a decision about something using the information you have, which may not be complete"
+    },
+    {
+      "text": "in real time",
+      "desc": "at the same time as, without delay"
+    },
+    {
+      "text": "to induce",
+      "desc": "to cause something to happen"
+    },
+    {
+      "text": "genuine",
+      "desc": "real, not fake"
+    },
+    {
+      "text": "to figure out",
+      "desc": "to calculate, to work out"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "",
+      "text": "Note: This is not a word for word transcript"
+    },
+    {
+      "author": "Neil",
+      "text": "Hello. This is 6 Minute English, I'm Neil."
+    },
+    {
+      "author": "Sam",
+      "text": "And I'm Sam."
+    },
+    {
+      "author": "Neil",
+      "text": "It\u2019s good to see you again, Sam."
+    },
+    {
+      "author": "Sam",
+      "text": "Really?"
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, of course, can\u2019t you tell by the way I\u2019m smiling?"
+    },
+    {
+      "author": "Sam",
+      "text": "Ah well, I find it difficult to tell if someone is really smiling or if it\u2019s a fake smile."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, that\u2019s a coincidence because today\u2019s programme is all about how computers may be able tell real smiles from fake smiles better than humans can. Before we get in to that though, a question. The expressions we can make with our face are controlled by muscles. How many muscles do we have in our face? Is it:"
+    },
+    {
+      "author": "Sam",
+      "text": "No idea! But a lot, I\u2019d guess, so I\u2019m going with 62."
+    },
+    {
+      "author": "Neil",
+      "text": "OK. Well, we\u2019ll see if you\u2019ll be smiling or crying later in the programme. Hassan Ugail is a professor of visual computing at the University of Bradford. He\u2019s been working on getting computers to be able to recognise human emotions from the expressions on our face. Here he is speaking on the BBC Inside Science radio programme \u2013 how successful does he say they have been?"
+    },
+    {
+      "author": "Professor Hassan Ugail",
+      "text": "We've been working quite a lot on the human emotions, so the idea is how the facial muscle movement, which is reflected on the face, through obviously a computer through video frames and trying to understand how these muscle movements actually relate to facial expressions and then from facial expressions trying to understand the emotions or to infer the emotions. And they have been quite successful in doing that. We have software that can actually look at somebody's face in real time and then identify the series of emotions that person is expressing in real time as well."
+    },
+    {
+      "author": "Neil",
+      "text": "So, have they been successful in getting computers to identify emotions?"
+    },
+    {
+      "author": "Sam",
+      "text": "Yes, he says they\u2019ve been quite successful, and what\u2019s interesting is that he says that the computers can do it in real time. This means that there\u2019s no delay. They don\u2019t have to stop and analyse the data, or crunch the numbers, they can do it as the person is talking."
+    },
+    {
+      "author": "Neil",
+      "text": "The system uses video to analyse a person\u2019s expressions and can then infer the emotions. To infer something means to get an understanding of something without actually being told directly. So, you look at available information and use your understanding and knowledge to work out the meaning."
+    },
+    {
+      "author": "Sam",
+      "text": "It\u2019s a bit like being a detective, isn\u2019t it? You look at the clues and infer what happened even if you don\u2019t have all the details."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, and in this case the computer looks at how the movement of muscles in the face or facial muscles, show different emotions. Here\u2019s Professor Ugail again."
+    },
+    {
+      "author": "Professor Hassan Ugail",
+      "text": "We've been working quite a lot on the human emotions so the idea is how the facial muscle movement, which is reflected on the face, through obviously a computer through video frames and trying to understand how these muscle movements actually relate to facial expressions and then from facial expressions trying to understand the emotions or to infer the emotions. And they have been quite successful in doing that. We have software that can actually look at somebody's face in real time and then identify the series of emotions that person is expressing in real time as well."
+    },
+    {
+      "author": "Neil",
+      "text": "So, how do the computers know what is a real or a fake smile? The computers have to learn that first. Here\u2019s Professor Ugail again talking about how they do that."
+    },
+    {
+      "author": "Professor Hassan Ugail",
+      "text": "We have a data set of real smiles and we have a data set of fake smiles. These real smiles are induced smiles in a lab. So, you put somebody on a chair and then show some funny movies and we expect the smiles are genuine smiles. And similarly we ask them to pretend to smile. So, these are what you'd call fake smiles. So, what we do is we throw these into the machine and then the machine figures out what are the characteristics of a real smile and what are the characteristics of a fake smile."
+    },
+    {
+      "author": "Neil",
+      "text": "So, how do they get the data that the computers use to see if your smile is fake or genuine \u2013 which is another word which means real?"
+    },
+    {
+      "author": "Sam",
+      "text": "They induce real smiles in the lab by showing people funny films. This means that they make the smiles come naturally. They assume that the smiles while watching the funny films are genuine."
+    },
+    {
+      "author": "Neil",
+      "text": "And then they ask the people to pretend to smile and the computer programme now has a database of real and fake smiles and is able to figure out which is which."
+    },
+    {
+      "author": "Sam",
+      "text": "Figure out means to calculate and come to an answer"
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, and apparently the system gets it right 90% of the time, which is much higher than we humans can. Right, well before we remind ourselves of our vocabulary, let\u2019s get the answer to the question. How many muscles do we have in our face? Is it:"
+    },
+    {
+      "author": "Sam",
+      "text": "So I thought 62! Am I smiling, Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "Sadly you are not, you are using different muscles for that sort of sad look! Actually the answer is 43. Congratulations to anyone who got that right. Now our vocabulary."
+    },
+    {
+      "author": "Sam",
+      "text": "Yes \u2013 facial is the adjective relating to face."
+    },
+    {
+      "author": "Neil",
+      "text": "Then we had infer. This verb means to understand something even when you don\u2019t have all the information, and you come to this understanding based on your experience and knowledge, or in the case of a computer, the programming."
+    },
+    {
+      "author": "Sam",
+      "text": "And these computers work in real time, which means that there\u2019s no delay and they can tell a fake smile from a genuine one, which means a real one, as the person is speaking."
+    },
+    {
+      "author": "Neil",
+      "text": "They made people smile, or as the Professor said, they induced smiles by showing funny films."
+    },
+    {
+      "author": "Sam",
+      "text": "And the computer is able to figure out or calculate whether the smile is fake or genuine."
+    },
+    {
+      "author": "Neil",
+      "text": "OK, thank you, Sam. That\u2019s all from 6 Minute English today. We look forward to your company next time and if you can\u2019t wait you can find lots more from bbclearningenglish online, on social media and on our app. Goodbye!"
+    },
+    {
+      "author": "Sam",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "",
+    "Neil",
+    "Sam",
+    "Professor Hassan Ugail"
+  ]
+}

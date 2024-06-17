@@ -1,0 +1,247 @@
+{
+  "title": "How much food do you waste?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p052jcl0.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-170511",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/170511_6min_food_waste_download.mp3",
+  "intro": [
+    "In this programme, Neil and Dan discuss how food waste could cause the end of the world, and who's doing something about it. And they teach you six items of useful vocabulary"
+  ],
+  "this_week_question": [
+    "How much of the world\u2019s food is wasted each year?",
+    "a)    a half",
+    "b)    a third",
+    "c)    a quarter",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "waste",
+      "desc": "something you throw away or lose without using or consuming"
+    },
+    {
+      "text": "leftovers",
+      "desc": "the remains of food or a meal, which have not been eaten"
+    },
+    {
+      "text": "landfill",
+      "desc": "a place where rubbish is dropped or buried"
+    },
+    {
+      "text": "a household name",
+      "desc": "well-known by ordinary people of a particular place or culture"
+    },
+    {
+      "text": "infrastructure",
+      "desc": "the basic systems and services of a society"
+    },
+    {
+      "text": "abundance",
+      "desc": "more than needed"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Dan",
+      "text": "Hello and welcome to 6 Minute English\u2013 the show that brings you an interesting topic, authentic listening practice and six new items of vocabulary. I'm Dan\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "And I\u2019m Neil. In this episode we\u2019ll be discussing food waste, just as soon as\u2026."
+    },
+    {
+      "author": "Dan",
+      "text": "Neil, did you just throw the rest of that apple away?"
+    },
+    {
+      "author": "Neil",
+      "text": "Yeah. It was quite a big one and I couldn\u2019t finish it."
+    },
+    {
+      "author": "Dan",
+      "text": "Neil, you know you shouldn\u2019t waste food."
+    },
+    {
+      "author": "Neil",
+      "text": "Waste meaning to throw away without consuming or using.  Ah, it\u2019s only an apple. It\u2019s not the end of the world, Dan."
+    },
+    {
+      "author": "Dan",
+      "text": "Well, that\u2019s where you could be wrong, my friend. Let me prove it to you, with this week\u2019s question. How much of the world\u2019s food is wasted each year?"
+    },
+    {
+      "author": "Neil",
+      "text": "I\u2019m not sure. I know it\u2019s a lot so I\u2019m going to say a) a half"
+    },
+    {
+      "author": "Dan",
+      "text": "We\u2019ll find out if you\u2019re right or not at the end of this show. So, the actual figure is 1.3 billion tons of food, which is enough to feed a billion hungry people. Where do you think all this food waste comes from?"
+    },
+    {
+      "author": "Neil",
+      "text": "Well, restaurants, I imagine. I mean, they can\u2019t give one customer\u2019s leftovers to another! That would be unhygienic!"
+    },
+    {
+      "author": "Dan",
+      "text": "Leftovers are the remains of food which has not been eaten. And while you are right, restaurants are not the main contributor to food waste."
+    },
+    {
+      "author": "Neil",
+      "text": "Supermarkets! I bet they throw out loads of food once it goes past its sell-by-date, or the date which it can be legally sold by."
+    },
+    {
+      "author": "Dan",
+      "text": "Think closer to home."
+    },
+    {
+      "author": "Neil",
+      "text": "It\u2019s us, isn\u2019t it?"
+    },
+    {
+      "author": "Dan",
+      "text": "Yes. In Europe an incredible 53% of food waste comes from households, which results in 88 million tonnes of food waste a year. And I bet you can\u2019t guess what we do with it?"
+    },
+    {
+      "author": "Neil",
+      "text": "I want to say recycle, but I can see from your face, Dan, that it\u2019s not."
+    },
+    {
+      "author": "Dan",
+      "text": "No. Unfortunately it goes into landfills and decays."
+    },
+    {
+      "author": "Neil",
+      "text": "A landfill is a place where rubbish is buried. I see, so the food rots and this causes greenhouse gasses which lead to global warming and climate change."
+    },
+    {
+      "author": "Dan",
+      "text": "Exactly, and the end of the world. But, remarkably the European country of Denmark has managed to reduce its food waste by a very significant 25%"
+    },
+    {
+      "author": "Neil",
+      "text": "That\u2019s impressive, how did that happen?"
+    },
+    {
+      "author": "Dan",
+      "text": "They attribute it to a woman called Selina Juul."
+    },
+    {
+      "author": "Neil",
+      "text": "I\u2019ve heard about her. She became a household name in Denmark overnight!"
+    },
+    {
+      "author": "Dan",
+      "text": "A household name is one which everybody knows, and that\u2019s right."
+    },
+    {
+      "author": "Neil",
+      "text": "I thought she was Russian?"
+    },
+    {
+      "author": "Dan",
+      "text": "She is. But, I\u2019ll let her explain."
+    },
+    {
+      "author": "INSERT",
+      "text": "Selina Juul I come from a country where there were food shortages, back then in Moscow, communism collapsed, we had the collapse of infrastructure , we were not sure we could get food on the table. And coming to Denmark, seeing this abundance , seeing these supermarkets filled with food. But then I was really shocked to see a lot of food getting wasted."
+    },
+    {
+      "author": "Neil",
+      "text": "So Selina grew up in Moscow at a time when there wasn\u2019t enough food because of the collapse of infrastructure , meaning the basic systems and services of a society \u2013 such as food transportation."
+    },
+    {
+      "author": "Dan",
+      "text": "Then when she moved to Denmark, she found an abundance , or more than enough, food, but she saw it being wasted."
+    },
+    {
+      "author": "Neil",
+      "text": "So she decided to do something about it?"
+    },
+    {
+      "author": "Dan",
+      "text": "Yes. She started a Facebook page in 2008 called \u2018stop wasting food\u2019 and 9 years later the Danish government credits her for their reduction in food waste."
+    },
+    {
+      "author": "Neil",
+      "text": "How did she do it?"
+    },
+    {
+      "author": "Dan",
+      "text": "Well, lots of ideas really. She convinced some supermarkets to stop selling their items in bulk so that people buy only what they need. She\u2019s produced a leftovers cookbook and she\u2019s working with three governments to set up an education programme in schools."
+    },
+    {
+      "author": "Neil",
+      "text": "Wow, she\u2019s a busy woman. So how about you educate me with the answer to this week\u2019s question."
+    },
+    {
+      "author": "Dan",
+      "text": "Sure! I asked you how much of the world\u2019s food is wasted each year?"
+    },
+    {
+      "author": "",
+      "text": "c) a quarter Neil And I said a) a half"
+    },
+    {
+      "author": "Dan",
+      "text": "And I\u2019m terribly sorry, mate, but you\u2019re wrong. The answer is b) a third."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, it\u2019s not as bad as I thought it was, at least."
+    },
+    {
+      "author": "Dan",
+      "text": "Shall we look at the vocabulary then?"
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, let\u2019s. First we had waste . If you waste something, you throw it away or lose it without using it or consuming it. Common things we waste are food, time, money and energy. We also have some expressions with waste too. Can you think of one, Dan?"
+    },
+    {
+      "author": "Dan",
+      "text": "A waste of space is an expression which means a thing is completely without value. For example, I\u2019m a complete waste of space in the kitchen. I can\u2019t cook at all. Next we had leftovers. Leftovers are the remains of food or a meal, which have not been eaten. What do you tend to do with your leftovers , Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "Oh I love leftovers ! Sometimes I think they taste even better than the original meal!"
+    },
+    {
+      "author": "Dan",
+      "text": "I agree! Pizza\u2019s a great example!"
+    },
+    {
+      "author": "Neil",
+      "text": "Then we had landfill . A landfill is a place where rubbish is dropped and buried. In colloquial English we might say, a dump . Do you ever take your rubbish to the dump , Dan?"
+    },
+    {
+      "author": "Dan",
+      "text": "Not if I can help it. I prefer to recycle as much as possible. I only go to the dump if I have to get rid of a large appliance, such as a fridge. Then we had a household name . To be a household name is to be well-known by ordinary people of a particular place or culture. Can you think of a person who is a household name at the moment, Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "Oh, that\u2019s very easy. Donald Trump springs to mind! Everyone must know who he is. Then we had infrastructure . Infrastructure is the basic systems and services of a society \u2013 such as electricity supply, trains, and roads."
+    },
+    {
+      "author": "Dan",
+      "text": "And finally we had abundance . If you have an abundance of something, you have more than you need. Do have anything in abundance , Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "Well, when it comes to my children I have to have an abundance of patience\u2026.well, most of the time. And, that's the end of today's 6 Minute English. Please join us again soon!"
+    },
+    {
+      "author": "Dan",
+      "text": "And we are on social media too - Facebook, Twitter, Instagram and YouTube. See you there."
+    },
+    {
+      "author": "Both",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "Dan",
+    "Neil",
+    "INSERT",
+    "",
+    "Both"
+  ]
+}

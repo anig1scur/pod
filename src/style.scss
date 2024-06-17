@@ -5,7 +5,6 @@
 
 @layer base {
   html {
-
     ::-webkit-scrollbar {
       width: 16px;
     }
@@ -35,41 +34,77 @@
     .control {
       @apply flex items-center gap-4;
 
-      button {
-        @apply w-12 h-12 rounded-full bg-black text-white;
+      .last {
+        &::before {
+          content: attr(data-title);
+        }
+      }
+
+      .next {
+        &::after {
+          content: attr(data-title);
+        }
+      }
+
+      >div {
+        @apply rounded-3xl bg-black text-white;
       }
     }
   }
 
   .fill_in {
-    height: 70vh;
-    max-height: 70vh;
-    overflow-y: auto;
     padding-right: 15px;
 
-    .script {
-      @apply flex mb-2;
+    .scripts {
+      height: 70vh;
+      max-height: 70vh;
+      overflow-y: auto;
 
-      h3 {
-        @apply text-xl min-w-28 max-w-28 font-bold text-ellipsis text-nowrap overflow-hidden mr-2;
-      }
+      .script {
+        @apply flex mb-2;
 
-      p {
-        @apply text-xl break-words leading-8;
-      }
-
-      .blank {
-        @apply mx-2;
-      }
-
-      input {
-        @apply text-lg w-[25px] h-[25px] font-medium outline outline-2 -outline-offset-1 outline-[#00000066] text-center bg-transparent;
-
-        &:focus {
-          @apply outline-2 outline-pink-500 z-10 relative;
+        h3 {
+          @apply text-xl min-w-28 max-w-28 font-bold text-ellipsis text-nowrap overflow-hidden mr-2;
         }
-      }
 
+        >div {
+          @apply text-xl break-words leading-8;
+        }
+
+        .blank {
+          @apply mx-2 inline-block;
+
+          &.wrong {
+            @apply text-red-500;
+
+            &::after {
+              @apply text-red-500 inline-block ml-2;
+              content: attr(data-answer);
+            }
+          }
+
+          &.correct {
+            @apply text-green-500;
+          }
+        }
+
+        input {
+          @apply text-lg w-[25px] h-[25px] font-medium outline outline-2 -outline-offset-1 outline-[#00000066] text-center bg-transparent;
+
+          &:focus {
+            @apply outline-2 outline-pink-500 z-10 relative;
+          }
+        }
+
+      }
+    }
+
+    .control {
+      @apply flex items-center gap-4;
+
+      button {
+        @apply p-3 rounded-lg bg-[#D93D86] text-white;
+      }
     }
   }
 
@@ -102,6 +137,7 @@
 
     li {
       @apply flex gap-2 items-baseline;
+
       &:not(:last-child) {
         @apply mb-2;
       }

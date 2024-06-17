@@ -1,0 +1,175 @@
+{
+  "title": "you tell when someone is lying?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p07qc25l.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-191010",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/191010_6min_english_lie_detecting_download.mp3",
+  "intro": [
+    "Do you know when someone is lying to you? Are all lies bad? Could they be a way to preserve society? Sam and Rob discuss the social benefits of lying and teach you some vocabulary. Honestly."
+  ],
+  "this_week_question": [
+    "A competition is held in Cumbria in the UK every year to find and award the title of \"The Biggest Liar in the World\". But which type of people are not allowed to take part?",
+    "a) Farmers",
+    "b) Lawyers",
+    "c) Estate agents",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "fib",
+      "desc": "small inoffensive lie"
+    },
+    {
+      "text": "white lie",
+      "desc": "small lie, told to avoid upsetting someone"
+    },
+    {
+      "text": "deceive",
+      "desc": "try to hide something by tricking people to gain an advantage"
+    },
+    {
+      "text": "at the heart",
+      "desc": "most important or essential part"
+    },
+    {
+      "text": "response latency",
+      "desc": "a term used in psychology to describe the time taken between a stimulus or question and a response to it"
+    },
+    {
+      "text": "porkies",
+      "desc": "informal word for 'lies'"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "",
+      "text": "Note: This is not a word for word transcript"
+    },
+    {
+      "author": "Rob",
+      "text": "Hello. This is 6 Minute English. I'm Rob."
+    },
+    {
+      "author": "Sam",
+      "text": "And I'm Sam."
+    },
+    {
+      "author": "Rob",
+      "text": "In this programme, we\u2019re talking about biscuits."
+    },
+    {
+      "author": "Sam",
+      "text": "Really? That\u2019s not what I was told\u2026 oh hold on, you\u2019re lying."
+    },
+    {
+      "author": "Rob",
+      "text": "Yes, you\u2019re right, Sam. I am lying simply to demonstrate our topic \u2013 lying and how to detect it. You detected my lie very easily, Sam!"
+    },
+    {
+      "author": "Sam",
+      "text": "I could tell by the smirk on your face that you were telling a fib \u2013 that\u2019s the word for a small, inoffensive lie."
+    },
+    {
+      "author": "Rob",
+      "text": "To be honest, talking about lie detecting will be much more interesting than biscuits. But first, let\u2019s start with a question for you to answer. A competition is held in Cumbria in the UK every year to find and award the title of \"The Biggest Liar in the World\". But which type of people are not allowed to take part?"
+    },
+    {
+      "author": "Sam",
+      "text": "I\u2019d be lying if I said I knew \u2013 but based on personal experience I\u2019d say estate agents \u2013 they\u2019d find it too easy!"
+    },
+    {
+      "author": "Rob",
+      "text": "Ha \u2013 well that\u2019s your opinion but I\u2019ll let you know if you\u2019re right at the end of the programme. So, lying is something I\u2019m sure a lot of us do \u2013 sometimes to avoid trouble, sometimes to cheat people, or sometimes just to impress someone \u2013 did you know I can speak seven languages, Sam?"
+    },
+    {
+      "author": "Sam",
+      "text": "That\u2019s just a barefaced lie, Rob! But I can see how easy lying can be, and that\u2019s what neuroscientist Sophie Scott thinks. Here she is on BBC Radio 4\u2019s \u2018Seriously\u2019 podcast, explaining how we sometimes lie just to be nice!"
+    },
+    {
+      "author": "Sophie Scott, neuroscientist",
+      "text": "Often what we mean by lying is someone setting out to deceive us with their words or their actions but actually normal conversation probably can only happen because we don\u2019t actually say all the time exactly what we really think and what we really mean. And that kind of cooperation is at the heart , I think, of a lot of social interactions for humans and I think that\u2019s one of the strong pushes to make conversation polite and therefore frequently not actually truthful."
+    },
+    {
+      "author": "Rob",
+      "text": "So Sophie mentions two types of lying. There\u2019s the one when we try to deceive someone \u2013 so that\u2019s trying to hide something by tricking someone to gain an advantage."
+    },
+    {
+      "author": "Sam",
+      "text": "Hmm, that\u2019s like you getting me to pay \u00a310 for a cinema ticket when actually they were only \u00a35. That\u2019s just dishonest, but there are also what I like to call white lies \u2013 small lies we tell to avoid upsetting someone. Those are lies that aren\u2019t intended to give you an advantage."
+    },
+    {
+      "author": "Rob",
+      "text": "Yes, Sophie Scott says we use them in normal conversation \u2013 when we don\u2019t say what we really mean."
+    },
+    {
+      "author": "Sam",
+      "text": "So, we want to make conversation polite because we want to cooperate with each other \u2013 she says cooperation is at the heart . Something that\u2019s at the heart is the most important or essential part."
+    },
+    {
+      "author": "Rob",
+      "text": "Now telling lies is one thing but how do you know if we\u2019re being lied to?  Sometimes there are telltale signs, such as someone\u2019s face turning red or someone shuffling their feet."
+    },
+    {
+      "author": "Sam",
+      "text": "But if you really want to know if someone is lying, maybe we should listen to Richard Wiseman, a psychologist at the University of Hertfordshire. Here he is speaking on the \u2018Seriously\u2019 podcast\u2026"
+    },
+    {
+      "author": "Richard Wiseman, psychologist, University of Hertfordshire",
+      "text": "Liars in general say less. They tend to have a longer what's called response latency , which is the time between the end of the question and the beginning of the answer. And there also tends to be an emotional distance in the lie \u2013 so the words \u2018me\u2019,\u2019my\u2019, \u2018I\u2019 \u2013 all those things tend to drop away in lies and it\u2019s much much harder for liars to control what they\u2019re saying and how they\u2019re saying it, so focus your attention there, you become a better lie detector."
+    },
+    {
+      "author": "Rob",
+      "text": "Some good advice from Richard Wiseman. So to detect lies we need to listen out for the response latency \u2013 a term used in psychology to describe the time taken between a stimulus or question and a response to it. The bigger the gap, the more chance there is that someone is lying. Is that a good summary, Sam?"
+    },
+    {
+      "author": "Sam",
+      "text": "Sort of, Rob. Richard also suggests we focus on \u2013 or concentrate on \u2013 what and how people are saying things too. There\u2019s probably more to it than just that."
+    },
+    {
+      "author": "Rob",
+      "text": "Well now you know how to detect my lies, Sam, maybe honestly is the best policy \u2013 as they say. So I\u2019m now going to give you an honest answer to the question I asked earlier. A competition is held in Cumbria, in the UK, every year to award the title of \"The Biggest Liar in the World\". But which type of people are not allowed to take part?"
+    },
+    {
+      "author": "Sam",
+      "text": "I guessed c) estate agents."
+    },
+    {
+      "author": "Rob",
+      "text": "And you are wrong, I\u2019m afraid. Lawyers, as well as politicians, are not allowed to enter the competition. It\u2019s claimed \"they are judged to be too skilled at telling porkies \" \u2013 porkies is an informal word for \u2018pork pies\u2019 and that rhymes with \u2018lies\u2019."
+    },
+    {
+      "author": "Sam",
+      "text": "Fascinating stuff, Rob and that\u2019s no lie! But now, shall we recap some of the vocabulary we\u2019ve heard today?"
+    },
+    {
+      "author": "Rob",
+      "text": "Why not? A fib is a small inoffensive lie ."
+    },
+    {
+      "author": "Sam",
+      "text": "A white lie is also a small lie, told to avoid upsetting someone."
+    },
+    {
+      "author": "Rob",
+      "text": "When you deceive someone, you try to hide something by tricking them to gain an advantage."
+    },
+    {
+      "author": "Sam",
+      "text": "When something is at the heart of something, it is the most important or essential part of it. And we heard about response latency \u2013 a term used in psychology to describe the time taken between a stimulus or question and a response to it."
+    },
+    {
+      "author": "Rob",
+      "text": "OK, thank you, Sam. That\u2019s all from 6 Minute English. We look forward to your company next time. Goodbye!"
+    },
+    {
+      "author": "Sam",
+      "text": "Bye everyone!"
+    }
+  ],
+  "authors": [
+    "",
+    "Rob",
+    "Sam",
+    "Sophie Scott, neuroscientist",
+    "Richard Wiseman, psychologist, University of Hertfordshire"
+  ]
+}

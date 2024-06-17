@@ -32,4 +32,3 @@ export const loadCEFR = async (type: CEFR): Promise<string[]> => {
 
   return words;
 }
-

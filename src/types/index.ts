@@ -10,3 +10,16 @@ export type Dialogue = {
 }
 
 export type Scripts = Dialogue[];
+
+export type EpisodeData = {
+  title: string;
+  img: string;
+  url: string;
+  audio: string;
+  vocab: {
+    text: string;
+    desc: string;
+  }[];
+  intro: string[];
+  transcript: Scripts;
+}

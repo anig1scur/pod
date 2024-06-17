@@ -1,0 +1,195 @@
+{
+  "title": "Food made in space",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p08jt3xy.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-200723",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/200723_6min_english_food_made_in_space_download.mp3",
+  "intro": [
+    "You are used to having your vegetables coming from agricultural land, but how about space? Listen to the programme to find out how growing plants in space might help develop crops which are more productive and more resistant to climate change here on Earth. Neil and Georgina discuss how plants can grow in environments with little or no natural light and teach you some related vocabulary along the way."
+  ],
+  "this_week_question": [
+    "What was the first food grown in space? Was it... ?",
+    "a) potatoes",
+    "b) lettuce",
+    "c) tomatoes",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "LED light",
+      "desc": "electronic device that lights up when electricity is passed through it - abbreviation of \u2018light emitting diode\u2019"
+    },
+    {
+      "text": "wavelength",
+      "desc": "the distance between two waves of light which makes things appear to us in the different colours of the rainbow"
+    },
+    {
+      "text": "photon",
+      "desc": "single unit of light"
+    },
+    {
+      "text": "microgravity",
+      "desc": "weaker pull of gravity in space, making things float and seem weightless"
+    },
+    {
+      "text": "plasticity",
+      "desc": "ability of a plant to adapt to and cope with changes in the environment by changing its biological structure"
+    },
+    {
+      "text": "genes",
+      "desc": "chemicals and DNA in the cells of plants and animals which control their development and behaviour"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "",
+      "text": "Note: This is not a word-for-word transcript"
+    },
+    {
+      "author": "Neil",
+      "text": "Hello. This is 6 Minute English from BBC Learning English. I\u2019m Neil."
+    },
+    {
+      "author": "Georgina",
+      "text": "And I\u2019m Georgina."
+    },
+    {
+      "author": "Neil",
+      "text": "Last November Nasa launched a very unusual home delivery service \u2013 a rocket carrying four tonnes of supplies to the ISS -  the International Space Station."
+    },
+    {
+      "author": "Georgina",
+      "text": "Among the scientific equipment were twelve bottles of red wine from the famous Bordeaux region of France."
+    },
+    {
+      "author": "Neil",
+      "text": "The astronauts might have wanted a glass of wine with dinner, but the real purpose of the bottles was to explore the possibility of producing food and drink in space \u2013 not for astronauts but for people back on Earth."
+    },
+    {
+      "author": "Georgina",
+      "text": "In today\u2019s programme we\u2019ll be finding out how growing plants in space can develop crops which are more productive and more resistant to climate change here on Earth."
+    },
+    {
+      "author": "Neil",
+      "text": "And we\u2019ll hear how plants can grow in environments with little or no natural light. But first, today\u2019s quiz question: what was the first food grown in space? Was it: a) potatoes? b) lettuce?,  or c) tomatoes?"
+    },
+    {
+      "author": "Georgina",
+      "text": "Well, in the film, The Martian , a stranded astronaut grows potatoes on Mars. I know it\u2019s only a film but I\u2019ll say a) potatoes!"
+    },
+    {
+      "author": "Neil",
+      "text": "OK. We\u2019ll find out the answer later. Now, you might be wondering how it\u2019s possible to grow plants without natural light. British company Vertical Future has been working on this problem by developing indoor farming methods in partnership with Nasa."
+    },
+    {
+      "author": "Georgina",
+      "text": "Here\u2019s their Head of Research, Jen Bromley, explaining the process to BBC World Service programme, The Food Chain."
+    },
+    {
+      "author": "Jen Bromley",
+      "text": "Basically we use LED lighting and we use LED lights that are tuned to a specific wavelength. So, if you image what the rainbow looks like, the reason a plant looks green is because it\u2019s not using all the green light \u2013 it actually reflects a lot of that back. So the reason why it looks pink in here is because we\u2019re actually only using red light and blue light to grow the plants, and that essentially tailors the light diet so that the plants look black when you look at them because they\u2019re not reflecting any light \u2013 they\u2019re being super-efficient, they\u2019re using up every photon that hits them."
+    },
+    {
+      "author": "Neil",
+      "text": "The lack of natural light in space means that plants are grown using LED lights \u2013 LED is an abbreviation of \u2018light emitting diode\u2019 -  an electronic device that lights up when electricity is passed through it."
+    },
+    {
+      "author": "Georgina",
+      "text": "On Earth plants look green because they reflect back any light travelling at a certain wavelength - the distance between two waves of light which make things appear to us in the various colours of the rainbow."
+    },
+    {
+      "author": "Neil",
+      "text": "But when scientists control the wavelengths being fed, plants are able to absorb every photon \u2013 particle of light energy, making them appear black."
+    },
+    {
+      "author": "Georgina",
+      "text": "Each particle of light that hits the leaves is absorbed and through photosynthesis is converted into plant food. Nasa found that different colour combinations, or light recipes, can change a plant's shape, size and even flavour."
+    },
+    {
+      "author": "Neil",
+      "text": "But the lack of natural light isn\u2019t the biggest obstacle to growing food in space. Here\u2019s Gioia Massa, chief plant scientist at the Kennedy Space Centre in Florida, to explain."
+    },
+    {
+      "author": "Gioia\u00a0Massa",
+      "text": "Gioia Massa Microgravity is really challenging but plants are amazing! They can adapt to so many different environments \u2013 we call this plasticity because they can turn on or off their genes to really adapt to all sorts of conditions and that\u2019s why you see plants growing in different areas on Earth - the same type of plant may look very different because it\u2019s adapting to the environment in that specific location."
+    },
+    {
+      "author": "Georgina",
+      "text": "On Earth, plants use gravity to position themselves \u2013 shoots grow up, roots grow down. But this doesn\u2019t apply in space because of microgravity - the weaker pull of gravity making things float and seem weightless."
+    },
+    {
+      "author": "Neil",
+      "text": "Plants can only survive in these conditions due to their plasticity \u2013 the ability of living organisms to adapt and cope with changes in the environment by changing their biological structure."
+    },
+    {
+      "author": "Georgina",
+      "text": "Plants adapt themselves to being in space by manipulating their genes - chemicals and DNA in the cells of plants and animals which control their development and behaviour."
+    },
+    {
+      "author": "Neil",
+      "text": "In the low-gravity atmosphere of space, plants become stressed but they adapt genetically."
+    },
+    {
+      "author": "Georgina",
+      "text": "And as a result they\u2019re stronger and more resilient to other, less stressful events when they return home to Earth."
+    },
+    {
+      "author": "Neil",
+      "text": "Like those bottles of red wine orbiting Earth as we speak. The effects of microgravity on the wine\u2019s organic composition will be studied and could hopefully offer solutions for growing food in Earth\u2019s changing climate."
+    },
+    {
+      "author": "Georgina",
+      "text": "So, Neil, if it wasn\u2019t red grapes, what was the first food grown in space?"
+    },
+    {
+      "author": "Neil",
+      "text": "Ah yes, in today\u2019s quiz question I asked what the first plant grown in space was."
+    },
+    {
+      "author": "Georgina",
+      "text": "I said, a) potatoes."
+    },
+    {
+      "author": "Neil",
+      "text": "But in fact it was\u2026 b) lettuce - grown over fifteen months on the ISS, then eaten in fifteen minutes in the first ever space salad."
+    },
+    {
+      "author": "Georgina",
+      "text": "Today we\u2019ve been discussing the possibilities of growing plants in space using LED lights \u2013 devices that use electricity to produce light."
+    },
+    {
+      "author": "Neil",
+      "text": "The energy needed for plants to grow is contained in photons \u2013 or light particles, travelling at different wavelengths \u2013 distances between light waves which make things look different colours."
+    },
+    {
+      "author": "Georgina",
+      "text": "Plants have evolved over millennia using the strong gravity on Earth. But this changes in space because of microgravity \u2013 the weaker gravitational pull making things in space float and seem weightless."
+    },
+    {
+      "author": "Neil",
+      "text": "Luckily plants use their genes \u2013 the chemicals in DNA responsible for growth - to adapt to new environments by changing their biological structure \u2013  a process known as plasticity ."
+    },
+    {
+      "author": "Georgina",
+      "text": "All of which makes it possible for astronauts to enjoy a glass of wine and green salad in space."
+    },
+    {
+      "author": "Neil",
+      "text": "And genetically stronger plants specimens to study back on Earth."
+    },
+    {
+      "author": "Georgina",
+      "text": "That\u2019s all for today but join us again soon at 6 Minute English. Bye for now!"
+    },
+    {
+      "author": "Neil",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "",
+    "Neil",
+    "Georgina",
+    "Jen Bromley",
+    "Gioia\u00a0Massa"
+  ]
+}

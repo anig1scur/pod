@@ -1,0 +1,207 @@
+{
+  "title": "Digital help for blind people",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p095hn6z.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-210318",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/210318_6min_english_blindness_download.mp3",
+  "intro": [
+    "Digital technology is dramatically improving the lives of blind people all around the world. Neil and Georgina talk about these inventions which help blind people work around their challenges."
+  ],
+  "this_week_question": [
+    "In 1842 a technique of using fingers to feel printed raised dots was invented which allowed blind people to read. But who invented it?",
+    "a) Margaret Walker",
+    "b) Louis Braille",
+    "c) Samuel Morse",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "assistive technology",
+      "desc": "equipment and technology that help individuals with disabilities to perform functions that might otherwise be difficult or impossible"
+    },
+    {
+      "text": "obstacle",
+      "desc": "object that blocks your movement because it is in your way"
+    },
+    {
+      "text": "echo-location",
+      "desc": "ultrasound system used by some animals to determine the position of nearly objects by measuring how long it takes for an echo to return from the object"
+    },
+    {
+      "text": "visually impaired",
+      "desc": "having a decreased ability to see that causes problems, whether disabling or not"
+    },
+    {
+      "text": "normalises",
+      "desc": "treats as normal something which has not been accepted as being normal before"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Neil",
+      "text": "Hello. This is 6 Minute English from BBC Learning English. I\u2019m Neil."
+    },
+    {
+      "author": "Georgina",
+      "text": "And I\u2019m Georgina."
+    },
+    {
+      "author": "Neil",
+      "text": "What do Homer, Ray Charles and Jorge Borges all have in common, Georgina?"
+    },
+    {
+      "author": "Georgina",
+      "text": "Hmm, so that\u2019s the ancient Greek poet, Homer; American singer, Ray Charles; and Argentine writer, Jorge Luis Borges\u2026 I can\u2019t see much in common there, Neil."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, the answer is that they were all blind."
+    },
+    {
+      "author": "Georgina",
+      "text": "Ah! But that obviously didn\u2019t hold them back - I mean, they were some of the greatest artists ever!"
+    },
+    {
+      "author": "Neil",
+      "text": "Right, but I wonder how easy they would find it living and working in the modern world."
+    },
+    {
+      "author": "Georgina",
+      "text": "Blind people can use a guide dog or a white cane to help them move around."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, but a white cane is hardly advanced technology! Recently, smartphone apps have been invented which dramatically improve the lives of blind people around the world."
+    },
+    {
+      "author": "Georgina",
+      "text": "In this programme on blindness in the digital age we\u2019ll be looking at some of these inventions, known collectively as assistive technology \u2013 that\u2019s any software or equipment that helps people work around their disabilities or challenges."
+    },
+    {
+      "author": "Neil",
+      "text": "But first it\u2019s time for my quiz question, Georgina. In 1842 a technique of using fingers to feel printed raised dots was invented which allowed blind people to read. But who invented it? Was it:"
+    },
+    {
+      "author": "Sam",
+      "text": "Hmm, I\u2019ve heard of Morse code but that wouldn\u2019t help blind people read, so I think it\u2019s, b) Louis Braille."
+    },
+    {
+      "author": "Neil",
+      "text": "OK, Georgina, we\u2019ll find out the answer at the end of the programme. One remarkable feature of the latest assistive technology is its practicality. Smartphone apps like \u2018BeMyEyes\u2019 allow blind users to find lost keys, cross busy roads and even colour match their clothes."
+    },
+    {
+      "author": "Georgina",
+      "text": "Brian Mwenda is CEO of a Kenyan company developing this kind of technology. Here he explains to BBC World Service programme, Digital Planet, how his devices seek to enhance, not replace, the traditional white cane:"
+    },
+    {
+      "author": "Brian Mwenda",
+      "text": "The device is very compatible with any kind of white cane. So, once you clip it on to any white cane it works perfectly to detect the obstacles in front of you, and it relies on echo-location . So, echo-location is the same technology used by bats and dolphins to detect prey and obstacles and all that. You send out a sound pulse and then once it bounces off an obstacle, you can tell how far the obstacle is."
+    },
+    {
+      "author": "Neil",
+      "text": "When attached to a white cane, the digital device - called \u2018Sixth Sense\u2019 - can detect obstacles \u2013 objects which block your way, making it difficult for you to move forward."
+    },
+    {
+      "author": "Georgina",
+      "text": "\u2018Sixth Sense\u2019 works using echo-location , a kind of ultrasound like that used by bats who send out sound waves which bounce off surrounding objects. The returning echoes show where these objects are located."
+    },
+    {
+      "author": "Neil",
+      "text": "Some of the assistive apps are so smart they can even tell what kind of object is coming up ahead \u2013 be it a friend, a shop door or a speeding car."
+    },
+    {
+      "author": "Georgina",
+      "text": "I guess being able to move around confidently really boosts people\u2019s independence."
+    },
+    {
+      "author": "Neil",
+      "text": "Absolutely. And it\u2019s challenging stereotypes around blindness too. Blogger, Fern Lulham, who is blind herself, uses assistive apps every day. Here she is talking to BBC World Service\u2019s, Digital Planet:"
+    },
+    {
+      "author": "Fern Lulham",
+      "text": "I think the more that society sees blind people in the community, at work, in relationships it does help to tackle all of these stereotypes, it helps people to see blind and visually-impaired people in a whole new way and it just normalises disability \u2013 that\u2019s what we need, we need to see people just getting on with their life and doing it and then people won\u2019t see it as such a big deal anymore, it\u2019ll just be the ordinary."
+    },
+    {
+      "author": "Georgina",
+      "text": "Fern distinguishes between people who are blind, or unable to see, and those who are visually impaired \u2013 experience a decreased ability to see."
+    },
+    {
+      "author": "Neil",
+      "text": "Assistive tech helps blind people lead normal, independent lives within their local communities. Fern hopes that this will help normalise disability \u2013 treat something as normal which has not been accepted as normal before\u2026"
+    },
+    {
+      "author": "Georgina",
+      "text": "\u2026so being blind doesn\u2019t have to be a big deal \u2013 an informal way to say something is not a serious problem."
+    },
+    {
+      "author": "Neil",
+      "text": "Just keep your eyes closed for a minute and try moving around the room. You\u2019ll soon see how difficult it is\u2026 and how life changing this technology can be."
+    },
+    {
+      "author": "Georgina",
+      "text": "Being able to read books must also open up a world of imagination. So what was the answer to your quiz question, Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "Ah yes. I asked Georgina who invented the system of reading where fingertips are used to feel patterns of printed raised dots. What did you say, Georgina?"
+    },
+    {
+      "author": "Georgina",
+      "text": "I thought it was, b) Louis Braille."
+    },
+    {
+      "author": "Neil",
+      "text": "Which was\u2026of course the correct answer! Well done, Georgina \u2013 Louise Braille the inventor of a reading system which is known worldwide simply as braille."
+    },
+    {
+      "author": "Georgina",
+      "text": "I suppose braille is an early example of assistive technology \u2013 systems and equipment that assist people with disabilities to perform everyday functions. Let\u2019s recap the rest of the vocabulary, Neil."
+    },
+    {
+      "author": "Neil",
+      "text": "OK. An obstacle is an object that is in your way and blocks your movement."
+    },
+    {
+      "author": "Georgina",
+      "text": "Some assisted technology works using echo-location \u2013 a system of ultrasound detection used by bats."
+    },
+    {
+      "author": "Neil",
+      "text": "Being blind is different from being visually impaired - having a decreased ability to see, whether disabling or not."
+    },
+    {
+      "author": "Georgina",
+      "text": "And finally, the hope is that assistive phone apps can help normalise disability \u2013 change the perception of something into being accepted as normal\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "..so that disability is no longer a big deal \u2013 not a big problem."
+    },
+    {
+      "author": "Georgina",
+      "text": "That\u2019s all for this programme but join us again soon at 6 Minute English\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "\u2026and remember you can find many more 6 Minute topics and useful vocabulary archived on bbclearningenglish.com."
+    },
+    {
+      "author": "Georgina",
+      "text": "Don\u2019t forget we also have an app you can download for free from the app stores. And of course we are all over social media, so come on over and say hi."
+    },
+    {
+      "author": "Neil",
+      "text": "Bye for now!"
+    },
+    {
+      "author": "Georgina",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "Neil",
+    "Georgina",
+    "Sam",
+    "Brian Mwenda",
+    "Fern Lulham"
+  ]
+}

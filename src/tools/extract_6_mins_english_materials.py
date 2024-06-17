@@ -1,14 +1,6 @@
+import json
+import requests
 from bs4 import BeautifulSoup
-
-data = {
-    "title": "",
-    "img": "",
-    "intro": [],
-    "this_week_question": [],
-    "vocab": [],
-    "transcript": [],
-    "authors": [],
-}
 
 sections = {
     "Introduction": "intro",
@@ -19,25 +11,56 @@ sections = {
     "Transcript": "transcript",
 }
 
-
 current_section = None
 
+RENAMES = [
+    "6_minute_english",
+    "6min_english",
+    "6min_eng",
+    "6_min_english",
+    "6_min_eng",
+    "6_minute",
+    "6ME",
+    "6me",
+    "6min",
+    "6mins",
+]
 
-# Function to clean and extract text
+
 def clean_text(element):
     return element.get_text(separator=" ", strip=True).replace("\xa0", " ")
 
 
-with open("./example.html", "r") as f:
-    contents = f.read()
+def extract_episode_data(url):
+
+    data = {
+        "title": "",
+        "img": "",
+        "url": "",
+        "audio": "",
+        "intro": [],
+        "this_week_question": [],
+        "vocab": [],
+        "transcript": [],
+        "authors": [],
+    }
+
+    response = requests.get(url, timeout=10)
+    contents = response.text
 
     soup = BeautifulSoup(contents, "html.parser")
 
-    # 1. title + image
+    data["url"] = url
+    # 1. title + image + audio
     title = soup.find("meta", attrs={"property": "og:title"})
     image = soup.find("meta", attrs={"property": "og:image"})
+    audio = soup.find("a", class_="download bbcle-download-extension-mp3")
+    if not audio:
+        return
+
+    data["audio"] = audio["href"]
     if title:
-        data["title"] = title["content"].strip(
+        data["title"] = title["content"].lstrip(
             "BBC Learning English - 6 Minute English / "
         )
     if image:
@@ -47,7 +70,6 @@ with open("./example.html", "r") as f:
     richtext = soup.find("div", class_=["widget-richtext"])
     texts = richtext.find(class_=["text"])
 
-    key = ""
     # Flag to handle introduction section
     found_question_section = False
     last_p_before_question = None
@@ -60,7 +82,10 @@ with open("./example.html", "r") as f:
             current_section = sections.get(heading)
             if current_section == "this_week_question":
                 found_question_section = True
-                if last_p_before_question:
+                if (
+                    last_p_before_question
+                    and last_p_before_question not in data["intro"]
+                ):
                     data["intro"].append(last_p_before_question)
         elif element.name == "strong":
             # Set the current section based on the <strong> text
@@ -85,18 +110,18 @@ with open("./example.html", "r") as f:
             elif current_section == "transcript" and element.find("strong"):
                 strong_text = element.find("strong").decode_contents().strip()
                 if "<br/>" in strong_text or "<br>" in strong_text:
-                    author, _, remainder = strong_text.partition(
+                    author, _, _ = strong_text.partition(
                         "<br/>" if "<br/>" in strong_text else "<br>"
                     )
                 else:
                     author = strong_text
-
                 text = clean_text(element).replace(author, "", 1).strip()
-                if author not in data["authors"]:
+                author.replace("\u00a0", "'")
+                if author and author not in data["authors"]:
                     data["authors"].append(author)
 
                 if text and text != "Note: This is not a word-for-word transcript.":
-                    # 这么替换有点宽泛了
+                    # 这么替换有点宽泛了?
                     text = text.replace(" ’", "’")
                     data[current_section].append({"author": author, "text": text})
             elif current_section == "vocab" and element.find("strong"):
@@ -106,10 +131,67 @@ with open("./example.html", "r") as f:
                     current_section = "transcript"
                     continue
                 data[current_section].append({"text": vocab_text, "desc": desc_text})
-            elif current_section != "vocab" and current_section != "transcript":
+            elif (
+                current_section
+                and current_section != "vocab"
+                and current_section != "transcript"
+            ):
                 # For other sections, append text content
                 text = clean_text(element)
                 if text and text != "Note: This is not a word-for-word transcript.":
                     data[current_section].append(text)
+    return data
 
-print(data)
+
+def extract_episode_urls():
+    bbc_6min_url = (
+        "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+    )
+    response = requests.get(bbc_6min_url, timeout=10)
+    contents = response.text
+    soup = BeautifulSoup(contents, "html.parser")
+    container = soup.find_all("div", class_="widget-container widget-container-full")
+    a_links = container[0].find_all("a")
+    urls = [
+        "https://www.bbc.co.uk" + a["href"]
+        for a in a_links
+        if "/learningenglish/english/features" in a["href"]
+    ]
+
+    return list(dict.fromkeys(urls))
+
+
+def extract_ts():
+    bbc_6min_episodes = []
+    from glob import glob
+
+    jsons = glob("../assets/6mins/*.json")
+    for j in jsons:
+        bbc_6min_episodes.append(j.split("/")[-1][:-5])
+
+    with open("../assets/6mins/index.ts", "w+") as f:
+        bbc_6min_episodes = sorted(bbc_6min_episodes)
+        f.write(f"const episodes = {json.dumps(bbc_6min_episodes)};")
+
+
+def run():
+    urls = extract_episode_urls()
+
+    for url in urls:
+        print(f"Extracting {url}")
+        data = extract_episode_data(url)
+        if not (data and data["audio"]):
+            continue
+
+        fname = data["audio"].split("/")[-1][:-13]
+        for r in RENAMES:
+            fname = fname.replace(r, "")
+        with open(f"../assets/6mins/{fname}.json", "w+") as f:
+            f.write(json.dumps(data, indent=2))
+
+
+if __name__ == "__main__":
+    # 1. run
+    run()
+    # 2. generate index.ts
+    extract_ts()

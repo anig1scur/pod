@@ -1,0 +1,191 @@
+{
+  "title": "ould you be a victim of online fraud?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p08wryd2.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-201112",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/201112_6min_english_online_fraud_download.mp3",
+  "intro": [
+    "Online fraud involves using the internet to trick someone into giving away their money or data and takes many forms. It is regarded by some as a highly profitable and relatively low-risk crime. Neil and Georgina talk about online fraud and how it is becoming more common as well as teaching you some useful vocabulary along the way."
+  ],
+  "this_week_question": [
+    "In July 2020, nine British men were arrested for defrauding the Coronavirus Job Retention Scheme \u2013 a government fund for workers who\u2019ve lost their job to Covid-19. They set up fake companies and applied, fraudulently, for money. But how much money has been claimed in total through the coronavirus job scheme in the UK? Is it:",
+    "a) 17 billion pounds",
+    "b) 27 billion pounds",
+    "c) 37 billion pounds",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "mindset",
+      "desc": "someone\u2019s way of thinking and the general attitudes and opinions they have about something; mentality"
+    },
+    {
+      "text": "intelligence",
+      "desc": "secret information about a person, government or country"
+    },
+    {
+      "text": "cover story",
+      "desc": "false story someone tells in order to hide the truth"
+    },
+    {
+      "text": "data breach",
+      "desc": "occasion when private information can be seen by people who should not be able to see it"
+    },
+    {
+      "text": "malware",
+      "desc": "computer software and viruses that are designed to damage the way a computer works"
+    },
+    {
+      "text": "infiltrate",
+      "desc": "secretly enter a group or organisation in order to spy on it or influence it"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Neil",
+      "text": "Hello. This is 6 Minute English from BBC Learning English. I\u2019m Neil."
+    },
+    {
+      "author": "Georgina",
+      "text": "And I\u2019m Georgina."
+    },
+    {
+      "author": "Neil",
+      "text": "Are you good at remembering your computer passwords, Georgina?"
+    },
+    {
+      "author": "Georgina",
+      "text": "Um, not really, Neil \u2013 I mostly use something easy to remember, like my mother\u2019s maiden name or the street where I was born."
+    },
+    {
+      "author": "Neil",
+      "text": "Or the name of your first pet! Yes, me too - but we should be more careful about online security, Georgina, because of a worrying trend, and the topic of this programme \u2013 online fraud."
+    },
+    {
+      "author": "Georgina",
+      "text": "Online fraud involves using the internet to trick someone into giving away their money or data. It takes many forms, from deceptive emails which trick us into paying money to the wrong bank account, to the theft of credit card details."
+    },
+    {
+      "author": "Neil",
+      "text": "It\u2019s regarded by some as a highly profitable and relatively low-risk crime, so in this programme we\u2019ll be finding out why it\u2019s so easy for criminals, or fraudsters, to steal our money."
+    },
+    {
+      "author": "Georgina",
+      "text": "And of course, we\u2019ll be learning some related vocabulary along the way."
+    },
+    {
+      "author": "Neil",
+      "text": "But first, it\u2019s time for our quiz question. In July 2020, nine British men were arrested for defrauding the Coronavirus Job Retention Scheme \u2013 a government fund for workers who\u2019ve lost their job to Covid-19. They set up fake companies and applied, fraudulently, for money. But how much money has been claimed in total through the coronavirus job scheme in the UK? Is it:"
+    },
+    {
+      "author": "Georgina",
+      "text": "Hmm, it must be a lot, so I\u2019ll say a) 17 billion pounds."
+    },
+    {
+      "author": "Neil",
+      "text": "OK, Georgina, we\u2019ll find out later. Now, Rachel Tobac, CEO of Social Proof Security, is an expert in cyber crime. She describes herself as an\u2019ethical fraudster\u2019. Businesses wanting to combat fraud employ her to hack into their computer systems to find their weak spots."
+    },
+    {
+      "author": "Georgina",
+      "text": "Here, Rachel explains to BBC World Service programme, The Inquiry, how getting people\u2019s information is the key to online fraud:"
+    },
+    {
+      "author": "Rachel Tobac",
+      "text": "The reason why we\u2019re able to do that, from an attacker mindset , is because we use what\u2019s called OSINT \u2013 open source intelligence . We look up everything about you. We can figure out who your assistant is, who your accountant is on LinkedIn. We know what emails you use from screen shots that you\u2019ve put on your Instagram\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "Rachel looks at fraud from a criminal\u2019s mindset - someone\u2019s way of thinking and the general attitudes and opinions they have about something."
+    },
+    {
+      "author": "Georgina",
+      "text": "From a fraudster\u2019s perspective, the most valuable thing is intelligence - secret information about a government or country, or in this case a person, such as the information people unwittingly post on social media."
+    },
+    {
+      "author": "Neil",
+      "text": "Fraudsters use this intelligence to build up a picture of someone\u2019s online activity."
+    },
+    {
+      "author": "Georgina",
+      "text": "And as BBC World Service The Inquiry presenter, Charmaine Cozier, explains, there are many ways of doing this:"
+    },
+    {
+      "author": "Charmaine Cozier",
+      "text": "Fraudsters have thousands of cover stories but the end goal is always the same \u2013 to trick people out of cash or possessions. Rachel says they have options for how to do that. Login details stolen during a data breach from one company, often using software or viruses called malware , are used to infiltrate customer accounts at another."
+    },
+    {
+      "author": "Neil",
+      "text": "To access people\u2019s data, fraudsters use cover stories \u2013 false stories told in order to hide the truth. For example, they may pretend to be calling from your bank or credit card company."
+    },
+    {
+      "author": "Georgina",
+      "text": "If people believe these cover stories and share personal data, this can result in a data breach - an occasion when private information can be seen by people who should not be able to see it."
+    },
+    {
+      "author": "Neil",
+      "text": "Malware - computer software and viruses that are designed to damage the way a computer works \u2013 can also be used to gain login details and passwords\u2026"
+    },
+    {
+      "author": "Georgina",
+      "text": "\u2026data which is then used to infiltrate other online accounts - secretly enter a place, group or organisation in order to spy on it or influence it."
+    },
+    {
+      "author": "Neil",
+      "text": "Modern fraudsters are so devious at collecting online information that many victims only realise what\u2019s happened after their bank accounts have been emptied."
+    },
+    {
+      "author": "Georgina",
+      "text": "Which I guess was the mindset behind those British fraudsters you mentioned earlier, Neil."
+    },
+    {
+      "author": "Neil",
+      "text": "Ah yes, the nine men who tried to defraud the Coronavirus Jobs Retention Scheme. Remember for my quiz question I asked you how much the scheme has paid out in total so far in the UK."
+    },
+    {
+      "author": "Georgina",
+      "text": "I said, a) 17 billion pounds."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, in fact it\u2019s even more \u2013 the correct answer is b) 27 billion pounds. Luckily, the 495 thousand pounds which these fraudsters tried to steal was recovered."
+    },
+    {
+      "author": "Georgina",
+      "text": "Even so, Neil, I think I\u2019m going to change my passwords soon! Better safe than sorry!"
+    },
+    {
+      "author": "Neil",
+      "text": "Good idea, Georgina. In this programme, we\u2019ve been hearing about the rise in online fraud, often committed when fraudsters gain intelligence - secret information about a person posted on the internet."
+    },
+    {
+      "author": "Georgina",
+      "text": "These criminals\u2019 mindset \u2013 or mentality, is to surreptitiously find information by creating a cover story - a false story someone tells in order to hide the truth."
+    },
+    {
+      "author": "Neil",
+      "text": "By posing as a clerk from your bank, for example, they might be able to access sensitive private information which they should not be able to see \u2013 an event sometimes called a data breach ."
+    },
+    {
+      "author": "Georgina",
+      "text": "Another way fraudsters infiltrate \u2013 or gain access secretly, without permission - is with the use of malware \u2013 computer software and viruses designed to damage the way a computer works."
+    },
+    {
+      "author": "Neil",
+      "text": "If you want to find out more about keeping yourself safe from online fraud, search the BBC website using the term, \u2018cyber security\u2019. And if you like topical discussion and want to learn how to use the vocabulary found in headlines, why not check out our News Review podcast? We also have a free app you can download for Android and iOS."
+    },
+    {
+      "author": "Georgina",
+      "text": "And for more trending topics and real-life vocabulary, look no further than 6 Minute English, from BBC Learning English. See you next time. Bye!"
+    },
+    {
+      "author": "Neil",
+      "text": "Goodbye!"
+    }
+  ],
+  "authors": [
+    "Neil",
+    "Georgina",
+    "Rachel Tobac",
+    "Charmaine Cozier",
+    ""
+  ]
+}

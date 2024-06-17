@@ -1,0 +1,189 @@
+{
+  "title": "Is technology always the solution?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p06p8ryw.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-180719",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/180719_6min_english_technochauvinism_download.mp3",
+  "intro": [
+    "Human beings are flawed and carry their prejudices and opinions with them. Wouldn't it be better if we could replace them with artificial intelligence, if we could get computers to do all our thinking for us? Rob and Catherine discuss if technology is a good solution for all our problems and teach you six items of vocabulary."
+  ],
+  "this_week_question": [
+    "Artificial Intelligence, or A.I., is an area of computer science that develops the ability of computers to learn to do things like solve problems or drive cars without crashing. But in what decade was the term 'Artificial Intelligence' coined? Was it:",
+    "a)  1940s",
+    "b)  1950s",
+    "c)  1960s",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "chauvinist",
+      "desc": "someone who believes their country, race or sex is better than any others"
+    },
+    {
+      "text": "technochauvinism",
+      "desc": "the belief that a technological solution is always a better solution to a problem"
+    },
+    {
+      "text": "objective",
+      "desc": "neutral, fair and balanced"
+    },
+    {
+      "text": "proxy",
+      "desc": "a piece of software but also someone who does something for you, on your behalf"
+    },
+    {
+      "text": "a nuanced",
+      "desc": "problem a problem which has small and important areas which may be hard to spot, but they need to be considered"
+    },
+    {
+      "text": "an algorithm",
+      "desc": "a set of software instructions for a computer system"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Catherine",
+      "text": "Hello and welcome to 6 Minute English. I'm Catherine."
+    },
+    {
+      "author": "Rob",
+      "text": "And hello, I'm Rob."
+    },
+    {
+      "author": "Catherine",
+      "text": "Today we have another technology topic."
+    },
+    {
+      "author": "Rob",
+      "text": "Oh good! I love technology. It makes things easier, it\u2019s fast and means I can have gadgets."
+    },
+    {
+      "author": "Catherine",
+      "text": "Do you think that technology can actually do things better than humans?"
+    },
+    {
+      "author": "Rob",
+      "text": "For some things, yes. I think cars that drive themselves will be safer than humans but that will take away some of the pleasure of driving. So I guess it depends on what you mean by better."
+    },
+    {
+      "author": "Catherine",
+      "text": "Good point, Rob. And that actually ties in very closely with today\u2019s topic which is technochauvinism ."
+    },
+    {
+      "author": "Rob",
+      "text": "What\u2019s that?"
+    },
+    {
+      "author": "Catherine",
+      "text": "We\u2019ll find out shortly, Rob, but before we do, today\u2019s quiz question. Artificial Intelligence, or A.I., is an area of computer science that develops the ability of computers to learn to do things like solve problems or drive cars without crashing. But in what decade was the term 'Artificial Intelligence' coined? Was it: a) the 1940s, b) the 1950s or c) the 1960s?"
+    },
+    {
+      "author": "Rob",
+      "text": "I think it's quite a new expression so I'll go for c) the 1960s."
+    },
+    {
+      "author": "Catherine",
+      "text": "Good luck with that, Rob, and we\u2019ll give you the answer later in the programme. Now, let's get back to our topic of technochauvinism ."
+    },
+    {
+      "author": "Rob",
+      "text": "I know what a chauvinist is. It\u2019s someone who thinks that their country or race or sex is better than others. But how does this relate to technology?"
+    },
+    {
+      "author": "Catherine",
+      "text": "We\u2019re about to find out. Meredith Broussard is Professor of Journalism at New York University and she\u2019s written a book called Artificial Unintelligence. She appeared on the BBC Radio 4 programme More or Less to talk about it. Listen carefully and find out her definition of technochauvinism."
+    },
+    {
+      "author": "Meredith Broussard, Professor of Journalism at New York University",
+      "text": "Technochauvinism is the idea that technology is always the highest and best solution. So somehow over the past couple of decades we got into the habit of thinking that doing something with a computer is always the best and most objective way to do something and that\u2019s simply not true. Computers are not objective , they are proxies for the people who make them."
+    },
+    {
+      "author": "Catherine",
+      "text": "What is Meredith Broussard's definition of technochauvinism ?"
+    },
+    {
+      "author": "Rob",
+      "text": "It's this idea that using technology is better than not using technology."
+    },
+    {
+      "author": "Catherine",
+      "text": "She says that we have this idea that a computer is objective . Something that is objective is neutral, it doesn\u2019t have an opinion, it\u2019s fair and it's unbiased \u2013 so it\u2019s the opposite of being a chauvinist . But Meredith Broussard says this is not true."
+    },
+    {
+      "author": "Rob",
+      "text": "She argues that computers are not objective . They are proxies for the people that make them. You might know the word proxy when you are using your computer in one country and want to look at something that is only available in a different country. You can use a piece of software called a proxy to do that."
+    },
+    {
+      "author": "Catherine",
+      "text": "But a proxy is also a person or a thing that carries out your wishes and your instructions for you. So computers are only as smart or as objective as the people that programme them. Computers are proxies for their programmers. Broussard says that believing too much in Artificial Intelligence can make the world worse. Let\u2019s hear a bit more. This time find out what serious problems in society does she think may be reflected in AI?"
+    },
+    {
+      "author": "Meredith Broussard, Professor of Journalism at New York University",
+      "text": "It\u2019s a nuanced problem. What we have is data on the world as it is and we have serious problems with racism, sexism, classism, ageism, in the world right now so there is no such thing as perfect data. We also have a problem inside the tech world where the creators of algorithms do not have sufficient awareness of social issues such that they can make good technology that gets us closer to a world as it should be."
+    },
+    {
+      "author": "Rob",
+      "text": "She said that society has problems with racism, sexism, classism and ageism."
+    },
+    {
+      "author": "Catherine",
+      "text": "And she says it\u2019s a nuanced problem. A nuanced problem is not simple, but it does have small and important areas which may be hard to spot, but they need to be considered."
+    },
+    {
+      "author": "Rob",
+      "text": "And she also talked about algorithms used to program these technological systems. An algorithm is a set of instructions that computers use to perform their tasks. Essentially it\u2019s the rules that they use to come up with their answers and Broussard believes that technology will reflect the views of those who create the algorithms ."
+    },
+    {
+      "author": "Catherine",
+      "text": "Next time you're using a piece of software or your favourite app you might find yourself wondering if it's a useful tool or does it contain these little nuances that reflect the views of the developer."
+    },
+    {
+      "author": "Rob",
+      "text": "Right, Catherine. How about the answer to this week's question then?"
+    },
+    {
+      "author": "Catherine",
+      "text": "I asked in which decade was the term 'Artificial Intelligence' coined. Was it the 40s, the 50s or the 60s?"
+    },
+    {
+      "author": "Rob",
+      "text": "And I said the 60s."
+    },
+    {
+      "author": "Catherine",
+      "text": "But it was actually the 1950s. Never mind, Rob. Let\u2019s review today\u2019s vocabulary."
+    },
+    {
+      "author": "Rob",
+      "text": "Well, we had a chauvinist \u2013 that's someone who believes their country, race or sex is better than any others."
+    },
+    {
+      "author": "Catherine",
+      "text": "And this gives us technochauvinism , the belief that a technological solution is always a better solution to a problem."
+    },
+    {
+      "author": "Rob",
+      "text": "Next - someone or something that is objective is neutral, fair and balanced."
+    },
+    {
+      "author": "Catherine",
+      "text": "A proxy is a piece of software but also someone who does something for you, on your behalf. A nuanced problem is a subtle one, it\u2019s not a simple case of right or wrong, in a nuanced problem there are small but important things that you need to consider."
+    },
+    {
+      "author": "Rob",
+      "text": "And an algorithm is a set of software instructions for a computer system."
+    },
+    {
+      "author": "Catherine",
+      "text": "Well, that\u2019s all we have time for today. Goodbye for now."
+    },
+    {
+      "author": "Rob",
+      "text": "Bye bye!"
+    }
+  ],
+  "authors": [
+    "Catherine",
+    "Rob",
+    "Meredith Broussard, Professor of Journalism at New York University"
+  ]
+}

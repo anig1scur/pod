@@ -1,0 +1,178 @@
+{
+  "title": "Welcome to the 'metaverse'",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0bfnggf.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2022/ep-220106",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/220106_6_minute_english_futuristic_tech_download.mp3",
+  "intro": [
+    "How will technology help us in the future? We discuss how things like the metaverse, energy tech, and AI might influence how we live in years to come, and teach you some related vocabulary so you can talk about it too."
+  ],
+  "this_week_question": [
+    "According to a 2021 survey by gaming company, Thrive Analytics, what percentage of people who try virtual reality once want to try it again?",
+    "a) 9 percent",
+    "b) 49 percent",
+    "c) 79 percent",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "three-dimensional (3-D)",
+      "desc": "having the three dimensions of length, width and height, making objects appear real and solid, not flat"
+    },
+    {
+      "text": "phygital",
+      "desc": "combining the features of physical and digital worlds to create a new type of experience"
+    },
+    {
+      "text": "sceptical",
+      "desc": "doubtful that something is true or useful"
+    },
+    {
+      "text": "unwieldy",
+      "desc": "difficult to move or carry because it\u2019s so heavy, large or strangely shaped"
+    },
+    {
+      "text": "augmented reality (AR)",
+      "desc": "technology which augments (adds to) the ordinary physical world by projecting virtual pictures, text or characters on top"
+    },
+    {
+      "text": "immersive",
+      "desc": "stimulating the senses and surrounding someone so that they feel completely involved in an experience"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Sam",
+      "text": "Hello. This is 6 Minute English from BBC Learning English. I\u2019m Sam."
+    },
+    {
+      "author": "Neil",
+      "text": "And I\u2019m Neil."
+    },
+    {
+      "author": "Sam",
+      "text": "On Saturday mornings I love going to watch football in the park. The problem is when it\u2019s cold and rainy - I look out the bedroom window and go straight back to bed!"
+    },
+    {
+      "author": "Neil",
+      "text": "Well, instead of going to the park, why not bring the park to you? Imagine watching a live version of the football match at home in the warm, with friends. Sound good, Sam?"
+    },
+    {
+      "author": "Sam",
+      "text": "Sounds great! \u2013 but how can I be in two places at once? Is there some amazing invention to do that?"
+    },
+    {
+      "author": "Neil",
+      "text": "There might be, Sam - and it could be happening sooner than you think, thanks to developments in VR, or virtual reality. According to Facebook boss, Mark Zuckerberg, in the future we\u2019ll all spend much of our time living and working in the \u2018metaverse\u2019 \u2013 a series of virtual worlds."
+    },
+    {
+      "author": "Sam",
+      "text": "Virtual reality is a topic we\u2019ve discussed before at 6 Minute English. But when Facebook announced that it was hiring ten thousand new workers to develop VR for the \u2018metaverse\u2019, we thought it was time for another look."
+    },
+    {
+      "author": "Neil",
+      "text": "Is this programme, we\u2019ll be hearing two different opinions on the \u2018metaverse\u2019 and how it might shape the future."
+    },
+    {
+      "author": "Sam",
+      "text": "But first I have a question for you, Neil. According to a 2021 survey by gaming company, Thrive Analytics, what percentage of people who try virtual reality once want to try it again? Is it:"
+    },
+    {
+      "author": "Neil",
+      "text": "I guess with VR you either love it or hate it, so I\u2019ll say b) 49 percent of people want to try it again."
+    },
+    {
+      "author": "Sam",
+      "text": "OK, I\u2019ll reveal the correct answer later in the programme. But what Neil said is true: people tend to either love virtual reality or hate it. Somebody who loves it is Emma Ridderstad, CEO of Warpin\u2019, a company which develops VR technology."
+    },
+    {
+      "author": "Neil",
+      "text": "Here she is telling BBC World Service programme, Tech Tent, her vision of the future:"
+    },
+    {
+      "author": "Emma Ridderstad",
+      "text": "In ten years, everything that you do on your phone today, you will do in 3-D, through your classes for example. You will be able to do your shopping, you will be able to meet your friends, you will be able to work remotely with whomever you want, you will be able to share digital spaces, share music, share art, share projects in digital spaces between each other. And you will also be able to integrate the digital objects in your physical world, making the world much more phygital than is it today."
+    },
+    {
+      "author": "Sam",
+      "text": "Virtual reality creates 3-D , or three-dimensional experiences where objects have the three dimensions of length, width and height. This makes them look lifelike and solid, not two-dimensional and flat."
+    },
+    {
+      "author": "Neil",
+      "text": "Emma says that in the future VR will mix digital objects and physical objects to create exciting new experiences \u2013 like staying home to watch the same football match that is simultaneously happening in the park. She blends the words \u2018physical\u2019 and \u2018digital\u2019 to make a new word describing this combination: phygital ."
+    },
+    {
+      "author": "Sam",
+      "text": "But while a \u2018phygital\u2019 future sounds like paradise to some, others are more sceptical \u2013 they doubt that VR will come true or be useful."
+    },
+    {
+      "author": "Neil",
+      "text": "One such sceptic is technology innovator, Dr Nicola Millard. For one thing, she doesn\u2019t like wearing a VR headset \u2013 the heavy helmet and glasses that create virtual reality for the wearer \u2013 something she explained to BBC World Service\u2019s, Tech Tent:"
+    },
+    {
+      "author": "Dr Nicola Millard",
+      "text": "There are some basic things to think about. So, how do we access it? So, the reason, sort of, social networks took off was, we\u2019ve got mobile technologies that let us use it. Now, obviously one of the barriers can be that VR or AR headsets - so VR, I\u2019ve always been slightly sceptical about. I\u2019ve called it \u2018vomity reality\u2019 for a while because, frankly, I usually need a bucket somewhere close if you\u2019ve got a headset on me\u2026 and also, do I want to spend vast amounts of time in those rather unwieldy headsets? Now, I know they\u2019re talking AR as well and obviously that does not necessarily need a headset, but I think we\u2019re seeing some quite immersive environments coming out at the moment as well."
+    },
+    {
+      "author": "Sam",
+      "text": "Nicola called VR \u2018vomity reality\u2019 because wearing a headset makes her feel sick, maybe because it\u2019s so unwieldy \u2013 difficult to move or wear because it\u2019s big and heavy."
+    },
+    {
+      "author": "Neil",
+      "text": "She also makes a difference between VR - virtual reality- and AR , which stands for augmented reality \u2013 tech which adds to the ordinary physical world by projecting virtual words, pictures and characters, usually by wearing glasses or with a mobile phone."
+    },
+    {
+      "author": "Sam",
+      "text": "While virtual reality replaces what you hear and see, augmented reality adds to it. Both VR and AR are immersive experiences \u2013 they stimulate your senses and surround you so that you feel completely involved in the experience."
+    },
+    {
+      "author": "Neil",
+      "text": "In fact, the experience feels so real that people keep coming back for more."
+    },
+    {
+      "author": "Sam",
+      "text": "Right! In my question I asked Neil how many people who try VR for the first time want to try it again."
+    },
+    {
+      "author": "Neil",
+      "text": "I guessed it was about half \u2013 49 percent. Was I right?"
+    },
+    {
+      "author": "Sam",
+      "text": "You were\u2026 wrong, I\u2019m afraid. The correct answer is much higher - 79 percent of people would give VR another try. I suppose because the experience was so immersive \u2013 stimulating, surrounding and realistic."
+    },
+    {
+      "author": "Neil",
+      "text": "Ok, A, let\u2019s recap the other vocabulary from this programme on the \u2018metaverse\u2019, a kind of augmented reality \u2013 reality which is enhanced or added to by technology."
+    },
+    {
+      "author": "Sam",
+      "text": "3-D objects have three dimensions , making them appear real and solid."
+    },
+    {
+      "author": "Neil",
+      "text": "Phygital is an invented word which combines the features of \u2018physical\u2019 and \u2018digital\u2019 worlds."
+    },
+    {
+      "author": "Sam",
+      "text": "A sceptical person is doubtful about something."
+    },
+    {
+      "author": "Neil",
+      "text": "And finally, unwieldy means difficult to move or carry because it\u2019s so big and heavy."
+    },
+    {
+      "author": "Sam",
+      "text": "That\u2019s our six minutes up, in this reality anyway. See you in the \u2018metaverse\u2019 soon!"
+    },
+    {
+      "author": "Neil",
+      "text": "Goodbye!"
+    }
+  ],
+  "authors": [
+    "Sam",
+    "Neil",
+    "Emma Ridderstad",
+    "Dr Nicola Millard"
+  ]
+}

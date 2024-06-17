@@ -1,0 +1,209 @@
+{
+  "title": "Smart tech and climate change",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p09wvt9t.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-211007",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/211007_6min_english_tech_and_clmate_download.mp3",
+  "intro": [
+    "Smart technology is becoming more and more commonplace in people's homes, but coulld it help with the fight against climate change? With many people now trying to reduce their carbon footprint, is AI the answer? That's what Sam and Neil talk about, as they teach you related vocabulary."
+  ],
+  "this_week_question": [
+    "How many tonnes of carbon dioxide are humans responsible for emitting into the atmosphere every year? Is it more than:",
+    "a) 30 billion b) 40 billion; or c) 50 billion?",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "dig something up",
+      "desc": "excavate; remove something from the ground"
+    },
+    {
+      "text": "intermittent",
+      "desc": "irregular; not continuous"
+    },
+    {
+      "text": "blackouts",
+      "desc": "periods of time without electricity or energy"
+    },
+    {
+      "text": "in real time",
+      "desc": "no delay; live"
+    },
+    {
+      "text": "machine learning",
+      "desc": "way computers learn and adapt based on collated data"
+    },
+    {
+      "text": "simulate",
+      "desc": "produce a computer model"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Neil",
+      "text": "Hello. This is 6 Minute English from BBC Learning English. I\u2019m Neil."
+    },
+    {
+      "author": "Sam",
+      "text": "And I\u2019m Sam."
+    },
+    {
+      "author": "Neil",
+      "text": "These days, our lives are filled with devices that were unimaginable only a few years ago \u2013 the sorts of things you read about in science-fiction novels, but never thought you\u2019d own."
+    },
+    {
+      "author": "Sam",
+      "text": "Yes, like those robots that vacuum your floor or voice-activated lights \u2013 we call many of these things \u2018smart tech\u2019."
+    },
+    {
+      "author": "Neil",
+      "text": "But while they can help with the little tasks at home, some people are wondering whether they can help fight climate change."
+    },
+    {
+      "author": "Sam",
+      "text": "Yes, smart homes, regulating things like the temperature, are a step in the right direction. Using AI to learn when the house is occupied and the optimal time to fire up the heating, is one way to limit wasteful use of resources."
+    },
+    {
+      "author": "Neil",
+      "text": "The problem comes from the origin of the energy which powers these home systems. If it\u2019s fossil fuels, then digging them up \u2013 an informal way of saying removing something from the earth - and burning them creates carbon emissions."
+    },
+    {
+      "author": "Sam",
+      "text": "I suppose that\u2019s why many people are trying to find more renewable forms of energy to reduce their carbon footprint."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, it\u2019s interesting that you mentioned carbon footprint, because my question is about that today. How many tonnes of carbon dioxide are humans responsible for emitting into the atmosphere every year? Is it more than:"
+    },
+    {
+      "author": "Sam",
+      "text": "Well, Neil, that all sounds like a lot to me, but I\u2019ll go straight down the middle and say b \u2013 40 billion tonnes."
+    },
+    {
+      "author": "Neil",
+      "text": "OK, Sam, we\u2019ll find out the correct answer at the end of the programme. So you mentioned earlier that people are looking into ways to use more renewable energy, but there are also some problems with that form of energy production."
+    },
+    {
+      "author": "Sam",
+      "text": "Yes \u2013 for example many of these technologies rely on certain weather conditions, which affect the level of energy production."
+    },
+    {
+      "author": "Neil",
+      "text": "Dr Enass Abo-Hamed, CEO of H2go, is working on a project on Orkney, an island off the coast of Scotland, testing ways of storing renewable forms of energy. Here she is on BBC World Service programme Crowd Science, speaking with Graihagh Jackson, talking about the limitations of renewable energy sources."
+    },
+    {
+      "author": "Dr Enass Abo-Hamed",
+      "text": "Renewable energy is intermittent by its nature because it\u2019s dependant and relying on the weather. When the Sun shines and when the wind blows, and these by nature are not 24-hour 7 reliable constant."
+    },
+    {
+      "author": "blackouts",
+      "text": "And that means that demand doesn\u2019t always meet supply of renewables \u2013 it can mean that we get  , but on the other hand, when the Sun is up and we are producing all that power or when the wind is blowing and were producing that power, we might not be able to use that energy - There\u2019s no demand for it and so it\u2019s wasted."
+    },
+    {
+      "author": "Sam",
+      "text": "So, Dr Enass Abo-Hamed said the renewable energy is intermittent , which means that something is not continuous and has many breaks."
+    },
+    {
+      "author": "Neil",
+      "text": "She also said that because there isn\u2019t always a steady stream of energy, we can get blackouts \u2013 periods of time without energy."
+    },
+    {
+      "author": "Sam",
+      "text": "People like Dr Enass Abo-Hamed are trying to find solutions to make renewable energy storage devices \u2013 which would make the supply of energy more constant."
+    },
+    {
+      "author": "Neil",
+      "text": "Smart tech can also help with this problem with renewable sources. Now, of course, not only can computers be used to design efficient models, but smart tech can also be used to improve performance after things like wind turbines have been installed."
+    },
+    {
+      "author": "Sam",
+      "text": "Here is Graihagh Jackson, science broadcaster and podcaster, speaking about how smart tech can improve efficiency on BBC World Service programme, Crowd Science:"
+    },
+    {
+      "author": "Graihagh Jackson",
+      "text": "Some engineers use something called a digital twin. This is really interesting, actually. This is where lots of sensors are attached to the wind turbine, so it can be modelled on a computer in real time . And then, using machine learning , you can then simulate what\u2019s happening to the wind turbine in specific weather conditions. And this is important because it means they can make sure they\u2019re performing their best."
+    },
+    {
+      "author": "Neil",
+      "text": "Graihagh Jackson used the expression in real time, which means without delay or live."
+    },
+    {
+      "author": "Sam",
+      "text": "She also mentioned machine learning , which is the way computers change their behaviour based on data they collected."
+    },
+    {
+      "author": "Neil",
+      "text": "And she also said simulate \u2013 produce a computer model of something."
+    },
+    {
+      "author": "Sam",
+      "text": "So, while there are issues with the reliability of the source of renewable energy, it\u2019s clear that people are working on solutions such as energy storage to make sure there is always a supply."
+    },
+    {
+      "author": "Neil",
+      "text": "And that computers can be used to design and operate technology as efficiently as possible."
+    },
+    {
+      "author": "Sam",
+      "text": "Much in the same way that AI can be used in your home to make it run as efficiently as possible."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes \u2013 all in the hope of reducing your carbon footprint."
+    },
+    {
+      "author": "Sam",
+      "text": "Which reminds me of your quiz question, Neil."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, in my quiz question I asked Sam how many tonnes of carbon dioxide humans produce each year!"
+    },
+    {
+      "author": "Sam",
+      "text": "I went for b) 40 billion tonnes."
+    },
+    {
+      "author": "Neil",
+      "text": "Which is\u2026 the correct answer! Well done, Sam!"
+    },
+    {
+      "author": "Sam",
+      "text": "Wow \u2013 I guessed right \u2013 but all three of those numbers sound really high! Let\u2019s recap the vocabulary from today\u2019s programme about smart tech and climate change, starting with dig something up \u2013 an informal expression to remove something from the ground."
+    },
+    {
+      "author": "Neil",
+      "text": "Intermittent is used to describe something that is not continuous or steady."
+    },
+    {
+      "author": "Sam",
+      "text": "Blackouts are periods of time without energy, for example electricity."
+    },
+    {
+      "author": "Neil",
+      "text": "In real time means without delay or live."
+    },
+    {
+      "author": "Sam",
+      "text": "Machine learning is the process by which computers learn and change behaviour based on data."
+    },
+    {
+      "author": "Neil",
+      "text": "And finally, simulate means produce a computer model."
+    },
+    {
+      "author": "Sam",
+      "text": "That\u2019s all for this programme. Bye for now!"
+    },
+    {
+      "author": "Neil",
+      "text": "Goodbye!"
+    }
+  ],
+  "authors": [
+    "Neil",
+    "Sam",
+    "Dr Enass Abo-Hamed",
+    "blackouts",
+    "Graihagh Jackson"
+  ]
+}

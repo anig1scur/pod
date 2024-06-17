@@ -1,0 +1,206 @@
+{
+  "title": "Is modern life making us tired?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p03dl831.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-160114",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/160114_6min_english_sleep_deprivation_download.mp3",
+  "intro": [
+    "From artificial lights, to late night TV, and now the ever-present glow of our smartphones, modern life is often blamed for ruining our sleep. But do we really need so much sleep? Neil and Alice discuss a new study by American researchers which has concluded that our ancestors were probably as sleep deprived as we are."
+  ],
+  "this_week_question": [
+    "What's another word for sleepwalking? Is it\u2026",
+    "a) narcolepsy?",
+    "b) restless legs syndrome?",
+    "c) somnambulism?",
+    "You can hear the right answer at the end of the programme."
+  ],
+  "vocab": [
+    {
+      "text": "sleep like a log",
+      "desc": "sleep very heavily and well"
+    },
+    {
+      "text": "snoring",
+      "desc": "breathing in a noisy way through your mouth or nose while you're asleep"
+    },
+    {
+      "text": "caffeine",
+      "desc": "a chemical found in coffee and tea that makes you feel more awake."
+    },
+    {
+      "text": "insomnia",
+      "desc": "having difficulty falling asleep or staying asleep"
+    },
+    {
+      "text": "hunter-gatherers",
+      "desc": "people who live by hunting animals and gathering plants"
+    },
+    {
+      "text": "soundly",
+      "desc": "well or deeply"
+    },
+    {
+      "text": "irregular",
+      "desc": "(in this context) not spaced out evenly"
+    },
+    {
+      "text": "cognitive behavioural therapy",
+      "desc": "a treatment for mental health problems that tries to change the way you think"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Alice",
+      "text": "Hello and welcome to 6 Minute English. I'm Alice\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "\u2026 and I'm Neil."
+    },
+    {
+      "author": "Alice",
+      "text": "So Neil, did you sleep well last night?"
+    },
+    {
+      "author": "Neil",
+      "text": "Um, yes, thanks. Why do you ask?"
+    },
+    {
+      "author": "Alice",
+      "text": "Today we're talking about how much sleep we need."
+    },
+    {
+      "author": "Neil",
+      "text": "I like a good eight hours myself \u2013 ten at the weekend. How about you?"
+    },
+    {
+      "author": "Alice",
+      "text": "Six is enough for me. But did you know this? Humans sleep around three hours less than other primates like chimps, who sleep for about ten hours. So you're a chimp, Neil \u2013 at the weekends, at least! Are you ready for the quiz question?"
+    },
+    {
+      "author": "Neil",
+      "text": "[makes some chimp noises]"
+    },
+    {
+      "author": "Alice",
+      "text": "OK, I'll assume that means yes. Right. What's another word for sleepwalking? Is it\u2026 a) narcolepsy? b) restless legs syndrome? or c) somnambulism?"
+    },
+    {
+      "author": "Neil",
+      "text": "I will go for b) restless legs syndrome, since there's a connection there with the legs."
+    },
+    {
+      "author": "Alice",
+      "text": "Well we'll find out whether you're right or wrong later on in the show. So what keeps you awake at night, Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "Not much, to be honest. I usually sleep like a log \u2013 and that means very heavily indeed! But sometimes my own snoring wakes me up, and then I can find it hard to get back to sleep. Snoring , for those of you who don't know, means breathing in a noisy way through your mouth or nose while you're asleep. [snores] \u2026 like that\u2026 How about you, Alice?"
+    },
+    {
+      "author": "Alice",
+      "text": "Very good, yes. Well, that's quite ridiculous! Anyway, for me, it's drinking too much coffee during the day. It's the caffeine in coffee \u2013 a chemical that makes you feel more awake \u2013 which can stop you from sleeping at night. But there are so many things that can keep us awake these days."
+    },
+    {
+      "author": "Neil",
+      "text": "Oh yes. Radio, TV\u2026 techy stuff like 24-hour internet, computers, smart phones. I love my phone and it's never far from me!"
+    },
+    {
+      "author": "Alice",
+      "text": "Well, let's hear what Professor Jerome Siegel, from the University of California, found when he studied the sleep habits of three different hunter-gatherer communities who have very little contact with modern society. They don't have artificial light, electricity, batteries, or any of the gadgets that we rely on today."
+    },
+    {
+      "author": "INSERT",
+      "text": "Professor Jerome Siegel, from the University of California, US Their sleep was not that different from ours. The range of sleep period was about 6.9 to 8.5 hours. If you actually measure sleep in current populations in the United States or in Europe they're definitely at the low end of what's been reported. They certainly don't sleep a lot less than we do but they clearly don't sleep more."
+    },
+    {
+      "author": "Alice",
+      "text": "Professor Jerome Siegel found that people in these communities don't go to bed until several hours after sundown \u2013 just like us! But one big difference is that very few of them suffer from insomnia \u2013 which means having difficulty falling asleep and staying asleep."
+    },
+    {
+      "author": "Neil",
+      "text": "Now, I don't have a problem with insomnia. And hunter-gatherers \u2013 people who live by hunting animals and gathering plants to eat \u2013 don't either \u2013 probably because they take a lot of physical exercise during the day."
+    },
+    {
+      "author": "Alice",
+      "text": "Yes, that's right. Taking exercise is an important factor in sleeping soundly \u2013 or well \u2013 at night. But these days our minds can be so active that it becomes very difficult to fall asleep. Let's listen to Professor Kevin Morgan, from Loughborough University here in England, talking about how cognitive behavioural therapy can be used to help people with insomnia."
+    },
+    {
+      "author": "INSERT",
+      "text": "Professor Kevin Morgan, Loughborough University, England If you have a train of thoughts which would otherwise keep you awake one way of dealing with this is to block those thoughts. What I'd like you to do is repeat the word 'the' in your mind at irregular intervals \u2013 the the the the the the the the the \u2013 what you'll find (is) that the mind space required to do this blocks out almost everything else."
+    },
+    {
+      "author": "Neil",
+      "text": "So Professor Kevin Morgan suggests saying one word over and over again at irregular intervals \u2013 irregular in this context means not spaced out evenly. Doing it can help to block out the thoughts that are stopping you from getting to sleep. It sounds like a very simple solution. I wonder if it works?"
+    },
+    {
+      "author": "Alice",
+      "text": "There's one way to find out, Neil. Try it yourself!"
+    },
+    {
+      "author": "Neil",
+      "text": "I will."
+    },
+    {
+      "author": "Alice",
+      "text": "OK. And cognitive behavioural therapy by the way is a treatment for mental health problems that tries to change the way you think."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, I usually count sheep if I can't get to sleep. Do you do that, Alice?"
+    },
+    {
+      "author": "Alice",
+      "text": "No, not usually. No. OK, I think it's time for the answer to our quiz question. I asked: What's another word for sleepwalking? Is it\u2026 a) narcolepsy? b) restless legs syndrome? or c) somnambulism?"
+    },
+    {
+      "author": "Neil",
+      "text": "And I said b) restless legs syndrome."
+    },
+    {
+      "author": "Alice",
+      "text": "Sorry, Neil, it's actually c) somnambulism \u2013 the roots of this word come from Latin. Somnus means 'sleep' and and ambulare means 'walk'. Narcolepsy is a condition where you can't stop yourself falling asleep, especially during the day."
+    },
+    {
+      "author": "Neil",
+      "text": "Narcolepsy\u2026 (says in a sleepy way)"
+    },
+    {
+      "author": "Alice",
+      "text": "And restless legs syndrome is a condition that makes you desperate to move your legs around, especially when you're sitting quietly or trying to get to sleep."
+    },
+    {
+      "author": "Neil",
+      "text": "\u2026 get to sleep\u2026 (murmuring)"
+    },
+    {
+      "author": "Alice",
+      "text": "Neil! Wake up!"
+    },
+    {
+      "author": "Neil",
+      "text": "Oh, hello Alice! Sorry."
+    },
+    {
+      "author": "Alice",
+      "text": "Hello! Can we hear today's words again, please?"
+    },
+    {
+      "author": "Neil",
+      "text": "OK, yeah: sleep like a log snoring caffeine insomnia hunter-gatherers soundly irregular cognitive behavioural therapy"
+    },
+    {
+      "author": "Alice",
+      "text": "Well, that just about brings us to the end of this edition of 6 Minute English. We hope you've enjoyed this programme. Please do join us again soon."
+    },
+    {
+      "author": "Both",
+      "text": "Bye."
+    }
+  ],
+  "authors": [
+    "Alice",
+    "Neil",
+    "INSERT",
+    "Both"
+  ]
+}

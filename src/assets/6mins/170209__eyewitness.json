@@ -1,0 +1,201 @@
+{
+  "title": "you trust your own eyes?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p04nyvm1.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-170209",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/170209_6min_english_eyewitness_download.mp3",
+  "intro": [
+    "Can you trust your own memory? Catherine and Neil discuss why the police and the legal system are concerned about eyewitness testimony."
+  ],
+  "this_week_question": [
+    "In which part of the brain is there an area dedicated to remembering faces? Is it\u2026 a) the temporal lobe?",
+    "b) the hypothalamus?",
+    "or c) the cerebellum?",
+    "You'll hear the answer at the end of the programme."
+  ],
+  "vocab": [
+    {
+      "text": "reconstruct",
+      "desc": "rebuild"
+    },
+    {
+      "text": "distorted",
+      "desc": "changed"
+    },
+    {
+      "text": "crime scene",
+      "desc": "a place where a crime happened"
+    },
+    {
+      "text": "contaminated",
+      "desc": "made impure through contact with an outside source at knifepoint under threat of being stabbed"
+    },
+    {
+      "text": "disconcerted",
+      "desc": "confusing and a bit upsetting"
+    },
+    {
+      "text": "testimony",
+      "desc": "a spoken statement given in court"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Catherine",
+      "text": "Hello and welcome to 6 Minute English. I'm Catherine\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "And I'm Neil."
+    },
+    {
+      "author": "Catherine",
+      "text": "So, Neil, do you notice anything different about me today?"
+    },
+    {
+      "author": "Neil",
+      "text": "Have you done your hair differently?"
+    },
+    {
+      "author": "Catherine",
+      "text": "No."
+    },
+    {
+      "author": "Neil",
+      "text": "Is that a new outfit?"
+    },
+    {
+      "author": "Catherine",
+      "text": "Honestly, Neil!"
+    },
+    {
+      "author": "Neil",
+      "text": "I give up. I don't know what's different about you."
+    },
+    {
+      "author": "Catherine",
+      "text": "OK. Well, maybe by the end of the show you'll have figured it out. Anyway, today we're discussing memory and whether we can remember things accurately. So are you ready to answer today's quiz question, Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "I am."
+    },
+    {
+      "author": "Catherine",
+      "text": "OK. So in which part of the brain is there an area dedicated to remembering faces? Is it\u2026 a) the temporal lobe? b) the hypothalamus? or c) the cerebellum?"
+    },
+    {
+      "author": "Neil",
+      "text": "Well, I have no idea. But I'll say a) the temporal lobe. Catherine OK and we'll find out whether you chose the correct answer later on in the show. But let's talk more about how our memories can play tricks on us. We tend to think of memory as being like a video recorder that we can replay and recall again and again as it originally occurred. But memory doesn't work like that. It's a reconstructive process."
+    },
+    {
+      "author": "Neil",
+      "text": "A reconstructive process?"
+    },
+    {
+      "author": "Catherine",
+      "text": "Yes. We reconstruct - or rebuild - memories, and during this process, they may be distorted \u2013 or changed \u2013 for different reasons. Let's listen to Tim Valentine, retired professor of psychology at Goldsmith's College at the University of London, talking about this."
+    },
+    {
+      "author": "INSERT",
+      "text": "Tim Valentine, retired professor of psychology at Goldsmith's College, University of London From all those TV dramas you've watched you'll be familiar with the forensic scenes of crimes officers wearing their paper suits and covering their shoes and their hair to make sure they don't introduce their DNA or physical traces onto the crime scene. So that in the same way anybody who has any interaction with a witness needs to make sure that they don't distort their memory."
+    },
+    {
+      "author": "Neil",
+      "text": "So crime officers wear protective clothing at crime scenes so they don't contaminate it with their DNA."
+    },
+    {
+      "author": "Catherine",
+      "text": "That's right. A crime scene is a place where a crime was committed. And contaminated means 'made impure through contact with an outside source'. So for example, if an officer touches something without gloves on, they introduce new information. And once this has happened, you can't get back to the original information."
+    },
+    {
+      "author": "Neil",
+      "text": "Now, Tim Valentine says that when police officers talk to the witness of a crime, they might also introduce new information. And this could change the witness's memory of what happened."
+    },
+    {
+      "author": "Catherine",
+      "text": "And it isn't only police questioning that can distort memory. Other factors such as stress can affect your ability to recall events accurately. For example, if you're being held at knifepoint you are likely to be concentrating on the weapon rather than on your attacker's face. And at knifepoint means 'under threat of being stabbed'."
+    },
+    {
+      "author": "Neil",
+      "text": "So why do we place so much importance on eyewitness accounts? Catherine Eyewitness accounts can sound very convincing in court \u2013 but in fact according to research, they are often unreliable. Karen Newirth, senior attorney at the Innocence Project in New York, explains this further."
+    },
+    {
+      "author": "INSERT",
+      "text": "Karen Newirth, senior attorney at the Innocence Project, New York First, I think it's sort of natural for people to want to believe that memory can be accurate. It's very disconcerting to think that we're going through life relying on our memories and then to learn how mistaken they can be - and how frequently. Second is that the testimony of eyewitnesses has become a very expected piece of criminal trial so jurors sort of anticipate it, look for it, and tend to believe it."
+    },
+    {
+      "author": "Neil",
+      "text": "So we like to trust in our ability to remember things accurately. And it's disconcerting to learn that memory is frequently inaccurate. And disconcerting means\u2026"
+    },
+    {
+      "author": "Catherine",
+      "text": "\u2026it means 'confusing and a bit upsetting'."
+    },
+    {
+      "author": "Neil",
+      "text": "Karen Newirth also says that people expect eyewitness testimony \u2013 or spoken statements \u2013 in court. Do you think that's true, Catherine?"
+    },
+    {
+      "author": "Catherine",
+      "text": "Yes \u2013 and it's the most commonly used evidence brought against criminal defendants in court, even though they are often inaccurate."
+    },
+    {
+      "author": "Neil",
+      "text": "Are there any ways to improve accuracy?"
+    },
+    {
+      "author": "Catherine",
+      "text": "Yes, there are. For example, in a police line-up you can prevent eyewitnesses receiving information from the officer giving instructions, which might influence their response."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, I see. Well, you didn't give anything away when you asked what was different about your appearance at the beginning of the show."
+    },
+    {
+      "author": "Catherine",
+      "text": "Yes, that's true, Neil. But I can now reveal to you that... I'm wearing glasses, Neil. I've lost my contact lenses!"
+    },
+    {
+      "author": "Neil",
+      "text": "I don't know how I missed that. Because actually you do look, well, completely different with glasses."
+    },
+    {
+      "author": "Catherine",
+      "text": "Just a bit, yes. So, now we're running out of time, so let's move onto the answer to today's quiz question. Remember I asked: in which part of the brain is there an area dedicated to recognizing faces? Is it\u2026 a) the temporal lobe? b) the hypothalamus? or c) the cerebellum?"
+    },
+    {
+      "author": "Neil",
+      "text": "I said a) the temporal lobe. Was I right?"
+    },
+    {
+      "author": "Catherine",
+      "text": "You were indeed, Neil! Very well done, it was the correct answer!"
+    },
+    {
+      "author": "Neil",
+      "text": "Yes!"
+    },
+    {
+      "author": "Catherine",
+      "text": "The main part of the brain dedicated to recognising faces \u2013 called the Fusiform Face Area \u2013 is positioned in the temporal lobe, which can be found roughly in the area just behind your ears."
+    },
+    {
+      "author": "Neil",
+      "text": "Fascinating! Now, here are the words we learned today\u2026 reconstruct distorted crime scene contaminated at knifepoint disconcerting testimony"
+    },
+    {
+      "author": "Catherine",
+      "text": "And that bring us to the end of today's 6 Minute English. Don't forget to join us again soon!"
+    },
+    {
+      "author": "Both",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "Catherine",
+    "Neil",
+    "INSERT",
+    "Both"
+  ]
+}

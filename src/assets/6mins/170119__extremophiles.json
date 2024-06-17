@@ -1,0 +1,202 @@
+{
+  "title": "fe on the edge",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p04lj10m.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-170119",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/170119_6min_english_extremophiles_download.mp3",
+  "intro": [
+    "The increased study of extremophile microbes has revealed a lot about what is and is not needed to sustain life on Earth. It has also given rise to new theories about how and when life began. Neil and Alice discuss extremophile environments and how these differ from their own favourite places."
+  ],
+  "this_week_question": [
+    "Which have extremophiles living in them? Is it\u2026",
+    "a) Grand Canyon?",
+    "b) Death Valley National Park?",
+    "c) Yellowstone?",
+    "You'll hear the answer at the end of the programme."
+  ],
+  "vocab": [
+    {
+      "text": "extremophiles",
+      "desc": "microorganisms that have adapted to live in what we would consider to be extreme conditions"
+    },
+    {
+      "text": "hostile",
+      "desc": "unfriendly"
+    },
+    {
+      "text": "geysers",
+      "desc": "hot springs that shoot hot water and steam into the air"
+    },
+    {
+      "text": "microorganisms",
+      "desc": "really tiny life forms that can only be seen with a microscope"
+    },
+    {
+      "text": "botany",
+      "desc": "the study of plants"
+    },
+    {
+      "text": "zoology",
+      "desc": "the study of animals"
+    },
+    {
+      "text": "archaea",
+      "desc": "a group of single-celled microbes similar to bacteria but different to all other known types"
+    },
+    {
+      "text": "eukaryote",
+      "desc": "a multicellular organism\u2013 and includes animals, plants, and fungi"
+    },
+    {
+      "text": "thriving",
+      "desc": "doing well"
+    },
+    {
+      "text": "hydrothermal vents",
+      "desc": "holes in the ocean floor from which flow mineral-rich superheated water from the Earth's crust"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Alice",
+      "text": "Hello and welcome to 6 Minute English. I'm Alice\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "And I'm Neil. So Alice, what's your ideal place to be?"
+    },
+    {
+      "author": "Alice",
+      "text": "Curled up on the sofa with a good book in front of a log fire. Last night it was very cold."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, for me, lying in a hammock under a palm tree on a tropical beach with a cool breeze. I don't like when it's too hot."
+    },
+    {
+      "author": "Alice",
+      "text": "Yes, true. Humans don't cope well with extremes of temperature but some species do. The subject of today's show is extremophiles \u2013 these are microorganisms that have adapted to live in what we would consider to be extreme conditions. For example, living in near boiling acidic water or frozen at the bottom of an Antarctic lake."
+    },
+    {
+      "author": "Neil",
+      "text": "Those do sound like pretty extreme conditions."
+    },
+    {
+      "author": "Alice",
+      "text": "Yes. The thing is, what sounds hostile \u2013 or unfriendly \u2013 to us, are perfect environments for extremophiles and in fact they wouldn't survive without them. Now, are you tough enough to face up to today's quiz question, Neil?"
+    },
+    {
+      "author": "Neil",
+      "text": "I think so."
+    },
+    {
+      "author": "Alice",
+      "text": "Alright then, here goes: which US National Park is home to geysers \u2013 or hot springs that shoot hot water and steam into the air \u2013 which have extremophiles living in them? Is it\u2026 a) Grand Canyon? b) Death Valley National Park? Or c) Yellowstone?"
+    },
+    {
+      "author": "Neil",
+      "text": "That's easy - it has to be c) Yellowstone."
+    },
+    {
+      "author": "Alice",
+      "text": "OK, well we'll find out if you got the answer right later on in the show. But, moving on, now, Neil, did you know that extremophiles belong to an entirely different group of living things to other animals and plants?"
+    },
+    {
+      "author": "Neil",
+      "text": "No. I imagined extremophiles would be like insects, because insects are pretty tough, aren't they?"
+    },
+    {
+      "author": "Alice",
+      "text": "Yes, that's true. But remember, extremophiles are microorganisms \u2013 they're really tiny. Let's listen to Ian Crawford, Professor of Planetary Science and Astrobiology at Birkbeck University of London. He tells us how in the 1970s a scientist called Carl Woese identified a new kingdom of living things that he called 'archaea' \u2013 meaning 'ancient ones'. The extremophiles belong to this group."
+    },
+    {
+      "author": "INSERT",
+      "text": "Ian Crawford, Professor of Planetary Science and Astrobiology at Birkbeck University of London Well, the old tree of life idea basically talked about empires if you like, of plants, and animals, and things that we can see, essentially. We put a great deal of emphasis on large organisms and the traditional distinction in biology between botany and zoology. What it really did was say 'that's all wrong \u2013 there's really only three major groups in life: there's the archaea, the bacteria, and the eukaryotes, which is all of this complex life'; and so it kind of put humans into a small corner of the tree of life next to plants and whatever else. It kind of squashes us again after being the centre of the universe."
+    },
+    {
+      "author": "Neil",
+      "text": "So botany is the study of plant life, and zoology is the study of animal life. But maybe you can explain 'archaea', and 'eukaryotes', Alice."
+    },
+    {
+      "author": "Alice",
+      "text": "Archaea are a group of single-celled microbes similar to bacteria but different to all other known types. Eukaryote is the scientific term for organisms with a much larger and more complex type of cell\u2013 and this group includes all animals, plants, and fungi."
+    },
+    {
+      "author": "Neil",
+      "text": "But why are archaea so important? Why do they need a whole biological domain to themselves, while we humans get squashed up in one domain with plants and fungi?"
+    },
+    {
+      "author": "Alice",
+      "text": "Well, Neil, it's likely they've have been living on our planet ever since the Earth became habitable \u2013 and that's billions of years. And they are still living and thriving in a whole range of different environments today."
+    },
+    {
+      "author": "Neil",
+      "text": "And when something is thriving it means it's doing well! So tell us about where they live, Alice."
+    },
+    {
+      "author": "Alice",
+      "text": "Some live in hydrothermal vents \u2013 holes in the ocean floor hundreds of metres down where there's lots of pressure and no sunlight. And mineral-rich superheated water is coming out of the Earth's crust and then flowing out through these holes."
+    },
+    {
+      "author": "Neil",
+      "text": "I see\u2026 Well, what about cold-loving extremophiles?"
+    },
+    {
+      "author": "Alice",
+      "text": "Well, scientists have found them in hidden lakes trapped beneath ice sheets hundreds of metres thick in Antarctica. It takes days to drill through the ice to reach the water."
+    },
+    {
+      "author": "Neil",
+      "text": "And how do they survive down there?"
+    },
+    {
+      "author": "Alice",
+      "text": "Well, these microbes have found a way of getting energy from certain minerals like iron and sulphur present in the water."
+    },
+    {
+      "author": "Neil",
+      "text": "That sounds clever for a microbe \u2013 how did they figure that out?"
+    },
+    {
+      "author": "Alice",
+      "text": "It isn't a question of cleverness - it's a question of adaptation. Extremophiles are extremely well adapted to their environment and they appeared on Earth much earlier than more complex life forms. Let's hear from Nick Lane, Reader in Evolutionary Biochemistry at University College London."
+    },
+    {
+      "author": "INSERT",
+      "text": "Nick Lane, Reader in Evolutionary Biochemistry at University College London The origin of the Eukaryotic cell, it seems to have happened once, it took about 2 billion years before that happened. Then there was kind of a great leap forward at the cellular level, but another billion years went by before we see animals."
+    },
+    {
+      "author": "Neil",
+      "text": "So, basically, the animal kingdom is much newer than the archaean kingdom."
+    },
+    {
+      "author": "Alice",
+      "text": "Indeed. And now it's time for the answer to today's quiz question, Neil. I asked: which US National Park is home to geysers that have extremophiles living in them? Is it\u2026 a) Grand Canyon, b) Death Valley National Park or c) Yellowstone?"
+    },
+    {
+      "author": "Neil",
+      "text": "And I said c) Yellowstone. I must be right."
+    },
+    {
+      "author": "Alice",
+      "text": "Yes, Neil, you are right - it's Yellowstone National Park. Every year, scientists discover remarkable new microbes in Yellowstone's hot springs, with implications for medicine, agriculture and energy, as well as offering clues to the formation of the earliest life on Earth."
+    },
+    {
+      "author": "Neil",
+      "text": "Very interesting. Now, here are the words we heard today: extremophiles hostile geysers microorganisms botany zoology archaea eukaryote thriving hydrothermal vents"
+    },
+    {
+      "author": "Alice",
+      "text": "And that's the end of today's 6 Minute English. Don't forget to join us again soon!"
+    },
+    {
+      "author": "Both",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "Alice",
+    "Neil",
+    "INSERT",
+    "Both"
+  ]
+}

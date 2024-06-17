@@ -1,0 +1,185 @@
+{
+  "title": "How your eyes predict your personality",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0707z97.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-190321",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/190321_6min_eyes_personality_download.mp3",
+  "intro": [
+    "Watch where you're watching! Apparently, where your eyes look can be used to predict things about your personality. Could this be the personality test of the future? Neil and Rob discuss how your eyes predict your personality and teach you related vocabulary."
+  ],
+  "this_week_question": [
+    "The letters 'AI' stand for Artificial Intelligence but what are the letters 'AI'? Are they",
+    "A) an abbreviation",
+    "B) an acronym, or",
+    "C) an initialism?",
+    "Listen to the programme to find out the answer."
+  ],
+  "vocab": [
+    {
+      "text": "extrovert",
+      "desc": "someone who has a very outgoing personality, confident and socially comfortable."
+    },
+    {
+      "text": "introvert",
+      "desc": "someone who is shy and not comfortable in social situations and doesn\u2019t like being the centre of attention."
+    },
+    {
+      "text": "findings",
+      "desc": "the results and conclusions of research"
+    },
+    {
+      "text": "unconstrained",
+      "desc": "without control or restriction"
+    },
+    {
+      "text": "gaze",
+      "desc": "the way that someone looks at someone"
+    },
+    {
+      "text": "figured out",
+      "desc": "understood something after studying it"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Neil",
+      "text": "Hello and welcome to 6 Minute English. I'm Neil."
+    },
+    {
+      "author": "Rob",
+      "text": "And I'm Rob."
+    },
+    {
+      "author": "Neil",
+      "text": "Now, Rob, would you say that you are an introvert or an extrovert?"
+    },
+    {
+      "author": "Rob",
+      "text": "What a good question! Well, extroverts are confident in their personality. They're outgoing and comfortable in social situations. So, I would have to say that, if anything, I\u2019m the opposite. I\u2019m more of an introvert . I\u2019m really quite shy. I feel uncomfortable in social situations. For example, if I go to a party, where I don\u2019t know anyone I usually feel very embarrassed and I find it impossible to start conversations with strangers."
+    },
+    {
+      "author": "Neil",
+      "text": "But you do all of this on the radio and videos for Learning English, don\u2019t you? Some would say you have to be an extrovert to do what we do."
+    },
+    {
+      "author": "Rob",
+      "text": "Ah! Well, maybe I\u2019m pretending to be an extrovert to hide the fact that I\u2019m an introvert . It\u2019s quite a common thing, you know."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, it might not be so easy to hide in the future because researchers have developed a computer program that can tell your personality from looking at where you look, by tracking your eye movements."
+    },
+    {
+      "author": "Rob",
+      "text": "Wow! That sounds pretty hi-tech, and scary."
+    },
+    {
+      "author": "Neil",
+      "text": "Well, we\u2019ll learn more shortly, but first a question on the topic of clever computers. The letters 'AI' stand for Artificial Intelligence but what are the letters 'AI'? Are they"
+    },
+    {
+      "author": "Rob",
+      "text": "OK, I thought that was going to be easy, but I think it\u2019s an abbreviation, isn\u2019t it?"
+    },
+    {
+      "author": "Neil",
+      "text": "Well, you\u2019ll have to wait to the end of the programme to find out! Sabrina Hoppe is a researcher at the University of Stuttgart. She was interviewed on the BBC Radio programme All In The Mind. She spoke about an experiment in which they tracked the eye movements of people in real situations. This is what she said about the research. Was she confident the experiment would work in the real world?"
+    },
+    {
+      "author": "Sabrina Hoppe",
+      "text": "The main finding in our study is that it is possible at all to just look at eye movements and then predict something about their personality. And before our study, it was not clear at all if this would be possible from eye movements in such an unconstrained real world setting."
+    },
+    {
+      "author": "Neil",
+      "text": "So, was she confident this would work?"
+    },
+    {
+      "author": "Rob",
+      "text": "No, not really. She said that before the study it wasn\u2019t clear if it would be possible in an unconstrained real-world setting. Unconstrained here means that there wasn\u2019t strict control over the conditions of the experiment. It took place in the \u2018real-world\u2019 \u2013 so not in a laboratory."
+    },
+    {
+      "author": "Neil",
+      "text": "The result of the experiment - or the finding , as she called it - was that by following eye movements, a computer programme was able to work out the personality of the subjects. Let\u2019s listen again."
+    },
+    {
+      "author": "Sabrina Hoppe",
+      "text": "The main finding in our study is that it is possible at all to just look at eye movements and then predict something about their personality. And before our study, it was not clear at all if this would be possible from eye movements in such an unconstrained real world setting."
+    },
+    {
+      "author": "Rob",
+      "text": "So how does the software work, for example, what are the differences in the eye movements of extroverts compared to introverts ?"
+    },
+    {
+      "author": "Sabrina Hoppe",
+      "text": "We still don't really know in detail what makes the difference. We can only tell that there are differences and that we know computer programs that can pick up those differences. Maybe extrovert people look up a lot because they want to look at people's faces, whereas some super introvert person maybe just stares at their own shoes, if you want to take the extreme examples. So, probably it somehow changes gaze. But we only know that this information is there and somehow our program figured out how to extract it."
+    },
+    {
+      "author": "Neil",
+      "text": "So how does it work?"
+    },
+    {
+      "author": "Rob",
+      "text": "Well, that\u2019s the strange thing. She said that she didn\u2019t really know, at least not in detail. She did say that our personality somehow changes gaze . Gaze is another word for looking at something. So maybe we gaze in different ways depending on our personality. Extroverts may look up more and introverts, like me, may look down more."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, it was interesting that she said that she didn\u2019t know how it did it, but the program somehow managed to figure it out . The phrasal verb to figure something out means 'to understand or realise something'.  Time to review today\u2019s vocabulary, but first, let\u2019s have the answer to the quiz question. I asked what are the letters AI? Are they"
+    },
+    {
+      "author": "Rob",
+      "text": "I said A) an abbreviation."
+    },
+    {
+      "author": "Neil",
+      "text": "Well sorry, no, AI is C), so to speak. It's an initialism. It\u2019s the first letters of the words 'artificial intelligence', but it\u2019s not pronounced like a new word, just the initial letters. Right, time now to review today\u2019s vocabulary."
+    },
+    {
+      "author": "Rob",
+      "text": "Yes. We had the word extrovert . This describes someone who has a very outgoing personality. An extrovert is confident and socially comfortable."
+    },
+    {
+      "author": "Neil",
+      "text": "By contrast, an introvert is someone who is shy and not comfortable in social situations and doesn\u2019t like being the centre of attention."
+    },
+    {
+      "author": "Rob",
+      "text": "Our report today talked about the findings of some new research. A finding is something that has been learnt, discovered or indeed, found out. It is the conclusion that is reached."
+    },
+    {
+      "author": "Neil",
+      "text": "Then we had unconstrained to describe the experiment which was not carried out in a controlled environment. So unconstrained means 'not limited or restricted'."
+    },
+    {
+      "author": "Rob",
+      "text": "Our next word was gaze . This is a word that means 'our way of looking at something'."
+    },
+    {
+      "author": "Neil",
+      "text": "Yes, the findings of the research suggest that our personality can affect our gaze ."
+    },
+    {
+      "author": "Rob",
+      "text": "And this was something the computer was able to figure out . To figure out means 'to study something and reach an answer to a particular question or problem'."
+    },
+    {
+      "author": "Neil",
+      "text": "Right! Well, you know what I\u2019ve just figured out ?"
+    },
+    {
+      "author": "Rob",
+      "text": "Do tell!"
+    },
+    {
+      "author": "Neil",
+      "text": "It\u2019s time to bring this edition of 6 Minute English to an end. We hope you can join us again, but until then we are bbclearningenglish.com and you can find us on social media, online and on our app. Bye for now."
+    },
+    {
+      "author": "Rob",
+      "text": "Bye-bye!"
+    }
+  ],
+  "authors": [
+    "Neil",
+    "Rob",
+    "Sabrina Hoppe"
+  ]
+}

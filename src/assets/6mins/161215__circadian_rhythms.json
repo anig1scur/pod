@@ -1,0 +1,210 @@
+{
+  "title": "When do you feel sleepy?",
+  "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p04grhhz.jpg",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-161215",
+  "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/161215_6min_english_circadian_rhythms_download.mp3",
+  "intro": [
+    "Alice and Neil discuss circadian rhythms \u2013 the so-called body clock that influences an organism's daily cycle of physical, mental and behavioural changes \u2013 And what shift workers can do to help."
+  ],
+  "this_week_question": [
+    "What does the word 'circadian' mean? Is it\u2026",
+    "a) around a day?",
+    "b) every day?",
+    "c) twice a day?",
+    "You'll hear the answer at the end of the programme."
+  ],
+  "vocab": [
+    {
+      "text": "circadian rhythm",
+      "desc": "a cycle that tells our bodies among other things when to sleep, get up, and eat"
+    },
+    {
+      "text": "synchronise",
+      "desc": "adjust"
+    },
+    {
+      "text": "jet lag",
+      "desc": "disruption of our circadian rhythms caused by high-speed travel across different time zones, which can cause tiredness and sleep problems"
+    },
+    {
+      "text": "oscillate",
+      "desc": "move back and forth in a regular rhythm"
+    },
+    {
+      "text": "endogenous",
+      "desc": "internal"
+    },
+    {
+      "text": "shift work",
+      "desc": "work that takes place outside the traditional 9 to 5 day"
+    },
+    {
+      "text": "modulate",
+      "desc": "adjust or change"
+    },
+    {
+      "text": "naps",
+      "desc": "short sleeps"
+    }
+  ],
+  "transcript": [
+    {
+      "author": "Alice",
+      "text": "Hello and welcome to 6 Minute English. I'm Alice\u2026"
+    },
+    {
+      "author": "Neil",
+      "text": "And I'm Neil. And I feel terrible!"
+    },
+    {
+      "author": "Alice",
+      "text": "You look terrible, Neil \u2013 if you don't mind me saying so!"
+    },
+    {
+      "author": "Neil",
+      "text": "It's because I had to get up really early this morning."
+    },
+    {
+      "author": "Alice",
+      "text": "Oh dear! What time did you have to get up?"
+    },
+    {
+      "author": "Neil",
+      "text": "Eight o'clock."
+    },
+    {
+      "author": "Alice",
+      "text": "Oh, Neil! That isn't early! I get up at six every day. It's so peaceful early in the morning."
+    },
+    {
+      "author": "Neil",
+      "text": "Hmm. Well, some people are morning people and others\u2026 aren't!"
+    },
+    {
+      "author": "Alice",
+      "text": "Yes. Well, today we're talking about the biological reason for this \u2013 it's all about circadian rhythms . They are produced by a so-called body clock in our brains that regulates our body functions: our body temperature, sleepiness and alertness, hunger, and hormone levels. Plants, animals, and many microbes have circadian rhythms."
+    },
+    {
+      "author": "Neil",
+      "text": "You know a lot about circadian rhythms."
+    },
+    {
+      "author": "Alice",
+      "text": "And I'll ask you a question related to them. What does the word 'circadian' mean? Is it\u2026 a) around a day? b) every day? or c) twice a day?"
+    },
+    {
+      "author": "Neil",
+      "text": "Hmm. I'm going to say a) around a day."
+    },
+    {
+      "author": "Alice",
+      "text": "Well, we'll find out whether you got the answer right or not later on in the show. Now let's talk about circadian rhythms and our internal clock."
+    },
+    {
+      "author": "Neil",
+      "text": "Why do our bodies need an internal clock to tell us where we are in the day? Isn't it obvious?"
+    },
+    {
+      "author": "Alice",
+      "text": "No, it isn't \u2013 take jet lag, for example. We rely on the predictable cycle of light or dark in a 24-hour period to synchronise \u2013 or adjust \u2013 our body clocks to the environment \u2013 and if we mess about with the light and dark cycle by flying into a new time zone, it makes us feel really bad!"
+    },
+    {
+      "author": "Neil",
+      "text": "Good point \u2013 jet lag is the disruption of our circadian rhythms caused by high-speed travel across different time zones, which can cause tiredness and sleep problems. But Alice, if we rely on day turning to night to adjust our body clocks, what happens to blind people? \u2013 Because I assume their body clocks can't do this."
+    },
+    {
+      "author": "Alice",
+      "text": "Blind people who have some light perception are able to synchronise their circadian rhythms to the light-dark cycle. But those who have no light perception at all\u2026 well, let's listen now to Debra Skene, Professor of Neuroendocrinology at the University of Surrey. She can explain what happens."
+    },
+    {
+      "author": "INSERT",
+      "text": "Debra Skene, Professor of Neuroendocrinology at the University of Surrey Totally blind people \u2013 they've lost that connection between the light-dark circle and the clock. So there isn't anything wrong with the clock but the clock ticks and oscillates at its own endogenous period just the same as if I were to put you in a dark cave. Your biological internal clock would oscillate at your endogenous circadian period."
+    },
+    {
+      "author": "Neil",
+      "text": "So if you're totally blind \u2013 or able to see but living in a dark cave \u2013 you have a ticking clock but with no connection to the outside world. The clock oscillates at its own endogenous , or internal, period."
+    },
+    {
+      "author": "Alice",
+      "text": "Oscillate means to move back and forth in a regular rhythm \u2013 like the pendulum on a clock."
+    },
+    {
+      "author": "Neil",
+      "text": "Do you think my endogenous clock ticks faster than yours, Alice?"
+    },
+    {
+      "author": "Alice",
+      "text": "It isn't a competition, Neil. And actually, mine probably ticks faster than yours since I'm a morning person. Anyway, the normal range in humans is between 23.8 to 24.8 hours. And this is also true for totally blind people."
+    },
+    {
+      "author": "Neil",
+      "text": "But their clocks are free-running \u2013 they don't get cues from the outside environment telling them when to wake up, when to eat, when to feel sleepy. So that means they might feel sleepy at the wrong time of day \u2013 for example, when they're at work. Or alert in the middle of the night when they should be asleep."
+    },
+    {
+      "author": "Alice",
+      "text": "It's worth talking about people who do shift work too \u2013 which means work that takes place outside the traditional 9 to 5 day."
+    },
+    {
+      "author": "Neil",
+      "text": "Shift workers may suffer similar problems to blind people because they are trying to sleep against the clock. They might sleep in the day and work at night for example \u2013 which goes against the light-dark pattern."
+    },
+    {
+      "author": "Alice",
+      "text": "There are some long-term health problems associated with shift work \u2013 certain cancers, heart disease, and obesity."
+    },
+    {
+      "author": "Neil",
+      "text": "So what can people do to help adapt their circadian rhythms to a night shift schedule?"
+    },
+    {
+      "author": "Alice",
+      "text": "Well, let's hear what Professor Debra Skene has to say about it."
+    },
+    {
+      "author": "INSERT",
+      "text": "Debra Skene, Professor of Neuroendocrinology at the University of Surrey We do think that exercise and food, caffeine, may be able to modulate in some way, so has some influence on circadian timing, but not as strongly as the light-dark cycle."
+    },
+    {
+      "author": "Neil",
+      "text": "So the strongest influence over our circadian rhythm is the light-dark cycle. We can't alter night and day, after all!"
+    },
+    {
+      "author": "Alice",
+      "text": "Debra Skene says that other cues such as food and exercise will modulate \u2013 or adjust \u2013 the body clock. So eating three well-balanced meals at regular times each day can help your body clock adapt to an unusual schedule."
+    },
+    {
+      "author": "Neil",
+      "text": "Taking naps \u2013 or short sleeps \u2013 just before you start a night shift can help you feel more alert. And keeping to the same sleep schedule every day will also help."
+    },
+    {
+      "author": "Alice",
+      "text": "And don't forget caffeine \u2013 my old friend! A cup of coffee works wonders for me in the morning. Now remember I asked: What does 'circadian' mean? Is it\u2026 a) around a day, b) every day or c) twice a day?"
+    },
+    {
+      "author": "Neil",
+      "text": "And I said around a day."
+    },
+    {
+      "author": "Alice",
+      "text": "And you were\u2026 right! Well done, Neil. The term 'circadian' comes from the Latin circa , meaning 'around' (or 'approximately'), and di \u0113 m , meaning 'day'. Now, let's hear the words we learned today."
+    },
+    {
+      "author": "Neil",
+      "text": "They are: circadian rhythms synchronise jet lag oscillate endogenous shift work modulate naps"
+    },
+    {
+      "author": "Alice",
+      "text": "That's the end of today's 6 Minute English. Don't forget to join us again soon!"
+    },
+    {
+      "author": "Both",
+      "text": "Bye!"
+    }
+  ],
+  "authors": [
+    "Alice",
+    "Neil",
+    "INSERT",
+    "Both"
+  ]
+}
