@@ -9,6 +9,30 @@
 }
 
 @layer components {
+
+  .fill_in {
+    @apply p-6;
+
+    .script {
+      @apply flex mb-2;
+
+      h3 {
+        @apply text-xl min-w-28 max-w-28 font-bold text-ellipsis text-nowrap overflow-hidden mr-4;
+      }
+
+      p {
+        @apply text-xl;
+      }
+
+
+      input {
+        width: 30px;
+        border: 1px solid #333;
+      }
+
+    }
+  }
+
   .logo {
     @apply relative;
 

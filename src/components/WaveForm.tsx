@@ -20,7 +20,7 @@ const WaveForm: FC<waveFormProps> = (props) => {
       const wavesurfer = WaveSurfer.create({
         container: waveform.current,
         url: props.url,
-        waveColor: props.waveColor || 'blue',
+        waveColor: props.waveColor || 'pink',
         progressColor: props.progressColor || 'dark',
       });
       wavesurfer.load(props.url);

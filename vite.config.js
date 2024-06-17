@@ -19,6 +19,9 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, 'env');
 
   return {
+    define: {
+      'process.env': {}
+    },
     server: { hmr: true },
     plugins: [
       react({

@@ -1,7 +1,6 @@
 import React, { CSSProperties, FC } from 'react';
 import cx from 'classnames';
 
-
 export enum Theme {
   colorful = "colorful",
 }

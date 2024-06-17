@@ -102,5 +102,4 @@ with open("./example.html", "r") as f:
                 if text and text != "Note: This is not a word-for-word transcript.":
                     grouped_content[current_section].append(text)
 
-with open("./example.ts", "w") as f:
-    f.write("export const content = " + str(grouped_content))
+print(grouped_content)
