@@ -55,7 +55,7 @@
       }
 
       p {
-        @apply text-xl leading-8 break-words;
+        @apply text-xl break-words leading-8;
       }
 
       .blank {
@@ -63,7 +63,7 @@
       }
 
       input {
-        @apply text-lg w-[25px] h-[25px] outline outline-2 -outline-offset-1 outline-[#00000066] text-center bg-transparent;
+        @apply text-lg w-[25px] h-[25px] font-medium outline outline-2 -outline-offset-1 outline-[#00000066] text-center bg-transparent;
 
         &:focus {
           @apply outline-2 outline-pink-500 z-10 relative;
@@ -101,15 +101,14 @@
     }
 
     li {
-
-      // @apply flex items-center gap-2
+      @apply flex gap-2 items-baseline;
       &:not(:last-child) {
         @apply mb-2;
       }
     }
 
     .text {
-      @apply text-2xl font-bold mb-0;
+      @apply text-xl font-bold text-nowrap
     }
 
     .desc {

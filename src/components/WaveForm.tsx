@@ -1,38 +1,62 @@
-import React, { useEffect, FC, useRef } from 'react';
-import WaveSurfer from 'wavesurfer.js'
+import { useEffect, forwardRef, useRef, useImperativeHandle } from 'react';
+import WaveSurfer from 'wavesurfer.js';
 
-
-export type waveFormProps = {
+export type WaveFormProps = {
   url: string;
+  playing?: boolean;
   waveColor?: string;
   progressColor?: string;
-}
+  onInteract?: () => void;
+};
 
+export type WaveFormHandle = {
+  seek: (time: number) => void;
+};
 
-const WaveForm: FC<waveFormProps> = (props) => {
-
-
+const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
   const waveform = useRef<HTMLDivElement>(null);
+  const wavesurfer = useRef<WaveSurfer>();
 
   useEffect(() => {
-    if (waveform.current) {
-      const wavesurfer = WaveSurfer.create({
+    if (waveform.current && !wavesurfer.current) {
+      const _wavesurfer = WaveSurfer.create({
         container: waveform.current,
-        url: props.url,
         waveColor: props.waveColor || 'pink',
         progressColor: props.progressColor || '#D93D86',
       });
-      wavesurfer.load(props.url);
+
+      _wavesurfer.on('interaction', () => {
+        if (props.onInteract) {
+          props.onInteract();
+        }
+      });
+
+      _wavesurfer.load(props.url);
+      wavesurfer.current = _wavesurfer;
     }
-  }, [props.url, props.waveColor, props.progressColor]);
 
+    return () => {
+      wavesurfer.current?.destroy();
+    };
+  }, [props.url]);
 
-  return (
-    <div id="waveform" ref={ waveform } style={ { height: "100px" } }/>
-  );
+  useEffect(() => {
+    if (props.playing) {
+      wavesurfer.current?.play();
+    } else {
+      wavesurfer.current?.pause();
+    }
+  }, [props.playing]);
 
-}
+  useImperativeHandle(ref, () => ({
+    seek(time: number) {
+      const curTime = wavesurfer.current?.getCurrentTime() || 0;
+      const duration = wavesurfer.current?.getDuration() || 1;
+      wavesurfer.current?.seekTo((curTime + time) / duration);
+    }
+  }));
 
+  return <div id="waveform" ref={ waveform } style={ { height: '100px' } } />;
+});
 
 export default WaveForm;
-

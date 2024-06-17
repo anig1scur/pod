@@ -43,7 +43,7 @@ with open("./example.html", "r") as f:
     if image:
         data["img"] = image["content"]
 
-    # 2. 处理文本
+    # 2. process meta
     richtext = soup.find("div", class_=["widget-richtext"])
     texts = richtext.find(class_=["text"])
 
