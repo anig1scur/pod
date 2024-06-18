@@ -6,7 +6,7 @@ export const loadCEFR = async (type: CEFR): Promise<string[]> => {
   const words: string[] = [];
 
   try {
-    const res = await fetch(`/assets/vocabulary/${ type }.txt`);
+    const res = await fetch(`./assets/vocabulary/${ type }.txt`);
     const text = await res.text();
     const lines = text.split('\n');
     lines.forEach((line) => {

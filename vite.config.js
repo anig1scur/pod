@@ -2,9 +2,9 @@ import { defineConfig } from 'vite';
 import react from "@vitejs/plugin-react-swc";
 import path from 'path';
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ }) => {
   return {
-    base: mode === 'production' ? '/pod/' : '/',
+    base: process.env.GITHUB_ACTIONS === '1' ? '/pod/' : '/',
     define: {
       _global: ({}),
     },
