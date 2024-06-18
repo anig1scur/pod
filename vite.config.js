@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig(({ mode }) => {
   return {
+    base: mode === 'production' ? '/pod/' : '/',
     define: {
       _global: ({}),
     },
