@@ -3,6 +3,7 @@ import WaveSurfer from 'wavesurfer.js';
 
 export type WaveFormProps = {
   url: string;
+  peaks?: number[];
   playing?: boolean;
   waveColor?: string;
   progressColor?: string;
@@ -18,7 +19,7 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
   const wavesurfer = useRef<WaveSurfer>();
 
   useEffect(() => {
-    if (waveform.current && !wavesurfer.current) {
+    if (waveform.current) {
       const _wavesurfer = WaveSurfer.create({
         container: waveform.current,
         waveColor: props.waveColor || 'pink',
@@ -31,7 +32,12 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
         }
       });
 
-      _wavesurfer.load(props.url);
+      if (props.peaks) {
+        _wavesurfer.load(props.url, [props.peaks])
+      }
+      else {
+        _wavesurfer.load(props.url);
+      }
       wavesurfer.current = _wavesurfer;
     }
 

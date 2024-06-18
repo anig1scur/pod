@@ -2,7 +2,7 @@ import { EpisodeData } from '@/types';
 
 export const loadEpisode = async (type: string, fname: string): Promise<EpisodeData> => {
   let content;
-  let file = `/assets/${ type }/${ fname }.json`;
+  let file = `/assets/${ type }/scripts/${ fname }.json`;
 
   try {
     const res = await fetch(file);

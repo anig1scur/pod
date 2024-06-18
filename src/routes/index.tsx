@@ -10,6 +10,11 @@ export default [
     children: [{ index: true, element: <Episode /> }],
   },
   {
+    path: '/6mins/:id',
+    element: <Episode />,
+    children: [{ index: true, element: <Episode /> }],
+  },
+  {
     path: '/*',
     element: <NotFound />,
   },

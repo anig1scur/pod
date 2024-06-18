@@ -165,11 +165,11 @@ def extract_ts():
     bbc_6min_episodes = []
     from glob import glob
 
-    jsons = glob("../assets/6mins/*.json")
+    jsons = glob("../public/assets/6mins/*.json")
     for j in jsons:
         bbc_6min_episodes.append(j.split("/")[-1][:-5])
 
-    with open("../assets/6mins/index.ts", "w+") as f:
+    with open("./src/utils/6min.ts", "w+") as f:
         bbc_6min_episodes = sorted(bbc_6min_episodes)
         f.write(f"const episodes = {json.dumps(bbc_6min_episodes)};")
 
@@ -186,12 +186,12 @@ def run():
         fname = data["audio"].split("/")[-1][:-13]
         for r in RENAMES:
             fname = fname.replace(r, "")
-        with open(f"../assets/6mins/{fname}.json", "w+") as f:
+        with open(f"../public/assets/6mins/{fname}.json", "w+") as f:
             f.write(json.dumps(data, indent=2))
 
 
 if __name__ == "__main__":
     # 1. run
-    run()
+    # run()
     # 2. generate index.ts
     extract_ts()

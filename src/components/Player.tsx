@@ -3,6 +3,7 @@ import WaveForm, { WaveFormHandle } from './WaveForm';
 
 export type playerProps = {
   audio_url: string;
+  peaks: number[];
   last?: string;
   next?: string;
   toNext?: () => void;
@@ -43,6 +44,7 @@ const Player: FC<playerProps> = (props) => {
   return (
     <div className='player'>
       <WaveForm
+        peaks={props.peaks}
         ref={ waveFormRef }
         url={ audio_url }
         playing={ isPlaying }

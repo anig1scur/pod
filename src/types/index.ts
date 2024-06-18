@@ -22,4 +22,5 @@ export type EpisodeData = {
   }[];
   intro: string[];
   transcript: Scripts;
+  wave_peaks: number[];
 }

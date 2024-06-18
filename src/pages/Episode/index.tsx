@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Logo from '@/components/Logo';
 import FillIn from '@/components/mode/FillIn';
 import Player from '@/components/Player';
@@ -8,9 +9,17 @@ import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
 import { episodes } from "@/utils/6min";
 
-const Episode = () => {
+
+export type episodeProps = {
+  id?: string;
+}
+
+const Episode: FC<episodeProps> = (props) => {
+
+  const id = props.id || useParams()['id'];
+
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
-  const [curIndex, setCurIndex] = useState<number>(episodes.length - 1);
+  const [curIndex, setCurIndex] = useState<number>(0);
   const [lastNext, setLastNext] = useState<{
     last?: string;
     next?: string;
@@ -23,6 +32,15 @@ const Episode = () => {
     };
     fetchEpisode();
   }, [curIndex]);
+
+  useEffect(() => {
+    if (id) {
+      setCurIndex(episodes.indexOf(id));
+    }
+  }, [id])
+
+  //bbc 音频链接被墙了
+  const pod_audio_url = `/assets/6mins/audios/${ episodes[curIndex] }.mp3`;
 
   useEffect(() => {
     const last = episodes[curIndex - 1];
@@ -43,12 +61,13 @@ const Episode = () => {
       <main>
         <section className="meta">
           <h1>{ episodeData.title }</h1>
-          <Player audio_url={ episodeData.audio.replace("http://", "https://") } { ...lastNext } toLast={ () => {
-            setCurIndex(curIndex - 1);
-          } } toNext={ () => {
-            setCurIndex(curIndex + 1);
-
-          } } />
+          <Player
+            peaks={ episodeData.wave_peaks }
+            audio_url={ pod_audio_url } { ...lastNext } toLast={ () => {
+              setCurIndex(curIndex - 1);
+            } } toNext={ () => {
+              setCurIndex(curIndex + 1);
+            } } />
           <Info vocab={ episodeData.vocab } intro={ episodeData.intro } />
         </section>
         <section className="pro">
