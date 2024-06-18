@@ -17,7 +17,7 @@ export type episodeProps = {
 const Episode: FC<episodeProps> = (props) => {
 
   const id = props.id || useParams()['id'];
-
+  const [audio_url, setAudioUrl] = useState<string>("");
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
   const [curIndex, setCurIndex] = useState<number>(0);
   const [lastNext, setLastNext] = useState<{
@@ -33,20 +33,35 @@ const Episode: FC<episodeProps> = (props) => {
     fetchEpisode();
   }, [curIndex]);
 
-  useEffect(() => {
-    if (id) {
-      setCurIndex(episodes.indexOf(id));
-    }
-  }, [id])
-
-  //bbc 音频链接被墙了
-  const pod_audio_url = `/assets/6mins/audios/${ episodes[curIndex] }.mp3`;
 
   useEffect(() => {
     const last = episodes[curIndex - 1];
     const next = episodes[curIndex + 1];
     setLastNext({ last, next });
   }, [curIndex]);
+
+  useEffect(() => {
+    //bbc 音频链接被墙了
+    const pod_audio_url = `/assets/6mins/audios/${ episodes[curIndex] }.mp3`;
+
+    fetch(pod_audio_url,
+      { method: "HEAD" }
+    ).then((res) => {
+      if (res.ok) {
+        setAudioUrl(pod_audio_url);
+      } else {
+        setAudioUrl("")
+      }
+    });
+
+  }, [curIndex]);
+
+
+  useEffect(() => {
+    if (id) {
+      setCurIndex(episodes.indexOf(id));
+    }
+  }, [id])
 
 
   if (!episodeData) {
@@ -63,7 +78,7 @@ const Episode: FC<episodeProps> = (props) => {
           <h1>{ episodeData.title }</h1>
           <Player
             peaks={ episodeData.wave_peaks }
-            audio_url={ pod_audio_url } { ...lastNext } toLast={ () => {
+            audio_url={ audio_url || episodeData.audio } { ...lastNext } toLast={ () => {
               setCurIndex(curIndex - 1);
             } } toNext={ () => {
               setCurIndex(curIndex + 1);

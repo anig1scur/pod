@@ -165,13 +165,13 @@ def extract_ts():
     bbc_6min_episodes = []
     from glob import glob
 
-    jsons = glob("../public/assets/6mins/*.json")
+    jsons = glob("./public/assets/6mins/scripts/*.json")
     for j in jsons:
         bbc_6min_episodes.append(j.split("/")[-1][:-5])
 
     with open("./src/utils/6min.ts", "w+") as f:
         bbc_6min_episodes = sorted(bbc_6min_episodes)
-        f.write(f"const episodes = {json.dumps(bbc_6min_episodes)};")
+        f.write(f"export const episodes = {json.dumps(bbc_6min_episodes)};")
 
 
 def run():
