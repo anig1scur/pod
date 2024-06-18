@@ -1,8 +1,15 @@
 // load words from txt
 
-type CEFR = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
+export enum VocabType {
+  B1 = 'B1',
+  B2 = 'B2',
+  C1 = 'C1',
+  AWL_570 = 'AWL_570',
+  GRE_Manhattan_Prep_1000 = 'GRE_Manhattan_Prep_1000',
+  GRE_Mason_2000 = 'GRE_Mason_2000',
+}
 
-export const loadCEFR = async (type: CEFR): Promise<string[]> => {
+export const loadVocab = async (type: VocabType): Promise<string[]> => {
   const words: string[] = [];
 
   try {
@@ -13,7 +20,7 @@ export const loadCEFR = async (type: CEFR): Promise<string[]> => {
       words.push(line.trim());
     });
   } catch (error) {
-    console.error("Failed to load CEFR data:", error);
+    console.error("Failed to load vocabulary :", error);
   }
 
   return words;

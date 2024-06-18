@@ -8,6 +8,8 @@ import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
 import { episodes } from "@/utils/6min";
+import { VocabType } from '@/utils/words';
+import Dropdown from '@/components/Dropdown';
 
 
 export type episodeProps = {
@@ -20,6 +22,7 @@ const Episode: FC<episodeProps> = (props) => {
   const [audio_url, setAudioUrl] = useState<string>("");
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
   const [curIndex, setCurIndex] = useState<number>(id ? episodes.indexOf(id) : 0);
+  const [curVocab, setCurVocab] = useState<VocabType>(VocabType.AWL_570);
 
   const navigate = useNavigate();
 
@@ -36,7 +39,6 @@ const Episode: FC<episodeProps> = (props) => {
   }, [curIndex]);
 
   useEffect(() => {
-    //bbc 音频链接被墙了
     const pod_audio_url = `./assets/6mins/audios/${ episodes[curIndex] }.mp3`;
 
     fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
@@ -52,7 +54,7 @@ const Episode: FC<episodeProps> = (props) => {
   }, [curIndex]);
 
   if (!episodeData) {
-    return <div>Loading...</div>;
+    return null;
   }
 
   return (
@@ -76,8 +78,11 @@ const Episode: FC<episodeProps> = (props) => {
           <Info vocab={ episodeData.vocab } intro={ episodeData.intro } />
         </section>
         <section className="pro">
-          <ModeTab type={ Mode.F } />
-          <FillIn scripts={ episodeData.transcript } />
+          <div className="operation">
+            <ModeTab type={ Mode.F } />
+            <Dropdown options={ Object.values(VocabType) } selected={ curVocab } onSelect={ setCurVocab } />
+          </div>
+          <FillIn scripts={ episodeData.transcript } vocab={ curVocab } />
         </section>
       </main>
     </div>

@@ -26,12 +26,12 @@ const Player: FC<playerProps> = (props) => {
   }, [isPlaying]);
 
   const _toNext = () => {
-    toNext && toNext();
+    next && toNext && toNext();
     setIsPlaying(false);
   }
 
   const _toLast = () => {
-    toLast && toLast();
+    last && toLast && toLast();
     setIsPlaying(false);
   }
 
@@ -80,7 +80,7 @@ const Player: FC<playerProps> = (props) => {
           setIsPlaying(true);
         } } />
       <div className='control'>
-        <div className='title'>{ last || "NO LAST EPISODE" }</div>
+        <div className='title' title={ last || "NO LAST EPISODE" } >{ last || "NO LAST EPISODE" }</div>
         <div className='backfoward' onClick={ backfoward } />
         <div className='last' onClick={ _toLast } />
         <div className={
@@ -90,7 +90,7 @@ const Player: FC<playerProps> = (props) => {
         } } />
         <div className='next' onClick={ _toNext } />
         <div className='forward' onClick={ forward } />
-        <div className='title'>{ next || "NO NEXT EPISODE" }</div>
+        <div className='title' title={ next || "NO NEXT EPISODE" }>{ next || "NO NEXT EPISODE" }</div>
       </div>
     </div>
   );

@@ -70,12 +70,11 @@
   }
 
   .fill_in {
-    padding-right: 15px;
-
     .scripts {
       height: 70vh;
       max-height: 70vh;
       overflow-y: auto;
+      padding-right: 20px;
 
       .script {
         @apply flex mb-2;
@@ -164,18 +163,15 @@
       @apply text-xl font-bold text-nowrap
     }
 
-    .desc {
-      @apply text-zinc-700;
-    }
   }
 
   .episode {
     >header {
-      @apply h-28 flex justify-center;
+      @apply h-28 flex;
     }
 
     >main {
-      @apply flex flex-nowrap gap-12;
+      @apply flex flex-nowrap gap-16;
 
       .meta {
         flex: 1 0 50%;
@@ -188,13 +184,16 @@
 
       .pro {
         flex: 1 0 50%;
-        padding-top: 20px;
+
+        .operation {
+          @apply flex justify-between;
+        }
       }
     }
   }
 
   .mode_tab {
-    @apply relative h-28 w-60 m-auto;
+    @apply relative h-28 w-60;
 
     div {
       @apply cursor-pointer absolute text-2xl font-bold p-2 border-black border-[3px] bg-white w-24 text-center;
@@ -219,6 +218,27 @@
 
       &.active {
         @apply bg-[#D93D86] text-white z-10;
+      }
+    }
+  }
+
+  .dropdown {
+    @apply relative w-64;
+
+    .selected {
+      @apply flex font-medium items-center gap-2 p-2 border-[3px] border-black rounded-lg cursor-pointer;
+    }
+
+    .options {
+
+      @apply absolute top-12 left-0 w-full bg-white border-[3px] border-black rounded-lg p-2;
+
+      .option {
+        @apply p-2 cursor-pointer;
+
+        &:hover {
+          @apply bg-[#D93D86] text-white font-semibold rounded-lg;
+        }
       }
     }
   }

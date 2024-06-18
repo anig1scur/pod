@@ -1,14 +1,15 @@
 import React, { FC, useState, useCallback, useEffect, useRef } from 'react';
 import { Scripts } from '@/types';
-import { loadCEFR } from '@/utils/words';
+import { loadVocab, VocabType } from '@/utils/words';
 
 export type fillInProps = {
   scripts: Scripts;
+  vocab: VocabType;
 }
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts } = props;
+  const { scripts, vocab } = props;
   const [words, setWords] = useState<string[]>([]);
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
@@ -30,12 +31,12 @@ const FillIn: FC<fillInProps> = (props) => {
 
   useEffect(() => {
     const fetchWords = async () => {
-      const fetchedWords = await loadCEFR('B2');
+      const fetchedWords = await loadVocab(vocab || 'C1');
       setWords(fetchedWords);
     };
 
     fetchWords();
-  }, []);
+  }, [vocab]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     const index = parseInt(e.currentTarget.dataset.index || '0');

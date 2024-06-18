@@ -1,4 +1,4 @@
-import React, { useEffect, FC, useRef } from 'react';
+import React, { FC } from 'react';
 
 
 export type infoProps = {

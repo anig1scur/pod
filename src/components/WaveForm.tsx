@@ -61,7 +61,7 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
     }
   }));
 
-  return <div id="waveform" ref={ waveform } style={ { height: '100px' } } />;
+  return <div id="waveform" ref={ waveform } />;
 });
 
 export default WaveForm;
