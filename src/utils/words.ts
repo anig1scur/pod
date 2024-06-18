@@ -1,6 +1,6 @@
 // load words from txt
 
-type CEFR = 'A1' | 'A2' | 'B1' | 'B2' | 'C1'; // 你需要根据实际的 CEFR 类型定义它
+type CEFR = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
 
 export const loadCEFR = async (type: CEFR): Promise<string[]> => {
   const words: string[] = [];

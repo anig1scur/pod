@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Logo from '@/components/Logo';
 import FillIn from '@/components/mode/FillIn';
 import Player from '@/components/Player';
@@ -19,11 +19,9 @@ const Episode: FC<episodeProps> = (props) => {
   const id = props.id || useParams()['id'];
   const [audio_url, setAudioUrl] = useState<string>("");
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
-  const [curIndex, setCurIndex] = useState<number>(0);
-  const [lastNext, setLastNext] = useState<{
-    last?: string;
-    next?: string;
-  }>({});
+  const [curIndex, setCurIndex] = useState<number>(id ? episodes.indexOf(id) : 0);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchEpisode = async () => {
@@ -33,36 +31,25 @@ const Episode: FC<episodeProps> = (props) => {
     fetchEpisode();
   }, [curIndex]);
 
-
   useEffect(() => {
-    const last = episodes[curIndex - 1];
-    const next = episodes[curIndex + 1];
-    setLastNext({ last, next });
+    navigate(`/6mins/${ episodes[curIndex] }`)
   }, [curIndex]);
 
   useEffect(() => {
     //bbc 音频链接被墙了
-    const pod_audio_url = `/assets/6mins/audios/${ episodes[curIndex] }.mp3`;
+    const pod_audio_url = `./assets/6mins/audios/${ episodes[curIndex] }.mp3`;
 
-    fetch(pod_audio_url,
-      { method: "HEAD" }
-    ).then((res) => {
+    fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
       if (res.ok) {
         setAudioUrl(pod_audio_url);
       } else {
-        setAudioUrl("")
+        if (episodeData) {
+          setAudioUrl(episodeData.audio.replace("http://", "https://"));
+        }
       }
     });
 
   }, [curIndex]);
-
-
-  useEffect(() => {
-    if (id) {
-      setCurIndex(episodes.indexOf(id));
-    }
-  }, [id])
-
 
   if (!episodeData) {
     return <div>Loading...</div>;
@@ -77,8 +64,11 @@ const Episode: FC<episodeProps> = (props) => {
         <section className="meta">
           <h1>{ episodeData.title }</h1>
           <Player
+            audio_url={ audio_url }
             peaks={ episodeData.wave_peaks }
-            audio_url={ audio_url || episodeData.audio } { ...lastNext } toLast={ () => {
+            last={ episodes[curIndex - 1] }
+            next={ episodes[curIndex + 1] }
+            toLast={ () => {
               setCurIndex(curIndex - 1);
             } } toNext={ () => {
               setCurIndex(curIndex + 1);

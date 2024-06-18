@@ -17,20 +17,48 @@ const Player: FC<playerProps> = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const waveFormRef = useRef<WaveFormHandle>(null);
 
+  const backfoward = useCallback(() => {
+    waveFormRef.current?.seek(-2);
+  }, [isPlaying]);
+
+  const forward = useCallback(() => {
+    waveFormRef.current?.seek(3);
+  }, [isPlaying]);
+
+  const _toNext = () => {
+    toNext && toNext();
+    setIsPlaying(false);
+  }
+
+  const _toLast = () => {
+    toLast && toLast();
+    setIsPlaying(false);
+  }
+
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
     if (e.key === ' ') {
       e.preventDefault();
       setIsPlaying(prevIsPlaying => !prevIsPlaying);
     }
 
+    if (e.ctrlKey && e.key === 'ArrowRight') {
+      e.preventDefault();
+      _toNext();
+    }
+
+    if (e.ctrlKey && e.key === 'ArrowLeft') {
+      e.preventDefault();
+      _toLast();
+    }
+
     if (e.key === 'ArrowRight') {
       e.preventDefault();
-      waveFormRef.current?.seek(3);
+      forward();
     }
 
     if (e.key === 'ArrowLeft') {
       e.preventDefault();
-      waveFormRef.current?.seek(-2);
+      backfoward();
     }
   }, [isPlaying]);
 
@@ -44,7 +72,7 @@ const Player: FC<playerProps> = (props) => {
   return (
     <div className='player'>
       <WaveForm
-        peaks={props.peaks}
+        peaks={ props.peaks }
         ref={ waveFormRef }
         url={ audio_url }
         playing={ isPlaying }
@@ -52,13 +80,17 @@ const Player: FC<playerProps> = (props) => {
           setIsPlaying(true);
         } } />
       <div className='control'>
-        <div className='last' data-title={ last } onClick={ toLast }>Last</div>
-        <div onClick={ () => {
+        <div className='title'>{ last || "NO LAST EPISODE" }</div>
+        <div className='backfoward' onClick={ backfoward } />
+        <div className='last' onClick={ _toLast } />
+        <div className={
+          isPlaying ? 'pause' : 'play'
+        } onClick={ () => {
           setIsPlaying(!isPlaying)
-        } }>{
-            isPlaying ? 'Pause' : 'Play' }
-        </div>
-        <div className='next' data-title={ next } onClick={ toNext } >Next</div>
+        } } />
+        <div className='next' onClick={ _toNext } />
+        <div className='forward' onClick={ forward } />
+        <div className='title'>{ next || "NO NEXT EPISODE" }</div>
       </div>
     </div>
   );

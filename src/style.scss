@@ -34,21 +34,38 @@
     .control {
       @apply flex items-center gap-4;
 
+      >div {
+        @apply w-8 h-8 bg-contain bg-no-repeat bg-center cursor-pointer;
+      }
+
       .last {
-        &::before {
-          content: attr(data-title);
-        }
+        background-image: url("/icons/last.svg");
+      }
+
+      .play {
+        background-image: url("/icons/play.svg");
+      }
+
+      .pause {
+        background-image: url("/icons/pause.svg");
       }
 
       .next {
-        &::after {
-          content: attr(data-title);
-        }
+        background-image: url("/icons/next.svg");
       }
 
-      >div {
-        @apply rounded-3xl bg-black text-white;
+      .backfoward {
+        background-image: url("/icons/back.svg");
       }
+
+      .forward {
+        background-image: url("/icons/forward.svg");
+      }
+
+      .title {
+        @apply text-center w-72 px-3 leading-8 text-ellipsis text-nowrap overflow-hidden bg-black text-white rounded-lg;
+      }
+
     }
   }
 
