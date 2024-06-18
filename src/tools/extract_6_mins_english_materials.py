@@ -170,7 +170,7 @@ def extract_ts():
         bbc_6min_episodes.append(j.split("/")[-1][:-5])
 
     with open("./src/utils/6min.ts", "w+") as f:
-        bbc_6min_episodes = sorted(bbc_6min_episodes)
+        bbc_6min_episodes = reversed(sorted(bbc_6min_episodes))
         f.write(f"export const episodes = {json.dumps(bbc_6min_episodes)};")
 
 
