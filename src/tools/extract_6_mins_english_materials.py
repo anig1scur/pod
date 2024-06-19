@@ -160,18 +160,27 @@ def extract_episode_urls():
 
     return list(dict.fromkeys(urls))
 
-
 def extract_ts():
     bbc_6min_episodes = []
     from glob import glob
 
     jsons = glob("./public/assets/6mins/scripts/*.json")
+    jsons = sorted(jsons)
     for j in jsons:
-        bbc_6min_episodes.append(j.split("/")[-1][:-5])
-
+        episode = {}
+        with open(j, "r") as f:
+            episode = json.load(f)
+            bbc_6min_episodes.append({
+                "id": j.split("/")[-1][:-5],
+                "title": episode.get("title", ""),
+                "img": episode.get("img", ""),
+                "url": episode.get("url", ""),
+                "audio": episode.get("audio", "")
+            })
     with open("./src/utils/6min.ts", "w+") as f:
-        bbc_6min_episodes = reversed(sorted(bbc_6min_episodes))
+        bbc_6min_episodes = list(reversed(bbc_6min_episodes))
         f.write(f"export const episodes = {json.dumps(bbc_6min_episodes)};")
+        f.write(f"\nexport const episodeIds = {json.dumps([e['id'] for e in bbc_6min_episodes])};") 
 
 
 def run():

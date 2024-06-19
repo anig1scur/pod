@@ -7,7 +7,7 @@ import Info from '@/components/Info';
 import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
-import { episodes } from "@/utils/6min";
+import { episodeIds } from "@/utils/6mins";
 import { VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
 
@@ -21,25 +21,25 @@ const Episode: FC<episodeProps> = (props) => {
   const id = props.id || useParams()['id'];
   const [audio_url, setAudioUrl] = useState<string>("");
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
-  const [curIndex, setCurIndex] = useState<number>(id ? episodes.indexOf(id) : 0);
+  const [curIndex, setCurIndex] = useState<number>(id ? episodeIds.indexOf(id) : 0);
   const [curVocab, setCurVocab] = useState<VocabType>(VocabType.AWL_570);
 
   const navigate = useNavigate();
 
   useEffect(() => {
     const fetchEpisode = async () => {
-      const data = await loadEpisode('6mins', episodes[curIndex]);
+      const data = await loadEpisode('6mins', episodeIds[curIndex]);
       setEpisodeData(data);
     };
     fetchEpisode();
   }, [curIndex]);
 
   useEffect(() => {
-    navigate(`/6mins/${ episodes[curIndex] }`)
+    navigate(`/6mins/${ episodeIds[curIndex] }`)
   }, [curIndex]);
 
   useEffect(() => {
-    const pod_audio_url = `./assets/6mins/audios/${ episodes[curIndex] }.mp3`;
+    const pod_audio_url = `./assets/6mins/audios/${ episodeIds[curIndex] }.mp3`;
 
     fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
       if (res.ok) {
@@ -68,8 +68,8 @@ const Episode: FC<episodeProps> = (props) => {
           <Player
             audio_url={ audio_url }
             peaks={ episodeData.wave_peaks }
-            last={ episodes[curIndex - 1] }
-            next={ episodes[curIndex + 1] }
+            last={ episodeIds[curIndex - 1] }
+            next={ episodeIds[curIndex + 1] }
             toLast={ () => {
               setCurIndex(curIndex - 1);
             } } toNext={ () => {
