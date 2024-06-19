@@ -14,10 +14,10 @@
     /* Modules */
     "module": "es2020",
     "moduleResolution": "node",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
       "@/*": [
-        "src/*"
+        "*"
       ]
     },
     "types": [

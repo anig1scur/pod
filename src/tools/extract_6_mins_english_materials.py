@@ -181,6 +181,7 @@ def extract_ts():
         bbc_6min_episodes = list(reversed(bbc_6min_episodes))
         f.write(f"export const episodes = {json.dumps(bbc_6min_episodes)};")
         f.write(f"\nexport const episodeIds = {json.dumps([e['id'] for e in bbc_6min_episodes])};") 
+        f.write(f"\nexport default episodes;")
 
 
 def run():
