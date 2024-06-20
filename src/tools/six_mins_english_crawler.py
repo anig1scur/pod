@@ -172,7 +172,7 @@ def extract_ts():
             episode = json.load(f)
             bbc_6min_episodes.append({
                 "id": j.split("/")[-1][:-5],
-                "title": episode.get("title", ""),
+                "t†itle": episode.get("title", ""),
                 "img": episode.get("img", ""),
                 "url": episode.get("url", ""),
                 "audio": episode.get("audio", "")

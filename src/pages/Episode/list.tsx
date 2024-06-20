@@ -10,9 +10,18 @@ type Episode = {
   audio: string;
 };
 
-type EpisodeListProps = {
-  episodes?: Episode[];
+export enum podType {
+  sixmins = '6mins',
+  sciam = 'sciam',
+  epod = 'epod'
+}
+
+export const FullNameMap = {
+  [podType.sixmins]: '6 Minutes English',
+  [podType.sciam]: 'Scientific American',
+  [podType.epod]: 'English Pod'
 };
+
 
 const EpisodeList = () => {
   const { id } = useParams<{ id: string }>();
@@ -21,7 +30,7 @@ const EpisodeList = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredEpisodes, setFilteredEpisodes] = useState<Episode[]>([]);
 
-  const episodesPerPage = 12;
+  const perPage = 16;
 
   useEffect(() => {
     const fetchEpisodes = async () => {
@@ -40,14 +49,15 @@ const EpisodeList = () => {
   }, [id]);
 
   useEffect(() => {
+    console.log(searchTerm)
     const filtered = episodes.filter(episode =>
       episode.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredEpisodes(filtered);
   }, [searchTerm, episodes]);
 
-  const indexOfLastEpisode = currentPage * episodesPerPage;
-  const indexOfFirstEpisode = indexOfLastEpisode - episodesPerPage;
+  const indexOfLastEpisode = currentPage * perPage;
+  const indexOfFirstEpisode = indexOfLastEpisode - perPage;
   const currentEpisodes = filteredEpisodes.slice(indexOfFirstEpisode, indexOfLastEpisode);
 
   const handleClick = (pageNumber: number) => {
@@ -56,7 +66,7 @@ const EpisodeList = () => {
 
   const renderPagination = () => {
     const pageNumbers = [];
-    const totalPages = Math.ceil(filteredEpisodes.length / episodesPerPage);
+    const totalPages = Math.ceil(filteredEpisodes.length / perPage);
 
     const pageWindow = 3; // Number of pages to show around the current page
     let startPage = Math.max(1, currentPage - pageWindow);
@@ -98,17 +108,21 @@ const EpisodeList = () => {
 
 
   return (
-    <div className="episode-list">
+    <div className="flex flex-col m-auto">
       <header>
         <Logo text="POD!" />
       </header>
       <main className='flex flex-nowrap gap-16 flex-col'>
+        <div className='flex flex-row gap-8'>
+        <h1>{ FullNameMap[id as podType] }</h1>
+        <div className='search-bar'>
         <input
+          className='border-b-[3px] border-black'
           type="text"
-          placeholder="Search episodes..."
           value={ searchTerm }
           onChange={ e => setSearchTerm(e.target.value) }
         />
+        </div></div>
         <div className="episodes-grid">
           { currentEpisodes.map(episode => (
             <Link key={ episode.id } to={ `${ episode.id }` } className='episode_card'>

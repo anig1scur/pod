@@ -169,6 +169,10 @@
     @apply h-28 flex;
   }
 
+  h1 {
+    @apply text-5xl font-bold mb-2;
+  }
+
   .episode {
     >main {
       @apply flex flex-nowrap gap-16;
@@ -176,10 +180,6 @@
       .meta {
         flex: 1 0 50%;
         @apply flex flex-col gap-4;
-
-        h1 {
-          @apply text-5xl font-bold mb-2;
-        }
       }
 
       .pro {
@@ -243,52 +243,39 @@
     }
   }
 
-  .episode-list {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .episode-list input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-
   .episodes-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-  }
 
-  .episode-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-  }
+    .episode_card img {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      border: 3px solid transparent;
+      border-style: solid;
+      border-radius: 16px;
+      min-width: 307px;
+      min-height: 187px;
+      background:
+        linear-gradient(#ccc 0 0) padding-box,
+        linear-gradient(to right, #FB62D0 0%, #83E0CA 100%) border-box;
+    }
 
-  .episode-card img {
-    max-width: 100%;
-    height: auto;
-    cursor: pointer;;
+    .episode-title {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
   }
+}
 
-  .episode-title {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: bold;
-  }
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 
-  .pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .pagination button {
+  button {
     padding: 10px 20px;
     margin: 0 5px;
     border: none;
@@ -296,10 +283,35 @@
     color: white;
     cursor: pointer;
     font-size: 16px;
-  }
 
-  .pagination button:hover {
-    background-color: #D93D86
+    &.active, &:hover {
+      background-color: #D93D86;
+    }
   }
-
 }
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  &::before {
+    margin-right: 2px;
+    margin-bottom: 12px;
+    content: "";
+    width: 28px;
+    height: 28px;
+    background-image: url("/icons/search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  input {
+  width: 200px;
+
+    background-color: transparent;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
