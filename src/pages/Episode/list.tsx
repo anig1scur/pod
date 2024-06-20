@@ -49,7 +49,6 @@ const EpisodeList = () => {
   }, [id]);
 
   useEffect(() => {
-    console.log(searchTerm)
     const filtered = episodes.filter(episode =>
       episode.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
@@ -114,15 +113,18 @@ const EpisodeList = () => {
       </header>
       <main className='flex flex-nowrap gap-16 flex-col'>
         <div className='flex flex-row gap-8'>
-        <h1>{ FullNameMap[id as podType] }</h1>
-        <div className='search-bar'>
-        <input
-          className='border-b-[3px] border-black'
-          type="text"
-          value={ searchTerm }
-          onChange={ e => setSearchTerm(e.target.value) }
-        />
-        </div></div>
+          <h1>{ FullNameMap[id as podType] }</h1>
+          <div className='search-bar'>
+            <input
+              className='border-b-[3px] border-black'
+              type="text"
+              value={ searchTerm }
+              onChange={ e => {
+                setCurrentPage(1);
+                setSearchTerm(e.target.value)
+              } }
+            />
+          </div></div>
         <div className="episodes-grid">
           { currentEpisodes.map(episode => (
             <Link key={ episode.id } to={ `${ episode.id }` } className='episode_card'>
