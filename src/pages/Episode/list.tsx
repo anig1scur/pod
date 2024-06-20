@@ -1,5 +1,6 @@
 import React, { useState, useEffect, lazy } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import Logo from '@/components/Logo';
 
 type Episode = {
   id: string;
@@ -98,21 +99,26 @@ const EpisodeList = () => {
 
   return (
     <div className="episode-list">
-      <input
-        type="text"
-        placeholder="Search episodes..."
-        value={ searchTerm }
-        onChange={ e => setSearchTerm(e.target.value) }
-      />
-      <div className="episodes-grid">
-        { currentEpisodes.map(episode => (
-          <Link key={ episode.id } to={ `${ episode.id }` } className='episode_Card'>
-            <img src={ episode.img } alt={ episode.title } />
-            <div className="episode-title">{ episode.title }</div>
-          </Link>
-        )) }
-      </div>
-      { renderPagination() }
+      <header>
+        <Logo text="POD!" />
+      </header>
+      <main className='flex flex-nowrap gap-16 flex-col'>
+        <input
+          type="text"
+          placeholder="Search episodes..."
+          value={ searchTerm }
+          onChange={ e => setSearchTerm(e.target.value) }
+        />
+        <div className="episodes-grid">
+          { currentEpisodes.map(episode => (
+            <Link key={ episode.id } to={ `${ episode.id }` } className='episode_card'>
+              <img src={ episode.img } alt={ episode.title } />
+              <div className="episode-title">{ episode.title }</div>
+            </Link>
+          )) }
+        </div>
+        { renderPagination() }
+      </main>
     </div>
   );
 };

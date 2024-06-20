@@ -35,16 +35,17 @@ const Logo: FC<logoProps> = (props) => {
 
   const theme = props.theme || Theme.colorful;
   return (
-    <div className={ "logo" }>
+    <div className={ "logo" } style={ {
+      '--y-distance': `${ distance.y }px`,
+      '--x-distance': `${ distance.x }px`,
+    } as CSSProperties }>
       {
         Array.from({ length: 5 }).map((_, index) => (
           <div key={ index }
-            className={ cx(theme, "text") }
             style={ {
-              '--y-distance': `${ distance.y }px`,
-              '--x-distance': `${ distance.x }px`,
               color: Palette[theme][index]
             } as CSSProperties }
+            className={ cx(theme, "text") }
           >{ text }</div>
         ))
       }

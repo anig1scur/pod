@@ -165,11 +165,11 @@
 
   }
 
-  .episode {
-    >header {
-      @apply h-28 flex;
-    }
+  header {
+    @apply h-28 flex;
+  }
 
+  .episode {
     >main {
       @apply flex flex-nowrap gap-16;
 
@@ -244,10 +244,11 @@
   }
 
   .episode-list {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
   }
 
   .episode-list input {
@@ -259,7 +260,7 @@
 
   .episodes-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
   }
 

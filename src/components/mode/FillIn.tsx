@@ -10,7 +10,7 @@ export type fillInProps = {
 
 const FillIn: FC<fillInProps> = (props) => {
   const { scripts, vocab } = props;
-  const [words, setWords] = useState<string[]>([]);
+  const [words, setWords] = useState<Set<string>>(new Set());
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
 
@@ -32,7 +32,7 @@ const FillIn: FC<fillInProps> = (props) => {
   useEffect(() => {
     const fetchWords = async () => {
       const fetchedWords = await loadVocab(vocab || 'C1');
-      setWords(fetchedWords);
+      setWords(new Set(fetchedWords));
     };
 
     fetchWords();
@@ -69,7 +69,7 @@ const FillIn: FC<fillInProps> = (props) => {
 
   let cur = 0;
 
-  if (!words || words.length === 0) {
+  if (!words || words.size === 0) {
     return <div>Loading...</div>
   }
   let qNum = 0;
@@ -82,7 +82,7 @@ const FillIn: FC<fillInProps> = (props) => {
             <h3 title={ script.author }>{ script.author }</h3>
             <div>{ script.text.split(' ').map((word, word_index) => {
 
-              if (words.includes(word)) {
+              if (words.has(word)) {
                 const el = <div className="blank"
                   key={ word_index }
                   data-answer={ word }
