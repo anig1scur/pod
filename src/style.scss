@@ -63,7 +63,7 @@
       }
 
       .title {
-        @apply text-center w-72 px-3 leading-8 text-ellipsis text-nowrap overflow-hidden bg-black text-white rounded-lg;
+        @apply w-72 px-3 leading-8 text-ellipsis text-left text-nowrap overflow-hidden bg-black text-white rounded-lg;
       }
 
     }
@@ -119,7 +119,8 @@
       @apply flex items-center gap-4;
 
       button {
-        @apply p-3 rounded-lg bg-[#D93D86] text-white;
+        @apply p-3 bg-[#D93D86] text-white font-semibold
+         border-black border-[3px] cursor-pointer text-lg;
       }
     }
   }
@@ -249,16 +250,13 @@
     gap: 25px;
 
     .episode_card img {
+      @apply h-52 w-80 object-cover rounded-lg;
       cursor: pointer;
       display: flex;
       flex-direction: column;
       border: 3px solid transparent;
       border-style: solid;
       border-radius: 16px;
-      min-width: 307px;
-      min-height: 187px;
-      max-width: 307px;
-      max-height: 187px;
       background:
         linear-gradient(#ccc 0 0) padding-box,
         linear-gradient(to right, #FB62D0 0%, #83E0CA 100%) border-box;
@@ -296,6 +294,7 @@
 .search-bar {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 
   &::before {
     margin-right: 2px;

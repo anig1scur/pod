@@ -30,7 +30,7 @@ const EpisodeList = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredEpisodes, setFilteredEpisodes] = useState<Episode[]>([]);
 
-  const perPage = 16;
+  const perPage = 12;
 
   useEffect(() => {
     const fetchEpisodes = async () => {
@@ -111,7 +111,7 @@ const EpisodeList = () => {
       <header>
         <Logo text="POD!" />
       </header>
-      <main className='flex flex-nowrap gap-16 flex-col'>
+      <main className='flex flex-nowrap gap-8 flex-col'>
         <div className='flex flex-row gap-8'>
           <h1>{ FullNameMap[id as podType] }</h1>
           <div className='search-bar'>
