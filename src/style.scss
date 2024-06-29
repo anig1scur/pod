@@ -32,7 +32,7 @@
     @apply border-[3px] border-black rounded-lg p-4 flex gap-6 flex-col;
 
     .control {
-      @apply flex items-center gap-4;
+      @apply flex items-center gap-4 mt-4;
 
       >div {
         @apply w-8 h-8 bg-contain bg-no-repeat bg-center cursor-pointer;
@@ -179,12 +179,12 @@
       @apply flex flex-nowrap gap-16;
 
       .meta {
-        flex: 1 0 50%;
+        flex: 1 0 40%;
         @apply flex flex-col gap-4;
       }
 
       .pro {
-        flex: 1 0 50%;
+        flex: 1 0 60%;
 
         .operation {
           @apply flex justify-between;

@@ -5,6 +5,7 @@ export enum VocabType {
   B2 = 'B2',
   C1 = 'C1',
   AWL_570 = 'AWL_570',
+  GRE_5000 = 'GRE_5000',
   GRE_Manhattan_Prep_1000 = 'GRE_Manhattan_Prep_1000',
   GRE_Mason_2000 = 'GRE_Mason_2000',
 }
