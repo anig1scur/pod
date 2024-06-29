@@ -15,39 +15,39 @@
   "transcript": [
     {
       "author": "Emily Schwing",
-      "text": ": In 1912 a volcano in Alaska more than blew its top. Known as Novarupta, it was responsible for the most powerful volcanic eruption of the 20th century."
+      "text": "In 1912 a volcano in Alaska more than blew its top. Known as Novarupta, it was responsible for the most powerful volcanic eruption of the 20th century."
     },
     {
       "author": "Kristi Wallace",
-      "text": ": The reason we care about the big eruptions [is] because they\u2019re also the ones that scale to the biggest hazards and biggest impacts, both locally and regionally\u2014sometimes globally."
+      "text": "The reason we care about the big eruptions [is] because they\u2019re also the ones that scale to the biggest hazards and biggest impacts, both locally and regionally\u2014sometimes globally."
     },
     {
       "author": "Schwing",
-      "text": ": Kristi Wallace is a research geologist with the U.S. Geological Survey at the Alaska Volcano Observatory."
+      "text": "Kristi Wallace is a research geologist with the U.S. Geological Survey at the Alaska Volcano Observatory."
     },
     {
       "author": "Wallace",
-      "text": ": We often don\u2019t have access to the deep history, the old history. We only have the last 10,000 or 12,000 years; glaciers wiped everything else away. And so, because we can\u2019t study those, we can\u2019t really speak to the biggest eruptions through the history of the volcano."
+      "text": "We often don\u2019t have access to the deep history, the old history. We only have the last 10,000 or 12,000 years; glaciers wiped everything else away. And so, because we can\u2019t study those, we can\u2019t really speak to the biggest eruptions through the history of the volcano."
     },
     {
       "author": "Schwing",
-      "text": ": Now scientists believe they\u2019ve found a way to sleuth out the deep history of volcanoes such as Novarupta, and they\u2019re doing it with artificial intelligence. You\u2019re listening to Scientific American\u2019s Science, Quickly. I\u2019m Emily Schwing. [Clip: Show theme music]"
+      "text": "Now scientists believe they\u2019ve found a way to sleuth out the deep history of volcanoes such as Novarupta, and they\u2019re doing it with artificial intelligence. You\u2019re listening to Scientific American\u2019s Science, Quickly. I\u2019m Emily Schwing. [Clip: Show theme music]"
     },
     {
       "author": "Schwing",
-      "text": ": Novarupta dramatically reworked the surrounding landscape and buried nearby communities in more than two feet of ash. Novarupta is a volcano six miles away from another powerful volcano, Mount Katmai. And this wasn\u2019t the only time one of these volcanoes proved itself a powerful and dramatic volcanic force."
+      "text": "Novarupta dramatically reworked the surrounding landscape and buried nearby communities in more than two feet of ash. Novarupta is a volcano six miles away from another powerful volcano, Mount Katmai. And this wasn\u2019t the only time one of these volcanoes proved itself a powerful and dramatic volcanic force."
     },
     {
       "author": "Jordan Lubbers",
-      "text": ": When we applied our model to 800,000 years of ash layers in the Gulf of Alaska, we saw that Katmai was responsible for producing a lot of the eruption deposits in marine cores going back to 800,000 years, and they looked almost identical geochemically to the 1912 eruption."
+      "text": "When we applied our model to 800,000 years of ash layers in the Gulf of Alaska, we saw that Katmai was responsible for producing a lot of the eruption deposits in marine cores going back to 800,000 years, and they looked almost identical geochemically to the 1912 eruption."
     },
     {
       "author": "Schwing",
-      "text": ": Jordan Lubbers is a third-year postdoctoral fellow and geologist with the U.S. Geological Survey. And those ash layers he\u2019s talking about\u2014they\u2019re called tephras."
+      "text": "Jordan Lubbers is a third-year postdoctoral fellow and geologist with the U.S. Geological Survey. And those ash layers he\u2019s talking about\u2014they\u2019re called tephras."
     },
     {
       "author": "Lubbers",
-      "text": ": So we have a lot of tephra layers in the Gulf of Alaska that we don\u2019t know where they came from."
+      "text": "So we have a lot of tephra layers in the Gulf of Alaska that we don\u2019t know where they came from."
     },
     {
       "author": "Schwing: ",
@@ -59,7 +59,7 @@
     },
     {
       "author": "Schwing",
-      "text": ": There have been lots of large tephra-producing eruptions in Alaska and northwestern Canada. But they\u2019re hard to get to."
+      "text": "There have been lots of large tephra-producing eruptions in Alaska and northwestern Canada. But they\u2019re hard to get to."
     },
     {
       "author": "Lubbers: ",
@@ -67,35 +67,35 @@
     },
     {
       "author": "Schwing",
-      "text": ": And there\u2019s another challenge: when glaciers started to retreat at the end of the last glacial maximum, they wiped away evidence of large tephra-producing eruptions in the Far North. You can think of Jordan and his colleague Kristi as volcano detectives. They are trying to link tephras with their source volcanoes. Now they\u2019re using machine learning - AI\u2014as their magnifying glass. They\u2019ve created a model that uses existing data from tephras."
+      "text": "And there\u2019s another challenge: when glaciers started to retreat at the end of the last glacial maximum, they wiped away evidence of large tephra-producing eruptions in the Far North. You can think of Jordan and his colleague Kristi as volcano detectives. They are trying to link tephras with their source volcanoes. Now they\u2019re using machine learning - AI\u2014as their magnifying glass. They\u2019ve created a model that uses existing data from tephras."
     },
     {
       "author": "Wallace",
-      "text": ": And then [we] use this machine-learning technique to say, \u201cOkay, this is what\u2019s erupted in the last 10,000 years. Can you train the model to tell us where these much older deposits come from?\u201d Hundreds of thousands of years old, potentially. \u201cDo they link back to these same volcanoes?\u201d And then we can go back to that\u2014let\u2019s say Katmai or any one of our 130 volcanoes that we\u2019re dealing with\u2014can we then really tell the true story of the volcano?"
+      "text": "And then [we] use this machine-learning technique to say, \u201cOkay, this is what\u2019s erupted in the last 10,000 years. Can you train the model to tell us where these much older deposits come from?\u201d Hundreds of thousands of years old, potentially. \u201cDo they link back to these same volcanoes?\u201d And then we can go back to that\u2014let\u2019s say Katmai or any one of our 130 volcanoes that we\u2019re dealing with\u2014can we then really tell the true story of the volcano?"
     },
     {
       "author": "Schwing",
-      "text": ": Their findings were published in November 2023 in the journal Geochemistry, Geophysics, Geosystems. Jordan says using AI also means they have a more accurate way to differentiate among individual volcanoes."
+      "text": "Their findings were published in November 2023 in the journal Geochemistry, Geophysics, Geosystems. Jordan says using AI also means they have a more accurate way to differentiate among individual volcanoes."
     },
     {
       "author": "Lubbers",
-      "text": ": A lot of, a lot of these volcanoes are quite similar. And the human eye or, like, classical statistics might confuse them and mix these things up. But what machine learning basically allows us to do is kind of think about things in many more dimensions, and we give it the data from all these volcanoes, and then we give it the answers that we know\u2014like we collected this sample from this volcano, so we know that that\u2019s where it erupted from. Now come up with a set of rules to then tell us what makes all these volcanoes unique. And that\u2019s really the power here, is that it\u2019s able to better classify unknown eruptions."
+      "text": "A lot of, a lot of these volcanoes are quite similar. And the human eye or, like, classical statistics might confuse them and mix these things up. But what machine learning basically allows us to do is kind of think about things in many more dimensions, and we give it the data from all these volcanoes, and then we give it the answers that we know\u2014like we collected this sample from this volcano, so we know that that\u2019s where it erupted from. Now come up with a set of rules to then tell us what makes all these volcanoes unique. And that\u2019s really the power here, is that it\u2019s able to better classify unknown eruptions."
     },
     {
       "author": "Schwing",
-      "text": ": Both Jordan and Kristi say they will continue training their model to strengthen its accuracy and to better understand AI-generated answers to their source volcano inquiries. Jordan says work like this is useful not only in Alaska and the surrounding region, but anywhere volcanic activity is a known threat to public safety."
+      "text": "Both Jordan and Kristi say they will continue training their model to strengthen its accuracy and to better understand AI-generated answers to their source volcano inquiries. Jordan says work like this is useful not only in Alaska and the surrounding region, but anywhere volcanic activity is a known threat to public safety."
     },
     {
       "author": "Lubbers",
-      "text": ": All volcanic arcs are slightly different. And so this is what a machine-learning model would figure out. It would figure out maybe a new set of rules that\u2019s different for the Andes, that\u2019s different for Sumatra, that\u2019s different for Kamchatka, that\u2019s different for Italy. But with proper data handling and, you know, good, good sorts of logical tests and expert, expert kind of opinions from geologists in that area, there\u2019s no reason that this can't be applied elsewhere."
+      "text": "All volcanic arcs are slightly different. And so this is what a machine-learning model would figure out. It would figure out maybe a new set of rules that\u2019s different for the Andes, that\u2019s different for Sumatra, that\u2019s different for Kamchatka, that\u2019s different for Italy. But with proper data handling and, you know, good, good sorts of logical tests and expert, expert kind of opinions from geologists in that area, there\u2019s no reason that this can't be applied elsewhere."
     },
     {
       "author": "Schwing",
-      "text": ": And Kristi says the new tool could also be useful across disciplines in the scientific research community."
+      "text": "And Kristi says the new tool could also be useful across disciplines in the scientific research community."
     },
     {
       "author": "Wallace",
-      "text": ": When you\u2019re looking at tephra deposits, they represent an isochron, so a single time in history. It\u2019s instantaneous. It falls to the ground, and it tells you time, it gives you a sense [that] something happened at a specific time, and basically they link marine records [and] lacustrine records in lakes with terrestrial records. And so that helps you to understand, you know, ice ages and climactic events or archaeological time frames or when people were moving around. There\u2019s all sorts of context that it could put things into."
+      "text": "When you\u2019re looking at tephra deposits, they represent an isochron, so a single time in history. It\u2019s instantaneous. It falls to the ground, and it tells you time, it gives you a sense [that] something happened at a specific time, and basically they link marine records [and] lacustrine records in lakes with terrestrial records. And so that helps you to understand, you know, ice ages and climactic events or archaeological time frames or when people were moving around. There\u2019s all sorts of context that it could put things into."
     },
     {
       "author": "Schwing: ",
@@ -103,11 +103,11 @@
     },
     {
       "author": "Wallace",
-      "text": ": This is the first time that the geochemical data has been published. And so now people who are working all across the state, even globally, have access to these data, and they can now correlate the tephras back to a location and an age. That\u2019s really, really powerful."
+      "text": "This is the first time that the geochemical data has been published. And so now people who are working all across the state, even globally, have access to these data, and they can now correlate the tephras back to a location and an age. That\u2019s really, really powerful."
     },
     {
       "author": "Schwing",
-      "text": ": Maybe even as powerful as the volcanic eruptions themselves. [Clip: Show theme music] Scientific American\u2019s Science, Quickly is produced by Rachel Feltman, Kelso Harper, Carin Leong, Madison Goldberg and Jeff DelViscio and edited by Madison Goldberg, Elah Feder, Alexa Lim and Anaissa Ruiz Tejada, with fact-checking by Shayna Posses and Aaron Shattuck. Our theme music was composed by Dominic Smith. For Science, Quickly, I\u2019m Emily Schwing."
+      "text": "Maybe even as powerful as the volcanic eruptions themselves. [Clip: Show theme music] Scientific American\u2019s Science, Quickly is produced by Rachel Feltman, Kelso Harper, Carin Leong, Madison Goldberg and Jeff DelViscio and edited by Madison Goldberg, Elah Feder, Alexa Lim and Anaissa Ruiz Tejada, with fact-checking by Shayna Posses and Aaron Shattuck. Our theme music was composed by Dominic Smith. For Science, Quickly, I\u2019m Emily Schwing."
     }
   ]
 }

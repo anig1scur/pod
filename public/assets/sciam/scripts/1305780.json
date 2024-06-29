@@ -16,39 +16,39 @@
   "transcript": [
     {
       "author": "LAUREN LEFFER",
-      "text": ": At the end of November, it\u2019ll be one year since ChatGPT was first made public, rapidly accelerating the artificial intelligence arms race. And a lot has changed over the course of 10 months."
+      "text": "At the end of November, it\u2019ll be one year since ChatGPT was first made public, rapidly accelerating the artificial intelligence arms race. And a lot has changed over the course of 10 months."
     },
     {
       "author": "SOPHIE BUSHWICK",
-      "text": ": In just the past few weeks, both OpenAI and Google have introduced big new features to their AI chatbots."
+      "text": "In just the past few weeks, both OpenAI and Google have introduced big new features to their AI chatbots."
     },
     {
       "author": "LEFFER",
-      "text": ": And Meta, Facebook\u2019s parent company, is jumping in the ring too, with its own public facing chatbots."
+      "text": "And Meta, Facebook\u2019s parent company, is jumping in the ring too, with its own public facing chatbots."
     },
     {
       "author": "BUSHWICK",
-      "text": ": I mean, we learned about one of these news updates just minutes before recording this episode of Tech, Quickly, the version of Scientific American\u2019s Science, Quickly podcast that keeps you updated on the lightning-fast advances in AI. I\u2019m Sophie Bushwick, tech editor at Scientific American.LEFFER: And I\u2019m Lauren Leffer, tech reporting fellow. [CLIP: Show theme music]"
+      "text": "I mean, we learned about one of these news updates just minutes before recording this episode of Tech, Quickly, the version of Scientific American\u2019s Science, Quickly podcast that keeps you updated on the lightning-fast advances in AI. I\u2019m Sophie Bushwick, tech editor at Scientific American.LEFFER: And I\u2019m Lauren Leffer, tech reporting fellow. [CLIP: Show theme music]"
     },
     {
       "author": "BUSHWICK",
-      "text": ": So what are these new features these AI models are getting?"
+      "text": "So what are these new features these AI models are getting?"
     },
     {
       "author": "LEFFER",
-      "text": ": Let\u2019s start with multimodality. Public versions of both OpenAI\u2019s ChatGPT and Google\u2019s Bard can now interpret and respond to image and audio prompts, not just text. You can speak to the chatbots, kind of like the Siri feature on an iPhone, and get an AI-generated audio reply back. You can also feed the bots pictures, drawings or diagrams and ask for information about those visuals and get a text response."
+      "text": "Let\u2019s start with multimodality. Public versions of both OpenAI\u2019s ChatGPT and Google\u2019s Bard can now interpret and respond to image and audio prompts, not just text. You can speak to the chatbots, kind of like the Siri feature on an iPhone, and get an AI-generated audio reply back. You can also feed the bots pictures, drawings or diagrams and ask for information about those visuals and get a text response."
     },
     {
       "author": "BUSHWICK",
-      "text": ": That is awesome. How can people get access to this?"
+      "text": "That is awesome. How can people get access to this?"
     },
     {
       "author": "LEFFER",
-      "text": ": Google\u2019s version is free to use, while OpenAI is currently limiting its new feature to premium subscribers who pay $20 per month."
+      "text": "Google\u2019s version is free to use, while OpenAI is currently limiting its new feature to premium subscribers who pay $20 per month."
     },
     {
       "author": "BUSHWICK",
-      "text": ": And multimodality is a big change, right? When I say \u201clarge language model,\u201d that used to mean text and text only."
+      "text": "And multimodality is a big change, right? When I say \u201clarge language model,\u201d that used to mean text and text only."
     },
     {
       "author": "LEFFER: ",
@@ -56,63 +56,63 @@
     },
     {
       "author": "BUSHWICK",
-      "text": ": So it sounds like behind the scenes, we\u2019ve got these sort of Frankenstein\u2019s monster of models?"
+      "text": "So it sounds like behind the scenes, we\u2019ve got these sort of Frankenstein\u2019s monster of models?"
     },
     {
       "author": "LEFFER",
-      "text": ": Sort of. It\u2019s less Frankenstein, more kind of like Mr. Potato Head, in that you have the same basic body just with new bits added on. Same potato, new nose. Once you add in new capacities to a text-based AI, then you can train your expanded model on mixed-media data, like photos paired with captions, and boost its ability to interpret images and spoken words. And the resulting AIs have some really neat applications.\u00a0\u00a0"
+      "text": "Sort of. It\u2019s less Frankenstein, more kind of like Mr. Potato Head, in that you have the same basic body just with new bits added on. Same potato, new nose. Once you add in new capacities to a text-based AI, then you can train your expanded model on mixed-media data, like photos paired with captions, and boost its ability to interpret images and spoken words. And the resulting AIs have some really neat applications.\u00a0\u00a0"
     },
     {
       "author": "BUSHWICK",
-      "text": ": Yeah, I\u2019ve played around with the updated ChatGPT, and this ability to analyze photos really impressed me."
+      "text": "Yeah, I\u2019ve played around with the updated ChatGPT, and this ability to analyze photos really impressed me."
     },
     {
       "author": "LEFFER",
-      "text": ": Yeah, I had both Bard and ChatGPT try to describe what type of person I am based on a photo of my bookshelf."
+      "text": "Yeah, I had both Bard and ChatGPT try to describe what type of person I am based on a photo of my bookshelf."
     },
     {
       "author": "BUSHWICK",
-      "text": ": Oh my god, it\u2019s the new internet personality test! So what does your AI book horoscope tell you?"
+      "text": "Oh my god, it\u2019s the new internet personality test! So what does your AI book horoscope tell you?"
     },
     {
       "author": "LEFFER",
-      "text": ": So not to brag, but to be honest, both bots were pretty complimentary. (I have a lot of books.) But beyond my own ego, the book test demonstrates how people could use these tools to produce written interpretations of images, including inferred context. You know, this might be helpful for people with limited vision or other disabilities, and OpenAI actually tested their visual GPT-4 with blind users first."
+      "text": "So not to brag, but to be honest, both bots were pretty complimentary. (I have a lot of books.) But beyond my own ego, the book test demonstrates how people could use these tools to produce written interpretations of images, including inferred context. You know, this might be helpful for people with limited vision or other disabilities, and OpenAI actually tested their visual GPT-4 with blind users first."
     },
     {
       "author": "BUSHWICK",
-      "text": ": That\u2019s really cool. What are some other applications here?"
+      "text": "That\u2019s really cool. What are some other applications here?"
     },
     {
       "author": "LEFFER",
-      "text": ": Yeah, I mean, this sort of thing could be helpful for anyone\u2014sighted or not\u2014trying to understand a photo of something they\u2019re unfamiliar with. Think, like, bird identification or repairing a car. In a totally different example, I also got ChatGPT to correctly split up a complicated bar tab from a photo of a receipt. It was way faster than I could\u2019ve done the math, even with a calculator."
+      "text": "Yeah, I mean, this sort of thing could be helpful for anyone\u2014sighted or not\u2014trying to understand a photo of something they\u2019re unfamiliar with. Think, like, bird identification or repairing a car. In a totally different example, I also got ChatGPT to correctly split up a complicated bar tab from a photo of a receipt. It was way faster than I could\u2019ve done the math, even with a calculator."
     },
     {
       "author": "BUSHWICK",
-      "text": ": And when I was trying out ChatGPT, I took a photo of the view from my office window, asked ChatGPT what it was (which is the Statue of Liberty), and then asked it for directions. And it not only told me how to get the ferry, but gave me advice like \u201cwear comfortable shoes.\u201d"
+      "text": "And when I was trying out ChatGPT, I took a photo of the view from my office window, asked ChatGPT what it was (which is the Statue of Liberty), and then asked it for directions. And it not only told me how to get the ferry, but gave me advice like \u201cwear comfortable shoes.\u201d"
     },
     {
       "author": "LEFFER",
-      "text": ": The directions thing was pretty wild."
+      "text": "The directions thing was pretty wild."
     },
     {
       "author": "BUSHWICK",
-      "text": ": It almost seemed like magic, but, of course\u2026"
+      "text": "It almost seemed like magic, but, of course\u2026"
     },
     {
       "author": "LEFFER",
-      "text": ": It\u2019s definitely not. It\u2019s still just the result of lots and lots of training data, fed into a very big and complicated network of computer code. But even though it\u2019s not a magic wand, multimodality is a really significant enough upgrade that might help OpenAI attract and retain users better than it has been. You know, despite all the new stories going around, fewer people have actually been using ChatGPT over the past three months. Usership dropped by about 10 percent for the first time in June, another 10 percent in July, and about 3 percent in August. The prevailing theory is that this has to do with summer break from school\u2014but still losing users is losing users."
+      "text": "It\u2019s definitely not. It\u2019s still just the result of lots and lots of training data, fed into a very big and complicated network of computer code. But even though it\u2019s not a magic wand, multimodality is a really significant enough upgrade that might help OpenAI attract and retain users better than it has been. You know, despite all the new stories going around, fewer people have actually been using ChatGPT over the past three months. Usership dropped by about 10 percent for the first time in June, another 10 percent in July, and about 3 percent in August. The prevailing theory is that this has to do with summer break from school\u2014but still losing users is losing users."
     },
     {
       "author": "BUSHWICK",
-      "text": ": That makes sense. And this is also a problem for OpenAI, because it has all this competition. For instance, we have Google, which is keeping its own edge by taking its multimodal AI tool and putting it into a bunch of different products."
+      "text": "That makes sense. And this is also a problem for OpenAI, because it has all this competition. For instance, we have Google, which is keeping its own edge by taking its multimodal AI tool and putting it into a bunch of different products."
     },
     {
       "author": "LEFFER",
-      "text": ": You mean like Gmail? Is Bard going to write all my emails from now on?BUSHWICK: I mean, if you want it to. If you have a Gmail account, or even if you use YouTube or Google, if you have files stored in Google Drive, you can opt in and give Bard access to this individual account data. And then you can ask it to do things with that data, like find a specific video, summarize text from your emails, it can even offer specific location-based information. Basically, Google seems to be making Bard into an all-in-one digital assistant."
+      "text": "You mean like Gmail? Is Bard going to write all my emails from now on?BUSHWICK: I mean, if you want it to. If you have a Gmail account, or even if you use YouTube or Google, if you have files stored in Google Drive, you can opt in and give Bard access to this individual account data. And then you can ask it to do things with that data, like find a specific video, summarize text from your emails, it can even offer specific location-based information. Basically, Google seems to be making Bard into an all-in-one digital assistant."
     },
     {
       "author": "LEFFER",
-      "text": ": Digital assistant? That sounds kind of familiar. Is that at all related to the virtual chatbot pals that Meta is rolling out?"
+      "text": "Digital assistant? That sounds kind of familiar. Is that at all related to the virtual chatbot pals that Meta is rolling out?"
     },
     {
       "author": "BUSHWICK: ",
@@ -120,7 +120,7 @@
     },
     {
       "author": "LEFFER",
-      "text": ": When you're listing all of these different versions of an AI avatar you can interact with, the only thing my mind goes to is Clippy from the old school Microsoft Word. Is that basically what this is?"
+      "text": "When you're listing all of these different versions of an AI avatar you can interact with, the only thing my mind goes to is Clippy from the old school Microsoft Word. Is that basically what this is?"
     },
     {
       "author": "BUSHWICK: ",
@@ -128,31 +128,31 @@
     },
     {
       "author": "LEFFER",
-      "text": ": Okay, so we\u2019ve got Mr. Beast. We\u2019ve got Snoop Dogg. Anyone else?"
+      "text": "Okay, so we\u2019ve got Mr. Beast. We\u2019ve got Snoop Dogg. Anyone else?"
     },
     {
       "author": "BUSHWICK",
-      "text": ": Let's see, Paris Hilton comes to mind. And there's a whole slew of these. And I'm kind of interested to see whether people actually choose to interact with their favorite celebrity version or whether they choose the less anthropomorphized versions."
+      "text": "Let's see, Paris Hilton comes to mind. And there's a whole slew of these. And I'm kind of interested to see whether people actually choose to interact with their favorite celebrity version or whether they choose the less anthropomorphized versions."
     },
     {
       "author": "LEFFER",
-      "text": ": So these celebrity avatars or whichever form you're going to be interacting with Meta\u2019s AI in\u2014is it also going to be able to access my Meta account data? I mean, there's like so much concern out there already about privacy and large language models. If there's a risk that these tools could regurgitate sensitive information from their training data or user interactions, why would I let Bard go through my emails or Meta read my Instagram DMs?"
+      "text": "So these celebrity avatars or whichever form you're going to be interacting with Meta\u2019s AI in\u2014is it also going to be able to access my Meta account data? I mean, there's like so much concern out there already about privacy and large language models. If there's a risk that these tools could regurgitate sensitive information from their training data or user interactions, why would I let Bard go through my emails or Meta read my Instagram DMs?"
     },
     {
       "author": "BUSHWICK",
-      "text": ": Privacy policies depend on the company. According to Google, it\u2019s taken steps to ensure privacy for users who opt into the new integration feature. These steps include not training future versions of Bard on content from user emails or Google Docs, not allowing human reviewers to access users\u2019 personal content, not selling the information to advertisers and not storing all this data for long periods of time."
+      "text": "Privacy policies depend on the company. According to Google, it\u2019s taken steps to ensure privacy for users who opt into the new integration feature. These steps include not training future versions of Bard on content from user emails or Google Docs, not allowing human reviewers to access users\u2019 personal content, not selling the information to advertisers and not storing all this data for long periods of time."
     },
     {
       "author": "LEFFER",
-      "text": ": Okay, but what about Meta and its celebrity AI avatars?"
+      "text": "Okay, but what about Meta and its celebrity AI avatars?"
     },
     {
       "author": "BUSHWICK",
-      "text": ": Meta has said that, for now, it won\u2019t use user content to train future versions of its AI. But that might be coming soon. So privacy is still definitely a concern, and it goes beyond these companies. I mean, literal minutes before we started recording, we read the news that Amazon has announced it\u2019s training a large language model on data that\u2019s is going to include conversations recorded by Alexa."
+      "text": "Meta has said that, for now, it won\u2019t use user content to train future versions of its AI. But that might be coming soon. So privacy is still definitely a concern, and it goes beyond these companies. I mean, literal minutes before we started recording, we read the news that Amazon has announced it\u2019s training a large language model on data that\u2019s is going to include conversations recorded by Alexa."
     },
     {
       "author": "LEFFER",
-      "text": ": So conversations that people have in their homes with their Alexa assistant..."
+      "text": "So conversations that people have in their homes with their Alexa assistant..."
     },
     {
       "author": "BUSHWICK: ",
@@ -160,55 +160,55 @@
     },
     {
       "author": "LEFFER",
-      "text": ": That sounds so scary to me. I mean, in my mind, that's exactly what people have been afraid of with these home assistants for a long time: that they'd be listening, recording and transmitting that data to somewhere that the person using it no longer has control over."
+      "text": "That sounds so scary to me. I mean, in my mind, that's exactly what people have been afraid of with these home assistants for a long time: that they'd be listening, recording and transmitting that data to somewhere that the person using it no longer has control over."
     },
     {
       "author": "BUSHWICK",
-      "text": ": Yeah, anytime you let another service access information about you, you are opening up a new potential portal for leaks and also for hacks."
+      "text": "Yeah, anytime you let another service access information about you, you are opening up a new potential portal for leaks and also for hacks."
     },
     {
       "author": "LEFFER",
-      "text": ": It\u2019s completely unsettling. I mean, do you think that the benefits of any of these AIs outweigh the risks?"
+      "text": "It\u2019s completely unsettling. I mean, do you think that the benefits of any of these AIs outweigh the risks?"
     },
     {
       "author": "BUSHWICK",
-      "text": ": So it\u2019s really hard to say right now. Google\u2019s AI integration, multimodal chat bots and, I mean, just these large language models in general, they are all still in such early experimental stages of development. I mean, they still make a lot of mistakes, and they don't quite measure up to more specialized tools that have been around for longer. But they can do a whole lot all in one place, which is super convenient, and that can be a big draw."
+      "text": "So it\u2019s really hard to say right now. Google\u2019s AI integration, multimodal chat bots and, I mean, just these large language models in general, they are all still in such early experimental stages of development. I mean, they still make a lot of mistakes, and they don't quite measure up to more specialized tools that have been around for longer. But they can do a whole lot all in one place, which is super convenient, and that can be a big draw."
     },
     {
       "author": "LEFFER",
-      "text": ": Right. So they\u2019re definitely still not perfect, and one of those imperfections: they\u2019re still prone to hallucinating incorrect information, correct?"
+      "text": "Right. So they\u2019re definitely still not perfect, and one of those imperfections: they\u2019re still prone to hallucinating incorrect information, correct?"
     },
     {
       "author": "BUSHWICK",
-      "text": ": Yes, and that brings me to one last question about AI before we wrap up: Do eggs melt?"
+      "text": "Yes, and that brings me to one last question about AI before we wrap up: Do eggs melt?"
     },
     {
       "author": "LEFFER",
-      "text": ": Well, according to an AI-generated search result gone viral last week, they do."
+      "text": "Well, according to an AI-generated search result gone viral last week, they do."
     },
     {
       "author": "BUSHWICK",
-      "text": ": Oh, no."
+      "text": "Oh, no."
     },
     {
       "author": "LEFFER",
-      "text": ": Yeah, a screenshot posted on social media showed Google displaying a top search snippet that claimed \u201can egg can be melted,\u201d and then it went on to give instructions on how you might melt an egg. Turns out, that snippet came from a Quora answer generated by ChatGPT and boosted by Google\u2019s search algorithm. It\u2019s more of that AI inaccuracy in action, exacerbated by search engine optimization\u2014though at least this time around it was pretty funny and not outright harmful."
+      "text": "Yeah, a screenshot posted on social media showed Google displaying a top search snippet that claimed \u201can egg can be melted,\u201d and then it went on to give instructions on how you might melt an egg. Turns out, that snippet came from a Quora answer generated by ChatGPT and boosted by Google\u2019s search algorithm. It\u2019s more of that AI inaccuracy in action, exacerbated by search engine optimization\u2014though at least this time around it was pretty funny and not outright harmful."
     },
     {
       "author": "BUSHWICK",
-      "text": ": But Google and Microsoft\u2014they\u2019re both working to incorporate AI-generated content into their search engines. But this melted egg misinformation struck me because it\u2019s such a perfect example of why people are worried about that happening."
+      "text": "But Google and Microsoft\u2014they\u2019re both working to incorporate AI-generated content into their search engines. But this melted egg misinformation struck me because it\u2019s such a perfect example of why people are worried about that happening."
     },
     {
       "author": "LEFFER",
-      "text": ": Mmm\u2014I think you mean eggs-ample."
+      "text": "Mmm\u2014I think you mean eggs-ample."
     },
     {
       "author": "BUSHWICK",
-      "text": ": Egg-zactly. [Clip: Show theme music]Science Quickly is produced by Jeff DelViscio, Tulika Bose, Kelso Harper and Carin Leong. Our show is edited by Elah Feder and Alexa Lim. Our theme music was composed by Dominic Smith."
+      "text": "Egg-zactly. [Clip: Show theme music]Science Quickly is produced by Jeff DelViscio, Tulika Bose, Kelso Harper and Carin Leong. Our show is edited by Elah Feder and Alexa Lim. Our theme music was composed by Dominic Smith."
     },
     {
       "author": "LEFFER",
-      "text": ":\u00a0Don\u2019t forget to subscribe to Science, Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review!"
+      "text": "\u00a0Don\u2019t forget to subscribe to Science, Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review!"
     },
     {
       "author": "BUSHWICK: ",

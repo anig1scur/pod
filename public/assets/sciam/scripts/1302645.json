@@ -15,131 +15,131 @@
   "transcript": [
     {
       "author": "Karen Hopkin",
-      "text": ": This is Scientific American\u2019s 60-Second Science. I\u2019m Karen Hopkin."
+      "text": "This is Scientific American\u2019s 60-Second Science. I\u2019m Karen Hopkin."
     },
     {
       "author": "Hopkin",
-      "text": ": Robots can do a lot of things. They can build cars. Stock grocery shelves. Process COVID tests in an automated laboratory. But can a robot change your mind? Well, that depends. Because a new study shows that robots are more persuasive when they\u2019re presented as a peer, as opposed to an authority figure. The findings appear in the journal Science Robotics."
+      "text": "Robots can do a lot of things. They can build cars. Stock grocery shelves. Process COVID tests in an automated laboratory. But can a robot change your mind? Well, that depends. Because a new study shows that robots are more persuasive when they\u2019re presented as a peer, as opposed to an authority figure. The findings appear in the journal Science Robotics."
     },
     {
       "author": "Shane Saunderson",
-      "text": ": Every year we\u2019re seeing more and more robots, in greater numbers of tasks and environments around our world."
+      "text": "Every year we\u2019re seeing more and more robots, in greater numbers of tasks and environments around our world."
     },
     {
       "author": "Hopkin",
-      "text": ": Shane Saunderson, a roboticist at the University of Toronto."
+      "text": "Shane Saunderson, a roboticist at the University of Toronto."
     },
     {
       "author": "Saunderson",
-      "text": ": And instead of just 20, 30, 40 years ago\u2014when they were in manufacturing environments building cars or painting things or stuff like that\u2014more and more we\u2019re starting to see them in very social contexts. So in retail environments, in care homes, in schools and things like that. So robots don\u2019t have the luxury of just being functional anymore."
+      "text": "And instead of just 20, 30, 40 years ago\u2014when they were in manufacturing environments building cars or painting things or stuff like that\u2014more and more we\u2019re starting to see them in very social contexts. So in retail environments, in care homes, in schools and things like that. So robots don\u2019t have the luxury of just being functional anymore."
     },
     {
       "author": "Hopkin",
-      "text": ": To engage with the humans, they also have to be relatable. For example, imagine a robot helping out in a care facility\u2026delivering a meal or dropping off meds."
+      "text": "To engage with the humans, they also have to be relatable. For example, imagine a robot helping out in a care facility\u2026delivering a meal or dropping off meds."
     },
     {
       "author": "Saunderson",
-      "text": ": You\u2019d often see residents that would refuse to eat their meal or they wouldn\u2019t want to take their medication that day. So you have a care provider have to sit there for 10, 15, 20 minutes having a conversation, reminding that person how important it is."
+      "text": "You\u2019d often see residents that would refuse to eat their meal or they wouldn\u2019t want to take their medication that day. So you have a care provider have to sit there for 10, 15, 20 minutes having a conversation, reminding that person how important it is."
     },
     {
       "author": "Hopkin",
-      "text": ": But could that kind of critical cajoling actually be accomplished by some clever coding?"
+      "text": "But could that kind of critical cajoling actually be accomplished by some clever coding?"
     },
     {
       "author": "Saunderson",
-      "text": ": The reality is if robots are going to take on those types of tasks they do need to know how to be persuasive."
+      "text": "The reality is if robots are going to take on those types of tasks they do need to know how to be persuasive."
     },
     {
       "author": "Hopkin",
-      "text": ": To figure out how to make robots more influential, Saunderson set up a series of tasks. In half the tasks, Saunderson played the role of the experimenter and he would introduce the robot, a programmable off-the shelf model named Pepper, as the participants\u2019 peer."
+      "text": "To figure out how to make robots more influential, Saunderson set up a series of tasks. In half the tasks, Saunderson played the role of the experimenter and he would introduce the robot, a programmable off-the shelf model named Pepper, as the participants\u2019 peer."
     },
     {
       "author": "Saunderson",
-      "text": ": And so any time someone had to do a task, Pepper would offer suggestions to try and persuade them and help them out."
+      "text": "And so any time someone had to do a task, Pepper would offer suggestions to try and persuade them and help them out."
     },
     {
       "author": "Hopkin",
-      "text": ": In one task, a volunteer might be asked to listen to a series of directions\u2026up, down, left, right, right, down, left\u2026and then have to identify their position on a grid based on how well they remembered the list. Here\u2019s Saunderson in the role of experimenter\u2026and participant. [Study Audio]"
+      "text": "In one task, a volunteer might be asked to listen to a series of directions\u2026up, down, left, right, right, down, left\u2026and then have to identify their position on a grid based on how well they remembered the list. Here\u2019s Saunderson in the role of experimenter\u2026and participant. [Study Audio]"
     },
     {
       "author": "Experimenter",
-      "text": ": So, what\u2019s your initial guess?"
+      "text": "So, what\u2019s your initial guess?"
     },
     {
       "author": "Subject",
-      "text": ": Um, I\u2019ll go with row 6 column 1."
+      "text": "Um, I\u2019ll go with row 6 column 1."
     },
     {
       "author": "Experimenter",
-      "text": ": Ok, and Pepper, what do you think?"
+      "text": "Ok, and Pepper, what do you think?"
     },
     {
       "author": "Pepper",
-      "text": ": I actually think that we\u2019re in row 7 and column 1."
+      "text": "I actually think that we\u2019re in row 7 and column 1."
     },
     {
       "author": "Hopkin",
-      "text": ": Now\u2026in the other half of the tasks, Pepper runs the show."
+      "text": "Now\u2026in the other half of the tasks, Pepper runs the show."
     },
     {
       "author": "Saunderson",
-      "text": ": So Pepper was alone in the room with the participant. It was Pepper\u2019s study, Pepper saying, you know, welcome to my study. [Study Audio]"
+      "text": "So Pepper was alone in the room with the participant. It was Pepper\u2019s study, Pepper saying, you know, welcome to my study. [Study Audio]"
     },
     {
       "author": "Pepper",
-      "text": ": Please take a seat at the chair in front of you and we\u2019ll get started. My name is Pepper and I\u2019d like you to join me."
+      "text": "Please take a seat at the chair in front of you and we\u2019ll get started. My name is Pepper and I\u2019d like you to join me."
     },
     {
       "author": "Hopkin",
-      "text": ": The tasks were the same\u2026tests that challenge attention and memory. But this time, it was Pepper the Experimenter\u2026Dr. Pepper, perhaps... offering the suggestion after the person made an initial guess. [Study Audio]"
+      "text": "The tasks were the same\u2026tests that challenge attention and memory. But this time, it was Pepper the Experimenter\u2026Dr. Pepper, perhaps... offering the suggestion after the person made an initial guess. [Study Audio]"
     },
     {
       "author": "Pepper",
-      "text": ": Personally I counted seven police stations. Now, what is the final guess you would like to lock in?"
+      "text": "Personally I counted seven police stations. Now, what is the final guess you would like to lock in?"
     },
     {
       "author": "Hopkin",
-      "text": ": And what Saunderson found was that Pepper had better luck at getting people to change their response when acting as a fellow test-taker, not as a leader. Now, that could be because participants didn\u2019t view the robot as being a legitimate authority figure. Or because there\u2019s something deeply creepy about a bossy robot\u2026especially one that reminds you that your winnings will be docked if your answers are incorrect."
+      "text": "And what Saunderson found was that Pepper had better luck at getting people to change their response when acting as a fellow test-taker, not as a leader. Now, that could be because participants didn\u2019t view the robot as being a legitimate authority figure. Or because there\u2019s something deeply creepy about a bossy robot\u2026especially one that reminds you that your winnings will be docked if your answers are incorrect."
     },
     {
       "author": "Saunderson",
-      "text": ": It made people seemingly very uncomfortable with this idea of a robot not only in charge but using that authority in a slightly negative way."
+      "text": "It made people seemingly very uncomfortable with this idea of a robot not only in charge but using that authority in a slightly negative way."
     },
     {
       "author": "Hopkin",
-      "text": ": And some were more bothered than others."
+      "text": "And some were more bothered than others."
     },
     {
       "author": "Saunderson",
-      "text": ": Everyone didn\u2019t love the sort of dominant nature of the robot, but men in particular were very uncomfortable and seemingly had their sense of autonomy or status threatened by this cute little four foot-tall robot."
+      "text": "Everyone didn\u2019t love the sort of dominant nature of the robot, but men in particular were very uncomfortable and seemingly had their sense of autonomy or status threatened by this cute little four foot-tall robot."
     },
     {
       "author": "Hopkin",
-      "text": ": Does this mean there\u2019s no future for robot nurses or instructors?"
+      "text": "Does this mean there\u2019s no future for robot nurses or instructors?"
     },
     {
       "author": "Saunderson",
-      "text": ": This isn\u2019t saying you can\u2019t ever put a robot in charge. You just need to be very conscious and cautious with it. It shouldn\u2019t be dominant. It shouldn\u2019t be authoritative. It shouldn\u2019t maybe even try to be an authority figure."
+      "text": "This isn\u2019t saying you can\u2019t ever put a robot in charge. You just need to be very conscious and cautious with it. It shouldn\u2019t be dominant. It shouldn\u2019t be authoritative. It shouldn\u2019t maybe even try to be an authority figure."
     },
     {
       "author": "Hopkin",
-      "text": ": And if all else fails, just make it more adorable. Saunderson recalls a study in which engineers had designed a library robot."
+      "text": "And if all else fails, just make it more adorable. Saunderson recalls a study in which engineers had designed a library robot."
     },
     {
       "author": "Saunderson",
-      "text": ": It was just literally like a cart that drove around and put books back."
+      "text": "It was just literally like a cart that drove around and put books back."
     },
     {
       "author": "Hopkin",
-      "text": ": But the book bot kept getting vandalized."
+      "text": "But the book bot kept getting vandalized."
     },
     {
       "author": "Saunderson",
-      "text": ": The fix was literally to put on like two big five-dollar googly eyes. And suddenly, by anthropormorphizing it, people thought, \u201cOh look, it\u2019s the little cute book bot. We shouldn\u2019t hurt that thing.\u201d So, yeah, there\u2019s a lot of very subtle things you can do to give robots a slight hand up, for sure."
+      "text": "The fix was literally to put on like two big five-dollar googly eyes. And suddenly, by anthropormorphizing it, people thought, \u201cOh look, it\u2019s the little cute book bot. We shouldn\u2019t hurt that thing.\u201d So, yeah, there\u2019s a lot of very subtle things you can do to give robots a slight hand up, for sure."
     },
     {
       "author": "Hopkin",
-      "text": ": Then those robots can give us a hand when we want help folding the laundry or doing the dishes or making the bed or programming the robots. No, wait\u2026 For Scientific American\u2019s 60-Second Science, I\u2019m Karen Hopkin.\u00a0 [Ad Begins] This podcast segment was produced for AstraZeneca by Scientific American Custom Media, a division separate from the magazine\u2019s board of editors."
+      "text": "Then those robots can give us a hand when we want help folding the laundry or doing the dishes or making the bed or programming the robots. No, wait\u2026 For Scientific American\u2019s 60-Second Science, I\u2019m Karen Hopkin.\u00a0 [Ad Begins] This podcast segment was produced for AstraZeneca by Scientific American Custom Media, a division separate from the magazine\u2019s board of editors."
     },
     {
       "author": "Megan Hall:'",
@@ -147,7 +147,7 @@
     },
     {
       "author": "Chatrick Paul",
-      "text": ":\u00a0Thank you. It's great to be here."
+      "text": "\u00a0Thank you. It's great to be here."
     },
     {
       "author": "Hall:'",
@@ -155,7 +155,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0Yeah, I have the privilege to lead a highly committed and passionate team of professionals who are dedicated to improving the lives of people with cancer. Our motto is: No patient left behind. And this is because we are bringing to the market evidence-based medicines that offer transformative benefits where there is dire need. And because to us, the fight against cancer is personal. Whether it is that young mother battling early breast cancer or my brother, whom I lost to cancer, we fight for them."
+      "text": "\u00a0Yeah, I have the privilege to lead a highly committed and passionate team of professionals who are dedicated to improving the lives of people with cancer. Our motto is: No patient left behind. And this is because we are bringing to the market evidence-based medicines that offer transformative benefits where there is dire need. And because to us, the fight against cancer is personal. Whether it is that young mother battling early breast cancer or my brother, whom I lost to cancer, we fight for them."
     },
     {
       "author": "Hall:'",
@@ -163,7 +163,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0I am inspired by the innovation we drive and the breakthroughs that we are creating for patients, their caregivers, and physicians in hard-to-treat cancers. We are passionate about redefining cancer care, and one day eliminate cancer as a cause of death."
+      "text": "\u00a0I am inspired by the innovation we drive and the breakthroughs that we are creating for patients, their caregivers, and physicians in hard-to-treat cancers. We are passionate about redefining cancer care, and one day eliminate cancer as a cause of death."
     },
     {
       "author": "Hall:'",
@@ -171,7 +171,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0So we know that by bringing more effective and better-tolerated medicines, we play a major role in realizing our bold ambition here at AstraZeneca to one day eliminate cancer as a cause of death. But we also know that it is just one part of the puzzle. And that this ambition is going to take more than just solving the scientific and technical challenges of controlling and overcoming cancerous cells, we recognize that it is going to take the resolution of multiple other issues and the joint effort of many in the community to reach that goal. So with that in mind, we launched our YOUR Cancer program. Through YOUR Cancer, we seek to convene the oncology community to drive meaningful change and to provide the resources and the platforms to elevate the difference-makers in the community who are working to create positive change. The C2 awards are an integral part of this program and they serve to recognize and celebrate those individuals and organizations who are making great strides in our fight against cancer. And so our hope is that by shining the light on these change makers, and through highlighting their work, we are also empowering others to take that first step."
+      "text": "\u00a0So we know that by bringing more effective and better-tolerated medicines, we play a major role in realizing our bold ambition here at AstraZeneca to one day eliminate cancer as a cause of death. But we also know that it is just one part of the puzzle. And that this ambition is going to take more than just solving the scientific and technical challenges of controlling and overcoming cancerous cells, we recognize that it is going to take the resolution of multiple other issues and the joint effort of many in the community to reach that goal. So with that in mind, we launched our YOUR Cancer program. Through YOUR Cancer, we seek to convene the oncology community to drive meaningful change and to provide the resources and the platforms to elevate the difference-makers in the community who are working to create positive change. The C2 awards are an integral part of this program and they serve to recognize and celebrate those individuals and organizations who are making great strides in our fight against cancer. And so our hope is that by shining the light on these change makers, and through highlighting their work, we are also empowering others to take that first step."
     },
     {
       "author": "Hall:'",
@@ -179,7 +179,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0I see our team's core job as translating the promise that we demonstrate through our science and clinical trials to daily clinical practice. A lot of the things need to fall in line in the journey of each patient for that promise to be realized. And for patients to really have those health outcomes that are possible. And this would include things like screening, timely detection, appropriate diagnosis, effective treatment and care."
+      "text": "\u00a0I see our team's core job as translating the promise that we demonstrate through our science and clinical trials to daily clinical practice. A lot of the things need to fall in line in the journey of each patient for that promise to be realized. And for patients to really have those health outcomes that are possible. And this would include things like screening, timely detection, appropriate diagnosis, effective treatment and care."
     },
     {
       "author": "Hall:'",
@@ -187,7 +187,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0Yeah, it's actually an incredible time for us to reflect on this because as you know, this year marks the 50th anniversary of the National Cancer Act. So if you look since 1971, we have seen a decline in cancer-related deaths. According to the American Cancer Society, from 1991 to 2018, cancer death rates fell by 31%. What that tells me is that we are winning the war against cancer. And I believe this is a direct result of expansions in screening, early diagnosis programs as well as advancement in treatment. Some of the greatest advancements have come from the revolution in precision medicine. Over time, we've learned that some cancers are driven by individual genes or by specific mutations at the molecular level. With that understanding, we're able to develop targeted therapies that address the unique characteristics of a person's tumor. And so it is really delivering the right treatment to the right patient at the right time."
+      "text": "\u00a0Yeah, it's actually an incredible time for us to reflect on this because as you know, this year marks the 50th anniversary of the National Cancer Act. So if you look since 1971, we have seen a decline in cancer-related deaths. According to the American Cancer Society, from 1991 to 2018, cancer death rates fell by 31%. What that tells me is that we are winning the war against cancer. And I believe this is a direct result of expansions in screening, early diagnosis programs as well as advancement in treatment. Some of the greatest advancements have come from the revolution in precision medicine. Over time, we've learned that some cancers are driven by individual genes or by specific mutations at the molecular level. With that understanding, we're able to develop targeted therapies that address the unique characteristics of a person's tumor. And so it is really delivering the right treatment to the right patient at the right time."
     },
     {
       "author": "Hall:'",
@@ -195,7 +195,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0Notwithstanding the incredible progress we've been able to make to date, there are still so many patients with unmet needs. And so my hope is that we will expand greater access to the latest technologies available to screen tests and treatments that will help deliver the full promise of precision medicine to patients who really can benefit from them. It's also my hope that there will be continued deep interdisciplinary partnerships. I know we have a long way to go. But I am truly encouraged by the strides we continue to make across the entire oncology community towards redefining cancer care together."
+      "text": "\u00a0Notwithstanding the incredible progress we've been able to make to date, there are still so many patients with unmet needs. And so my hope is that we will expand greater access to the latest technologies available to screen tests and treatments that will help deliver the full promise of precision medicine to patients who really can benefit from them. It's also my hope that there will be continued deep interdisciplinary partnerships. I know we have a long way to go. But I am truly encouraged by the strides we continue to make across the entire oncology community towards redefining cancer care together."
     },
     {
       "author": "Hall:'",
@@ -203,7 +203,7 @@
     },
     {
       "author": "Paul",
-      "text": ":\u00a0My pleasure."
+      "text": "\u00a0My pleasure."
     },
     {
       "author": "Hall:'",

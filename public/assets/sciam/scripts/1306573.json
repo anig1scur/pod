@@ -30,7 +30,7 @@
     },
     {
       "author": "Fischman",
-      "text": ": I\u2019m Josh Fischman."
+      "text": "I\u2019m Josh Fischman."
     },
     {
       "author": "Lewis: ",
@@ -42,15 +42,15 @@
     },
     {
       "author": "Lewis",
-      "text": ": For many people, deciding to have a child, getting pregnant, and giving birth is straightforward\u2014if not easy. But for others, it can be a real struggle, sometimes involving years of treatment and no guarantee of success."
+      "text": "For many people, deciding to have a child, getting pregnant, and giving birth is straightforward\u2014if not easy. But for others, it can be a real struggle, sometimes involving years of treatment and no guarantee of success."
     },
     {
       "author": "Fischman",
-      "text": ": In vitro fertilization, or IVF, is the process of stimulating eggs to develop, fertilizing those eggs outside the body in a lab dish, and implanting them into the womb. There, an embryo hopefully develops into a healthy baby."
+      "text": "In vitro fertilization, or IVF, is the process of stimulating eggs to develop, fertilizing those eggs outside the body in a lab dish, and implanting them into the womb. There, an embryo hopefully develops into a healthy baby."
     },
     {
       "author": "Lewis",
-      "text": ": Right. But for many couples, it\u2019s not that simple. IVF can require multiple rounds of grueling egg stimulation cycles, during which the female partner must undergo daily injections of hormones that make the ovaries grow dozens of eggs at a time. These hormones can produce nausea and other unpleasant effects."
+      "text": "Right. But for many couples, it\u2019s not that simple. IVF can require multiple rounds of grueling egg stimulation cycles, during which the female partner must undergo daily injections of hormones that make the ovaries grow dozens of eggs at a time. These hormones can produce nausea and other unpleasant effects."
     },
     {
       "author": "Fischman: ",
@@ -62,7 +62,7 @@
     },
     {
       "author": "Fischman",
-      "text": ": The whole process is very expensive and time-consuming. For a want-to-be parent, it\u2019s\u00a0 a lot to go through."
+      "text": "The whole process is very expensive and time-consuming. For a want-to-be parent, it\u2019s\u00a0 a lot to go through."
     },
     {
       "author": "Lewis: ",
@@ -74,23 +74,23 @@
     },
     {
       "author": "Lewis",
-      "text": ": That\u2019s right."
+      "text": "That\u2019s right."
     },
     {
       "author": "Fischman",
-      "text": ": Is there a more straightforward method? A better way to choose embryos that have a high chance of developing into healthy babies?"
+      "text": "Is there a more straightforward method? A better way to choose embryos that have a high chance of developing into healthy babies?"
     },
     {
       "author": "Lewis",
-      "text": ": Well actually, researchers at the University of California, San Diego have developed a test for genetic material in the leftover media\u2014the soup of nutrients used to grow the embryos. This genetic material could possibly be used to predict the quality of an embryo\u2014which in turn tells you something about its likelihood of developing successfully."
+      "text": "Well actually, researchers at the University of California, San Diego have developed a test for genetic material in the leftover media\u2014the soup of nutrients used to grow the embryos. This genetic material could possibly be used to predict the quality of an embryo\u2014which in turn tells you something about its likelihood of developing successfully."
     },
     {
       "author": "Irene Su",
-      "text": ": One of the biggest barriers to IVF success is that not every egg, not every sperm, not every embryo will lead to a healthy baby. Individuals and couples go through a lot when they go through IVF, and we are on the hunt for the best way to identify embryos that will lead us to healthy live births."
+      "text": "One of the biggest barriers to IVF success is that not every egg, not every sperm, not every embryo will lead to a healthy baby. Individuals and couples go through a lot when they go through IVF, and we are on the hunt for the best way to identify embryos that will lead us to healthy live births."
     },
     {
       "author": "Lewis",
-      "text": ": That\u2019s Irene Su, a reproductive endocrinologist and epidemiologist at the University of California, San Diego."
+      "text": "That\u2019s Irene Su, a reproductive endocrinologist and epidemiologist at the University of California, San Diego."
     },
     {
       "author": "Su: ",
@@ -102,7 +102,7 @@
     },
     {
       "author": "Fischman",
-      "text": ": So right now, the only way to know if an embryo is healthy is to look at its structure or to do genetic testing, which is an invasive and expensive technique that can take weeks or months."
+      "text": "So right now, the only way to know if an embryo is healthy is to look at its structure or to do genetic testing, which is an invasive and expensive technique that can take weeks or months."
     },
     {
       "author": "Lewis: ",
@@ -110,31 +110,31 @@
     },
     {
       "author": "Fischman",
-      "text": ": What is exRNA, and how does it end up in the embryo culture media?"
+      "text": "What is exRNA, and how does it end up in the embryo culture media?"
     },
     {
       "author": "Lewis",
-      "text": ": It\u2019s a form of genetic material, or RNA, that cells excrete. Scientists aren\u2019t sure what it\u2019s for but suspect it is involved in cell-to-cell communication and regulation."
+      "text": "It\u2019s a form of genetic material, or RNA, that cells excrete. Scientists aren\u2019t sure what it\u2019s for but suspect it is involved in cell-to-cell communication and regulation."
     },
     {
       "author": "Zhong",
-      "text": ":\u00a0My name is Sheng Zhong. I'm a professor of bioengineering at the University of California San Diego. The understanding of how a single cell zygote becomes a multicelled organism with different cells carrying out vastly different functions is a central question in modern biology."
+      "text": "\u00a0My name is Sheng Zhong. I'm a professor of bioengineering at the University of California San Diego. The understanding of how a single cell zygote becomes a multicelled organism with different cells carrying out vastly different functions is a central question in modern biology."
     },
     {
       "author": "Fischman",
-      "text": ": You can study embryo development in lab animals, but those findings don\u2019t always translate to humans. And you can\u2019t just dissect a developing human embryo to see what\u2019s going on, which genes are being turned on, etc."
+      "text": "You can study embryo development in lab animals, but those findings don\u2019t always translate to humans. And you can\u2019t just dissect a developing human embryo to see what\u2019s going on, which genes are being turned on, etc."
     },
     {
       "author": "Lewis",
-      "text": ": Right. So Su and Zhang have come up with a technology called \u201cSILVERseq\u201d to detect these exRNAs from a very small volume of liquid."
+      "text": "Right. So Su and Zhang have come up with a technology called \u201cSILVERseq\u201d to detect these exRNAs from a very small volume of liquid."
     },
     {
       "author": "Fischman",
-      "text": ": So basically, you can get all this genetic information about the developing embryo without even touching it?"
+      "text": "So basically, you can get all this genetic information about the developing embryo without even touching it?"
     },
     {
       "author": "Lewis",
-      "text": ": Yeah, it\u2019s completely noninvasive. The researchers detected about 4,000 different exRNA molecules for each of five different stages of embryo development. They used the data to train an AI model that could predict the embryo\u2019s quality. And it actually worked as well as assessments by human embryologists."
+      "text": "Yeah, it\u2019s completely noninvasive. The researchers detected about 4,000 different exRNA molecules for each of five different stages of embryo development. They used the data to train an AI model that could predict the embryo\u2019s quality. And it actually worked as well as assessments by human embryologists."
     },
     {
       "author": "Zhang: ",
@@ -142,7 +142,7 @@
     },
     {
       "author": "Lewis",
-      "text": ": The hope is that you could look at the exRNA profile of an embryo and determine whether it will turn into a healthy baby."
+      "text": "The hope is that you could look at the exRNA profile of an embryo and determine whether it will turn into a healthy baby."
     },
     {
       "author": "Su: ",
@@ -150,27 +150,27 @@
     },
     {
       "author": "Fischman",
-      "text": ": Of course, this is still an experimental technique. There are a number of steps required before this could be adapted for widespread use in IVF clinics."
+      "text": "Of course, this is still an experimental technique. There are a number of steps required before this could be adapted for widespread use in IVF clinics."
     },
     {
       "author": "Su",
-      "text": ":\u00a0I think it's really important that technology is evaluated in evidence space before we push it out into clinical care. \u2026 if this exRNA profile turns out to be something that is so promising, then you\u2019ve got to trial it out to see if patients who have embryos picked by using this versus patients who have used conventional methods, whether this performs better."
+      "text": "\u00a0I think it's really important that technology is evaluated in evidence space before we push it out into clinical care. \u2026 if this exRNA profile turns out to be something that is so promising, then you\u2019ve got to trial it out to see if patients who have embryos picked by using this versus patients who have used conventional methods, whether this performs better."
     },
     {
       "author": "Lewis",
-      "text": ": Su also made the point that reproductive health and women\u2019s health are often underfunded."
+      "text": "Su also made the point that reproductive health and women\u2019s health are often underfunded."
     },
     {
       "author": "Su",
-      "text": ":\u00a0And so a lot of whether this type of exciting novel research technology can translate and be applied to human health, early human development, reproductive health depends on how much we as a country value this type of science and value its impact on health and are willing to invest in it. [CLIP: Show music]"
+      "text": "\u00a0And so a lot of whether this type of exciting novel research technology can translate and be applied to human health, early human development, reproductive health depends on how much we as a country value this type of science and value its impact on health and are willing to invest in it. [CLIP: Show music]"
     },
     {
       "author": "Fischman",
-      "text": ": Your Health, Quickly is produced by Tulika Bose, Jeff DelViscio, Kelso Harper, Carin Leong, and by us. It\u2019s edited by Elah Feder and Alexa Lim. Our music is composed by Dominic Smith."
+      "text": "Your Health, Quickly is produced by Tulika Bose, Jeff DelViscio, Kelso Harper, Carin Leong, and by us. It\u2019s edited by Elah Feder and Alexa Lim. Our music is composed by Dominic Smith."
     },
     {
       "author": "Lewis",
-      "text": ": Our show is a part of Scientific American\u2019s podcast, Science, Quickly. Subscribe wherever you get your podcasts. If you like the show, give us a rating or review! And if you have a topic you want us to cover, you can email us at Yourhealthquickly@sciam.com. That\u2019s your health quickly at S-C-I-A-M dot com. For Your Health Quickly, I\u2019m Tanya Lewis."
+      "text": "Our show is a part of Scientific American\u2019s podcast, Science, Quickly. Subscribe wherever you get your podcasts. If you like the show, give us a rating or review! And if you have a topic you want us to cover, you can email us at Yourhealthquickly@sciam.com. That\u2019s your health quickly at S-C-I-A-M dot com. For Your Health Quickly, I\u2019m Tanya Lewis."
     },
     {
       "author": "Fischman:' ",

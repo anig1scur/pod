@@ -15,19 +15,19 @@
   "transcript": [
     {
       "author": "Christopher Intagliata",
-      "text": ": This is Scientific American\u2019s 60-Second Science. I\u2019m Christopher Intagliata. Songbirds can migrate for thousands of miles across the globe. And they have a lot of tools to find their way."
+      "text": "This is Scientific American\u2019s 60-Second Science. I\u2019m Christopher Intagliata. Songbirds can migrate for thousands of miles across the globe. And they have a lot of tools to find their way."
     },
     {
       "author": "Henrik Mouritsen",
-      "text": ":\u00a0They can use the stars, they can use the sun, they can use smell, they can use landmarks. They can use more or less anything that will help them. Henrik Mouritsen is a biologist at the University of Oldenburg in Germany. Together with an international team of scientists, he investigated another sense birds can use to help them\u2014the earth\u2019s magnetic field. Peter Hore\u00a0is a physical chemist on that team\u00a0at the University of Oxford in the U.K."
+      "text": "\u00a0They can use the stars, they can use the sun, they can use smell, they can use landmarks. They can use more or less anything that will help them. Henrik Mouritsen is a biologist at the University of Oldenburg in Germany. Together with an international team of scientists, he investigated another sense birds can use to help them\u2014the earth\u2019s magnetic field. Peter Hore\u00a0is a physical chemist on that team\u00a0at the University of Oxford in the U.K."
     },
     {
       "author": "Hore",
-      "text": ": We know the magnetic sensors are in the bird\u2019s eyes, in their retinas. And the most likely molecule is the protein cryptochrome."
+      "text": "We know the magnetic sensors are in the bird\u2019s eyes, in their retinas. And the most likely molecule is the protein cryptochrome."
     },
     {
       "author": "Intagliata",
-      "text": ": But here\u2019s what they didn\u2019t know: How does that light-sensitive protein, cryptochrome, actually help the birds sense magnetic fields?\u00a0To find out, they made some\u2014starting with the genome of a European robin, which is a migratory species."
+      "text": "But here\u2019s what they didn\u2019t know: How does that light-sensitive protein, cryptochrome, actually help the birds sense magnetic fields?\u00a0To find out, they made some\u2014starting with the genome of a European robin, which is a migratory species."
     },
     {
       "author": "Mouritsen:'",
@@ -35,23 +35,23 @@
     },
     {
       "author": "Intagliata",
-      "text": ": Hore\u2019s colleagues in Oxford then shined blue light on those protein samples\u2014transforming them into magnetically sensitive molecules. As they did that, they exposed the proteins to a magnetic field, which caused two competing chemical reactions to occur."
+      "text": "Hore\u2019s colleagues in Oxford then shined blue light on those protein samples\u2014transforming them into magnetically sensitive molecules. As they did that, they exposed the proteins to a magnetic field, which caused two competing chemical reactions to occur."
     },
     {
       "author": "Hore",
-      "text": ": And we\u2019ve been able to show these chemical reactions are affected by quite weak magnetic fields."
+      "text": "And we\u2019ve been able to show these chemical reactions are affected by quite weak magnetic fields."
     },
     {
       "author": "Intagliata",
-      "text": ": In fact, the strength of the magnetic field influences how many of the proteins go down one of those chemical reaction pathways versus the other. What happens next in a bird\u2019s eye isn\u2019t totally clear. But they think one of those magnetically sensitive reactions produces a form of the protein with a different shape\u2014which might cause it to interact differently with other proteins in the bird\u2019s cells. That, in turn, might trigger a cascade of messaging, which would allow the bird to \u201csense\u201d the magnetic field."
+      "text": "In fact, the strength of the magnetic field influences how many of the proteins go down one of those chemical reaction pathways versus the other. What happens next in a bird\u2019s eye isn\u2019t totally clear. But they think one of those magnetically sensitive reactions produces a form of the protein with a different shape\u2014which might cause it to interact differently with other proteins in the bird\u2019s cells. That, in turn, might trigger a cascade of messaging, which would allow the bird to \u201csense\u201d the magnetic field."
     },
     {
       "author": "Mouritsen",
-      "text": ": We also have some indications that it looks like the migratory bird cryptochromes might be more sensitive to magnetic fields than a chicken cryptochrome, for instance, which doesn\u2019t migrate ..."
+      "text": "We also have some indications that it looks like the migratory bird cryptochromes might be more sensitive to magnetic fields than a chicken cryptochrome, for instance, which doesn\u2019t migrate ..."
     },
     {
       "author": "Intagliata",
-      "text": ": Which is one more piece of evidence that the cryptochrome protein might underpin the robins\u2019 magnetic sense. The findings appear in the journal Nature. [Jingjing Xu et al., Magnetic sensitivity of cryptochrome 4 from a migratory songbird] This experiment only tested the proteins outside birds\u2019 eyes. Someday\u00a0the scientists hope it might be possible to measure this effect inside the animals themselves\u2014to get a truly bird\u2019s-eye view.\u00a0 [The above text is a transcript of this podcast.]"
+      "text": "Which is one more piece of evidence that the cryptochrome protein might underpin the robins\u2019 magnetic sense. The findings appear in the journal Nature. [Jingjing Xu et al., Magnetic sensitivity of cryptochrome 4 from a migratory songbird] This experiment only tested the proteins outside birds\u2019 eyes. Someday\u00a0the scientists hope it might be possible to measure this effect inside the animals themselves\u2014to get a truly bird\u2019s-eye view.\u00a0 [The above text is a transcript of this podcast.]"
     }
   ]
 }
