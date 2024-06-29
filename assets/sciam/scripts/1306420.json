@@ -17,11 +17,11 @@
   "transcript": [
     {
       "author": "Lauren Leffer",
-      "text": ": Prediction is powerful. For as long as people have been thinking about the future, we\u2019ve been trying to predict it. And, in some areas, we\u2019ve gotten pretty good (think, like, meteorology and climate modeling).Tulika Bose:\u00a0But scientifically-speaking \u2014 we\u2019re still pretty far from the stuff of crystal balls and oracles. There\u2019s lots of things people have no reliable way to forecast, despite what your horoscope may suggest."
+      "text": "Prediction is powerful. For as long as people have been thinking about the future, we\u2019ve been trying to predict it. And, in some areas, we\u2019ve gotten pretty good (think, like, meteorology and climate modeling).Tulika Bose:\u00a0But scientifically-speaking \u2014 we\u2019re still pretty far from the stuff of crystal balls and oracles. There\u2019s lots of things people have no reliable way to forecast, despite what your horoscope may suggest."
     },
     {
       "author": "Leffer",
-      "text": ": Absolutely. But\u2026 what if artificial intelligence could get us closer to that fantasy/supernatural realm of divination than ever before? What if, for instance, an AI model could accurately forecast a person\u2019s death?"
+      "text": "Absolutely. But\u2026 what if artificial intelligence could get us closer to that fantasy/supernatural realm of divination than ever before? What if, for instance, an AI model could accurately forecast a person\u2019s death?"
     },
     {
       "author": "Bose: ",
@@ -29,23 +29,23 @@
     },
     {
       "author": "Leffer",
-      "text": ":\u00a0 Yeah. It sounds scary, right? Bose: Uh, yeah."
+      "text": "\u00a0 Yeah. It sounds scary, right? Bose: Uh, yeah."
     },
     {
       "author": "Leffer",
-      "text": ": \u2014 and it might be, but probably not for the reasons you expect. I\u2019m Lauren Leffer, tech reporting fellow at Scientific American."
+      "text": "\u2014 and it might be, but probably not for the reasons you expect. I\u2019m Lauren Leffer, tech reporting fellow at Scientific American."
     },
     {
       "author": "Bose",
-      "text": ": I\u2019m Tulika Bose, Senior multimedia editor."
+      "text": "I\u2019m Tulika Bose, Senior multimedia editor."
     },
     {
       "author": "Leffer",
-      "text": ": And you\u2019re listening to Scientific American's Science, Quickly podcast. [INTRO MUSIC]"
+      "text": "And you\u2019re listening to Scientific American's Science, Quickly podcast. [INTRO MUSIC]"
     },
     {
       "author": "Leffer",
-      "text": ": So Tulika, death\u2013 we\u2019re all going to do it one day, but if you could know when you\u2019re going to die, would you want to?"
+      "text": "So Tulika, death\u2013 we\u2019re all going to do it one day, but if you could know when you\u2019re going to die, would you want to?"
     },
     {
       "author": "Bose: ",
@@ -53,11 +53,11 @@
     },
     {
       "author": "Leffer",
-      "text": ": You didn't even let me finish the question."
+      "text": "You didn't even let me finish the question."
     },
     {
       "author": "Bose",
-      "text": ": Yeah, I don't wanna know."
+      "text": "Yeah, I don't wanna know."
     },
     {
       "author": "Leffer: ",
@@ -65,7 +65,7 @@
     },
     {
       "author": "Bose",
-      "text": ": Yeah! For sure."
+      "text": "Yeah! For sure."
     },
     {
       "author": "Leffer: ",
@@ -73,7 +73,7 @@
     },
     {
       "author": "Bose",
-      "text": ": Ok, all of that\u2019s kind of a relief. But can we go back to the \u201cmore general thing\u201d? What else can it predict?"
+      "text": "Ok, all of that\u2019s kind of a relief. But can we go back to the \u201cmore general thing\u201d? What else can it predict?"
     },
     {
       "author": "Leffer: ",
@@ -89,11 +89,11 @@
     },
     {
       "author": "Bose",
-      "text": ": Whoa."
+      "text": "Whoa."
     },
     {
       "author": "Leffert",
-      "text": ": But again, it\u2019s hard to know exactly what accuracy means here.Bose: Hold up, the death calculator could also predict personality traits and if people would live abroad? How? How are any of those things related?"
+      "text": "But again, it\u2019s hard to know exactly what accuracy means here.Bose: Hold up, the death calculator could also predict personality traits and if people would live abroad? How? How are any of those things related?"
     },
     {
       "author": "Leffer: ",
@@ -121,15 +121,15 @@
     },
     {
       "author": "Bose",
-      "text": ": Hah wait so the death predictions here are \u201cautocompleting\u201d someone\u2019s life?"
+      "text": "Hah wait so the death predictions here are \u201cautocompleting\u201d someone\u2019s life?"
     },
     {
       "author": "Leffer",
-      "text": ":\u00a0That is one way to put it. You give the model the life event timeline, you ask it a specific question, and it predicts the next relevant step in the timeline, based on the prompt. Sometimes that means predicting death."
+      "text": "\u00a0That is one way to put it. You give the model the life event timeline, you ask it a specific question, and it predicts the next relevant step in the timeline, based on the prompt. Sometimes that means predicting death."
     },
     {
       "author": "Bose",
-      "text": ":\u00a0Uh, kay yeah.\u00a0This sounds like a Black Mirror episode. Your phone\u2019s autocomplete starts to spit out \u201cyou\u2019ll die in seven days\u201d type messages."
+      "text": "\u00a0Uh, kay yeah.\u00a0This sounds like a Black Mirror episode. Your phone\u2019s autocomplete starts to spit out \u201cyou\u2019ll die in seven days\u201d type messages."
     },
     {
       "author": "Leffer: ",
@@ -137,7 +137,7 @@
     },
     {
       "author": "Bose",
-      "text": ": I\u2019m on it. We can be co-writers.\u00a0So a little bit ago, you kept hedging on life2vec\u2019s accuracy, what was that about?"
+      "text": "I\u2019m on it. We can be co-writers.\u00a0So a little bit ago, you kept hedging on life2vec\u2019s accuracy, what was that about?"
     },
     {
       "author": "Leffer: ",
@@ -145,15 +145,15 @@
     },
     {
       "author": "Bose",
-      "text": ": Haha ok, that\u2019s kind of a burn?"
+      "text": "Haha ok, that\u2019s kind of a burn?"
     },
     {
       "author": "Leffer",
-      "text": ": It\u2019s more of a statement on how hard it is to predict something like death. And to assess the accuracy of something so new\u2013there\u2019s nothing obvious to compare life2vec to."
+      "text": "It\u2019s more of a statement on how hard it is to predict something like death. And to assess the accuracy of something so new\u2013there\u2019s nothing obvious to compare life2vec to."
     },
     {
       "author": "Bose",
-      "text": ": You can\u2019t just see how much better it is than flipping a coin or something?"
+      "text": "You can\u2019t just see how much better it is than flipping a coin or something?"
     },
     {
       "author": "Leffer: ",
@@ -161,15 +161,15 @@
     },
     {
       "author": "Bose",
-      "text": ": Ah ok, so you\u2019ve gotta figure out what it means to actually be good at predicting death, and then compare life2vec to that."
+      "text": "Ah ok, so you\u2019ve gotta figure out what it means to actually be good at predicting death, and then compare life2vec to that."
     },
     {
       "author": "Leffer",
-      "text": ": Totally! And that\u2019s kind of a question mark."
+      "text": "Totally! And that\u2019s kind of a question mark."
     },
     {
       "author": "Bose",
-      "text": ": So what could you use this for, if not to tell you when it\u2019s time to go permanent vacation mode? If we don\u2019t really know how good it is, what\u2019s the point?"
+      "text": "So what could you use this for, if not to tell you when it\u2019s time to go permanent vacation mode? If we don\u2019t really know how good it is, what\u2019s the point?"
     },
     {
       "author": "Leffer: ",
@@ -181,11 +181,11 @@
     },
     {
       "author": "Leffer",
-      "text": ": It\u2019s a valid concern!"
+      "text": "It\u2019s a valid concern!"
     },
     {
       "author": "Bose",
-      "text": ": Thank you for validating.Leffer: Haha of course. There is definitely an ethical risk with a tool like this. The study authors were careful to note all the ways that Danish privacy and anti-discrimination laws restrict how life2vec can be used. It\u2019s not just going to be a freely available tool. Academic and government researchers will have to apply to use it for specified purposes and then have a responsibility to protect peoples\u2019 data."
+      "text": "Thank you for validating.Leffer: Haha of course. There is definitely an ethical risk with a tool like this. The study authors were careful to note all the ways that Danish privacy and anti-discrimination laws restrict how life2vec can be used. It\u2019s not just going to be a freely available tool. Academic and government researchers will have to apply to use it for specified purposes and then have a responsibility to protect peoples\u2019 data."
     },
     {
       "author": "Bose: ",
@@ -193,7 +193,7 @@
     },
     {
       "author": "Leffer",
-      "text": ": Yeah, if it makes you feel any better\u2013 the study author I spoke with, Sune Lehmann, told me that he worked on this research because he trusts the Danish government, but in the U.S.--or another country without a comprehensive data privacy law\u2013 he wouldn\u2019t have been so comfortable."
+      "text": "Yeah, if it makes you feel any better\u2013 the study author I spoke with, Sune Lehmann, told me that he worked on this research because he trusts the Danish government, but in the U.S.--or another country without a comprehensive data privacy law\u2013 he wouldn\u2019t have been so comfortable."
     },
     {
       "author": "Bose: ",
@@ -201,15 +201,15 @@
     },
     {
       "author": "Leffer",
-      "text": ": Ok, fair. Then to double down and make you feel worse: We kind of sort of already live in a version of\u00a0the terrifying Minority Report world. In the U.S., there's predictive policing and judges making sentencing decisions with the help of AI algorithms. In all of these cases, bias and innaccuracy are big documented problems that keep popping back up."
+      "text": "Ok, fair. Then to double down and make you feel worse: We kind of sort of already live in a version of\u00a0the terrifying Minority Report world. In the U.S., there's predictive policing and judges making sentencing decisions with the help of AI algorithms. In all of these cases, bias and innaccuracy are big documented problems that keep popping back up."
     },
     {
       "author": "Bose",
-      "text": ": Yikes. And I guess while we\u2019re talking algorithms, there\u2019s social media, too."
+      "text": "Yikes. And I guess while we\u2019re talking algorithms, there\u2019s social media, too."
     },
     {
       "author": "Leffer",
-      "text": ": Right, tech companies collect so much data on users and are certainly using that data to build predictive AI models that help maximize engagement or forecast what people will buy. The biggest difference between the tech company algorithms, the criminal justice tools, and life2vec is that\u2013for the first two\u2013 there\u2019s very little transparency. For the last one, the academic researchers want the public and the scientific community to understand how the tool works and what it can do."
+      "text": "Right, tech companies collect so much data on users and are certainly using that data to build predictive AI models that help maximize engagement or forecast what people will buy. The biggest difference between the tech company algorithms, the criminal justice tools, and life2vec is that\u2013for the first two\u2013 there\u2019s very little transparency. For the last one, the academic researchers want the public and the scientific community to understand how the tool works and what it can do."
     },
     {
       "author": "Bose: ",
@@ -217,15 +217,15 @@
     },
     {
       "author": "Leffer",
-      "text": ": Yup, Lehmann\u2019s hope is that a transparent and flexible model like life2vec will spur conversation in a new direction\u2013 it might get people and governments to start thinking about what\u2019s possible and what\u2019s right. He told me, \u201cI hope that this can be part of a discussion that helps move us in the direction of utopia and away from dystopia.\u201d"
+      "text": "Yup, Lehmann\u2019s hope is that a transparent and flexible model like life2vec will spur conversation in a new direction\u2013 it might get people and governments to start thinking about what\u2019s possible and what\u2019s right. He told me, \u201cI hope that this can be part of a discussion that helps move us in the direction of utopia and away from dystopia.\u201d"
     },
     {
       "author": "Bose",
-      "text": ": Utopia is a big really goal, but I hope he\u2019s right. Also I would settle for not dystopia. Honestly."
+      "text": "Utopia is a big really goal, but I hope he\u2019s right. Also I would settle for not dystopia. Honestly."
     },
     {
       "author": "Leffer",
-      "text": ": Me too. Any zone inbetween that would be good with me."
+      "text": "Me too. Any zone inbetween that would be good with me."
     },
     {
       "author": "Bose: ",
@@ -233,11 +233,11 @@
     },
     {
       "author": "Leffer",
-      "text": ": It is a lofty goal. So Tulika, what have we learned here? I'm giving you a little test."
+      "text": "It is a lofty goal. So Tulika, what have we learned here? I'm giving you a little test."
     },
     {
       "author": "Bose",
-      "text": ": That Denmark seems cool."
+      "text": "That Denmark seems cool."
     },
     {
       "author": "Leffer: ",
@@ -249,11 +249,11 @@
     },
     {
       "author": "Bose",
-      "text": ":\u00a0Don\u2019t forget to subscribe to Science Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review!"
+      "text": "\u00a0Don\u2019t forget to subscribe to Science Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review!"
     },
     {
       "author": "Leffer",
-      "text": ": For Scientific American\u2019s Science Quickly, I\u2019m Lauren Leffer."
+      "text": "For Scientific American\u2019s Science Quickly, I\u2019m Lauren Leffer."
     },
     {
       "author": "Bose: ",

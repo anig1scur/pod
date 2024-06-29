@@ -17,15 +17,15 @@
   "transcript": [
     {
       "author": "SUBSCRIBE",
-      "text": ":Apple | Spotify"
+      "text": "Apple | Spotify"
     },
     {
       "author": "Lee Billings",
-      "text": ": Hey there and welcome to Cosmos, Quickly, this is Lee Billings. Today we\u2019re talking about the curious case of \u2018Oumuamua, which became the first known interstellar visitor to our solar system when it swooped by Earth and around the Sun back in October of 2017. I\u2019m joined by our news reporter Meghan Bartels who just wrote a story on a fresh study about this mysterious object and talked to one of the researchers behind it.\u00a0 Hi, Meghan!"
+      "text": "Hey there and welcome to Cosmos, Quickly, this is Lee Billings. Today we\u2019re talking about the curious case of \u2018Oumuamua, which became the first known interstellar visitor to our solar system when it swooped by Earth and around the Sun back in October of 2017. I\u2019m joined by our news reporter Meghan Bartels who just wrote a story on a fresh study about this mysterious object and talked to one of the researchers behind it.\u00a0 Hi, Meghan!"
     },
     {
       "author": "Meghan Bartels",
-      "text": ": Hi Lee. Happy to be here!"
+      "text": "Hi Lee. Happy to be here!"
     },
     {
       "author": "Billings: ",
@@ -33,75 +33,75 @@
     },
     {
       "author": "Bartels",
-      "text": ": Well, \u2018Oumuamua was really weird. Astronomers weren\u2019t sure if it was an asteroid or a comet, and it was strangely shaped\u2013long and thin like a cigar (or maybe flat and thin like a pancake?). And it seemed to speed up on its outbound journey in a way scientists struggled to explain."
+      "text": "Well, \u2018Oumuamua was really weird. Astronomers weren\u2019t sure if it was an asteroid or a comet, and it was strangely shaped\u2013long and thin like a cigar (or maybe flat and thin like a pancake?). And it seemed to speed up on its outbound journey in a way scientists struggled to explain."
     },
     {
       "author": "Billings",
-      "text": ": Speed up?"
+      "text": "Speed up?"
     },
     {
       "author": "Bartels",
-      "text": ": Well, as it traveled away from the Sun and slipped away from our star\u2019s gravitational grip, its departing velocity was faster than expected. Almost like a driver of a car hitting the gas while coasting up a hill. Scientists call that \u201cnon-gravitational acceleration.\u201d"
+      "text": "Well, as it traveled away from the Sun and slipped away from our star\u2019s gravitational grip, its departing velocity was faster than expected. Almost like a driver of a car hitting the gas while coasting up a hill. Scientists call that \u201cnon-gravitational acceleration.\u201d"
     },
     {
       "author": "Billings",
-      "text": ": Non-gravitational acceleration. Got it. And that\u2019s weird because?"
+      "text": "Non-gravitational acceleration. Got it. And that\u2019s weird because?"
     },
     {
       "author": "Bartels",
-      "text": ": It\u2019s not that weird, actually\u2013comets do it all the time when they come close to the Sun. Sunlight warms their ice which turns to gas and jets off the surface, a bit like a rocket."
+      "text": "It\u2019s not that weird, actually\u2013comets do it all the time when they come close to the Sun. Sunlight warms their ice which turns to gas and jets off the surface, a bit like a rocket."
     },
     {
       "author": "Billings",
-      "text": ": But usually, you can see that gas or the dust trail, and we didn\u2019t see any of that with \u2018Oumuamua, right?"
+      "text": "But usually, you can see that gas or the dust trail, and we didn\u2019t see any of that with \u2018Oumuamua, right?"
     },
     {
       "author": "Bartels",
-      "text": ": Yeah, that\u2019s right."
+      "text": "Yeah, that\u2019s right."
     },
     {
       "author": "Billings",
-      "text": ": That explains why scientists keep offering these wacky out-of-leftfield ideas about what caused the acceleration. Maybe it was a big dustball held together by electrostatic forces\u2013like a supersized version of the dust bunnies under your couch. Maybe it was a huge iceberg made of solid hydrogen. Or maybe it was a derelict alien starship.\u00a0 (Some folks say all these things. To be clear\u2013these are all things we have never ever seen before, as far as we know. We don\u2019t necessarily have good reasons to believe they exist.)"
+      "text": "That explains why scientists keep offering these wacky out-of-leftfield ideas about what caused the acceleration. Maybe it was a big dustball held together by electrostatic forces\u2013like a supersized version of the dust bunnies under your couch. Maybe it was a huge iceberg made of solid hydrogen. Or maybe it was a derelict alien starship.\u00a0 (Some folks say all these things. To be clear\u2013these are all things we have never ever seen before, as far as we know. We don\u2019t necessarily have good reasons to believe they exist.)"
     },
     {
       "author": "Bartels",
-      "text": ": Exactly. And so in the years since \u2018Oumuamua\u2019s visit, scientists have been wrestling with that puzzle. I talked with one of them, Jennifer Bergner. She\u2019s a chemist at the University of California, Berkeley. She and her colleague Darryl Seligman\u2013he\u2019s an astronomer at Cornell University in Ithaca, New York\u2013they think \u2018Oumuamua\u2019s odd speed-up might be due to it not being so weird after all. Instead they think it might be a small but otherwise typical comet rich in water ice.\u00a0 They recently published their findings in the journal Nature."
+      "text": "Exactly. And so in the years since \u2018Oumuamua\u2019s visit, scientists have been wrestling with that puzzle. I talked with one of them, Jennifer Bergner. She\u2019s a chemist at the University of California, Berkeley. She and her colleague Darryl Seligman\u2013he\u2019s an astronomer at Cornell University in Ithaca, New York\u2013they think \u2018Oumuamua\u2019s odd speed-up might be due to it not being so weird after all. Instead they think it might be a small but otherwise typical comet rich in water ice.\u00a0 They recently published their findings in the journal Nature."
     },
     {
       "author": "Bergner",
-      "text": ": I think what we are hoping to do here was to provide sort of a scenario that could explain the behavior that was seen without sort of invoking any exotic physics or chemistry."
+      "text": "I think what we are hoping to do here was to provide sort of a scenario that could explain the behavior that was seen without sort of invoking any exotic physics or chemistry."
     },
     {
       "author": "Bartels",
-      "text": ": So the idea here is that \u2018Oumuamua was made of dusty water ice, just like the comets we see in our own neighborhood all the time. Then, during its journey between star systems, cosmic rays bombarded the object and broke some of that water ice to form molecular hydrogen."
+      "text": "So the idea here is that \u2018Oumuamua was made of dusty water ice, just like the comets we see in our own neighborhood all the time. Then, during its journey between star systems, cosmic rays bombarded the object and broke some of that water ice to form molecular hydrogen."
     },
     {
       "author": "Bergner",
-      "text": ": This is not like crystalline ice, where it's a very compact ordered structure. It's amorphous. So that means that it has these big sort of pores or kind of gaps within the structure of the water ice."
+      "text": "This is not like crystalline ice, where it's a very compact ordered structure. It's amorphous. So that means that it has these big sort of pores or kind of gaps within the structure of the water ice."
     },
     {
       "author": "Bartels",
-      "text": ": But that ice softened up in sunlight as \u2018Oumuamua passed by our star, and the hydrogen was able to break out, triggering that non-gravitational acceleration. Meanwhile the ice held on to the dust astronomers otherwise would have seen from the outgassing."
+      "text": "But that ice softened up in sunlight as \u2018Oumuamua passed by our star, and the hydrogen was able to break out, triggering that non-gravitational acceleration. Meanwhile the ice held on to the dust astronomers otherwise would have seen from the outgassing."
     },
     {
       "author": "Billings",
-      "text": ": Nice and neat, very convenient. So how convinced are scientists by the new idea?"
+      "text": "Nice and neat, very convenient. So how convinced are scientists by the new idea?"
     },
     {
       "author": "Bartels",
-      "text": ": Eh, it\u2019s really tricky to say. Some people think that the math doesn\u2019t work out. Some people still say there should have been visible signs of outgassing. And worst of all, we\u2019ll definitely never know for sure."
+      "text": "Eh, it\u2019s really tricky to say. Some people think that the math doesn\u2019t work out. Some people still say there should have been visible signs of outgassing. And worst of all, we\u2019ll definitely never know for sure."
     },
     {
       "author": "Bergner",
-      "text": ": We have frustratingly few observations on the properties of Oumuamua. It would be difficult to prove anything for sure about \u2018Oumuamua."
+      "text": "We have frustratingly few observations on the properties of Oumuamua. It would be difficult to prove anything for sure about \u2018Oumuamua."
     },
     {
       "author": "Bartels",
-      "text": ": But you can\u2019t keep astrochemists down."
+      "text": "But you can\u2019t keep astrochemists down."
     },
     {
       "author": "Bergner",
-      "text": ": \u2026.. I'm certainly excited to keep an eye out for future interstellar visitors. \u2014"
+      "text": "\u2026.. I'm certainly excited to keep an eye out for future interstellar visitors. \u2014"
     },
     {
       "author": "Billings: ",
@@ -109,11 +109,11 @@
     },
     {
       "author": "Bartels",
-      "text": ": Like and subscribe wherever you get your podcasts. And for more science news, go to ScientificAmerican.com"
+      "text": "Like and subscribe wherever you get your podcasts. And for more science news, go to ScientificAmerican.com"
     },
     {
       "author": "SUBSCRIBE",
-      "text": ":Apple | Spotify"
+      "text": "Apple | Spotify"
     }
   ]
 }
