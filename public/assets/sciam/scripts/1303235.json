@@ -1,0 +1,113 @@
+{
+  "title": "Science Finally Has a Good Idea about Why We Stutter",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/F75381CD-7DB2-4A7E-B7D8FC346E38A49C_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/science-finally-has-a-good-idea-about-why-we-stutter/",
+  "audio": "https://traffic.megaphone.fm/SAM4965646074.mp3?updated=1703605857",
+  "intro": [
+    "A glitch in speech initiation gives rise to the repetition that characterizes stuttering."
+  ],
+  "authors": [
+    "Karen Hopkin"
+  ],
+  "category": [
+    "Neurology"
+  ],
+  "transcript": [
+    {
+      "author": "Karen Hopkin",
+      "text": ": This is Scientific American\u2019s 60-Second Science. I\u2019m Karen Hopkin."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": When you stop to think about it, it\u2019s not all that easy to speak. First you have to think of something to say. Then your brain has to tell your mouth to say it. Interruptions anywhere along this articulation pathway can impair the utterance, and create something like a stutter. Now, studying a neurocomputational model of this complex process, researchers have found that stuttering stems from a glitch in the neural circuit that initiates speech. They presented their findings at the Meeting of the Acoustical Society of America. [F. Guenther et al., Stuttering Starts at Speech Initiation, Not Due to Impaired Motor Skills]"
+    },
+    {
+      "author": "Frank Guenther",
+      "text": ": My main research interest is translating how the brain translates thoughts ..."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": Frank Guenther of Boston University."
+    },
+    {
+      "author": "Guenther",
+      "text": ": ... into movements of the tongue and the other speech articulators that convey these thoughts to another person."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": He says that stuttering is very common and it happens in all languages. It\u2019s estimated that about one percent of the world\u2019s population stutters."
+    },
+    {
+      "author": "Guenther",
+      "text": ": Despite this, and despite being studied at least as far back as the ancient Romans, our understanding of what causes stuttering has been until recent years very poor."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": Numerous neural circuits come into play when it comes to generating speech. But the key drivers can be broken down into two main circuits."
+    },
+    {
+      "author": "Guenther",
+      "text": ": One is an initiation circuit and the other is an articulation circuit. To understand the function of these circuits it\u2019s useful to consider something like the energizer bunny which has an on/off switch as well as a set of motors and gears that make the bunny walk and play drums when the switch is turned on."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": The on/off switch initiates the movement. And the motors and gears make it happen. But which of these circuits can lead to a stutter? To find out, Guenther pieced together equations that represent how the neurons that form these circuits interact."
+    },
+    {
+      "author": "Guenther",
+      "text": ": These equations describe neural activity in different parts of the brain including the basal ganglia, cerebellum, and the cerebral cortex."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": One set of equations represents the electrical activity of the neurons in all of these regions\u2026another the strength of the connections they form with each other. That allows Guenther and his team to experimentally manipulate various aspects of the system."
+    },
+    {
+      "author": "Guenther",
+      "text": ":\u00a0 And it allows us to test different versions of the story regarding the basal ganglia\u2019s involvement in stuttering by basically impairing different parts of the circuit and observing what happens in terms of speech output and also brain activity."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": The basal ganglia, structures tucked beneath the brain\u2019s cerebral cortex, play a critical role in initiating a variety of motor activities."
+    },
+    {
+      "author": "Guenther",
+      "text": ": They basically monitor our thoughts sensations and actions and they determine which actions we should perform next."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": That includes the muscles involved in speech. [audio] Good doggie."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": That\u2019s an example of the speech that comes from Guenther\u2019s computational model when everything is working as it should. But then Guenther fiddles with the equations in the initiation circuit\u2026reducing the connections here or boosting the stimulation there. Which produces what sounds like a typical stutter. [audio] Guh-g-g-good doggie."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": That says to Guenther\u2026"
+    },
+    {
+      "author": "Guenther",
+      "text": ": \u2026stuttering is a problem with the on/off switch. The motors and gears work fine. But the switch doesn\u2019t always turn on when it should. Or it doesn\u2019t stay on as long as it should. This results in delays in initiating a word. Or repetitions of the first part of the word. [audio] Guh-guh-good doggie."
+    },
+    {
+      "author": "Guenther",
+      "text": ": \u2026and these are the behaviors that we refer to as stuttering."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": Having a computer model allows Guenther to test out different hypotheses for why the initiation circuit fails\u2026whether, for example, it\u2019s an overabundance of activation or a degradation of neuronal signaling. Guenther says he\u2019d like to combine his model with imaging studies that show the basal ganglia in action\u2026to see whether his predicted mechanisms play a role in people who stutter. The ultimate goal is to come up with precisely targeted treatments\u2026like drugs that tweak the activity of the basal ganglia without inducing serious side effects\u2026"
+    },
+    {
+      "author": "Guenther",
+      "text": ": Or possibly even implanted electrodes that modulate activity in particular parts of the basal ganglia circuit."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": Which should make your basal ganglia as good as that\u2026 [audio] \u2026 doggie"
+    },
+    {
+      "author": "Hopkin",
+      "text": ": For Scientific American\u2019s 60-Second Science, I\u2019m Karen Hopkin. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

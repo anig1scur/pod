@@ -1,0 +1,93 @@
+{
+  "title": "Hedgehogs Host the Evolution of Antibiotic Resistance",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/93FC3737-9626-4230-9E700044E7927CA6_source.jpeg",
+  "url": "https://www.scientificamerican.com/podcast/episode/hedgehogs-host-the-evolution-of-antibiotic-resistance/",
+  "audio": "https://static.scientificamerican.com/sciam/cache/file/AEB619E0-0E96-4D08-81F61EF9CCB84E73.mp3",
+  "intro": [
+    "Bacteria resistant to methicillin emerged in hedgehogs long before the drug was prescribed to treat infections."
+  ],
+  "authors": [
+    "Karen Hopkin"
+  ],
+  "category": [
+    "Animals"
+  ],
+  "transcript": [
+    {
+      "author": "Karen Hopkin: ",
+      "text": "This is Scientific American\u2019s 60-Second Science. I\u2019m Karen Hopkin. Hedgehogs are a lot of things. They\u2019re small and spiky, covered in quills. And some people even say they\u2019re cute. Now, a new study says that they are also the origin of resistance to methicillin, an antibiotic derived from penicillin. That pointed observation appears in the journal Nature. Antibiotic resistance is a huge clinical problem. And methicillin-resistant Staphylococcus aureus\u2026otherwise known as M-R-S-A or MRSA\u2026can be difficult to treat as many have developed resistance to a handful of our frontline therapeutics.\u00a0"
+    },
+    {
+      "author": "Jesper Larsen",
+      "text": ": Historically it has been assumed that resistance in disease-causing bacteria, including Staph aureus, is a modern phenomenon driven by clinical use of antibiotics."
+    },
+    {
+      "author": "Hopkin",
+      "text": ":Jesper Larsen is a senior scientist at the Statens Serum Institute in Copenhagen\u2026"
+    },
+    {
+      "author": "Larsen: ",
+      "text": "\u2026which is the Danish equivalent of the CDC in the US."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": Methicillin resistance was thought to be tied to prescription, in part because methicillin-resistant bugs were first isolated from British hospitals just a year after the drug became available for clinical use."
+    },
+    {
+      "author": "Larsen: ",
+      "text": "But a couple of years ago we found out by chance that MecC M-R-S-A is present in more than 60 percent of hedgehogs from Denmark and Sweden."
+    },
+    {
+      "author": "Hopkin: ",
+      "text": "Ok, what\u2019s MecC M-R-S-A? Methicillin and penicillin belong to the so-called \u201cbeta lactam\u201d family of antibiotics. They kill bacteria by inhibiting enzymes the bugs use to build their protective cell walls. MecC\u2026and a related gene MecA\u2026encode versions of the enzymes that the antibiotics don\u2019t latch onto as well."
+    },
+    {
+      "author": "Larsen: ",
+      "text": "Staph aureus bacteria that carry these genes are therefore resistant to most beta lactam antibiotics."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": But where did these resistance genes come from? They\u2019ve been spotted not only In folks with Staph infections, but in livestock\u2026like pigs and cattle\u2026and in some wild animals. And in Sweden, Larsen found that mecC is really common in hedgehogs."
+    },
+    {
+      "author": "Larsen",
+      "text": ": So the big question was, why hedgehogs carry so much mecC MRSA."
+    },
+    {
+      "author": "Hopkin: ",
+      "text": "To find out, Larsen went to the library\u2026"
+    },
+    {
+      "author": "Larsen",
+      "text": ": \u2026where I came across an old study from the 1960s which showed that a particular fungus in hedgehogs is able to produce a penicillin-like antibiotic that is very similar to methicillin."
+    },
+    {
+      "author": "Hopkin: ",
+      "text": "So hedgehogs with this particular skin fungus would naturally be exposed to penicillin. And that could have launched an evolutionary arms race that drove the hedgehog\u2019s resident bacteria to evolve resistance."
+    },
+    {
+      "author": "Larsen: ",
+      "text": "This was a real eureka moment and led us to hypothesize that wild hedgehogs have been a natural reservoir of mecC MRSA long before penicillin and methicillin came on the market."
+    },
+    {
+      "author": "Hopkin: ",
+      "text": "To confirm this suspicion, Larsen and his colleagues screened hedgehogs from Europe and New Zealand and found that hedgehogs in Scandinavia and the UK harbor a heavy load of mecC MRSA. And they also found that the fungus carried by those hedgehogs had all the genes they needed to produce penicillin."
+    },
+    {
+      "author": "Larsen",
+      "text": ": We then went on and sequenced and analyzed the genomes of around one thousand mecC MRSA isolates. Which showed that they first appeared in hedgehogs in the early 1800s long before we started to use antibiotics in human and veterinary medicine."
+    },
+    {
+      "author": "Hopkin",
+      "text": ": Now, that doesn\u2019t mean that we should feel free to use antibiotics all over the place, because it\u2019s not our fault\u2026it\u2019s the hedgehogs\u2019. Because if having antibiotics around encourages bacteria to evolve resistance, taking antibiotics away robs them of their superpower\u2026and leaves them a little bit weaker than their non-resistant kin."
+    },
+    {
+      "author": "Larsen",
+      "text": ": It is often very energy consuming to produce the enzymes that inactivate the antibiotics. This means that resistant bacteria will often be outcompeted by susceptible bacteria in periods when they are not exposed to antibiotics."
+    },
+    {
+      "author": "Hopkin: ",
+      "text": "So if we really want to show MRSA no mercy, we should keep the methicillin to a minimum. And maybe keep at least a quills-length away from Scandinavian hedgehogs. For Scientific American\u2019s 60-Second Science, I\u2019m Karen Hopkin. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

@@ -72,7 +72,7 @@ const Player: FC<playerProps> = (props) => {
   return (
     <div className='player'>
       <WaveForm
-        peaks={ props.peaks }
+        peaks={ props.peaks || [0, 1, 2, 3, 4, 5, 4, 3, 2, 1] }
         ref={ waveFormRef }
         url={ audio_url }
         playing={ isPlaying }

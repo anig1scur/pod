@@ -6,12 +6,10 @@ from pydub import AudioSegment
 from pydub.utils import make_chunks
 
 proxies = {
-    "http": "tunnel.douban.com:8118",
-    "https": "tunnel.douban.com:8118",
 }
 
-SCRIPTS_DIR = "../../public/assets/6mins/scripts"
-AUDIOS_DIR = "../../public/assets/6mins/audios"
+SCRIPTS_DIR = "./public/assets/{}/scripts"
+AUDIOS_DIR = "./public/assets/{}/audios"
 
 
 class NpEncoder(json.JSONEncoder):
@@ -50,22 +48,22 @@ def download_audio(url, file_path):
         print(f"Failed to download {url}")
 
 
-# 处理 JSON 文件的函数
-def process_json_file(json_file_path):
-    print(json_file_path)
+def process_json_file(json_file_path, type):
     with open(json_file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     audio_url = data.get("audio", [])
     file_name = json_file_path.split("/")[-1][:-5]
-    file_path = os.path.join(AUDIOS_DIR, f"{file_name}.mp3")
+    file_path = os.path.join(AUDIOS_DIR.format(type), f"{file_name}.mp3")
+
+    if data.get("wave_peaks"):
+        print(f"{file_name} already has wave peaks data, skipping extraction.")
+        return
+
     if not os.path.exists(file_path):
         download_audio(audio_url, file_path)
     else:
         print(f"{file_name} already exists, skipping download.")
-
-    if data.get("wave_peaks"):
-        return
 
     # 获取音频波峰数据并存储到 JSON 中
     peaks = get_audio_peaks(file_path)
@@ -76,12 +74,12 @@ def process_json_file(json_file_path):
         print(json_dumps_str, file=f)
 
 
-def process_json_files_in_folder(folder_path):
-    for root, _, files in os.walk(folder_path):
+def process_json_files_in_folder(type):
+    for root, _, files in os.walk(SCRIPTS_DIR.format(type)):
         for file in files:
             if file.endswith(".json"):
                 json_file_path = os.path.join(root, file)
-                process_json_file(json_file_path)
+                process_json_file(json_file_path, type)
 
 
-process_json_files_in_folder(os.path.join(os.path.dirname(__file__), SCRIPTS_DIR))
+process_json_files_in_folder('sciam')

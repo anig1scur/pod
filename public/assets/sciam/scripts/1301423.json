@@ -1,0 +1,85 @@
+{
+  "title": "Astronomers Find an Unexpected Bumper Crop of Black Holes",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/A6CF64E6-79C6-4DBE-A4385A17D9FBAD89_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/astronomers-find-an-unexpected-bumper-crop-of-black-holes/",
+  "audio": "https://traffic.megaphone.fm/SAM6811449562.mp3?updated=1703605935",
+  "intro": [
+    "In trying to explain the spectacular star trails of the star cluster Palomar 5, astronomers stumbled on a very large trove of black holes."
+  ],
+  "authors": [
+    "Christopher Intagliata"
+  ],
+  "category": [
+    "Black Holes"
+  ],
+  "transcript": [
+    {
+      "author": "Christopher Intagliata",
+      "text": ": This is Scientific American\u2019s 60-Second Science, I\u2019m\u00a0Christopher Intagliata. The universe is littered with black holes. But where exactly they\u2019re all hiding? Well, that\u2019s a little harder\u00a0to say."
+    },
+    {
+      "author": "Priya Natarajan",
+      "text": ": Our current inventory of black holes\u00a0is still highly incomplete."
+    },
+    {
+      "author": "Intagliata",
+      "text": ": Yale astronomer Priya Natarajan says black holes present unique challenges to those keeping count."
+    },
+    {
+      "author": "Natarajan",
+      "text": ": These are dark objects that have such peculiar properties, you can never directly quite image them like we image galaxies. Therefore, we have to infer their presence indirectly."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "Natarajan and her colleagues recently predicted there might be a large population of previously undetected supermassive black holes\u00a0just wandering around galaxies. But supermassive black holes are, as the name implies, massively large\u2014which makes them easier to detect than their relatively tiny cousins: so-called stellar-mass black holes, which are closer in mass to our sun."
+    },
+    {
+      "author": "Natarajan",
+      "text": ": If you have a stellar-mass black hole, it doesn't have the same \u201coomph.\u201d So it\u2019s trickier to detect them."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "Now\u00a0researchers in Europe claim to have stumbled upon an unexpected trove of these stellar-mass black holes\u2014in a puffy star cluster called Palomar 5."
+    },
+    {
+      "author": "Mark Gieles",
+      "text": ": In the paper, we call it kind of a Rosetta stone."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "Mark Gieles is an astrophysicist with the University of Barcelona and the Catalan Institution for Research and Advanced Studies. He says Palomar 5 is best known for its spectacular star trails, studded with stars ejected from the cluster over the last 11.5 billion years. But those trails turned out to be a critical clue, tipping Gieles and his team off to a large mob of black holes. You see, the astronomers set out to determine how the trails formed. To do that, they ran more than three dozen computer simulations in which they\u2019d let different configurations of black holes bully around hundreds of thousands of stars for about 11 billion years.\u00a0"
+    },
+    {
+      "author": "Gieles:'",
+      "text": "Each of these models would run for several weeks up to several months. They were run on special hardware, like on graphics cards, GPUs\u2014the ones you use for gaming, essentially."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "The hope was\u00a0one of those models would spit out something that resembles Palomar 5 today. And eventually, one did."
+    },
+    {
+      "author": "Gieles",
+      "text": ": We saw stars were being removed very efficiently because the black holes were basically pushing the stars away from the center."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "The model explained the star trails. But it also suggested Palomar 5 likely harbors more than 100 black holes\u2014that\u2019s three times as many as the astronomers expected to find there. The details appear in the journal Nature Astronomy. [Mark Gieles et al., A supra-massive population of stellar-mass black holes in the globular cluster Palomar 5] Natarajan of Yale says this work gives black hole hunters another tool for their investigations."
+    },
+    {
+      "author": "Natarajan",
+      "text": ": This is another indirect signature of the presence of these lurking black holes."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "And it\u2019s also suggestive of just how much we could be missing in other star clusters like Pal 5."
+    },
+    {
+      "author": "Natarajan",
+      "text": ": If those globular clusters like Pal 5 are further littered with black holes, the inventory just explodes, basically."
+    },
+    {
+      "author": "Intagliata:'",
+      "text": "In other words, our current census of black holes appears to have some significant holes in it. Thanks for listening. For Scientific American\u2019s 60-Second Science, I\u2019m\u00a0Christopher Intagliata. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

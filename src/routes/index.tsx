@@ -10,7 +10,7 @@ export default [
     element: <EpisodeList />,
   },
   {
-    path: '/6mins/:id',
+    path: '/:pid/:eid',
     element: <Episode />,
   },
   {

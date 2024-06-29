@@ -31,6 +31,7 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
           props.onInteract();
         }
       });
+
       if (props.peaks) {
         _wavesurfer.load(props.url, [props.peaks])
       }

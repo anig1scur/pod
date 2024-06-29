@@ -1,0 +1,251 @@
+{
+  "title": "The Fungi Economy, Part 2: Here\u2019s How Plants and Fungi Trade beneath Our Feet",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/2713456E-5674-4080-BB2E8EE51D1C0BF7_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/the-fungi-economy-part-2-heres-how-plants-and-fungi-trade-beneath-our-feet/",
+  "audio": "https://traffic.megaphone.fm/SAM4988566236.mp3?updated=1703706880",
+  "intro": [
+    "Atmospheric carbon is a currency that plants use to \u201cbuy\u201d nutrients from fungi in the soil.\u00a0To find out where this economy will go next, the devil is in the details. And the details are in the dirt."
+  ],
+  "authors": [
+    "Meg Duff",
+    "Tulika Bose",
+    "Jeffery DelViscio"
+  ],
+  "category": [
+    "Ecology"
+  ],
+  "transcript": [
+    {
+      "author": "Meg Duff",
+      "text": ": For Science, Quickly, I\u2019m Meg Duff. As the world heats up, many of the consequences of burning fossil fuels are now painfully obvious. But there\u2019s also this less intuitive consequence: under our feet, the economy responsible for the growth of trees and forests is experiencing inflation. In case you aren\u2019t familiar, atmospheric carbon is a currency that plants use to \u201cbuy\u201d nutrients from fungi in the soil. But now there\u2019s too much carbon, and that \u201ccurrency\u201d is being devalued. In our last episode, we talked about why this is humans\u2019 fault. Now we want to take you down into the tree roots, where this trading happens.\u00a0 And then, all the way up to outer space, where scientists are figuring out how to map forests from satellites. First, to find out where this economy will go next, the devil is in the details. And the details are in the dirt."
+    },
+    {
+      "author": "Zoey Werbin: ",
+      "text": "Maybe in, like, the wetter spots [shuffling leaves]."
+    },
+    {
+      "author": "Michael Silverstein",
+      "text": ": [Shuffling leaves] Yeah, like, here? Like, if you look at this leaf here. If you look at this leaf here you see that it\u2019s kind of innervated with these threads. All that\u2026"
+    },
+    {
+      "author": "Duff: ",
+      "text": "Oh, wow\u2026"
+    },
+    {
+      "author": "Silverstein: ",
+      "text": "That\u2019s all fungi\u2026"
+    },
+    {
+      "author": "Duff",
+      "text": ": That, wait, that\u2019s like \u2026 it\u2019s like, hairy\u2026"
+    },
+    {
+      "author": "Silverstein: ",
+      "text": "Yeah, yeah, it\u2019s very visible. I was also like, I don\u2019t get it, like, where are they? But that\u2019s fungi. All the white."
+    },
+    {
+      "author": "Duff",
+      "text": ": And that\u2019s probably that wood rot fungi again?"
+    },
+    {
+      "author": "Silverstein",
+      "text": ": Yeah, yeah. Mm-hmm. I mean this is growing on some twig\u2026."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Right now I\u2019m in Harvard Forest outside of Petersham, Mass., getting a tour of the forest floor from Michael Silverstein and Zoey Werbin, a couple of Boston University grad students who study microbial ecology."
+    },
+    {
+      "author": "Silverstein: ",
+      "text": "So I\u2019m holding a decomposing leaf where some mycelium has completely established in it. And you see these very cool networks of mycelium running through it. It\u2019s like a branching structure. It\u2019s almost like branches from a plant or like roots from a plant look like. They\u2019re these white threads that are, like, woven into the leaf."
+    },
+    {
+      "author": "Duff",
+      "text": ": It\u2019s really pretty!"
+    },
+    {
+      "author": "Silverstein: ",
+      "text": "Yeah, the patterns they make are very cool."
+    },
+    {
+      "author": "Duff",
+      "text": ":\u00a0Oh, there\u2019s another one."
+    },
+    {
+      "author": "Silverstein",
+      "text": ": Mm-hmm. Yeah, it\u2019s, it\u2019s ..."
+    },
+    {
+      "author": "Duff (tape)",
+      "text": ": It\u2019s like little snowflakes!"
+    },
+    {
+      "author": "Silverstein",
+      "text": ": [laughs] It\u2019s everywhere. I mean, the whole ... everywhere. [laughs] It\u2019s everywhere."
+    },
+    {
+      "author": "Duff (tape)",
+      "text": ": [laughs] Awesome."
+    },
+    {
+      "author": "Duff",
+      "text": ": This micro-economy beneath our feet is astounding. Here\u2019s how it works. Some fungi help dead things decompose, releasing nutrients. Then the fungi associated with tree roots scavenge for nutrients and trade them to trees in return for sugar, which comes from carbon. The root fungi are called mycorrhizae: \u201cmyco\u201d means fungi, and \u201crhizae,\u201d means root. And you can think of mycorrhizae as falling into two basic categories. First: the ectomycorrhizae."
+    },
+    {
+      "author": "Jenny Bhatnagar:'",
+      "text": "\u201cEcto\u201d means outside, and they don\u2019t penetrate the root cells. They grow around the root cells on the outside."
+    },
+    {
+      "author": "Duff",
+      "text": ": That\u2019s Boston University biology professor Jenny Bhatnagar. The other type, she tells me, is arbuscular mycorrhizae."
+    },
+    {
+      "author": "Duff",
+      "text": ": And you said the arbuscular mycorrhizae, they are even smaller?"
+    },
+    {
+      "author": "Bhatnagar",
+      "text": ": You can\u2019t see them with the naked eye, because they grow inside the plant root, as opposed to around the outside."
+    },
+    {
+      "author": "Duff: ",
+      "text": "There\u2019s a reason why this matters. Ectomycorrhizae and arbuscular mycorrhizae specialize in getting different nutrients, and they trade those nutrients to trees at different price points. Those prices impact how much carbon trees have to spend and how much they get to save. To visualize how this works, it\u2019s important to know that different trees tend to partner with different fungi."
+    },
+    {
+      "author": "Bhatnagar: ",
+      "text": "Maples: red maples, sugar maples, Norway maples. Ashes. Ash trees\u2026."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Those trees, Jenny told me, partner with arbuscular fungi."
+    },
+    {
+      "author": "Duff (tape)",
+      "text": ": And then what about for ecto?"
+    },
+    {
+      "author": "Bhatnagar: ",
+      "text": "Oak, beech, pine, hemlock ... cherries, um, birch."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Now we\u2019ll take you through the underground economy itself. Imagine you\u2019re a maple tree ... [CLIP: Forest sounds]"
+    },
+    {
+      "author": "Duff: ",
+      "text": "You need some nitrogen. You get some from your arbuscular fungi for about half off, compared with the oak tree next to you, who is trading with ectomycorrhizal fungi. Say you both do your nutrient shopping\u2014you buy some nitrogen, some phosphorus. At the end of the day, you each have some carbon left over to invest in growth. But you may have a little bit more left than the oak tree. You grow a little bigger. These details are actually very relevant for humans. Any big company planting trees or protecting forests to offset its carbon emissions is assuming that those trees are investing their carbon in extra leaves, in fatter trunks, whatever. But to know how much carbon forests can actually store, we also need to know how much they spend. Crucially, those prices can change over time. [CLIP: Forest sounds] Say these trees are feeling flush. They all want to put out more leaves and fatten up their trunks. But to do that, they all need extra phosphorus. And in one forest, the soil starts running out."
+    },
+    {
+      "author": "Renato Braghiere: ",
+      "text": "Arbuscular mycorrhizae are better at acquiring phosphorus..., and ectomycorrhizae fungi are just better at acquiring nitrogen from soils."
+    },
+    {
+      "author": "Duff: ",
+      "text": "That\u2019s Renato Braghiere, a climate scientist who models how carbon cycles through forests. He says that both fungi probably raise their phosphorus prices but maybe at different rates. If the prices go high enough, the economy will crash: trees will grow more slowly and reproduce less. Right now most forests take in more carbon than they release. But wildfires and deforestation make that harder. Add an economic slowdown, and forests overall could become a carbon source instead of a carbon sink. Here\u2019s what\u2019s next. To figure out what will happen to forests and, consequently, to the climate\u2014we need to map which fungi are where and watch how they are changing their prices. Doing so may help us understand whether forests are headed for an economic crash and, if so, what that will mean for our own carbon budget.\u00a0 Renato tells me that it\u2019s still painstakingly hard to map different species of trees. But his colleagues have figured out how to map the fungi in their roots.\u00a0\u00a0"
+    },
+    {
+      "author": "Braghiere",
+      "text": ": In those two areas of the planet, we see one type of mycorrhizae versus the other type of mycorrhizae."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Tropical soils tend to be lower in phosphorus. Temperate soils have less nitrogen. But with climate change, forests and fungi may start to shift. Mapping a global baseline will be important for seeing how those shifts play out. Right now we just have some data, from places like Harvard Forest. Here\u2019s Jenny again."
+    },
+    {
+      "author": "Bhatnagar",
+      "text": ": Well, I think over the centuries people have studied the trees. And they look at the roots, and just over the centuries, it\u2019s become known which tree species associate with which type of mycorrhizae. So if you have a map of all the tree species in your forest, and you can very easily say, you know, 20 percent of your forest is going to be associated with arbuscular mycorrhizae ..."
+    },
+    {
+      "author": "Duff",
+      "text": ": Partly we know which fungi are where because we have been using tree species as proxies. We know about those relationships thanks to chemical analysis. Here\u2019s how that\u2019s done."
+    },
+    {
+      "author": "Bhatnagar: ",
+      "text": "You have to take the leaf. You have to pick it off the tree. You have to grind it up. And you have to burn it."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Trees that associate with arbuscular mycorrhizae tend to have more nitrogen and phosphorus in their leaves. Trees that rely on ectomycorrhizal fungi tend to have more carbon. That means you can figure out the type of fungi even without knowing the type of tree."
+    },
+    {
+      "author": "Bhatnagar: ",
+      "text": "What happens when you burn it, it\u2019s called a combustion analysis.... All the nitrogen gets converted to, into gas..., and then we put it through a gas detector.... It\u2019s the same thing with the carbon. We burn all the carbon... and we use a CO2 detector."
+    },
+    {
+      "author": "Duff",
+      "text": ": Harvard Forest, where I\u2019m talking to Jenny, has some of the best-mapped fungi in the world. But we haven\u2019t actually mapped most forests\u2014and because of this, it\u2019s hard to track global trends in these underground nutrient economies. Those economic trends will impact how much forests grow this century, whether they can successfully migrate as temperatures change and whether they will continue to store all the extra carbon we are burning. What would help would be a map of mycorrhizal fungi worldwide. As it turns out, scientists at NASA are already working on this. And here\u2019s the really wild part: they think they\u2019ll be able to make this\u2014from space."
+    },
+    {
+      "author": "Braghiere",
+      "text": ": We will be able to immediately know \u201cWhat does mycorrhizae look like in the whole planet?\u201d which is pretty exciting."
+    },
+    {
+      "author": "Duff",
+      "text": ": Renato and his colleagues still can\u2019t map which kinds of trees are where. But they think they\u2019ll be able to map the underground fungi."
+    },
+    {
+      "author": "Braghiere: ",
+      "text": "There is a new mission, a new NASA mission called SBG\u2014it stands for Surface Biology and Geology\u2014which are hyperspectral satellites that will orbit the entire planet."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Hyperspectral imaging looks at the entire spectrum of light, even the parts that we can\u2019t see. Using that technology, satellites can record the specific wavelengths of light reflecting off leaves thousands of miles below. Different chemicals reflect different wavelengths, so we can see nitrogen, phosphorus and carbon levels."
+    },
+    {
+      "author": "Braghiere",
+      "text": ": We are also using machine-learning algorithms\u2014really, artificial intelligence here\u2014to link those spectral properties to whatever is going on in the roots."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Because arbuscular and ectomycorrhizal fungi produce different chemical signatures, researchers can use what\u2019s going on in the leaves to predict what\u2019s going on underground. Now they\u2019re testing their algorithms against what they know from places like Harvard Forest. If this works, we could suddenly have global mycorrhizal maps with 10,000 times more detail than the maps we have now."
+    },
+    {
+      "author": "Braghiere: ",
+      "text": "First, we will have this snapshot. But because the satellite is a mission that will be up there for a few years at least, we will be able to track the temporal variations of those spectral signatures."
+    },
+    {
+      "author": "Duff: ",
+      "text": "All this mapping data will give Renato more to work with as he forecasts the plant-fungi inflation problem. As forests shift in response to climate change, global data will help him and other modelers watch what happens to fungi."
+    },
+    {
+      "author": "Braghiere: ",
+      "text": "We also know that the Arctic boreal areas of the planet are getting warmer at a much faster rate than the rest of the planet. And so what we see is that there\u2019s a shift in species composition in those areas \u2026 not only the plants that are on top of the soil but also the mycorrhizae associated with those plants."
+    },
+    {
+      "author": "'Duff",
+      "text": ": As forests start to move north in response to changing temperatures, trees take their mycorrhizae with them."
+    },
+    {
+      "author": "Braghiere: ",
+      "text": "And so the environmental conditions of the Arctic are changing, but the amount of nutrients and soils are not changing."
+    },
+    {
+      "author": "Duff: ",
+      "text": "Here\u2019s why this is a problem. As species try to migrate, we could see a mismatch between the nutrients that fungi are good at scavenging \u2014and the soil that they\u2019re trying to scavenge in."
+    },
+    {
+      "author": "Braghiere",
+      "text": ": And so what might happen is that because now we have these arbuscular mycorrhizae going into the Arctic, and they are just less efficient in acquiring nitrogen, the plants might suffer even further."
+    },
+    {
+      "author": "Duff: ",
+      "text": "And we may also see changes that we weren\u2019t expecting."
+    },
+    {
+      "author": "Braghiere",
+      "text": ": It might also happen that, you know, a different type of fungi within the arbuscular mycorrhizal group ends up being better or as good as the ectomycorrhizae to acquire nitrogen.... And so there is a chance that these ecosystems will adapt."
+    },
+    {
+      "author": "Duff",
+      "text": ": Better maps should help us watch these changes play out and act accordingly. One person thinking a lot about this next era of modeling is climate scientist Regina Rodrigues Rodrigues."
+    },
+    {
+      "author": "Regina Rodrigues Rodrigues: ",
+      "text": "This is a new frontier that we want to get to with modeling ... is this digital Earth. It\u2019s basically [to] simulate Earth in a computer model, mimic Earth in all aspects. The idea of having that working ... is that eventually, say, a policymaker wants to make a decision about something ... and it can go to this digital Earth and experiment to it. And choose pathways of, say, climate change and outcomes.... If I choose, say, less emission with the policies that I have, for instance, what will be the outcome of that? That\u2019s the ultimate goal for it."
+    },
+    {
+      "author": "Duff",
+      "text": ": NASA\u2019s SBG mission is scheduled to launch around 2028. When it does, fungi maps may get exponentially better. But in the meantime, by continuing to burn fossil fuels, we\u2019re continuing to devalue the currency in these forest nutrient economies. If we want to prevent runaway inflation for trees, right now would be a really good time to stop printing more money. But cutting emissions is not a science problem; it is a people problem. And there, too, Regina thinks that fungi may have a lot to teach us. That\u2019s next. For Science, Quickly, I\u2019m Meg Duff. Science, Quickly is produced by Tulika Bose, Jeff DelViscio and Kelso Harper. Music is by Dominic Smith. You can listen to Science, Quickly wherever you get your podcasts. Don\u2019t forget to go to ScientificAmerican.com to get the most up-to-date and in-depth science news."
+    }
+  ]
+}

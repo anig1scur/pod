@@ -1,0 +1,158 @@
+{
+  "title": "Here\u2019s How AI Can Predict Hit Songs With Frightening Accuracy",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/4DDA3D3F-5060-4B38-B2520DFDFFE2A08B_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/heres-how-ai-can-predict-hit-songs-with-frightening-accuracy/",
+  "audio": "https://static.scientificamerican.com/sciam/cache/file/A26E5CFE-5FEB-4B8C-AEA3599903CA9267.mp3",
+  "intro": [
+    "New AI technology predicts hit songs\u2014by listening to someone\u2019s body.\u00a0"
+  ],
+  "authors": [
+    "Sophie Bushwick",
+    "Lucy Tu"
+  ],
+  "category": [
+    "Artificial Intelligence"
+  ],
+  "transcript": [
+    {
+      "author": "Sophie Bushwick: ",
+      "text": "Last month, AI researchers claimed an impressive breakthrough. They published a paper showing that AI can predict, with 97 percent accuracy, if any song will be a hit. And it does this by measuring how the listener\u2019s body responds to the music."
+    },
+    {
+      "author": "Lucy Tu: ",
+      "text": "But it might be too soon to anoint AI as the next big talent scout for the music industry. I\u2019m Lucy Tu, the 2023 AAAS Mass Media fellow for Scientific American."
+    },
+    {
+      "author": "Sophie Bushwick: ",
+      "text": "I\u2019m Sophie Bushwick, tech editor at Scientific American. You\u2019re listening to Tech, Quickly, the all-things-tech part of Scientific American\u2019s Science, Quickly podcast. [Intro music]"
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "I thought the music industry has been using AI to create songs and analyze them for a while. So what\u2019s so special about this new approach?"
+    },
+    {
+      "author": "Tu: ",
+      "text": "Great question. Streaming services and music industry companies have been relying heavily already on algorithms to try and predict hit songs. But they've focused primarily on characteristics like a song artist and genre, as well as the music itself. So\u2014aspects like the lyrics or the tempo. But even with all of that data, the existing AI algorithms have only been able to correctly predict whether a song will be a hit or not less than 50 percent of the time. So you're honestly better off flipping a coin."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "Yeah, very random choice odds."
+    },
+    {
+      "author": "Tu",
+      "text": ": And so this new approach, it's different for a few reasons. One being it's near perfect accuracy, a 97 percent success rate is much, much higher than any approach we've seen before. And it's also unique because the study claims to train its AI on the brain data of listeners rather than a song's intrinsic features like it's DanceAbility or it's explicitness."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "That sounds like science fiction, just like it\u2019s AI reading your mind to predict if you like the song, but I can\u2019t help but notice that it claims to use brain data. So what do you mean by that?"
+    },
+    {
+      "author": "Tu: ",
+      "text": "Yeah, great catch! So at face value, the researchers in this recent study, say they measured listeners' neurophysiological response to different songs. And whether intentionally or not a lot of popular news outlets sort of picked up on the neuro part of neuro physiological response. And assume that meant the researchers directly tracked brain activity through an fMRI scan, or EEG recording, which they didn't,"
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "What did they use?"
+    },
+    {
+      "author": "Tu: ",
+      "text": "So what they did was they had these listeners, while they were listening to songs were a wearable device, sort of like an Apple Watch, or a Fitbit, something that can track your cardiac activity. So your your heart rate, for instance. And they collected this cardiac data, and use it as a proxy for brain activity by putting it through this commercial platform immersion neuroscience, which claims to be able to measure emotional resonance and attention by using cardiac data."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "So they're essentially they're taking your heart rate and your blood flow, and then they're translating it into a measure that they say indicates what's going on in your brain."
+    },
+    {
+      "author": "Tu",
+      "text": ": Exactly. And this measure of what's going on in your brain is called immersion. I talk to some researchers who were a little bit skeptical about the use of cardiac data as a proxy for neural response, especially because this measure of immersion that the researchers talk about, hasn't really been discussed in by any other researchers in peer reviewed publication."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "So it's been studied by the people who work at the company that uses it, but not really anyone outside it."
+    },
+    {
+      "author": "Tu",
+      "text": ": Exactly"
+    },
+    {
+      "author": "Bushwick",
+      "text": ": Gotcha."
+    },
+    {
+      "author": "Tu: ",
+      "text": "And I will say also that the lead author of this most recent study, he has some financial ties to the commercial platform that was used in Mercer neuroscience. He's the co-founder of the company, and then also its chief immersion officer, which is another concern that some of the researchers I talked to raised."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "So if immersion is such a controversial measure, then why don't the scientists just stick someone into an MRI machine that would actually scan their brains because this has been done before. In 2011 researchers from Emory University put teenagers through an MRI machine to see how their brains reacted to music. And they did make somewhat accurate predictions of a song sales based on these brain scans. So why are the researchers in this study choosing it to do it with this other measure that hasn't been proved in the same way?"
+    },
+    {
+      "author": "Tu: ",
+      "text": "I think the key here is the wearable device component that I talked about earlier. So that study that you mentioned, like you said, they put teenagers through an MRI machine. Well fMRI machines, they take a long time, 45 minutes to an hour just to get one scan of the brain. And also, pupils can be claustrophobic. It's not comfortable to sit in an fMRI for an hour and listen to music."
+    },
+    {
+      "author": "Bushwick",
+      "text": ": It\u2019s a long time."
+    },
+    {
+      "author": "Tu: ",
+      "text": "Yeah, a long time to be confined in this cold chamber. I mean, you think that maybe it would influence the way you know, people listen to music if they're stuck in this cold space for for that extended period, it's also just impractical to put a bunch of people through an fMRI just to get a few brain scans, and then use that to train an AI algorithm to predict hit songs. So this study, what its value out is, is that participants use a wearable device, something easily accessible, something that can be super cheap. A lot of people already own wearable devices, like the ones used in this study,"
+    },
+    {
+      "author": "Bushwick",
+      "text": ": I\u2019m wearing one, yup."
+    },
+    {
+      "author": "Tu",
+      "text": ": Me too!"
+    },
+    {
+      "author": "Tu: ",
+      "text": "Um, so the idea is that if we can actually predict hit songs, just with the data that's given to us by a wearable device, like the heart rate, like the blood flow, we might be able to widely click data. So people have personalized music, movie, etc, or recommendations. It's just a lot more accessible than the traditional brain scan approaches that have been done before."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "But see, that actually does freak me out a little bit. Because music platforms like Spotify, they're already collecting a lot of personal information about their users. So what would it mean for them to also be eavesdropping on your heart rate and your breathing rate? I mean, almost as if they're trying to read your mind."
+    },
+    {
+      "author": "Tu: ",
+      "text": "It's kind of discomforting, honestly, don't get me wrong, I would love in some ways, if my streaming services just automatically knew somehow what I wanted to listen to in that moment, you know, when I'm sad, they give me a playlist for heartbreak songs. And when I'm really happy, or, you know, in the car with friends that give me that carpool karaoke playlist. I love that on one hand, but the idea that they're giving me these recommendations based on literally reading my mind is it raises a lot of ethical questions, which is something that also came up in quite a few of the conversations I had, with some researchers and experts in data privacy. I think one big question that I actually raised with the lead author of this study was, well, how do you actually envision this service being used? And he said, of course, we would go through the unnecessary data privacy channels, this would be an opt in service. So only people who explicitly say I accept Spotify reading my mind would have their minds read. And then I talked to another data privacy expert who countered and said, Well, how many of us actually read the terms and conditions before we accept it? I don't know. Absolutely not."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "Am I going to scroll through hundreds of pages of permissions? No, I usually just click OK."
+    },
+    {
+      "author": "Tu",
+      "text": ": And that's what I'm saying. I think that these terms and conditions could tell me I'm signing away the rights of my firstborn child. [laughter]"
+    },
+    {
+      "author": "Tu: ",
+      "text": "So the data privacy expert I spoke to said that that's a huge consideration. We have to think of not just when we're implementing this technology, but when we're developing it. And so we have to think about questions of what this would mean in terms of educating consumers if we were to actually make this technology more accessible these AI algorithms."
+    },
+    {
+      "author": "Bushwick",
+      "text": ": So before we even start worrying about reading the terms and conditions and having our Fitbit spy on us and predict what songs you want to listen to, is this even ready? Is the technology even ready for that yet? Are there other steps that we would have to go through before it's ready to roll out and larger than just a study sample size?"
+    },
+    {
+      "author": "Tu",
+      "text": ": Absolutely. So one big limitation of this study is that it used a pretty small sample of I think, less than 30 people. The study does claim that even that small sample size is enough for them to do this process they call neuro forecasting, which is taking a small sample of data, a small pool of people and using the data from that small pool to make predictions about a much wider audience a much wider market. Not everyone's fully convinced. Researchers who said they would love to see the findings from this study replicated not only to first confirm the validity of that, that measure, we talked about earlier immersion, the validity of using cardiac data as a proxy for brain activity. This pool of 30 was recruited through a university so they had a lot of younger listeners, my music preferences, and my mother's music preferences are very, very different. I'm sure the authors even themselves note that they didn't have a lot of racial and ethnic diversity. So they might not have captured the cultural nuances for instance, that might go into music preferences. So some other researchers I spoke to said they would love to see the findings from this study replicated with larger samples, perhaps more diverse samples, so they can verify that the preferences used in this study to predict hit songs are actually replicable with other groups that might have entirely different preferences when it comes to music and song listening."
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "Science, Quickly is produced by Jeff DelViscio, Tulika Bose, Kelso Harper and Carin Leong. Our show is edited by Elah Feder and Alexa Lim. Our theme music was composed by Dominic Smith."
+    },
+    {
+      "author": "Tu",
+      "text": ": \u00a0Don\u2019t forget to subscribe to Science, Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review!"
+    },
+    {
+      "author": "Bushwick: ",
+      "text": "For Scientific American\u2019s Science, Quickly, I\u2019m Sophie Bushwick."
+    },
+    {
+      "author": "Tu: ",
+      "text": "I\u2019m Lucy Tu. See you next time!"
+    }
+  ]
+}

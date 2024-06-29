@@ -1,0 +1,117 @@
+{
+  "title": "How Next-Generation Sequencing Can Enable Precision Oncology [Sponsored]",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/97358DC0-E955-471A-ACE748BDA239DAB8_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/how-next-generation-sequencing-can-enable-precision-oncology-sponsored/",
+  "audio": "https://traffic.megaphone.fm/SAM9377777027.mp3?updated=1703605821",
+  "intro": [
+    "Celebrating those who enhance the ability to provide the right treatment for the right patient at the right time, the Cancer Community Awards, sponsored by AstraZeneca, presents an individual or organization with the Catalyst for Precision Medicine Award. We prepared for this year\u2019s awards by reconnecting with the 2021 winner, Dr. Colin Pritchard, to hear more about what\u2019s happened since he received the award.\u00a0"
+  ],
+  "authors": [
+    "Scientific American Custom Media"
+  ],
+  "category": [
+    "Cancer"
+  ],
+  "transcript": [
+    {
+      "author": "Megan Hall",
+      "text": ": Every year, the Cancer Community Awards sponsored by AstraZeneca presents an individual or organization with the Catalyst for Precision Medicine Award. This award celebrates those who enhance the ability to provide the right treatment for the right patient at the right time. In 2021, Dr Colin Pritchard received the award for his work as the Program Director for Cancer Precision Diagnostics for the Brotman Baty Institute for Precision Medicine of the University of Washington. As we prepared for this year\u2019s awards, we reconnected with Dr Pritchard to hear more about what\u2019s happened since he received the award. Dr Colin Pritchard, thank you so much for joining me today. I\u2019m excited to hear more about what you\u2019ve been up to in the past year."
+    },
+    {
+      "author": "Dr Colin Pritchard",
+      "text": ": Oh yeah, me too. I\u2019m excited to talk to you."
+    },
+    {
+      "author": "Hall",
+      "text": ": First, if you could just explain what you do, tell me how you explain it to people who are not in your field, who don\u2019t have any science background, how do you break down the work that you do?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": So I specialize in making genetic lab tests for cancer patients that look at multiple genes at once. We like to make the tests from scratch, do the research that identifies where the tests are useful for cancer patients, and then actually implement those tests in the clinical lab that I co-direct for use in cancer patients. So my role is kind of along that entire spectrum, doing the research that provides the basis for the test, developing and validating the test for clinical use, implementing that test to be used for cancer patients, and then, day-to-day, interpreting the results from those tests, writing reports that go into those patient records so that they get their lab results. So I do all of those pieces."
+    },
+    {
+      "author": "Hall",
+      "text": ": So basically what you\u2019re doing is you\u2019re doing genetic testing on someone\u2019s cancer, and by looking at the DNA, you\u2019re able to learn more about the best way to treat that cancer. Is that right?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": That\u2019s right. I mean, there\u2019s a variety of tests that we use to help cancer patients, but the mainstay of the types of tests we use are the ones where, what we\u2019re doing is, we\u2019re actually testing the tumor tissue. And we\u2019re looking for what DNA changes have happened, mutations in that cancer, and based on what is unique to your specific cancer, we can then sometimes make good decisions about what the best treatment is. So that\u2019s the precision part of it, or the personalized medicine. We\u2019re really tailoring or targeting a treatment, not just because you have this type of cancer, or you\u2019re at this stage of cancer, but we\u2019re really tailoring it to your specific cancer. We\u2019re testing it and saying the way your cancer developed with this exact mutation, here\u2019s probably what we think is going to be the best treatment for you. And we\u2019re lucky now that there are so many of these targeted treatments that are sort of gene associated. So that gives us a lot to choose from on the shelf."
+    },
+    {
+      "author": "Hall",
+      "text": ": So what got you interested in this field of study? Why did you decide to go into this work?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": I think a real kind of seminal moment for me was in my second year of med school, there was a lecture by Stephen Friend. At that time, the state-of-the-art technology was a technology called microarray. It was a technology that he presented that I hadn\u2019t even really heard of before at that point, where you could test thousands of genes at once. And by looking at the so-called gene expression, whether those genes were up or down, the overall pattern could tell you something about that specific cancer, and importantly, tell you about both how you might treat it and also give you some information about how bad that cancer might be, the prognostic information, is it going to kill you or not? It just really blew my mind. I\u2019ve always been kind of a tinkerer and interested in kind of building things. I was much more excited about applied science and things where you could do things in the lab that would actually result in a product. In this case, a lab test that you could then apply to patients right away to make a difference. So it really was inspiring because it was complex and really got the wheel spinning about how this might work, but it was very, very applied."
+    },
+    {
+      "author": "Hall",
+      "text": ": I understand also that your father had prostate cancer. Do you mind if I ask you about how that affected your desire to work on cancer care?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": Yeah, of course, not at all. Yeah. So my, my dad did have prostate cancer. He died of his disease back in 2008. It\u2019s a very, very common cancer, but fortunately relatively rarely lethal, but he had the lethal form and it\u2019s very hereditary. It\u2019s one of the most hereditary cancers. And so my personal experience with my father, seeing what he went through, really got me interested in prostate cancer as a field. But it also got me interested in inherited cancer genetics, not to necessarily what are those changes in your tumor that predict what treatment you should get, but those changes you were born with, those things you were inherited from your mom and your dad, that make you at risk for cancer or not."
+    },
+    {
+      "author": "Hall",
+      "text": ": You\u2019re talking about how this is inherited and your father had it. So have you run these tests on yourself?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": Yeah, so I have, and I\u2019ve also, because tissue never dies, you may imagine, I\u2019ve also tried to look at my own dad and I haven\u2019t found anything in myself or my father\u2019s tumor that is like this. So even though this is a relatively common cause, it\u2019s still only 10%. And so there\u2019s still 90% of those men, like my dad with the lethal form of prostate cancer, where we don\u2019t find a genetic reason. And so he\u2019s in that 90% where we aren\u2019t able to figure it out. But I do remain convinced that because of the rest of my family history, there is something genetic and we just haven\u2019t figured it out yet. So we\u2019ll keep working on it."
+    },
+    {
+      "author": "Hall",
+      "text": ": Let\u2019s transition to talking about the Precision Medicine Award. So what did it mean to you to be nominated for and to receive the Catalyst for Precision Medicine Award?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": Well, it was such an honor, I mean, it\u2019s just really humbling. I was honestly very surprised to be nominated and I was even more surprised to have won it, given the caliber of people who were nominated my year and in previous years. It was really quite an honor. It means a lot, it\u2019s a validation of the work that you\u2019ve done and it\u2019s also a responsibility to give back even more. So I also take it as that charge that, okay, this is a call for me to do more and to try to give back, with what I\u2019ve been lucky to achieve so far and the opportunities I\u2019ve been given."
+    },
+    {
+      "author": "Hall",
+      "text": ": How has the award affected your work since you received it?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": I\u2019ve certainly gotten plenty of kudos and it\u2019s been great for recognition in my field. And I think it\u2019s helped me establish some new collaborations that maybe wouldn\u2019t have happened otherwise, as people have recognized it, because it\u2019s such a prestigious award. Hopefully, maybe helpful with funding too as people probably know who are scientists, it\u2019s a difficult landscape to try to get funding for scientific research. So it also really helps with that. It\u2019s a validation and it helps me feel personally that, okay, you\u2019re on the right track, you\u2019re doing the right thing. Keep going. So I think that\u2019s important too."
+    },
+    {
+      "author": "Hall",
+      "text": ": I understand you are a judge for the awards this year. Can you give me a sense of what the nominees were like, anything that stood out to you?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": It was again, quite humbling. I have to say in reading through the applicants, I was thinking to myself, if I was up this year, I don\u2019t think I would\u2019ve won. I\u2019ll say that. These are people who are very well known in the field and have done things that have fundamentally changed precision medicine for the better. So without getting into too many specifics at this point, I just say that it was extremely strong applications. And so nominees last year, I also said the same thought. I can\u2019t believe I won this. But this year I was like, oh my gosh, this is really ramping up. This is even amazing, the people, the caliber of people."
+    },
+    {
+      "author": "Hall",
+      "text": ": Well, you\u2019re in good company, right?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": Yeah, I guess so. So I think whoever wins it this year will be someone just outstanding, in my category, and the same is true for all the other categories too. I know the fields as well in the other categories like I do with precision medicine, but just amazing outstanding candidates."
+    },
+    {
+      "author": "Hall",
+      "text": ": Looking towards the future, are there any developments in your field that you\u2019re particularly looking forward to or excited about?"
+    },
+    {
+      "author": "Pritchard",
+      "text": ": I\u2019m really excited about the idea that everybody who has cancer gets a test at the time they first see their oncologist or whoever, whatever their cancer care provider is, that tells them about their cancer risk, period. Just sort of like you get your cholesterol checked, when you go to see your primary care doc, you get your cancer risk checked when you go to see your oncologist, because you have cancer. Now that\u2019s not something that\u2019s standard right now, but I\u2019m excited about that for the future. I think it will end up saving thousands, tens of thousands, of lives."
+    },
+    {
+      "author": "Hall",
+      "text": ": Well, Dr Colin Pritchard, it was so fun to talk with you and learn more about your work. Thank you for joining me today."
+    },
+    {
+      "author": "Pritchard",
+      "text": ": Thank you. I really appreciate it."
+    },
+    {
+      "author": "Hall",
+      "text": ": Dr Colin Pritchard is the Program Director for Cancer Precision Diagnostics for the Brotman Baty Institute for Precision Medicine of the University of Washington. In 2021, he received the Catalyst for Precision Medicine Award from the Cancer Community Awards, part of the AstraZeneca YOUR Cancer Program. YOUR Cancer brings together the community that is working to drive meaningful change in cancer care. Visit YourCancer.org to learn more about the C2 award winners and the YOUR Cancer program. This podcast was produced by Scientific American Custom Media and made possible through the support of the AstraZeneca YOUR Cancer Program. \u2014 For more remarkable stories from the 2021 Winners of the Cancer Community Awards, visit our Heroes of Cancer Care collection. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

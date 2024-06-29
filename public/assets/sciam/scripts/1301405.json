@@ -1,0 +1,93 @@
+{
+  "title": "Inside Millions of Invisible Droplets, Potential Superbug Killers Grow",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/24FD4F04-60D9-4D17-B0F1D7D4AA87B870_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/inside-millions-of-invisible-droplets-potential-superbug-killers-grow/",
+  "audio": "https://traffic.megaphone.fm/SAM2642375781.mp3?updated=1703605936",
+  "intro": [
+    "New research has created microscopic antibiotic factories in droplets that measure a trillionth of liter in volume."
+  ],
+  "authors": [
+    "Sarah Vitak"
+  ],
+  "category": [
+    "Microbiology"
+  ],
+  "transcript": [
+    {
+      "author": "Sarah Vitak",
+      "text": ": This is Scientific American\u2019s 60 Second Science. I\u2019m Sarah Vitak. Modern medicine and bacterial pathogens are in an arms race.\u00a0We use antibiotics to keep\u00a0them at bay. And then they adapt to become immune to those antibiotics, evolving into superbugs. The battle has been an asymmetric one\u2014we just don\u2019t have that many options in the fight. Most of our antibiotics come from bacteria\u2014the vast majority from just a single genus: Streptomyces. And most antibiotics use the same handful of strategies to attack bacteria. But there\u2019s a reason that we use only a tiny fraction of the antibiotic chemicals that exist in nature."
+    },
+    {
+      "author": "Miriam Rosenbaum",
+      "text": ": This search for completely new substances was unsuccessful for the past 30 years. But it\u2019s very difficult to make sure that we find an antibiotic\u2014so a substance that\u2019s produced by microorganisms and that\u2019s toxic to other microorganisms but that is not toxic to humans."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "Miriam Rosenbaum is a professor of synthetic biotechnology at the Hans Kn\u00f6ll Institute in Germany. But how\u00a0then, if they are so hard to find, do scientists know that we have only found a tiny fraction of the antibiotic substances that exist in nature?"
+    },
+    {
+      "author": "Rosenbaum: ",
+      "text": "We do know that because for the past 20 years\u00a0we were in this biological revolution of sequencing."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "Researchers like Rosenbaum have taken that revolution underground\u2014literally\u2014like into the dirt."
+    },
+    {
+      "author": "Rosenbaum: ",
+      "text": "And so with these environmental sequencing campaigns, we found out that actually, the microbial world is much, much bigger than we thought it is. And this is how we know that we only have 5 percent in the lab, because we see just looking at the DNA in the soil sample\u2014we see there are 95 percent\u00a0more. But where are they? We don\u2019t have the cells. We can know more than their name\u2014or more than that they exist there. We see what genes they have."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "They don\u2019t have the cells because only about 1 to 15 percent of the species of bacteria in nature can currently be grown in the lab. It\u2019s like dusting a room for fingerprints only to find that the place is totally covered\u2014and in ones you don\u2019t have IDs for. And also, that the party\u2019s still going all around you, but you can\u2019t see the guests. What Rosenbaum can tell from the sequences is that these unseen bacteria do make more and different kinds of antibiotics.So which bacteria are making them? And is it possible to\u00a0keep them alive long enough\u00a0to make the ID? Rosenbaum\u2019s answer: microscopic bacterial pool parties."
+    },
+    {
+      "author": "Rosenbaum",
+      "text": ": Slowly over a long time we have been going smaller and smaller. And now we are at the picoliter-sized droplets, so way smaller than a milliliter that you can still see or a microliter that you can barely see. It\u2019s a million times smaller than microliters. And so these, these picoliter droplets, now are the houses for these microorganisms."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "So\u00a0microscopic water houses."
+    },
+    {
+      "author": "Rosenbaum:'",
+      "text": "And we put one cell in one of these droplets, so every cell gets their own house. And then, since these are so small, we can cultivate millions of these small droplet\u00a0houses in one experiment. And so we take out of one soil sample of a few grams\u2014we get millions of bacterial cells, and we put them all in their individual house. And then we see what grows."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "The work was published in the journal eLife. [Lisa Mahler et al., Highly parallelized droplet cultivation and prioritization of antibiotic producers from natural microbial communities] And what they found is that they were able to grow a completely different set of bacteria than\u00a0what would normally grow using traditional cell culturing techniques."
+    },
+    {
+      "author": "Rosenbaum:'",
+      "text": "So typically, we put them either in a shake flask, that\u2019s like the size of a hand, and then we have a few microbial cells in there that are basically lost in an ocean. Or we put them on an agar plate on the solid media when they don\u2019t normally grow in this type of environment."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "Giving them their own private space to grow separately also probably helps ..."
+    },
+    {
+      "author": "Rosenbaum: ",
+      "text": "To take them out of the competition to give them a chance to actually grow up and to grow without competition and without somebody producing antibiotics and fighting against them, and so on."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "And the micro water houses are proving to be very flexible incubators. They are tiny, so millions can be grown together in one test tube, and they can be manipulated. So they can be put onto agar plates individually, giving the bacteria a better shot at growing there. Or they can be used to do experiments with different conditions inside\u00a0each individual\u00a0droplet. But the goal has always been to turn them into tiny antibiotic factories."
+    },
+    {
+      "author": "Rosenbaum:'",
+      "text": "So we took all the droplets that had growth in it, and then we added an indicator bacterium that has a light label, a fluorescent label. If these indicator bacteria are able to grow when they are added to the droplet, then we get a light signal\u2014a green or red signal of this droplet."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "So red or greenlightcoming from a droplet means the wild bacteria isn\u2019t producing an antibiotic\u2014which would kill the indicator bacteria in the drop. The color of the light conveniently tells them what type of bacteria is still alive. But a dark droplet\u2014so one without any light coming from it\u2014means if the wild bacteria is killing the indicator bacteria stopping it from growing and stopping it from producing the light. So it must be producing an antibiotic."
+    },
+    {
+      "author": "Rosenbaum:'",
+      "text": "So we can select all the dark droplets\u00a0and then deposit them. Now we want to get these cultures; we want to get whoever is producing the antibiotic. And now we want to get those out of the droplet."
+    },
+    {
+      "author": "Vitak:'",
+      "text": "This means that they can screen millions of bacteria for antibiotic properties pretty quickly and easily. Inside these microscopic bacterial pool parties, humans might just find an upper hand in the arms race against the superbugs.Thanks for listening. For Scientific American\u2019s 60 Second Science, I\u2019m Sarah Vitak. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

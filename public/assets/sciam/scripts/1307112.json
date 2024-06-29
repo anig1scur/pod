@@ -1,0 +1,545 @@
+{
+  "title": "How Do We Know Anything For Certain?",
+  "img": "https://static.scientificamerican.com/dam/m/5ffa46aa85455f46/original/EP5-Landscape-1.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/how-do-we-know-anything-for-certain/",
+  "audio": "https://traffic.megaphone.fm/SAM9366464365.mp3?updated=1713835807",
+  "intro": [
+    "Some practical advice for how to sit, happily, joyfully, with uncertainty\u2014and in doing so, grow and learn from it."
+  ],
+  "authors": [
+    "Christie Aschwanden"
+  ],
+  "category": [
+    "Social Sciences"
+  ],
+  "transcript": [
+    {
+      "author": "Brian Nosek",
+      "text": ": For me, science is a process of reducing uncertainty about the world."
+    },
+    {
+      "author": "Helga Nowotny",
+      "text": ": So many people have this craving for certainty. People want simple solutions for very complex problems. And the simple solutions do not exist."
+    },
+    {
+      "author": "C. Brandon Ogbunu",
+      "text": ": Uncertainty is not a sign of a problem."
+    },
+    {
+      "author": "Justin Landy",
+      "text": ": I think that we should be learning from this is that uncertainty or variability is just part of the scientific process."
+    },
+    {
+      "author": "Chanda Prescod-Weinstein",
+      "text": ": And so that\u2019s one way of thinking about that uncertainty is\u2014that that information is spread out in ways that it\u2019s not in the classical picture."
+    },
+    {
+      "author": "Pascal Wallisch",
+      "text": ": We know from a long history of research on people and their cognition that if there is uncertainty, they don\u2019t just say, \u201cOh, no, I have this uncertainty, and now I can\u2019t act.\u201d Your brain, your mind, however you want to call that, fills in this uncertainty, but in a smart way. It's like autocorrect is, like, smart guessing."
+    },
+    {
+      "author": "Jennifer Dunne",
+      "text": ": There\u2019s still so much that\u2019s not known and not known in a systematic way or in a quantitative way or in a comprehensive way. And so that\u2019s a huge area of uncertainty. That\u2019s very exciting."
+    },
+    {
+      "author": "Christie Aschwanden",
+      "text": ": I\u2019m Christie Aschwanden, and this is the fifth and final episode of Uncertain, a Scientific American podcast. On this show, we\u2019ve been talking about uncertainty from a variety of different angles. We\u2019ve heard how uncertainty can be a spark for creativity and scientific discovery. We\u2019ve discussed how uncertainty can go unseen and make science really difficult. And we\u2019ve explored some of the research techniques and habits of mind that researchers use to deal with uncertainty. Today we\u2019re going to end with two final questions: If science is always uncertain, how can we ever know anything? How can we have confidence in science if there\u2019s always underlying uncertainty? For help with these questions, I turned to Kevin McCain, professor of philosophy at the University of Alabama at Birmingham and co-author of the book Uncertainty: How It Makes Science Advance."
+    },
+    {
+      "author": "Kevin McCain",
+      "text": ": So my main areas of research are epistemology and philosophy of science. In epistemology, I work a lot on the nature of evidence, kind of in general, and what makes beliefs rational. And one of the things that\u2019s pretty common amongst epistemologists is that we\u2019re never fully epistemically certain of anything."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": The only thing certain about epistemologists is that they\u2019re uncertain about everything? Is that why you wrote a book about uncertainty?"
+    },
+    {
+      "author": "McCain",
+      "text": ": Something that really kind of prompted me was just\u2014there was this sort of misunderstanding that I saw in a lot of students about, one, that there was some sort of absolute certainty that we were getting in science, and then, two there was a worry about their grasp of science and what they would trust was\u2013if it\u2019s not absolutely certain then it\u2019s not real science."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Oh yeah. I\u2019ve seen that kind of thinking a lot as a journalist. What else have you learned from teaching epistemology to college students?"
+    },
+    {
+      "author": "McCain",
+      "text": ": One, they would assume that if we weren\u2019t certain, we didn\u2019t know\u2014we had no knowledge."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Uh-huh."
+    },
+    {
+      "author": "McCain",
+      "text": ": And then the second thing is they would erroneously assume that if it\u2019s taught in their science class, that it must be certain. And I tried to explain to them that no, this is not how it is."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": But it\u2019s a really common misperception, isn\u2019t it, that science is certain and any time you encounter uncertainty it\u2019s not science, or we just don\u2019t know anything?"
+    },
+    {
+      "author": "McCain",
+      "text": ": I co-authored a paper on common misunderstandings about evolutionary theory. And one of the big things that you sometimes see, and one of the big things that you sometimes see is the \u201cit\u2019s just a theory\u201d objection, where people say, \u201cWell, look, scientists aren\u2019t certain about evolution, and they refer to it as a theory. So therefore it\u2019s not real science, or it\u2019s not well accepted or well known.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That\u2019s when you tell them that gravity is also a theory, right? It\u2019s interesting that people so rarely question that. I have seen it a lot with climate change deniers, though."
+    },
+    {
+      "author": "McCain",
+      "text": ": And you see it in popular media of, like, well, scientists\u2014there\u2019s one person, this one scientist who thinks humans aren\u2019t at all responsible for climate change; therefore it\u2019s uncertain, and so it\u2019s not real science, like, it is uncertain."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So how can we know something if there\u2019s uncertainty?"
+    },
+    {
+      "author": "McCain",
+      "text": ": Yeah, so typically when we think about whether we know something or not, a key component of that is how reasonable it is, the thing that we believe. So, for instance, very plausibly, I know that I\u2019m talking to you right now. That means, at least, among a few things, that I\u2019m in fact talking to you right now\u2014but also that I\u2019ve got good evidence for believing that."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right. But you can\u2019t be absolutely certain. We\u2019re talking over a video conference right now. I could be tricking you."
+    },
+    {
+      "author": "McCain",
+      "text": ": There\u2019s some really small, remote chance that maybe you\u2019ve constructed some sort of really advanced AI chatbot that we haven\u2019t let everybody know about yet. And it\u2019s got an image and sound and seems to respond, and maybe that\u2019s what I\u2019m talking to, or, possible even more remote, maybe I\u2019m having a really strange dream or something, you know, because I\u2019m preparing\u2026I\u2019m gonna have this, we\u2019re gonna have this discussion on a podcast\u2013and I\u2019m like, ahhhh, so maybe I\u2019m dreaming it. Now, granted, those, I mean, the odds of those are just incredibly unlikely. But for full uncertainty, the odds have to be zero."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That\u2019s an extremely high bar."
+    },
+    {
+      "author": "McCain",
+      "text": ": Right. And so if the\u2014one of the things I often try to explain to people is if you put that as your level for knowledge, you just don\u2019t know anything, which seems really implausible."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": But we deal with uncertainty all the time in our personal lives, right? And we don\u2019t go around feeling like we don\u2019t know anything."
+    },
+    {
+      "author": "McCain",
+      "text": ": Just simple things like the weather: if the weather forecast is that it\u2019s 95 percent likely that it\u2019s going to rain, well, then if I don\u2019t want to get wet, I probably ought to bring an umbrella, even though it\u2019s not certain that it\u2019s going to rain."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right. Ninety-five percent chance of rain\u2014most people would say we know it\u2019s going to rain."
+    },
+    {
+      "author": "McCain",
+      "text": ": On the flip side, you get people downplaying it. People sometimes run into the opposite error of just ignoring the uncertainty and taking the information as if it were 100 percent without a doubt."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": An example of downplaying the uncertainty you cite in your book is genetic testing."
+    },
+    {
+      "author": "McCain",
+      "text": ": Right, people think, \u201cWell, you know, I\u2019ve had this sort of DNA test, and I\u2019ve got a certain gene; therefore I must end up being this kind of person,\u201d right, \u201cI\u2019m definitely going to have this sort of problem later,\u201d which is not true."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It can be true that a certain gene variant is associated with an increased risk of cancer and also true that not everyone who has that variant gets the cancer\u2014just like we know that smoking causes cancer and yet it doesn\u2019t strike everyone who smokes. In your book, you argue that this kind of uncertainty drives science forward."
+    },
+    {
+      "author": "McCain",
+      "text": ": If we were really certain of something, not only would we not have a motivation to investigate further, it would actually be irrational to, because our evidence is as good as it can get."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": You can\u2019t learn what you already know."
+    },
+    {
+      "author": "McCain",
+      "text": ": The fact that all of science is uncertain to at least a degree lets us know that there\u2019s more evidence to gather. And it also pushes us because, just psychologically, we don\u2019t really like being uncertain, even though we can\u2019t escape it."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That human tendency to crave certainty is hard to let go of."
+    },
+    {
+      "author": "McCain",
+      "text": ": Just in general, as humans, we\u2019re always trying to mitigate the uncertainty as much as we can. So we\u2019re always, if I can be 95 percent sure of something, I\u2019d still rather like to be 96 percent sure maybe 98 percent sure. It kind of pushes us to keep looking for more."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What do you want the public to take away from your book?"
+    },
+    {
+      "author": "McCain",
+      "text": ": I guess a couple ideas. One is that all of science is uncertain, right? So\u2014but so is all of the rest of life, right? Even the things, for the most part, that we take ourselves to be most confident of, most sure of, if we really bear down and think about it, there\u2019s uncertainty there, too. And so what I think is most important is less this sort of search for being absolutely certain, which, if we\u2019re talking about our evidence, we can\u2019t have, and more of aiming for what\u2019s the rational thing to think. And so that is: look to the evidence."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you want us to look to the total body of evidence when determining what\u2019s true. What else?"
+    },
+    {
+      "author": "McCain",
+      "text": ": The general public could recognize that what matters is we look to the evidence and see how strongly the evidence supports a particular claim, not whether it makes it certain\u2014but go where the evidence leads. And if the evidence strongly supports something, like we mentioned\u2014strongly supports that a vaccine is safe and is likely to help protect you from something that could be very dangerous\u2014that\u2019s good evidence in support of taking the vaccine."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": One of the things I hear you saying here is that we have to have some threshold for being comfortable with uncertainty. We can\u2019t know most things with absolute certainty, and if we demand that, then we\u2019re going to go around the world not knowing anything. What does that comfort with uncertainty look like when you\u2019re presented with a particular idea like the effectiveness of a vaccine, say?"
+    },
+    {
+      "author": "McCain",
+      "text": ": So we have really good evidence to accept a particular theory at a time, so much so that it would be irrational not to accept it. We accept the theory, and later, we get new evidence that suggests that we were incorrect about that theory. Well, then we revise: we give up the theory and hopefully replace it with a better theory. That sort of self-correcting is what helps science advance and is what\u2019s allowed it to do so well. [CLIP: Music]"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What really fell out of my conversation with Kevin was the idea that we need to calibrate uncertainty. There are degrees of knowing. Some scientific results contain a lot of uncertainty, and others are strong enough that we can put our faith in them, at least until better evidence comes along."
+    },
+    {
+      "author": "Steve Goodman",
+      "text": ": So there\u2019s settled science that basically we\u2019re so certain about that we\u2019re willing to risk a lot on its dependability."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That\u2019s Steven Goodman, associate dean of clinical and translational research at Stanford University. Among other things, Steve is an expert on scientific methodology, statistics and the ways that science might be made more reliable."
+    },
+    {
+      "author": "Goodman",
+      "text": ": Settled science are a set of what we might call facts\u2014that is, things that we can all agree on that we find that we can rely on in future experiments or in our daily lives. We trust that bridges don\u2019t fall down. We trust that the planes we get on don\u2019t crash. And this science has proven to be extremely reliable for the purposes that we put it to."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Even settled science still retains some uncertainty\u2014but that uncertainty isn\u2019t relevant to the task you\u2019re putting it to. You can build a bridge or fly a plane with Newtonian mechanics, for example, even though it doesn\u2019t work at the speed of light."
+    },
+    {
+      "author": "Goodman",
+      "text": ": And what we try to do through that science is reduce the uncertainty, reduce it, reduce it till we finally get to that point where we can rely on it so much that we can give a drug to somebody or we can get on that airplane."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": And yet, even then, some uncertainty remains."
+    },
+    {
+      "author": "Goodman",
+      "text": ": So here\u2019s a really simple example. This drug worked in a clinical trial or it worked for people from age 20 to 70. But my grandfather is 78 years old. Will it work for them, too?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right\u2026your drug trial could only answer how it worked for the very specific participants in the trial\u2014you have to extrapolate for your grandfather. A study answers one question, but so many more remain."
+    },
+    {
+      "author": "Goodman",
+      "text": ": It could be\u2014what are the causes of something? So is it the food that somebody ate? Or is it the environment in which they live? Or is it the racism that they\u2019ve been exposed to all their lives? And sometimes these are very hard to disentangle, in fact, questions like those are almost always impossible to completely and cleanly separate."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": If there\u2019s one thing I\u2019ve learned over my 20-plus years as a science journalist, it\u2019s that science can be messy. The answers aren\u2019t always as generalizable as we want."
+    },
+    {
+      "author": "Goodman",
+      "text": ": Around every question we get sort of an answer, but it\u2019s a fuzzy answer."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": A scientific paper might represent that fuzziness with error bars around the results, but there are more practical examples, too, right?"
+    },
+    {
+      "author": "Goodman",
+      "text": ": People see these fuzzy answers every time they look, for example, at a hurricane map, and there\u2019s bounds around where the center of the hurricane will be. They sometimes focus on the middle of those bounds, but they know that it can hit anywhere in there. And that represents our uncertainty about where the hurricane will hit."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": I\u2019ve heard you talk about \u201cgetting the uncertainty right.\u201d What exactly does that mean?"
+    },
+    {
+      "author": "Goodman",
+      "text": ": We want it to be the case\u2014let\u2019s take the hurricane case, that people can actually plan either to evacuate or not to evacuate based on where it is thought the hurricane might hit. So it\u2019s really important that that uncertainty be right."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": In other words, if you say there\u2019s a 95 percent chance that a hurricane will hit somewhere between town X and Y, you want to be sure that those bounds are correct."
+    },
+    {
+      "author": "Goodman",
+      "text": ": So you care about how wide is, the uncertainty, and you care that the truth does lie within those bounds with that degree of confidence. That\u2019s what I mean by getting the uncertainty right\u2014something you can, in a sense, bet on, but there\u2019s always a margin. There\u2019s always a margin in everything we measure in science. **"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What I\u2019ve been hearing today is that it\u2019s important to accept that uncertainty will always be with us. Given that, the way forward is to calibrate the uncertainty and use that calibration as a means to understanding how to make better decisions. For more on that, I decided to talk with someone whose work focuses squarely on decision-making in the midst of uncertainty."
+    },
+    {
+      "author": "Nidhi Kalra: ",
+      "text": "My name is Nidhi Kalra, and I\u2019m a senior information scientist at RAND [Corporation]."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How did you get interested in uncertainty?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "I was passionate about climate change and the way we use energy. And as I started working in this field, I became increasingly aware of the ways in which uncertainty is such a force in the conversation."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": A force? How so?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "Sometimes it\u2019s the scientific uncertainty, which is, you know, totally valid, and we have to work with it. And sometimes it was the way in which uncertainty is weaponized and politicized, and the scientific reality becomes a tool for people to get their agendas across."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How do we make decisions in the face of uncertainty?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "So, for example, I was working with the city of Lima in Peru. This is a drought city; it\u2019s a very large city, one of the driest cities in the world. And they\u2019re asking the question [about] in the future, where we expect to have more population growth and where climate change may affect our water resources. How do we decide what to do to keep people physically hydrated?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That\u2019s a lot to think about. How do you even start?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "They had a lot of projects that they could have invested in at billions of dollars of expense. Which project they invested in, which project made sense, depended a lot on what you believed about the future: whether it was going to be wetter or drier, whether there would be more people or fewer, whether\u2014where those people would be located, how quickly they would need more or less more water."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That\u2019s a lot of uncertainty, with big repercussions."
+    },
+    {
+      "author": "Kalra: ",
+      "text": "What we did was we said, okay we don\u2019t know these things; we can\u2019t predict this future; let\u2019s find out what the right thing to do is across hundreds of different combinations of possibilities. What would you choose to do under these assumptions and those assumptions and that assumption? And what we found, for example, was that there were certain projects, water-investment projects, that cropped up and were necessary in every future. Doesn\u2019t matter what happened\u2014you always needed this one water treatment plant. In fact, there were quite a few projects where you always needed them."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you\u2019re essentially saying, what are the things I can do that will be beneficial, no matter what direction things go?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "And then there were some projects where you\u2019re like, \u201cWell, we\u2019re gonna need these if climate does this. And if climate does this other thing, we\u2019re gonna want these other ones.\u201d We were able to construct that into a dislike, essentially [an] adaptive or dynamic plan, one that says, \u201cOkay, we\u2019re going to do what we know is necessary. Now suppose we can\u2019t do everything at once. So let\u2019s do what we need to do. And then we will, as time evolves, do those things that become apparently necessary.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How does that play out?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "It\u2019s a series of \u201cno regret\u201d actions. You\u2019re never going to regret building that absolutely necessary water treatment plant. And so essentially what we\u2019re doing is asking this question over and over again: What if this happens? What if that happens?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": But what about when uncertainty is very high?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "A big part of it is reframing the question from \u201cWhat\u2019s the best thing I can do, given what I believe will happen?\u201d to \u201cWhat is the good enough thing to do, given that I don\u2019t know what will happen?\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What\u2019s the mindset to use in this situation?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "So instead of optimizing to a particular set of predictions or a particular assumption, we are trying to do well enough. We\u2019re trying to be satisficers instead of optimizers\u2026"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So, a quick interlude for that word: satisficer. It\u2019s something psychologists use. You probably haven\u2019t heard it before, but \u2026. satisficers, in this case, are people who are trying to meet the minimum criteria that Nidhi has set. Optimizers probably sounds more familiar to you. They\u2019re just like what they sound like. They\u2019re striving for the very best of all possible answers\u2026 Back to Nidhi."
+    },
+    {
+      "author": "Kalra: ",
+      "text": "Knowing that satisficing in a wide range of possibilities can often be better in the real world than optimizing to a future that never comes to pass."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you\u2019re setting the bar at coming to a pretty good decision for the greatest possible number of scenarios versus trying to find the very best one for just a few. What are some of the other challenges?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "What compounds this problem is not just the uncertainty, but people\u2019s values, and sometimes people\u2019s preferences for outcomes weighs far more heavily on a problem than does the actual scientific uncertainty."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Tell me more about this human element."
+    },
+    {
+      "author": "Kalra: ",
+      "text": "There was plenty we didn\u2019t know about COVID\u2014how quickly it would be transmitted [or] when the interventions would be around. But the debate was usually not driven by the scientific questions but about the trade-off between, you know, economic health and human health\u2014what the trade-off was that we couldn\u2019t adjudicate, even if we had perfect scientific knowledge about COVID."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": In other words, science provides the evidence, but human values determine what we do with it."
+    },
+    {
+      "author": "Kalra: ",
+      "text": "That\u2019s actually where the real messy stuff is. It\u2019s in human values, human understanding of what should happen in the world. And in that context, scientific uncertainty is the easy part."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What would you like the public to know about uncertainty in the context of science?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "The acknowledgement of uncertainty is a strength of science. That\u2019s what I would wish for the public to know. It is not a reason to dismiss the science or say, you know, I hear people say, \u201cWell, it\u2019s just a theory.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right. In science, a theory is actually a pretty well-considered idea. What else?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "I would wish for the public to understand that uncertainty does not mean we don\u2019t know things. We know that an apple dropped is going to fall to the ground. We know, you know, we know climate change is real. We know it\u2019s caused by the burning of fossil fuels. These are facts."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How should we think of facts like that in light of their uncertainty?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "I think about it this way: at some point, we have to round up. As consumers of science, we have to round the science up and say, \u201cYou know what? We\u2019re like 95 percent sure.\u201d Yeah, there\u2019s an alternative way to round that up so that we can make decisions in our world. So that, that idea\u2014not all uncertainty is the same."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What kind of uncertainty should people look out for?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "How uncertainty in science can be used to manipulate people\u2014that to be vigilant about it, to know, \u201cIs this a legitimate use of uncertainty? Is this a legitimate representation of uncertainty? Or is this, or is uncertainty being used to sow indecision\u2014to sow doubt about an action that we actually really need to take?\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How can you tell when uncertainty is being used as a tool of propaganda?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "When you hear blanket statements, like, \u201cOh, but science is always uncertain,\u201d or \u201cWe don\u2019t know enough about that yet.\u201d The generic statements, those are a little bit of a tell. Like if you have to speak in generalities and say, \u201cWe don\u2019t, well, we don\u2019t know,\u201d or that we don\u2019t know enough. \u201cIs that really true?\u201d Often, we, we know a lot more. We certainly know enough to make a decision."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you\u2019re saying that even in the face of uncertainty, we can make decisions. How do you parse out the uncertainty that\u2019s being inflated to manipulate public opinion?"
+    },
+    {
+      "author": "Kalra: ",
+      "text": "I would wish for people to be cautious. Note and notice: Who is using uncertainty as a way to prevent action? Who is preventing us from getting to the choices that are actually good for almost all of us because it serves their interests? And how is uncertainty being used to manipulate what I\u2019m seeing right now? Because there is no world of certainty about any of these big issues. And yet there are some hard choices to be made that we can make, and we need to make, and we ought not let uncertainty stand in our way."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": We ought not let uncertainty stand in our way. Nidhi is saying that we shouldn\u2019t let uncertainty prevent us from acting when there is reasonable evidence, and yet this hits on a paradox. On the one hand, we don\u2019t want to be overly sure of uncertain findings, and on the other, we don\u2019t want to be paralyzed by uncertainty that can never be removed. To further explore this paradox, I turned to someone whose work combines computer science, math and physics."
+    },
+    {
+      "author": "Cris Moore",
+      "text": ": I\u2019m Cris Moore. I\u2019m a professor here at the Santa Fe Institute."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How do you think about the way science proceeds?"
+    },
+    {
+      "author": "Moore",
+      "text": ": In school, we\u2019re taught there\u2019s this thing called the scientific method, and it means, like, first you form a hypothesis, and then you do an experiment. And a little bit of science happens that way. But most science is more about just, \u201cHow are we going to figure out whether which of these things are true?\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So how would you describe the way science really works?"
+    },
+    {
+      "author": "Moore",
+      "text": ": My favorite way to say what the scientific method is is just considering the possibility that you might be wrong."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": You mentioned a saying about this."
+    },
+    {
+      "author": "Moore",
+      "text": ": We should hold our stereotypes lightly, and modify them gladly. And I think for scientists, our beliefs about the world\u2014about physical things, medical things, whatever field you\u2019re working in\u2014it\u2019s a little bit the same way. Like, if it turned out we were wrong, that would be great. It would mean that we had learned something more, and that would be celebrated."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": I was at a conference once where someone in the audience asked the panelists, \u201cHow many things that science knows today, or that we currently hold as facts, will hold up in 100 years and, and 1,000 years?\u201d What would you have said?"
+    },
+    {
+      "author": "Moore",
+      "text": ": I mean, this is fascinating, too, because I think it varies from science to science, right? So let\u2019s start with what I know best, which is physics. That\u2019s where my training is."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Okay, so let\u2019s talk physics. How would you answer the question for that field?"
+    },
+    {
+      "author": "Moore",
+      "text": ": So in physics, there\u2019s this very active story of how the ground has shifted enormously underneath our feet repeatedly. It\u2019s not that the previous physical theories were wrong; they had a lot of truth to them. And there are interesting echoes of classical Newtonian mechanics in quantum mechanics\u2026 There are certain things about the framework that are actually very similar\u2014the same with classical to general relativity. And, as I think anybody who reads popular physics books knows, we\u2019re kind of prepared for another huge shift underneath our feet because it seems as if reconciling general relativity with quantum mechanics might require a similarly seismic shift in how spacetime works. And we\u2019re looking forward to it, right? That\u2019ll be great."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you\u2019re saying that we can embrace what we think is true to the best of our evidence at the moment, but we should be prepared for updates. Is that right?"
+    },
+    {
+      "author": "Moore",
+      "text": ": So physics has this sort of dual message. It\u2019s like, we can do these great calculations, we can do these amazing predictions, we can figure out stuff to, like, you know, three, four, or five digits after the decimal point, [but] every once in a while there\u2019s some persistent error."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": And what do those errors tell us?"
+    },
+    {
+      "author": "Moore",
+      "text": ": When there are these persistent errors, sometimes we know that it\u2019s actually this, you know, horn call from across the hills letting us know that something big is on its way. So for physics, there\u2019s this part of our founding myths, our\u2014over the past [400] or 500 years is, yeah, we\u2019re wrong, we\u2019re probably really wrong about some things, and it\u2019s going to be great."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": You keep saying that errors are exciting\u2014it heralds something great. That\u2019s so contrary to how the public so often thinks of science. Can you explain what you mean by this?"
+    },
+    {
+      "author": "Moore",
+      "text": ": With climate modeling: it might be really hard to figure out which continents are going to get wetter and which ones are going to get drier 50 years from now. That\u2019s, that could be really hard, right...? On the other hand, at some level, do we need to know that? You know, do we need to know the details of the various catastrophes: floods here and droughts there?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": In other words, finding something that doesn\u2019t fit the prevailing theory means that there\u2019s a new discovery awaiting. But what about our provisional knowledge? How do we process the uncertainty that\u2019s inherent in it?"
+    },
+    {
+      "author": "Moore",
+      "text": ": In terms of taking action, we already have enough scientific knowledge. We already know we need to shut down the coal plants. We already know that we need carbon-free sources of energy and that we need to shift things over to electricity when we can and to conserve where we can. We already know all that."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right, so on a big-picture scale, we know it\u2019s happening, and we know the repercussions will be enormous."
+    },
+    {
+      "author": "Moore",
+      "text": ": It\u2019s sort of like if there\u2019s a really expensive vase on a table, and I start kicking the table and making the vase wobble on, and you say, \u201cPlease stop doing that. You\u2019re going to knock over the vase, and it\u2019s going to smash. It was my grandmother\u2019s vase.\u201d It would be silly for me to say, \u201cYeah, but come on, you vase scientists, you can\u2019t tell me exactly which pieces of the vase of which shapes are going to be\u2014were on the floor. So you\u2019re uncertain.\u201d \u201cYeah, but I know the vase is gonna fall over and smash at some point. And please stop kicking the table.\u201d So, I don\u2019t know, I think, I think the public is confused and frustrated and policymakers are confused and frustrated with what it is that science can do, especially when there are things like pandemics happening in real time\u2014and climate change happening faster than we thought it would. So please join with us in the difficult job of being uncertain and having to take action anyway, even in the presence of uncertainty, which is hard. Like, be in the driver\u2019s seat with us. Don\u2019t, you know, don\u2019t wait outside. They\u2019re waiting for us to develop, to deliver, some perfect solution to you \u2018cause it's not like that we can't."
+    },
+    {
+      "author": "Aschwanden: ",
+      "text": "There are people who will say, \u201cbut we\u2019re not totally certain about this stuff, so we need to be cautious.\u201d What would you say to that?"
+    },
+    {
+      "author": "Moore",
+      "text": ": We\u2019re uncertain; you\u2019re uncertain; we\u2019ve got to be uncertain together. And, you know, we all have to embrace that and\u2014which doesn\u2019t mean giving up. It means working hard, as fast as we can, to figure out what\u2019s going on and what we need to do."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It seems like what you\u2019re talking about is calibrating the uncertainty while also acknowledging it."
+    },
+    {
+      "author": "Moore",
+      "text": ": Sometimes it means engaging in strategies that are kind of deliberately robust to uncertainty, right? Like, we\u2019re not sure exactly how this disease works, but hey, could we all get vaccinated? We know that\u2019s going to help. And yes, we can\u2019t promise that the vaccine will give you 100 percent immunity, because it\u2019s going to mutate. But it\u2019s still going to help. So can we do that, please?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What does that look like in real life?"
+    },
+    {
+      "author": "Moore",
+      "text": ": We don\u2019t know how fast Greenland is going to melt. But we can see it\u2019s melting, and it\u2019s faster than we thought it was going to be. So can we at least try to melt it less fast?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So even when we don\u2019t know the exact details of the problem, we can often know the magnitude and most of the extent of it. What\u2019s your parting advice on how people should think about uncertainty in science?"
+    },
+    {
+      "author": "Moore",
+      "text": ": Scientists are trained to be willing to say cheerfully, happily, openly, \u201cWe don\u2019t know yet. I don\u2019t know the answer to that question.\u201d And for scientists, that\u2019s not a source of despair. That doesn\u2019t mean we\u2019re giving up or throwing up our hands. It\u2019s a much more dynamic thing. It\u2019s almost a joyful thing. It\u2019s like, \u201cWe don\u2019t know. So let\u2019s find out. And let\u2019s, you and I, together, find out.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": I think that\u2019s a good note to end this series on. We don\u2019t know everything, but putting our heads together with an open mind can help us figure it out. Scientific knowledge is incremental, and it\u2019s provisional. It\u2019s always subject to new evidence, but we can do a lot with our intermediate understanding. Science is a powerful tool for understanding the complexities underlying the world around us, and it can be incredibly useful for making decisions. The more that we can embrace the uncertainty underlying all science, the better we can become at sitting with that uncertainty and being open to updating our beliefs in light of new evidence. What makes science so powerful is that instead of being dogmatic and rigid, it\u2019s always open to new ideas and new data. As Cris says, let\u2019s embrace the joyful act of finding out! Our show is produced by me, Christie Aschwanden, and Jeff DelViscio. Our series art is by Annaissa Ruiz Tejada. Our music is from Epidemic Sound. Funding for this series was provided by UC Berkeley\u2019s Greater Good Science Center\u2014it\u2019s part of the Expanding Awareness of the Science of Intellectual Humility Initiative, which is supported by the John Templeton Foundation. I\u2019m Christie Aschwanden, and this is Uncertain, a podcast from Scientific American. Thanks for listening. Listen to every episode of Uncertain here."
+    }
+  ]
+}

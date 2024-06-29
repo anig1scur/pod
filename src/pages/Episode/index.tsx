@@ -7,51 +7,67 @@ import Info from '@/components/Info';
 import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
-import { episodeIds } from "@/utils/6mins";
 import { VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
 
 
 export type episodeProps = {
-  id?: string;
+  eid?: string;
 }
 
 const Episode: FC<episodeProps> = (props) => {
 
-  const id = props.id || useParams()['id'];
+  const pid = useParams()['pid'] || "6mins";
+  const eid = props.eid || useParams()['eid'] || "";
   const [audio_url, setAudioUrl] = useState<string>("");
+  const [episodeIds, setEpisodeIds] = useState<string[]>([]);
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
-  const [curIndex, setCurIndex] = useState<number>(id ? episodeIds.indexOf(id) : 0);
+  const [curIndex, setCurIndex] = useState<number>(episodeIds.indexOf(eid) < 0 ? 0 : episodeIds.indexOf(eid));
   const [curVocab, setCurVocab] = useState<VocabType>(VocabType.AWL_570);
 
   const navigate = useNavigate();
 
   useEffect(() => {
+    const fetchEpisodeIds = async () => {
+      const data = await import(`../../utils/${ pid }.ts`);
+      setEpisodeIds(data.episodeIds);
+      setCurIndex(data.episodeIds.indexOf(eid) < 0 ? 0 : data.episodeIds.indexOf(eid));
+    };
+    fetchEpisodeIds();
+  }, [pid]);
+
+  useEffect(() => {
     const fetchEpisode = async () => {
-      const data = await loadEpisode('6mins', episodeIds[curIndex]);
+      const data = await loadEpisode(pid, episodeIds[curIndex]);
       setEpisodeData(data);
     };
-    fetchEpisode();
-  }, [curIndex]);
+    if (episodeIds.length > 0) {
+      console.log(episodeIds, curIndex);
+      console.log("fetching episode", episodeIds[curIndex]);
+      fetchEpisode();
+    }
+  }, [episodeIds, curIndex]);
+
+  // useEffect(() => {
+  //   navigate(`/${ pid }/${ episodeIds[curIndex] }`)
+  // }, [curIndex]);
 
   useEffect(() => {
-    navigate(`/6mins/${ episodeIds[curIndex] }`)
-  }, [curIndex]);
+    const pod_audio_url = `./assets/${ pid }/audios/${ episodeIds[curIndex] }.mp3`;
 
-  useEffect(() => {
-    const pod_audio_url = `./assets/6mins/audios/${ episodeIds[curIndex] }.mp3`;
+    if(episodeData) {
+      fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
+        // if (res.ok) {
+        //   setAudioUrl(pod_audio_url);
+        // } else {
+          if (episodeData) {
+            setAudioUrl(episodeData.audio.replace("http://", "https://"));
+          }
+        // }
+      });
+    }
 
-    fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
-      if (res.ok) {
-        setAudioUrl(pod_audio_url);
-      } else {
-        if (episodeData) {
-          setAudioUrl(episodeData.audio.replace("http://", "https://"));
-        }
-      }
-    });
-
-  }, [curIndex]);
+  }, [curIndex, episodeData, pid]);
 
   if (!episodeData) {
     return null;

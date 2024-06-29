@@ -1,0 +1,109 @@
+{
+  "title": "Cosmic Simulation Shows How Dark-Matter-Deficient Galaxies Confront Goliath and Survive",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/7A233D53-BF86-431D-B0820F6CC5916419_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/cosmic-simulation-shows-how-dark-matter-deficient-galaxies-confront-goliath-and-survive/",
+  "audio": "https://traffic.megaphone.fm/SAM5781723119.mp3?updated=1703605854",
+  "intro": [
+    "A research team finds seven\u00a0tiny dwarf galaxies stripped of their dark matter\u00a0that nonetheless persisted despite the theft."
+  ],
+  "authors": [
+    "Joanna Thompson"
+  ],
+  "category": [
+    "Dark Matter"
+  ],
+  "transcript": [
+    {
+      "author": "Joanna Thompson",
+      "text": ": This is Scientific American\u2019s 60 second science. I\u2019m Joanna Thompson. In 2018, a group of astronomers from Yale discovered something odd: two galaxies that had almost no dark matter. The observation caused a commotion in scientific circles, because it seemed to fly in the face of everything that astrophysicists thought they knew about galaxy formation. But researchers may have just discovered the mechanism that makes these so-called \u201cdark matter deficient galaxies\u201d possible. In astronomy, matter comes in two flavors: dark matter and baryons."
+    },
+    {
+      "author": "Adams",
+      "text": ": Baryons is a fancy way of saying regular matter."
+    },
+    {
+      "author": "Thompson",
+      "text": ": That\u2019s Betsey Adams, an astronomer at Astron, the Netherlands\u2019s Institute for Radio Astronomy who was not involved in the research. Unlike baryonic matter, dark matter is invisible."
+    },
+    {
+      "author": "Adams: ",
+      "text": "The point of dark matter is that we can't see it, you know, there's no radiation from it, we don't observe it with our telescopes. What we observe is the baryons, the regular stuff. And so to infer the presence of Dark Matter, we look for its effects gravitationally."
+    },
+    {
+      "author": "Thompson",
+      "text": ": Dark matter acts like the invisible glue that holds galaxies together. Around 85% of an average galaxy consists of dark matter, and without it, astronomers think that most galaxies wouldn\u2019t have enough gravity to take shape. Stumbling across a galaxy without dark matter is a little like finding a hurricane with no wind. So, where the heck did the Yale astronomers\u2019 dark matter-less galaxies come from? That question caught the attention of Jorge Moreno, an astronomer at Pomona College in Claremont, California."
+    },
+    {
+      "author": "Moreno: ",
+      "text": "Many of us were freaking out. It was like a major challenge to our paradigm."
+    },
+    {
+      "author": "Thompson",
+      "text": ": Moreno is part of a team working on an expansive, highly detailed computer program designed to simulate merging galaxies. [Jorge Moreno\u00a0et al.,\u00a0Galaxies lacking dark matter produced by close encounters in a cosmological simulation]"
+    },
+    {
+      "author": "Moreno",
+      "text": ": This is what we call a cosmological simulation. You simulate a big chunk of the universe, you create a mini-universe in your computer."
+    },
+    {
+      "author": "Thompson",
+      "text": ": The simulation he works with follows the standard model of physics, which is rich in dark matter. But not every physicist is convinced that the standard model is correct."
+    },
+    {
+      "author": "Moreno: ",
+      "text": "There was another camp of people who said, you know what, it's time to just get rid of this model, this dark matter. It's a nice idea, but it's not really consistent with observations, that it's time to put it in the bin and think about something else. Maybe we need to modify the laws of physics or something like that."
+    },
+    {
+      "author": "Thompson",
+      "text": ":Hai-Bo Yu, a theoretical particle physicist at the University of California, Riverside, fell into that camp."
+    },
+    {
+      "author": "Yu: ",
+      "text": "My group also got interested in this, so we wrote a paper saying that maybe the new physics, which is beyond the standard kind of dark matter theory, is needed. It's better to explain these two galaxies."
+    },
+    {
+      "author": "Thompson",
+      "text": ": But Moreno\u2019s simulation offers a solution without throwing away conventional physics. Initially, his team was focused on massive galaxies. But when they looked more closely at the simulation\u2019s tiny dwarf galaxies, a surprise popped out: seven of them lacked dark matter. Each of these low-dark matter dwarves orbited a supermassive galaxy, the way a moon might orbit a planet. Moreno found that the seven galaxies hadn\u2019t formed without dark matter; instead, their dark matter had been gradually stripped away as they crossed paths with their supermassive counterpart."
+    },
+    {
+      "author": "Moreno: ",
+      "text": "We didn't design the simulation to find for these things. With it, they just appeared. It preserves a paradigm. We, we basically say, you don't need to throw away the idea of dark matter, because we use a simulation with dark matter. And we were able to create galaxies without it."
+    },
+    {
+      "author": "Thompson",
+      "text": ": For Yu, it was an exciting find."
+    },
+    {
+      "author": "Yu: ",
+      "text": "I would say, congratulations, to the authors.\u00a0It's a remarkable [piece of] work. And also, their results actually do not exclude the possibility to have new physics."
+    },
+    {
+      "author": "Thompson",
+      "text": ": The next step, according to Adams of Astron, is to verify Moreno\u2019s results with observations."
+    },
+    {
+      "author": "Adams: ",
+      "text": "The authors of the paper, that's something that I very much liked, which is they made a prediction, they said: we think that up to 30% of central galaxies in this mass range should have dark matter deficient satellite galaxies. So it would be a lot of work observationally, but you could then go test that."
+    },
+    {
+      "author": "Thompson",
+      "text": ": And for Moreno, the research takes on a personal dimension."
+    },
+    {
+      "author": "Moreno: ",
+      "text": "I have indigenous roots, especially on the border of the U.S. and Mexico. And I have a friend, he's a professor of physics in Texas. And he's Cherokee. And he told me that the Cherokee tribe has seven clans. So I asked, Hey, can you ask the elders if they give me permission to use their names? And they said, Yes."
+    },
+    {
+      "author": "Thompson",
+      "text": ": He named the seven dark matter deficient galaxies after these clans: Bird, Deer, Long Hair, Paint, Wild Potato, Wolf, and Blue."
+    },
+    {
+      "author": "Moreno: ",
+      "text": "The reason this resonates with me and I think would resonate with any person of Indigenous ancestry is because that's basically what happened to us. Like, are we in the process of colonization, we lost our language, we lost our traditions/I don't know what my music is, I have a European name, I speak European languages. But I'm still here. And we're still here.\u00a0These galaxies felt like that. They didn't assimilate. And they weren't destroyed, they confronted the Goliath, and they're surviving."
+    },
+    {
+      "author": "Thompson",
+      "text": ": For 60-second Science, I\u2019m Joanna Thompson. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

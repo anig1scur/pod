@@ -1,0 +1,94 @@
+{
+  "title": "Your Phone Could Be Used to Prosecute for Getting an Abortion: Here\u2019s How",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/9AFF5172-75E5-43AB-9D05B334D4E75E88_source.jpeg",
+  "url": "https://www.scientificamerican.com/podcast/episode/your-phone-could-be-used-to-prosecute-for-getting-an-abortion-heres-how/",
+  "audio": "https://traffic.megaphone.fm/SAM2427589833.mp3?updated=1703605845",
+  "intro": [
+    "Technology editor Sophie Bushwick breaks down the precedent for using your phone to monitor personal health data."
+  ],
+  "authors": [
+    "Sophie Bushwick",
+    "Tulika Bose"
+  ],
+  "category": [
+    "Reproduction"
+  ],
+  "transcript": [
+    {
+      "author": "Tulika Bose:'",
+      "text": "This is 60-Second Science. I'm Tulika Bose. You might know that a leaked memo recently revealed that Roe versus Wade could be overturned, which could have massive implications for women's health. What you might not know is how your trusty smartphone could be used to enforce that. I'm here with Sophie Bushwick, our tech editor, who is going to go a little bit more into depth about the ramifications of this. Hey Sophie."
+    },
+    {
+      "author": "Sophie Bushwick:'",
+      "text": "Hi."
+    },
+    {
+      "author": "Tulika Bose:'",
+      "text": "So tell me about this. What's going on?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "So in the wake of news about the potential fall of Roe v.\u00a0Wade, it came to light that you know, about 13 states have what are called trigger laws on the books. So these are laws that would kick in as soon as Roe v. Wade would be overturned and would immediately, uh, make abortion either partially or entirely illegal in those states. Some people were worrying online about the potential need to delete data from their period tracking apps. I decided to look more into this question \u2014 can your period tracking app reveal information that could later land you, you know, land you in court? And what I found was period tracking apps are really the tip of the iceberg. The real issue is that your phone gathers a huge amount of data about you every single day. And yes, that data can be used to reveal if you're pregnant. And if you plan to obtain an abortion."
+    },
+    {
+      "author": "Bose:'",
+      "text": "Tell me a little bit more about your phone being this like major tracker of information. I know it records a huge volume of data, but what are some of the things that your phone could be recording that could then be used against you in court?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "Most people carry their phones with them wherever they go. And, uh, your phone tracks, your location. Every time you look something up on the internet, or you use a, an online browser to make a search that can be recorded, uh, by the companies, um, whose apps you have on your phone. If you have a period tracking app on your phone, you might enter data on your period and that can calculate your fertility. It can even tell if you're pregnant before you know that yourself. Your phone can, can figure things out, like how often someone goes to the bathroom."
+    },
+    {
+      "author": "Bose:'",
+      "text": "Okay. That is wild. Yeah. Um, your phone can tell how often you go to the bathroom?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "If you know which data to pull from a phone, uh, yes. You could figure out what, what somebody's bathroom habits are. A phone is a very useful surveillance tool. It, it is dystopian because we don't have a lot of legal restrictions on what data companies are allowed to gather on how long they're allowed to keep that data."
+    },
+    {
+      "author": "Bose:'",
+      "text": "Okay. So we know that if basic activity like seeking reproductive healthcare becomes criminalized, um, experts have said courts could even issue a warrant for your device, which would then reveal all of that personal information you were talking about. Can you maybe tell us a little bit more about that?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "That's right. If somebody is, uh, involved in a court case, um, their phone, the information can be extracted from it, and then all that trove of data can be used, uh, against them in court, but something that's actually a little bit more worrying for uh, privacy experts is the way that law enforcement can sidestep the need for a warrant at all. Something that has a lower bar than a warrant is a subpoena. And that can be issued to, um, a company that collects data. And you wouldn't need to get the data directly from a person's phone. In that case, you could just get it from the company that gathers the data."
+    },
+    {
+      "author": "Bose:'",
+      "text": "I would like to know if there's precedent, has that been done before? Have people's devices been used in a, a case of subpoena or anything like that?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "Yes, uh, the probably the most well known example is, uh, a case in Mississippi where a woman had a miscarriage. It was suspected that she had induced it. So in order to find intent, uh, law enforcement used information from her phone that showed that she had searched for how to induce a miscarriage. And as a result of this, she was indicted for a second degree murder by a grand jury. Now, in this case, the charges against her were later dropped, but in a post Roe\u00a0world, in a state where abortion is illegal, you could very easily see, um, a case where people who experience a miscarriage then become criminal suspects."
+    },
+    {
+      "author": "Bose:'",
+      "text": "I wanna talk about the period tracking apps, and I wanna talk about HIPAA. So are period tracking apps protected by HIPAA?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "No. So HIPAA is a law that basically says, you know, your healthcare provider can't share your healthcare information without your consent, but a period tracking app does not count as a healthcare provider. It's not covered by HIPAA. So period tracking apps have the ability to sell your data to data brokers and to other entities. Obviously the most secure option is to not use one at all, but there are apps that prize security more than others. And so you do wanna see what their privacy policies, these different apps are."
+    },
+    {
+      "author": "Bose:'",
+      "text": "That's really good to know. And my last question, are there ways you can protect yourself right now?"
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "So some tips include, if you wanna hide your browsing activity more effectively, um, you could use a browser that's privacy centric like Tor or Bravo, or you could, if you're using another browser, you could use it in, um, incognito wear private mode. Um, what you can do if you really wanna hide your activity more effectively is use a VPN or virtual private network that prevents your internet service provider from snooping on your, your web activity. Another thing is that you, you want to do in general is just have good security. You wanna protect your phone with a strong password, as opposed to using, you know, a biometric unlocking mechanism. Um, you should protect all your accounts with strong passwords. One of the best ways to do that is to use a password manager so that you don't have to remember a bunch of different long strings of symbols and letters and numbers. Uh,"
+    },
+    {
+      "author": "Bose:'",
+      "text": "We'll put a full list of tips in the transcript of this podcast as well. So just scroll down to the end and you can see some ways to keep yourself safe. Thank you so much, Sophie."
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "Thanks for having me."
+    },
+    {
+      "author": "Bose:'",
+      "text": " For 60-second science, I'm Tulika Bose. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Artificial Intelligence Is Helping Us \u2018See\u2019 Some of the Billions of Birds Migrating at Night",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/17927E14-361A-49C2-9A002B176C642682_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/artificial-intelligence-is-helping-us-see-some-of-the-billions-of-birds-migrating-at-night/",
+  "audio": "https://traffic.megaphone.fm/SAM4353346846.mp3?updated=1703605730",
+  "intro": [
+    "Science is turning to machines to unlock the secrets of the vast, mysterious pulse-of-the-planet phenomenon that is nocturnal migration."
+  ],
+  "authors": [
+    "Jacob Job"
+  ],
+  "category": [
+    "Animals"
+  ],
+  "transcript": [
+    {
+      "author": "SUBSCRIBE",
+      "text": ":\u00a0Apple\u00a0|\u00a0Spotify"
+    },
+    {
+      "author": "",
+      "text": "[CLIP:Cricket sounds]"
+    },
+    {
+      "author": "Jacob Job: ",
+      "text": "The night skies have fascinated humans for as long as we have been around. Celestial bodies have become actors in our myths and folklore. And from the stars and heavens, we draw inspiration and even religion. But the night skies have also taught us how to keep time and coordinate our days and seasons.\u00a0 We have long used the night skies to live our lives more predictably and make our way through the world more purposefully."
+    },
+    {
+      "author": "Job: ",
+      "text": "But we\u2019re not the only ones. I\u2019m Jacob Job, and you\u2019re listening to Scientific American\u2019s Science, Quickly. Today, part four of our five-part series on the Nighttime Bird Surveillance Network\u2014an informal but important global audio dragnet that tracks some of the billions of migratory birds as they fly through the night."
+    },
+    {
+      "author": "Benjamin Van Doren: ",
+      "text": "If you\u2019re lucky, and it\u2019s a clear night, and the moon is illuminated, there are so many birds migrating on average on these nights that if you use a telescope and look at the moon for a few minutes, you\u2019re likely to see a bird high overhead flying and silhouetted in front of the face of the moon. Seeing birds fly in front of the moon or hearing the calls from above, I found really thrilling because it felt like I was tapping into this vast mysterious pulse-of-the-planet phenomenon that was just so much bigger than me."
+    },
+    {
+      "author": "",
+      "text": "[CLIP:Theme music]"
+    },
+    {
+      "author": "Job",
+      "text": ": Migratory birds navigate to their summer and winter homes by way of the moon and stars. On any given night during migration, there might be thousands of birds flying in the skies above you and tens or hundreds of millions more moving across the continent. We still don\u2019t fully understand the true scope of this mass movement. But now science is turning to machines to unlock the secrets of nocturnal migration."
+    },
+    {
+      "author": "Job: ",
+      "text": "The nighttime bird surveillance network all started with one six-foot sound dish, an expensive studio microphone on reel-to-reel tape and a bunch of hay bales more than 60 years ago. In time, the mics got a lot smaller, and the network grew and grew. Today people all over the world have created a vast, informal network of night sky listeners. Interpreting all of these data, however, has created a new challenge. It\u2019s one that scientists at the Cornell University Lab of Ornithology are tackling head-on."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "My name is Benjamin Van Doren. I am a scientist at the Cornell Lab of Ornithology."
+    },
+    {
+      "author": "Job: ",
+      "text": "Benjamin grew up in New York State and is a postdoctoral research fellow who studies the science of bird migration. His interest in birds goes back a long way, about as far back as his ties to the Lab of Ornithology."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "I particularly got into birds when I was about eight years old in third grade, and that was thanks to a classroom program that involved watching birds at bird feeders outside the classroom and recording what we saw and actually submitting our data to the ornithologist at the Cornell Lab of Ornithology, which I thought was the coolest thing. I was really intrigued by the puzzle of bird identification, that I could learn the tricks to identifying a bird and then be able to put that knowledge to use outside in the real world when I saw a flash of color go by or, later on, heard a sound."
+    },
+    {
+      "author": "Job: ",
+      "text": "During high school, his interest grew deeper."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "I also started to get really interested in bird migration, and for a bird-watcher, migration is a really exciting period of the year because each day can bring an entirely new set of birds or species to your local park or even your backyard\u2014birds that are in the middle of these long journeys of thousands of miles."
+    },
+    {
+      "author": "Job: ",
+      "text": "But what really sealed Benjamin\u2019s fate as a nighttime bird migration fanatic was a talk he attended at the lab on, you probably guessed it, nocturnal migration."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "I was captivated by that. And the additional layer of mystery is that songbird migration in large part occurs at night, so it\u2019s also literally shrouded in darkness."
+    },
+    {
+      "author": "Job: ",
+      "text": "He decided to start monitoring birds on his own."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "I ended up starting a research project in high school that included making audio recordings and looking at radar data. This was a whole nother level of experiencing something that was hidden to so many other people, so I really found that exciting, and I\u2019m still pretty much doing that today."
+    },
+    {
+      "author": "Job: ",
+      "text": "And now he\u2019s busy solving the puzzle of how to quickly and accurately analyze thousands of hours and many terabytes of nocturnal migration data. But more people are joining the nighttime surveillance network. More and more data are flying in from nighttime listening stations. Benjamin is one of the few researchers trying to get arms around all of it. And he has a big data problem on his hands. A single night of recording produces anywhere from eight to 12 hours of audio that is about one to three gigabytes in size. And that\u2019s only at one location. Hundreds of people are recording migration all across the U.S. and beyond. Nightly audio intelligence from the network then needs to be combed through to find moments where migratory birds emitted nocturnal flight calls, or NFCs, above the microphone. During especially busy nights, that can mean more than 20,000 NFCs in a single recording from one site. Then comes the problem of deciphering those calls."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "Flight calls are very short vocalizations. They might last a fifth or even a twentieth of a second, and so it takes a lot of skill and practice to learn how to identify these calls, especially by ear\u2014something I personally don\u2019t feel that confident at. And processing hours and hours of passive audio recordings can be extremely tedious and difficult."
+    },
+    {
+      "author": "Job: ",
+      "text": "And if you\u2019re in the business of studying migratory birds like Benjamin and other scientists at the Lab of Ornithology are, that can get overwhelming."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "We have hundreds, thousands, maybe tens of thousands of hours of recordings that we may want to analyze, which is just way too much for the small number of skilled humans who can do this sort of thing by hand. So ... we really need computers to do some of the work for us to be able to get any useful, large-scale information out of these long passive audio recordings. And so that\u2019s why we turn to machine learning."
+    },
+    {
+      "author": "Job: ",
+      "text": "Machine learning, a type of artificial intelligence, is something we\u2019ve all been hearing a lot about lately. But really, it\u2019s been around for quite some time."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "Machine learning describes such a vast array of computational tools that it is really everywhere in our lives, everywhere from credit-card-fraud detection to facial recognition to my phone suggesting which apps to open at a certain time of day."
+    },
+    {
+      "author": "Job: ",
+      "text": "I mean, even as I wrote this episode, Google Docs suggested, oftentimes correctly, the next word or phrase I planned on typing. That\u2019s possible because of machine learning. But Benjamin uses a specific type for bird call data."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "One area of machine learning is computer vision, which we can use to distinguish dogs from cats in pictures, for example\u2014or, in our case, distinguish different birds on audio recordings by feeding the computer not the raw sound itself but actually the visual representation of sound as a spectrogram, really a picture that represents the sound."
+    },
+    {
+      "author": "Job: ",
+      "text": "Basically the spectrograms Benjamin is referring to are visual fingerprints of nocturnal flight call audio."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "We feed the computer these spectrograms that we\u2019ve classified as one species or another, and then, as we repeat that thousands and thousands of times, the computer learns to be able to distinguish one species from another."
+    },
+    {
+      "author": "Job: ",
+      "text": "So if we want a computer to learn how to identify dogs in pictures, you feed it many thousands of images of different dogs: small ones, large ones, dogs of all colors, dogs in different poses. Eventually, after enough training like this, the computer can recognize if a dog is present in most any picture you present it."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "If we train our models well enough, it can give us an accurate, or at least useful, estimate of the numbers of birds that were passing overhead, which species they were. And so very quickly, perhaps 300 [times] faster than real time, we can begin to process thousands of hours of audio in an efficient manner with these kinds of tools."
+    },
+    {
+      "author": "Job: ",
+      "text": "If you\u2019re a birder, you may already be familiar with this technology. The Lab of Ornithology added a feature to its Merlin Bird ID app called \u201cSound ID\u201d. Essentially, if you hear a bird outside and want to know what it is, you can tap this feature in the Merlin app and point your phone\u2019s microphone toward the singing bird. After analyzing the spectrogram of the bird\u2019s song, the app spits out its best guess as to what species of bird is singing in front of you. It\u2019s highly accurate and really useful, kind of like Shazam for birds. I asked Benjamin if people could use this feature to identify NFCs."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "The tools and underlying technology behind something like Merlin, they can be applied to the flight call problem, this flight call challenge, but as you say it is trickier because there\u2019s less information encoded in a 50-millisecond chip than in [a] several-second song of a Northern Cardinal, for example. So it makes it more difficult for the computer to make the identification accurately, but when you provide enough data, the computer gets good enough that it can hopefully overcome those types of shortcomings. And so one thing that I\u2019m working on right now is trying to take that next step to develop a system based on some of the same technology that underlies Merlin but applied specifically to the challenge of identifying nocturnal flight calls."
+    },
+    {
+      "author": "Job: ",
+      "text": "Benjamin is hopeful this tool will be available in the not too distant future. And by creating such a tool, all of a sudden, the problem of ID\u2019ing hard to identify night calls slowly begins to disappear. And this could help unlock the greatest mysteries of migration."
+    },
+    {
+      "author": "Van Doren: ",
+      "text": "We currently have a poor understanding of what birds are doing at the species level when they\u2019re actively migrating, and flight calls can give us a window into how birds are interacting with the landscape, how they\u2019re interacting with human-dominated areas like cities, and importantly, tell us how different species are behaving differently in response to the environment, to the landscape and also with each other. I think there\u2019s a lot that we have yet to learn about how birds are interacting during migration. They\u2019re saying something up there, and in my view, there\u2019s a lot we don't understand about what exactly they\u2019re communicating as they are participating in these journeys of thousands of miles. So being able to monitor birds at such a large scale will provide us the kind of information we need to make informed conservation decisions going forward. [CLIP: Theme music]"
+    },
+    {
+      "author": "Job: ",
+      "text": "And that\u2019s where we\u2019re headed in our final episode on the Nighttime Bird Surveillance Network. We illuminate some of the threats birds face during migration and how scientists are combining weather radar and night call monitoring to aid migratory bird conservation efforts."
+    },
+    {
+      "author": "Kyle Horton: ",
+      "text": "It\u2019s really important for us to monitor those passages, especially in a time where birds are facing many different threats. Things tend to not look amazing for migratory birds right now."
+    },
+    {
+      "author": "Job: ",
+      "text": "Science, Quickly is produced by Jeff DelViscio, Tulika Bose and Kelso Harper. Don\u2019t forget to subscribe to Science, Quickly. And for more in-depth science news, visit ScientificAmerican.com. Our theme music was composed by Dominic Smith. For Scientific American\u2019s Science, Quickly, I\u2019m Jacob Job."
+    },
+    {
+      "author": "SUBSCRIBE",
+      "text": ":\u00a0Apple\u00a0|\u00a0Spotify"
+    }
+  ]
+}

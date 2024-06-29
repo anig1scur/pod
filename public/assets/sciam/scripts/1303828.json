@@ -1,0 +1,45 @@
+{
+  "title": "This Artificial Intelligence Learns like a Baby",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/66A04382-38BD-47EB-A55541BFB1722F68_source.jpeg",
+  "url": "https://www.scientificamerican.com/podcast/episode/this-artificial-intelligence-learns-like-a-widdle-baby/",
+  "audio": "https://traffic.megaphone.fm/SAM2108196699.mp3?updated=1703605817",
+  "intro": [
+    "Engineers at the company DeepMind built a\u00a0machine-learning\u00a0system based on research\u00a0on\u00a0how babies\u2019\u00a0brain works,\u00a0and it did better on certain tasks than its conventional counterparts."
+  ],
+  "authors": [
+    "Christopher Intagliata"
+  ],
+  "category": [
+    "Artificial Intelligence"
+  ],
+  "transcript": [
+    {
+      "author": "Christopher Intagliata",
+      "text": ": Artificial intelligence systems have bested humans at chess, poker, Jeopardy, Go, and countless other games. But machines still aren't that great at understanding some basic rules about the physical world."
+    },
+    {
+      "author": "Susan Hespos",
+      "text": ": They still can't do what 3-month-olds do. And I'm a champion for babies at the end of the day and this is a clear win for babies. Babies are still slam dunking our most powerful computers when it comes to intuitive physics."
+    },
+    {
+      "author": "Intagliata",
+      "text": ": Cognitive psychologist Susan Hespos of Northwestern University listed off a few examples of those \"intuitive physics\" principles. Like \"solidity\" - your coffee cup does not just fall right through the table. Or \"continuity\" -- objects don't just blink in and out of existence. And \"boundedness\" -- when you pick up your coffee cup, it sticks together. You don't end up with just the handle."
+    },
+    {
+      "author": "Hespos",
+      "text": ": Babies know all three of these things as early as three months of age. Their visual acuity is lousy, the world is blurry\u2026they could barely grasp this stuff. You know, babies get a lot of things wrong. But it's these initial kernels that get elaborated and refined through experience in the world."
+    },
+    {
+      "author": "Intagliata",
+      "text": ": Now computer engineers have taken a page from the baby playbook. Researchers at DeepMind -- the AI company that trained computers to beat humans at Go -- have endowed a machine learning system with certain kernels of knowledge about intuitive physics built in\u2026 akin to what an infant might be equipped with. And after watching the equivalent of just 28 hours of training videos, showing things like balls rolling, and blocks dropping -- the AI system actually showed \"surprise\" when it was shown something physically impossible. Its counterparts not modeled on babies weren't as sharp.\u00a0"
+    },
+    {
+      "author": "Hespos",
+      "text": ": It's really interesting that when you do this direct comparison what you find is learning from experience goes far. But only so far. And the computer that was built based on research on babies, did far better. It's confirming evidence for what baby research has shown for a while, just using something very different from a baby."
+    },
+    {
+      "author": "Intagliata",
+      "text": ": The results appear in the journal Nature Human Behavior. [Luis S. Piloto et al, Intuitive physics learning in a deep-learning model inspired by developmental psychology] Hespos wasn't involved in the work, but wrote an editorial accompanying the paper. She says the research is a step towards making machine learning systems more efficient thinkers -- like humans. Even the tiny ones. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

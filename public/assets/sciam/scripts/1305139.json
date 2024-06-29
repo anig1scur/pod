@@ -1,0 +1,179 @@
+{
+  "title": "Cleo, the Mysterious Math Menace",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/50FA9201-DA5E-43F9-AB006B193A4B969B_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/cleo-the-mysterious-math-menace1/",
+  "audio": "https://static.scientificamerican.com/sciam/cache/file/271151C2-12BD-4C5B-80F76997E2CE03D4.mp3",
+  "intro": [
+    "In 2013 a new user named Cleo took an online math forum by storm with unproved answers. Today she\u2019s an urban legend. But who was she?"
+  ],
+  "authors": [
+    "Allison Parshall",
+    "Tulika Bose",
+    "Carin Leong"
+  ],
+  "category": [
+    "Mathematics"
+  ],
+  "transcript": [
+    {
+      "author": "Anthony Bonato: ",
+      "text": "It\u2019s a bit of an urban legend in mathematics. There\u2019s a sort of a romance to the story, in a way."
+    },
+    {
+      "author": "Allison Parshall: ",
+      "text": "I\u2019m Allison Parshall, and you\u2019re listening to Science, Quickly. Today we\u2019ve got an episode about a mysterious figure in the online math world. They disappeared years ago but are still sparking debate and speculation. [CLIP: Show theme music]"
+    },
+    {
+      "author": "Parshall",
+      "text": ": We all love a good puzzle. Some people have their crosswords. Some people play Sudoku. Other people are still doing Wordle. But Ron Gordon, a patent agent and former physicist in Massachusetts, does hardcore calculus. Back in 2013, when our story takes place, he spent enough time on this online forum called Math Stack Exchange that it could have qualified as a full-time job."
+    },
+    {
+      "author": "Gordon",
+      "text": ": I was working my full- time job, and then I was on Stack Exchange. Plus, I had a family, too. I was having so much fun with it that I just didn\u2019t even keep track of how many hours I was dedicating to it."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "The Mathematics Stack Exchange website is like Yahoo Answers, if the people on Yahoo Answers had graduate-level STEM degrees. Now Ron has solved 2,954 math problems in his decade on Stack Exchange, but he\u2019s most famous for his answer to one integral in particular. On November 11, 2013, a Stack Exchange user asked a question: \u201cI need help with this integral: the integral from negative one to one of one over x times the square root of one plus x over one minus x times the natural log of 2x squared plus 2x plus one, all divided by 2x squared minus 2x plus one, dx.\u201d"
+    },
+    {
+      "author": "Jay Cummings: ",
+      "text": "Okay, that\u2019s a crazy integral. And there are so many parts to it that, you know, one thing changes, any one of these one thing changes, and the answer is completely different."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "That\u2019s Jay Cummings. He\u2019s an associate professor of math at California State University, Sacramento. I\u2019ve enlisted his help to figure out what the heck I\u2019m looking at. As much as solving integrals has haunted my nightmares since Calc II, the idea of an integral is actually pretty simple. Picture a line on a graph. Now imagine taking a colored pencil and shading in the area beneath that line, down to the bottom axis of the graph. What we\u2019re trying to find is the area of this colored region. For a straight line, this is super easy\u2014it\u2019s basic geometry. But the more complicated and curvy and weird your line gets, the more difficult it is to figure out the area underneath it. Now the integral in the November 11, 2013, post\u2014that was difficult. The line on the graph looks like the spine of a long-necked dinosaur. The original poster tried using a few computer programs, but none of them could give what\u2019s called the \u201cclosed form\u201d of the answer\u2014that\u2019s a precise and concise solution. Five minutes after it was posted, someone commented: \u201cDo you have any reason to believe there is a closed form for that horrid-looking thing?\u201d"
+    },
+    {
+      "author": "Gordon",
+      "text": ": And that was a very good question ... because it would save everybody a lot of time if someone said, \u201cThis thing is impossible. Forget it. There\u2019s no way.\u201d"
+    },
+    {
+      "author": "Parshall: ",
+      "text": "Then, four and a half hours after the original post, there\u2019s an answer: \u201cI equals 4 pi times the arccotangent of the square root of the golden ratio.\u201d The answer came from a user named Cleo. It was a new account with only one previous answer. Cleo provided no notes, no proof, no explanation\u2014just a single hyperlink over the symbol for the golden ratio, which takes you to a definition of the golden ratio. Oof."
+    },
+    {
+      "author": "Cummings",
+      "text": ": Which is such a ridiculous answer. It\u2019s like you get this sense of \u201cAm I dealing with a supercomputer here, a theorem-prover that has not been released yet? Did ChatGPT start back in 2012 with integral solving?\u201d"
+    },
+    {
+      "author": "Parshall: ",
+      "text": "The Stack Exchange community, which always showed their work, erupted in arguments in the comments section. Here\u2019s one: \u201cI defer to Hamming: \u2018The purpose of computing is insight, not numbers.\u2019 Unless the result itself is particularly illuminating, I do not agree that it is an answer.\u201d"
+    },
+    {
+      "author": "Parshall: ",
+      "text": "That last comment came from Ron Gordon, the patent agent and former physicist, who didn\u2019t see a whole lot of value in Cleo\u2019s bare-bones answer."
+    },
+    {
+      "author": "Gordon",
+      "text": ": I think at the end of the day, the value of a website like Stack Exchange lies in what knowledge you can impart to people. And I think just the bare answer to the question, by itself, doesn\u2019t have that much value. But it affected my determination to come up with a final solution for sure. And I spent the better part of a weekend doing it, writing it up. Took me about half a legal pad to work through it."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "It turns out Cleo had been right. Ron posted the full answer, which immediately started collecting upvotes from community members. A lot of them were in awe of the techniques he\u2019d used to solve the problem. It was eventually posted to the subreddit r/Math under the title \u201cMaster of Integration.\u201d"
+    },
+    {
+      "author": "Gordon",
+      "text": ": It\u2019s insane. This is one thing I did 10 years ago. I think I have better answers in the Stack Exchange world than that one, believe it or not. But yeah, Cleo also, you know, I think hits a nerve, too, obviously."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "Cleo\u2019s drive-by answer had unleashed madness on Math Stack Exchange. Between 2013 and 2015, she\u2019d go on to do this 37\u00a0 more times, often popping in unreasonably quickly to solve incredibly complex integration problems with fully formed answers. She did not show even an iota of her work. Then she\u2019d disappear again into the ether."
+    },
+    {
+      "author": "Anthony Bonato",
+      "text": "Experts really are divided about Cleo. You know, it\u2019s clearly someone who has a real mastery of integration techniques.... Like, she mentions these strange functions, like, I\u2019ve never heard of."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "That\u2019s Anthony Bonato. He\u2019s a mathematician at Toronto Metropolitan University."
+    },
+    {
+      "author": "Bonato: ",
+      "text": "Some people have speculated that maybe Cleo is Stephen Hawking\u2014or was Stephen Hawking\u2014or, you know, the late Maryam Mirzakhani, the Fields Medalist."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "Food for thought, I guess."
+    },
+    {
+      "author": "Cummings",
+      "text": ": Or is this, I don\u2019t know, Terence Tao, you know, just relaxing in the evening?"
+    },
+    {
+      "author": "Parshall: ",
+      "text": "For the record, Terence Tao, sometimes described as one of the greatest living mathematicians, confirmed via e-mail that he was not, in fact, Cleo."
+    },
+    {
+      "author": "Cummings: ",
+      "text": "Or is this a Ramanujan...? Is Cleo another math genius from southern India who just is doing this in their spare time?"
+    },
+    {
+      "author": "Parshall: ",
+      "text": "That genius he\u2019s talking about, that\u2019s Srinivasa Ramanujan, one of the most enigmatic figures in mathematics history. You might have heard of him\u2014Dev Patel played him in a 2016 biopic called The Man Who Knew Infinity. [CLIP: Dev Patel in The Man Who Knew Infinity: \u201cWe need proofs of your work.\u201d \u201cBut they are right, sir.\u201d \u201cI hadn\u2019t completed that proof; how do you know?\u201d \u201cI just do.\u201d]"
+    },
+    {
+      "author": "Parshall: ",
+      "text": "He was born in Tamil Nadu in 1887, but he comes up a lot when you talk about Cleo."
+    },
+    {
+      "author": "Cummings: ",
+      "text": "He had this intuitive feel for math that was ... frankly awe-inspiring.... He had no advanced math education. And yet, somehow, he came up with these incredible theorems."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "They seem to have struck the same nerve 100-some years apart."
+    },
+    {
+      "author": "Cummings",
+      "text": ": Because he didn\u2019t include proofs. And that was sort of Ramanujan\u2019s gift and curse. I mean, he was so, so talented, but he was never put into the educational box that says, \u201cHere\u2019s how you prove things; this is the path to take in order to do mathematics.\u201d"
+    },
+    {
+      "author": "Gordon",
+      "text": ": I think a lot of people who just hated being told, \u201cShow your work, show your work, show your work...,\u201d here\u2019s someone flaunting not showing their work, and people are cheering behind that."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "But for Ron and for so many on Math Stack Exchange, all of the fun of their shared hobby is in showing your work. It\u2019s not a dry explanation\u2014it\u2019s an adventure. Take Ron\u2019s answer to that infamous 2013 integral."
+    },
+    {
+      "author": "Gordon: ",
+      "text": "By the time I got to where I wanted it, it had like an eighth-degree polynomial in the denominator, which, under normal circumstances, would mean \u201cNo, you\u2019re not going to be able to do this.\u201d But it turned out that the polynomial had a lot of symmetry and I could then exploit that symmetry to deduce all the roots. I was able to reduce what I had to find from an eighth-degree polynomial to a quadratic, and from the quadratic, the golden ratio fell out."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "It turned out that Ron\u2019s methods for solving the problem were compelling to a lot of people. His answer has earned almost 1,000 upvotes and is still shared around today."
+    },
+    {
+      "author": "Gordon",
+      "text": ": Do you ever watch The Big Bang Theory? There\u2019s a scene where Sheldon has this big formula on his whiteboard and he goes, \u201cLook at it. I feel like I just made a baby.\u201d And I have to say, when he said that, I laughed so hard. Because there\u2019s a lot of truth in that. When you come up with something that\u2019s 4 pi arccotangent square root of phi, and you\u2019ve derived it, you do feel like you created something."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "And Cleo created something, too, in her own way. But who she was, why she did it\u2014nobody seems to know."
+    },
+    {
+      "author": "Parshall (tape)",
+      "text": ": Do you have any personal thoughts on who Cleo is, what she does, why she does what she does?"
+    },
+    {
+      "author": "Gordon",
+      "text": ": Absolutely not. I have no idea who Cleo is. In fact, a lot of the people I corresponded with and interacted with on the site, I know very little\u2026 I know very little of."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "Recently speculation has sparked back up again, thanks to a viral TikTok video about Cleo. Since then a user on Twitter has claimed to be Cleo but hasn\u2019t offered any proof, and while some people are buying it, a lot of people aren\u2019t. Whoever Cleo was, it seems that she was just very, very good at math\u2014though some, like Bonato, suspect a computer might have been involved at some point. Still, that doesn\u2019t mean she was a bot, either. Computing ability for this kind of integration is still limited and would have been even more so in 2013."
+    },
+    {
+      "author": "Gordon: ",
+      "text": "Given that the software couldn\u2019t do these integrals, I doubt it. I\u2019d be real curious to find out what she\u2019s got her hands on."
+    },
+    {
+      "author": "Parshall: ",
+      "text": "Cleo\u2019s profile itself, which hasn\u2019t been updated in seven years, tragically does not provide any clues. Today her bio reads: \u201cMy real name is Cleo, I\u2019m female. I have a medical condition that makes it very difficult for me to engage in conversations, or post long answers, sorry for that. I like math and do my best to be useful at this site, although I realize my answers might be not useful for everyone.\u201d But\u2014but\u2014I did wonder, \u201cHas that always been her bio?\u201d I thought I\u2019d double-check so I went on the Internet Archive, pasted in her URL and clicked a snapshot that was taken in 2013 because, remember, kids, nothing on the internet is ever truly gone. And her bio was different back then. And guess who she quotes? \u201c\u2018While asleep, I had an unusual experience. There was a red screen formed by flowing blood, as it were. I was observing it. Suddenly a hand began to write on the screen. I became all attention. That hand wrote a number of elliptic integrals. They stuck to my mind. As soon as I woke up, I committed them to writing.\u2019 \u2014Srinivasa Ramanujan\u201d Then Cleo wrote: \u201cRemember, you are not locked into a single axiom system. You may invent your own, whenever you wish\u2014just use your intuition and imagination.\u201d [CLIP: Theme music]"
+    },
+    {
+      "author": "Parshall",
+      "text": ": Science, Quickly is produced by Jeff DelViscio, Tulika Bose, Kelso Harper, and Carin Leong. Our theme music was composed by Dominic Smith. Don\u2019t forget to subscribe to Science, Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review! For Scientific American\u2019s Science, Quickly, I\u2019m Allison Parshall."
+    }
+  ]
+}
