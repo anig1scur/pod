@@ -1,0 +1,165 @@
+{
+  "title": "Migratory Birds Are in Peril, but Knowing Where They Are at Night Could Help Save Them",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/75B5DCF8-B45C-453D-BB3E777C5103FAF1_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/migratory-birds-are-in-peril-but-knowing-where-they-are-at-night-could-help-save-them/",
+  "audio": "https://static.scientificamerican.com/sciam/cache/file/7DB0DB9E-A2CF-42E3-B1D5029B213CF915.mp3",
+  "intro": [
+    "Light is a very dangerous, if not so obvious, threat to birds who migrate at night. But researchers are using weather radar to track birds and provide \u201clights out\u201d forecasts to help keep their paths clear of visual distraction."
+  ],
+  "authors": [
+    "Jacob Job"
+  ],
+  "category": [
+    "Animals"
+  ],
+  "transcript": [
+    {
+      "author": "SUBSCRIBE",
+      "text": ":\u00a0Apple\u00a0|\u00a0Spotify [CLIP: Numerous nocturnal flight calls of Swainson\u2019s Thrushes]"
+    },
+    {
+      "author": "Jacob Job: ",
+      "text": "The night of May 23, 2022, was an exciting one for me. I was at my house in northern Colorado, winding down for the day. My phone buzzed. I pulled up the alert. It showed that a large movement of migratory birds was coming my way, and they might just fly right over my house. I stepped outside on that cool, calm, and cloudy night and turned my ears to the sky. I could already hear them flying overhead: dozens of Swainson\u2019s Thrushes. I rushed inside and turned on my audio recorder. Before the sun came up the following morning, my microphone captured nearly 1,200 nocturnal flight calls, nearly twice as many as I counted any other night that spring. And I was ready for it."
+    },
+    {
+      "author": "",
+      "text": "[CLIP:Theme music]"
+    },
+    {
+      "author": "Job: ",
+      "text": "I\u2019m Jacob Job, and you\u2019re listening to the final episode of a five-part Fascination from Science, Quickly on the Nighttime Bird Surveillance Network. Migratory birds are in peril. For many, that peril comes from one very dangerous, if not so obvious, pollutant: artificial light at night. This light disorients migratory birds, pulling them off course and putting them in harm\u2019s way. It is thought that artificial light contributes to the deaths of millions of birds each year. In this episode, we shed some light on how scientists are working to help darken the skies overhead so migratory birds can find safe passage in the night."
+    },
+    {
+      "author": "Job: ",
+      "text": "When that massive movement of migratory Swainson\u2019s Thrushes flew over my house, I was prepared to record it because I had some advanced warning. As science has pulled back the curtain on the magnitude of night migration, its vastness has necessitated the development of technology to detect all of these birds in the night sky. Using technology to predict the movement of birds across the continent is not that different from predicting the movement of weather systems. We can do this because of radar."
+    },
+    {
+      "author": "Kyle Horton: ",
+      "text": "We have this incredible and unique system of radars across the U.S. It goes by a number of names. I say Weather Surveillance Radar. We might turn on the TV and hear Doppler radar, NEXRAD. Formally, these are WSR-88D radars. That\u2019s Weather Surveillance Radar. WSR-88 is when they [were] reengineered in 1988, and the D [is] telling us that these radars have Doppler capacity."
+    },
+    {
+      "author": "Job: ",
+      "text": "This is Kyle Horton. He\u2019s an assistant professor in the department of Fish, Wildlife and Conservation Biology at Colorado State University. And clearly Kyle knows something about radar. But rather than tracking raindrops ..."
+    },
+    {
+      "author": "Horton",
+      "text": ": I use, primarily use weather surveillance radars to monitor the passage of nocturnally migrating birds. So when I was a graduate student, I started with three sites, and that was a big deal. We went up to six sites. By the end of my Ph.D., we were working on a study with 20 sites, and at that point, that was the largest study of using radar data in the U.S. for migratory birds, and it seemed like a massive achievement at that point. I would say within a year from us starting that study, we had ramped up to a study using all of the radars, all 143."
+    },
+    {
+      "author": "Job: ",
+      "text": "As Kyle mentioned, you are likely most familiar with radar in the context of weather. And that\u2019s the exact system Kyle is talking about: all 143 WSR-88D radar stations located across the contiguous U.S.. [CLIP: Thunderstorm and rain]"
+    },
+    {
+      "author": "Horton",
+      "text": ": The radar sends out a signal. That signal bounces off of something in the atmosphere and returns back to the radar. That signal returning can tell us something about the intensity of that signal. Is it big or small? Is it a small rain droplet or a big rain droplet? That signal that returns can tell us which direction things are moving: north, south, east or west. It can tell us how fast things are moving as well. So again, those tools, those measurements are set up for meteorologists to quantify the movement of a thunderstorm or a tornado or a hurricane coming through the Gulf of Mexico region."
+    },
+    {
+      "author": "Job: ",
+      "text": "It turns out that we can also think of birds as big raindrops."
+    },
+    {
+      "author": "Horton: ",
+      "text": "Most of the content of a migratory bird is water, so the radars are well equipped for that detection. It\u2019s not to say that they\u2019re detecting tens of birds or hundreds of birds, but we\u2019re talking about hundreds of thousands of birds to millions of birds on a given night. And I think those numbers are just\u2014they\u2019re eye-popping in a way. They\u2019re hard to comprehend. I sometimes have to give myself a sanity check, too, of \u201cIs it really possible we\u2019re detecting 500 million birds flying across the U.S.?\u201d And you do the numbers, you crunch them.... Okay, yep, that makes sense."
+    },
+    {
+      "author": "Job: ",
+      "text": "Before this innovation, our collective understanding of how many birds might be moving on any given night was pretty rough. Now that understanding is much clearer. [CLIP: Upbeat music]"
+    },
+    {
+      "author": "Horton: ",
+      "text": "It opened our eyes. We could see migration at a continental scale. We could see where differences were showing up. We could see the ebb and flow of migration on a nightly basis. But really importantly, we could start pairing those movements with predictors to say, \u201cOkay, the winds are out of this direction. They\u2019re moving at this speed. The temperature is X, Y or Z. Cloud cover is at this level. And we see this amount of migration.\u201d"
+    },
+    {
+      "author": "Job: ",
+      "text": "Kyle and his team learned that, like with weather systems, you can predict the movements of migratory birds and that these movements are closely tied to weather patterns. They pulled nearly 25 years of past radar data to look at the relationship between birds and weather. With a lot of help from machine learning, the relationship was stunningly clear and highly predictable. This is mostly how I knew that May 23, 2022, had the potential to be a big night for night calls over my house."
+    },
+    {
+      "author": "Horton: ",
+      "text": "We can now forecast the movement of migratory birds in near real time. We make forecasts multiple times a day, and you can see those forecasts live, spring and fall, on a site called BirdCast. BirdCast was an idea two decades ago, and now it\u2019s come to fruition in terms of that vision. If you go on March 1 to around mid-June, we have spring migration forecasts.\u00a0 If you go mid-August to mid-November, we have fall forecasts showing up on BirdCast."
+    },
+    {
+      "author": "Job: ",
+      "text": "Kyle and his team are using these forecasts to help curb one of the biggest issues that migratory birds face: the deadly effects of artificial light pollution. Artificial light is not something most people would instantly recognize as a harmful pollutant. But according to Kyle, it\u2019s a huge problem for migratory birds."
+    },
+    {
+      "author": "Horton: ",
+      "text": "If you go out and take a can of paint, and you dump it in the lake, yeah, you\u2019re polluting, right? But if you leave your porch light on at night, or we leave your office lights on, and it\u2019s casting light out into the airspace, is that pollution? And some folks might say no, and some folks might say yes. And I would be in the camp of saying that that\u2019s a pollutant. So that\u2019s one of the things that birds are facing."
+    },
+    {
+      "author": "Job: ",
+      "text": "So what can this kind of airborne pollution do? [CLIP: Ominous music]"
+    },
+    {
+      "author": "Horton: ",
+      "text": "There\u2019s lots of evidence that\u2019s been growing over probably more than a century at this point where we might see birds colliding with communication towers. It\u2019s not the tower that they\u2019re colliding with, it\u2019s usually the guy wires. But why are they circling around a communication tower? And usually the light on the communication tower, they are entrained into that light. They circle around it. They\u2019re calling, giving these flight calls, and then they collide with something that they ultimately didn\u2019t see, the guy wires supporting the communication tower."
+    },
+    {
+      "author": "Job: ",
+      "text": "These towers have bright lights on them to prevent aircraft from flying into them at night. But this visual deterrent unfortunately has the opposite effect on birds."
+    },
+    {
+      "author": "Horton: ",
+      "text": "We see evidence of this of birds colliding with skyscrapers. And they're colliding with the windows. But why are they flying into the building? It\u2019s not to say that birds collide with trees on a given night when they\u2019re migrating. They can perceive obstacles, but they couldn\u2019t perceive the glass on the building at night."
+    },
+    {
+      "author": "Job: ",
+      "text": "Essentially Kyle and his team found that more lights on skyscrapers leads to more dead birds."
+    },
+    {
+      "author": "Horton: ",
+      "text": "So that\u2019s why we think about light as a pollutant for these birds. It\u2019s taking them off course. It\u2019s reshaping where they\u2019re on the landscape. We can see more birds in urban centers than we would otherwise expect, and light keeps coming up as a common attractant."
+    },
+    {
+      "author": "Job: ",
+      "text": "The problem with artificial light is especially visible at the Tribute in Light memorial. [CLIP: Ominous music]"
+    },
+    {
+      "author": "Horton: ",
+      "text": "We see this in New York City, one of the most photo-polluted cities in the lower 48 states of the United States. When we go there on September 11, when the towers of light are set up to remember the lives lost during the terrorist attacks, there's no missing them. They cast miles up into the airspace; you can see them from upwards of 60 miles away on the horizon. Birds flock to those lights en masse. We see thousands of birds, warblers, circling the towers of light. In that case, there\u2019s not ultimately a structure associated with those lights, but the birds are very clearly attracted to those lights. The lights go on; the birds show up. The lights go off; the birds dissipate."
+    },
+    {
+      "author": "Job: ",
+      "text": "And night flight calls also seem to be impacted by light pollution. Scientists aren\u2019t entirely positive why birds produce night flight calls, but when they make these calls reveals some clues. Birds emit night flight calls more frequently during poor weather conditions, such as fog and rain. They also call more when disturbed or flying in particularly dense flocks\u2014and, it turns out, when they encounter light pollution. This suggests that the night calls might play a role in birds\u2019 flocking dynamics\u2014sort of an attempt to keep one another safe. As birds call out when they\u2019re disoriented in light pollution, however, it attracts even more birds into the light, putting more individuals in danger of running into objects and killing them. To combat this problem, BirdCast is working to get anti-light-pollution-proactive."
+    },
+    {
+      "author": "Horton: ",
+      "text": "So we have Lights Out forecasts as well. Again, we think of light pollution and turning off lights as a motivator for those types of maps."
+    },
+    {
+      "author": "Job: ",
+      "text": "The maps predict when heavy movements of migratory birds will be flying over major cities or light-polluted areas. The approach is a way to give people and cities in the paths of these birds a chance to help keep them safe by turning out unnecessary lights at night. To date, there are dozens of city- and state-wide Lights Out programs around the country working to turn their lights off at night during peak migration."
+    },
+    {
+      "author": "Horton: ",
+      "text": "On a seasonal basis, most areas across the U.S. see about 10 nights of massive migration. More than 50 percent of birds will pass that area in 10 nights. Not to say that it\u2019s 10 nights in a row. They\u2019re not the same 10 nights every year, but it\u2019s about 10 nights when you\u2019re gonna see the vast majority of migrants pass through any given region. [CLIP: Serious music]"
+    },
+    {
+      "author": "Job: ",
+      "text": "But producing the data that predict the timing of movements of migratory birds across dangerous light-polluted areas is only one part of the equation. There is still a lot of work to do to get the word out about the issue."
+    },
+    {
+      "author": "Horton: ",
+      "text": "Most people don\u2019t know that birds migrate at night. So the thought that people would make a connection between light pollution and migratory birds seems unlikely. So there\u2019s a lot of growth, room for potential here for just education around bird migration. So if we can make those connections, whether it\u2019s local stakeholders or national venues, I think we can make a lot of change there as well."
+    },
+    {
+      "author": "Job: ",
+      "text": "If you want to help protect migratory birds, go to BirdCast. Set up alerts on your phone. And just turn your lights off on those big migration nights, at the very least. If you want to have a greater impact, reach out to your local lawmakers. Introduce them to the tools that BirdCast offers. Work together to shape policy that is the most effective at curbing light pollution when it\u2019s the most dangerous to migratory birds. [CLIP: Theme music]"
+    },
+    {
+      "author": "Job: ",
+      "text": "We are living in a golden age of migratory science. In the last five podcast episodes, we\u2019ve come a long way from those early days of not knowing where birds go in the winter, to giant satellite dishes that allow us to listen to the sky, to rooftop flowerpot recordings of nighttime calls made cheaply and from your own backyard, to a mass movement, supercharged by artificial intelligence, to understand just how awe-inspiring and complex the secret lives of migratory birds actually are. And for Kyle, that knowledge is so close to flying up to our very doorstep."
+    },
+    {
+      "author": "Horton: ",
+      "text": "And I would say, if we can provide that algorithm to people, probably for free, and they can wake up in the morning and check their phone or get a text message that, okay, a Vesper Sparrow flew over and x number of Chipping Sparrows flew over and, oh cool, there was a Rose-breasted Grosbeak mixed in, there\u2019s Swainson\u2019s thrushes coming over\u2014I think those breakthroughs are coming."
+    },
+    {
+      "author": "Job: ",
+      "text": "Until then, get outside this fall. Look up and listen closely. Peak migration is upon us. They\u2019re coming. Science, Quickly is produced by Jeff DelViscio, Tulika Bose and Kelso Harper. Don\u2019t forget to subscribe to Science, Quickly. And for more in-depth science news, visit ScientificAmerican.com. Our theme music was composed by Dominic Smith. For Scientific American\u2019s Science, Quickly, I\u2019m Jacob Job."
+    },
+    {
+      "author": "SUBSCRIBE",
+      "text": ":\u00a0Apple\u00a0|\u00a0Spotify"
+    }
+  ]
+}

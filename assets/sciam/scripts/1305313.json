@@ -1,0 +1,149 @@
+{
+  "title": "What That Jazz Beat Tells Us about Hearing and The Brain",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/C82510BD-D1F5-4C34-8DC0F62CDEC53876_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/what-that-jazz-beat-tells-us-about-hearing-and-the-brain/",
+  "audio": "https://traffic.megaphone.fm/SAM5304273001.mp3?updated=1703605742",
+  "intro": [
+    "Very small delays in swing jazz point to our evolution as a supremely auditory species."
+  ],
+  "authors": [
+    "Joseph Polidoro"
+  ],
+  "category": [
+    "Cognition"
+  ],
+  "transcript": [
+    {
+      "author": "Joseph Polidoro: ",
+      "text": "What can a 35-millisecond moment in swing jazz tell us about our sense of hearing, our capacity for music, and even human consciousness? Scientists have made a breakthrough discovery in what makes swing jazz swing.\u00a0It\u2019s a phenomenon that\u2019s so fleeting, even professional musicians can\u2019t point to it\u2014but we can feel it. The results appear in Communications Physics.\u00a0 I\u2019m Joseph Polidoro, and you\u2019re listening to Science, Quickly. Swing is a subgenre of jazz. But the word \u201cswing\u201d also refers to a distinctive rhythm that long outlasted the swing era and can be heard in music from Chuck Berry and the Beatles to Rage against the Machine and the electronic project Anomalie. Here\u2019s a straightforward,\u00a0 unswinging rhythm... [CLIP: Sample of straight eighth notes] And here\u2019s a swing rhythm. [CLIP: Sample of light swing (0:26 to 0:34)] Swing rebels against a straight 50\u201350 meter with a prolonged first beat, or downbeat, and a shortened second beat, or offbeat. This swing ratio can range from light (about 55 percent) to hard (around 72 percent).\u00a0In terms of feel, swing \u201cgrooves\u201d\u2014it makes you want to move your body. You\u2019d think that swing ratio would be all there is to swing. But it\u2019s not. For jazz musicians, computer-generated jazz that includes the swing ratio just doesn\u2019t swing. Something else is going on."
+    },
+    {
+      "author": "Theo Geisel: ",
+      "text": "This was a motivation to get into this field and to try to solve this question, to try to explain what swing is."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "That\u2019s Theo Geisel. He\u2019s a theoretical physicist specializing in nonlinear dynamics at the Max Planck Institute for Dynamics and Self-Organization in G\u00f6ttingen, Germany, not to mention an accomplished saxophone player. In the 1980s an ethnomusicologist and jazz drummer named Charles Keil claimed that swing depends on very small rhythmic variations\u2014called microtiming variations\u2014among musicians."
+    },
+    {
+      "author": "Geisel: ",
+      "text": "Little timing discrepancies between the onsets of different instruments that are participating in a performance. It can be felt especially by professional jazz musicians. But almost all jazz musicians I talked to were not able to identify the nature of these delays."
+    },
+    {
+      "author": "Polidoro",
+      "text": ": In Theo\u2019s field of nonlinear dynamics, synchronization is a central topic. And as a musician, he saw a connection to this question in swing."
+    },
+    {
+      "author": "Geisel",
+      "text": ": That's what I had in mind for years. And it took me a while to find the right colleagues with whom I could do that."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "Theo\u2019s team devised a perceptual experiment that would determine if listeners preferred swing with microtiming delays by soloists and what kind of delays they preferred. The researchers converted several jazz tunes into a digital format that allowed them to control the timing of the rhythm section and the soloists. For each tune, they created three versions: In one, the solos were completely synchronized with the rhythm section\u2014there were no delays at all. In another, there were very slight soloist delays on both downbeats and offbeats. And in the third version, there were soloist delays on the downbeats only. [CLIP: Short excerpt of Geisel\u2019s downbeat delay version of \u201cJordu,\u201d by Duke Jordan] You can take the test yourself by following a link in this episode\u2019s program notes\u00a0\u00a0and scrolling to the bottom of the page."
+    },
+    {
+      "author": "Geisel: ",
+      "text": "Almost all soloists used small downbeat delays with respect to the rhythm section. So only the downbeats are delayed,and they are delayed by a minute amount."
+    },
+    {
+      "author": "Polidoro",
+      "text": ": How minute is that delay? It\u2019s something like 35 milliseconds long. Musicians clearly preferred versions with synchronized offbeats and these very slightly delayed downbeats.\u00a0 The researchers also used the newly available Weimer Jazz Database to establish that most swing soloists are in fact deliberately using these microtiming delays.\u00a0But, the paper\u2019s most intriguing observation came at the very end. Even the professional jazz musicians were astounded that they couldn\u2019t explain why they preferred swing performances with downbeat delays. The very people who are skilled at playing solos with microtiming delays \u201ccould \u2018feel it,\u2019 but they just couldn\u2019t \u2018explain it,\u2019\u201d Theo and his colleagues wrote. The swing feel relies on this hidden element we\u2019re not consciously aware of."
+    },
+    {
+      "author": "Geisel: ",
+      "text": "It's amazing that the brain is able at all to perceive such fine differences without being able to identify them."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "I asked biologist Nina Kraus if this surprised her."
+    },
+    {
+      "author": "Nina Kraus: ",
+      "text": "Um, not really. I study sound in the brain at Brainvolts."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "That\u2019s Nina\u2019s lab\u2014the Auditory Neuroscience Laboratory at Northwestern University\u2019s School of Communication, where she is a professor of neurobiology and otolaryngology."
+    },
+    {
+      "author": "Kraus",
+      "text": ": We investigate many, many topics\u2026, ranging from athletes and concussion, music, rhythm, bilingualism, language and its disorders\u2014it all falls under the umbrella of sound and the brain."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "The swing study doesn\u2019t surprise Nina\u2014who, by the way, sings and plays several instruments\u2014because we\u2019re able to hear and make sense of sounds that are much faster than these soloist delays all the time. We may think of ourselves as a visual species, but as Nina explains in her recent book, Of Sound Mind, we\u2019re really an auditory species."
+    },
+    {
+      "author": "Kraus: ",
+      "text": "The hearing brain is vast, and the hearing brain engages what we know, what we pay attention to, what we remember, how we ... combine information from our other senses, how we move and how we feel about the sounds. The fancy way of saying that is: our hearing brain engages our cognitive, sensory, motor, reward, even visceral systems. And music is the jackpot for the hearing brain."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "For example, our ability to hear such small timing differences.\u00a0\u201cWhen it comes to timing precision,\u201d Nina wrote in her book, \u201c[the auditory system leaves] the visual system in the dust.\u201d We can hear differences in timing as small as one hundredth of a second, or 10 microseconds.\u00a0In fact, human speech calls on much faster hearing than the microtiming delays in swing jazz."
+    },
+    {
+      "author": "Kraus",
+      "text": ": That\u2019s easy for our ... auditory system, if you think of speech sounds."
+    },
+    {
+      "author": "Polidoro",
+      "text": ": In human speech, time-based sound distinctions are the most difficult\u2014for example, a \u201cb\u201d versus a \u201cp\u201d at the beginning of a word. The initial sound of a \u201cb\u201d is briefer\u201425 milliseconds or fewer\u2014while the initial sound of a \u201cp\u201d is longer\u2014between 30 and 50 milliseconds. That means a well-functioning auditory system can distinguish a difference of as little as five to 10 milliseconds, even in a noisy room. And we do this almost continuously. According to Nina, single sounds such as\u00a0 a \u201cb,\u201d \u201cp\u201d or \u201co\u201d\u2014called phonemes\u2014happen 25 to 30 times a second in running speech."
+    },
+    {
+      "author": "Kraus: ",
+      "text": "It speaks to how complicated sound is."
+    },
+    {
+      "author": "Polidoro",
+      "text": ": Nina also isn\u2019t surprised that professional jazz musicians couldn\u2019t point to microtiming delays as improving the swing feel."
+    },
+    {
+      "author": "Kraus: ",
+      "text": "Really, almost anything we do is done without our conscious awareness. We've done experiments where we have created sounds and played them to participants and have them tell us that they cannot perceive the difference between two acoustically different sounds. Yet we can see very clearly that their brain is responding to these differences."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "That sounds a lot like jazz musicians preferring soloist delays without perceiving them as delays. What\u2019s more, learning how to play with these tiny delays is subconscious, too. We have an evolutionarily complex \u201cefferent\u201d auditory system\u2014from the cerebral cortex to the ear\u2014that tells us what to pay attention to. This efferent pathway is connected to our memories, our movements, our senses, and it links many systems of the brain and body."
+    },
+    {
+      "author": "Kraus: ",
+      "text": "So we're learning, learning, learning, and initially we don't even know what we don't know. But with time, we start to pick up on various details. And we start learning that there are certain aspects of sound that are really worth paying attention to."
+    },
+    {
+      "author": "Polidoro",
+      "text": ": And over time, some of the processing is taken up by a different neural pathway, the \u201cafferent system.\u201d"
+    },
+    {
+      "author": "Kraus",
+      "text": ": And so finally when we learned something, we're doing it with a tremendous amount of information that we have gained over time based on our experience. This is truly important when we think about music and making music. Sound is a very, very deeply ingrained part of our biology."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "Our brain even may have evolved for music. Researchers who have studied our perception and creation of music think that music played a protective or connective role in early human communities."
+    },
+    {
+      "author": "Kraus: ",
+      "text": "Ah you might think of the right hemisphere that allows us effective emotional communication through vocal intonations. Presumably such mechanisms were highly important for group survival. They were also likely to have deep roots in the deeply emotional stirrings by music."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "Sound is deeply connected to how we interact with the world and with each other. As a survival tool, sound is intricately linked to memory and has a part to play in generating expectation. That might be why our brains are tickled when certain rhythms subvert our expectation\u2014and why Theo\u2019s subjects preferred their swing with regular, tiny delays."
+    },
+    {
+      "author": "Milton Mermikides: ",
+      "text": "Music relies on expectation and playing with our expectations. But what's interesting is: we can still hear the same music over and over and over and over again and still be sort of surprised by it, at least on some instinctyal level. The surprise is permanent, and that's because we process it first, before we access our memories of it."
+    },
+    {
+      "author": "Polidoro: ",
+      "text": "Milton Mermikides is a composer and an academic at the University of Surrey, the Royal College of Music and the University of Oxford, all in England. He\u2019s also Gresham Professor of Music at Gresham College in England and a jazz guitarist. And what about the man who began this inquiry\u2014Charles Keil? What does he think of all this?\u00a0Well, he\u2019s intrigued and not entirely convinced that science can explain something as effective as music. Charles\u2019s resistance is of a piece with many musicians (and other artists) who are reluctant, or even refuse, to analyze their art. As if by seeking to explain it, we rob it of its magic\u2014the very thing about art that we prize."
+    },
+    {
+      "author": "Mermikides: ",
+      "text": "Jazz musicians often don't want to talk about this because maybe it feels that it'll kill their mojo. I think it's a shame to imagine that any magic is lost. [Isaac] Newton\u2019s discovery of the color spectrum is good here, because what we discovered is that they aren\u2019t a fixed number of colors, but there\u2019s an infinite gradient. And by so doing, not only we do recognize the colors that are there already, but we discover so many more, and it just becomes more beautiful, really."
+    },
+    {
+      "author": "Geisel: ",
+      "text": "It didn't kill the magic\u2014it raised even more interest in jazz music. It raised even more interest in music. I listen with different ears now. For Scientific American\u2019s Science, Quickly, I\u2019m Joseph Polidoro. You can find a link to the quiz mentioned in this podcast here.\u00a0"
+    }
+  ]
+}

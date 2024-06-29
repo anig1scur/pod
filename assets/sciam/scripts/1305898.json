@@ -1,0 +1,240 @@
+{
+  "title": "Generative AI Models Are Sucking Up Data from All Over the Internet, Yours Included",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/FD801C0A-8D98-4DE8-A90D464937A647E4_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/generative-ai-models-are-sucking-data-up-from-all-over-the-internet-yours-included/",
+  "audio": "https://traffic.megaphone.fm/SAM8113504925.mp3?updated=1703605713",
+  "intro": [
+    "In the rush to build and train ever larger AI models, developers have swept up much of the searchable Internet, quite possibly including some of your own public\u00a0data\u2014and potentially some of your private data as well."
+  ],
+  "authors": [
+    "Sophie Bushwick",
+    "Lauren Leffer",
+    "Tulika Bose",
+    "Elah Feder"
+  ],
+  "category": [
+    "Artificial Intelligence"
+  ],
+  "transcript": [
+    {
+      "author": "Sophie Bushwick",
+      "text": ":\u00a0To train a large artificial intelligence model, you need lots of text and images created by actual humans. As the AI boom continues, it's becoming clearer that some of this data is coming from copyrighted sources. Now writers and artists are filing a spate of lawsuits to challenge how AI\u00a0developers are using their work."
+    },
+    {
+      "author": "Lauren Leffer",
+      "text": ":\u00a0But it's not just published authors and visual artists that should care about how generative AI is being trained. If you're listening to this podcast, you might want to take notice, too. I'm Lauren Leffer, the technology reporting fellow at Scientific American."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0And I'm Sophie Bushwick, tech editor at Scientific American. You're listening to Tech, Quickly, the digital data diving version of Scientific American'sScience, Quickly podcast. So, Lauren, people often say that generative AI\u00a0is trained on the whole Internet, but it seems like there's not a lot of clarity on what that means. When this came up in the office, lots of our colleagues had questions totally."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0People were asking about their individual social media profiles, password-protected content, old blogs, all sorts of stuff. It's hard to wrap your head around what online data means when, as Emily M. Bender, a computational linguist at University of Washington, told me, quote, \u201cThere's no one place where you can download the Internet.\u201d"
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0So let's dig into it. How are these AI\u00a0companies getting their data? Leffer:\u00a0Well, it's done through automated programs called web crawlers and web scrapers. This is the same sort of technology that's long been used to build search engines. You can think of web crawlers like digital spiders moving around silk strands from URL to URL, cataloging the location of everything they come across."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Happy Halloween to us."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Exactly. Spooky spiders on the internet. Then web scrapers go in and download all that catalog information."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0And these tools are easily accessible."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Right. There's a few different open access web crawlers out there. For instance, there's one called Common Crawl, which we know OpenAI used to gather training data for at least one iteration of the large language model that powers ChatGPT."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0What do you mean? At least one?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Yeah. So the company, like many of its big tech peers, has gotten less transparent about training data over time. When OpenAI was developing GPT-3, it explained in a paper what it was using to train the model and even how it approached filtering that data. But with the release of GPT-3.5 and GPT-4, OpenAI offered far less information."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0How much less are we talking?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0A lot less\u2014almost none. The company's most recent technical report offers literally no details about the training process or the data used. OpenAI even acknowledges this directly in the paper, writing that \u201cgiven both the competitive landscape and the safety implications of large scale models like GPT-4 this report contains no further details about the architecture, hardware training, compute dataset, construction training method or similar.\u201d"
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Wow. Okay, so we don't really have any information from the company on what fed the most recent version of ChatGPT."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Right. But that doesn't mean we're completely in the dark. Likely between GPT-3 and GPT-4 the largest sources of data stayed pretty consistent because it's really hard to find totally new data sources big enough to build generative AI\u00a0models. Developers are trying to get more data, not less. GPT-4 probably relied, in part, on Common Crawl, too."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Okay, so Common Crawl and web crawlers, in general\u2014they're a big part of the data gathering process. So what are they dredging up? I mean, is there anywhere that these little digital spiders can't go?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Great question. There are certainly places that are harder to access than others. As a general rule, anything viewable in search engines is really easily vacuumed up, but content behind a login page is harder to get to. So information on a public LinkedIn profile might be included in Common Crawl's database, but a password-protected account likely isn't. But think about it for one minute. Open data on the Internet includes things like photos uploaded to Flickr, online marketplaces, voter registration databases, government web pages, business sites, probably your employee bio, Wikipedia, Reddit, research repositories, news outlets. Plus there's tons of easily accessed pirated content and archived compilations, which might include that embarrassing personal blog you thought you deleted years ago."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Yikes. Okay, so it's a lot of data, but\u2014okay. Looking on the bright side, at least it's not my old Facebook posts because those are private, right?"
+    },
+    {
+      "author": "Leffer:'",
+      "text": "I would love to say yes, but here's the thing. General web crawling might not include locked-down social media accounts or your private posts, but Facebook and Instagram are owned by Meta, which has its own large language model."
+    },
+    {
+      "author": "Bushwick",
+      "text": ": Ah, right."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Right. And Meta is investing big money into further developing its AI."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0On the last episode of Tech, Quickly, we talked about Amazon and Google incorporating user data into their AI\u00a0models. So is Meta doing the same thing?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Yes. Officially. The company admitted that it has used Instagram and Facebook post to train its AI. So far Meta has said this is limited to public posts, but it's a little unclear how they're defining that. And of course, it could always change moving forward."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0I find this creepy, but I think that some people might be wondering: So what? It makes sense that writers and artists wouldn't want their copyrighted work included here, especially when generative AI\u00a0can spit out content that mimics their style. But why does it matter for anyone else? All of this information is online anyway, so it's not that private to begin with."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0True. It's already all available on the Internet, but you might be surprised by some of the material that emerges in these databases. Last year, one digital artist was tooling around with a visual database called LAION, spelled L-A-I-O-N..."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Sure, that's not confusing."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Used in trainings and popular image generators. The artist came across a medical photo of herself linked to her name. The picture had been taken in a hospital setting as part of her medical file, and at the time, she'd specifically signed a form indicating that she didn't consent to have that photo shared in any context. Yet somehow it ended up online."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Whoa. Isn't that illegal? It sounds like that would violate HIPPA, the medical privacy rule."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Yes to the illegal question, but we don't know how the medical image got into LAION. These companies and organizations don't keep very good tabs on the sources of their data. They're just compiling it and then training air tools with it. A report from Ars Technica found lots of other pictures of people in hospitals inside the LAION database, too."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0And I did ask LAION for comment, but I haven't heard back from them."
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "Then what do we think happened here?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Well, I asked Ben Zhao, a University of Chicago computer scientist, about this, and he pointed out the data gets misplaced often. Privacy settings can be too lax. Digital leaks and breaches are common. Information not intended for the public Internet ends up on the Internet all the time."
+    },
+    {
+      "author": "Ben Zhao",
+      "text": ":\u00a0There's examples of kids being filmed without their permission. There are examples of private home pictures. There's all sorts of stuff that should not be in any way, shape or form included in a public training set."
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "But just because data ends up in an AI training set, that doesn't mean it becomes accessible to anyone who wants to see it. I mean, there are protections in place here. AI\u00a0chatbots and image generators don't just spit out people's home addresses or credit card numbers if you ask for them."
+    },
+    {
+      "author": "Leffer:'",
+      "text": "True. I mean, it's hard enough to get AI bots to offer perfectly correct information on basic historical events. They hallucinate and they make errors a lot. These tools are absolutely not the easiest way to track down personal details on an individual on the Internet. But..."
+    },
+    {
+      "author": "Bushwick",
+      "text": ": Oh, why is there always a \u201cbut\u201d?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0There, uh, there have been some cases where AI generators have produced pictures of real people's faces and very loyal reproductions of copyrighted work. Plus, even though most generative models have guardrails in place meant to prevent them from sharing identifying info on specific people, researchers have shown there are usually ways to get around those blocks with creative prompts or by messing around with open-source AI\u00a0models."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0So privacy is still a concern here?"
+    },
+    {
+      "author": "Leffer:'",
+      "text": "Absolutely. It's just another way that your digital information might end up where you don't want it to. And again, because there's so little transparency, Zhao and others told me that right now it's basically impossible to hold companies accountable for the data they're using or to stop it from happening. We'd need some sort of federal privacy regulation for that. And the U.S. does not have one."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Yeesh."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Bonus\u2014all that data comes with another big problem."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Oh, of course it does. Let me guess this one. Is it bias?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Ding, ding, ding. The Internet might contain a lot of information, but it's skewed information. I talked with Meredith Broussard, a data journalist researching AI at New York University, who outlined the issue."
+    },
+    {
+      "author": "Meredith Broussard:'",
+      "text": "We all know that there is wonderful stuff on the Internet and there is extremely toxic material on the Internet. So when you look at, for example, what are the Web sites in the Common Crawl, you find a lot of white supremacist Web sites. You find a lot of hate speech."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0And in Broussard's words, it's \u201cbias in, bias out.\u201d"
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Aren't AI\u00a0developers filtering their training data to get rid of the worst bits and putting in restrictions to prevent bots from creating hateful content?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Yes. But again, clearly, lots of bias still gets through. That's evident when you look at the big picture of what AI\u00a0generates. The models seem to mirror and even magnify many harmful racial, gender and ethnic stereotypes. For example, AI\u00a0image generators tend to produce much more sexualized depictions of women than they do men, and at baseline, relying on Internet data means that these AI\u00a0models are going to skew towards the perspective of people who can access the Internet and post online in the first place."
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Aha. So we're talking wealthier people, Western countries, people who don't face lots of online harassment. Maybe this group also excludes the elderly or the very young."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Right. The Internet isn't actually representative of the real world."
+    },
+    {
+      "author": "Bushwick:'",
+      "text": "And in turn, neither are these AI\u00a0models."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Exactly. In the end, Bender and a couple of other experts I spoke with noted that this bias and, again, the lack of transparency makes it really hard to say how our current generative AI\u00a0model should be used. Like, what's a good application for a biased black box content machine?"
+    },
+    {
+      "author": "Bushwick",
+      "text": ":\u00a0Maybe that's a question we'll hold off answering for now. Science, Quickly is produced by Jeff DelViscio, Tulika Bose, Kelso Harper and Carin Leong. Our show is edited by Elah Feder and Alexa Lim. Our theme music was composed by Dominic Smith."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0Don't forget to subscribe to Science, Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review."
+    },
+    {
+      "author": "Bushwick",
+      "text": ": For Scientific American's Science, Quickly, I'm Sophie Bushwick."
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0I'm Lauren Leffer. Talk to you next time."
+    }
+  ]
+}

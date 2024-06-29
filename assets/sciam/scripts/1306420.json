@@ -1,0 +1,263 @@
+{
+  "title": "Can AI Predict Your Death?",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/09A12CE5-D15E-4A64-80455F7CA88F7BDB_source.gif",
+  "url": "https://www.scientificamerican.com/podcast/episode/can-ai-predict-your-death/",
+  "audio": "https://traffic.megaphone.fm/SAM6525857101.mp3?updated=1705958685",
+  "intro": [
+    "A new study used machine\u00a0learning to \u201cautocomplete\u201d\u00a0the\u00a0life\u00a0trajectories of six million Danish people\u2014and forecast\u00a0when they might kick the bucket."
+  ],
+  "authors": [
+    "Lauren Leffer",
+    "Elah Feder",
+    "Tulika Bose"
+  ],
+  "category": [
+    "Artificial Intelligence"
+  ],
+  "transcript": [
+    {
+      "author": "Lauren Leffer",
+      "text": ": Prediction is powerful. For as long as people have been thinking about the future, we\u2019ve been trying to predict it. And, in some areas, we\u2019ve gotten pretty good (think, like, meteorology and climate modeling).Tulika Bose:\u00a0But scientifically-speaking \u2014 we\u2019re still pretty far from the stuff of crystal balls and oracles. There\u2019s lots of things people have no reliable way to forecast, despite what your horoscope may suggest."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Absolutely. But\u2026 what if artificial intelligence could get us closer to that fantasy/supernatural realm of divination than ever before? What if, for instance, an AI model could accurately forecast a person\u2019s death?"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Wait, what?!"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0 Yeah. It sounds scary, right? Bose: Uh, yeah."
+    },
+    {
+      "author": "Leffer",
+      "text": ": \u2014 and it might be, but probably not for the reasons you expect. I\u2019m Lauren Leffer, tech reporting fellow at Scientific American."
+    },
+    {
+      "author": "Bose",
+      "text": ": I\u2019m Tulika Bose, Senior multimedia editor."
+    },
+    {
+      "author": "Leffer",
+      "text": ": And you\u2019re listening to Scientific American's Science, Quickly podcast. [INTRO MUSIC]"
+    },
+    {
+      "author": "Leffer",
+      "text": ": So Tulika, death\u2013 we\u2019re all going to do it one day, but if you could know when you\u2019re going to die, would you want to?"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Uh no, no, no no."
+    },
+    {
+      "author": "Leffer",
+      "text": ": You didn't even let me finish the question."
+    },
+    {
+      "author": "Bose",
+      "text": ": Yeah, I don't wanna know."
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Yeah, me either\u2013 seems like an obvious case of TMI."
+    },
+    {
+      "author": "Bose",
+      "text": ": Yeah! For sure."
+    },
+    {
+      "author": "Leffer: ",
+      "text": "But the inherently unsettling nature of \u201can AI calculator that spits out death predictions\u201d didn\u2019t stop \u00a0researchers from developing just that. The tool is called life2vec, and was described in a study published late last year.Bose: And it\u2019s really an AI widget that says when you\u2019re gonna\u00a0die? Leffer: \u00a0Sort of. Yes and no. Life2vec isn\u2019t just a death predictor. It\u2019s way more general than just mortality forecasts. It can offer more than that.\u00a0 One BIG CAVEAT right up top: it\u2019s hard to know exactly how accurate any of its predictions are at the moment\u2013 no one is claiming the tool can definitively predict an individual person\u2019s death. It\u2019s also trained on a very specific data set, namely one that contains information on residents of Denmark?\u00a0\u00a0So it can\u2019t offer meaningful predictions about anyone who isn\u2019t Danish.\u00a0"
+    },
+    {
+      "author": "Bose",
+      "text": ": Ok, all of that\u2019s kind of a relief. But can we go back to the \u201cmore general thing\u201d? What else can it predict?"
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Yeah, so maybe it's a big deal for Danes. But on top of forecasting mortality over a four year period, the developers also tested their tool\u2019s ability to predict peoples\u2019 answers to a personality questionnaire\u00a0 \u2014"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Interesting \u2014"
+    },
+    {
+      "author": "Leffer ",
+      "text": "\u2014 and to forecast if someone would make an international move. In all three of these tests, life2vec seemed to perform pretty well, with higher accuracy than other prediction methods the researchers compared it to. For the death test, about 78% accurate, for moving abroad, about 73%."
+    },
+    {
+      "author": "Bose",
+      "text": ": Whoa."
+    },
+    {
+      "author": "Leffert",
+      "text": ": But again, it\u2019s hard to know exactly what accuracy means here.Bose: Hold up, the death calculator could also predict personality traits and if people would live abroad? How? How are any of those things related?"
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Let\u2019s take a step back. Life2vec is a machine learning model, which basically just means it\u2019s a big computer program made to detect patterns in very large sets of data. The researchers built this model and trained it on tons of government-collected information on millions of people living in Denmark. They had employment history, basic demographic data, and also information on just about every interaction between people and the Danish medical system, because Denmark has universal healthcare."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Wow, that must be nice."
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Truly. Anyway, the researchers took all this data for each person and organized it into timelines. The life2vec model was fed all these timelines, and trained to pick up on patterns between the different events that show up in a person\u2019s life. You know, how are location and salary related? Do people diagnosed with certain diseases survive? Do people with certain professions tend to live longer?"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Do people with certain career paths have certain personality traits?\u00a0Leffer: Exactly. That's how you can go from something like demographic info to personality questionnaire."
+    },
+    {
+      "author": "Bose: ",
+      "text": "That's so interesting."
+    },
+    {
+      "author": "Leffer: ",
+      "text": "From there, the researchers could ask versions of the model to make predictions based on those timelines.\u00a0The extra interesting thing with life2vec isn\u2019t just that it makes these predictions\u2013again we\u2019ve been doing that forever\u2013it\u2019s how it does it. It\u2019s a type of mode usually used for chatbots\u00a0 and language processing. It basically runs\u00a0 like souped-up autocomplete."
+    },
+    {
+      "author": "Bose",
+      "text": ": Hah wait so the death predictions here are \u201cautocompleting\u201d someone\u2019s life?"
+    },
+    {
+      "author": "Leffer",
+      "text": ":\u00a0That is one way to put it. You give the model the life event timeline, you ask it a specific question, and it predicts the next relevant step in the timeline, based on the prompt. Sometimes that means predicting death."
+    },
+    {
+      "author": "Bose",
+      "text": ":\u00a0Uh, kay yeah.\u00a0This sounds like a Black Mirror episode. Your phone\u2019s autocomplete starts to spit out \u201cyou\u2019ll die in seven days\u201d type messages."
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Pitch that to Netflix."
+    },
+    {
+      "author": "Bose",
+      "text": ": I\u2019m on it. We can be co-writers.\u00a0So a little bit ago, you kept hedging on life2vec\u2019s accuracy, what was that about?"
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Yeah, so I talked with some statistical and life modeling experts about this and none of them were super\u00a0convinced by those 70+ percent accurate numbers that the researchers reported in the study.\u00a0My favorite quote came from Christina Silcox, director for digital health at Duke Margolis Center for Health Policy. I asked her how powerful she thought life2vec\u2019s mortality predictions are and she said, quote,\u00a0\u201cI would not quit my job and go to the Bahamas based on this thing.\u201d"
+    },
+    {
+      "author": "Bose",
+      "text": ": Haha ok, that\u2019s kind of a burn?"
+    },
+    {
+      "author": "Leffer",
+      "text": ": It\u2019s more of a statement on how hard it is to predict something like death. And to assess the accuracy of something so new\u2013there\u2019s nothing obvious to compare life2vec to."
+    },
+    {
+      "author": "Bose",
+      "text": ": You can\u2019t just see how much better it is than flipping a coin or something?"
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Nope! Data and statistics are wonky, particularly around death which is a rare event, if you think about it.\u00a0It only happens once in a person\u2019s life and young people don\u2019t tend to die very often. In fact, if you were to just assume that everyone between like 25-50 in a population was going to live in a given year, you\u2019d already be a really accurate death oracle. You\u2019d be right most of the time."
+    },
+    {
+      "author": "Bose",
+      "text": ": Ah ok, so you\u2019ve gotta figure out what it means to actually be good at predicting death, and then compare life2vec to that."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Totally! And that\u2019s kind of a question mark."
+    },
+    {
+      "author": "Bose",
+      "text": ": So what could you use this for, if not to tell you when it\u2019s time to go permanent vacation mode? If we don\u2019t really know how good it is, what\u2019s the point?"
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Ooooh ok so there are lots of potential uses\u2013down the road, with more testing. For one, the model could help us understand disease prognosis and health outcomes. And from a sociology angle, you can use life2vec to tease out hidden societal biases, like unexpected links between age or country of origin and professional advancement."
+    },
+    {
+      "author": "Bose: ",
+      "text": "All of that sounds theoretically cool, but I\u2019m stuck on this idea that\u2013actually\u2013 this will be used in a bad and scary way. Like, Minority Report-style punishing crimes before they happen, sort of stuff."
+    },
+    {
+      "author": "Leffer",
+      "text": ": It\u2019s a valid concern!"
+    },
+    {
+      "author": "Bose",
+      "text": ": Thank you for validating.Leffer: Haha of course. There is definitely an ethical risk with a tool like this. The study authors were careful to note all the ways that Danish privacy and anti-discrimination laws restrict how life2vec can be used. It\u2019s not just going to be a freely available tool. Academic and government researchers will have to apply to use it for specified purposes and then have a responsibility to protect peoples\u2019 data."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Cool, Ok\u2013that\u2019s better than nothing I guess."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Yeah, if it makes you feel any better\u2013 the study author I spoke with, Sune Lehmann, told me that he worked on this research because he trusts the Danish government, but in the U.S.--or another country without a comprehensive data privacy law\u2013 he wouldn\u2019t have been so comfortable."
+    },
+    {
+      "author": "Bose: ",
+      "text": "You know, as someone living in the U.S., that doesn\u2019t make me feel better."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Ok, fair. Then to double down and make you feel worse: We kind of sort of already live in a version of\u00a0the terrifying Minority Report world. In the U.S., there's predictive policing and judges making sentencing decisions with the help of AI algorithms. In all of these cases, bias and innaccuracy are big documented problems that keep popping back up."
+    },
+    {
+      "author": "Bose",
+      "text": ": Yikes. And I guess while we\u2019re talking algorithms, there\u2019s social media, too."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Right, tech companies collect so much data on users and are certainly using that data to build predictive AI models that help maximize engagement or forecast what people will buy. The biggest difference between the tech company algorithms, the criminal justice tools, and life2vec is that\u2013for the first two\u2013 there\u2019s very little transparency. For the last one, the academic researchers want the public and the scientific community to understand how the tool works and what it can do."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Alright, solid. To fight the system, I guess you have to understand the system."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Yup, Lehmann\u2019s hope is that a transparent and flexible model like life2vec will spur conversation in a new direction\u2013 it might get people and governments to start thinking about what\u2019s possible and what\u2019s right. He told me, \u201cI hope that this can be part of a discussion that helps move us in the direction of utopia and away from dystopia.\u201d"
+    },
+    {
+      "author": "Bose",
+      "text": ": Utopia is a big really goal, but I hope he\u2019s right. Also I would settle for not dystopia. Honestly."
+    },
+    {
+      "author": "Leffer",
+      "text": ": Me too. Any zone inbetween that would be good with me."
+    },
+    {
+      "author": "Bose: ",
+      "text": "I'm cool with that."
+    },
+    {
+      "author": "Leffer",
+      "text": ": It is a lofty goal. So Tulika, what have we learned here? I'm giving you a little test."
+    },
+    {
+      "author": "Bose",
+      "text": ": That Denmark seems cool."
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Haha \u201cA+\u201d You passed the test. [OUTRO MUSIC]"
+    },
+    {
+      "author": "Leffer: ",
+      "text": "Science Quickly is produced by Jeff DelViscio, Tulika Bose, Kelso Harper and Carin Leong. Our show is edited by Elah Feder and Alexa Lim. Our theme music was composed by Dominic Smith."
+    },
+    {
+      "author": "Bose",
+      "text": ":\u00a0Don\u2019t forget to subscribe to Science Quickly wherever you get your podcasts. For more in-depth science news and features, go to ScientificAmerican.com. And if you like the show, give us a rating or review!"
+    },
+    {
+      "author": "Leffer",
+      "text": ": For Scientific American\u2019s Science Quickly, I\u2019m Lauren Leffer."
+    },
+    {
+      "author": "Bose: ",
+      "text": "I\u2019m Tulika Bose. See you next time!"
+    }
+  ]
+}

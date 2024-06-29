@@ -1,0 +1,155 @@
+{
+  "title": "How the Pandemic Shortened Life Expectancy and New Drugs on the Horizon: COVID, Quickly, Episode 40",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/A54897C9-86CB-4775-A7A18ECC886C18C0_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/how-the-pandemic-shortened-life-expectancy-and-new-drugs-on-the-horizon-covid-quickly-episode-40/",
+  "audio": "https://traffic.megaphone.fm/SAM6216003914.mp3?updated=1703605800",
+  "intro": [
+    "In this episode of the COVID, Quickly podcast, we talk about why we\u2019ve had years shaved\u00a0off our average collective life since 2020. Also, we talk about \u201cmabs\u201d\u00a0and why you might want to know what they are."
+  ],
+  "authors": [
+    "Josh Fischman",
+    "Tanya Lewis",
+    "Jeffery DelViscio"
+  ],
+  "category": [
+    "Epidemiology"
+  ],
+  "transcript": [
+    {
+      "author": "Tanya Lewis",
+      "text": ": Hi, and welcome to COVID, Quickly, a Scientific American podcast series!"
+    },
+    {
+      "author": "Josh Fischman: ",
+      "text": "This is your fast-track update on the COVID pandemic. We bring you up to speed on the science behind the most urgent questions about the virus and the disease. We demystify the research, and help you understand what it really means."
+    },
+    {
+      "author": "Lewis",
+      "text": ": I\u2019m Tanya Lewis."
+    },
+    {
+      "author": "Fischman: ",
+      "text": "I\u2019m Josh Fischman."
+    },
+    {
+      "author": "Lewis",
+      "text": ": And we\u2019re Scientific American\u2019s senior health editors.\u00a0Today we\u2019re going to talk about how COVID has driven a notable decline in U.S. life expectancy \u2026"
+    },
+    {
+      "author": "Fischman",
+      "text": ": \u2026 and some new monoclonal antibodies that could protect us from variants. ---"
+    },
+    {
+      "author": "Fischman:'",
+      "text": "People in the U.S. have been living longer and longer during most of the past century. Then COVID hit. And all of a sudden we\u2019re going backwards. Why are we losing years of our lives?"
+    },
+    {
+      "author": "Lewis",
+      "text": ": Life expectancy has only declined a few times in recent memory: during the 1918 pandemic, during World War II, and during the HIV/AIDS crisis. But over the last two years, it\u2019s declined by almost three years. That\u2019s equivalent to the U.S. life expectancy in 1996."
+    },
+    {
+      "author": "Fischman",
+      "text": ":\u00a0That\u2019s pretty astounding."
+    },
+    {
+      "author": "Lewis",
+      "text": ": It is. But while almost every demographic saw a drop, some groups lost more years of life than others."
+    },
+    {
+      "author": "Fischman:'",
+      "text": "Which groups had the biggest declines?"
+    },
+    {
+      "author": "Lewis",
+      "text": ": Native American and Alaska Native populations\u2019 lost a total of 6.6 years from 2019 to 2021. The Hispanic population lost 4.2 years. The non-Hispanic Black population lost four years. The white population lost 2.4 years. And the Asian population lost 2.1 years. The data come from the CDC\u2019s National Center for Health Statistics, which recently published provisional data for 2021. Elizabeth Arias and her NCHS colleagues calculated something called a life table. It basically takes a hypothetical group of infants born in 2021, and applied the real-world death rates of every age group to those infants across their whole lives. The result is an estimate of the total population\u2019s life expectancy.\u00a0"
+    },
+    {
+      "author": "Fischman",
+      "text": ":\u00a0So, what are the reasons for all the lost years?"
+    },
+    {
+      "author": "Lewis",
+      "text": ": Well, COVID was the primary cause\u2014more than a million people in the U.S. have died from the disease. But unintentional injuries\u2014mostly drug overdoses\u2014were also a big reason for the decline. Deaths from heart disease, chronic liver disease and suicide also contributed to the decline in life expectancy over the past year. Economists Anne Case and Angus Deaton first brought attention to these \u201cdeaths of despair\u201d\u2014deaths from overdoses, alcoholism and suicide. They were already rising before the pandemic, which just accelerated the trend."
+    },
+    {
+      "author": "Fischman:'",
+      "text": "In other words, COVID pushed people who were already struggling over the edge."
+    },
+    {
+      "author": "Lewis",
+      "text": ": Most likely. And this was especially true for the Native American population. Native American people have some of the poorest levels of housing, education and health care. And a lot of this stems from the U.S. government\u2019s colonialist policies, Crystal Lee, an assistant professor at the University of New Mexico\u2019s College of Population Health, told me. Lee is Dine\u2019\u2014a member of the Navajo Nation\u2014and is also CEO of the nonprofit organization United Natives and the company Indigenous Health. \u201cWe need to hold the U.S. government accountable, by honoring the existent treaties,\u201d Lee says."
+    },
+    {
+      "author": "Fischman:'",
+      "text": "Those treaties would improve healthcare, among other things."
+    },
+    {
+      "author": "Lewis",
+      "text": ": Exactly. I think the biggest take home message here is really that we weren\u2019t prepared for this pandemic, and that we really need to revamp our health care system and make it work for everyone in this country if we want to stop this backsliding and live longer, healthier lives. ---"
+    },
+    {
+      "author": "Lewis",
+      "text": ": Josh, we\u2019ve both talked about the several hundred people who are getting severely sick and dying from COVID every day. And some of the medicines developed to treat sick people don\u2019t work well against the new variants. You\u2019ve been hearing about some drugs that might work better, though, right?"
+    },
+    {
+      "author": "Fischman:'",
+      "text": "I have. The new drugs are variants themselves, versions of older medicines called monoclonal antibodies. They\u2019ve usually got long, difficult names, but they typically end in \u201cmab,\u201d so that\u2019s the giveaway."
+    },
+    {
+      "author": "Lewis",
+      "text": ": For COVID, those have been around for a year or so, haven\u2019t they?"
+    },
+    {
+      "author": "Fischman:'",
+      "text": "Yep. They were developed to glom onto the early 2020 form of the virus, and prevent it from penetrating into a cell. And originally they did a pretty good job."
+    },
+    {
+      "author": "Lewis",
+      "text": ": But recently, not so much, right? I saw a study in which scientists tested 21 different \u201cmabs\u201d against the BA.4 and 5 variants, and only one was able to neutralize them."
+    },
+    {
+      "author": "Fischman:'",
+      "text": "And that\u2019s precisely the problem. These mabs were configured to fit that early virus, like a key fitting into a lock. But now there are 5 or so newer variants making the rounds\u2014BA.5 is still the dominant one\u2014and those have mutations that essentially change the shape of the lock. So most of the mabs don\u2019t fit anymore. One, called bebtelovimab, still does a pretty good job, but most of the others that have been authorized by the FDA do not."
+    },
+    {
+      "author": "Lewis",
+      "text": ": So what\u2019s the solution?"
+    },
+    {
+      "author": "Fischman:'",
+      "text": "Go broad. Scientists used to pick these mabs based on how strongly they attached to a particular virus. But now they are looking for antibodies that are \u201cbroadly neutralizing.\u201d They grab onto a wider range of variants, not just one. I\u2019ve been talking about this with Bill Haseltine, the molecular biologist who worked on some of the original AIDS therapies. He thinks this approach is very promising. Mab developers are picking antibodies that take aim at what scientists call \u201chighly conserved\u201d regions of the virus. In plain English that means spots that don\u2019t mutate from variant to variant, so the mabs can still lock on.\u00a0"
+    },
+    {
+      "author": "Lewis",
+      "text": ": Can people use these now?"
+    },
+    {
+      "author": "Fischman:'",
+      "text": "Not yet. There are about 10 of these mabs in various stages of testing. Some are now being tried on people, and some are still in animal tests."
+    },
+    {
+      "author": "Lewis",
+      "text": ": But don\u2019t a lot of drugs that work well in animals actually fail when they get to humans?"
+    },
+    {
+      "author": "Fischman:'",
+      "text": "Not mabs, in general. The antibodies are often developed in mice that have been genetically modified to have human-like immune systems\u2014a technique that goes back to the days of AIDS drug development. Because of that, they generally translate well to people, Haseltine says. Another advantage mabs have is they can be used to prevent infection in people who are in high-risk situations. Some may be immunocompromised and don\u2019t get much benefit from vaccines, mabs can play a prevention role for them. Others may work in nursing homes, which have had high rates of outbreaks."
+    },
+    {
+      "author": "Lewis",
+      "text": ": I can see that. Look, I don\u2019t want to keep tossing out problems, but mabs aren\u2019t a pill like Paxlovid. They have to be infused, or at least injected. That creates an accessibility problem."
+    },
+    {
+      "author": "Fischman:'",
+      "text": "You\u2019re right. It\u2019s not like you can easily use them at home. But the injection technology is getting easier. And, just for instance, plenty of people with diabetes have learned to inject themselves with insulin. Cost will be an issue, too. Mab manufacturers can charge just over $2000 per dose. Right now the government picks up the tab for COVID patients. It turns out, though, that mabs are actually cheap to produce these days, just one or two hundred bucks a pop.\u00a0 So there\u2019s a chance we\u2019ll be seeing new and affordable therapies, able to handle the range of variants that COVID keeps tossing at us. ---"
+    },
+    {
+      "author": "Lewis",
+      "text": ": Now you\u2019re up to speed. Thanks for joining us.\u00a0Our show is edited by Jeff DelViscio and Tulika Bose."
+    },
+    {
+      "author": "Fischman: ",
+      "text": "Come back in two weeks for the next episode of COVID, Quickly. And check out sciam.com for updated and in-depth COVID news. [The above text is a transcript of this podcast.]"
+    }
+  ]
+}

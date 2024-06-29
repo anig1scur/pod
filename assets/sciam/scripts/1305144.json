@@ -1,0 +1,185 @@
+{
+  "title": "The Kavli Prize Presents: How Your Brain Maps the World [Sponsored]",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/A1156D7B-FA2E-4AE8-A6FB07AC014460E5_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/the-kavli-prize-presents-how-your-brain-maps-the-world-sponsored/",
+  "audio": "https://traffic.megaphone.fm/SAM4560662607.mp3?updated=1703605745",
+  "intro": [
+    "John O\u2019Keefe shared the Kavli Prize in Neuroscience in 2014 for discovering that neurons in the hippocampus encode an animal\u2019s location and create a cognitive map for navigation.This podcast was produced for the Kavli Prize by Scientific American Custom Media, a division separate from the magazine\u2019s board of editors."
+  ],
+  "authors": [
+    "Scientific American Custom Media"
+  ],
+  "category": [
+    "Neuroscience"
+  ],
+  "transcript": [
+    {
+      "author": "Megan Hall",
+      "text": ": When you release a carrier pigeon into the air, how does it know its way home? How do we navigate city streets without getting lost? John O\u2019Keefe has found the very cells in the brain that help animals and humans know where they are in space. In 2014, he shared The Kavli Prize in Neuroscience with Brenda Milner and Marcus Raichle for their work uncovering the special networks in our brains that \u200b\u200bdeal with memory and learning. That same year, he also won the Nobel Prize. Scientific American Custom Media, in partnership with The Kavli Prize, spoke with John about his research and the future of the field. --------"
+    },
+    {
+      "author": "Hall",
+      "text": ": John O\u2019Keefe would stay in school forever if he could. In fact, he tried. After struggling to pay for a degree in aerospace engineering, he managed to get into\u00a0the City College of New York."
+    },
+    {
+      "author": "John O\u2019Keefe",
+      "text": ":I was like a child in a candy factory. And I just loved every moment of it. I took courses in filmmaking, I took courses in English literature, I took courses in physics, I took courses in engineering, and I took psychology and philosophy courses."
+    },
+    {
+      "author": "Hall",
+      "text": ": But, his studies at the college eventually had to end."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "This dean called me in and said you can\u2019t just keep taking courses for the rest of your life. You\u2019re going to have to go."
+    },
+    {
+      "author": "Hall",
+      "text": ": Neuroscience wasn\u2019t even a word until the year John graduated, but he\u2019d already had experience looking at the brain."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "And then I was very lucky, there was a few people there who were sort of pioneers in brain research. I got bitten by the experimental bug, I really liked doing experiments."
+    },
+    {
+      "author": "Hall",
+      "text": ": In grad school, John continued experiments, this time observing the brains of cats and rats as they moved. To do this, he surgically implanted thin wires into the animal\u2019s brain and connected those wires to a small amplifier on the top of its head."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "And then that would enable us to sort of store that information and correlate it with the animal\u2019s behavior."
+    },
+    {
+      "author": "Hall: ",
+      "text": "John says the brain has a lot of cells that are quiet. They don\u2019t fire most of the time. He thought, if his team could get a silent cell to talk, they could isolate why it was talking."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "So we would let the animal do all sorts of things and, all of a sudden, the cell would go BLLLLRP! It would like wake up, it would just go BLLLRP, like that. And you\u2019d say, ah, now, now I\u2019ve got ya!"
+    },
+    {
+      "author": "Hall",
+      "text": ": They soon found cells in cat brains that responded to all sorts of things \u2014 bird calls, mice\u2026"
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "Different foods for example, some cells will respond to one flavor of cat food and others to another flavor\u2026"
+    },
+    {
+      "author": "Hall",
+      "text": ": Around the same time, John\u2019s fellow Kavli laureate, Brenda Milner, was studying a patient with severe epilepsy who had had an operation to remove a part of his brain called the hippocampus. Seizures often start in the hippocampus, so doctors thought this would help. But the surgery had other consequences."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "Brenda did a wonderful job of finding out exactly what was wrong with this chap. And what was wrong was, he had lost a good part of his memory."
+    },
+    {
+      "author": "Hall",
+      "text": ": John was inspired, and decided to shift the focus of his animal research."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "So I thought, well, if I\u2019m going to really go for the home run, as it were, I should go and look and find the memory cells in this part of the brain, the hippocampus."
+    },
+    {
+      "author": "Hall",
+      "text": ": He quickly saw more of those silent cells, which barely fired during experiments, except when animals were in a particular place."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "When the animal went over to one part of the little box we were recording in, the cell wouldn\u2019t say anything. If we got the animal to go to another part of the box, for the same reasons, the cells started to fire. So it wasn\u2019t because he was going for water, or food \u2014 it was where he was going."
+    },
+    {
+      "author": "Hall",
+      "text": ": John called this discovery place cells. And they reminded him of a theory developed by a psychologist named Edward Chace Tolman."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "He invented the idea that animals had, and humans, of course, had little maps in their head. He didn\u2019t say much more than that."
+    },
+    {
+      "author": "Hall",
+      "text": ": John guessed that the place cells he\u2019d discovered might play a role in this so-called cognitive map."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "Maps are a series of locations, but you also need to connect them together. You need to know how this location, say the church, connects to another location, say a schoolhouse. You need to know something like the distance and direction. So almost immediately, I began to think about all of these things."
+    },
+    {
+      "author": "Hall",
+      "text": ": He thought, if you have a little map inside your head, activated by place cells that fire as you move through space \u2014 that could help you remember other things, like where you went yesterday, and who you talked to."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "So it could be the basis for a memory system that people were saying the human hippocampus was actually involved in."
+    },
+    {
+      "author": "Hall",
+      "text": ": Over time, other scientists discovered cells in regions close to the hippocampus that also relate to location \u2014 cells that tell an animal where its head is pointing, and others that keep track of distance. John says they all work together to give animals a sense of where they are."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "And so they have all of these cells, and then the question is, how do you put them together? And this is where the mathematicians become very, very important."
+    },
+    {
+      "author": "Hall",
+      "text": ": John and his colleagues are still working on equations to explain exactly how those cells relate to each other. But they\u2019re also focused on another important question \u2014 how does everything they\u2019ve learned about animal brains translate to humans?"
+    },
+    {
+      "author": "Hall",
+      "text": ": To find out, they\u2019ve used virtual reality games. In the beginning, the only games available were based on guns and scary surprises, so they had to spend months stripping out anything that might alarm someone."
+    },
+    {
+      "author": "O\u2019Keefe",
+      "text": ":We had at the end of this a very nice, very large 70-meter by 20-meter environment, which had all sorts of things in it. It had cinemas and it had bars and pool halls."
+    },
+    {
+      "author": "Hall",
+      "text": ": Then, they hooked people up to brain scans and asked them to find things in the virtual space."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "And we found not only that this activated only two parts of the brain, the hippocampus, but also the parietal cortex, which is essentially the helpmate of the hippocampus\u2026 There was a correlation between how active a part of the brain was and how good the person was in navigating."
+    },
+    {
+      "author": "Hall",
+      "text": ": And it turns out, one part of the hippocampus is actually bigger among people who are especially good at navigation \u2014 taxi drivers."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "And then when they stop being taxicab drivers, the brain shrinks back down."
+    },
+    {
+      "author": "Hall",
+      "text": ": But the hippocampus and the cells related to navigation can also warn us about weaknesses in the brain. They\u2019re the places where we see the first signs of dementia, especially Alzheimer\u2019s."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "And we recorded from a mouse model of Alzheimer\u2019s and found that the place cells actually were less good in that animal, and many of those animals were less good at identifying locations."
+    },
+    {
+      "author": "Hall",
+      "text": ": They\u2019ve seen the same in people, too. John says they believe these spatial problems are the first indication that someone has Alzheimer\u2019s. And those symptoms start decades before it\u2019s clear they\u2019ve developed the disease."
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "The idea, then, is to try to come up with very sensitive spatial navigation and spatial memory tests, which will actually enable us to test large numbers of people very early on. And we\u2019re hoping to be able to do this when they\u2019re, say, 30 years old."
+    },
+    {
+      "author": "Hall: ",
+      "text": "John\u2019s hope is that these carefully designed tests \u2014 that examine a person\u2019s sense of space and location \u2014 could catch the early stages of this dementia. He\u2019s working on designing those tests now. In the meantime, should we be doing specific things to avoid dementia? Like driving taxicabs or turning off our GPS?"
+    },
+    {
+      "author": "O\u2019Keefe: ",
+      "text": "At this stage, what people have concluded is that you should just lead a good life."
+    },
+    {
+      "author": "Hall",
+      "text": ": John says don\u2019t eat too much, exercise, have a good group of friends, don\u2019t smoke. As for young scientists who want to break new ground in the field, he says it can be lonely pursuing a new idea. You don\u2019t get invited to a lot of meetings... There aren\u2019t a lot of people to talk to. So, pick a topic you love, so you can withstand the bumps along the way."
+    },
+    {
+      "author": "Hall",
+      "text": ": John O\u2019Keefe is a professor of cognitive neuroscience at University College London. In 2014, he shared The Kavli Prize in Neuroscience with Brenda Milner and Marcus Raichle. The Kavli Prize honors scientists for breakthroughs in astrophysics, nanoscience, and neuroscience \u2014 transforming our understanding of the big, the small, and the complex. The Kavli Prize is a partnership among the Norwegian Academy of Science and Letters, The Norwegian Ministry of Education and Research, and the US-based Kavli Foundation. This work was produced by Scientific American Custom Media and made possible through the support of The Kavli Prize."
+    }
+  ]
+}

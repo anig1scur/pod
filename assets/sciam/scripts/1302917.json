@@ -1,0 +1,45 @@
+{
+  "title": "How Hong Kong \u2018Sees\u2019 Invisible Tailpipe Emissions and Pulls Polluters Off the Road",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/62FF8E87-B2E1-45B5-BE572FD13A2C4139_source.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/how-hong-kong-sees-invisible-tailpipe-emissions-and-pulls-polluters-off-the-road/",
+  "audio": "https://traffic.megaphone.fm/SAM2786135359.mp3?updated=1703605873",
+  "intro": [
+    "The city has deployed a system of sensors to flag highly polluting vehicles. Nearly all of them have been repaired, helping to clean Hong Kong\u2019s air."
+  ],
+  "authors": [
+    "Christopher Intagliata"
+  ],
+  "category": [
+    "Pollution"
+  ],
+  "transcript": [
+    {
+      "author": "Christopher Intagliata",
+      "text": ": Air pollution causes millions of premature deaths around the world every year, according to an estimate by the World Health Organization. And one of the most significant drivers of air pollution in cities is exhaust that comes out of tailpipes from cars, trucks and buses. In an effort to tame its air pollution, the city of Hong Kong has deployed a system that can sense when a high polluting vehicle drives by.\u00a0"
+    },
+    {
+      "author": "John Zhou: ",
+      "text": "There are more than 150 sites for monitoring of vehicle emissions in Hong Kong, so that high-emitting vehicles can be identified quickly and enforced for repair."
+    },
+    {
+      "author": "Intagliata",
+      "text": ":John Zhou is an environmental engineer at the University of Technology Sydney. He's co-author on a new analysis of the program, in the journal Science Advances.\u00a0[Yuhan Huang et al., Rapid detection of high-emitting vehicles by on-road remote sensing technology improves urban air quality.] He says the system works like this. Sensors at road level shoot beams of light across the road, to a reflector. The sensors measure how much light is absorbed by pollutants, and roughly calculate emissions from passing vehicles. The system simultaneously reads license plates, and sends notices to big polluters.\u00a0 Enforcement began in 2014. In the following four years, the program pulled 16,000 vehicles off the road\u2014mostly taxis, but also private cars and buses. Government subsidies helped fix up 96 percent of those vehicles, and ensured they passed smog tests.\u00a0"
+    },
+    {
+      "author": "Zhou: ",
+      "text": "You know hopefully from the publication of this research we can raise awareness about the effectiveness of getting the heavy polluting vehicles off the road."
+    },
+    {
+      "author": "Intagliata",
+      "text": ": The repairs cut pollutants like carbon monoxide and nitrogen oxides from the city's air. And that spared people from breathing them in. But the repairs had another effect too."
+    },
+    {
+      "author": "Zhou",
+      "text": ":\u00a0By reducing pollution from the tailpipe, we're also simultaneously increasing the performance of fuel combustion in vehicles. So it's indirectly contributing to the reduction of fuel. And therefore, the reduction of greenhouse gases such as carbon dioxide."
+    },
+    {
+      "author": "Intagliata",
+      "text": ": By cleaning up its air, Zhou says Hong Kong has cut carbon emissions too. That's a win-win for people in the city\u2014and beyond. [The above text is a transcript of this podcast."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "title": "How To Stop a (Potentially Killer) Asteroid",
+  "img": "https://static.scientificamerican.com/sciam/cache/file/0D873F6D-3895-4E14-B76A738C13310A32_source.png",
+  "url": "https://www.scientificamerican.com/podcast/episode/how-to-stop-a-potentially-killer-asteroid/",
+  "audio": "https://traffic.megaphone.fm/SAM3172500625.mp3?updated=1703605777",
+  "intro": [
+    "We slammed a $330-million spaceship the size of a dairy cow into an asteroid the size of the Great Pyramid of Giza. Here\u2019s what we\u2019re learning about how our first step in planetary defense could save us in the future."
+  ],
+  "authors": [
+    "Lee Billings",
+    "Tulika Bose"
+  ],
+  "category": [
+    "Astronomy"
+  ],
+  "transcript": [
+    {
+      "author": "Tulika Bose: ",
+      "text": "What would happen if a gigantic asteroid started hurtling towards earth? Would we all be headed for impending doom, like the dinosaurs some 66 million years ago? [CLIP: Crash and screams]"
+    },
+    {
+      "author": "Lee Billings",
+      "text": ": Well, we might not go the way of the dinosaurs after all. Last September\u00a0NASA\u2019s Double Asteroid Redirection Test, or DART\u2014a spacecraft the size of a golf cart\u2014smashed into a small asteroid called Dimorphos, actually altering its trajectory around another asteroid called Didymos in our first-ever test of planetary defense. [CLIP: NASA:\u00a0\u201cFour, three, two, one. Oh my gosh. Oh wow. Awaiting individual confirmation. And we have impact! A triumph for humanity in the name of planetary defense!\u201d]"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Hailed as a (no pun intended) smashing success, no less than five studies in the scientific journal Nature get into the nitty-gritty of how exactly our celestial gut punch worked. [CLIP: NASA:\u00a0\u201cWhat a moment. Very few words could capture this moment. Beautiful to watch.\u201d]"
+    },
+    {
+      "author": "Bose",
+      "text": ": I\u2019m Tulika Bose, our senior multimedia editor at Scientific American. I\u2019m here with Lee Billings, our senior editor for space and physics, who\u2019ll try to answer some questions I\u2019m sure we all have."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Hey Lee."
+    },
+    {
+      "author": "Billings",
+      "text": ": Hey Tulika."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Okay, so there\u2019s a lot of stuff to sift through. One of the new studies details how this collision altered the path of Dimorphos through space\u2014shortening the time it takes to orbit\u00a0Didymos by 33 minutes.\u00a0So, Lee, how did this work?"
+    },
+    {
+      "author": "Billings: ",
+      "text": "Right. Ideally\u2014and we\u2019ll get into actuality in a moment\u2014this is as simple as playing pool: shoot one billiard ball into another, and the target ball goes flying. The more momentum you can transfer, the more motion you get. So you want to hit near dead\u00a0center. And\u00a0in DART\u2019s case, it was targeted for the \u201cleading\u201d sunward side of Dimorphos, which it struck at a speed of more than 14,000 mph. That\u2019s about three quarters the speed of General Zod\u2019s spaceship in Zach Snyder\u2019s Man of Steel movie. [CLIP: General Zod:\u00a0\u201cNow. Kneel before Zod.\u201d]"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Uh, okay. So now tell us about the two asteroids."
+    },
+    {
+      "author": "Lee: ",
+      "text": "Ah, yes, the two asteroids. Dimorphos is a moonlet of the bigger asteroid Didymos\u2014sometimes I call Dimorphos \u201cDidymoon\u201d just because of that, right? That helps with gauging DART\u2019s effects: think of Dimorphos a bit like the second hand on a clock where Didymos is the hour hand or the clock itself. It\u2019s easier to see small changes by watching how the smaller object moves."
+    },
+    {
+      "author": "Bose: ",
+      "text": "So to look at how amazing this is, let\u2019s take a look at the size of Dimorphos. How big is it, exactly?And how far away was it?"
+    },
+    {
+      "author": "Billings",
+      "text": ": So Dimorphos is about as big and heavy as the Great Pyramid. It\u2019s also about as big as the Roman Colosseum."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Okay, that\u2019s pretty big."
+    },
+    {
+      "author": "Billings",
+      "text": ": But for those of us steeped in modernity, I like to say it's about twice as wide as a standard football field, and it weighed an estimated 11 billion pounds."
+    },
+    {
+      "author": "Bose",
+      "text": ": Whoa."
+    },
+    {
+      "author": "Billings",
+      "text": ": Whereas DART is just a 1,260-pound spacecraft\u2014about the size and weight of a dairy cow. The fact that DART made a dent at all really comes down to its high-velocity impact, which we already said was 14,000 miles per hour. And all this took place after a deep-space voyage to the impact point, more than seven million miles from Earth."
+    },
+    {
+      "author": "Bose",
+      "text": ": So, that\u2019s like a dairy cow smashing into a great pyramid? [CLIP: Cow moos, followed by a splat.]"
+    },
+    {
+      "author": "Billings: ",
+      "text": "Basically, it gets messy."
+    },
+    {
+      "author": "Bose: ",
+      "text": "Huh. Well, let\u2019s get back to the science. We know that getting more details is helping astronomers understand why this crash was so successful. What are some of the new details about this impact that have been found? And what surprised scientists? What was NASA\u2019s original goal here?"
+    },
+    {
+      "author": "Lee: ",
+      "text": "That\u2019s a great question Tulika. And the answer was that the surprise was how well it worked. NASA\u2019s official criterion for success was shifting Dimorphos\u2019s orbit by just 73 seconds. Initial predictions \u2013 if it was actually a billiard ball, for instance, all solid rock \u2013 predictions were that maybe DART would nudge it off by about 7 minutes. Instead we got 33, 33 minutes!"
+    },
+    {
+      "author": "Bose: ",
+      "text": "Whoa!"
+    },
+    {
+      "author": "Lee: ",
+      "text": "Yeah! And the difference is due to Dimorphos not being a billiard ball at all. It's a loosely bound rubble pile. as DART's closing images showed. So when DART slammed into it, it ejected a huge plume, a long tail of debris, containing more than 2 million pounds of stuff, which imparted recoil, basically, to Didymos. It's a bit like a kick from a shotgun."
+    },
+    {
+      "author": "Bose",
+      "text": ":\u00a0Oh, wow. Well that really helps me visualize it a little bit more. So DART was this $330 million spaceship the size of a golf cart \u2014 and it was completely obliterated by this asteroid in a matter of mere microseconds. Scientists seemed pretty confident that this was a success \u2014 but what else would we need in order to ensure that any more dangerous asteroids headed for earth don\u2019t obliterate us?"
+    },
+    {
+      "author": "Lee: ",
+      "text": "Great question, Tulika. What we really need to have is better situational awareness. How manyof these objects are out there? What are they made of? Where are they?"
+    },
+    {
+      "author": "Bose:'",
+      "text": "And uh, who\u2019s working on that now? Lots of different people. The key is to get a catalog of different sizes of objects, their different orbits, maybe even what they're made of and figure out which ones are the most threatening. So in terms of certain near term projects we've got Hera, is the first dimension. That's a project from the European Space Agency. It's named after the Greek goddess who was married to Zeus, I believe, the queen of the gods."
+    },
+    {
+      "author": "Bose:'",
+      "text": "The Queen!"
+    },
+    {
+      "author": "Billings",
+      "text": ":\u00a0The Queen, the Queen.\u00a0Now, Hera was originally supposed to arrive about the same time as DART at Dimorphos at Didymos. But instead, due to delays, it is now not launching until late next year, it's going to arrive sometime in 2026. But that's still going to tell us a whole lot more about the aftermath of this epochal impact. Now, there are other things to mention as well. One project I'm excited about is NASA's NEO\u00a0surveyor, the Near Earth Objects Surveyor Space Telescope. That is an infrared space telescope that's meant to launch maybe sometime in 2028. And it will be a very big step towards creating this catalog of objects, and getting a better sense of what's really out there and what the threats are. And on the ground there\u2019s something similar to the Vera C. Rubin Observatory. One thing that's very important for this mission is it will be doing the same kind of work from the ground. It will be taking these full, panoramic, high resolution images of the sky multiple times per night, each and every night making almost a high definition movie of the heavens above. And it'll be able to see little points of light moving around, some of which could be Earth threatening asteroids."
+    },
+    {
+      "author": "Bose:'",
+      "text": "Oh, and then that's named after Vera Rubin, right."
+    },
+    {
+      "author": "Billings.",
+      "text": "Indeed. One of the discoverers of dark matter, I believe, right?"
+    },
+    {
+      "author": "Bose:'",
+      "text": "Yes, yes.\u00a0We also know that researchers with the help of amateur astronomers are continuing to comb through the DART data to find out more about the physics, geology and chemistry of these two asteroids. Lee, what are you looking forward to the most to finding out in the near future?"
+    },
+    {
+      "author": "Billings",
+      "text": ":\u00a0Well, honestly, I kind of considered Didymos and Dimorphos a little done and dusted. We\u2019ve already smacked the space rock, we've seen what's happened. I'm interested in getting this catalogue. I'm interested in knowing more about the properties of a wide diversity of asteroids, because it may not be a rubble pile that comes at us every time. What if it's a big ball of metal? What if it's made of ice? I don't know."
+    },
+    {
+      "author": "Bose",
+      "text": ":\u00a0That\u2019s true."
+    },
+    {
+      "author": "Billings:'",
+      "text": "So clearly, the answer is to just smack more cows into pyramids, to send out more of these sorts of missions and get a sense of what happens when we whack things really bard in the solar system. That said, I have to say, I don't think this is going to be enough to save us. There's a lot of situations where something could still hit us real hard and fast and DART definitely\u00a0wouldn\u2019t save us."
+    },
+    {
+      "author": "Bose",
+      "text": ":\u00a0I will definitely\u00a0rest easy."
+    },
+    {
+      "author": "Billings:'",
+      "text": "I hope you do."
+    },
+    {
+      "author": "Bose:'",
+      "text": "Thanks for listening to Science, Quickly. I'm Tulika Bose"
+    },
+    {
+      "author": "Billings",
+      "text": "\u2014 and I'm Lee Billings."
+    },
+    {
+      "author": "Bose:'",
+      "text": "Science quickly is produced by me, Tulika Bose, Jeffrey DelViscio, and \u00a0Kelso Harper. Don't forget to subscribe to Scientific American wherever you get your podcasts."
+    },
+    {
+      "author": "Billings:'",
+      "text": "And head to Scientific American.com for more in depth science news and analysis."
+    },
+    {
+      "author": "Billings:'",
+      "text": "And head to Scientific American.com for more in depth science news and analysis. [The above is a transcript of this podcast.]"
+    }
+  ]
+}

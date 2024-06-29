@@ -1,0 +1,489 @@
+{
+  "title": "This Simple Strategy Might Be the Key to Advancing Science Faster",
+  "img": "https://static.scientificamerican.com/dam/m/65cf1e3c9dbf9b77/original/EP4-Landscape-1.jpg",
+  "url": "https://www.scientificamerican.com/podcast/episode/this-simple-strategy-might-be-the-key-to-advancing-science-faster/",
+  "audio": "https://traffic.megaphone.fm/SAM4961431763.mp3?updated=1713822774",
+  "intro": [
+    "The incentives in science don\u2019t always encourage openness\u2014but being wrong might just be the key to getting it right."
+  ],
+  "authors": [
+    "Christie Aschwanden"
+  ],
+  "category": [
+    "Space & Physics"
+  ],
+  "transcript": [
+    {
+      "author": "Christie Aschwanden",
+      "text": ": I\u2019m Christie Aschwanden, and this is Uncertain, a Scientific American podcast about the uncertainty that drives and occasionally mucks up scientific discovery. This is episode four of this five-part series, and it occurs to me that we still haven\u2019t even mentioned the thing most people immediately think of when it comes to science and uncertainty. So I\u2019m going to rectify that right now."
+    },
+    {
+      "author": "Chanda Prescod-Weinstein",
+      "text": ": Chanda Prescod-Weinstein\u2014I\u2019m an associate professor of physics and astronomy and core faculty of women\u2019s and gender studies at the University of New Hampshire."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Can you explain Heisenberg\u2019s uncertainty principle?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": So the fundamental idea behind Heisenberg\u2019s uncertainty principle is that there is a limit on how well we can simultaneously measure the position of an object, so where something is, and its momentum. Which we can roughly say is, in some sense, a measure of its velocity, so how fast it\u2019s going in what direction. There\u2019s also a mass in there, but we don\u2019t need to worry about that. And there\u2019s actually also another uncertainty relation between energy and time about how well you can simultaneously measure the energy of an object and the time over which the system is changing."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": I remember learning about this in high school and just feeling my head spin. Help me out here."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": So one of the early realizations among the quantum theorists was this idea of wave-particle duality: that everything can be a particle and a wave, and simultaneously. [CLIP: Background singing: \u201cIt's a wave! It\u2019s a particle! It\u2019s a wave! It\u2019s a particle! It\u2019s a wave!\u201d]"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Yeah, that\u2019s the part that really made me go, \u201cWhat???\u201d"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": I think the intuitive way to think about this is that objects that we might think of as particles\u2014like, you might imagine it as like a tiny little ball\u2014can actually be conceived of as little waves. Like, you can even think about waves in the ocean or in a lake or just dropping like a spoon into a full sink of dishes\u2026 [CLIP: Spoon drops into water]"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": \u2026 with lots of water in it, you see, like waves ripple out."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Okay, so I\u2019m imagining these waves, but how can they also be a particle?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": Go back to that example of, like, the spoon being dropped into, like, the full sink of water. [CLIP: Spoon drops into water]"
+    },
+    {
+      "author": "Prescod-Weinstein: ",
+      "text": "You have waves that are spreading out from where the spoon fell in. And that spread means that the position of the wave is spread out and also that the momentum of the wave is spread out. And so there\u2019s no longer an exact point where the wave exists; the wave is, is spread out and where it exists. And so that\u2019s one way of thinking about that uncertainty is\u2014that that information is spread out in ways that it\u2019s not in the classical picture when you just think of, \u201cI have a tiny little ball that\u2019s located in one place.\u201d [CLIP: Spoon drops into water]"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Okay, so that perspective does help. But wrapping your head around quantum mechanics sort of requires a new way of thinking. How do you teach your students to bend their minds like this?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": At the start of the semester, I walked them through an experiment where the only way to explain the experimental results is to accept that quantum mechanics is the correct theory of reality on microphysical scales. We came back to that experiment two more times in the semester. And it was only on the third time that they were like, \u201cWait a minute, this isn\u2019t the outcome that I expect.\u201d And I was like, \u201cRight? It\u2019s not the outcome that you\u2019re expect.\u201d Someone said, \u201cWell, something must be missed\u2014missing.\u201d And I was like, \u201cIt\u2019s just quantum mechanics.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It\u2019s just quantum mechanics, ha. Oh yeah, it all makes total sense now."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": You have to shift your relationship to what you call intuitive. And that\u2019s actually part of what your training as a scientist is supposed to do, is to not only deepen your intuition about things that you come in knowing, but also to create new wells of intuition for you."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": New wells of intuition\u2014I like it. But intuition can lead you astray, too, right?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": It\u2019s my task to try and understand the world that actually is. And I think that that means being open to the possibility that what I thought was intuitive for me is completely wrong, and that what I was told about how the universe works needs adjustment. We have to be ready for that at any time."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That\u2019s the kind of open-mindedness that seems essential to creativity."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": That\u2019s a lesson I take from learning the history of my discipline, which is that people think things are absolutely correct and then they absolutely turn out to be wrong, right?"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What\u2019s an example of that?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": The most famous example is relativity\u2013special relativity."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": If you took high school or college physics, you probably learned about Isaac Newton\u2019s laws of motion. Remember that equation, force equals mass times acceleration? That\u2019s Newton. He proposed that gravity was an attraction between masses. The apple falls off the tree on the ground because Earth\u2019s gravity pulls it there. Students are still memorizing these equations because they work remarkably well in most situations. But then Albert Einstein came along and said that no, no, that\u2019s not quite right. I\u2019m going to totally oversimplify here, but this came about because Newton\u2019s ideas work great in normal situations we encounter here in everyday life, but they break down around black holes and near the speed of light. So Einstein proposed that gravity is a distortion of the fabric of spacetime caused by the presence of matter or energy. And in doing that, Einstein..."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": \u2026 completely rewrote our understanding of mechanics at high speeds."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Wow! So you\u2019ve got these equations that totally work in most situations, and they make some kind of intuitive sense, and then something comes along to upend them. You\u2019ve already talked about keeping an open mind, but is there another kind of thinking that\u2019s essential here?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": There\u2019s a real value in being able to think in fantastical ways and ask the fantastical questions because occasionally things go in that direction. You know, Bohr\u2019s atom is such a great example."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": This is also called the Rutherford-Bohr model, and it\u2019s a description of atomic structure. There\u2019s a dense, positively charged nucleus at the center, and then electrons circle the nucleus in distinct orbits, or energy levels. Electrons can absorb or emit energy only in set amounts and jump between orbits when they do that."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": It\u2019s such a creative and weird idea that the electron and the hydrogen atom can only live in certain discrete locations around the nucleus. That\u2019s weird, right? And that\u2019s not necessarily based on any ideas. Like, that\u2019s not, \u201cWell, if you just take the data, it points you to that thing,\u201d like in special relativity. That\u2019s something where some imagination was required."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It really speaks to how uncertainty can be a great spark for creativity in science, just like it is literature and the arts."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": But the difference between us and say, a novelist, is that at some point, what we do has to fit a reality that\u2019s out there. We are constrained by reality. In a way; like, we can\u2019t do magical realism without checking it against data\u2013and if the data says no magical realism, you\u2019re done."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": The Rutherford-Bohr model is super cool! We still learn about it in textbooks. But..."
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": We also know that Bohr\u2019s atom is slightly wrong but still valuable enough to teach it."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It still has some usefulness. And scientists built on Bohr\u2019s work to create better models that are even more correct. Science keeps going. What do you want your students to take away from your quantum mechanics course?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": I wanted my class to be a place where, like, they could just be like, \u201cMan, quantum mechanics\u2014how cool! How weird! How interesting!\u201d And not just be, \u201cMan, quantum mechanics\u2014that will allow me to calculate this thing for my material science research that will translate into your product that will solve lots of things, right?\u201d To actually have a moment of being like, \u201cMan, the cosmos\u2014what a place...!\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": I think that sense of wonder is what draws so many of us to science. So you become a scientist and then what?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": Our job as scientists is to be imaginative and creative and humble. And science is humbling. It\u2019s hard. Everybody is going to get knocked down at some point\u2014it took Einstein 10 years [to go] from special relativity to general relativity."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": The genius stereotype is Einstein just standing before a chalkboard and having a eureka moment. But the lone genius trope isn\u2019t an accurate depiction of how science advances, is it?"
+    },
+    {
+      "author": "Prescod-Weinstein",
+      "text": ": He was building on the mathematical work of other people\u2014he couldn\u2019t have finished those theories without that work. We don\u2019t do any of it alone; we\u2019re always building on the work of others. And in the 2020s almost nobody does scientific work by themselves. We are a highly social, collaborative discipline. And that means that we have to be humble, and we have to be open to the contributions of others because that is how we move forward. [CLIP: Music]"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": We just heard examples of how science is an iterative process. Progress comes from people coming up with ideas that are sort of right and then new evidence and ideas coming in to update them to become even more correct. Underlying this process is a willingness by scientists to accept that they might be wrong and be open to updating their ideas. It turns out that social scientists have a term for this mindset. To find out more, I talked with two researchers who are studying this thing they call \u201cintellectual humility.\u201d"
+    },
+    {
+      "author": "Tenelle Porter: ",
+      "text": "I\u2019m Tenelle Porter. I\u2019m an assistant professor of psychology at Rowan University."
+    },
+    {
+      "author": "Daryl Van Tongeren",
+      "text": ": Daryl Van Tongeren\u2014I\u2019m an associate professor of psychology at Hope College."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What exactly is intellectual humility?"
+    },
+    {
+      "author": "Van Tongeren",
+      "text": ": Intellectual humility is about recognizing our own limitations and the fallibility of our own beliefs, as well as the ability for us to share our beliefs modestly and nondefensively while trying to take the perspective of other people."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What\u2019s an example of this?"
+    },
+    {
+      "author": "Porter: ",
+      "text": "There\u2019s this famous excerpt of classroom video and these are third-grade students, and they\u2019re having a discussion about what is an even and odd number. And a student raises his hand and says, \u201cYou know, I think six is both even and odd because six is both divisible by two. But when you divide it by two, they\u2019re three groups of two. So it\u2019s even and odd.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Okay, so he\u2019s wrong, but that\u2019s a pretty sophisticated way of thinking about it. How did the other kids respond?"
+    },
+    {
+      "author": "Porter: ",
+      "text": "And what kind of happens from then is the class engaging with his idea\u2014students in the room saying, \u201cWell, I don\u2019t think so. But prove it to us.\u201d And at some point, a student makes a point to him along the lines of \u201cNo, that can\u2019t be, and here\u2019s why.\u201d And he kind of says, \u201cWell, I didn\u2019t think of it that way. You know, thanks so much for bringing that up.... I didn\u2019t, I didn\u2019t know that before,\u201d and, \u201cOh, that\u2019s interesting. Tell me more about why you think that.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It seems to me that this kind of openness to being wrong and changing your mind is what we might consider the idealized way of scientific thinking. Do you agree?"
+    },
+    {
+      "author": "Van Tongeren",
+      "text": ": I do think that intellectual humility is part and parcel in the scientific process. And so I think part of, you know, what it means to be a scientist is, in the scientific attitude is to embrace the word \u201ccuriosity,\u201d to constantly be questioning, to be a lifelong learner and to embrace the world by changing your views in light of strong empirical evidence. And so I do think that intellectual humility is part of what it means to be an honest scientist."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It also seems necessary to always be seeking out errors or pockets of uncertainty if you\u2019re going to make progress in science, right?"
+    },
+    {
+      "author": "Porter: ",
+      "text": "Science is about making new discoveries. It\u2019s about contributing to knowledge. And ultimately, you cannot learn something that you think you already know."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How is intellectual humility related to curiosity?"
+    },
+    {
+      "author": "Porter: ",
+      "text": "I think that intellectual humility is necessary for curiosity because if you already have it all figured out, why would you be curious about anything at all? And so what comes first, in this process: The first step is acknowledging, \u201cWell, gee, there are some things that I don\u2019t have figured out,\u201d which can then light a fire and light a curiosity to explore and investigate those things."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you want to always be open to the possibility that you\u2019re wrong. But does that mean you can\u2019t ever feel right or assert your ideas?"
+    },
+    {
+      "author": "Van Tongeren",
+      "text": ": Yeah, I\u2019m really glad that you brought that up. You know, one metaphor that you can think about in your thinking about humility and intellectual humility ... is about being the right size\u2014so not too big, not too small in a given situation. And so for people who have earned the credibility and have demonstrated expertise, they need to live into the space that they can take up with that expertise. And so intellectual humility is also not shrinking when you have expertise to speak up in a situation. So it\u2019s certainly not the case that everybody\u2019s perspective in a particular context would be equally as valuable."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": If I\u2019m going in for surgery, I don\u2019t want my surgeon to say, \u201cWell, I\u2019m pretty sure that I know the right place to make the incision, but I could be wrong.\u201d And I certainly wouldn\u2019t want her asking some rando on the Internet to weigh in. But what about being the right size in the other direction? Intellectual humility can be hard to practice, right?"
+    },
+    {
+      "author": "Porter: ",
+      "text": "Part of how intellectual humility kind of can manifest ... is a willingness to reveal we don\u2019t know something or are confused about something\u2014to actually say, \u201cOh, I\u2019ve never heard of that person,\u201d which can be a difficult thing to do. Sometimes it shows a little bit of our vulnerability."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What about for scientists?"
+    },
+    {
+      "author": "Porter: ",
+      "text": "And so to the extent that scientists are really committed ideologically to a paradigm or a finding, and not willing to acknowledge the limitations of their knowledge, in a certain area, they\u2019re, they\u2019re confining themselves to what they have already discovered, which limits them in a way from making new discoveries and pushing our boundaries further. So it does seem to me that scientists could achieve at higher levels with, with intellectual humility, with this kind of openness\u2014openness to critiques, openness to evidence that counters what they already thought was true openness to admitting and coming to grips with the fact that they may not understand something as deeply as perhaps even their title would suggest that they do."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What\u2019s standing in the way of that?"
+    },
+    {
+      "author": "Van Tongeren",
+      "text": ": So even though I mentioned the scientific method is steeped in intellectual humility, the academy doesn\u2019t actually reward intellectual humility as much. So it loves it as a virtue, and it says, \u201cThis is a value we have.\u201d But in practice, when it tends to reward our people who strongly defend their position and marshal as much evidence as they can for their pet theory and then get as many people as they can to endorse their theory. And the way that science works best is when other people are able to weigh in and offer me feedback on why my ideas are shortsighted, why my ideas might be terrible\u2014which happens quite often\u2014or ways that I can actually improve my ideas."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": But there are structural impediments to that happening in academia."
+    },
+    {
+      "author": "Van Tongeren",
+      "text": ": Oftentimes because of the way that academic positions are structured, that tenure is set up\u2014it\u2019s really about defending your belief in explaining and defending, all the time, why you\u2019re right while telling your students and expressing [to] them how you\u2019re the expert, and no, but I think that we could do a better job of modeling intellectual humility and rewarding that in the structures in the academy."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Daryl is talking here about a problem that\u2019s starting to get some attention among scientists\u2014namely, that we expect scientists to act one way, to be humble and open to new ideas and new data, and yet the incentives in science don\u2019t always reward this kind of behavior. Scientists who publish splashy, novel results get rewarded with tenure and media attention and grants, but a lot of these findings don\u2019t hold up over time, and the attention-grabbing results may not be as important long-term as slower, more incremental research. The problem of misaligned incentives has sparked some pretty lively discussions and a bunch of navel-gazing within the scientific community. About 10 years ago, some researchers founded a new institute to help tackle the problem."
+    },
+    {
+      "author": "Brain Nosek",
+      "text": ": My name is Brian Nosek. I\u2019m a professor at the University of Virginia and executive director of the Center for Open Science."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What\u2019s the Center for Open Science?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": Center for Open Science exists to increase openness, integrity and reproducibility because those are fundamental aspects of what makes science trustworthy in the realm of trying to discover how things work or how to create knowledge."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": I was at a conference last year where you put up a slide that said, \u201cscience is trustworthy because it does not trust itself.\u201d And then you presented it almost like a little mantra: be humble, calibrated, truth-seeking."
+    },
+    {
+      "author": "Nosek",
+      "text": ": Yeah, the self-skepticism is often articulated as a fundamental part of why science becomes trustworthy\u2014because it\u2019s always saying, \"well, but what if, yeah, but what if or what about...?\" And so the, to be able to do that productively, one has to have a level of humility of\u2014I am very confident that I\u2019m saying and often I am, but simultaneously, I have to be open to the possibility of being wrong, especially on these hard problems."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Okay, so how do scientists go about being less wrong?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": So there\u2019s very specific behaviors that we try to advance among researchers to try to improve the credibility of the claims that we make. One of them is to make precommitments."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": This is the practice of preregistration, where researchers register their study protocols and data-analysis plans ahead of time, before they\u2019ve started the study. Why is this so important?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": It is not always intuitive why after the fact hypothesizing is not as reliable at testing ideas that we might have had beforehand. A common way that people describe it as the Texas sharpshooter fallacy. If you came up to me, and I said, \u201cI am such a good shot. Look at the wall over there,\u201d and you look at the wall, and you see that there are 10 targets, and I hit the bull\u2019s eye on every single target."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right, I\u2019d say, \u201cWow, Brian, you\u2019re a really good shot.\u201d"
+    },
+    {
+      "author": "Nosek",
+      "text": ": But then my brother says, \u201cOh, you might be interested to know, Christie, that he painted on the targets afterwards, rather than beforehand,\u201d you would say, \u201cOh, that\u2019s not so impressive,\u201d because I was just shooting the wall and then painted the targets afterwards. That\u2019s the difference between predicting the things beforehand."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How do you think about uncertainty and science?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": For me, science is a process of reducing uncertainty about the world. And that\u2019s very different from saying that science delivers a set of facts for people to use. The difference is that if we think of science as the purveyor of facts, then we assume that when a scientist tells us, \u201cThis is what we found,\u201d that it\u2019s true. The idea of science as uncertainty reduction is to say, here\u2019s the evidence that I have right now. Here\u2019s how I think we can understand that. Here\u2019s how I would explain it. And we\u2019ll see if it survives as others look at that [and] interrogate the evidence that I provided or acquire new evidence that they come up with or generate an explanation that I hadn\u2019t thought of for the claims that I\u2019m making for my evidence."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So that\u2019s a very measured approach to science. Does it mean we can\u2019t get excited about new results because they might be wrong?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": I don\u2019t mind getting excited about new possibilities because that is super fun and interesting. And that\u2019s part of what innovation in research is all about is, \u201cHere\u2019s this thing, and it\u2019s amazing, and wouldn\u2019t it be crazy if...?\u201d But, of course, the really important part of that sentence is the if. All of those initial innovations, discoveries, exciting findings, especially ones that are counter to what we think is probably true, ultimately probably aren\u2019t true\u2014but occasionally they are."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It reminds me of that Internet meme: big, if true. Let\u2019s get excited but also know that it might not pan out."
+    },
+    {
+      "author": "Nosek",
+      "text": ":That\u2019s, I think, the way that we can embrace the discovery process and science is to get genuinely excited, as long as we can couple it with that recognition of, all bets are off as to whether this is going to survive. And make that part of the story, not just the story that journalists tell but the story that we, as a consuming public, think about discovery-oriented science, because science occurs on a continuum."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What does that continuum look like?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": There\u2019s that early stuff that, you know, we\u2019re just, \u201cOh, my God, this came out of my lab; I can\u2019t believe it happened; I got to tell you about it.\u201d And that\u2019s very generative. It\u2019s very exciting. It sends science in new directions; it gets people fighting."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Those are the findings that make news headlines."
+    },
+    {
+      "author": "Nosek",
+      "text": ": And then there\u2019s this science that\u2019s maturing over time, that sort of, like, \u201cOh, we think we got a hang of this. But yeah, there\u2019s things we\u2019re debating about. And there\u2019s certainly parts that have to be unpacked. So it\u2019s a very active area of study.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you get the exciting first finding, and then you keep studying it and figuring out where it applies and all that."
+    },
+    {
+      "author": "Nosek",
+      "text": ": And then there\u2019s the science\u2014it\u2019s like, \u201cWe\u2019re ready to use this,\u201d like, \u201cYou can build a bridge with this; you can build a better battery with this; you can go to the moon with this.\u201d And that\u2019s the science that we have lots of confidence in. And if you understand what stage you\u2019re in, great, then you should be able to calibrate your confidence accordingly. But if you think all of it is like that stage of \u201cWe\u2019re ready to send you to the moon,\u201d then we\u2019re going to get into trouble."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So you\u2019re saying that we need to be careful to keep the degrees of uncertainty in mind."
+    },
+    {
+      "author": "Nosek",
+      "text": ": Yeah, one of the real challenges in this process from going from discovery to knowledge to use is that it\u2019s not just the public that is confused about how much uncertainty there is but it\u2019s scientists themselves."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Wait\u2014how do scientists get confused about the uncertainty?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": If I find something new in my lab, I get excited about it. I start to believe it. I start to convince myself about all the reasons that it\u2019s true. And I miss the fact that nope, this could have happened accidentally. It could have been certain decisions that I made as I was going along the process because I\u2019m, I\u2019m human, and I\u2019m engaged in those ideas."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right, we all want to think that we\u2019re doing great work. We don\u2019t see what we\u2019ve overlooked. It\u2019s the uncertainty we so easily forget."
+    },
+    {
+      "author": "Nosek",
+      "text": ": A lot of the challenges that the Center for Open Science tries to address is the fact that humans are the ones doing the science. And we will inevitably have our own points of view, our own career prospects, our own desires for certain things to be the way they are \u2026 get involved in how we interpret and create evidence for the things that we\u2019re studying. And none of that has to be intentional malfeasance. It can all be very natural, implicit factors that are influencing how it is that I can interact with my data and plan my studies that then get me the outcomes that helped me advance my career."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What are some other ways you work to counteract that or put safeguards in place?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": What we try to do is create better transparency of the whole process so that you, as a viewer, can see how it is I got to my claims and be able to interrogate and say, \u201cWait a second, why\u2019d you do it this way? Why do you do it that way? What about this?\u201d But then also create that transparency for me as the research producer, so that I can understand what I had thought at the beginning might actually be different than what I think now that I\u2019m looking at the data."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": What insights have come from promoting more transparency and preregistration?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": When we started advocating for preregistration, I would give lectures about why we think that this is a good idea of confronting ourselves after the fact. And every once in a while, someone could come up to me after the talk and say, you know, \u201cI heard you give this lecture about preregistration, like, a year ago. And I was like, whatever, I don\u2019t know. It doesn\u2019t seem like great, but I\u2019ll try it.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So the person would go in and preregister their study and write up a plan for how they would analyze the data. And then they\u2019d remember ..."
+    },
+    {
+      "author": "Nosek",
+      "text": ": \u201cOh, I have the preregistration; I should go look at that.\u201d And they\u2019d already analyzed their data. And then they went back to preregistration, they said, \u201cOh, this is so different than what I thought my study was about.\u201d They had opened up the data; they were generatively constructing what they thought the research was about and what questions they were asking. But when they went back to see what they wrote down, when they planned it, it was an entirely different study\u2014had a totally different meaning."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": So they\u2019d done the thing that preregistration was supposed to guard against\u2014moving the target around once they started seeing where the bullets land, so to speak."
+    },
+    {
+      "author": "Nosek",
+      "text": ": They\u2019re like, now I understand why preregistration is important. It\u2019s because we\u2019re such good storytellers\u2014because narrative is so much part of how it is we understand things that once we see data, we immediately start to impose narrative to it. And it\u2019ll be shaped by whatever it seems like we\u2019re seeing in it."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": That just really speaks to how easy it is to get sucked into our own story. One of the issues I always grapple with is that there are the results that come out of a study, but we need a story to help us make sense of the numbers. And so researchers come up with a story, or an explanation, but it isn\u2019t always correct."
+    },
+    {
+      "author": "Nosek",
+      "text": ": Yeah, well, this is really challenging because we want science to be definitive, and numbers feel very definitive and objective. And there are lots of ways to do science with numbers and to get sort of, \u201cHere are the measurements.\u201d But the measurements are evidence; they\u2019re not explanations."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Right, because we think in stories, not numbers. And as soon as you turn numbers or results into a story, you\u2019re introducing human judgment and human biases."
+    },
+    {
+      "author": "Nosek",
+      "text": ": The explanations that we impose on our evidence is always qualitative. It\u2019s always our interpretation. There aren\u2019t quantitative ways to explain why something is observed. And so what that means is there\u2019s a lot of reasoning, sometimes maybe deductive; a lot of it is inductive or abductive. It\u2019s sort of saying, \u201cHow would I make sense of this, given the things that I know and given the other things that we see in the world?\u201d And that\u2019s a very challenging process. And there are a few places where we can create formal models, meaning you can actually create an algorithm or a mathematical equation to explain, in quotes, what is happening. But much of science is informal."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How do you keep in mind which parts are results and which parts are the explanation?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": It gets very fuzzy very quickly. And that\u2019s just kind of the reality. There isn\u2019t a way to escape it, and to recognize that that\u2019s just another area of uncertainty, that explanation comes with, \u201cThis is how I make sense of the evidence.\u201d And you might look at it and say, \u201cWell, I don\u2019t disagree with anything in the evidence. What I disagree with is its link to the explanation.\u201d And then we don\u2019t have an easy way to resolve that except for then trying to design studies where we see your explanation might anticipate outcome A [and] my explanation would anticipate outcome B. And if we can come to some agreement about that, then we now have a way to distinguish those explanations. But that ideal happens very rarely in science."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": How would you describe the kind of mindset that scientists need to have so that they\u2019re not falling too in love with their findings?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": Yeah, the way that we phrase it is that the priority for researchers should be on getting it right, not being right. The prioritization of getting it right means that if you say, \u201cI think I see something wrong with your research,\u201d I should say, \u201cOh, really? What is it? Tell me, because my goal is to make sure that it\u2019s right.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": It sounds so easy, but can it work in real life with fallible humans?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": This kind of ethos is present in a lot of different places. The one that I draw inspiration from is the open-source software community that are building software tools for community benefit. When, you know, developers in this community write their code out in the open, and other developers look at their code and say, \u201cOh, I found a bug. And here\u2019s a fix for your bug,\u201d and the original coder doesn\u2019t get upset, like, \u201cOh, I can\u2019t believe you found a bug in my code,\u201d They say, \u201cOh, my gosh, thank you. So you found a problem, you fixed it ... or maybe you didn\u2019t fix it, you just told me so that I could fix it, but nevertheless now my code is better.\u201d"
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": At the end of the day, though, there\u2019s still some uncertainty. What\u2019s the best way to manage that?"
+    },
+    {
+      "author": "Nosek",
+      "text": ": For calibration, the real goal is how is it that we can try to represent that level of uncertainty? When we make initial discoveries, what we tend to default to is a very general explanation, right? I see that when I prime you with these pictures of vegetables, you eat more vegetables; then I suddenly have a very general theory of, ah, this very subtle priming of types of foods gets people to eat those foods, whereas it may be a much more limited claim that is actually true."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": We\u2019re always looking for the one universal law that explains everything, but these can be hard to find, especially in social science."
+    },
+    {
+      "author": "Nosek",
+      "text": ": What we are is constantly pursuing better explanations of the world. All scientific models are flawed in some way because they\u2019re simplifications of the complexity of reality."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Reminds me of that old saying in statistics, \u201cAll models are wrong; some are useful.\u201d"
+    },
+    {
+      "author": "Nosek",
+      "text": ": Yeah, the way that science makes progress is by improving those models. And they need to be simplifications of reality because reality is too complex. So we develop these ways of explaining what\u2019s happening in the world. And those simplifications need to be right enough to be able to predict and ultimately be able to explain why it is things happen in the world. And some of those models are incredibly successful, right? Newton\u2019s laws of mechanics. Einstein\u2019s theory of general relativity\u2014they predict lots and lots of things very, very well."
+    },
+    {
+      "author": "Aschwanden",
+      "text": ": Here we are, back to Newton and Einstein. We\u2019ve come full circle. But the questions I\u2019m left with are: Given that every scientific idea contains uncertainty, how can we really know things? How can we make decisions, some of them life-or-death, in the face of uncertainty? That\u2019s what we\u2019ll explore in the next and final episode of Uncertain. Our show is produced by me, Christie Aschwanden, and Jeff DelViscio. Our series art is by Annaissa Ruiz Tejada. Our beautiful Particle/Wave song was composed and performed by Christine Laskowski. All other series music is from Epidemic Sound. Funding for this series was provided by UC Berkeley\u2019s Greater Good Science Center\u2013it\u2019s part of the Expanding Awareness of the Science of Intellectual Humility Initiative, which is supported by the John Templeton Foundation. This is Uncertain, a podcast from Scientific American. Thanks for listening. Listen to the third episode of Uncertain.Listen to the fifth and final episode of Uncertain."
+    }
+  ]
+}
