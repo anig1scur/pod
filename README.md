@@ -4,11 +4,10 @@
 
 # Pod
 
-**Pod**, your English learning Partner web app. Access at [Github Pages](https://r.piggy.lol/pod/) or [Vercel](https://pod-omega.vercel.app/pod/)
+**Pod**, your English learning Partner web app. Access at [Github Pages](https://r.piggy.lol/pod/) or [Vercel](https://pod-omega.vercel.app/pod/). This project is designed to help you improve your English by combining learning with typing. The main feature of Pod is to locate and emphasize crucial vocabulary in articles, aiding in memorization and comprehension.
+
 
 ![index](pod.png)
-
-This project is designed to help you improve your English by combining learning with typing. The main feature of Pod is to locate and emphasize crucial vocabulary in articles, aiding in memorization and comprehension.
 
 
 ## Supported Podcasts
