@@ -69,9 +69,19 @@
     }
   }
 
-  .fill_in {
-
+  .mode {
     @apply flex flex-col gap-5;
+
+    &.dictation .scripts .script {
+      input {
+        @apply text-left text-lg w-80 font-medium border-b-2 border-black outline-none;
+
+        &:focus {
+          @apply border-pink-500 outline-none;
+        }
+      }
+    }
+
     .scripts {
       height: 70vh;
       max-height: 70vh;
@@ -80,6 +90,10 @@
 
       .script {
         @apply flex mb-2;
+
+        .highlight {
+          @apply bg-[#D93D86] text-white pl-1 mx-1;
+        }
 
         h3 {
           @apply text-xl min-w-28 max-w-28 font-bold text-ellipsis text-nowrap overflow-hidden mr-2;
@@ -121,8 +135,7 @@
       @apply flex items-center gap-4;
 
       button {
-        @apply p-3 bg-[#D93D86] text-white font-semibold
-         border-black border-[3px] cursor-pointer text-lg;
+        @apply p-3 bg-[#D93D86] text-white font-semibold border-black border-[3px] cursor-pointer text-lg;
       }
     }
   }
@@ -198,7 +211,7 @@
     @apply relative h-28 w-60;
 
     div {
-      @apply cursor-pointer absolute text-2xl font-bold p-2 border-black border-[3px] bg-white w-24 text-center;
+      @apply cursor-pointer absolute text-2xl font-bold p-2 border-black border-[3px] bg-white w-fit min-w-24 text-center;
 
       &:nth-child(1) {
         left: 0;

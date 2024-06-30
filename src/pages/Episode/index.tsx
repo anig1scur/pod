@@ -2,12 +2,14 @@ import { FC, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Logo from '@/components/Logo';
 import FillIn from '@/components/mode/FillIn';
+import Dictation from '@/components/mode/Dictation';
+import Read from '@/components/mode/Read';
 import Player from '@/components/Player';
 import Info from '@/components/Info';
 import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
-import { VocabType } from '@/utils/words';
+import { loadVocab, VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
 
 
@@ -19,11 +21,22 @@ const Episode: FC<episodeProps> = (props) => {
 
   const pid = useParams()['pid'] || "6mins";
   const eid = props.eid || useParams()['eid'] || "";
+  const [mode, setMode] = useState<Mode>(Mode.F);
   const [audio_url, setAudioUrl] = useState<string>("");
   const [episodeIds, setEpisodeIds] = useState<string[]>([]);
   const [episodeData, setEpisodeData] = useState<EpisodeData | null>(null);
   const [curIndex, setCurIndex] = useState<number>(episodeIds.indexOf(eid) < 0 ? 0 : episodeIds.indexOf(eid));
   const [curVocab, setCurVocab] = useState<VocabType>(VocabType.AWL_570);
+  const [words, setWords] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    const fetchWords = async () => {
+      const fetchedWords = await loadVocab(curVocab || 'C1');
+      setWords(new Set(fetchedWords));
+    };
+
+    fetchWords();
+  }, [curVocab]);
 
   const navigate = useNavigate();
 
@@ -48,22 +61,24 @@ const Episode: FC<episodeProps> = (props) => {
     }
   }, [episodeIds, curIndex]);
 
-  // useEffect(() => {
-  //   navigate(`/${ pid }/${ episodeIds[curIndex] }`)
-  // }, [curIndex]);
+  useEffect(() => {
+    if (episodeIds.length > 0) {
+      navigate(`/${ pid }/${ episodeIds[curIndex] }`)
+    }
+  }, [curIndex]);
 
   useEffect(() => {
     const pod_audio_url = `./assets/${ pid }/audios/${ episodeIds[curIndex] }.mp3`;
 
-    if(episodeData) {
+    if (episodeData) {
       fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
-        // if (res.ok) {
-        //   setAudioUrl(pod_audio_url);
-        // } else {
+        if (res.ok) {
+          setAudioUrl(pod_audio_url);
+        } else {
           if (episodeData) {
             setAudioUrl(episodeData.audio.replace("http://", "https://"));
           }
-        // }
+        }
       });
     }
 
@@ -95,10 +110,23 @@ const Episode: FC<episodeProps> = (props) => {
         </section>
         <section className="pro">
           <div className="operation">
-            <ModeTab type={ Mode.F } />
+            <ModeTab type={ mode } onChange={ setMode } />
             <Dropdown options={ Object.values(VocabType) } selected={ curVocab } onSelect={ setCurVocab } />
           </div>
-          <FillIn scripts={ episodeData.transcript } vocab={ curVocab } />
+          {
+            (() => {
+              switch (mode) {
+                case Mode.F:
+                  return <FillIn scripts={ episodeData.transcript } words={ words } />;
+                case Mode.D:
+                  return <Dictation scripts={ episodeData.transcript } words={ words } />;
+                case Mode.R:
+                  return <Read scripts={ episodeData.transcript } words={ words } />;
+                default:
+                  return null;
+              }
+            })()
+          }
         </section>
       </main>
     </div>

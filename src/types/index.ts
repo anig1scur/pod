@@ -1,6 +1,6 @@
 export enum Mode {
   R = 'Read',
-  L = 'Listen',
+  D = 'Dictation',
   F = 'Fill in'
 }
 

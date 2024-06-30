@@ -35,6 +35,9 @@ importers:
       react-router-dom:
         specifier: 6.4.3
         version: 6.4.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      string-similarity:
+        specifier: ^4.0.4
+        version: 4.0.4
       tailwindcss:
         specifier: ^3.4.4
         version: 3.4.4
@@ -1186,6 +1189,10 @@ packages:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==, tarball: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.0.tgz}
     engines: {node: '>=0.10.0'}
 
+  string-similarity@4.0.4:
+    resolution: {integrity: sha512-/q/8Q4Bl4ZKAPjj8WerIBJWALKkaPRfrvhfF8k/B23i4nzrlRj2/go1m90In7nG/3XDSbOo0+pu6RvCTM9RGMQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
@@ -2322,6 +2329,8 @@ snapshots:
   slash@3.0.0: {}
 
   source-map-js@1.2.0: {}
+
+  string-similarity@4.0.4: {}
 
   string-width@4.2.3:
     dependencies:

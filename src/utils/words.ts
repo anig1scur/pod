@@ -18,7 +18,9 @@ export const loadVocab = async (type: VocabType): Promise<string[]> => {
     const text = await res.text();
     const lines = text.split('\n');
     lines.forEach((line) => {
-      words.push(line.trim());
+      if (line.trim().length > 0) {
+        words.push(line.trim());
+      }
     });
   } catch (error) {
     console.error("Failed to load vocabulary :", error);

@@ -1,16 +1,14 @@
 import React, { FC, useState, useCallback, useEffect, useRef } from 'react';
 import { Scripts } from '@/types';
-import { loadVocab, VocabType } from '@/utils/words';
 
 export type fillInProps = {
+  words: Set<string>;
   scripts: Scripts;
-  vocab: VocabType;
 }
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts, vocab } = props;
-  const [words, setWords] = useState<Set<string>>(new Set());
+  const { scripts, words } = props;
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
 
@@ -21,22 +19,13 @@ const FillIn: FC<fillInProps> = (props) => {
       const userAnswer = Array.from(inputs).map(input => input.value).join('');
       if (answer === userAnswer) {
         element.classList.remove("wrong");
-        element.classList.add("corrpect");
+        element.classList.add("correct");
       } else {
         element.classList.add('wrong');
         element.classList.remove('correct');
       }
     });
   }, [blanks.current]);
-
-  useEffect(() => {
-    const fetchWords = async () => {
-      const fetchedWords = await loadVocab(vocab || 'C1');
-      setWords(new Set(fetchedWords));
-    };
-
-    fetchWords();
-  }, [vocab]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     const index = parseInt(e.currentTarget.dataset.index || '0');
@@ -74,14 +63,13 @@ const FillIn: FC<fillInProps> = (props) => {
   }
   let qNum = 0;
 
-  return <div className='fill_in'>
+  return <div className='mode fill_in'>
     <div className='scripts'>
       {
         scripts.map((script, script_index) => {
           return <div key={ script_index } className='script'>
             <h3 title={ script.author }>{ script.author }</h3>
             <div>{ script.text.split(' ').map((word, word_index) => {
-
               if (words.has(word)) {
                 const el = <div className="blank"
                   key={ word_index }
