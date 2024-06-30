@@ -57,11 +57,11 @@ const FillIn: FC<fillInProps> = (props) => {
   }, []);
 
   let cur = 0;
+  let qNum = 0;
 
   if (!words || words.size === 0) {
     return <div>Loading...</div>
   }
-  let qNum = 0;
 
   return <div className='mode fill_in'>
     <div className='scripts'>

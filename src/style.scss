@@ -74,7 +74,22 @@
 
     &.dictation .scripts .script {
       input {
-        @apply text-left text-lg w-80 font-medium border-b-2 border-black outline-none;
+        @apply text-left text-lg w-96 mr-2 font-medium border-b-2 border-black outline-none;
+
+        &.wrong {
+          @apply text-red-500;
+
+          +label {
+            &::after {
+              @apply text-red-500 inline-block mr-2;
+              content: attr(data-answer);
+            }
+          }
+        }
+
+        &.correct {
+          @apply text-green-500;
+        }
 
         &:focus {
           @apply border-pink-500 outline-none;
