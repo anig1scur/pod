@@ -55,8 +55,6 @@ const Episode: FC<episodeProps> = (props) => {
       setEpisodeData(data);
     };
     if (episodeIds.length > 0) {
-      console.log(episodeIds, curIndex);
-      console.log("fetching episode", episodeIds[curIndex]);
       fetchEpisode();
     }
   }, [episodeIds, curIndex]);
@@ -116,7 +114,6 @@ const Episode: FC<episodeProps> = (props) => {
           {
             (() => {
               const hideAuthor = episodeData.authors.length <= 1 || episodeData.transcript.length <= 1;
-              console.log(episodeData)
               const props = {
                 scripts: episodeData.transcript,
                 words: words,

@@ -1,4 +1,4 @@
-import React, { FC, useRef, useCallback, useEffect } from 'react';
+import React, { FC, useRef, useCallback, useEffect, Fragment } from 'react';
 import { Scripts } from '@/types';
 import stringSimilarity from 'string-similarity';
 
@@ -21,8 +21,8 @@ const Dictation: FC<dictationProps> = (props) => {
       return str.toLowerCase().split('').filter(char => !IGNORED_CHARS.includes(char)).join('')
     }
     userInputs.current.forEach(input => {
-      const answer = unifyChars(input.parentElement?.querySelector('label')?.getAttribute('data-answer'));
-      const userAnswer = unifyChars(input.value);
+      const answer = unifyChars(input?.parentElement?.querySelector('label')?.getAttribute('data-answer'));
+      const userAnswer = unifyChars(input?.value);
       if (!userAnswer) return;
 
       const similarity = stringSimilarity.compareTwoStrings(answer, userAnswer);
@@ -48,7 +48,7 @@ const Dictation: FC<dictationProps> = (props) => {
       {
         scripts.map((script, script_index) => {
           const sentences = script.text.split('. ');
-          return <div key={ script_index } className='script'>
+          return <div key={ script_index } className='script' >
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
             <div>{ sentences.map((sentence, sIdx) => {
               const wordTotal = sentence.split(' ').length;
@@ -57,18 +57,17 @@ const Dictation: FC<dictationProps> = (props) => {
               };
               const wordCount = sentence.split(' ').filter(word => words.has(word)).length;
               if (wordTotal <= 30 && wordCount >= 2 || wordCount / wordTotal >= 0.2) {
-                return <><input
-                  key={ sIdx }
+                return <Fragment key={ sIdx }><input
                   ref={ (ele) => userInputs.current[inputIdx += 1] = ele! }
                   type='text'
                   onKeyDown={ (e) => {
-                    if (e.key === ' ') {
+                    if (e.key === ' ' && !e.ctrlKey) {
                       e.stopPropagation();
                     }
                   } }
                 />
                   <label data-answer={ sentence } />
-                </>
+                </Fragment>
               } else {
                 return <span key={ sIdx }> { sentence } </span>
               }
