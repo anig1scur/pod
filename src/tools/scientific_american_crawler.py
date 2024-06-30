@@ -36,7 +36,7 @@ def extract_transcript_from_page(url):
     transcript = []
     for paragraph in paragraphs:
         if paragraph.find('b'):
-            author = paragraph.find('b').text.strip(':')
+            author = paragraph.find('b').text.strip().strip(':')
             text = paragraph.text.replace(author, '', 1).strip(':').strip()
             author = author.replace("\u00a0", "'")
             transcript.append({"author": author, "text": text})
