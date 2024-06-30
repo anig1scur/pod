@@ -70,6 +70,8 @@
   }
 
   .fill_in {
+
+    @apply flex flex-col gap-5;
     .scripts {
       height: 70vh;
       max-height: 70vh;
@@ -176,11 +178,10 @@
 
   .episode {
     >main {
-      @apply flex flex-nowrap gap-16;
+      @apply flex flex-nowrap gap-24 w-full;
 
       .meta {
-        flex: 1 0 40%;
-        @apply flex flex-col gap-4;
+        @apply flex flex-col gap-4 max-w-screen-sm;
       }
 
       .pro {
