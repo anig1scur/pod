@@ -4,13 +4,14 @@ import stringSimilarity from 'string-similarity';
 
 export type dictationProps = {
   scripts: Scripts;
+  displayAuthor: boolean;
   words: Set<string>;
 }
 
 const IGNORED_CHARS = ['.', ',', '!', '?', '(', ')', '[', ']', '{', '}', ':', ';', '"', '\'', '“', '”', '‘', '’', '—', '–', '…', '>', '<', '·', '•', '●', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '|', '\\', '/', '`', '~', ' ', '\n', '\t'];
 
 const Dictation: FC<dictationProps> = (props) => {
-  const { scripts, words } = props;
+  const { scripts, words, displayAuthor = true } = props;
   const userInputs = useRef<HTMLInputElement[]>([]);
 
   const checkAnswer = useCallback(() => {
@@ -48,7 +49,7 @@ const Dictation: FC<dictationProps> = (props) => {
         scripts.map((script, script_index) => {
           const sentences = script.text.split('. ');
           return <div key={ script_index } className='script'>
-            <h3 title={ script.author }>{ script.author }</h3>
+            { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
             <div>{ sentences.map((sentence, sIdx) => {
               const wordTotal = sentence.split(' ').length;
               if (!sentence.endsWith('.')) {

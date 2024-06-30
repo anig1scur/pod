@@ -16,6 +16,7 @@ export type EpisodeData = {
   img: string;
   url: string;
   audio: string;
+  authors: string[];
   vocab: {
     text: string;
     desc: string;
@@ -23,4 +24,5 @@ export type EpisodeData = {
   intro: string[];
   transcript: Scripts;
   wave_peaks: number[];
+  categories?: string[];
 }

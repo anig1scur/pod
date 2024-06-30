@@ -4,11 +4,12 @@ import { Scripts } from '@/types';
 export type fillInProps = {
   words: Set<string>;
   scripts: Scripts;
+  displayAuthor: boolean;
 }
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts, words } = props;
+  const { scripts, words, displayAuthor = true } = props;
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
 
@@ -68,7 +69,7 @@ const FillIn: FC<fillInProps> = (props) => {
       {
         scripts.map((script, script_index) => {
           return <div key={ script_index } className='script'>
-            <h3 title={ script.author }>{ script.author }</h3>
+            { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
             <div>{ script.text.split(' ').map((word, word_index) => {
               if (words.has(word)) {
                 const el = <div className="blank"

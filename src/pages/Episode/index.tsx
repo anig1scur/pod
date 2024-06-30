@@ -115,13 +115,20 @@ const Episode: FC<episodeProps> = (props) => {
           </div>
           {
             (() => {
+              const hideAuthor = episodeData.authors.length <= 1 || episodeData.transcript.length <= 1;
+              console.log(episodeData)
+              const props = {
+                scripts: episodeData.transcript,
+                words: words,
+                displayAuthor: !hideAuthor,
+              }
               switch (mode) {
                 case Mode.F:
-                  return <FillIn scripts={ episodeData.transcript } words={ words } />;
+                  return <FillIn { ...props } />;
                 case Mode.D:
-                  return <Dictation scripts={ episodeData.transcript } words={ words } />;
+                  return <Dictation { ...props } />;
                 case Mode.R:
-                  return <Read scripts={ episodeData.transcript } words={ words } />;
+                  return <Read { ...props } />;
                 default:
                   return null;
               }
