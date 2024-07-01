@@ -1,5 +1,8 @@
 import Logo from '@/components/Logo';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import SixMins from '@assets/6mins/logo.gif';
+import Sciam from '@assets/sciam/logo.png';
 
 interface CardProps {
   title: string;
@@ -13,7 +16,7 @@ const Card: React.FC<CardProps> = ({ href, title, description, difficulty, logoU
   const stars = '★'.repeat(difficulty) + '☆'.repeat(5 - difficulty);
 
   return (
-    <a href={ href } className="max-w-sm border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+    <Link to={href} className="max-w-sm border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
       <img className="w-full h-48 object-cover border-b-[3px] border-black" src={ logoUrl } alt={ title } />
       <div className="px-6 py-4">
         <div className="font-bold text-3xl mb-2">{ title }</div>
@@ -24,7 +27,7 @@ const Card: React.FC<CardProps> = ({ href, title, description, difficulty, logoU
           { stars }
         </span>
       </div>
-    </a>
+    </Link>
   );
 };
 
@@ -36,18 +39,18 @@ const Index = () => {
       <div className="max-w-4xl mt-28">
         <div className="flex flex-wrap gap-12">
           <Card
-            href='/#/6mins'
+            href='/6mins'
             title="6 Minutes English"
             description="Improve your English skills with short, engaging lessons."
             difficulty={ 2 }
-            logoUrl="/assets/6mins/logo.gif"
+            logoUrl={ SixMins }
           />
           <Card
-            href='/#/sciam'
+            href='/sciam'
             title="Scientific American"
             description="Explore fascinating scientific topics and discoveries."
             difficulty={ 4 }
-            logoUrl="/assets/sciam/logo.png"
+            logoUrl={ Sciam }
           />
         </div>
       </div>

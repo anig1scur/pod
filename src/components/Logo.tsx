@@ -1,5 +1,6 @@
 import React, { CSSProperties, FC } from 'react';
 import cx from 'classnames';
+import { Link } from 'react-router-dom';
 
 export enum Theme {
   colorful = "colorful",
@@ -35,8 +36,8 @@ const Logo: FC<logoProps> = (props) => {
 
   const theme = props.theme || Theme.colorful;
   return (
-    <a
-      href='/'
+    <Link
+      to='/'
       className="logo" style={ {
         '--y-distance': `${ distance.y }px`,
         '--x-distance': `${ distance.x }px`,
@@ -51,7 +52,7 @@ const Logo: FC<logoProps> = (props) => {
           >{ text }</div>
         ))
       }
-    </a>
+    </Link>
   );
 }
 

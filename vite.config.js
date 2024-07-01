@@ -15,7 +15,10 @@ export default defineConfig(({ }) => {
       react(),
     ],
     resolve: {
-      alias: { "@": path.resolve(__dirname, "src/") },
+      alias: {
+        "@assets": path.resolve(__dirname, "public/assets/"),
+        "@": path.resolve(__dirname, "src/"),
+      },
     }
   };
 });
