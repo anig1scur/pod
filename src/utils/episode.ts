@@ -15,3 +15,29 @@ export const loadEpisode = async (type: string, fname: string): Promise<EpisodeD
 
   return content;
 }
+
+export const splitTextIntoChunks = (text: string, targetWordCount: number) => {
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || [];
+  const chunks = [];
+  let currentChunk = '';
+  let wordCount = 0;
+
+  for (const sentence of sentences) {
+    const sentenceWordCount = sentence.trim().split(/\s+/).length;
+
+    if (wordCount + sentenceWordCount > targetWordCount && currentChunk) {
+      chunks.push(currentChunk.trim());
+      currentChunk = '';
+      wordCount = 0;
+    }
+
+    currentChunk += sentence + ' ';
+    wordCount += sentenceWordCount;
+  }
+
+  if (currentChunk) {
+    chunks.push(currentChunk.trim());
+  }
+
+  return chunks;
+};

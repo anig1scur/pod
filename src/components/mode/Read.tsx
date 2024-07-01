@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from 'react';
 import { Scripts } from '@/types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLanguage, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-
+import { splitTextIntoChunks } from '@/utils/episode';
 export type readProps = {
   scripts: Scripts;
   words: Set<string>;
@@ -86,30 +86,39 @@ const Read: FC<readProps> = (props) => {
   return (
     <div className='mode read'>
       <div className='scripts'>
-        { scripts.map((script, script_index) => (
-          <div key={ script_index } className='script flex-col'>
+        { scripts.map((script, script_index) => {
+          const chunks = splitTextIntoChunks(script.text, 100);
+          return <div key={ script_index } className='script flex-col'>
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
-            <div>
-              { script.text.split(' ').map((word, word_index) => (
-                words.has(word)
-                  ? <span key={ word_index } className='highlight'>{ word } </span>
-                  : <span key={ word_index }>{ word } </span>
-              )) }
-              <span className="translation-controls">
-                <FontAwesomeIcon
-                  className='cursor-pointer text-gray-800 mx-2'
-                  icon={ faLanguage }
-                  onClick={ () => handleTranslate(script.text, script_index) }
-                  title="Translate to Chinese"
-                />
-                <FontAwesomeIcon
-                  className='cursor-pointer text-gray-800'
-                  icon={ showTranslations[script_index] ? faEye : faEyeSlash }
-                  onClick={ () => toggleTranslation(script_index) }
-                  title={ showTranslations[script_index] ? "Hide translation" : "Show translation" }
-                />
-              </span>
-            </div>
+            { chunks.map((chunk, chunk_index) => (
+              <div key={ chunk_index } className='my-1'>
+                { chunk.split(' ').map((word, word_index) => (
+                  <span
+                    key={ `${ chunk_index }-${ word_index }` }
+                    className={ words.has(word) ? 'highlight' : '' }
+                  >
+                    { word }{ ' ' }
+                  </span>
+                )) }
+                {
+                  chunk_index === chunks.length - 1 &&
+                  <span className="translation-controls">
+                    <FontAwesomeIcon
+                      className='cursor-pointer text-gray-800 mx-2'
+                      icon={ faLanguage }
+                      onClick={ () => handleTranslate(script.text, script_index) }
+                      title="Translate to Chinese"
+                    />
+                    <FontAwesomeIcon
+                      className='cursor-pointer text-gray-800'
+                      icon={ showTranslations[script_index] ? faEye : faEyeSlash }
+                      onClick={ () => toggleTranslation(script_index) }
+                      title={ showTranslations[script_index] ? "Hide translation" : "Show translation" }
+                    />
+                  </span>
+                }
+              </div>
+            )) }
             { translations[script_index] && (
               <div
                 className={ `translation ${ showTranslations[script_index] ? '' : 'hidden' }` }
@@ -118,7 +127,8 @@ const Read: FC<readProps> = (props) => {
               </div>
             ) }
           </div>
-        )) }
+        }
+        ) }
       </div>
     </div>
   );
