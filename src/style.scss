@@ -279,7 +279,7 @@
     gap: 25px;
 
     .episode_card img {
-      @apply h-52 w-80 object-cover rounded-lg;
+      @apply h-48 w-80 object-cover rounded-lg;
       cursor: pointer;
       display: flex;
       flex-direction: column;
@@ -337,7 +337,7 @@
   }
 
   input {
-    width: 200px;
+    width: 250px;
 
     background-color: transparent;
 

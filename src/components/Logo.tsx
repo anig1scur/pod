@@ -35,10 +35,12 @@ const Logo: FC<logoProps> = (props) => {
 
   const theme = props.theme || Theme.colorful;
   return (
-    <div className={ "logo" } style={ {
-      '--y-distance': `${ distance.y }px`,
-      '--x-distance': `${ distance.x }px`,
-    } as CSSProperties }>
+    <a
+      href='/'
+      className="logo" style={ {
+        '--y-distance': `${ distance.y }px`,
+        '--x-distance': `${ distance.x }px`,
+      } as CSSProperties }>
       {
         Array.from({ length: 5 }).map((_, index) => (
           <div key={ index }
@@ -49,7 +51,7 @@ const Logo: FC<logoProps> = (props) => {
           >{ text }</div>
         ))
       }
-    </div>
+    </a>
   );
 }
 
