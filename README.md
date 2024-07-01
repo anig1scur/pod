@@ -19,7 +19,8 @@ Pod currently supports two types of podcasts:
 2. **[Scientific American Podcast](https://www.scientificamerican.com/podcasts/)**
 
 
-I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows, etc in the future. All materials are sourced from the internet for educational purposes. If there are any copyright concerns, please contact me.
+I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows, etc in the future. This service is not provided by the official source. All materials are sourced from the internet for educational purposes. Please contact me if there are any copyright concerns.
+
 
 ## Supported Vocabulary
 
