@@ -276,7 +276,7 @@
 
     .options {
 
-      @apply absolute top-12 left-0 w-full bg-white border-[3px] border-black rounded-lg p-2;
+      @apply absolute z-10 top-12 left-0 w-full bg-white border-[3px] border-black rounded-lg p-2;
 
       .option {
         @apply p-2 cursor-pointer;
