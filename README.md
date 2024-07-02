@@ -21,14 +21,27 @@ Pod currently supports two types of podcasts:
 
 I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows, etc in the future. This service is not provided by the official source. All materials are sourced from the internet for educational purposes. Please contact me if there are any copyright concerns.
 
+## Supported Modes
+
+1. **Reading Mode**
+   1. Highlight vocabulary
+   2. Bionic Reading
+   3. Translation ( we highly recommend you use your own translator)
+2. **Fill in Mode**
+   1. Fill in the blank like Duolingo
+   2. Check the answer
+3. **Dictation Mode**
+   1. Choose whole sentence randomly
+   2. Type the sentence and check the answer
+
 
 ## Supported Vocabulary
 
-0. CEFR (Common European Framework of Reference for Languages) B1-C1
-1. AWL (Academic Word List) 570
-2. GRE Manhattan Prep 1000
-3. GRE Mason 2000
-4. [GRE 5000](https://www.vocabulary.com/lists/128536)
+1. CEFR (Common European Framework of Reference for Languages) B1-C1
+2. AWL (Academic Word List) 570
+3. GRE Manhattan Prep 1000
+4. GRE Mason 2000
+5. [GRE 5000](https://www.vocabulary.com/lists/128536)
 
 ## Contribution
 
