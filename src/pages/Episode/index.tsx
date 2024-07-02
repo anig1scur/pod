@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import Logo from '@/components/Logo';
+import Header from '@/components/Header';
 import FillIn from '@/components/mode/FillIn';
 import Dictation from '@/components/mode/Dictation';
 import Read from '@/components/mode/Read';
@@ -88,10 +88,8 @@ const Episode: FC<episodeProps> = (props) => {
 
   return (
     <div className="episode">
-      <header>
-        <Logo text="POD!" />
-      </header>
-      <main>
+      <Header />
+      <main className='mt-10'>
         <section className="meta">
           <h1><a target='_blank' className='
           hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-3 inline-block

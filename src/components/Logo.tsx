@@ -38,7 +38,7 @@ const Logo: FC<logoProps> = (props) => {
   return (
     <Link
       to='/'
-      className="logo" style={ {
+      className="logo mb-16" style={ {
         '--y-distance': `${ distance.y }px`,
         '--x-distance': `${ distance.x }px`,
       } as CSSProperties }>

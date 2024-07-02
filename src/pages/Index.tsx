@@ -1,5 +1,5 @@
-import Logo from '@/components/Logo';
 import React from 'react';
+import Header from '@/components/Header';
 import { Link } from 'react-router-dom';
 import SixMins from '@assets/6mins/logo.gif';
 import Sciam from '@assets/sciam/logo.png';
@@ -35,8 +35,8 @@ const Card: React.FC<CardProps> = ({ href, title, description, difficulty, logoU
 const Index = () => {
   return (
     <div className='flex flex-col'>
-      <Logo text="POD!" />
-      <div className="max-w-4xl mt-28">
+      <Header />
+      <div className="max-w-4xl mt-10">
         <div className="flex flex-wrap gap-12">
           <Card
             href='/6mins'

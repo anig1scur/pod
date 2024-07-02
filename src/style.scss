@@ -30,12 +30,20 @@
 
   input[type="checkbox"] {
     appearance: none;
-    @apply w-3 h-3 cursor-pointer;
+    @apply w-4 h-4 cursor-pointer;
     border: 2px solid black;
 
     &:checked {
       background-color: #D93D86;
     }
+  }
+
+  a.github {
+    @apply w-10 h-10 cursor-pointer;
+    display: inline;
+    background-size: contain;
+    background-image: url("/icons/github.svg");
+    color: #000;
   }
 
   .player {
@@ -212,7 +220,7 @@
   }
 
   header {
-    @apply h-28 flex;
+    @apply h-28 flex w-full justify-between items-center;
   }
 
   h1 {

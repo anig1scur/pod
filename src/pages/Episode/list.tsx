@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import Logo from '@/components/Logo';
+import Header from '@/components/Header';
 
 type Episode = {
   id: string;
@@ -108,10 +108,8 @@ const EpisodeList = () => {
 
   return (
     <div className="flex flex-col m-auto">
-      <header>
-        <Logo text="POD!" />
-      </header>
-      <main className='flex flex-nowrap gap-8 flex-col'>
+      <Header />
+      <main className='flex flex-nowrap gap-8 flex-col mt-10'>
         <div className='flex flex-row gap-8'>
           <h1>{ FullNameMap[id as podType] }</h1>
           <div className='search-bar'>
