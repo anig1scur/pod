@@ -41,3 +41,11 @@ export const splitTextIntoChunks = (text: string, targetWordCount: number) => {
 
   return chunks;
 };
+
+
+export const applyBionicReading = (text: string): string => {
+  return text.split(' ').map(word => {
+    const splitIndex = Math.ceil(word.length / 2);
+    return `<b>${word.slice(0, splitIndex)}</b>${word.slice(splitIndex)} `;
+  }).join(' ');
+};

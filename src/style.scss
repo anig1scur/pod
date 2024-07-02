@@ -28,6 +28,16 @@
 
 @layer components {
 
+  input[type="checkbox"] {
+    appearance: none;
+    @apply w-3 h-3 cursor-pointer;
+    border: 2px solid black;
+
+    &:checked {
+      background-color: #D93D86;
+    }
+  }
+
   .player {
     @apply border-[3px] border-black rounded-lg p-4 flex gap-6 flex-col;
 
@@ -102,9 +112,14 @@
       max-height: 70vh;
       overflow-y: auto;
       padding-right: 20px;
+      font-family: sans-serif;
 
       .script {
         @apply flex mb-2;
+
+        >span {
+          @apply mr-1;
+        }
 
         .highlight {
           @apply bg-[#D93D86] text-white pl-1 mx-1;

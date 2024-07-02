@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from 'react';
 import { Scripts } from '@/types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLanguage, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import { splitTextIntoChunks } from '@/utils/episode';
+import { splitTextIntoChunks, applyBionicReading } from '@/utils/episode';
 export type readProps = {
   scripts: Scripts;
   words: Set<string>;
@@ -25,6 +25,8 @@ const Read: FC<readProps> = (props) => {
   const { scripts, words, displayAuthor = true } = props;
   const [translations, setTranslations] = useState<string[]>([]);
   const [showTranslations, setShowTranslations] = useState<boolean[]>([]);
+
+  const [bionicReading, setBionicReading] = useState(false);
 
   if (!words || words.size === 0) {
     return <div>Loading...</div>
@@ -84,7 +86,13 @@ const Read: FC<readProps> = (props) => {
   };
 
   return (
-    <div className='mode read'>
+    <div className='mode read relative'>
+      <div className='controls absolute -top-10 right-0'>
+        <label className='flex items-center gap-1 cursor-pointer'>
+          <input type='checkbox'checked={ bionicReading } onChange={ () => setBionicReading(!bionicReading) } />
+          Bionic Reading
+        </label>
+      </div>
       <div className='scripts'>
         { scripts.map((script, script_index) => {
           const chunks = splitTextIntoChunks(script.text, 100);
@@ -93,7 +101,11 @@ const Read: FC<readProps> = (props) => {
             { chunks.map((chunk, chunk_index) => (
               <div key={ chunk_index } className='my-1'>
                 { chunk.split(' ').map((word, word_index) => (
-                  <span
+                  bionicReading ? <span
+                    dangerouslySetInnerHTML={ { __html: applyBionicReading(word) } }
+                    key={ `${ chunk_index }-${ word_index }` }
+                    className={ words.has(word) ? 'highlight' : '' }
+                  /> : <span
                     key={ `${ chunk_index }-${ word_index }` }
                     className={ words.has(word) ? 'highlight' : '' }
                   >
