@@ -11,7 +11,13 @@ import { Mode, EpisodeData } from '@/types';
 import { loadEpisode } from '@/utils/episode';
 import { loadVocab, VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
+import { podType } from './list';
 
+// for skip template intro audio
+const START_TIME_MAP = new Map<podType, number>([
+  [podType.sixmins, 7],
+  [podType.sciam, 60],
+]);
 
 export type episodeProps = {
   eid?: string;
@@ -19,7 +25,7 @@ export type episodeProps = {
 
 const Episode: FC<episodeProps> = (props) => {
 
-  const pid = useParams()['pid'] || "6mins";
+  const pid = (useParams()['pid'] || "6mins") as podType;
   const eid = props.eid || useParams()['eid'] || "";
   const [mode, setMode] = useState<Mode>(Mode.F);
   const [audio_url, setAudioUrl] = useState<string>("");
@@ -86,6 +92,8 @@ const Episode: FC<episodeProps> = (props) => {
     return null;
   }
 
+  const hideAuthor = episodeData.authors.length <= 1 || episodeData.transcript.length <= 1;
+
   return (
     <div className="episode">
       <Header />
@@ -94,7 +102,9 @@ const Episode: FC<episodeProps> = (props) => {
           <h1><a target='_blank' className='
           hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block
           ' href={ episodeData.url }>{ episodeData.title }</a></h1>
+          {/* FIXME: the start time of sciam is not regular */}
           <Player
+            start_time={ pid === podType.sciam && hideAuthor ? 0 : START_TIME_MAP.get(pid) || 0 }
             audio_url={ audio_url }
             peaks={ episodeData.wave_peaks }
             last={ episodeIds[curIndex - 1] }
@@ -113,7 +123,6 @@ const Episode: FC<episodeProps> = (props) => {
           </div>
           {
             (() => {
-              const hideAuthor = episodeData.authors.length <= 1 || episodeData.transcript.length <= 1;
               const props = {
                 scripts: episodeData.transcript,
                 words: words,

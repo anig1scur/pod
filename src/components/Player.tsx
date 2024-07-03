@@ -4,6 +4,7 @@ import WaveForm, { WaveFormHandle } from './WaveForm';
 export type playerProps = {
   audio_url: string;
   peaks: number[];
+  start_time?: number;
   last?: string;
   next?: string;
   toNext?: () => void;
@@ -16,6 +17,14 @@ const Player: FC<playerProps> = (props) => {
   const { last, next, toNext, toLast, audio_url } = props;
   const [isPlaying, setIsPlaying] = useState(false);
   const waveFormRef = useRef<WaveFormHandle>(null);
+
+  useEffect(() => {
+    if (props.start_time && waveFormRef.current) {
+      waveFormRef.current.onready(() => {
+        waveFormRef.current?.seek(props.start_time || 0);
+      })
+    }
+  }, [props.start_time, waveFormRef.current]);
 
   const backfoward = useCallback(() => {
     waveFormRef.current?.seek(-2);
