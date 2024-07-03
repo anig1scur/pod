@@ -2,25 +2,14 @@ import os
 import json
 import requests
 import numpy as np
+from .utils import NpEncoder
 from pydub import AudioSegment
 from pydub.utils import make_chunks
 
-proxies = {
-}
+proxies = {}
 
 SCRIPTS_DIR = "./public/assets/{}/scripts"
 AUDIOS_DIR = "./public/assets/{}/audios"
-
-
-class NpEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, np.integer):
-            return int(obj)
-        if isinstance(obj, np.floating):
-            return float(obj)
-        if isinstance(obj, np.ndarray):
-            return obj.tolist()
-        return super(NpEncoder, self).default(obj)
 
 
 def get_audio_peaks(file_path, chunk_size_ms=300):
@@ -82,4 +71,4 @@ def process_json_files_in_folder(type):
                 process_json_file(json_file_path, type)
 
 
-process_json_files_in_folder('sciam')
+process_json_files_in_folder("sciam")

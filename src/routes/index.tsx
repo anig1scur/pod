@@ -1,8 +1,7 @@
-import React from 'react';
 import { RouteObject } from 'react-router-dom';
 import NotFound from '@/pages/NotFound';
 import Episode from '@/pages/Episode';
-import Index from '@/pages/Index';
+import Index from '@/pages/index';
 import EpisodeList from '@/pages/Episode/list';
 
 export default [

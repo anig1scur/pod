@@ -92,7 +92,7 @@ const Episode: FC<episodeProps> = (props) => {
       <main className='mt-10'>
         <section className="meta">
           <h1><a target='_blank' className='
-          hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-3 inline-block
+          hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block
           ' href={ episodeData.url }>{ episodeData.title }</a></h1>
           <Player
             audio_url={ audio_url }

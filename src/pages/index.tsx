@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import SixMins from '@assets/6mins/logo.gif';
 import Sciam from '@assets/sciam/logo.png';
 
-interface CardProps {
+
+interface PodcastCardProps {
   title: string;
   description: string;
   difficulty: number;
@@ -12,11 +13,14 @@ interface CardProps {
   href: string;
 }
 
-const Card: React.FC<CardProps> = ({ href, title, description, difficulty, logoUrl }) => {
+// const VocabularyList = [
+
+
+const PodcastCard: React.FC<PodcastCardProps> = ({ href, title, description, difficulty, logoUrl }) => {
   const stars = '★'.repeat(difficulty) + '☆'.repeat(5 - difficulty);
 
   return (
-    <Link to={href} className="max-w-sm border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+    <Link to={ href } className="max-w-sm border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
       <img className="w-full h-48 object-cover border-b-[3px] border-black" src={ logoUrl } alt={ title } />
       <div className="px-6 py-4">
         <div className="font-bold text-3xl mb-2">{ title }</div>
@@ -38,14 +42,14 @@ const Index = () => {
       <Header />
       <div className="max-w-4xl mt-10">
         <div className="flex flex-wrap gap-12">
-          <Card
+          <PodcastCard
             href='/6mins'
             title="6 Minutes English"
             description="Improve your English skills with short, engaging lessons."
             difficulty={ 2 }
             logoUrl={ SixMins }
           />
-          <Card
+          <PodcastCard
             href='/sciam'
             title="Scientific American"
             description="Explore fascinating scientific topics and discoveries."
