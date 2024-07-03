@@ -15,8 +15,7 @@ import { podType } from './list';
 
 // for skip template intro audio
 const START_TIME_MAP = new Map<podType, number>([
-  [podType.sixmins, 7],
-  [podType.sciam, 60],
+  // [podType.sixmins, 7],
 ]);
 
 export type episodeProps = {
@@ -104,7 +103,7 @@ const Episode: FC<episodeProps> = (props) => {
           ' href={ episodeData.url }>{ episodeData.title }</a></h1>
           {/* FIXME: the start time of sciam is not regular */}
           <Player
-            start_time={ pid === podType.sciam && hideAuthor ? 0 : START_TIME_MAP.get(pid) || 0 }
+            start_time={ START_TIME_MAP.get(pid) || 0 }
             audio_url={ audio_url }
             peaks={ episodeData.wave_peaks }
             last={ episodeIds[curIndex - 1] }
