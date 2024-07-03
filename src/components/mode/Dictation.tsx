@@ -10,6 +10,18 @@ export type dictationProps = {
 
 const IGNORED_CHARS = ['.', ',', '!', '?', '(', ')', '[', ']', '{', '}', ':', ';', '"', '\'', '“', '”', '‘', '’', '—', '–', '…', '>', '<', '·', '•', '●', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '|', '\\', '/', '`', '~', ' ', '\n', '\t'];
 
+const pairWordsWithDelimiters = (arr: string[]) => {
+  let result = [];
+  for (let i = 0;i < arr.length;i += 2) {
+    result.push({
+      text: arr[i],
+      delimiter: arr[i + 1] || ''
+    });
+  }
+  return result;
+}
+
+
 const Dictation: FC<dictationProps> = (props) => {
   const { scripts, words, displayAuthor = true } = props;
   const userInputs = useRef<HTMLInputElement[]>([]);
@@ -21,12 +33,13 @@ const Dictation: FC<dictationProps> = (props) => {
       return str.toLowerCase().split('').filter(char => !IGNORED_CHARS.includes(char)).join('')
     }
     userInputs.current.forEach(input => {
-      const answer = unifyChars(input?.parentElement?.querySelector('label')?.getAttribute('data-answer'));
+      const answer = unifyChars(input?.nextElementSibling?.getAttribute('data-answer'));
       const userAnswer = unifyChars(input?.value);
       if (!userAnswer) return;
+      console.log(input, answer, userAnswer);
 
       const similarity = stringSimilarity.compareTwoStrings(answer, userAnswer);
-      if (similarity >= 0.95) {
+      if (similarity >= 0.9) {
         input.classList.remove('wrong');
         input.classList.add('correct');
       } else {
@@ -47,16 +60,17 @@ const Dictation: FC<dictationProps> = (props) => {
     <div className='scripts'>
       {
         scripts.map((script, script_index) => {
-          const sentences = script.text.split('. ');
+          const sentenceWithDelimiters = pairWordsWithDelimiters(script.text.split(/([,;.])/));
           return <div key={ script_index } className='script' >
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
-            <div>{ sentences.map((sentence, sIdx) => {
+            <div>{ sentenceWithDelimiters.map((s, sIdx) => {
+              let sentence = s.text;
               const wordTotal = sentence.split(' ').length;
               if (!sentence.endsWith('.')) {
-                sentence += '.';
+                sentence += s.delimiter;
               };
               const wordCount = sentence.split(' ').filter(word => words.has(word)).length;
-              if (wordTotal <= 30 && wordCount >= 2 || wordCount / wordTotal >= 0.2) {
+              if (wordTotal >= 5 && wordTotal <= 28 && wordCount >= 1 || wordCount / wordTotal >= 0.1) {
                 return <Fragment key={ sIdx }><input
                   ref={ (ele) => userInputs.current[inputIdx += 1] = ele! }
                   type='text'
