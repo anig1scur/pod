@@ -28,6 +28,20 @@
 
 @layer components {
 
+  .about {
+    h3 {
+      @apply text-xl font-bold mb-2;
+    }
+
+    >div,>p  {
+      @apply text-lg mb-4 ml-5;
+    }
+
+    a {
+      @apply underline mx-1 underline-offset-4;
+    }
+  }
+
   input[type="checkbox"] {
     appearance: none;
     @apply w-4 h-4 cursor-pointer;
@@ -39,11 +53,9 @@
   }
 
   a.github {
-    @apply w-10 h-10 cursor-pointer;
-    display: inline;
+    @apply w-7 h-7 cursor-pointer inline-block align-bottom;
     background-size: contain;
-    background-image: url("/icons/github.svg");
-    color: #000;
+    -webkit-mask: url("/icons/github.svg") no-repeat center / contain;
   }
 
   .player {
