@@ -8,7 +8,7 @@ import Player from '@/components/Player';
 import Info from '@/components/Info';
 import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
-import { loadEpisode } from '@/utils/episode';
+import { loadEpisode, groupBy } from '@/utils/episode';
 import { loadVocab, VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
 import { podType } from './list';
@@ -91,8 +91,6 @@ const Episode: FC<episodeProps> = (props) => {
     return null;
   }
 
-  const hideAuthor = episodeData.authors.length <= 1 || episodeData.transcript.length <= 1;
-
   return (
     <div className="episode">
       <Header />
@@ -101,7 +99,7 @@ const Episode: FC<episodeProps> = (props) => {
           <h1><a target='_blank' className='
           hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block
           ' href={ episodeData.url }>{ episodeData.title }</a></h1>
-          {/* FIXME: the start time of sciam is not regular */}
+          {/* FIXME: the start time of sciam is not regular */ }
           <Player
             start_time={ START_TIME_MAP.get(pid) || 0 }
             audio_url={ audio_url }
@@ -122,6 +120,9 @@ const Episode: FC<episodeProps> = (props) => {
           </div>
           {
             (() => {
+              const { authors, transcript } = episodeData;
+
+              const hideAuthor = authors.length <= 1 || groupBy(transcript, 'author').size <= 1;
               const props = {
                 scripts: episodeData.transcript,
                 words: words,

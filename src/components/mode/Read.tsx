@@ -89,12 +89,13 @@ const Read: FC<readProps> = (props) => {
     <div className='mode read relative'>
       <div className='controls absolute -top-10 right-0'>
         <label className='flex items-center gap-1 cursor-pointer'>
-          <input type='checkbox'checked={ bionicReading } onChange={ () => setBionicReading(!bionicReading) } />
+          <input type='checkbox' checked={ bionicReading } onChange={ () => setBionicReading(!bionicReading) } />
           Bionic Reading
         </label>
       </div>
       <div className='scripts'>
         { scripts.map((script, script_index) => {
+
           const chunks = splitTextIntoChunks(script.text, 100);
           return <div key={ script_index } className='script flex-col'>
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }

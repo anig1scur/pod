@@ -16,6 +16,17 @@ export const loadEpisode = async (type: string, fname: string): Promise<EpisodeD
   return content;
 }
 
+
+export function groupBy<T, K extends keyof T>(list: T[], key: K): Map<T[K], T[]> {
+  return list.reduce((acc, cur) => {
+    const group = cur[key];
+    const values = acc.get(group) || [];
+    values.push(cur);
+    acc.set(group, values);
+    return acc;
+  }, new Map());
+}
+
 export const splitTextIntoChunks = (text: string, targetWordCount: number) => {
   const sentences = text.match(/[^.!?]+[.!?]+/g) || [];
   const chunks = [];
