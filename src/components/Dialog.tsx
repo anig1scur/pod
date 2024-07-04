@@ -24,10 +24,6 @@ const Dialog: React.FC<DialogProps> = ({
   isOpen
 }) => {
 
-  if (!isOpen) {
-    return null;
-  }
-
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -40,6 +36,21 @@ const Dialog: React.FC<DialogProps> = ({
     };
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'visible';
+    }
+
+    return () => {
+      document.body.style.overflow = 'visible';
+    };
+  }, [isOpen]);
+
+  if (!isOpen) {
+    return null;
+  }
 
   return (
     <div
@@ -59,9 +70,9 @@ const Dialog: React.FC<DialogProps> = ({
             : 'opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95'
             }` }
         >
-          <div className="bg-white px-2 pt-5 pb-4 sm:p-6 sm:pb-4">
+          <div className="bg-white px-6 pt-2 sm:pt-6 pb-4 sm:pb-4">
             <div className="sm:flex sm:items-start">
-              <div className="mt-3 text-center sm:mt-0 sm:text-left">{
+              <div className="mt-3 sm:mt-0 sm:text-left">{
                 header ? header : <h3 className="text-lg leading-6 font-medium text-gray-900" id="modal-title">{ headerText }</h3>
               }
                 {

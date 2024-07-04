@@ -29,12 +29,16 @@
 @layer components {
 
   .about {
-    h3 {
-      @apply text-xl font-bold mb-2;
-    }
+    margin-left: 12px;
 
-    >div,>p  {
-      @apply text-lg mb-4 ml-5;
+    li {
+      @apply text-xl font-bold mb-2 list-decimal;
+
+      >div,
+      >p {
+        @apply text-lg mb-4 font-normal;
+      }
+
     }
 
     a {
