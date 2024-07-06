@@ -107,6 +107,14 @@
     @apply flex flex-col gap-5;
 
     &.dictation .scripts .script {
+
+      &[data-begin]:hover {
+        >div {
+          @apply cursor-pointer text-black;
+          background-color: pink;
+        }
+      }
+
       input {
         @apply text-left text-lg w-96 mr-2 font-medium border-b-2 border-black outline-none;
 
@@ -154,7 +162,7 @@
         }
 
         >div {
-          @apply text-xl break-words leading-8;
+          @apply text-xl break-words leading-8 pl-1;
         }
 
         .blank {

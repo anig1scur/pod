@@ -11,6 +11,12 @@ export type Dialogue = {
 
 export type Scripts = Dialogue[];
 
+export type Fragment = {
+  begin: number;
+  end: number;
+  lines: string[];
+}
+
 export type EpisodeData = {
   title: string;
   img: string;
@@ -25,4 +31,5 @@ export type EpisodeData = {
   transcript: Scripts;
   wave_peaks: number[];
   categories?: string[];
+  fragments?: Fragment[];
 }

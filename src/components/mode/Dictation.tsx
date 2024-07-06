@@ -1,11 +1,15 @@
 import React, { FC, useRef, useCallback, useEffect, Fragment } from 'react';
-import { Scripts } from '@/types';
+import { Fragment as FragmentType, Scripts } from '@/types';
 import stringSimilarity from 'string-similarity';
+import { findMatchedFragment } from '@/utils/episode';
+import { WaveFormHandle } from '../WaveForm';
 
 export type dictationProps = {
   scripts: Scripts;
   displayAuthor: boolean;
   words: Set<string>;
+  fragments?: FragmentType[];
+  audioRef: React.RefObject<WaveFormHandle>;
 }
 
 const IGNORED_CHARS = ['.', ',', '!', '?', '(', ')', '[', ']', '{', '}', ':', ';', '"', '\'', '“', '”', '‘', '’', '—', '–', '…', '>', '<', '·', '•', '●', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '|', '\\', '/', '`', '~', ' ', '\n', '\t'];
@@ -23,7 +27,7 @@ const pairWordsWithDelimiters = (arr: string[]) => {
 
 
 const Dictation: FC<dictationProps> = (props) => {
-  const { scripts, words, displayAuthor = true } = props;
+  const { scripts, words, fragments, displayAuthor = true, audioRef } = props;
   const userInputs = useRef<HTMLInputElement[]>([]);
 
   const checkAnswer = useCallback(() => {
@@ -36,10 +40,8 @@ const Dictation: FC<dictationProps> = (props) => {
       const answer = unifyChars(input?.nextElementSibling?.getAttribute('data-answer'));
       const userAnswer = unifyChars(input?.value);
       if (!userAnswer) return;
-      console.log(input, answer, userAnswer);
-
       const similarity = stringSimilarity.compareTwoStrings(answer, userAnswer);
-      if (similarity >= 0.9) {
+      if (similarity >= 0.85) {
         input.classList.remove('wrong');
         input.classList.add('correct');
       } else {
@@ -49,6 +51,18 @@ const Dictation: FC<dictationProps> = (props) => {
     });
   }, []);
 
+
+  const handleScriptClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const target = e.target as HTMLElement;
+    const script = target.closest('.script') as HTMLElement;
+
+    if (!script) return;
+
+    if (script.dataset.begin) {
+      audioRef.current?.seekTo(parseInt(script.dataset.begin));
+    }
+
+  };
 
   if (!words || words.size === 0) {
     return <div>Loading...</div>
@@ -60,8 +74,9 @@ const Dictation: FC<dictationProps> = (props) => {
     <div className='scripts'>
       {
         scripts.map((script, script_index) => {
+          const matchedFragment = findMatchedFragment(fragments || [], script.text);
           const sentenceWithDelimiters = pairWordsWithDelimiters(script.text.split(/([,;.])/));
-          return <div key={ script_index } className='script' >
+          return <div key={ script_index } className='script' onClick={ handleScriptClick } data-begin={ matchedFragment?.begin } data-end={ matchedFragment?.end }>
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
             <div>{ sentenceWithDelimiters.map((s, sIdx) => {
               let sentence = s.text;
@@ -74,6 +89,7 @@ const Dictation: FC<dictationProps> = (props) => {
                 return <Fragment key={ sIdx }><input
                   ref={ (ele) => userInputs.current[inputIdx += 1] = ele! }
                   type='text'
+                  onClick={(e)=>e.stopPropagation()}
                   onKeyDown={ (e) => {
                     if (e.key === ' ' && !e.ctrlKey) {
                       e.stopPropagation();

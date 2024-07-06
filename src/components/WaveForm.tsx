@@ -13,6 +13,7 @@ export type WaveFormProps = {
 export type WaveFormHandle = {
   seek: (time: number) => void;
   onready: (callback: () => void) => void;
+  seekTo: (time: number) => void;
 };
 
 const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
@@ -60,6 +61,10 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
       const curTime = wavesurfer.current?.getCurrentTime() || 0;
       const duration = wavesurfer.current?.getDuration() || 1;
       wavesurfer.current?.seekTo((curTime + time) / duration);
+    },
+    seekTo(time: number) {
+      time = time <= 0 ? 1 : time;
+      wavesurfer.current?.seekTo(time / wavesurfer.current?.getDuration() || 1);
     },
     onready(callback: () => void) {
       wavesurfer.current?.on('ready', callback);

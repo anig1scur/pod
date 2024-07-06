@@ -9,16 +9,24 @@ export type playerProps = {
   next?: string;
   toNext?: () => void;
   toLast?: () => void;
+  waveFormRef: React.RefObject<WaveFormHandle>;
 }
 
 
 const Player: FC<playerProps> = (props) => {
 
-  const { last, next, toNext, toLast, audio_url } = props;
+  const { last, next, toNext, toLast, audio_url, waveFormRef } = props;
   const [isPlaying, setIsPlaying] = useState(false);
-  const waveFormRef = useRef<WaveFormHandle>(null);
 
   useEffect(() => {
+    if (!waveFormRef) {
+      return;
+    }
+
+    if (!waveFormRef.current) {
+      return;
+    }
+
     if (props.start_time && waveFormRef.current) {
       waveFormRef.current.onready(() => {
         waveFormRef.current?.seek(props.start_time || 0);
@@ -50,12 +58,12 @@ const Player: FC<playerProps> = (props) => {
       setIsPlaying(prevIsPlaying => !prevIsPlaying);
     }
 
-    if (e.ctrlKey && e.key === 'ArrowRight') {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'ArrowRight') {
       e.preventDefault();
       _toNext();
     }
 
-    if (e.ctrlKey && e.key === 'ArrowLeft') {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'ArrowLeft') {
       e.preventDefault();
       _toLast();
     }
@@ -69,14 +77,14 @@ const Player: FC<playerProps> = (props) => {
       e.preventDefault();
       backfoward();
     }
-  }, [isPlaying]);
+  }, [isPlaying, next, last]);
 
   useEffect(() => {
     document.addEventListener('keydown', handleKeyDown);
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [next, last]);
 
   return (
     <div className='player'>

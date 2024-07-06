@@ -1,10 +1,11 @@
-import { FC, useEffect, useState } from 'react';
+import { FC, useEffect, useState, useRef, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Header from '@/components/Header';
 import FillIn from '@/components/mode/FillIn';
 import Dictation from '@/components/mode/Dictation';
 import Read from '@/components/mode/Read';
 import Player from '@/components/Player';
+import { WaveFormHandle } from '@/components/WaveForm';
 import Info from '@/components/Info';
 import ModeTab from '@/components/ModeTab';
 import { Mode, EpisodeData } from '@/types';
@@ -33,6 +34,7 @@ const Episode: FC<episodeProps> = (props) => {
   const [curIndex, setCurIndex] = useState<number>(episodeIds.indexOf(eid) < 0 ? 0 : episodeIds.indexOf(eid));
   const [curVocab, setCurVocab] = useState<VocabType>(VocabType.AWL_570);
   const [words, setWords] = useState<Set<string>>(new Set());
+  const waveFormRef = useRef<WaveFormHandle>(null);
 
   useEffect(() => {
     const fetchWords = async () => {
@@ -101,6 +103,7 @@ const Episode: FC<episodeProps> = (props) => {
           ' href={ episodeData.url }>{ episodeData.title }</a></h1>
           {/* FIXME: the start time of sciam is not regular */ }
           <Player
+            waveFormRef={ waveFormRef }
             start_time={ START_TIME_MAP.get(pid) || 0 }
             audio_url={ audio_url }
             peaks={ episodeData.wave_peaks }
@@ -124,9 +127,11 @@ const Episode: FC<episodeProps> = (props) => {
 
               const hideAuthor = authors.length <= 1 || groupBy(transcript, 'author').size <= 1;
               const props = {
+                fragments: episodeData.fragments,
                 scripts: episodeData.transcript,
                 words: words,
                 displayAuthor: !hideAuthor,
+                audioRef: waveFormRef
               }
               switch (mode) {
                 case Mode.F:

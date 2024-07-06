@@ -1,15 +1,16 @@
-import React, { FC, useState, useCallback, useEffect, useRef } from 'react';
-import { Scripts } from '@/types';
+import React, { FC, useCallback, useRef } from 'react';
+import { Fragment, Scripts } from '@/types';
 
 export type fillInProps = {
   words: Set<string>;
   scripts: Scripts;
   displayAuthor: boolean;
+  fragments?: Fragment[];
 }
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts, words, displayAuthor = true } = props;
+  const { scripts, words, fragments, displayAuthor = true } = props;
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
 

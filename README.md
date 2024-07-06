@@ -31,7 +31,8 @@ I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows
    1. Fill in the blank like Duolingo
    2. Check the answer
 3. **Dictation Mode**
-   1. Choose whole sentence randomly
+   1. Seek to accurate time of a script
+   1. Dictate sentence randomly
    2. Type the sentence and check the answer
 
 

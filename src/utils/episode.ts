@@ -1,4 +1,4 @@
-import { EpisodeData } from '@/types';
+import { EpisodeData, Fragment } from '@/types';
 
 export const loadEpisode = async (type: string, fname: string): Promise<EpisodeData> => {
   let content;
@@ -57,6 +57,18 @@ export const splitTextIntoChunks = (text: string, targetWordCount: number) => {
 export const applyBionicReading = (text: string): string => {
   return text.split(' ').map(word => {
     const splitIndex = Math.ceil(word.length / 2);
-    return `<b>${word.slice(0, splitIndex)}</b>${word.slice(splitIndex)} `;
+    return `<b>${ word.slice(0, splitIndex) }</b>${ word.slice(splitIndex) } `;
   }).join(' ');
 };
+
+
+export const findMatchedFragment = (fragments: Fragment[], script: string): Fragment | null => {
+  // TODO: find faster way and user friendly way to find
+
+  const scriptText = script.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  const matchedFragment = fragments.find(fragment => {
+    const fragmentText = fragment.lines[0].replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    return scriptText === fragmentText;
+  });
+  return matchedFragment || null;
+}
