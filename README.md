@@ -18,6 +18,7 @@ Pod currently supports two types of podcasts:
 
 2. **[Scientific American Podcast](https://www.scientificamerican.com/podcasts/)**
 
+3. **[Think Fast Talk Smart](https://www.gsb.stanford.edu/business-podcasts/think-fast-talk-smart-podcast)**
 
 I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows, etc in the future. This service is not provided by the official source. All materials are sourced from the internet for educational purposes. Please contact me if there are any copyright concerns.
 
@@ -39,9 +40,9 @@ I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows
 ## Supported Vocabulary
 
 1. CEFR (Common European Framework of Reference for Languages) B1-C1
-2. AWL (Academic Word List) 570
-3. GRE Manhattan Prep 1000
-4. GRE Mason 2000
+2. [AWL (Academic Word List) 570](https://www.eapfoundation.com/vocab/academic/awllists/)
+3. [GRE Manhattan Prep 1000](https://r.piggy.lol/pod/assets/pdf/manhattan_prep_1000_gre_words_.pdf)
+4. [GRE Mason 2000](https://quizlet.com/tw/211687200/mason-gre-2000-flash-cards/)
 5. [GRE 5000](https://www.vocabulary.com/lists/128536)
 
 ## Contribution
