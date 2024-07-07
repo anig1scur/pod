@@ -77,11 +77,11 @@ def process_json_file(json_file_path, type):
     file_name = json_file_path.split("/")[-1][:-5]
     file_path = os.path.join(AUDIOS_DIR.format(type), f"{file_name}.mp3")
 
-    # if data.get("wave_peaks") and data.get("fragments"):
-    #     print(
-    #         f"{file_name} already has wave peaks and fragments data, skipping extraction."
-    #     )
-    #     return
+    if data.get("wave_peaks") and data.get("fragments"):
+        print(
+            f"{file_name} already has wave peaks and fragments data, skipping extraction."
+        )
+        return
 
     if not os.path.exists(file_path):
         if not download_audio(audio_url, file_path):
@@ -97,11 +97,15 @@ def process_json_file(json_file_path, type):
 
     if data.get("fragments"):
         print(f"{file_name} already has fragments data")
+        return
     else:
-        fragments = get_audio_fragment(
-            file_path, "\n".join([s["text"] for s in data["transcript"]])
-        )
-        data["fragments"] = fragments
+        try:
+            fragments = get_audio_fragment(
+                file_path, "\n".join([s["text"] for s in data["transcript"]])
+            )
+            data["fragments"] = fragments
+        except Exception as e:
+            print(f"Failed to extract fragments for {file_name}: {e}")
 
     with open(json_file_path, "w") as f:
         json_dumps_str = json.dumps(data, separators=(",", ":"), cls=NpEncoder)
