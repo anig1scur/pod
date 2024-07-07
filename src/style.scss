@@ -76,12 +76,17 @@
         background-image: url("/icons/last.svg");
       }
 
-      .play {
+      .playing {
+        background-image: url("/icons/pause.svg");
+      }
+
+      .paused {
         background-image: url("/icons/play.svg");
       }
 
-      .pause {
-        background-image: url("/icons/pause.svg");
+      .loading {
+        background-image: url("/icons/loading.svg");
+        @apply animate-spin;
       }
 
       .next {

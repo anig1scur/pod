@@ -8,6 +8,9 @@ export type WaveFormProps = {
   waveColor?: string;
   progressColor?: string;
   onInteract?: () => void;
+  onError?: () => void;
+  onSeek?: () => void;
+  onSeeked?: () => void;
 };
 
 export type WaveFormHandle = {
@@ -31,6 +34,25 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
       _wavesurfer.on('interaction', () => {
         if (props.onInteract) {
           props.onInteract();
+        }
+      });
+
+      _wavesurfer.on('seeking', () => {
+        if (props.onSeek) {
+          props.onSeek();
+        }
+      });
+
+      _wavesurfer.getMediaElement().onseeked = () => {
+        if (props.onSeeked) {
+          props.onSeeked();
+        }
+      }
+
+      _wavesurfer.on('error', (err) => {
+        console.error(err);
+        if (props.onError) {
+          props.onError();
         }
       });
 
