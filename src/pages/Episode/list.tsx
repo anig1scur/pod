@@ -13,13 +13,15 @@ type Episode = {
 export enum podType {
   sixmins = '6mins',
   sciam = 'sciam',
-  epod = 'epod'
+  epod = 'epod',
+  tfts = 'tfts',
 }
 
 export const FullNameMap = {
   [podType.sixmins]: '6 Minutes English',
   [podType.sciam]: 'Scientific American',
-  [podType.epod]: 'English Pod'
+  [podType.epod]: 'English Pod',
+  [podType.tfts]: 'Think Fast Talk Smart',
 };
 
 

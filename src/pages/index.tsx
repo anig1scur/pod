@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import { Link } from 'react-router-dom';
 import SixMins from '@assets/6mins/logo.gif';
+import Tfts from '@assets/tfts/logo.webp';
 import Sciam from '@assets/sciam/logo.png';
 
 
@@ -40,8 +41,15 @@ const Index = () => {
   return (
     <div className='flex flex-col'>
       <Header />
-      <div className="max-w-4xl mt-10">
-        <div className="flex flex-wrap gap-12">
+      <div className="mt-10">
+        <div className="flex flex-wrap gap-10">
+        <PodcastCard
+            href='/tfts'
+            title="Think fast talk smart"
+            description="Learn how to communicate more effectively in professional settings."
+            difficulty={ 4 }
+            logoUrl={ Tfts }
+          />
           <PodcastCard
             href='/6mins'
             title="6 Minutes English"

@@ -8,9 +8,11 @@ from pydub.utils import make_chunks
 
 import aeneas.executetask
 from aeneas.task import Task
+from glob import glob
 
 
 proxies = {}
+
 
 SCRIPTS_DIR = "./public/assets/{}/scripts"
 AUDIOS_DIR = "./public/assets/{}/audios"
@@ -59,6 +61,7 @@ def get_audio_peaks(file_path, chunk_size_ms=300):
 
 
 def download_audio(url, file_path):
+    print(f"Downloading {url}")
     response = requests.get(url, stream=True, proxies=proxies)
     if response.status_code == 200:
         with open(file_path, "wb+") as f:
@@ -73,7 +76,7 @@ def process_json_file(json_file_path, type):
     with open(json_file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    audio_url = data.get("audio", [])
+    audio_url = data.get("audio")
     file_name = json_file_path.split("/")[-1][:-5]
     file_path = os.path.join(AUDIOS_DIR.format(type), f"{file_name}.mp3")
 
@@ -97,7 +100,6 @@ def process_json_file(json_file_path, type):
 
     if data.get("fragments"):
         print(f"{file_name} already has fragments data")
-        return
     else:
         try:
             fragments = get_audio_fragment(
@@ -112,12 +114,42 @@ def process_json_file(json_file_path, type):
         print(json_dumps_str, file=f)
 
 
+def update_typescript_file(type):
+    episodes = []
+    json_files = sorted(glob(os.path.join(SCRIPTS_DIR.format(type), "*.json")))
+    for json_file in json_files:
+        print(f"Processing {json_file}")
+        with open(json_file, "r") as f:
+            episode_data = json.load(f)
+            episodes.append(
+                {
+                    "id": os.path.basename(json_file)[:-5],
+                    "title": episode_data.get("title", ""),
+                    "img": episode_data.get("img", ""),
+                    "url": episode_data.get("url", ""),
+                    "audio": episode_data.get("audio", ""),
+                }
+            )
+
+    episodes = list(reversed(episodes))
+    ts_content = (
+        f"export const episodes = {json.dumps(episodes, indent=2)};\n"
+        f"export const episodeIds = {json.dumps([e['id'] for e in episodes], indent=2)};\n"
+        "export default episodes;"
+    )
+
+    with open("./src/utils/{}.ts".format(type), "w") as f:
+        f.write(ts_content)
+
+
 def process_json_files_in_folder(type):
+    # update_typescript_file(type)
     for root, _, files in os.walk(SCRIPTS_DIR.format(type)):
         for file in files:
             if file.endswith(".json"):
                 json_file_path = os.path.join(root, file)
+                print(f"Processing {json_file_path}")
                 process_json_file(json_file_path, type)
 
 
-process_json_files_in_folder("6mins")
+process_json_files_in_folder("tfts")

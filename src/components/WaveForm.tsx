@@ -85,7 +85,7 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
       wavesurfer.current?.seekTo((curTime + time) / duration);
     },
     seekTo(time: number) {
-      time = time <= 0 ? 1 : time;
+      time = time <= 0 ? 0.01 : time;
       wavesurfer.current?.seekTo(time / wavesurfer.current?.getDuration() || 1);
     },
     onready(callback: () => void) {

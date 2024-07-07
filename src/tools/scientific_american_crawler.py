@@ -87,34 +87,6 @@ def process_and_save_podcast_data(json_data, output_folder):
         with open(output_file_path, "w") as f:
             json.dump(output_data, f, indent=2)
 
-
-def update_typescript_file():
-    episodes = []
-    json_files = sorted(glob(os.path.join(OUTPUT_FOLDER, "*.json")))
-    for json_file in json_files:
-        with open(json_file, "r") as f:
-            episode_data = json.load(f)
-            episodes.append(
-                {
-                    "id": os.path.basename(json_file)[:-5],
-                    "title": episode_data.get("title", ""),
-                    "img": episode_data.get("img", ""),
-                    "url": episode_data.get("url", ""),
-                    "audio": episode_data.get("audio", ""),
-                }
-            )
-
-    episodes = list(reversed(episodes))
-    ts_content = (
-        f"export const episodes = {json.dumps(episodes, indent=2)};\n"
-        f"export const episodeIds = {json.dumps([e['id'] for e in episodes], indent=2)};\n"
-        "export default episodes;"
-    )
-
-    with open("./src/utils/sciam.ts", "w") as f:
-        f.write(ts_content)
-
-
 def main(page_limit=30):
     page = 1
     for _ in range(page_limit):
@@ -128,5 +100,4 @@ def main(page_limit=30):
 
 
 if __name__ == "__main__":
-    # main()
-    update_typescript_file()
+    main()
