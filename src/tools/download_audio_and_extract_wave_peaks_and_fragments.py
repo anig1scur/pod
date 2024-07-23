@@ -138,4 +138,5 @@ def git_push():
 
 if __name__ == "__main__":
     process_json_files()
-    git_push()
+    if os.environ.get("GITHUB_ACTIONS"):
+        git_push()
