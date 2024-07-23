@@ -5,125 +5,106 @@ import numpy as np
 from utils import NpEncoder
 from pydub import AudioSegment
 from pydub.utils import make_chunks
-
 import aeneas.executetask
 from aeneas.task import Task
 from glob import glob
 
+TYPE = os.environ.get("TYPE", "6mins")
 
-proxies = {}
-
-
-SCRIPTS_DIR = "./public/assets/{}/scripts"
-AUDIOS_DIR = "./public/assets/{}/audios"
+SCRIPTS_DIR = f"./public/assets/{TYPE}/scripts"
+AUDIOS_DIR = f"./public/assets/{TYPE}/audios"
 
 
 def get_audio_fragment(audio, script):
     if not script:
-        return
+        return None
+
     task = Task(
         config_string="task_language=eng|is_text_type=plain|os_task_file_format=json"
     )
     task.audio_file_path_absolute = audio
+
     with open("temp_transcript.txt", "w") as f:
         f.write(script)
     task.text_file_path_absolute = "temp_transcript.txt"
 
-    aeneas.executetask.ExecuteTask(task).execute()
-    sync_map = json.loads(task.sync_map.json_string)
-    fragments = []
-    for fragment in sync_map["fragments"]:
-        if not fragment["lines"]:
-            continue
-        fragments.append(
+    try:
+        aeneas.executetask.ExecuteTask(task).execute()
+        sync_map = json.loads(task.sync_map.json_string)
+        return [
             {
                 "begin": fragment["begin"],
                 "end": fragment["end"],
                 "lines": fragment["lines"],
             }
-        )
-
-    return fragments
+            for fragment in sync_map["fragments"]
+            if fragment["lines"]
+        ]
+    except Exception as e:
+        print(f"Error in get_audio_fragment: {e}")
+        return None
 
 
 def get_audio_peaks(file_path, chunk_size_ms=300):
     audio = AudioSegment.from_file(file_path)
     chunks = make_chunks(audio, chunk_size_ms)
-
-    peaks = []
-    for chunk in chunks:
-        raw_data = np.array(chunk.get_array_of_samples())
-
-        peak = np.max(np.abs(raw_data))
-        peaks.append(peak)
-
-    return peaks
+    return [np.max(np.abs(np.array(chunk.get_array_of_samples()))) for chunk in chunks]
 
 
 def download_audio(url, file_path):
     print(f"Downloading {url}")
-    response = requests.get(url, stream=True, proxies=proxies)
+    response = requests.get(url, stream=True)
     if response.status_code == 200:
-        with open(file_path, "wb+") as f:
+        with open(file_path, "wb") as f:
             f.write(response.content)
         print(f"Downloaded {file_path}")
         return True
-    else:
-        print(f"Failed to download {url}, status code: {response.status_code}")
+    print(f"Failed to download {url}, status code: {response.status_code}")
+    return False
 
 
-def process_json_file(json_file_path, type):
+def remove_audio(file_path):
+    if os.path.exists(file_path):
+        os.remove(file_path)
+
+
+def process_json_file(json_file_path):
     with open(json_file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    audio_url = data.get("audio")
-    file_name = json_file_path.split("/")[-1][:-5]
-    file_path = os.path.join(AUDIOS_DIR.format(type), f"{file_name}.mp3")
+    file_name = os.path.splitext(os.path.basename(json_file_path))[0]
+    file_path = os.path.join(AUDIOS_DIR, f"{file_name}.mp3")
 
-    if data.get("wave_peaks") and data.get("fragments"):
-        print(
-            f"{file_name} already has wave peaks and fragments data, skipping extraction."
-        )
-        return
+    if data.get("wave_peaks") is None or data.get("fragments") is None:
+        if not os.path.exists(file_path):
+            if not download_audio(data.get("audio"), file_path):
+                return
 
-    if not os.path.exists(file_path):
-        if not download_audio(audio_url, file_path):
-            return
-    else:
-        print(f"{file_name} already exists, skipping download.")
+        if data.get("wave_peaks") is None:
+            data["wave_peaks"] = get_audio_peaks(file_path)
 
-    if data.get("wave_peaks"):
-        print(f"{file_name} already has wave peaks data")
-    else:
-        peaks = get_audio_peaks(file_path)
-        data["wave_peaks"] = peaks
+        if data.get("fragments") is None:
+            try:
+                script = "\n".join(s["text"] for s in data["transcript"])
+                data["fragments"] = get_audio_fragment(file_path, script)
+            except Exception as e:
+                print(f"Failed to extract fragments for {file_name}: {e}")
+                data["fragments"] = []
 
-    if data.get("fragments"):
-        print(f"{file_name} already has fragments data")
-    else:
-        try:
-            fragments = get_audio_fragment(
-                file_path, "\n".join([s["text"] for s in data["transcript"]])
-            )
-            data["fragments"] = fragments
-        except Exception as e:
-            print(f"Failed to extract fragments for {file_name}: {e}")
-
-    with open(json_file_path, "w") as f:
-        json_dumps_str = json.dumps(data, separators=(",", ":"), cls=NpEncoder)
-        print(json_dumps_str, file=f)
+        with open(json_file_path, "w") as f:
+            json.dump(data, f, separators=(",", ":"), cls=NpEncoder)
+            remove_audio(file_path)
 
 
-def update_typescript_file(type):
+def update_typescript_file():
     episodes = []
-    json_files = sorted(glob(os.path.join(SCRIPTS_DIR.format(type), "*.json")))
+    json_files = sorted(glob(os.path.join(SCRIPTS_DIR, "*.json")))
     for json_file in json_files:
-        print(f"Processing {json_file}")
         with open(json_file, "r") as f:
             episode_data = json.load(f)
             episodes.append(
                 {
-                    "id": os.path.basename(json_file)[:-5],
+                    "id": os.path.splitext(os.path.basename(json_file))[0],
                     "title": episode_data.get("title", ""),
                     "img": episode_data.get("img", ""),
                     "url": episode_data.get("url", ""),
@@ -131,25 +112,30 @@ def update_typescript_file(type):
                 }
             )
 
-    episodes = list(reversed(episodes))
+    episodes.reverse()
     ts_content = (
         f"export const episodes = {json.dumps(episodes, indent=2)};\n"
         f"export const episodeIds = {json.dumps([e['id'] for e in episodes], indent=2)};\n"
         "export default episodes;"
     )
 
-    with open("./src/utils/{}.ts".format(type), "w") as f:
+    with open(f"./src/utils/{TYPE}.ts", "w") as f:
         f.write(ts_content)
 
 
-def process_json_files_in_folder(type):
-    # update_typescript_file(type)
-    for root, _, files in os.walk(SCRIPTS_DIR.format(type)):
-        for file in files:
-            if file.endswith(".json"):
-                json_file_path = os.path.join(root, file)
-                print(f"Processing {json_file_path}")
-                process_json_file(json_file_path, type)
+def process_json_files():
+    update_typescript_file()
+    for json_file in glob(os.path.join(SCRIPTS_DIR, "*.json")):
+        print(f"Processing {json_file}")
+        process_json_file(json_file)
 
 
-process_json_files_in_folder("tfts")
+def git_push():
+    os.system("git add .")
+    os.system(f"git commit -m 'Update audio wave peaks and fragments for {TYPE}'")
+    os.system("git push")
+
+
+if __name__ == "__main__":
+    process_json_files()
+    git_push()

@@ -31,7 +31,7 @@ def extract_all_episode_urls():
         return links
     else:
         print(f"Failed to retrieve the page. Status code: {response.status_code}")
-        return None
+        return []
 
 
 def extract_transcript_from_page(soup):

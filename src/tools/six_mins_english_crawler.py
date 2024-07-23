@@ -1,6 +1,11 @@
+import os
 import json
 import requests
 from bs4 import BeautifulSoup
+
+SCRIPTS_DIR = os.path.join(
+    os.path.dirname(__file__), "../../public/assets/6mins/scripts"
+)
 
 sections = {
     "Introduction": "intro",
@@ -45,7 +50,11 @@ def extract_episode_data(url):
         "authors": [],
     }
 
-    response = requests.get(url, timeout=10)
+    response = requests.get(
+        url,
+        timeout=10,
+        # proxies={"http": "127.0.0.1:1082", "https": "127.0.0.1:1082"},
+    )
     contents = response.text
 
     soup = BeautifulSoup(contents, "html.parser")
@@ -173,7 +182,11 @@ def run():
         fname = data["audio"].split("/")[-1][:-13]
         for r in RENAMES:
             fname = fname.replace(r, "")
-        with open(f"../public/assets/6mins/{fname}.json", "w+") as f:
+        path = os.path.join(SCRIPTS_DIR, f"{fname}.json")
+        if os.path.exists(path):
+            break
+
+        with open(path, "w") as f:
             f.write(json.dumps(data, indent=2))
 
 

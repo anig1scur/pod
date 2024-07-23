@@ -1,0 +1,5 @@
+bs4
+numpy
+pydub
+aeneas
+requests

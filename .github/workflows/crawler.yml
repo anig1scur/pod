@@ -1,0 +1,25 @@
+name: Crawl 6mins
+
+on:
+  issue_comment:
+    types: [created]  # for convenient test
+  schedule:
+    - cron: '*/30 * * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        # numpy 和 aeneas 好似有一些依赖问题。用最新的 Python 有奇怪 bug 不查了。
+        python-version: '3.7'
+    - name: Install dependencies
+      run: |
+        python -m pip install -r src/tools/requirements.txt
+    - name: crawl 6mins latest episode data
+      run: python src/tools/six_mins_english_crawler.py
+    - name: download audio and extract wave peaks and fragments
+      run: python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py

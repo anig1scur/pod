@@ -7,7 +7,6 @@ from glob import glob
 SCRIPTS_DIR = "./public/assets/{}/scripts"
 
 
-# Function to split text into chunks of no more than 100 words
 def split_text(text, max_words=100):
     sentences = re.split(r"(?<=[.!?]) +", text)
     chunks = []
@@ -46,7 +45,7 @@ def process_json_transcripts(json_file):
     data["transcript"] = new_transcript
 
     with open(json_file, "w") as f:
-        json_dumps_str = json.dumps(data,  separators=(",", ":"))
+        json_dumps_str = json.dumps(data, separators=(",", ":"))
         print(json_dumps_str, file=f)
 
 
