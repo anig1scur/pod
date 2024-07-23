@@ -9,7 +9,7 @@ import aeneas.executetask
 from aeneas.task import Task
 from glob import glob
 
-TYPE = os.environ.get("TYPE", "6mins")
+TYPE = os.environ.get("TYPE", "sciam")
 
 SCRIPTS_DIR = f"./public/assets/{TYPE}/scripts"
 AUDIOS_DIR = f"./public/assets/{TYPE}/audios"

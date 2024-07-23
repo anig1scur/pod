@@ -2,7 +2,6 @@ import os
 import json
 import requests
 from bs4 import BeautifulSoup
-from glob import glob
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36"
@@ -86,6 +85,7 @@ def process_and_save_podcast_data(json_data, output_folder):
         output_file_path = os.path.join(output_folder, fn)
         with open(output_file_path, "w") as f:
             json.dump(output_data, f, indent=2)
+
 
 def main(page_limit=30):
     page = 1

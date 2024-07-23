@@ -45,6 +45,24 @@ I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows
 4. [GRE Mason 2000](https://quizlet.com/tw/211687200/mason-gre-2000-flash-cards/)
 5. [GRE 5000](https://www.vocabulary.com/lists/128536)
 
+
+## Development
+
+### 1. Front End
+
+```bash
+pnpm install
+pnpm dev
+```
+
+### 2. Crawl episode data
+
+```bash
+pip install -r src/tools/requirements.txt
+python src/tools/[choose-crawler-file-name].py
+python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
+```
+
 ## Contribution
 
 If you have any suggestions or would like to contribute to this project, please feel free to contact me. I am open to any ideas and improvements.

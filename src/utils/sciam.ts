@@ -1,5 +1,61 @@
 export const episodes = [
   {
+    "id": "1307611",
+    "title": "Watch Tornado Science at the Movies and the Perseids in the Sky",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/windows-down-twisters-on-the-big-screen-and-covids-summer-surge/",
+    "audio": "https://traffic.megaphone.fm/SAM4583328848.mp3?updated=1721426041"
+  },
+  {
+    "id": "1307599",
+    "title": "Cleaning Up Paris\u2019s Poop River for the Olympics\u00a0",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/cleaning-up-the-poop-polluted-seine-for-the-paris-olympics/",
+    "audio": "https://traffic.megaphone.fm/SAM9970074208.mp3?updated=1721335925"
+  },
+  {
+    "id": "1307585",
+    "title": "Name a Quasi-Moon with Radiolab",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-venus-quasi-moon-zoozve-got-its-name/",
+    "audio": "https://traffic.megaphone.fm/SAM8701290808.mp3?updated=1721068793"
+  },
+  {
+    "id": "1307567",
+    "title": "Astronauts Can Drink More Recycled Pee Than Ever, and You Can Still Catch the Plague",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/astronauts-can-drink-more-recycled-pee-than-ever-and-you-can-still-catch-the/",
+    "audio": "https://traffic.megaphone.fm/SAM9732146543.mp3?updated=1720905003"
+  },
+  {
+    "id": "1307555",
+    "title": "Contemplating Our Climate Future in Antarctica",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-antarctic-scientists-think-about-the-future-of-our-planet/",
+    "audio": "https://traffic.megaphone.fm/SAM2326982143.mp3?updated=1720670097"
+  },
+  {
+    "id": "1307541",
+    "title": "The Conservation Efforts That Brought Back the Last Truly Wild Horse",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/przewalskis-horses-are-back-on-tiktok-and-the-central-asian-steppes/",
+    "audio": "https://traffic.megaphone.fm/SAM3820721458.mp3?updated=1720553785"
+  },
+  {
+    "id": "1307528",
+    "title": "Blast from the Past: In 1924 Scientific American Loved Coal (and Telepathy)",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-to-avoid-petrochemical-products/",
+    "audio": "https://traffic.megaphone.fm/SAM7906913989.mp3?updated=1720027842"
+  },
+  {
+    "id": "1307500",
+    "title": "The Supreme Court Preserves Emergency Abortion Access, and NASA Plays It Safe With Starliner\n",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/starliner-astronauts-are-in-limbo-and-emergency-access-to-abortion-is/",
+    "audio": "https://traffic.megaphone.fm/SAM8378025464.mp3?updated=1719611436"
+  },
+  {
     "id": "1307489",
     "title": "Life for Researchers on This Icebreaker Is Cold and Fulfilling",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2521,6 +2577,14 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307611",
+  "1307599",
+  "1307585",
+  "1307567",
+  "1307555",
+  "1307541",
+  "1307528",
+  "1307500",
   "1307489",
   "1307470",
   "1307432",
