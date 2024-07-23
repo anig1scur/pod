@@ -7,7 +7,7 @@ on:
     - cron: '*/30 * * * *'
 
 jobs:
-  sync:
+  crawl:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -18,7 +18,8 @@ jobs:
         python-version: '3.7'
     - name: Install dependencies
       run: |
-        python -m pip install -r src/tools/requirements.txt
+        python -m pip3.7 install numpy==1.17.1
+        python -m pip3.7 install -r src/tools/requirements.txt
     - name: crawl 6mins latest episode data
       run: python src/tools/six_mins_english_crawler.py
     - name: download audio and extract wave peaks and fragments
