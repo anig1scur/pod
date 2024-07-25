@@ -12,8 +12,8 @@ from glob import glob
 
 TYPE = os.environ.get("TYPE", "tfts")
 
-SCRIPTS_DIR = os.path.join(os.path.dirname(__file__), f"./public/assets/{TYPE}/scripts")
-AUDIOS_DIR = os.path.join(os.path.dirname(__file__), f"./public/assets/{TYPE}/audios")
+SCRIPTS_DIR = os.path.join(os.path.dirname(__file__), f"../../public/assets/{TYPE}/scripts")
+AUDIOS_DIR = os.path.join(os.path.dirname(__file__), f"../../public/assets/{TYPE}/audios")
 
 
 def get_audio_fragment(audio, script):
@@ -135,6 +135,7 @@ def process_json_files():
 
 def git_push():
     os.system("git add .")
+    os.system("git rm venv")
     os.system(f"git commit -m 'Update audio wave peaks and fragments for {TYPE}'")
     os.system("git push")
 

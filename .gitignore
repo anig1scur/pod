@@ -38,3 +38,4 @@ typings/
 *.mp3
 *.wav
 temp_transcript.txt
+venv

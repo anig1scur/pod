@@ -7,35 +7,7 @@ on:
     - cron: '*/30 * * * *'
 
 jobs:
-  crawl_setup:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7'
-    - name: Setup FFmpeg
-      uses: AnimMouse/setup-ffmpeg@v1
-    - name: Install espeak
-      run: sudo apt-get update && sudo apt-get install -y espeak libespeak-dev
-    - name: Install dependencies
-      run: |
-        python3.7 -m venv venv
-        source venv/bin/activate
-        pip install -r src/tools/requirements.txt
-    - name: Install aeneas
-      run: |
-        source venv/bin/activate
-        pip install -e git+https://github.com/anig1scur/aeneas.git@master#egg=aeneas
-    - name: Cache venv
-      uses: actions/cache@v2
-      with:
-        path: venv
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
-
   crawl_episode:
-    needs: crawl_setup
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -49,15 +21,29 @@ jobs:
             script: scientific_american_crawler.py
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.7'
-    - name: Restore venv
+
+    - name: Setup FFmpeg
+      uses: AnimMouse/setup-ffmpeg@v1
+    - name: Install espeak
+      run: sudo apt-get update && sudo apt-get install -y espeak libespeak-dev
+    - name: Cache pip
       uses: actions/cache@v2
       with:
-        path: venv
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install -r src/tools/requirements.txt
+        pip install -e git+https://github.com/anig1scur/aeneas.git@master#egg=aeneas
     - name: Crawl latest episode data
       run: |
         source venv/bin/activate
