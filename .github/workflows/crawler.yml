@@ -35,9 +35,11 @@ jobs:
         pip install -e git+https://github.com/anig1scur/aeneas.git@master#egg=aeneas
     - name: Crawl latest episode data
       run: |
+        source venv/bin/activate
+
         if [ "${{ matrix.type }}" == "6mins" ]; then
           python src/tools/six_mins_english_crawler.py
-        if [ "${{ matrix.type }}" == "tfts" ]; then
+        elif [ "${{ matrix.type }}" == "tfts" ]; then
           python src/tools/think_fast_talk_smart_crawler.py
         else
           python src/tools/scientific_american_crawler.py
@@ -46,4 +48,6 @@ jobs:
       env:
         GITHUB_ACTIONS: true
         TYPE: ${{ matrix.type }}
-      run: python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
+      run: |
+        source venv/bin/activate
+        python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
