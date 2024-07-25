@@ -581,6 +581,13 @@ export const episodes = [
     "audio": "https://content.production.cdn.art19.com/segment_lists/53b802c2-d81b-4672-9e64-9a325268e7a9/20211026-UGhpbCBaaW1iYXJkbyBtaXggbWFzdGVyIDIud2F2-f23e70ee-e52a-4c7d-bb85-603b51408248.mp3"
   },
   {
+    "id": "get-hired-how-right-communication-can-advance-your-career",
+    "title": "Get Hired: How the Right Communication Can Advance Your Career",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/get-hired-how-right-communication-can-advance-your-career",
+    "audio": "https://content.production.cdn.art19.com/segment_lists/92bad50e-e329-4abe-b31a-4d7b9645b4f4/20240711-VEZUU19BbmRyZXcgU2VhbWFuX0ZJTkFMLndhdg-a12409d1-5736-467e-8a61-8c28a3a33cde.mp3"
+  },
+  {
     "id": "function-friction-how-use-obstacles-your-advantage",
     "title": "The Function of Friction: How to Use Obstacles to Your Advantage",
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
@@ -684,6 +691,13 @@ export const episodes = [
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
     "url": "https://www.gsb.stanford.edu/insights/conviction-compassion-how-have-hard-conversations",
     "audio": "https://content.production.cdn.art19.com/segment_lists/56d51341-70c1-4a19-b923-ed005232571c/20240620-SXJ2IEdyb3VzZWJlY2sgRklOQUwud2F2-dca9474b-c38c-4b8e-8092-05bda8629af2.mp3"
+  },
+  {
+    "id": "communication-tips-classroom-around-world",
+    "title": "Communication Tips from the Classroom and Around the World",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/communication-tips-classroom-around-world",
+    "audio": "https://content.production.cdn.art19.com/segment_lists/cdb4e4dc-f630-4ade-8b2d-a8839890e5b5/20240703-VEZUU18xNTB0aEVwaXNvZGVfRklOQUwud2F2-1eade580-d762-4a31-8ba9-5a5fc3d5e334.mp3"
   },
   {
     "id": "communication-means-paying-attention-four-pillars-active-listening",
@@ -889,6 +903,7 @@ export const episodeIds = [
   "good-great-what-makes-supercommunicator",
   "give-it-me-straight-power-honest-constructive-feedback",
   "get-psyched-how-time-situations-shape-communication",
+  "get-hired-how-right-communication-can-advance-your-career",
   "function-friction-how-use-obstacles-your-advantage",
   "forgiveness-how-right-communication-repairs-relationships",
   "feelings-first-how-emotion-shapes-communication-decisions-experiences",
@@ -904,6 +919,7 @@ export const episodeIds = [
   "create-presence-how-communicate-way-others-can-feel",
   "courage-belonging-ambiguity-data-how-design-your-communication-success",
   "conviction-compassion-how-have-hard-conversations",
+  "communication-tips-classroom-around-world",
   "communication-means-paying-attention-four-pillars-active-listening",
   "communicating-uncertainty-how-connect-your-audience-even-when-answers-arent-clear",
   "communicating-through-conflict-how-get-along-anyone",

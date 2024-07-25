@@ -4,14 +4,19 @@ import requests
 from bs4 import BeautifulSoup
 
 
-headers = {
-    "Origin": "https://www.gsb.stanford.edu",
-    "Referer": "https://www.gsb.stanford.edu/",
-    "Accept": "application/json",
+HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "Accept-Encoding": "gzip, deflate, br, zstd",
     "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
 }
+
+ART19_HEADERS = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+}
+
 HOST = "https://www.gsb.stanford.edu"
 TFTS_URL = (
     "https://www.gsb.stanford.edu/business-podcasts/think-fast-talk-smart-podcast"
@@ -22,7 +27,7 @@ RSS_ART19 = "https://rss.art19.com/episodes/"
 
 
 def extract_all_episode_urls():
-    response = requests.get(TFTS_URL, headers=headers)
+    response = requests.get(TFTS_URL, headers=HEADERS, timeout=20)
     if response.status_code == 200:
         classname = "views-field views-field-title"
         soup = BeautifulSoup(response.text, "html.parser")
@@ -85,10 +90,11 @@ def get_id_from_page(soup):
 
 
 def get_audio_url_from_art19(id):
-    response = requests.get(RSS_ART19 + id, headers=headers)
+    response = requests.get(RSS_ART19 + id, headers=ART19_HEADERS, timeout=10)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, "html.parser")
         data = json.loads(soup.text)
+        print(data["content"])
         audio_url = data["content"]["media"]["mp3"]["url"]
         return audio_url
     else:
@@ -101,10 +107,10 @@ def extract_and_save_episode_data(url):
     file_path = os.path.join(OUTPUT_FOLDER, f"{file_name}.json")
 
     if os.path.exists(file_path):
-        print(f"{file_name} already exists, skipping extraction.")
+        # print(f"{file_name} already exists, skipping extraction.")
         return
 
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(response.text, "html.parser")
     print(f"Extracting data from {url}")
     id = get_id_from_page(soup)
@@ -127,7 +133,7 @@ def extract_and_save_episode_data(url):
 
 def main():
     episode_urls = extract_all_episode_urls()
-    for url in episode_urls[20:]:
+    for url in episode_urls:
         extract_and_save_episode_data(url)
 
 

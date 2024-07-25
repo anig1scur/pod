@@ -94,18 +94,18 @@ const Player: FC<PlayerProps> = (props) => {
         } }
         onSeek={ () => {
           setPlayState('loading');
-        }}
+        } }
         onError={ () => {
           setPlayState('loading');
         } }
         onSeeked={ () => {
           setPlayState('playing');
-        }}
+        } }
       />
       <div className='control'>
         <div className='title' title={ last || "NO LAST EPISODE" }>{ last || "NO LAST EPISODE" }</div>
-        <div className='backfoward' onClick={ backfoward } />
-        <div className='last' onClick={ _toLast } />
+        <div className='backfoward' title="回退" onClick={ backfoward } />
+        <div className='last' title="上一集" onClick={ _toLast } />
         <div
           className={
             `play ${ playState }`
@@ -116,8 +116,8 @@ const Player: FC<PlayerProps> = (props) => {
             }
           } }
         />
-        <div className='next' onClick={ _toNext } />
-        <div className='forward' onClick={ forward } />
+        <div className='next' title="下一集" onClick={ _toNext } />
+        <div className='forward' title='快进' onClick={ forward } />
         <div className='title' title={ next || "NO NEXT EPISODE" }>{ next || "NO NEXT EPISODE" }</div>
       </div>
     </div>

@@ -1,4 +1,7 @@
 bs4
 pydub
-aeneas
+numpy==1.17.2
+aeneas==1.7.3.0
 requests
+librosa
+lxml

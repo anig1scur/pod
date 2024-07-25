@@ -1,5 +1,6 @@
 import os
 import json
+import librosa
 import requests
 import numpy as np
 from utils import NpEncoder
@@ -9,7 +10,7 @@ import aeneas.executetask
 from aeneas.task import Task
 from glob import glob
 
-TYPE = os.environ.get("TYPE", "sciam")
+TYPE = os.environ.get("TYPE", "tfts")
 
 SCRIPTS_DIR = f"./public/assets/{TYPE}/scripts"
 AUDIOS_DIR = f"./public/assets/{TYPE}/audios"
@@ -90,6 +91,8 @@ def process_json_file(json_file_path):
             except Exception as e:
                 print(f"Failed to extract fragments for {file_name}: {e}")
                 data["fragments"] = []
+
+        data["duration"] = librosa.get_duration(filename=file_path)
 
         with open(json_file_path, "w") as f:
             json.dump(data, f, separators=(",", ":"), cls=NpEncoder)
