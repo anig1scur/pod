@@ -1,7 +1,7 @@
 bs4
 pydub
-numpy==1.17.2
-aeneas==1.7.3.0
+numpy==1.17.1
+# aeneas==1.7.3.0
 requests
 librosa
 lxml

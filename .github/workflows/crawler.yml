@@ -22,8 +22,17 @@ jobs:
         python-version: '3.7'
     - name: Setup FFmpeg
       uses: AnimMouse/setup-ffmpeg@v1
+    - name: Install espeak
+      run: sudo apt-get update && sudo apt-get install -y espeak libespeak-dev
     - name: Install dependencies
-      run: pip3.7 install -r src/tools/requirements.txt --user
+      run: |
+        python3.7 -m venv venv
+        source venv/bin/activate
+        pip install -r src/tools/requirements.txt
+    - name: Install aeneas
+      run: |
+        source venv/bin/activate
+        pip install -e git+https://github.com/anig1scur/aeneas.git@master#egg=aeneas
     - name: Crawl latest episode data
       run: |
         if [ "${{ matrix.type }}" == "6mins" ]; then
