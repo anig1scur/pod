@@ -14,6 +14,13 @@ export const episodes = [
     "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240802_6_minute_english_fighting_loneliness_with_soup_download.mp3"
   },
   {
+    "id": "240725__why_read_books_not_screens",
+    "title": "Why read books, not screens?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jbxqsd.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240725",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240725_6_minute_english_why_read_books_not_screens_download.mp3"
+  },
+  {
     "id": "240718__AI_and_animal_testing",
     "title": "AI to reduce animal testing",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0j99wtz.jpg",
@@ -3496,6 +3503,7 @@ export const episodes = [
 export const episodeIds = [
   "le_190613__phone_embarrassing",
   "240802__fighting_loneliness_with_soup",
+  "240725__why_read_books_not_screens",
   "240718__AI_and_animal_testing",
   "240711__the_school_that_puts_the_kids_in_charge",
   "240704__what_can_we_learn_from_toddlers",
