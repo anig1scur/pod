@@ -7,18 +7,13 @@ on:
     - cron: '*/30 * * * *'
 
 jobs:
-  crawl_audios:
+  crawl_setup:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        type: [6mins, tfts, sciam]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        # numpy 和 aeneas 好似有一些依赖问题。用最新的 Python 有奇怪 bug 不查了。
-        # https://github.com/readbeyond/aeneas/issues/306
         python-version: '3.7'
     - name: Setup FFmpeg
       uses: AnimMouse/setup-ffmpeg@v1
@@ -33,17 +28,40 @@ jobs:
       run: |
         source venv/bin/activate
         pip install -e git+https://github.com/anig1scur/aeneas.git@master#egg=aeneas
+    - name: Cache venv
+      uses: actions/cache@v2
+      with:
+        path: venv
+        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
+
+  crawl_episode:
+    needs: crawl_setup
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - type: 6mins
+            script: six_mins_english_crawler.py
+          - type: tfts
+            script: think_fast_talk_smart_crawler.py
+          - type: sciam
+            script: scientific_american_crawler.py
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.7'
+    - name: Restore venv
+      uses: actions/cache@v2
+      with:
+        path: venv
+        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.txt') }}
     - name: Crawl latest episode data
       run: |
         source venv/bin/activate
-
-        if [ "${{ matrix.type }}" == "6mins" ]; then
-          python src/tools/six_mins_english_crawler.py
-        elif [ "${{ matrix.type }}" == "tfts" ]; then
-          python src/tools/think_fast_talk_smart_crawler.py
-        else
-          python src/tools/scientific_american_crawler.py
-        fi
+        python src/tools/${{ matrix.script }}
     - name: Download audio and extract wave peaks and fragments
       env:
         GITHUB_ACTIONS: true

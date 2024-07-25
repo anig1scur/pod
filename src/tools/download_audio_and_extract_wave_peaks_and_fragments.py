@@ -12,8 +12,8 @@ from glob import glob
 
 TYPE = os.environ.get("TYPE", "tfts")
 
-SCRIPTS_DIR = f"./public/assets/{TYPE}/scripts"
-AUDIOS_DIR = f"./public/assets/{TYPE}/audios"
+SCRIPTS_DIR = os.path.join(os.path.dirname(__file__), f"./public/assets/{TYPE}/scripts")
+AUDIOS_DIR = os.path.join(os.path.dirname(__file__), f"./public/assets/{TYPE}/audios")
 
 
 def get_audio_fragment(audio, script):
