@@ -50,8 +50,11 @@ jobs:
         python src/tools/${{ matrix.script }}
     - name: Download audio and extract wave peaks and fragments
       env:
-        GITHUB_ACTIONS: true
         TYPE: ${{ matrix.type }}
       run: |
         source venv/bin/activate
         python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
+    - name: "Commit"
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Update episode data of ${{ matrix.type }}
