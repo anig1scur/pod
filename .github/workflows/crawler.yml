@@ -54,6 +54,11 @@ jobs:
       run: |
         source venv/bin/activate
         python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
+    - name: Pull latest changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull origin ${{ github.ref }}
     - name: "Commit"
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
