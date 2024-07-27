@@ -32,4 +32,5 @@ export type EpisodeData = {
   wave_peaks: number[];
   categories?: string[];
   fragments?: Fragment[];
+  duration: number;
 }

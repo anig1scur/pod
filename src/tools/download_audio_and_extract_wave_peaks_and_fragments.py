@@ -1,16 +1,16 @@
 import os
 import json
-import librosa
 import requests
 import numpy as np
 from utils import NpEncoder
+from mutagen.mp3 import MP3
 from pydub import AudioSegment
 from pydub.utils import make_chunks
 import aeneas.executetask
 from aeneas.task import Task
 from glob import glob
 
-TYPE = os.environ.get("TYPE", "tfts")
+TYPE = os.environ.get("TYPE", "sciam")
 
 SCRIPTS_DIR = os.path.join(
     os.path.dirname(__file__), f"../../public/assets/{TYPE}/scripts"
@@ -18,6 +18,16 @@ SCRIPTS_DIR = os.path.join(
 AUDIOS_DIR = os.path.join(
     os.path.dirname(__file__), f"../../public/assets/{TYPE}/audios"
 )
+
+
+def get_mp3_duration(file_path):
+    try:
+        audio = MP3(file_path)
+        duration_seconds = audio.info.length
+        return duration_seconds
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
 
 
 def get_audio_fragment(audio, script):
@@ -80,7 +90,11 @@ def process_json_file(json_file_path):
     file_name = os.path.splitext(os.path.basename(json_file_path))[0]
     file_path = os.path.join(AUDIOS_DIR, f"{file_name}.mp3")
 
-    if data.get("wave_peaks") is None or data.get("fragments") is None:
+    if (
+        data.get("wave_peaks") is None
+        or data.get("fragments") is None
+        or data.get("duration") is None
+    ):
         if not os.path.exists(file_path):
             if not download_audio(data.get("audio"), file_path):
                 return
@@ -96,7 +110,7 @@ def process_json_file(json_file_path):
                 print(f"Failed to extract fragments for {file_name}: {e}")
                 data["fragments"] = []
 
-        data["duration"] = librosa.get_duration(filename=file_path)
+        data["duration"] = get_mp3_duration(file_path)
 
         with open(json_file_path, "w") as f:
             json.dump(data, f, separators=(",", ":"), cls=NpEncoder)
