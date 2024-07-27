@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1307644",
+    "title": "Sustainable Fishing with Ancient Chambers and Ocean Tides",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/reviving-tidal-weirs-and-preserving-an-ancient-fishing-practice/",
+    "audio": "https://traffic.megaphone.fm/SAM6985231963.mp3?updated=1721946378"
+  },
+  {
+    "id": "1307625",
+    "title": "These Advanced Meditation Practices Unlock New Understandings of Consciousness",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/altering-consciousness-with-advanced-meditation/",
+    "audio": "https://traffic.megaphone.fm/SAM1098953563.mp3?updated=1721765108"
+  },
+  {
     "id": "1307611",
     "title": "Watch Tornado Science at the Movies and the Perseids in the Sky",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2577,6 +2591,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307644",
+  "1307625",
   "1307611",
   "1307599",
   "1307585",
