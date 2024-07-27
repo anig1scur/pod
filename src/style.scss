@@ -63,7 +63,7 @@
   }
 
   .player {
-    @apply border-[3px] border-black rounded-lg p-4 flex gap-6 flex-col;
+    @apply border-[3px] border-black rounded-lg p-4 flex gap-1 flex-col;
 
     .control {
       @apply flex items-center gap-4 mt-4;
@@ -105,6 +105,10 @@
         @apply w-72 px-3 leading-8 text-ellipsis cursor-text text-left text-nowrap overflow-hidden bg-black text-white rounded-lg;
       }
 
+    }
+
+    .progress {
+      @apply mt-3;
     }
   }
 

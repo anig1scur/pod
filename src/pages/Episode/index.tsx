@@ -103,6 +103,7 @@ const Episode: FC<episodeProps> = (props) => {
           ' href={ episodeData.url }>{ episodeData.title }</a></h1>
           {/* FIXME: the start time of sciam is not regular */ }
           <Player
+            duration={ episodeData.duration }
             waveFormRef={ waveFormRef }
             start_time={ START_TIME_MAP.get(pid) || 0 }
             audio_url={ audio_url }

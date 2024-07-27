@@ -9,14 +9,17 @@ export type WaveFormProps = {
   progressColor?: string;
   onInteract?: () => void;
   onError?: () => void;
-  onSeek?: () => void;
+  onSeek?: (time: number) => void;
   onSeeked?: () => void;
+  onAudioProcess?: (time: number) => void;
 };
 
 export type WaveFormHandle = {
   seek: (time: number) => void;
   onready: (callback: () => void) => void;
   seekTo: (time: number) => void;
+  getCurrentTime: () => number;
+  getDuration: () => number;
 };
 
 const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
@@ -39,7 +42,7 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
 
       _wavesurfer.on('seeking', () => {
         if (props.onSeek) {
-          props.onSeek();
+          props.onSeek(_wavesurfer.getCurrentTime());
         }
       });
 
@@ -48,6 +51,12 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
           props.onSeeked();
         }
       }
+
+      _wavesurfer.on('audioprocess', (time) => {
+        if (props.onAudioProcess) {
+          props.onAudioProcess(time);
+        }
+      });
 
       _wavesurfer.on('error', (err) => {
         console.error(err);
@@ -90,6 +99,12 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
     },
     onready(callback: () => void) {
       wavesurfer.current?.on('ready', callback);
+    },
+    getCurrentTime() {
+      return wavesurfer.current?.getCurrentTime() || 0;
+    },
+    getDuration() {
+      return wavesurfer.current?.getDuration() || 0;
     }
   }));
 

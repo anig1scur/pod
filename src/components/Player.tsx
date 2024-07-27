@@ -4,6 +4,7 @@ import WaveForm, { WaveFormHandle } from './WaveForm';
 export type PlayerProps = {
   audio_url: string;
   peaks: number[];
+  duration: number;
   start_time?: number;
   last?: string;
   next?: string;
@@ -13,15 +14,20 @@ export type PlayerProps = {
 }
 
 const Player: FC<PlayerProps> = (props) => {
-  const { last, next, toNext, toLast, audio_url, waveFormRef } = props;
+  const { last, next, toNext, toLast, audio_url, waveFormRef, duration } = props;
   const [playState, setPlayState] = useState<'loading' | 'playing' | 'paused'>('paused');
+  const [currentTime, setCurrentTime] = useState(0);
+
+  useEffect(() => {
+    setCurrentTime(0);
+  }, [audio_url]);
 
   useEffect(() => {
     if (!waveFormRef?.current) return;
-
     if (props.start_time) {
       waveFormRef.current.onready(() => {
         waveFormRef.current?.seek(props.start_time || 0);
+        setCurrentTime(props.start_time || 0);
       });
     }
   }, [props.start_time, waveFormRef]);
@@ -82,6 +88,12 @@ const Player: FC<PlayerProps> = (props) => {
     };
   }, [handleKeyDown]);
 
+  const formatTime = (time: number) => {
+    const minutes = Math.floor(time / 60);
+    const seconds = Math.floor(time % 60);
+    return `${ minutes.toString().padStart(2, '0') }:${ seconds.toString().padStart(2, '0') }`;
+  };
+
   return (
     <div className='player'>
       <WaveForm
@@ -92,16 +104,23 @@ const Player: FC<PlayerProps> = (props) => {
         onInteract={ () => {
           setPlayState('loading');
         } }
-        onSeek={ () => {
+        onSeek={ (time) => {
           setPlayState('loading');
+          setCurrentTime(time);
         } }
         onError={ () => {
           setPlayState('loading');
+        } }
+        onAudioProcess={ (time) => {
+          setCurrentTime(time);
         } }
         onSeeked={ () => {
           setPlayState('playing');
         } }
       />
+      <div className='progress'>
+        <span>{ formatTime(currentTime) }</span> / <span>{ formatTime(duration) }</span>
+      </div>
       <div className='control'>
         <div className='title' title={ last || "NO LAST EPISODE" }>{ last || "NO LAST EPISODE" }</div>
         <div className='backfoward' title="回退" onClick={ backfoward } />
