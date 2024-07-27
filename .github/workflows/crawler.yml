@@ -56,8 +56,8 @@ jobs:
         python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
     - name: Pull latest changes
       run: |
-        git config --global user.name "${GITHUB_ACTOR}"
-        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add .
         # Check if there are any changes to commit
         if git diff --staged --quiet; then
