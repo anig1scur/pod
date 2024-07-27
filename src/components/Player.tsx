@@ -118,11 +118,12 @@ const Player: FC<PlayerProps> = (props) => {
           setPlayState('playing');
         } }
       />
-      <div className='progress'>
-        <span>{ formatTime(currentTime) }</span> / <span>{ formatTime(duration) }</span>
-      </div>
+
       <div className='control'>
-        <div className='title' title={ last || "NO LAST EPISODE" }>{ last || "NO LAST EPISODE" }</div>
+        <div className='progress'>
+        <span>{ formatTime(currentTime) }</span>&nbsp;/&nbsp;<span>{ formatTime(duration) }</span>
+        </div>
+        {/* <div className='title' title={ last || "NO LAST EPISODE" }>{ last || "NO LAST EPISODE" }</div> */ }
         <div className='backfoward' title="回退" onClick={ backfoward } />
         <div className='last' title="上一集" onClick={ _toLast } />
         <div

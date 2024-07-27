@@ -102,13 +102,12 @@
       }
 
       .title {
-        @apply w-72 px-3 leading-8 text-ellipsis cursor-text text-left text-nowrap overflow-hidden bg-black text-white rounded-lg;
+        @apply w-full px-3 leading-8 text-ellipsis cursor-text text-left text-nowrap overflow-hidden bg-black text-white rounded-lg;
       }
 
-    }
-
-    .progress {
-      @apply mt-3;
+      .progress {
+        @apply flex w-32 justify-between items-center
+      }
     }
   }
 
