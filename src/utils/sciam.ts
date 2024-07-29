@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307651",
+    "title": "Heat Records, Unexpected Downpours and Extreme Animals",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/cocaine-sharks-komodo-teeth-and-record-breaking-heat/",
+    "audio": "https://traffic.megaphone.fm/SAM7698865265.mp3?updated=1722026720"
+  },
+  {
     "id": "1307644",
     "title": "Sustainable Fishing with Ancient Chambers and Ocean Tides",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2591,6 +2598,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307651",
   "1307644",
   "1307625",
   "1307611",
