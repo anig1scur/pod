@@ -441,6 +441,13 @@ export const episodes = [
     "audio": "https://content.production.cdn.art19.com/segment_lists/48d2fd0f-bc82-496c-855b-da039711a54e/20230508-VEZUU19SYWNoZWwgR3JlZW53YWxkX01peC0xLndhdg-e77087d3-db23-4c9d-adb6-0dce39e1e5bd.mp3"
   },
   {
+    "id": "listen-leaders-record-setting-coachs-guide-communication",
+    "title": "Listen Up, Leaders: A Record-Setting Coach\u2019s Guide to Communication",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/listen-leaders-record-setting-coachs-guide-communication",
+    "audio": "https://content.production.cdn.art19.com/segment_lists/7ff6a050-1741-4218-aea8-7745d1442d88/20240726-VEZUU19UYXJhIFZhbmRlcnZlZXJfRklOQUwud2F2-734adc9a-5264-4ede-bf1e-4d967b8eeb29.mp3"
+  },
+  {
     "id": "lean-messaging-how-simple-messages-really-stick",
     "title": "Lean Messaging: How Simple Messages Really Stick",
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
@@ -883,6 +890,7 @@ export const episodeIds = [
   "look-within-how-lead-self-awareness-vulnerability",
   "listen-why-its-better-be-interested-interesting",
   "listen-listen-listen-how-build-deep-connections",
+  "listen-leaders-record-setting-coachs-guide-communication",
   "lean-messaging-how-simple-messages-really-stick",
   "leading-hot-seat-how-communicate-under-pressure",
   "leading-home-how-create-right-environment-communication",
