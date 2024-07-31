@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307664",
+    "title": "The Long History of Sex Testing in the Olympics and Other Elite Sports",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/sex-testing-in-the-olympics-and-other-elite-sports-is-based-on-flawed/",
+    "audio": "https://traffic.megaphone.fm/SAM5252918496.mp3?updated=1722376857"
+  },
+  {
     "id": "1307651",
     "title": "Heat Records, Unexpected Downpours and Extreme Animals",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2598,6 +2605,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307664",
   "1307651",
   "1307644",
   "1307625",
