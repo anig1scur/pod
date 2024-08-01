@@ -14,6 +14,13 @@ export const episodes = [
     "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240802_6_minute_english_fighting_loneliness_with_soup_download.mp3"
   },
   {
+    "id": "240801__the_science_of_falling_in_love",
+    "title": "The science of falling in love",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jd9qqw.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240801",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240801_6_minute_english_the_science_of_falling_in_love_download.mp3"
+  },
+  {
     "id": "240725__why_read_books_not_screens",
     "title": "Why read books, not screens?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jbxqsd.jpg",
@@ -3503,6 +3510,7 @@ export const episodes = [
 export const episodeIds = [
   "le_190613__phone_embarrassing",
   "240802__fighting_loneliness_with_soup",
+  "240801__the_science_of_falling_in_love",
   "240725__why_read_books_not_screens",
   "240718__AI_and_animal_testing",
   "240711__the_school_that_puts_the_kids_in_charge",
