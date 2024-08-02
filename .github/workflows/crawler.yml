@@ -66,4 +66,7 @@ jobs:
           git commit -m "Update episode data of ${{ matrix.type }}"
           git pull origin ${{ github.ref }} --rebase
           git push origin ${{ github.ref }}
+          gh workflow run deploy.yml
         fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
