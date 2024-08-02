@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307678",
+    "title": "How Ancient Humans Interpreted the Cosmos",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-did-ancient-humans-think-when-they-looked-up-at-the-night-sky/",
+    "audio": "https://traffic.megaphone.fm/SAM9408046311.mp3?updated=1722574776"
+  },
+  {
     "id": "1307664",
     "title": "The Long History of Sex Testing in the Olympics and Other Elite Sports",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2605,6 +2612,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307678",
   "1307664",
   "1307651",
   "1307644",
