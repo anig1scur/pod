@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307685",
+    "title": "Scientists Sound Alarms on New Surge in Cancers and a Private Spacewalk is Pushed Back",
+    "img": "https://static.scientificamerican.com/dam/m/213c23f229393dc/original/02_SQLandscape.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/cancer-case-rates-are-rising-across-generations-and-a-spacex-private/",
+    "audio": "https://traffic.megaphone.fm/SAM8712804288.mp3?updated=1722626587"
+  },
+  {
     "id": "1307678",
     "title": "How Ancient Humans Interpreted the Cosmos",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2612,6 +2619,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307685",
   "1307678",
   "1307664",
   "1307651",
