@@ -672,6 +672,13 @@ export const episodes = [
     "audio": "https://content.production.cdn.art19.com/segment_lists/42a51c5a-93db-412a-b068-4bee73181d9d/20210330-bmlybXVzaWMzLndhdg-39575250-e7dc-45a8-a1ad-a9bb37afd7ed.mp3"
   },
   {
+    "id": "directive-speech-vs-dialogue-how-leaders-communicate-clarity-balance",
+    "title": "Directive Speech vs. Dialogue: How Leaders Communicate with Clarity, Balance",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/directive-speech-vs-dialogue-how-leaders-communicate-clarity-balance",
+    "audio": "https://content.production.cdn.art19.com/segment_lists/c6554cd0-7185-43a0-8df6-685666f3d11c/20240731-VEZUU19CZXN0IE9mIEpvbiBMZXZpbl9taXgtMi53YXY-78489da5-deda-4676-8655-f48db3a523ea.mp3"
+  },
+  {
     "id": "directive-speech-vs-dialogue-communicating-better-leader",
     "title": "Directive Speech vs. Dialogue: Communicating Better as a Leader",
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
@@ -923,6 +930,7 @@ export const episodeIds = [
   "dont-sweat-small-stuff-how-excel-small-talk-even-enjoy-it",
   "dont-get-lost-translation-how-non-native-speakers-can-communicate-confidence",
   "dissolve-disagreements-how-communication-impacts-conflict",
+  "directive-speech-vs-dialogue-how-leaders-communicate-clarity-balance",
   "directive-speech-vs-dialogue-communicating-better-leader",
   "create-presence-how-communicate-way-others-can-feel",
   "courage-belonging-ambiguity-data-how-design-your-communication-success",
