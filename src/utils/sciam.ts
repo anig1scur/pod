@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307698",
+    "title": "Healthy Coral Reefs Sound like a Symphony",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/this-is-how-a-healthy-coral-reef-sounds-and-why-it-matters/",
+    "audio": "https://traffic.megaphone.fm/SAM3125261875.mp3?updated=1722979382"
+  },
+  {
     "id": "1307685",
     "title": "Scientists Sound Alarms on New Surge in Cancers and a Private Spacewalk is Pushed Back",
     "img": "https://static.scientificamerican.com/dam/m/213c23f229393dc/original/02_SQLandscape.png",
@@ -2619,6 +2626,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307698",
   "1307685",
   "1307678",
   "1307664",
