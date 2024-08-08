@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "240808__birthday_cakes",
+    "title": "day cakes",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jd9pyc.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240808",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240808_6_minute_english_birthday_cakes_download.mp3"
+  },
+  {
     "id": "240802__fighting_loneliness_with_soup",
     "title": "Fighting loneliness with soup",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0h5zhxc.jpg",
@@ -3509,6 +3516,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "240808__birthday_cakes",
   "240802__fighting_loneliness_with_soup",
   "240801__the_science_of_falling_in_love",
   "240725__why_read_books_not_screens",
