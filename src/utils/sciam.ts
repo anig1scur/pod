@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307716",
+    "title": "Extreme Conditions and Ethical Dilemmas: The Archaeology of Human Sacrifice",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/archaeologists-confront-extreme-conditions-and-ethical-dilemmas-while/",
+    "audio": "https://traffic.megaphone.fm/SAM7109747244.mp3?updated=1723152882"
+  },
+  {
     "id": "1307698",
     "title": "Healthy Coral Reefs Sound like a Symphony",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2626,6 +2633,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307716",
   "1307698",
   "1307685",
   "1307678",
