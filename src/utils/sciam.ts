@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307723",
+    "title": "Olympic Athletes Swim the Murky Seine, and Astronauts Are Stuck on the Space Station",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/researchers-debate-theory-of-pyramids-construction-astronauts-are-stuck-in/",
+    "audio": "https://traffic.megaphone.fm/SAM1179056765.mp3?updated=1723236109"
+  },
+  {
     "id": "1307716",
     "title": "Extreme Conditions and Ethical Dilemmas: The Archaeology of Human Sacrifice",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2633,6 +2640,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307723",
   "1307716",
   "1307698",
   "1307685",
