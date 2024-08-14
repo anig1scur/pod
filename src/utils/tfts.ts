@@ -756,6 +756,13 @@ export const episodes = [
     "audio": "https://content.production.cdn.art19.com/segment_lists/90ed7c27-a9df-477f-959d-d44fca3ec422/20230120-VEZUU19Cb2JDaWFsZGluaV9NaXgtMiAoMSkud2F2-1643adcb-21e7-489e-9160-4690ca2e2547.mp3"
   },
   {
+    "id": "can-we-be-candid-how-communicate-clearly-directly",
+    "title": "Can We Be Candid? How to Communicate Clearly and Directly",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/can-we-be-candid-how-communicate-clearly-directly",
+    "audio": "https://content.production.cdn.art19.com/segment_lists/6152f3a0-34df-4e97-8f6a-348194fdd530/20240807-VEZUU19TdXNhbiBSaWNlX0ZJTkFMLndhdg-4a5963ab-1d64-4aef-84f5-89284cafbe0c.mp3"
+  },
+  {
     "id": "building-successful-relationships-how-effectively-communicate-your-professional-personal",
     "title": "Building Successful Relationships: How to Effectively Communicate in Your Professional and Personal Life",
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
@@ -942,6 +949,7 @@ export const episodeIds = [
   "communicating-multiple-selves-how-manage-your-reputation",
   "communicating-mistakes-how-avoid-common-errors-make-better-decisions",
   "change-my-mind-using-pre-suasion-influence-others",
+  "can-we-be-candid-how-communicate-clearly-directly",
   "building-successful-relationships-how-effectively-communicate-your-professional-personal",
   "building-high-performing-teams-encouraging-learning",
   "building-habits-key-lasting-behavior-change",
