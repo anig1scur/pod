@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307734",
+    "title": "A Close Encounter with SpaceX Debris Teaches an Astronomer about Space Junk\n",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-an-astronomer-responded-when-space-junk-fell-on-a-nearby-farm/",
+    "audio": "https://traffic.megaphone.fm/SAM3565817226.mp3?updated=1723585186"
+  },
+  {
     "id": "1307723",
     "title": "Olympic Athletes Swim the Murky Seine, and Astronauts Are Stuck on the Space Station",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2640,6 +2647,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307734",
   "1307723",
   "1307716",
   "1307698",
