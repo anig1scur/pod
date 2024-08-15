@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "240815__kids_and_climate_change",
+    "title": "Kids and climate change",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jgt8p8.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240815",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240815_6_minute_english_kids_and_climate_change_download.mp3"
+  },
+  {
     "id": "240808__birthday_cakes",
     "title": "day cakes",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jd9pyc.jpg",
@@ -3516,6 +3523,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "240815__kids_and_climate_change",
   "240808__birthday_cakes",
   "240802__fighting_loneliness_with_soup",
   "240801__the_science_of_falling_in_love",
