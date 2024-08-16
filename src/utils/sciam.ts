@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307750",
+    "title": "A Survey of 16,000 Changes the Story of Prostates and Pleasure",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-a-survey-on-anal-sex-and-masturbation-reveals-about-prostates-and/",
+    "audio": "https://traffic.megaphone.fm/SAM8839548723.mp3?updated=1723757943"
+  },
+  {
     "id": "1307734",
     "title": "A Close Encounter with SpaceX Debris Teaches an Astronomer about Space Junk\n",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2647,6 +2654,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307750",
   "1307734",
   "1307723",
   "1307716",
