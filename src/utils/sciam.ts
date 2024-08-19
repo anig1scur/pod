@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307759",
+    "title": "James Cameron\u2019s OceanXplorers Shows Scientists at Work",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/on-oceanxplorers-james-cameron-brings-his-love-of-the-oceans-to-new/",
+    "audio": "https://traffic.megaphone.fm/SAM8493625988.mp3?updated=1723839557"
+  },
+  {
     "id": "1307750",
     "title": "A Survey of 16,000 Changes the Story of Prostates and Pleasure",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2654,6 +2661,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307759",
   "1307750",
   "1307734",
   "1307723",
