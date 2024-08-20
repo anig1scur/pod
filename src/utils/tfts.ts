@@ -686,6 +686,13 @@ export const episodes = [
     "audio": "https://content.production.cdn.art19.com/segment_lists/ccc9d161-03da-486c-be49-328070b5f16a/20220927-Sm9uIExldmluIFRGVFMgbWl4IG1hc3RlciAzLndhdg-1806723b-f8d6-4038-a4ed-926dd60f66b3.mp3"
   },
   {
+    "id": "creative-communication-how-design-choices-illustrate-values",
+    "title": "Creative Communication: How Our Design Choices Illustrate Our Values",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/creative-communication-how-design-choices-illustrate-values",
+    "audio": null
+  },
+  {
     "id": "create-presence-how-communicate-way-others-can-feel",
     "title": "Create a Presence: How to Communicate in a Way Others Can Feel",
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
@@ -939,6 +946,7 @@ export const episodeIds = [
   "dissolve-disagreements-how-communication-impacts-conflict",
   "directive-speech-vs-dialogue-how-leaders-communicate-clarity-balance",
   "directive-speech-vs-dialogue-communicating-better-leader",
+  "creative-communication-how-design-choices-illustrate-values",
   "create-presence-how-communicate-way-others-can-feel",
   "courage-belonging-ambiguity-data-how-design-your-communication-success",
   "conviction-compassion-how-have-hard-conversations",
