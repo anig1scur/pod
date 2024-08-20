@@ -68,13 +68,18 @@ def get_audio_peaks(file_path, chunk_size_ms=300):
 
 def download_audio(url, file_path):
     print(f"Downloading {url}")
-    response = requests.get(url, stream=True)
-    if response.status_code == 200:
-        with open(file_path, "wb") as f:
-            f.write(response.content)
-        print(f"Downloaded {file_path}")
-        return True
-    print(f"Failed to download {url}, status code: {response.status_code}")
+    try:
+        response = requests.get(url, stream=True)
+        if response.status_code == 200:
+            with open(file_path, "wb") as f:
+                f.write(response.content)
+            print(f"Downloaded {file_path}")
+            return True
+        else:
+            print(f"Failed to download {url}, status code: {response.status_code}")
+            return False
+    except Exception as e:
+        print(f"Error: {e}")
     return False
 
 
