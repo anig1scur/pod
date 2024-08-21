@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307793",
+    "title": "\u2018Dark Oxygen\u2019 from Seafloor Deposits Perplexes Researchers",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-are-these-mineral-deposits-producing-oxygen-from-the-ocean-floor/",
+    "audio": "https://traffic.megaphone.fm/SAM7332798868.mp3?updated=1724188071"
+  },
+  {
     "id": "1307759",
     "title": "James Cameron\u2019s OceanXplorers Shows Scientists at Work",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2661,6 +2668,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307793",
   "1307759",
   "1307750",
   "1307734",
