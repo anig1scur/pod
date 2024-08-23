@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307805",
+    "title": "What a Linguist Hears when Kamala Harris Speaks",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-way-politicians-such-as-kamala-harris-and-tim-walz-speak-influences-our/",
+    "audio": "https://traffic.megaphone.fm/SAM6202868613.mp3?updated=1724362794"
+  },
+  {
     "id": "1307793",
     "title": "\u2018Dark Oxygen\u2019 from Seafloor Deposits Perplexes Researchers",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2668,6 +2675,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307805",
   "1307793",
   "1307759",
   "1307750",
