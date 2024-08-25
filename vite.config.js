@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig(({ }) => {
   return {
-    base: process.env.GITHUB_ACTIONS === '1' ? '/pod/' : '/',
+    // base: process.env.GITHUB_ACTIONS === '1' ? '/pod/' : '/',
     define: {
       _global: ({}),
     },
