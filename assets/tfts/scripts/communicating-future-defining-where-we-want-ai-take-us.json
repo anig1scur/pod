@@ -1,0 +1,388 @@
+{
+  "title": "Communicating the Future: Defining Where We Want AI to Take Us",
+  "url": "https://www.gsb.stanford.edu/insights/communicating-future-defining-where-we-want-ai-take-us",
+  "intro": [
+    "Artificial intelligence can now do a lot of things. But if you're worried about it taking your place as a communicator, Russ Altman says you need to question why you're communicating in the first place.",
+    "Altman is a professor of bioengineering, a senior fellow at the Stanford Institute for Human-Centered Artificial Intelligence, and host of Stanford University School of Engineering's podcast, The Future of Everything. According to Altman, advancing technology isn't a threat to human creativity and connection but a tool we can use to raise our own standards for communication."
+  ],
+  "transcript": [
+    {
+      "author": "Matt Abrahams",
+      "text": "Connection and the ability to explain where we are and where we need to go is critical for success in communication."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:00:09] My name is Matt Abrahams, and I teach strategic communication at Stanford Graduate School of Business. Welcome to Think Fast, Talk Smart, the podcast."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Today, I\u2019m excited to speak with Russ Altman. Russ is a professor of bioengineering at Stanford University. His primary research interests are in the application of AI and data science to problems relevant to medicine. Russ is also the host of Stanford Engineering\u2019s The Future of Everything podcast."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Welcome Russ. I\u2019m a big fan of your podcast and really enjoyed the opportunity we had earlier today where I was a guest on your show."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Thanks so much. Thanks for having me. I share enthusiasm for this podcast and it\u2019s kind of a thrill. I think it might be my first podcast as a guest and it couldn\u2019t be a better one."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:00:56]: Oh, well, thank you. And I\u2019m excited for what we\u2019re about to do. You ready to get started?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:01:00]: Yes."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Excellent. Each of your podcast episode titles starts with the future of. So let me start by asking you for your thoughts on the future of communication, especially how AI plays out in it."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:01:13]: So first of all, I\u2019m glad you mentioned that I had you on my podcast because the answer is you told me the future of communication. But I actually thought about it before we chatted."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "I\u2019m an AI enthusiast. I use AI in my research. I\u2019m part of the Human-Centered AI Institute at Stanford. AI in general has exposed lots of things that were hidden in our society. So a lot of people hear about bias and unfairness, and that is a problem with AI. On the other hand, it was a problem before and in some ways we need to give AI credit for exposing the unfairness and giving us something that we can work on to try to improve. And the reason I mention this is I think for communication in some ways it\u2019s the same answer."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "If you\u2019re worried that a ChatGPT type tool can replace you, I think you need to think about, why am I communicating? What am I trying to say? Am I being authentic? Do I have a message? Because really, if those things are true, it shouldn\u2019t be a problem. It should actually just help you amplify and improve your message. So I think that we\u2019re at a time now where people have to ask hard questions about why they\u2019re communicating and how they communicate. And AI is bringing these issues to the fore that were kind of insidiously in the background. So you can see I\u2019m an AI optimist and I think this will help."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:02:24]: I also think AI can bring a lot of value to communication. And I really like your response that the thing to worry about is, do I have a clear goal? Do I know what is important to say? And how can I craft it in a way to be helpful? And I think AI can be an assistant in it."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "For example, I have many non-native speaking students. AI is a wonderful tool to help them learn some of the vernacular and learn other options for ways of saying things."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:02:48]: It is interesting how good it is when you say, please explain this at the level of an eighth grader or at the level of a high school student. And I think that\u2019s something we all can get better at because understanding who your audience is and then making sure you\u2019re delivering at the right level is always a challenge. And that seems to be one thing that it\u2019s kind of good at."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:03:06]: Absolutely. And you can actually use it to flag jargon in terms that others might not understand. You mentioned that you happen to use it in your communication. Do you mind sharing some of the ways you use it?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "My favorite story, if I may."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Sure."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:03:16]: Was I had written a grant proposal and I ran the one page summary of the grant through the large language model. And I said, please summarize the strengths and weaknesses of this summary of my research that I\u2019m about to submit to the National Institutes of Health for research dollars. And it came back and it had a few, you know, pretty good positives and negatives but my favorite negative is it said, you seem to be leaning on prior accomplishments too heavily. And it was absolutely right."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "So I\u2019ve used it as like, as a prehuman screen, before I go to my colleagues even, even my trusted colleagues. Let\u2019s just see what the LLM has to say, maybe I\u2019ll fix it up and then give it to my buddy down the hall to take a look."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Did it recommend you need to see some therapy about some narcissism or no, no, no, it didn\u2019t."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:04:02]: That goes without statement, but if I had asked, I\u2019m sure it would have added to the chorus."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "I want to pull this thread a little farther about grants. You have been incredibly successful at raising money for the projects that you do through the grants that you apply for. Many of our listeners have to write proposals asking for funding from their bosses or from external organizations. What guidance do you have when it comes to drafting proposals and grants?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "I am passionate about this. In general, the first thing you have to do is understand the mission of the person or institution to whom you are making a request. Because if you don\u2019t hit that mission on directly, it\u2019s end of the game."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:04:41] Given that, you need to have a big problem that you\u2019re, that you want to be part of the solution of. And then a focused problem that you are actually going to provide the solution to. You have to show that that sub problem is not solved. Then you have to make the case that there\u2019s an opportunity that you and maybe others, but certainly you have. And then you have to boil it down to three to five action items, followed by a summary of the state of the world when you\u2019re done."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "And I believe that that formula can be used from everything from a grant to a federal funding agency to a marriage proposal. And I\u2019ve tried it in all different settings and it really is the fundamental structure of any proposal."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:05:22]: When we turn off the microphones, I want to hear the future state that you use to propose to your wife."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Happiness. No, it\u2019s an easy one. Honey, you will be happier then than you are now."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:05:32]: Excellent. The key takeaway from what you just said, I think, is not only do you have to know your audience and what\u2019s important for them, and that\u2019s critical. Regardless of if it\u2019s a proposal or a pitch or a presentation. But this notion of where we are to where we\u2019re going to. From to to is so important in pitches and presentations. And it sounds like in types of proposals."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "And I like this notion of saying, hey, there\u2019s this larger problem and I\u2019m going to focus on this subset. And my unique value or my team\u2019s unique value is what\u2019s going to help us solve it. Here\u2019s the specific things and then here\u2019s what the world\u2019s going to look like."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Thank you for listening, Matt."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:06:07]: What you did there is something I\u2019d also like to ask you about. Your work in the academic world is incredibly complex, is incredibly detailed. And yet you\u2019re so good at explaining and making that complex information accessible."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "What are your thoughts on how to do that? I know you do it strategically. I know from the conversation you and I had earlier, you like using the whiteboard. What are the things you think about when you take complex information to make it more accessible to people who just don\u2019t know as much without dumbing it down?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:06:38]: I think that you know this very well. Stories are what people remember, stories are what people like. It\u2019s actually frustrating because part of my work is statistics and statistics is really much more robust than a story. We always say you might have one good anecdote and that doesn\u2019t replace lots of actual data. But I\u2019m afraid that sometimes, a lot of times, a good story does stand in for a lot of data because it\u2019s so compelling to the human mind. So we\u2019re always looking for stories."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Analogy is a key part of both stopping the conversation and letting people catch up. But also saying, okay, wait a minute, let me rephrase what you just said, but let me map it onto an everyday situation like going shopping. So you\u2019re telling me that the internet and the way it works is like a very complicated mail system or whatever."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "And so can you listen to what the expert is saying and see an analogy to an everyday life thing. And you\u2019re checking your understanding. But on the chance that you\u2019re right, you\u2019re also helping the entire listenership or readership understand what was just said. So that\u2019s important."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:07:41] Related to that, you\u2019re always have an antenna up for jargon and you, I\u2019m sure you do this too. You have to be willing to stop the conversation cold and say, oh, you just said NIH. That\u2019s the National Institutes of Health, they fund research in America. And so part of what I\u2019m doing always is a little antenna listening for words that need to be defined or abbreviations that might not be commonly understood."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "So I think analogy. Stories. And then adjusting the levels. So sometimes when you\u2019re talking with someone, you just have to send them signals in real time that we are talking at a level that requires a PhD and I\u2019m going for high school, college students here. And then it\u2019s practice. And one of the great thing I love both about this podcast and about your book is you don\u2019t say that you either got it or you don\u2019t got it. All of this can be practiced and learned."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Absolutely. That\u2019s a big point I like to try to make and you are helping all of us learn this. Something that I think can also be helpful, and I\u2019d love to get your input on this, is there\u2019s work you can do in advance. So you can actually stockpile some stories or think about some potential analogies that might work. It doesn\u2019t all have to happen in the moment, you can pull them in. And at the same time, some pre work you can do is you can prepare the audience. So in a meeting invite, for example, you could say, and we\u2019re going to be talking about concepts like this. So people come in primed, which I think makes your job easier. What are your thoughts on that kind of pre work?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:09:05]: I totally agree. I had one more point written down and I just had decided that I had talked too long a second ago. But I said anticipate the tough spots and validate that they\u2019re tough. So say to the audience, this guy\u2019s talking about quantum physics. This is hard stuff. Here\u2019s how we\u2019re going to try to manage through it together. So I just want to say that you\u2019re absolutely right."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:09:25] I think the key idea of prep for an interview or for creating a document or any kind of communication is anticipating the tough moments, the tough concepts and saying, okay, I\u2019m going to try to fly with this analogy. I think this will work. I think it\u2019ll make it more accessible, more relatable. And that\u2019s part of doing your homework. And, before I talk to you, before I talk to anybody, I spend the night before basically Google stalking you, looking at what have you said? What have you done? Part of it is so I can have emergency topics to talk about if it turns out that you\u2019re, you know, reticent to speak, that wasn\u2019t a problem."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "However, the other thing was, what might he say that might be surprising or troubling and how am I going to manage that? And then you go in with this confidence that kind of whatever comes down the pike, we\u2019re ready for it. And you may use them or you may not use them, but having them just has you this sense of, you know, preparedness."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:10:13]: Right. And that helps you be confident and more present because you\u2019re not reaching ahead thinking what\u2019s coming."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "You do a good job of preparing to ask the questions you ask on your podcast. That preparation in advance, although I now know that I\u2019m recommending everybody cyber stalk people, but I do think it\u2019s important to do your homework. What advice do you have for asking questions that can really help focus and guide communication and conversations?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:10:36]: Specificity in the question is key. Specificity rules in the world, in my opinion. People want to hear stories that are specific, not general, and they want to hear questions that are specific."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:10:47] But then my second tip helps take up a little bit of pressure off. Because I think the follow up question is arguably more important than the initial question. Because the initial question gets the listeners and the guest, if we\u2019re talking about a podcast, into a certain space. And there might be some hemming and hawing as they gather their thoughts."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "But then they say something. Now they\u2019re warmed up and their audience is warmed up. And now you can come up with a follow up question that might be the meaty question. And I\u2019ve heard people who are very good who do interviews, you know, Letterman, Johnny Carson, if you watch, their follow ups were always very good."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "In addition to being specific and being open to asking follow up questions, the use of questions isn\u2019t just for people who do interviewing. You can be very effective in a meeting and giving feedback through asking focus specific questions. And in some ways, I think people receive that in a more open way than if I give you some declarative statement."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:11:41]: I think you\u2019re absolutely right. I notice that my PhD students, the last thing that they get good at before they\u2019re ready to launch and graduate is answering questions after a seminar. Because they come to it thinking that questions are an attack. And so they get defensive, their answers are almost off putting. And so there\u2019s a mentorship that you do to say, you need to consider every question as a little gift. It\u2019s a gift. It shows I listened to what you just said, I\u2019ve processed it. And now I actually want to have a conversation with you. That like, it doesn\u2019t get any better than that."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "So yes, questions can be powerful. They can say, thank you. They can say, I heard you and they can say, and I have a little bit of an opinion here without even saying it as I have a little bit of an opinion here."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Seeing questions as opportunities rather than threats and challenges is a fundamental mindset shift. And I love that you spend time with your students helping them get there because it\u2019s instinctual. When somebody comes up with a question, we get defensive. But if we can see it as an opportunity to connect, to learn, to collaborate, I think is wonderful."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "My best friend is a sportswriter, but really more importantly, he\u2019s a journalist. And he\u2019s famous for making his points with these very understated, beautiful questions where he doesn\u2019t even have to follow up and tell you what he really thinks because it\u2019s obvious from his question. What a great journalist he is because of this skill."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:13:02]: We had a whole episode with Debra Schifrin on how to ask good questions. She said to pause. So after you ask the question, pause. And after the person answers, pause even longer because more comes out."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "I\u2019d love to move to another area where you are an expert. You work on highly complex topics, but you also work in highly complex teams. What best practices do you use to foster creativity and collaboration while trying to avoid destructive conflict and repetitive actions and wastes of time?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:13:32]: It has become clear that team science is the most effective and is the most exciting in many ways. You must understand and acknowledge the rewards and motivations of your collaborators. Because they are unlikely to be identical to your own. And if you leave that unstated or worse, not understood, it\u2019s just a recipe for a lot of wasted energy and wasted words. And that leads to number two, which is you have to build the relationship, the human relationship, separate from the scientific or business collaboration."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:14:03] But that time, which is kind of a pain in the neck, because it means you have to have lunch with them, and maybe you don\u2019t wanna have, maybe you want to just take five minutes to shove food down your throat because you\u2019re busy. But the time to build that relationship pays off in spades. So, those two things come first."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Then you have to, I think diversity and teamwork has become, there\u2019s now literal evidence that if everybody looks and sounds like you and has the same training and the same perspective and the same goals, that is not the recipe for the best team. So you have to take a hard look at who you\u2019ve invited to the room. And if you\u2019re really brave and courageous, you\u2019ll say, this is a good group, but this is not the right group for this project. And we either need to add to it or I need to make some substitutions."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "And then it\u2019s about roles and responsibilities and with the relationship in place and with an understanding of the reward systems and with a diversity, now you can say, finally, okay, here\u2019s what we\u2019re trying to do, how are we going to break this down and how are we going to do roles and responsibilities so that people feel like they\u2019re part of a team that it\u2019s functioning and then having mechanisms for both formal and informal communication in place and understood."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "A lot of richness in that answer."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Yeah, sorry."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:15:12]: No, no, no. It\u2019s all good. The fact that you first have to get alignment on goals and expectations is critical. Forming those relationships that, which then allow much of what you\u2019ve said. And I will just put an exclamation point on this notion of diversity."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Diversity of opinions and experience and goals is what brings around the richness. But also requires that you have to define the roles, responsibilities, and ways of communicating. Because if people have those differences, they bring that different way of communicating too."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "I want to drill down on one aspect that I was very specific in the question I asked. I said, avoiding destructive conflict. I know in the work you do that encouraging some disagreement and conflict is actually helpful to achieving the goals. How do you thread that needle?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:15:56]: Where it comes up in my life, literally every week, is that all the students and postdocs in the lab take turns every week giving what we call a group meeting. It\u2019s a research and progress talk about how they\u2019re going. So what\u2019s supposed to happen? What\u2019s supposed to happen is we\u2019re supposed to be supportive. We wanted them to feel comfortable. But they\u2019re supposed to be practicing for an audience that may be hostile. Like scientific colleagues can be hostile."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "And so I, as the leader of the group, have to figure out how do I set this up so that they are getting the hardest questions, scientific, technical questions from these people that they sit with every day. But it doesn\u2019t lead to a toxic environment, lack of trust, and people saying, I don\u2019t want to give my group meeting. I don\u2019t trust this group."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "So I have to set it up so that they can present. I can ask hard questions, but then we have a culture of thanking them for their talk, acknowledging the hard things that they\u2019ve uncovered as hard. Thanking them for the solutions that they\u2019ve produced. And if I see problems, I have other communication methods in the lab to try to identify those and deal with them outside of that forum. But you\u2019re absolutely right. This is like the number one thing for a team leader to be aware of because the rigor slash support tension is there all the time."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "You know, Russ, one of the things I love about hosting this podcast is the ability to talk with amazing people. I always learn something. What is something that you\u2019ve learned from your many of hosting The Future of Everything that you think might help the listeners of Think Fast, Talk Smart?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:17:28]: The people who I interview, what they do is the thing that they think is the most important thing they could possibly do. So you talk to a civil engineer. It\u2019s not that this is one little interesting problem in civil engineering. This is the most interesting problem in civil engineering to this person."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "And indeed, it\u2019s the most important thing they can think of doing. And so the passion that scientists and engineers, because that\u2019s what we focus on. But the passion of scientists and engineers in approaching their work probably shouldn\u2019t have surprised me, but it did. And I learned that you need to get to people\u2019s passion to really understand what makes them tick."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "That\u2019s important for all of us to do with the people we work with and the people we socialize with is provide them avenues to explain their passion."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:18:09] Well, I know you listen to the podcast, so you know that before we end, I like to ask three questions. One I create just for you."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Oh my goodness. This is so exciting."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "And two that are similar for everybody else I interview. You up for yours?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Yep. Absolutely."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Alright. You are very future focused. So what is one thing about the future that you\u2019re particularly excited about?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "I am excited about young people. Young people starting to form their lives and their direction gives me hope for the future. As you may have come to your attention, the world is currently facing a lot of problems and it\u2019s very easy to get very negative. And if you want to combat that negativity, be involved in an admissions process or a hiring process of young people, like for their first job or for their next job. If you\u2019re not inspired, then I think you need to do some deep introspection."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:19:01]: Yeah, I love that answer simply because I have lots of friends who are getting curmudgeonly and they will say, these young people, what\u2019s this world going to amount to? And I say, it\u2019s us that\u2019s causing the problems. Because if you come in and see my students or the people I coach, there\u2019s a lot of hope and there\u2019s a lot of excitement. And I\u2019m glad you echoed that."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Question number two. Who is a communicator that you admire and why?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "My Dad."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Tell me why."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "He had a great voice. He had an FM voice. And he did lots of the things that you discuss all the time. When I\u2019m trying to do my best at communicating, I\u2019m channeling Dad."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:19:35]: I actually am getting a little choked up because I feel exactly the same way about my father. My father had an amazing resonant voice. And when you said FM voice, my father actually did a little radio and he was always very structured. Get to the point. What\u2019s the point? And it really helped me try to be more focused and concrete."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "So, if I may?"
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Yeah."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Between the podcast we did this morning and the one we\u2019re doing now, I gave a talk and somebody said, what\u2019s the best piece of advice you ever got? And I said, it was from my Dad and it was get to the point."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Oh, how funny. Question number three, what are the first three ingredients that go into a successful communication recipe?"
+    },
+    {
+      "author": "Russ Altman",
+      "text": "[00:20:10]: You need to know who you\u2019re talking to. You need to know the audience, a little bit about their goals, hopes, and dreams."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Second, you need to think about what you\u2019re specifically trying to tell that person. And then the third one I\u2019m going to go with, make sure you try to keep it fun, light, and enjoyable. Like, life is short. And if you can do something with a sense of joy, why not do it with a sense of joy? So even if it\u2019s the most mundane message, think about how can I make this a positive experience for me and for the person who\u2019s about to listen to me and have a conversation with me."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "This notion of connection and engagement through the energy you bring to your topic is really important. There are people who study things that I don\u2019t understand and prior to hearing them talk about it or write about it, I didn\u2019t care about. But their passion and their ability to connect it to me and make it engaging makes a big difference."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "I agree."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Russ, thank you so much. You did an amazing job of educating us and keeping it engaging and interesting. I appreciate it. All of us can learn from you in terms of how to connect with our audiences, manage some of the tricky situations through questions and structuring our environment so that we can take the advantage of conflict. I appreciate your time. Best of luck on podcast. Thank you."
+    },
+    {
+      "author": "Russ Altman",
+      "text": "Thank you very much. I really enjoyed this. Congratulations on your successes."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "[00:21:33]: You\u2019ve been listening to Think Fast, Talk Smart, the podcast. If you\u2019ve enjoyed this episode, you might want to check out similar topics discussed in episode 109 with Frances Frei, How to Communicate Complex Ideas Simply and Effectively. And episode 3 with Lauren Weinstein, When Knowing Too Much Can Hurt Your Communication: How to Make Complex Ideas Accessible."
+    },
+    {
+      "author": "Matt Abrahams",
+      "text": "Our show is produced by Michael Reilly, Jenny Luna, Aech Ashe, and me, Matt Abrahams, with help from Podium Podcast Company. Our music is by Floyd Wonder. Please find us on YouTube and wherever you get your podcasts. Be sure to subscribe and rate us. Also follow us on LinkedIn and Instagram and check out FasterSmarter.io for deep dive videos, English language learning content, and our newsletter."
+    }
+  ],
+  "audio": null,
+  "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+  "authors": [
+    "Matt Abrahams",
+    "Russ Altman"
+  ]
+}
