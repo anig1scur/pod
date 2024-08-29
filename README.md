@@ -58,9 +58,9 @@ pnpm dev
 ### 2. Crawl episode data
 
 ```bash
-pip install -r src/tools/requirements.txt
-python src/tools/[choose-crawler-file-name].py
-python src/tools/download_audio_and_extract_wave_peaks_and_fragments.py
+pip install -r scripts/requirements.txt
+python scripts/[choose-crawler-file-name].py
+python scripts/download_audio_and_extract_wave_peaks_and_fragments.py
 ```
 
 ## Contribution

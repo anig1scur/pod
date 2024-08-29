@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 SCRIPTS_DIR = os.path.join(
-    os.path.dirname(__file__), "../../public/assets/6mins/scripts"
+    os.path.dirname(__file__), "../public/assets/6mins/scripts"
 )
 
 sections = {

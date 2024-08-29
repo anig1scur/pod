@@ -13,10 +13,10 @@ from glob import glob
 TYPE = os.environ.get("TYPE", "sciam")
 
 SCRIPTS_DIR = os.path.join(
-    os.path.dirname(__file__), f"../../public/assets/{TYPE}/scripts"
+    os.path.dirname(__file__), f"../public/assets/{TYPE}/scripts"
 )
 AUDIOS_DIR = os.path.join(
-    os.path.dirname(__file__), f"../../public/assets/{TYPE}/audios"
+    os.path.dirname(__file__), f"../public/assets/{TYPE}/audios"
 )
 
 
@@ -24,7 +24,7 @@ def get_mp3_duration(file_path):
     try:
         audio = MP3(file_path)
         duration_seconds = audio.info.length
-        return duration_seconds
+        return int(duration_seconds)
     except Exception as e:
         print(f"Error: {e}")
         return None
