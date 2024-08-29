@@ -756,6 +756,13 @@ export const episodes = [
     "audio": "https://content.production.cdn.art19.com/segment_lists/f2704a42-14b4-494a-b18f-9f052d341d0d/20220216-Sm9obiBhbmQgSnVsZXMgbWl4IG1hc3RlciAyLndhdg-a1ce1ba2-bb5d-46b5-a86f-a0c015fcc2f4.mp3"
   },
   {
+    "id": "communicating-future-defining-where-we-want-ai-take-us",
+    "title": "Communicating the Future: Defining Where We Want AI to Take Us",
+    "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
+    "url": "https://www.gsb.stanford.edu/insights/communicating-future-defining-where-we-want-ai-take-us",
+    "audio": null
+  },
+  {
     "id": "change-my-mind-using-pre-suasion-influence-others",
     "title": "Change My Mind: Using \u201cPre-suasion\u201d to Influence Others",
     "img": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/tfts-key_logo_21.jpg.webp?itok=S-EaSW2x",
@@ -956,6 +963,7 @@ export const episodeIds = [
   "communicating-through-conflict-how-get-along-anyone",
   "communicating-multiple-selves-how-manage-your-reputation",
   "communicating-mistakes-how-avoid-common-errors-make-better-decisions",
+  "communicating-future-defining-where-we-want-ai-take-us",
   "change-my-mind-using-pre-suasion-influence-others",
   "can-we-be-candid-how-communicate-clearly-directly",
   "building-successful-relationships-how-effectively-communicate-your-professional-personal",
