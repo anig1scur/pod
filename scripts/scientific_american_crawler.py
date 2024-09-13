@@ -49,9 +49,8 @@ def extract_transcript_from_page(url):
             transcript.append({"author": author, "text": text})
         else:
             text = paragraph.text
-            if not transcript:
-                continue
-            transcript[-1]["text"] += " " + text
+            # transcript[-1]["text"] += " " + text
+            transcript.append({"author": "", "text": text})
     return transcript
 
 
