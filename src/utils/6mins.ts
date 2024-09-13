@@ -7,6 +7,27 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "240912__keeping_kids_off_smartphones",
+    "title": "Keeping kids off smartphones",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jpx9zn.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240912",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240912_6_minute_english_keeping_kids_off_smartphones_download.mp3"
+  },
+  {
+    "id": "240905__less_salt_better_health",
+    "title": ", better health",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jmn1bb.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240905",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240905_6_minute_english_less_salt_better_health_download.mp3"
+  },
+  {
+    "id": "240829__meet_a_real_willy_wonka",
+    "title": "ocolate: Meet a real Willy Wonka",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jmrgh5.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240829",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240829_6_minute_english_meet_a_real_willy_wonka_download.mp3"
+  },
+  {
     "id": "240822__why_we_love_dumplings",
     "title": "Why we love dumplings",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jgtc9f.jpg",
@@ -3530,6 +3551,9 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "240912__keeping_kids_off_smartphones",
+  "240905__less_salt_better_health",
+  "240829__meet_a_real_willy_wonka",
   "240822__why_we_love_dumplings",
   "240815__kids_and_climate_change",
   "240808__birthday_cakes",
