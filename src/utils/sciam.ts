@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307879",
+    "title": "See the Skies Differently with Astronaut and Photographer Matthew Dominick",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/astrophotography-tips-from-an-astronaut-on-the-international-space-station/",
+    "audio": "https://traffic.megaphone.fm/SAM8960397825.mp3?updated=1726161982"
+  },
+  {
     "id": "1307866",
     "title": "How Forensic Breakthroughs Are Still Helping Identify 9/11 Victims Today",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2724,6 +2731,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307879",
   "1307866",
   "1307857",
   "1307851",
