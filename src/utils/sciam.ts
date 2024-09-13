@@ -1,5 +1,47 @@
 export const episodes = [
   {
+    "id": "1307866",
+    "title": "How Forensic Breakthroughs Are Still Helping Identify 9/11 Victims Today",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-forensic-scientists-continue-to-identify-9-11-victims-23-years-after-the/",
+    "audio": "https://traffic.megaphone.fm/SAM7976510441.mp3?updated=1726001581"
+  },
+  {
+    "id": "1307857",
+    "title": "Jellyfish Clones Swarm British Columbian Lakes, and Measles Cases Spike in Oregon",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/invasive-jellyfish-clones-overrunning-british-columbian-lakes-measles-cases/",
+    "audio": "https://traffic.megaphone.fm/SAM9098324433.mp3?updated=1725656194"
+  },
+  {
+    "id": "1307851",
+    "title": "Balancing Long-Term Caregiving with Personal Well-Being",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-to-balance-caregiving-for-loved-ones-with-personal-well-being/",
+    "audio": "https://traffic.megaphone.fm/SAM5596013533.mp3?updated=1725562171"
+  },
+  {
+    "id": "1307839",
+    "title": "Discrimination Could Be Making People of Color Age Faster",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-racism-could-be-speeding-up-aging-and-early-menopause/",
+    "audio": "https://traffic.megaphone.fm/SAM8381113636.mp3?updated=1725393996"
+  },
+  {
+    "id": "1307830",
+    "title": "Navigating the Struggles and Joys of Caring for Aging Loved Ones",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-families-are-navigating-the-struggles-and-joys-of-caregiving/",
+    "audio": "https://traffic.megaphone.fm/SAM1850371009.mp3?updated=1724956732"
+  },
+  {
+    "id": "1307819",
+    "title": "The Pitfalls of Houseplant Collection",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-to-grow-your-houseplant-collection-ethically/",
+    "audio": "https://traffic.megaphone.fm/SAM9292184361.mp3?updated=1724777451"
+  },
+  {
     "id": "1307812",
     "title": "NASA\u2019s Perseverance Rover Ascends, Ozempic Is Linked to Depression, and Mpox Cases Spread Rapidly",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2682,6 +2724,12 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307866",
+  "1307857",
+  "1307851",
+  "1307839",
+  "1307830",
+  "1307819",
   "1307812",
   "1307805",
   "1307793",
