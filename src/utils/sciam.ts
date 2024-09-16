@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307884",
+    "title": "AI Takes on Conspiracies; Massachusetts Tackles Trash",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/ai-could-help-save-us-from-conspiracy-theories-and-massachusetts-could-help/",
+    "audio": "https://traffic.megaphone.fm/SAM2797507688.mp3?updated=1726262781"
+  },
+  {
     "id": "1307879",
     "title": "See the Skies Differently with Astronaut and Photographer Matthew Dominick",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2731,6 +2738,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307884",
   "1307879",
   "1307866",
   "1307857",
