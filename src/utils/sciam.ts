@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307919",
+    "title": "Black Men Should Start Prostate Cancer Screening Earlier",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-early-prostate-cancer-screening-matters-for-black-men/",
+    "audio": "https://traffic.megaphone.fm/SAM3354096321.mp3?updated=1726606488"
+  },
+  {
     "id": "1307884",
     "title": "AI Takes on Conspiracies; Massachusetts Tackles Trash",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2738,6 +2745,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307919",
   "1307884",
   "1307879",
   "1307866",
