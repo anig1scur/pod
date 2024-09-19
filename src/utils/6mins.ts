@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "240919__saving_water__in_the_driest_place_on_earth",
+    "title": "Saving water in the driest place on Earth",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jp8dlp.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-240919",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/240919_6_minute_english_saving_water__in_the_driest_place_on_earth_download.mp3"
+  },
+  {
     "id": "240912__keeping_kids_off_smartphones",
     "title": "Keeping kids off smartphones",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jpx9zn.jpg",
@@ -3551,6 +3558,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "240919__saving_water__in_the_driest_place_on_earth",
   "240912__keeping_kids_off_smartphones",
   "240905__less_salt_better_health",
   "240829__meet_a_real_willy_wonka",
