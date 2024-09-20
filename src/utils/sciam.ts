@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307931",
+    "title": "Finding Math\u2019s Beauty and Power with Drag Queen Kyne Santos",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/discover-maths-elegance-and-power-with-drag-queen-kyne-santos/",
+    "audio": "https://traffic.megaphone.fm/SAM8101258190.mp3?updated=1726755151"
+  },
+  {
     "id": "1307919",
     "title": "Black Men Should Start Prostate Cancer Screening Earlier",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2745,6 +2752,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307931",
   "1307919",
   "1307884",
   "1307879",
