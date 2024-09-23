@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307934",
+    "title": "How Pregnancy Changes the Brain, and How Lizards Make DIY Scuba Gear",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-pregnancy-changes-the-brain-and-how-lizards-make-diy-scuba-gear/",
+    "audio": "https://traffic.megaphone.fm/SAM5598538050.mp3?updated=1726862611"
+  },
+  {
     "id": "1307931",
     "title": "Finding Math\u2019s Beauty and Power with Drag Queen Kyne Santos",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2752,6 +2759,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307934",
   "1307931",
   "1307919",
   "1307884",
