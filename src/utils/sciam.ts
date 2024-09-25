@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307945",
+    "title": "People with PCOS Face Increased Eating Disorder Risks",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/pcos-linked-to-greater-risk-of-eating-disorders/",
+    "audio": "https://traffic.megaphone.fm/SAM2291164628.mp3?updated=1727186971"
+  },
+  {
     "id": "1307934",
     "title": "How Pregnancy Changes the Brain, and How Lizards Make DIY Scuba Gear",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2759,6 +2766,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307945",
   "1307934",
   "1307931",
   "1307919",
