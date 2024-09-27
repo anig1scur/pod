@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307958",
+    "title": "Is Math Part of Nature or an Invention of the Mind?",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/breaking-down-what-math-really-is-with-drag-queen-kyne-santos/",
+    "audio": "https://traffic.megaphone.fm/SAM8477824064.mp3?updated=1727385238"
+  },
+  {
     "id": "1307945",
     "title": "People with PCOS Face Increased Eating Disorder Risks",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2766,6 +2773,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307958",
   "1307945",
   "1307934",
   "1307931",
