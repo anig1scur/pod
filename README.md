@@ -22,7 +22,7 @@ Pod currently supports two types of podcasts:
 
 I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows, etc in the future. This service is not provided by the official source. All materials are sourced from the internet for educational purposes. Please contact me if there are any copyright concerns.
 
-## Supported Modes
+## Supported
 
 1. **Reading Mode**
    1. Highlight vocabulary
@@ -35,9 +35,10 @@ I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows
    1. Seek to accurate time of a script
    1. Dictate sentence randomly
    2. Type the sentence and check the answer
+4. **Export to PDF**
+   - Export the whole transcript with highlighted vocabulary blank to PDF, for easy printing and practicing.
 
-
-## Supported Vocabulary
+## Suppo  rted Vocabulary
 
 1. CEFR (Common European Framework of Reference for Languages) B1-C1
 2. [AWL (Academic Word List) 570](https://www.eapfoundation.com/vocab/academic/awllists/)
