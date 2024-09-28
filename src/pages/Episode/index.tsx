@@ -1,4 +1,4 @@
-import { FC, useEffect, useState, useRef, useCallback } from 'react';
+import { FC, useEffect, useState, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Header from '@/components/Header';
 import FillIn from '@/components/mode/FillIn';
@@ -13,6 +13,7 @@ import { loadEpisode, groupBy } from '@/utils/episode';
 import { loadVocab, VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
 import { podType } from './list';
+import PdfExporter from '@/components/PdfExporter';
 
 // for skip template intro audio
 const START_TIME_MAP = new Map<podType, number>([
@@ -120,7 +121,10 @@ const Episode: FC<episodeProps> = (props) => {
         <section className="pro">
           <div className="operation">
             <ModeTab type={ mode } onChange={ setMode } />
-            <Dropdown options={ Object.values(VocabType) } selected={ curVocab } onSelect={ setCurVocab } />
+            <>
+              <Dropdown options={ Object.values(VocabType) } selected={ curVocab } onSelect={ setCurVocab } />
+              <PdfExporter id={ eid } scripts={ episodeData.transcript } words={ words } title={ episodeData.title } mode={ mode } />
+            </>
           </div>
           {
             (() => {

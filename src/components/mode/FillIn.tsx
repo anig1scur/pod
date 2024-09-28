@@ -10,7 +10,7 @@ export type fillInProps = {
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts, words, fragments, displayAuthor = true } = props;
+  const { scripts, words, displayAuthor = true } = props;
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
 

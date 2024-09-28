@@ -207,11 +207,11 @@
 
     .control {
       @apply flex items-center gap-4;
-
-      button {
-        @apply p-3 bg-[#D93D86] text-white font-semibold border-black border-[3px] cursor-pointer text-lg;
-      }
     }
+  }
+
+  button {
+    @apply p-3 h-14 bg-[#D93D86] text-white font-semibold border-black border-[3px] cursor-pointer text-lg;
   }
 
   .logo {

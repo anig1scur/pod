@@ -15,6 +15,7 @@
     "classnames": "^2.5.1",
     "domutils": "^3.1.0",
     "htmlparser2": "^9.1.0",
+    "jspdf": "^2.5.2",
     "path": "^0.12.7",
     "process": "^0.11.10",
     "react": "18.2.0",
