@@ -94,6 +94,8 @@ const Episode: FC<episodeProps> = (props) => {
     return null;
   }
 
+  const PDF = <PdfExporter id={ eid } scripts={ episodeData.transcript } words={ words } title={ episodeData.title } mode={ mode } />
+
   return (
     <div className="episode">
       <Header />
@@ -121,10 +123,7 @@ const Episode: FC<episodeProps> = (props) => {
         <section className="pro">
           <div className="operation">
             <ModeTab type={ mode } onChange={ setMode } />
-            <>
-              <Dropdown options={ Object.values(VocabType) } selected={ curVocab } onSelect={ setCurVocab } />
-              <PdfExporter id={ eid } scripts={ episodeData.transcript } words={ words } title={ episodeData.title } mode={ mode } />
-            </>
+            <Dropdown options={ Object.values(VocabType) } selected={ curVocab } onSelect={ setCurVocab } />
           </div>
           {
             (() => {
@@ -136,7 +135,8 @@ const Episode: FC<episodeProps> = (props) => {
                 scripts: episodeData.transcript,
                 words: words,
                 displayAuthor: !hideAuthor,
-                audioRef: waveFormRef
+                audioRef: waveFormRef,
+                pdfBtn: PDF,
               }
               switch (mode) {
                 case Mode.F:

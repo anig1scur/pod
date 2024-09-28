@@ -10,6 +10,7 @@ export type dictationProps = {
   words: Set<string>;
   fragments?: FragmentType[];
   audioRef: React.RefObject<WaveFormHandle>;
+  pdfBtn?: React.ReactNode;
 }
 
 const IGNORED_CHARS = ['.', ',', '!', '?', '(', ')', '[', ']', '{', '}', ':', ';', '"', '\'', '“', '”', '‘', '’', '—', '–', '…', '>', '<', '·', '•', '●', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '|', '\\', '/', '`', '~', ' ', '\n', '\t'];
@@ -27,7 +28,7 @@ const pairWordsWithDelimiters = (arr: string[]) => {
 
 
 const Dictation: FC<dictationProps> = (props) => {
-  const { scripts, words, fragments, displayAuthor = true, audioRef } = props;
+  const { scripts, words, fragments, displayAuthor = true, audioRef, pdfBtn } = props;
   const userInputs = useRef<HTMLInputElement[]>([]);
 
   const checkAnswer = useCallback(() => {
@@ -89,7 +90,7 @@ const Dictation: FC<dictationProps> = (props) => {
                 return <Fragment key={ sIdx }><input
                   ref={ (ele) => userInputs.current[inputIdx += 1] = ele! }
                   type='text'
-                  onClick={(e)=>e.stopPropagation()}
+                  onClick={ (e) => e.stopPropagation() }
                   onKeyDown={ (e) => {
                     if (e.key === ' ' && !e.ctrlKey) {
                       e.stopPropagation();
@@ -108,6 +109,7 @@ const Dictation: FC<dictationProps> = (props) => {
     </div>
     <div className='control' >
       <button onClick={ checkAnswer }>Check</button>
+      { pdfBtn }
     </div>
   </div>
 }

@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useRef } from 'react';
+import React, { FC, ReactNode, useCallback, useRef } from 'react';
 import { Fragment, Scripts } from '@/types';
 
 export type fillInProps = {
@@ -6,11 +6,12 @@ export type fillInProps = {
   scripts: Scripts;
   displayAuthor: boolean;
   fragments?: Fragment[];
+  pdfBtn?: ReactNode;
 }
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts, words, displayAuthor = true } = props;
+  const { scripts, words, pdfBtn, displayAuthor = true } = props;
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
 
@@ -103,6 +104,7 @@ const FillIn: FC<fillInProps> = (props) => {
     </div>
     <div className='control' >
       <button onClick={ checkAnswer }>Check</button>
+      { pdfBtn }
     </div>
   </div>
 }

@@ -7,6 +7,7 @@ export type readProps = {
   scripts: Scripts;
   words: Set<string>;
   displayAuthor: boolean;
+  pdfBtn?: React.ReactNode;
 }
 
 
@@ -22,7 +23,7 @@ export type TranslateRsp = {
   }
 }
 const Read: FC<readProps> = (props) => {
-  const { scripts, words, displayAuthor = true } = props;
+  const { scripts, words, displayAuthor = true, pdfBtn } = props;
   const [translations, setTranslations] = useState<string[]>([]);
   const [showTranslations, setShowTranslations] = useState<boolean[]>([]);
 
@@ -142,6 +143,9 @@ const Read: FC<readProps> = (props) => {
           </div>
         }
         ) }
+      </div>
+      <div className='control' >
+        { pdfBtn }
       </div>
     </div>
   );
