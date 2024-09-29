@@ -12,7 +12,6 @@ export type pdfExporterProps = {
   displayAuthor?: boolean;
 }
 
-
 const PdfExporter: FC<pdfExporterProps> = (props) => {
   const { id, scripts, words, title, displayAuthor = true } = props;
 
@@ -83,41 +82,46 @@ const PdfExporter: FC<pdfExporterProps> = (props) => {
         return;
       }
 
+      let authorWidth = 0;
       if (script.author && displayAuthor) {
         pdf.setFontSize(13);
+        pdf.setTextColor(138, 38, 38);
+        authorWidth = pdf.getStringUnitWidth(script.author) * 13 / pdf.internal.scaleFactor;
         pdf.text(script.author, margin, yOffset);
-        yOffset += 6;
+        pdf.setTextColor(0, 0, 0);
       }
+
+      const firstLineStartX = margin + authorWidth + 3.5;
+      const maxTextWidth = pageWidth - margin * 2;
 
       pdf.setFontSize(11);
       const scriptWords = script.text.split(' ');
       let line = '';
-      const maxWidth = pageWidth - 2 * margin;
+      let lineWidth = 0;
+      let isFirstLine = true;
 
       scriptWords.forEach((word, wordIndex) => {
-        let displayWord = word;
-        if (words.has(word)) {
-          displayWord = '_'.repeat(word.length);
-        }
+        let displayWord = words.has(word) ? '_'.repeat(word.length) : word;
+        const wordWidth = pdf.getStringUnitWidth(displayWord + ' ') * 11 / pdf.internal.scaleFactor;
 
-        const testLine = line + displayWord + ' ';
-        const testWidth = pdf.getStringUnitWidth(testLine) * pdf.internal.getFontSize() / pdf.internal.scaleFactor;
-
-        if (testWidth > maxWidth) {
-          pdf.text(line, margin, yOffset);
-          yOffset += 6;
-          line = displayWord + ' ';
+        if (lineWidth + wordWidth > (isFirstLine ? maxTextWidth - authorWidth - 5 : maxTextWidth)) {
+          pdf.text(line.trim(), isFirstLine ? firstLineStartX : margin, yOffset);
+          yOffset += 5.5;
+          line = '';
+          lineWidth = 0;
+          isFirstLine = false;
 
           if (yOffset > pageHeight - 20) {
             addNewPage();
           }
-        } else {
-          line = testLine;
         }
 
+        line += displayWord + ' ';
+        lineWidth += wordWidth;
+
         if (wordIndex === scriptWords.length - 1) {
-          pdf.text(line, margin, yOffset);
-          yOffset += 6;
+          pdf.text(line.trim(), isFirstLine ? firstLineStartX : margin, yOffset);
+          yOffset += 5;
 
           if (yOffset > pageHeight - 20) {
             addNewPage();
