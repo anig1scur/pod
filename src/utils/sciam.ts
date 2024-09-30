@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307964",
+    "title": "An Effort to Fight against the Spread of Misinformation in Science and an Overwhelming Number of Plastic Water Bottles",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-the-u-n-is-fighting-misinformation-in-science/",
+    "audio": "https://traffic.megaphone.fm/SAM7069604199.mp3?updated=1727473387"
+  },
+  {
     "id": "1307958",
     "title": "Is Math Part of Nature or an Invention of the Mind?",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2773,6 +2780,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307964",
   "1307958",
   "1307945",
   "1307934",
