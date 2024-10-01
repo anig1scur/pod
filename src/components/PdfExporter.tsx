@@ -91,7 +91,7 @@ const PdfExporter: FC<pdfExporterProps> = (props) => {
         pdf.setTextColor(0, 0, 0);
       }
 
-      const firstLineStartX = margin + authorWidth + 3.5;
+      const firstLineStartX = margin + authorWidth + (authorWidth > 0 ? 3.5 : 0);
       const maxTextWidth = pageWidth - margin * 2;
 
       pdf.setFontSize(11);
