@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307976",
+    "title": "Understanding Suzetrigine, a New Drug That Treats Pain at the Periphery",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/suzetrigine-is-part-of-a-new-class-of-pain-medications-that-could-offer/",
+    "audio": "https://traffic.megaphone.fm/SAM2762966931.mp3?updated=1727807102"
+  },
+  {
     "id": "1307964",
     "title": "An Effort to Fight against the Spread of Misinformation in Science and an Overwhelming Number of Plastic Water Bottles",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2780,6 +2787,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307976",
   "1307964",
   "1307958",
   "1307945",
