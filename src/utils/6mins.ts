@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "241003__what_decides_our_taste",
+    "title": "What decides our taste?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jrbn4f.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-241003",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/241003_6_minute_english_what_decides_our_taste_download.mp3"
+  },
+  {
     "id": "240926__learning_a_new_food_culture",
     "title": "w food culture",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jq57f9.jpg",
@@ -3565,6 +3572,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "241003__what_decides_our_taste",
   "240926__learning_a_new_food_culture",
   "240919__saving_water__in_the_driest_place_on_earth",
   "240912__keeping_kids_off_smartphones",
