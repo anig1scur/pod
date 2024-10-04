@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1307993",
+    "title": "Infinite Tiling Presents a Modern Mathematical Challenge",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/todays-mathematicians-seek-modern-solutions-to-complex-problems/",
+    "audio": "https://traffic.megaphone.fm/SAM3865788514.mp3"
+  },
+  {
     "id": "1307976",
     "title": "Understanding Suzetrigine, a New Drug That Treats Pain at the Periphery",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2787,6 +2794,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1307993",
   "1307976",
   "1307964",
   "1307958",
