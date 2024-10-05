@@ -1,0 +1,220 @@
+{
+  "title": "How to deal with online harassment \u2014 and protect yourself from future attacks",
+  "url": "https://www.npr.org/transcripts/1107226998",
+  "intro": "If you're posting frequently on social media, there's a chance that someday, one of those posts may make you a target of online harassment. Digital security expert Harlo Holmes and artist and independent researcher Ra'il I'nasah Kiam share tips on what to do if that happens \u2014 and how to tighten up your privacy online.",
+  "transcript": [
+    {
+      "author": "MAYOWA AINA, HOST",
+      "text": "Hey, y'all. This is NPR's LIFE KIT. I'm Mayowa Aina."
+    },
+    {
+      "author": "MAYOWA AINA, HOST",
+      "text": "OK, so there's this old adage on Twitter coined by user @maplecocaine. It goes, each day on Twitter, there is one main character. The goal is to never be it. It's describing this thing that happens. If you're a heavy Twitter user like me, you do see it every day. Some random, unsuspecting Twitter citizen tweets something out, and all of a sudden, thousands, maybe even tens of thousands of people are interacting with it - giving their opinions, posting it on other platforms. News outlets might even pick it up."
+    },
+    {
+      "author": "SACHA PFEIFFER, BYLINE",
+      "text": "Our next guest went viral for wearing an N95 mask alone in his office during a Zoom meeting. As he wrote on Twitter..."
+    },
+    {
+      "author": "TREVOR NOAH",
+      "text": "And so there's a Caleb who apparently worked at West Elm, the furniture place. One of the woman's videos went really viral, and she put up Caleb's face and his name and everything..."
+    },
+    {
+      "author": "RACHEL MARTIN, BYLINE",
+      "text": "Kessler posted about her losses on Twitter. Her tweet, Amazon is not a library, went viral."
+    },
+    {
+      "author": "AINA",
+      "text": "Sometimes that's a good thing. But let's be honest. This is the internet we're talking about. That person is probably having a bad time. But it's typically over pretty quick, and by the next day, Twitter has moved on, and a new main character emerges. Now, you might be thinking the likelihood that you'll ever be the main character online is pretty low, but just because it might not happen to you doesn't mean you'll never experience some form of online harassment. If someone doesn't like where you work or what you look like, or, hell, maybe they just feel like being mean, they can weaponize the internet against you, whether you're a heavy social media user or not."
+    },
+    {
+      "author": "HARLO HOLMES",
+      "text": "Yeah. But you know, I'm a Black woman, and I have an internet connection, so (laughter) that happens."
+    },
+    {
+      "author": "AINA",
+      "text": "Listen (laughter), you said a whole word right there."
+    },
+    {
+      "author": "AINA",
+      "text": "That's Harlo Holmes. She's the director of digital security and chief information security officer at Freedom of the Press Foundation. Not only is it her job to help people protect themselves against online harassment; she's experienced it herself. She says some people are harassed and attacked online all the time, either because of what they do or who they are. And it happens a lot in big and small ways."
+    },
+    {
+      "author": "AINA",
+      "text": "Attacks can range from targeted, disrespectful language or bullying to experiences that bleed into your life offline, like full-blown campaigns where people come together to get others fired from their jobs or damage their reputation. Some people even get doxxed, which is when their personal information, like a phone number or address, gets posted online to encourage more personal harassment or even violence. It can definitely get scary. Fortunately, there are things we can do to protect ourselves before an incident occurs. And if or when you are harassed online, know that there are ways to deal with it."
+    },
+    {
+      "author": "AINA",
+      "text": "To start, Harlo says, we've got to have the right mindset."
+    },
+    {
+      "author": "HOLMES",
+      "text": "I definitely do understand that things like two-factor authentication or a variety of other things that we might talk about are cumbersome, but you can think about it as hygiene, you know? Like, I don't particularly love washing my face every morning, but I do that because, like, there're so many benefits to keeping that space clean. And I think that digital security, despite the barriers that it has, like, has the same benefits. And if it's something that you care about, you have to go that extra step."
+    },
+    {
+      "author": "AINA",
+      "text": "So get ready to clean up that digital security routine. On this episode of NPR's LIFE KIT, we're talking about how to protect ourselves from each other on the internet."
+    },
+    {
+      "author": "AINA",
+      "text": "So like I said, online attacks can range from big ones to small ones. And sometimes it can get out of control or go beyond what we can do individually to manage it. I'm talking about really serious actions like death threats. If you have to be on social media for your job, reach out to your employer to see what kind of support they can provide. Harlo says you can call local law enforcement to step in if that's something you feel comfortable with. It can be useful to have documentation and a paper trail of complaints if the police aren't immediately helpful or if that's just not an option for you."
+    },
+    {
+      "author": "AINA",
+      "text": "Harlo says it's good either way to let your community know what's going on. You can warn neighbors about people or activity that's targeting you. Think about where you could go if you need to relocate for a while. And consider setting up cameras where you live. This isn't to scare you or make you paranoid. It's just to talk about what some of the options are. The key is not to wait until something happens to address this particular issue. So that's what we'll be focusing on in this LIFE KIT - how to prepare and what actions we can take individually to address online harassment. Online attacks are usually surprising and overwhelming. It's hard to focus on what to do if you wake up to dozens of messages, a barrage of negative comments or even a hacked account."
+    },
+    {
+      "author": "AINA",
+      "text": "So the first takeaway, Harlo says, is to protect your basic communications if you find yourself in the midst of an attack."
+    },
+    {
+      "author": "HOLMES",
+      "text": "What I recommend is to protect your phone number. And phone numbers are incredibly vulnerable. Someone can try to socially engineer your phone company into reassigning your phone number to a phone that they control. And then they can get your two-factor authentication code, or they can get your I-forgot-my-password - you know, like, here's a text message that you can magically use to get back in. So protect your phone number."
+    },
+    {
+      "author": "AINA",
+      "text": "Your number is the key to so many different accounts and passwords. So you definitely want to make sure someone can't steal control over it. You can use encrypted apps, like Signal or WhatsApp, for messaging, and consider getting a secondary phone number that's more public if you need one for work. And definitely make sure you've set up a system for two-factor authentication. That's when you add an extra layer of protection on any account that requires a password. For example, you might enter a password to log into your email. But with two-factor authentication, maybe you'll also need to enter a code that's sent to your phone or correctly answer security questions before being able to log in. You can even take it up a notch and use multifactor authentication and set up several extra steps for particularly sensitive accounts. It's simply a way to make it harder for someone who's not you to access your accounts. Lots of online services have started doing this already, so there are plenty of two-factor authentication options to pick from."
+    },
+    {
+      "author": "HOLMES",
+      "text": "Another thing that I would recommend is having a look at your email account, your email inbox, and aggressively blocking, unsubscribing, you know, sending to trash, creating filters, etc."
+    },
+    {
+      "author": "AINA",
+      "text": "It's not just important to look out for phishing attacks where someone might be trying to get you to click on a link designed to steal your sensitive information. A harasser or someone with bad intentions may be trying to access or take over your email account by flooding it with spam or stuff you didn't sign up for."
+    },
+    {
+      "author": "HOLMES",
+      "text": "That might actually be an indication that people are trying to distract your attention from notifications that you would get from Gmail or from Twitter or from Facebook that your account has been compromised. In the security community, we actually - we call this a denial of service - making a space unusable because it's been entirely flooded with way too much information for you to parse. So that's something to be on the lookout for."
+    },
+    {
+      "author": "AINA",
+      "text": "So if you find yourself being targeted, be sure to check and protect your basic communications, like your phone number and email accounts. Harlo says it's more effective, though, to be proactive and prepare by using basic security practices. And that's our second takeaway."
+    },
+    {
+      "author": "HOLMES",
+      "text": "Make sure that the passphrase that you use on any of your social media accounts is complex and unique, meaning you're not using it anywhere else because it's unique. And it's complex, meaning it's not like, you know, password123, right? I highly recommend password managers for this very, very reason because it just takes all of the guesswork out of it, and you can just set it and forget it. Applying two-factor authentication - those are steps that you can take in order to make sure that if something is wrong, then you already, like, covered, you know, the bases, and people will have to work very, very hard."
+    },
+    {
+      "author": "AINA",
+      "text": "So those are some standard technical strategies. We have another LIFE KIT episode that goes more in depth on how to protect your privacy online. But when it comes to online harassment, there are emotional strategies to be aware of, too. Harlo's most important tip actually has nothing to do with anything technical at all. She says, while no one is immune to online harassment, chances are if you have a marginalized identity, you're more likely to be harassed. Women are more likely to report being sexually harassed online. Black and Hispanic people are more likely to be harassed because of their race or ethnicity. And a 2021 report by the Pew Research Center found that roughly 7 in 10 LGBTQ+ adults have encountered harassment online, and they've been experiencing it for a long time."
+    },
+    {
+      "author": "HOLMES",
+      "text": "Women, women of color, LGBTQ folks started ringing the alarm years ago, and people were very slow to start listening. And as these tactics evolve, both in order to protect ourselves, but also the tactics that are waged against us - it's going to be the same folks ringing the alarm. So if anything, there is as a takeaway, it's listen to us."
+    },
+    {
+      "author": "AINA",
+      "text": "I talked about this with Ra'il I'Nasah Kiam, too. They're an artist and independent researcher, and they're also a very online person. They say online harassment is pretty much unavoidable at this point."
+    },
+    {
+      "author": "RA'IL I'NASAH KIAM",
+      "text": "Unless you kind of are very sectioned off and, you know, using your Twitter in very specific ways, it's just something that you're going to see. And even then, you know, especially because one of the reason why a lot of these people got a huge platform is that the algorithm pushes them. So even if you're trying to stay away from certain things, algorithmically, at a certain point it's going to end up in your face. So if you're like, you know, a person of color, a queer person, you know, a disabled person, you're just sort of always having to see something about how there's someone in the world that hates you, regardless of whether or not it's directed at you personally."
+    },
+    {
+      "author": "AINA",
+      "text": "Ra'il has been on the internet since the days of LiveJournal, and they say they've been on the receiving end of online harassment so many times, they've lost count."
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "I mean, it's - you know, it's one of those moments where the online world replicates the offline world. I think, especially given our generation, there is a sort of promise of the internet as being the sort of bold, brave new frontier that's completely untethered from the confines of offline reality. You can be whoever you want and talk to whoever you want. And while that's true-ish to a certain extent - right? - like, at the same time, it's still very much of the world that created it, which is a world that unfortunately is an anti-Black world, is, you know, a queerphobic, transphobic world."
+    },
+    {
+      "author": "AINA",
+      "text": "There are digital security tools that can add more layers of protection, like services that can help find and scrub any of your personal information that's found online or hide your location. But Ra'il notes those usually cost money. Just like in the real world, people with more resources can protect themselves better than people with less. That dynamic extends to online protection."
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "But in my just personal experience, I've definitely seen how the same limits that I've sort of ran into in offline life - it definitely shaped my experience online - the most important one being, I guess, my sense of safety and ability to sort of, you know, live as I want to live, which is sort of what racism does in the offline world as well, right? Like, oh, well, I can't necessarily go there because, you know, my kind isn't welcome there. Or I can't look too much like the way that I want to look because then I'll be targeted because of X, Y, Z, A, B, C."
+    },
+    {
+      "author": "AINA",
+      "text": "Online harassment is deeply disorienting and painful, especially if you aren't expecting it. So takeaway number three is to take care of yourself emotionally if it happens."
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "So for most people, even if they know theoretically it's a possibility - right? - even if they've seen it happen to other people, when it happens to you, there's really nothing like directly experiencing it. You know, and it's comparable to any type of trauma, honestly. And I think it's hurtful. I think a lot of people want to do the whole like, oh, it's just the internet. The internet isn't real. You know, I'm busy making money, blah, blah, blah. Like, I actually have a life offline, blah, blah, blah. And you can try and fall back on whatever defense mechanism. But at the day, we're humans and it hurts to have someone dehumanize you in whatever form it takes. So I think people ought to, when that happens to them, like, cut themselves a break and realize that you didn't do anything to deserve this."
+    },
+    {
+      "author": "AINA",
+      "text": "When that happens, how do you pick yourself back up after it feels like the world has been yelling at you for a week?"
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "Yeah. First things is I would take a break from social media. And I know it's just, like, so cliche or whatever to be like, oh, I need a social media break. But again, it's less important to worry about how cliche it might be or how it looks, but actually, like, you know, prioritizing self-care is important. I really recommend sinking back into your offline life, right? Like what are the things that you enjoy doing offline?"
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "If there's people on social media that are like, you know, your homies, and you want them to be able to have contact with you, you know, take the time before things hit the fan to be like, hey, if anything happens, you can find me on WhatsApp. You can find me on Telegram or whatever it is - and then, you know, taking your time going back to social media, figuring out what that might look like for you, you know? And if you decide that, hey, maybe I don't want to really sign back in until the playoffs happen or whatever it is, then that's also OK, too. You don't have to be there for anyone else but yourself at the end of the day."
+    },
+    {
+      "author": "AINA",
+      "text": "And that's takeaway number four - take a break from being online and create an intentional plan for how you want to interact with it moving forward. Ra'il says to think about how you want to interact with social media in general. Be familiar with the settings that are available on different apps. You can create filters that hide certain words or accounts. You can lock your account and set it to private. And they say there's nothing wrong with deleting it altogether. Know your boundaries, and pay attention to when social media isn't fun anymore or living up to the reasons you were using it in the first place."
+    },
+    {
+      "author": "AINA",
+      "text": "What would you say are, like, your top three strategies for either dealing with online harassment or, like, trying to prevent it from happening?"
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "Top three strategies - number one, block and mute freely, abundantly, with abandon, you know? Don't feel like, oh, if I block, that means they'll think - they want to - no. Just for whatever reason - whether you're annoyed, you feel unsafe - it's fine. Block and mute. The second one would be connecting with people that you actually like talking to or that you actually like interacting with, you know? - even if it's not someone you're in a friendship with. If it's, like, you know, a more popular figure - it's like, oh, where else are they? Are they on TikTok? OK, then I can still keep up with their work or with their content in a space that's not this particular toxic one."
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "And three, just be clear on what you're using social media for. Like, if it's for work, that's one thing. If you have to meet your work objectives, be clear on what those are. Have a plan for if things go left and how the company is going to manage it. But if it's just for yourself, if it's for fun, if it's for whatever it is, as soon as it stops being fun, as soon as it stops being enjoyable or fulfilling in whatever way, then it's fine to just take a step back."
+    },
+    {
+      "author": "AINA",
+      "text": "Do you feel like you've changed your online behavior in any way as a result of your years of experience in these spaces?"
+    },
+    {
+      "author": "I'NASAH KIAM",
+      "text": "Yeah. I generally have. I mean, I have, like, a moment every now and then. But I don't go back and forth with people - like, not in my online communities, you know, at this point. Like I don't really get into fights around, like, a TV show or a musical artist or that type of thing 'cause at the end of the day, everybody has their opinion."
+    },
+    {
+      "author": "AINA",
+      "text": "So basically, don't feed the trolls. That's just good advice for life in general. But when it comes to online harassment, it's extra important. Let's recap a little bit of what else we've learned."
+    },
+    {
+      "author": "AINA",
+      "text": "Takeaway number one is to protect your basic communications. Protect your phone number, and protect your email. Keep an eye on your email inbox. If you start to get an influx of spam or it seems like you've been added to listservs you never signed up for yourself, that could be a sign that something's up."
+    },
+    {
+      "author": "AINA",
+      "text": "Takeaway number two is to be proactive. You don't need to wait until stuff hits the fan to take steps to protect yourself. Use unique and complex passphrases, and turn on two-factor authentication. These basic digital security practices can help you reduce the impact of online harassment if things get to that point."
+    },
+    {
+      "author": "AINA",
+      "text": "Takeaway number three is to take care of yourself emotionally if you're harassed online. You can temporarily lock down your social media accounts you have to and refocus on offline activities."
+    },
+    {
+      "author": "AINA",
+      "text": "And the last takeaway, takeaway number four, is to create an intentional plan for how you want to be online moving forward. Be strong with your block hand, and don't be afraid to mute and set up filters to better curate your online experience."
+    },
+    {
+      "author": "AINA",
+      "text": "Most people don't expect to be targeted online, and sometimes we unknowingly become part of the problem by participating in being one of the thousands of notifications that may cause someone's phone to malfunction or even shut down and feel like the world is crashing down on them. If and when it happens to you, keep these tips in mind. Cut yourself some slack. And remember, there's always a way out."
+    },
+    {
+      "author": "AINA",
+      "text": "For more LIFE KIT, check out our other episodes. I posted one on how to have a healthier relationship with social media, and we have another one on how to protect your privacy online. You can find those at npr.org/lifekit. And if you love LIFE KIT and want more, subscribe to our newsletter at npr.org/lifekitnewsletter. Or if you're looking for a way to support this show, please consider joining LIFE KIT+. A LIFE KIT+ subscription allows you to unlock an exclusive LIFE KIT feed without any sponsor interruptions. You can learn more at plus.npr.org/lifekit. And a big thanks to all of our subscribers out there listening now. We really appreciate your support."
+    },
+    {
+      "author": "AINA",
+      "text": "This episode of LIFE KIT was produced by Audrey Nguyen. Our visuals editor is Beck Harlan. Our digital editor is Malaka Gharib. Meghan Keane is the supervising editor. And Beth Donovan is our executive producer. Our production team includes Andee Tagle, Michelle Aslam and Sylvie Douglis. Our intern is Vanessa Handy, Julia Carney is our podcast coordinator. And engineering support comes from Stacey Abbott and Neil Tevault. I'm Mayowa Aina. Thank you for listening."
+    }
+  ],
+  "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7315886806.mp3",
+  "img": "https://media.npr.org/assets/img/2022/06/23/npr-digital-wave-carlo-cadenas_wide-79974052fa90f3a7d5b3e0e5e540c40e50bc8a99.jpg?s=1400&c=100&f=jpeg",
+  "authors": [
+    "MAYOWA AINA, HOST",
+    "SACHA PFEIFFER, BYLINE",
+    "TREVOR NOAH",
+    "RACHEL MARTIN, BYLINE",
+    "AINA",
+    "HARLO HOLMES",
+    "HOLMES",
+    "RA'IL I'NASAH KIAM",
+    "I'NASAH KIAM"
+  ]
+}
