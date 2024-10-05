@@ -104,7 +104,7 @@ def extract_and_save_episode_data(url):
         # print(f"{file_name} already exists, skipping extraction.")
         return
 
-    response = requests.get(url, headers=HEADERS)
+    response = requests.get(url, headers=XML_HEADERS)
     soup = BeautifulSoup(response.text, "html.parser")
     print(f"Extracting data from {url}")
     id = get_id_from_page(soup)

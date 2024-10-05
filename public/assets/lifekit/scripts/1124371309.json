@@ -1,0 +1,548 @@
+{
+  "title": "Busting 5 common myths about water and hydration",
+  "url": "https://www.npr.org/transcripts/1124371309",
+  "intro": "Do you really need to drink eight glasses of water a day? Can drinking water help you lose weight? Does coffee dehydrate you? Experts explain the science of hydration.",
+  "transcript": [
+    {
+      "author": "MARIELLE SEGARRA, HOST",
+      "text": "This is NPR's LIFE KIT. I'm Marielle Segarra..."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "...And I have some friends here with me, Aaron Scott and Emily Kwong."
+    },
+    {
+      "author": "AARON SCOTT, BYLINE",
+      "text": "Marielle, it is so lovely to have you here. Welcome to NPR."
+    },
+    {
+      "author": "EMILY KWONG, BYLINE",
+      "text": "Yeah. Host friends."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yes, I'm excited. OK, so I was told to have a big glass of water for this. But true to form, I do not. I have a..."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Uh-oh."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "...Quarter of a cup of lukewarm chamomile tea with me."
+    },
+    {
+      "author": "KWONG",
+      "text": "But, you know, those dregs - they have some water."
+    },
+    {
+      "author": "KWONG",
+      "text": "You should just knock it back."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah, it's pretty gross."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Marielle, maybe we need to talk about this. I mean, how much water do you drink a day?"
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Clearly not enough. I am constantly thirsty. I feel like I should be filling up more. I mean, how about you guys?"
+    },
+    {
+      "author": "KWONG",
+      "text": "Clearly too much. I pee, like, 12 times a day. But I don't know - is that too much?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "It's a good question, Emily. I mean, I'm in the same boat, and I'm constantly refilling my teapot over and over again, which kind of makes sense 'cause if you listen to headlines or wellness influencers these days, it sounds like we're all super dehydrated, and water is going to fix all of our problems."
+    },
+    {
+      "author": "HARRY SMITH",
+      "text": "A new study says a key to shedding those extra pounds could be as simple as having two cups of water before meals."
+    },
+    {
+      "author": "UNIDENTIFIED PERSON",
+      "text": "I know it sounds a lot, but it's the best thing for your hair, your skin, your nails - and it's free."
+    },
+    {
+      "author": "JENNIFER LOPEZ",
+      "text": "Water. You can talk more about all of the benefits. But for me, if - just feels good."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh. I heard J.Lo's voice in that mix, and I do as I'm told when J.Lo says it. Like, you can't have too much water. That's my takeaway. End of episode."
+    },
+    {
+      "author": "SCOTT",
+      "text": "The trouble is, Emily, you can."
+    },
+    {
+      "author": "KWONG",
+      "text": "Ah."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Too much water can be deadly, just like drinking too little water."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Oh, jeez. Seriously? How much am I supposed to be drinking, then?"
+    },
+    {
+      "author": "KWONG",
+      "text": "Yeah, how much? Like, science must have a hard number. What is it?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "You would hope so, wouldn't you? I mean, that is the million-dollar question - or if you're the sports drink industry, the billion-dollar question. But the answer, like most good things in life, is it's complicated."
+    },
+    {
+      "author": "KWONG",
+      "text": "I was worried you would say this."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Today on the show, we're going to explore the science of hydration and answer questions about the best ways to quench our thirst."
+    },
+    {
+      "author": "KWONG",
+      "text": "Welcome to our collaboration, Short Life Wave Kit."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Oof."
+    },
+    {
+      "author": "SCOTT",
+      "text": "No, no, no, no, no - Short Kit Life Wave."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh, yup."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah, I don't know. We might need to work on this one."
+    },
+    {
+      "author": "KWONG",
+      "text": "Fine. That's fine. It's all right - work in progress."
+    },
+    {
+      "author": "KWONG",
+      "text": "OK, Aaron, so you were saying that drinking too much water can be bad for you - even deadly in some cases?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah, Emily. Like most things, we can overdo it. I'd like to actually start with a story."
+    },
+    {
+      "author": "TAMARA HEW-BUTLER",
+      "text": "You know, so I'm a marathon runner. I mean, that's, like, my people."
+    },
+    {
+      "author": "SCOTT",
+      "text": "This is Tamara Hew-Butler. Back in 1999, she was a podiatrist volunteering at the Houston Marathon medical tent."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "I'm, like, in the corner, like, popping blisters, like, taping up, like, ankles. And because it was hot, all these runners were, like, being carried in on stretchers. And we assumed that everyone was dehydrated. IVs are going in, like, everywhere because that's what you did. And so in four runners, after the fourth IV, they started to have seizures in the medical tent. They needed to be intubated. They were taken to the hospital, and they were all in comas for a week. And the diagnosis came back - they all had hyponatremia."
+    },
+    {
+      "author": "KWONG",
+      "text": "Ooh, that sounds really serious. What is hyponatremia?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah. So your body is constantly in this state of fine-tuning an internal balance between water and sodium. And hyponatremia is when that gets out of balance, and there is too much water and too little sodium."
+    },
+    {
+      "author": "KWONG",
+      "text": "You know, I've run a marathon. And now that I think about it, losing electrolytes is something to be concerned about, which can happen from drinking too much water or not replacing the electrolytes you're losing through your sweat."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah, we know that now, in part thanks to the work of researchers like Tamara. But back in the '90s, the focus was much more on dehydration - not its opposite. So the next year at the marathon, Tamara decided to look at how much folks were drinking and then measure if they had hyponatremia."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "Runners were drinking 80 to 100 cups of fluid during..."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Wow."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "...The marathon. Yeah. And we're like, why did you do that? They're like, well, I didn't want to get dehydrated. And so for me, I'm like, oh, my God, they're drinking all this water."
+    },
+    {
+      "author": "SCOTT",
+      "text": "It was such a wake-up call for Tamara that she actually closed her podiatry practice and went to get a Ph.D. with one of the international experts on hyponatremia in South Africa."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "And we did a series of studies, and we confirmed that runners were drinking way too much fluid during the race. They couldn't pee it all out, and their brains were swelling, and their lungs were filling up with fluid, and they were in comas, with a few of them dying."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Deaths like this are rare, Emily, but it is a risk for all kinds of athletes. I mean, Tamara says football season scares a lot of people in her field because young folks are guzzling water, thinking that it'll fix things like cramps and headaches, but then not realizing that drinking too much water can actually cause cramps and headaches."
+    },
+    {
+      "author": "KWONG",
+      "text": "Hmm. I had no idea the history of hydration and dehydration research. So tell me - how much water, these days, do we think we should be drinking?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Well, you probably heard that old saying of, you know, you should drink eight glasses of water a day, right?"
+    },
+    {
+      "author": "KWONG",
+      "text": "Absolutely, yes."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah, not true."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh."
+    },
+    {
+      "author": "SCOTT",
+      "text": "No one really knows where that came from. But for a lot of hydration experts, this is the myth that will not die because the real answer is it depends. It depends on your body size, on your activity level, if it's hot and you're sweating a lot."
+    },
+    {
+      "author": "SCOTT",
+      "text": "So our first takeaway, Emily, is to pay attention to your thirst. It will tell you how much you need to drink."
+    },
+    {
+      "author": "KWONG",
+      "text": "Snaps. Listen to your body. OK. Though I will say, Aaron, I can barely pay attention to the thirst of my plants..."
+    },
+    {
+      "author": "SCOTT",
+      "text": "(Laughter)."
+    },
+    {
+      "author": "KWONG",
+      "text": "...Let alone myself. How do I monitor my body's thirst needs?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Well, the fancy thing about that, Emily, is our bodies do it for us."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh, how nice."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah. Tamara says hydration isn't about just water alone. It's about our body's balance of water to salt. That is what prevents ourselves from shriveling up from dehydration or swelling up from hyponatremia - either of which can be deadly. And thirst plays a central part."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "There are sensors located in your brain, and they constantly are, like, tasting your blood - like, ooh, to see how, like - if it's just right salt. So - but if it's, like, too salty, then it's like, oh, my God, I need more water. So when that happens, it makes you thirsty. And so when you're thirsty, what happens?"
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "You put more water into your system. Then, the sensors are going to go like, eww (ph), you know, it's too watery. And it's going to, like, signal a hormone that's going to make you pee out all that extra water."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "So these sensors are in your brain, and they mainly connect to your kidneys."
+    },
+    {
+      "author": "SCOTT",
+      "text": "And that whole back-and-forth between the brain and the kidneys - it happens so fast that your body knows within a minute of drinking whether you drank enough to rebalance that water-salt ratio in your blood."
+    },
+    {
+      "author": "KWONG",
+      "text": "Within a minute of drinking - that is amazing. Wow. Go bodies."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "So people are like, oh, I need an app to tell me, like, when to drink my water. You know, I have to have the gallon container in front of me. No. You've got this sensor in your brain that's been encoded in the DNA of vertebrates and invertebrates - 700 million years. It's in worms, you know? So that's how important water is to life - that just this gene has existed for so long to preserve water balance."
+    },
+    {
+      "author": "KWONG",
+      "text": "Tamara's, like, parting the waves with this knowledge. I mean, it's just - she's saying, basically, yeah, your body is not only tracking thirst for you, but it's evolved to do this."
+    },
+    {
+      "author": "SCOTT",
+      "text": "It works for worms. It works for us - with only a few caveats."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh, of course there is."
+    },
+    {
+      "author": "SCOTT",
+      "text": "(Laughter)."
+    },
+    {
+      "author": "KWONG",
+      "text": "OK. What's in the fine print?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah. So there is some research that suggests that older people may have a reduced thirst sensitivity and likely should be drinking more."
+    },
+    {
+      "author": "KWONG",
+      "text": "OK."
+    },
+    {
+      "author": "SCOTT",
+      "text": "And then a few studies found that people who chronically don't consume much water - like, around a liter or less a day - that they might have a weaker thirst signal, too, and might see an increase in positive mood and wakefulness if they drink beyond their thirst. And then other research has demonstrated that folks with certain medical conditions - including kidney disease, kidney stones and urinary tract infections - they also can benefit from drinking beyond their thirst."
+    },
+    {
+      "author": "KWONG",
+      "text": "OK, good caveat - certain population groups could benefit from drinking more. But to reiterate takeaway No. 1, Tamara says..."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "If you get thirsty, you need to drink water. If you're not thirsty, you don't need to drink water."
+    },
+    {
+      "author": "KWONG",
+      "text": "Now, Aaron, what role do sports drinks play? Because I remember drinking a lot of Gatorade back in high school - out of peer pressure maybe, and also just the ads said it would quench my thirst better than water and, like, replace my salts and electrolytes."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yes, Emily. This one brings us to takeaway No. 2. If you are sweating up a storm out there, playing field hockey, running a marathon - whatever - salt is essential. But it doesn't need to come from sports drinks. I mean, the experts I talked with said that sports drinks do have their place. Like, if you are super active and sweating for more than an hour and you need water, salt and energy, they're a great option. But if you're not burning a lot of energy, then the sugar that is in sports drinks - just like sugar in soda pop - it can be a problem. I mean, you know, you've probably heard that whole idea that drinking more water helps you lose weight."
+    },
+    {
+      "author": "KWONG",
+      "text": "Yes, I have heard this."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah. So that has only been proven to be the case if you're replacing sugary beverages, like soda and sports drinks, with water. But, you know, Emily, in terms of getting salt to your body to keep it balanced and hydrated, it doesn't matter at all where that salt comes from. I mean, Tamara says that she's involved in organizing ultramarathons - you know, these places where people are running a hundred miles over, like, 30 hours straight through the desert or the mountains."
+    },
+    {
+      "author": "KWONG",
+      "text": "They're intense."
+    },
+    {
+      "author": "SCOTT",
+      "text": "And she says that the organizers at these events - they just set out tables with all sorts of different beverages and snacks and just let folks kind of have their pick and follow their cravings - whether that's saying, you know, drink some water and use a salt packet, drink a sports drink, drink a soda, eat some peanuts or slurp some pickles. And then Tamara has actually sampled their blood and their urine and found that their bodies do a fine job keeping the water-salt ratio in balance just by them following those cravings."
+    },
+    {
+      "author": "KWONG",
+      "text": "Our bodies - they really are these finely tuned machines. And just out the other side of thirst - like, does pee color give us a clue if we're hydrated or not?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yes. So take takeaway No. 3 - urine color is not as good a measure of dehydration as thirst. I mean, if we think back to what Tamara was telling us about how the body balances water and sodium, then we remember that urine is a reflection of how much water the body needs to release in order to keep its balance. Urine is not a reflection of if your body is hydrated or dehydrated. Tamara prefers actually to measure your blood because that's what the body is measuring. But a lot of research - especially the research that says that lots of people are dehydrated - that looks at just people's urine."
+    },
+    {
+      "author": "HEW-BUTLER",
+      "text": "We did a study. It was on, like, 300 athletes. And so we had them pee in a cup, and then we drew their blood. And out of the 300, there was, like, one data point where the blood was, like, outside normal, but, like, 50% of the urine was abnormal."
+    },
+    {
+      "author": "SCOTT",
+      "text": "And that person who was outside normal in their blood - it was because they actually drank too much water and were dealing with hyponatremia, not dehydration."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh, that's so interesting. So among these roughly 300 athletes, about half of them showed up as dehydrated when their urine was measured. But looking at their blood, none of them actually showed up as dehydrated."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah. You can see here why hydration is such a complicated topic and why, you know, there's these headlines saying, like, so many people are dehydrated because there's so many different ways to measure it. But, like, just because your urine is really concentrated, it doesn't actually mean that your body's dehydrated. It just means that it's needing to hold onto the water in order to keep that water-sodium balance."
+    },
+    {
+      "author": "SCOTT",
+      "text": "So, like, having dark pee occasionally while you're, you know, working out or on a long hike - it doesn't necessarily mean that there's a problem. But, you know, there is a caveat here, and that is that some research has found having dark urine, like, all the time over a long period of time could actually increase your risk for things like kidney disease, diabetes, hypertension, a few other things. So there are hydration experts who recommend that, you know, you start the day with a glass of water and that you do drink enough to generally keep your pee kind of a golden straw color, which will differ from person to person."
+    },
+    {
+      "author": "KWONG",
+      "text": "Got it. Aaron, you're, like, radically reframing how I see urine, so well done."
+    },
+    {
+      "author": "KWONG",
+      "text": "Let's move on to some other hydration myths. OK. I've heard that if you're thirsty, you're already dehydrated."
+    },
+    {
+      "author": "SCOTT",
+      "text": "This one is, like, yes and no."
+    },
+    {
+      "author": "KWONG",
+      "text": "Oh, OK."
+    },
+    {
+      "author": "SCOTT",
+      "text": "It kind of depends on who you are. Tamara says that our body is constantly, you know, sampling our blood, and that our thirst kicks in after we lose about 2% of our fluids, which is totally fine for most people. You get thirsty. You drink water. You're good to go. But if you are, say, an elite athlete or a fighter jet pilot or something that requires intense concentration, there is some research that's found that mild dehydration is enough to keep you from your peak game."
+    },
+    {
+      "author": "MINDY MILLARD-STAFFORD",
+      "text": "When you got to this 2% level of water loss, you did see some impact on what we call executive function - higher-order judgment and thinking - and also sustained attention - the ability to continue to be vigilant and focus on a task, even if it's very boring."
+    },
+    {
+      "author": "SCOTT",
+      "text": "This is Mindy Millard-Stafford. She's the director of the Exercise Physiology Laboratory at Georgia Tech, and she looked into this mild dehydration, which she says is also linked to things like worsened mood and lower alertness."
+    },
+    {
+      "author": "MILLARD-STAFFORD",
+      "text": "And it didn't really matter if that dehydration was due to exercise, sweat-induced loss, whether people were just not drinking enough, or if they were in a passive heating situation that was not related to exercise."
+    },
+    {
+      "author": "SCOTT",
+      "text": "That is to say, like, you know, sitting around in the hot sun."
+    },
+    {
+      "author": "KWONG",
+      "text": "That's my favorite water loss situation."
+    },
+    {
+      "author": "SCOTT",
+      "text": "(Laughter) So - but you might ask, you know, like, what is 2% dehydration? So, like, for me, I weigh 170 pounds. So that, for me, is like 3 1/2 pounds of water loss, which I thought was, like, huge. But Mindy said that you can lose, like, two pounds an hour if you're being super active."
+    },
+    {
+      "author": "KWONG",
+      "text": "So if you're heading into a sports, sun or I guess, like, a sauna situation, it might be a good idea to drink before you get thirsty - just might make everything a little more comfortable and clear."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yes. So our takeaway No. 4 is you might want to, you know, quote-unquote, \"pre-hydrate\" or have that glass of water in advance if you're about to go into a test or a race or somewhere where you need to really have a lot of mental focus. But most of the time, in our day-to-day life, drinking to thirst is just fine."
+    },
+    {
+      "author": "KWONG",
+      "text": "OK. Last hydration myth - coffee and tea - I've heard caffeine is a diuretic and dehydrates you."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Yeah. And it turns out that this is kind of my favorite one because it's based on a study from 1928 that looked at three people."
+    },
+    {
+      "author": "KWONG",
+      "text": "We can toss that out. It's too small of a sample size."
+    },
+    {
+      "author": "SCOTT",
+      "text": "(Laughter) Yeah. And so they've done newer research, and this myth doesn't hold up at all. But you know what is a diuretic, Emily?"
+    },
+    {
+      "author": "KWONG",
+      "text": "What?"
+    },
+    {
+      "author": "SCOTT",
+      "text": "Alcohol."
+    },
+    {
+      "author": "KWONG",
+      "text": "Ah."
+    },
+    {
+      "author": "SCOTT",
+      "text": "But Mindy actually says caffeine in tea and coffee can help with things like sports."
+    },
+    {
+      "author": "MILLARD-STAFFORD",
+      "text": "A little bit of caffeine added to a sports drink actually has an additional benefit for exercise performance. We know caffeine increases your alertness and probably some of your cognitive abilities."
+    },
+    {
+      "author": "KWONG",
+      "text": "Takeaway No. 5 - my favorite so far - coffee and tea count towards keeping you hydrated."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Along with, you know, food that contains liquid, like fruit, soup, yogurt, gazpacho."
+    },
+    {
+      "author": "KWONG",
+      "text": "Yum."
+    },
+    {
+      "author": "SCOTT",
+      "text": "I mean, we get about 20% of our water from just food itself."
+    },
+    {
+      "author": "KWONG",
+      "text": "Aaron, I have a pun for you, but these are some watershed moments..."
+    },
+    {
+      "author": "SCOTT",
+      "text": "(Laughter)."
+    },
+    {
+      "author": "KWONG",
+      "text": "...You've included in this episode."
+    },
+    {
+      "author": "SCOTT",
+      "text": "(Clapping) Applause."
+    },
+    {
+      "author": "KWONG",
+      "text": "Let's review our takeaways. One - listen to your body, and drink when you are thirsty."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Two - salt is as important as water if you're sweating up a storm. Sports drinks are one way to get it, but so is food. I vote for sports pickles."
+    },
+    {
+      "author": "KWONG",
+      "text": "Plus one."
+    },
+    {
+      "author": "KWONG",
+      "text": "Three - your thirst is a better indicator of hydration than your urine, but some experts say it's good to generally aim to have light yellow, golden pee."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Four - you don't need to drink before you're thirsty or prehydrate unless you're really, really focused on peak performance."
+    },
+    {
+      "author": "KWONG",
+      "text": "And takeaway No. 5 - tea, coffee and really any beverage count towards hydration - except for alcohol - as do many foods. One delicious option - watermelon with some salt on it."
+    },
+    {
+      "author": "SCOTT",
+      "text": "I mean, really, hydration, like so many good things in life, comes down to balance."
+    },
+    {
+      "author": "MILLARD-STAFFORD",
+      "text": "It's like a happy medium, right? Not too much, not too little, just - the just right - the Goldilocks sort of approach."
+    },
+    {
+      "author": "KWONG",
+      "text": "Thanks so much, Aaron."
+    },
+    {
+      "author": "KWONG",
+      "text": "This episode was produced by Summer Thomad and Andee Tagle and edited by Gisele Grayson, Meghan Keane and Rebecca Ramirez. It was fact-checked by Brit Hanson. Engineering support came from Gilly Moon."
+    },
+    {
+      "author": "SCOTT",
+      "text": "Gisele Grayson is Short Wave's supervising senior editor. Meghan Keane is LIFE KIT's supervising editor, and Beth Donovan is LIFE KIT's executive producer. Anya Grundmann is our senior vice president of programming. I'm Aaron Scott."
+    },
+    {
+      "author": "KWONG",
+      "text": "I'm Emily Kwong. Thanks for listening to LIFE KIT and Short Wave from NPR."
+    }
+  ],
+  "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1769550440.mp3",
+  "img": "https://media.npr.org/assets/img/2022/09/21/lk_hydration_8glasses-2_wide-e0a033468e3031f73146fe5fe04c9362699f4094.jpg?s=1400&c=100&f=jpeg",
+  "authors": [
+    "MARIELLE SEGARRA, HOST",
+    "SEGARRA",
+    "AARON SCOTT, BYLINE",
+    "EMILY KWONG, BYLINE",
+    "SCOTT",
+    "KWONG",
+    "HARRY SMITH",
+    "UNIDENTIFIED PERSON",
+    "JENNIFER LOPEZ",
+    "TAMARA HEW-BUTLER",
+    "HEW-BUTLER",
+    "MINDY MILLARD-STAFFORD",
+    "MILLARD-STAFFORD"
+  ]
+}

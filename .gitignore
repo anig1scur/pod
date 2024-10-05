@@ -39,3 +39,4 @@ typings/
 *.wav
 temp_transcript.txt
 venv
+audios/

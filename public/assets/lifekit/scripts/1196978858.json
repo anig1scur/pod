@@ -1,0 +1,294 @@
+{
+  "title": "You asked, we answered: Your questions about electric vehicles",
+  "url": "https://www.npr.org/transcripts/1196978858",
+  "intro": "What happens if your car runs out of power on a road trip? Is it better to buy an EV now or wait until you need a new car? A roundup of smart questions from our listeners.",
+  "transcript": [
+    {
+      "author": "MARIELLE SEGARRA, BYLINE",
+      "text": "You're listening to LIFE KIT..."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "...From NPR."
+    },
+    {
+      "author": "AYESHA RASCOE, HOST",
+      "text": "I'm Ayesha Rascoe in for Marielle Segarra. Have you thought about getting an electric vehicle? Lots of people have. According to auto data giant J.D. Power, EV consideration recently hit an all-time high. And as EVs go from early adopters to the mainstream, as it's not just EV obsessives, but, you know, well, just anybody looking at getting an EV, people have lots of questions, including questions about the environmental footprint of EVs, to help them decide if they should get an EV and then practical questions about charging and buying them to help them decide if they can get an EV."
+    },
+    {
+      "author": "AYESHA RASCOE, HOST",
+      "text": "Here at LIFE KIT, we love nothing better than unpacking the how and the why of decisions like this, so we've partnered with the folks from NPR's The Sunday Story. We asked listeners to send in their questions about electric vehicles, and the response was overwhelming. So to answer all these questions, I'll talk with NPR's business correspondent Camila Domonoske, who covers cars and energy. She's found answers for all these EV questions."
+    },
+    {
+      "author": "RASCOE",
+      "text": "So when it comes to electric vehicles, I think there are a lot of questions about are they the solution to climate change? The No. 1 question sounded something like this."
+    },
+    {
+      "author": "UNIDENTIFIED PERSON #1",
+      "text": "What is the environmental impact of making all of these batteries for electric vehicles?"
+    },
+    {
+      "author": "UNIDENTIFIED PERSON #2",
+      "text": "My questions are about the carbon footprint cost of the whole electric vehicle industry."
+    },
+    {
+      "author": "UNIDENTIFIED PERSON #3",
+      "text": "Is the lithium even better for the environment or is it partly worse?"
+    },
+    {
+      "author": "UNIDENTIFIED PERSON #4",
+      "text": "How environmentally friendly are electric vehicles at this point?"
+    },
+    {
+      "author": "CAMILA DOMONOSKE, BYLINE",
+      "text": "Yeah. I was honestly surprised by how many questions we got along this line. You know, as someone who drives an electric vehicle and gets a lot of questions about it, I was expecting more questions about charging, frankly. But people have seen a lot of stories about the environmental impact of electric vehicles, right? And I think it's raised this question in a lot of people's minds about whether this whole thing is maybe kind of a greenwashing scam, and EVs actually aren't any cleaner, at all. So to answer this sort of big overarching theme in the questions, I called up Georg Bieker. He's with the International Council on Clean Transportation. So I started off my conversation with Georg by just asking, like, to be clear."
+    },
+    {
+      "author": "CAMILA DOMONOSKE, BYLINE",
+      "text": "In terms of who you are, like, if the auto industry were pulling a big con with EVs being actually bad for the environment, like, y'all would not hesitate to call them out for it, right?"
+    },
+    {
+      "author": "GEORG BIEKER",
+      "text": "Absolutely. Yeah. I mean, that's actually why we did the study."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "So he's talking about a study they did that looked at the life cycle of electric vehicles. And that includes everything - mining, manufacturing the batteries, recycling or disposing of the batteries, the power to charge the vehicles - and compared that to the life cycle, everything involved in making and powering gas-powered cars."
+    },
+    {
+      "author": "BIEKER",
+      "text": "The results were clearer than we thought, actually. Electric cars have only one-third of the climate impact of combustion engine cars, so they are much better."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Now, a third is not zero, right? But it's dramatic. That's a significant difference. And electric vehicles are cleaner than gas cars, even in places like China and India, where their power grids rely overwhelmingly on coal. And here in the U.S., where our grid is relatively cleaner than that, it's significantly cleaner and getting cleaner over time. The difference between electric vehicles and gas cars is improving. Lots of studies found this not just the one from the ICCT. That's the big picture, but I could hear just from that rundown people had a lot of specific questions to. So let's go ahead and let's dig into the details."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Let's do that. Let's start with this question about lithium mining. It came from our listener Austin Kampen from Augusta, Mo."
+    },
+    {
+      "author": "AUSTIN KAMPEN",
+      "text": "I hear from a lot of folks that the mining of the lithium needed for some of these car batteries is causing ecological issues. Is this true? And if so, how does this environmental impact compare to vehicles that run on fossil fuel?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah. So I said at the top that you can look at the greenhouse gas footprint and the difference is clear. But Austin's asking about ecological issues which could be broader, right? So I called up Thea Riofrancos. She's a political scientist. She focuses on the impacts from these kinds of mines. And here's what she had to say to Austin."
+    },
+    {
+      "author": "THEA RIOFRANCOS",
+      "text": "So that's such an excellent question. And the answer is yes, it's true. Yes, lithium mining and cobalt mining and nickel mining and all of the mining that goes into standard batteries has environmental impacts."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "All mining, in fact, has environmental impacts and human impacts, right? Lots of people had questions about cobalt and the child labor that happens in the Democratic Republic of the Congo. And all cars require mining, but EVs take more mining upfront to build them. And Riofrancos, this is something she is deeply worried about, but the second part of Austin's excellent question..."
+    },
+    {
+      "author": "RIOFRANCOS",
+      "text": "How does this compare to fossil fuels? A traditional car needs mining every day, needs mining every time it's used. It needs the whole extraction complex of fossil fuels in order to power it. And the extraction of the crude and the refining of the crude into gasoline is itself environmentally impactful and produces emissions and is energy intensive. And then burning that every time, you know, we turn on the ignition and accelerate the car is producing a mix of climate impacts from the emissions and then local particulate matter as well that harms the air or kind of around the car."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "So she says if you consider all of these impacts upfront and the life of the vehicle, the mining, the pollution that goes on, fossil fuel vehicles are overall worse for the environment than EVs, though she gave the caveat that for larger EVs, the difference does get smaller."
+    },
+    {
+      "author": "RASCOE",
+      "text": "So that's building the battery. But what about the disposing of the battery? Like, that was what was on the mind of listener Erica Mills."
+    },
+    {
+      "author": "ERICA MILLS",
+      "text": "Just wondering what the deal is with recycling the batteries because I always thought this was, like, a really big barrier we hadn't figured out yet. But my friend who just bought a Tesla said she read on their website that all their batteries are recyclable."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah. This is directly related to the mining question, actually, because the minerals that go into a battery don't get used up over the life of the car. They're still just as good at the end, and the more they can be recycled, that means the less we would have to mine in the future. That's a really big difference between these batteries and gasoline that we just burn and it's gone forever, right? Except, as Erica noted, there used to be this big question mark about recycling. So I called up someone who knows firsthand what's happening with EV battery recycling right now."
+    },
+    {
+      "author": "ALEXIS GEORGESON",
+      "text": "At Redwood, we do already, today, take in about 10 gigawatt hours annually, which would equate to about 100,000 vehicles a year, of batteries. And we can recycle those, and we can recover between 95- to 98% of the critical minerals like nickel and cobalt and lithium and copper and then remanufacture those back into battery components here in the U.S."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "That's Alexis Georgeson. She's an executive at Redwood. That's a company started by a former Tesla founder to recycle EV batteries. And one thing I'll note about the fact that these batteries are getting recycled - they're actually valuable, right? So people are worried about the risk of batteries ending up in a landfill, but there's one really good reason why they wouldn't, which is that they are worth money to companies like Redwood as a raw material to build new batteries out of."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Yeah. I mean, this is - it's very interesting to, like, break down all these pieces of what goes into an electric vehicle and whether those pieces are environmentally sound. We know that you got to use power to charge these batteries in the..."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah."
+    },
+    {
+      "author": "RASCOE",
+      "text": "...Electric vehicles, and that power comes from someplace. And so let's look at the impact of that. We got a question from Analina Tunnell from Austin, Texas."
+    },
+    {
+      "author": "ANALINA TUNNELL",
+      "text": "I know that a good deal of our electricity is still powered by fossil fuels. So how much research do I need to do on where my local electricity is coming from in order to see if it's worth it to get an EV?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "This was another great question, and I'll just pause here to note that the experts I played these questions for were so impressed with how well-informed our listeners are. Yes, a lot of electricity comes from fossil fuels. It varies based on where you are. It varies based on the time of day. It makes the math about electric vehicles and their environmental footprint complicated. Jessika Trancik at MIT, she has done this math, broken it down, and it varies across the country. Maybe using electric vehicles has a 30% improvement on your emissions. Maybe it's 60%. I played her Analina's question, and she said this."
+    },
+    {
+      "author": "JESSIKA TRANCIK",
+      "text": "Good news is, if you're interested in an EV, you can be confident that making that switch, if you're living in the U.S., if you're switching from an internal combustion engine vehicle, is going to be beneficial."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Everywhere in the country, an EV is cleaner than a comparable gas car. And the reason why is that it's just a more efficient way of using energy to make power at a power plant and then put it in an electric vehicle versus a gas engine, which is actually not very efficient. Now, that said, if you want to do the research, you can check out carboncounter.com. You can look at different state by state, vehicle model by vehicle model, see how the grid affects how big of an impact switching to an EV will have. Grids are getting cleaner over time, so you can look at the impact right now, and it's almost certainly going to be a bigger impact. Switching to an EV will have more of a benefit in the future. But even on the current grid, across the country, electric vehicles still beat gasoline."
+    },
+    {
+      "author": "RASCOE",
+      "text": "So OK, that makes sense for a new car. But what about if you have a car right now, and it's running just fine? Is it worth dumping your gasoline-powered car for a new vehicle? Here's Ali Mercural from Portland, Ore."
+    },
+    {
+      "author": "ALI MERCURAL",
+      "text": "I've been told that the biggest environmental impact of a car is in the manufacturing. So what I want to know is, is it better from an environmental standpoint to buy an electric vehicle now, or is it better to keep driving the car that you have, even if it uses gas, and wait until you definitely need a new car before buying an EV?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "It's a super common question. I want to start with the first bit because that's a really common misconception. Actually, most of the impact of a vehicle, particularly a gas-powered vehicle, is from running the vehicle, not from building it. And because of that, buying a new EV, even with all the emissions that went into manufacturing it, in a year or two of driving, as much as Americans drive, you cancel out those emissions, and you're now net lower emission."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Now, that said, Ayesha, it totally makes sense to wait until you're ready for a new car to buy a car. And that's not from an emissions standpoint but just from a practical one because cars are super expensive, right? So everyone who I talked to said, you know, when you're thinking about getting a new car, when it's time to swap out your car, that's the point where considering an EV, if you're trying to reduce your emissions makes a lot of sense. But financially, if you're happy with your current car, it's probably not going to be a good choice to swap it out for an EV unless you have, you know, buy-a-car-for-fun money."
+    },
+    {
+      "author": "RASCOE",
+      "text": "OK, well, it's nice if you do. You know, there are always going to be people who are going to say, look, I mean, if the climate is at stake, should we be buying cars at all? We got this question from Thomas Guffey of Los Angeles."
+    },
+    {
+      "author": "THOMAS GUFFEY",
+      "text": "Wouldn't it just be better to design cities around mass transit and use mass transit than trying to get everyone to convert over to electric vehicles? I don't know if that's a real question or not."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "It's totally a real question. And the answer is yes that is a lower impact on the environment. I'll also note we got some questions from listeners about e-bikes. Similarly, yes, e-bikes have a significantly smaller impact, like much smaller, than buying a big, full-sized car, right? In order to meet climate goals, we will need to build cities so that they're more walkable and have better mass transit and support bike infrastructure. And with all of that, we will also still need electric vehicles, right? Not everyone is going to be able to get around by transit or by bicycle. But within the world of electric vehicles, you can also reduce the impact of buying a vehicle by getting the smallest car that you can."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Cars are really expensive right now. So let's talk a bit more about these prices. We got questions about whether leased vehicles get the same tax rebates."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah. So there are big federal tax incentives for buying electric vehicles right now, up to $7,500. There might also be state tax credits, depending on where you live, right? The federal tax credits, though, they're limited to cars that are made in North America and source their battery components from the U.S. or allied countries, which really reduces the number of vehicles that qualify right now. And so the listener who wrote in to ask about leases - yes, leases are totally different. All leased electric vehicles currently qualify for this tax credit, which reduces the cost significantly on leased electric vehicles."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "There's actually - we have a guide to the federal tax credits, which can be a little complicated, on npr.org. But the short answer is you have to qualify on income and the vehicle if you're buying it. Everyone currently gets that tax credit on a lease. And on the point of prices, I will also note it is - in almost every case, if you're charging at home, it's going to be cheaper to charge an EV than to run a car off of gasoline. So that does save money in the long term, although it doesn't necessarily help with the upfront costs."
+    },
+    {
+      "author": "RASCOE",
+      "text": "So let's talk about charging, since you brought it up. We got a question via email from Russ Prechtl, who owns a Tesla and asked about charging. Like, what's the progress? When will we see more charging infrastructure available?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah. So to answer this question, I dug into some of the data from the Department of Energy, called up some analysts, and I'm going to start by sort of breaking down the levels of charging, right? There's level one, which is how you charge in, like, a standard outlet. This is actually how I charge my electric vehicle at home. It's very slow, but if you don't drive very much, it's perfectly fine. So people do that at home. We're also starting to see those chargers get added at airports where you're parked for a long time."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Then there's level two charging. These are chargers that can completely refill a battery, say, overnight or in the course of a workday. So these are chargers that are at places where you work. They're at hotels. That's level two chargers."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "And then there's fast chargers. Fast chargers are the ones you use on road trips. Most people are charging their vehicles most of the time level one or level two. Fast chargers you only use when you're on a long trip. But they get a ton of attention because Americans - it's really important psychologically that we feel like we can go anywhere at any time, right? This is really important to car buyers."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Yes."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "So fast chargers - infrastructure is improving. One huge thing that's happening right now is the Tesla supercharger network, which is bigger and more reliable and faster than most other charges out there. It's opening up to non-Teslas. This is a brand-new, currently happening situation. It's going to be complicated over the next few years with lots of adapters going out and figuring out how exactly it works, but more people are going to be able to use the supercharger network. And automakers and the federal government are also putting billions of dollars towards building more fast chargers along freeways. Now, this has been under way for a couple of years. If you're an EV driver who is like, where are these billions of dollars going because I'm not seeing it? The money goes through the states before it goes into projects, and some of it's going pretty slow so far. They're not growing as quickly as the number of EVs on the road are growing. So charger growth needs to increase significantly in order to keep pace with how quickly EVs are selling."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Here's another question we got by email. And I think it really gets down to kind of, like, the brass tacks or the lithium battery or whatever it is at the heart of this matter. And it's from Robin Rzechula of Chicago, and here's what she said - what happens if an EV runs out of charge? I'm not proud, but I've run out of gas twice in my life. Luckily, I had nearby friends to bring me a gallon of gas. What would happen with an EV? Would a tow truck come to charge me up? How long would that take? How much would it cost, and how embarrassing would that be?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Well, I can't answer the embarrassing question, but I can tell you a tow truck can tow you to a charger, right? That's sort of the universally available solution here. Depending on where you are, AAA does have some pilot programs to bring a battery to you and charge you up on the side of the road, so you have enough juice to get to a charger. But I want to step back to answer this question a little differently, which is it also depends on why you've run out of gas when you've run out of gas in your life. Did you run out of gas because it was kind of inconvenient to go to the gas station, and you were putting it off? - because for EV drivers, one of the things that people say consistently that they like about having an EV is that you don't have to go to the gas station. If you charge at home, you pretty much always have a metaphorical full tank, right? You just plug it in at night the same way you plug in your phone, and the next morning it's charged for you. On road trips, it takes some planning with an electric vehicle, right? So there's apps that you can use, and you can put in where you're going. You can say how long you want to stop. Do you want to stop at a shopping mall? Do you want to stop somewhere with food? Or do you just want to stop where you're going to have the quickest charge? And road trips, you know, stopping for a meal is not the end of the world. But it is different."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Well, you know, I mean, there is this idea in the U.S. that people want to be able to get in their car and make a run for it if they have to, you know (laughter)? Like, they want - and so there's this range anxiety because there's this idea that if you, you know, even though, yeah, you may only go 15 miles in your day, you know, normally - if that - but what if the zombie apocalypse happens or something happens? You got to get in the car and go. People have range anxiety. Like, I'm sure you hear about this, right? You know, so we have our listener, John Little. He's been thinking about this, especially in the winter because that affects charging. Here's his question."
+    },
+    {
+      "author": "JOHN LITTLE",
+      "text": "I'm in Vermont. I'm curious about the cold weather affecting my ability for the battery to charge up fully. And if I'm driving around with heat on and my radio, listening to Sunday Story, what's that going to do to my actual range?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah. So cold weather does affect electric vehicle range. I spoke to Nils Sodal in Norway. He's with a group that every winter sends electric vehicles up into the mountains north of Oslo to see how they do. This is what that sounds like. It's pretty cold and miserable."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "He says they've done this for years, and different vehicles do differently."
+    },
+    {
+      "author": "NILS SODAL",
+      "text": "We have tested this in the winter. The best had only 4% loss of range, and the worst is 36 - and a lot in between."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "So, you know, ballpark, you can figure you'll lose 25% of your range in the winter. It might be worse if it's really, really cold, you know, negative digits. It does vary by car, so you'll want to research that specifically, how you drive. You'll also want an EV that can precondition the battery, which just means warm it up before you charge it because the batteries like to be warm when they charge. And you know, if you want to improve your range in an electric vehicle, in general, slowing down is going to be the thing that helps the most. If you don't speed, you go the speed limit or even a little under, your range will increase a lot. But the radio I am pleased to report - not a significant draw of energy, so please keep The Sunday Story playing."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Keep it playing please. We need your support (laughter). Camila, what questions do you think people should be asking themselves if they are thinking about getting an EV?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Yeah, you know, the first question I always ask people is - can you charge at home? And if you can't charge at home, can you at least charge at work? - because with the public charging infrastructure right now - like we said, it really needs to speed up - it makes a huge difference if you can charge at home. And then I tell people who are thinking about road trips, you know, really sit down and think, how far do you go? How often do you take a road trip, and are there chargers along the way? You know, if you go a couple years to see family in a specific place, actually plug that route into a trip planner and then look at what that route looks like and actually think, like, what would it be like to do that? Is that a deal-breaker or is that actually fine?"
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "If you really often take road trips, you might want to get a car that can charge as fast as possible on a fast charger. You might want to get a Tesla, so you have access to the supercharger network. And if you only go on road trips a couple times a year, the extra cost for those kinds of features, like, it might not be worth it. If you have two cars, you might not take that EV on a road trip at all, right? You might only get it for local commuting, and then you don't have to worry about the fast charger or the road trip element at all. And you know, when it comes to the environmental footprint, the questions are - do you need a car at all? And if you're going to buy an EV, how small of an EV can you get? And those are the practical questions that will reduce your environmental impact. The - lots of researchers have done the math on answering the EV versus gas car question, and the EVs do win out."
+    },
+    {
+      "author": "RASCOE",
+      "text": "Thank you for coming in and sharing all these insights with our listeners. I appreciate it."
+    },
+    {
+      "author": "DOMONOSKE",
+      "text": "Thank you."
+    },
+    {
+      "author": "RASCOE",
+      "text": "For more LIFE KIT, check out our other episodes. We have one on how to buy a car and another on DIY car maintenance. You can find those at npr.org/lifekit. And if you love LIFE KIT and want more, subscribe to our newsletter at npr.org/lifekitnewsletter. Also, we'd love to hear from you. If you have episode ideas or feedback you want to share, email us at lifekit@npr.org."
+    },
+    {
+      "author": "RASCOE",
+      "text": "This episode of LIFE KIT was produced by Sylvie Douglis and Andrew Mambo. It was edited by Meghan Keane, Jennifer Schmidt and Rafael Nam. Our visuals editor is Beck Harlan. Our digital editor is Malaka Gharib. Beth Donovan is our executive producer. Our production team also includes Andee Tagle, Audrey Nguyen and Clare Marie Schneider. Engineering support comes from Josh Newell. I'm Ayesha Rascoe. Thank you for listening."
+    }
+  ],
+  "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8170872954.mp3",
+  "img": "https://media.npr.org/assets/img/2024/04/04/lk_electric-car_questions_4-copy_wide-09394d2adbd13ddefad9f9bed52d1f773f885bcc.jpg?s=1400&c=100&f=jpeg",
+  "authors": [
+    "MARIELLE SEGARRA, BYLINE",
+    "SEGARRA",
+    "AYESHA RASCOE, HOST",
+    "RASCOE",
+    "UNIDENTIFIED PERSON #1",
+    "UNIDENTIFIED PERSON #2",
+    "UNIDENTIFIED PERSON #3",
+    "UNIDENTIFIED PERSON #4",
+    "CAMILA DOMONOSKE, BYLINE",
+    "GEORG BIEKER",
+    "DOMONOSKE",
+    "BIEKER",
+    "AUSTIN KAMPEN",
+    "THEA RIOFRANCOS",
+    "RIOFRANCOS",
+    "ERICA MILLS",
+    "ALEXIS GEORGESON",
+    "ANALINA TUNNELL",
+    "JESSIKA TRANCIK",
+    "ALI MERCURAL",
+    "THOMAS GUFFEY",
+    "JOHN LITTLE",
+    "NILS SODAL"
+  ]
+}

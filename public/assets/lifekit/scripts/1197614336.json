@@ -1,0 +1,203 @@
+{
+  "title": "LISTEN: Math tricks for everyday life",
+  "url": "https://www.npr.org/transcripts/1197614336",
+  "intro": "If math never quite stuck for you, Ben Orlin is here to change that. He says think of math as a language. Numbers are the nouns and the arithmetic operations are verbs. This episode, learning the language of math to help you in your day-to-day life.",
+  "transcript": [
+    {
+      "author": "MARIELLE SEGARRA, HOST",
+      "text": "You're listening to LIFE KIT..."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "...From NPR. Hey, everybody. It's Marielle. Today on the show, we're going back to math class. For a lot of us, the math we learned in school felt perplexing or unsettling in some way. Maybe you couldn't get the right answers, or maybe you could, but you just wanted to know, what are we doing here?"
+    },
+    {
+      "author": "BEN ORLIN",
+      "text": "You know, I think it's clear in other lessons, in your English class or in your science class, what this subject even is. And with math, it's not even totally clear for the people learning it what exactly they're learning. It's the strange game with no obvious connection to their lives."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Math teacher Ben Orlin. Now, you may have understood the basics. I have five apples, Cindy gives me two more, how many apples do I have? OK, I see the real-world implications here, but at some point, maybe when you learned about negative numbers or imaginary numbers or the concept of pi..."
+    },
+    {
+      "author": "ORLIN",
+      "text": "You're just like, I do not know what these marks mean, and you just start pushing them around the page, trying to do whatever is happening up on the board, and it's a game of kind of mimicry and trying to, sort of, do the dance without being able to hear the music."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "It's Ben's mission to help you and his students, who've ranged from middle school to high school to college age, see math in a different, more approachable way. He's written several books, complete with stick figure comics, to help some of these concepts sink in. His latest is called \"Math For English Majors: A Human Take On The Universal Language,\" and he explains math as a language. In Ben's framework, math has nouns and verbs and pronouns and synonyms and grammar. Think about it this way - if you wanted to read poetry or philosophy in Italian, you'd get more out of it if you learned the Italian language rather than reading a translation. Ben says it's like that with math, too."
+    },
+    {
+      "author": "ORLIN",
+      "text": "There's a lot of mathematics that you can't really read in translation. You have to get to it in its original language."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "On this episode of LIFE KIT, we're doing a sort of math 101, learning math as a language. You can think of this as, all right, let's try this again, come at it from another direction. And if you're wondering, when am I going to use this, Ben will also share some of his best tips for how to do arithmetic in your head in your day-to-day life."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "OK, so what are the nouns of math? Let's talk about this as a language."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, so noun, right, a noun in English is like person, place or a thing, right, when I think back to childhood Mad Lib games. That's how I learned the definition of noun. And etymologically, the word noun basically means name, so it's about naming things in the world. And that's where math begins, is you need to name, in particular, the numbers, which is actually harder than naming most things. Like, when you're naming kids, you can think really hard about each kid and give them a nice specific name that captures something about the family tradition, but there's too many numbers to do it that way. We don't give every number, like, a beautiful, unique individual name, so we need systems for naming all those numbers and that's a lot of what really the first several years of math education is about, is learning the various systems that we have for giving names to the numbers."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "I guess, why call out numbers as nouns? What do we need to know about them? What do they share with nouns?"
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah. Look, I think if you think about learning a language like English, it's like my daughter is 1 right now, my younger daughter, and she's just starting to speak, just starting to say words, and most of the words she says are names for things, right? She says baby. Like, she calls everybody baby, so she's still learning how to use that one, and then there's..."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "That's really cute."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, it's really sweet. Anyway. And so the other day we were looking at a fish tank and she saw bubbles, and she was like, bubba. Like, she was really excited about the bubbles because she knew what those were called. But that's the first task of language, is just, like, what are the things in the world and what are the labels we're putting on them? And so that's where math has to begin, too. But what's different about it from an ordinary language like English, where we can just give, kind of, evocative, fun, easy to say names to things, in math, we're going to be doing things with these names. We're going to be combining the names and we're going to be multiplying the names together, so we have to name them in a way that lends itself to all that later work we're going to do."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "It reminds me almost of colors. Like blue and red are their own things, but if you can blend them together and then they become purple."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, that's right. Yeah. Yeah. And math is almost like a world where, if blue and red blend to make purple, then purple should be called blue-red, like blured (ph) or something. Like, we want the names, because we can actually see blue and we can see purple, but we can't really see 17. Numbers themselves are sort of these imaginary constructs. The names need to do a lot of work."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "OK, so takeaway one, think of numbers as nouns, the building blocks of the mathematical language. They are where it all begins. So then we've got the nouns. Next, we have the verbs of math, and you call these the actions. Addition, subtraction, multiplication, division, squaring, exponentiation, things of this nature, and it's how we make the numbers dance. Say more about that."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, yeah. We do things with numbers, right? So the verbs are the actions that we take. And usually what we're doing with numbers is we're taking the numbers we have and trying to turn them into the numbers we wish we had. So there's things we can measure directly in the world, but there's things we wish we could know but we can't measure them directly, and calculation is what lets us find that stuff out. So the example I like to give is the depth of the ocean, which I just take for granted that, like, we know how deep the ocean is in different places, but I had to look up at some point, it's like, how do we know? Like, have we dropped an anchor all the way down? That would be the measurement approach. So that's not what we do."
+    },
+    {
+      "author": "ORLIN",
+      "text": "What you do is you make a loud noise, right, and you use sonar to measure how long it takes the noise to bounce back off the ocean floor, and so what we're measuring is actually a time. We're measuring how long it takes the sound to bounce up, and then we can do a calculation, you can do it in a pocket calculator. If we know how fast the sound travels, then we can do a little multiplication and figure out how far it is down to the ocean floor. So that, to me, is the template of what calculation is. It's taking numbers that we have, numbers that are available to us, the knowledge we already have, and just using it to, sort of, generate new knowledge, just by a process of recombining numbers."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Takeaway two, the verbs of math are operations - addition, subtraction, multiplication, division, squaring, cubing, roots, logarithms. And as Ben notes in the book, this isn't a perfect metaphor, but yeah, you can think of them this way. So, let's talk about addition, which is, I think, the simplest math verb. It's the first one we learn, pretty much, and it does indeed come up a lot in our day-to-day lives. I wonder, do you have any tips for those of us who want to do addition in our heads in some real-world scenario?"
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah. My first and strongest piece of advice would be to round. Round really aggressively. School math gives you this experience that you have to get everything precisely right and it has to be to the third decimal place. And it just doesn't matter to be that precise in real life. Usually, like, everything is a little bit fuzzy in real life. If you're right to within 10 or 20%, that's probably fine. So, like, if I'm adding up what a trip to the store is going to cost and something that costs $18, 18 is 20, 20 is really fine to use. And if something else costs $11, that's 10. That's fine. And that makes it much easier to do arithmetic if you're trying to add up, you know, $11.27 and $18.94, that's very hard to do without pencil and paper. But $20 plus $10, like, that I can do in my head."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "All right. Takeaway three - when you're doing back-of-the-envelope math or adding things up in your head, round like it's going out of style."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "And what about, like, if you're trying to figure out, let's say, what's a better deal at the grocery store or how much to tip? I mean, honestly, I usually just break and take out my phone and use the calculator. But I think it might be beneficial to try mentally."
+    },
+    {
+      "author": "ORLIN",
+      "text": "I mean, I think the calculator honestly is fine. Like, we do all have these calculators in our pockets, you know. If you know what calculation you want to do, I think it's really fine to use the calculator for it. Where I think you want to use mental math, though, is just to make sure that the answer you getting from the calculator makes sense. It's really easy to accidentally hit one extra button on a calculator and get an answer that's 10 times too big or 10 times too small. And so it helps to have good mental math just to check that what the computer has generated is plausible."
+    },
+    {
+      "author": "ORLIN",
+      "text": "When it comes to percentages, usually, I like to think in terms of one percents and 10 percents. So if this thing is 5% off, how much is that going to be? You look at the price. Ten percent of that is pretty easy to find - right? - just move the decimal one place. And then cut it in half, and now you've got 5%. And if I'm trying to calculate 4%, honestly, I'd probably just calculate 5%, and that's close enough. So it's really fine to just ballpark it."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah, I love that. It's OK to use a calculator app on your phone. Sometimes that's the best approach. Is there any reason to try doing mental math here and there? It feels like it's good to keep our brains moving in different ways."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah. Yeah, exactly. Mental math can be sort of a quick little exercise for your brain. Really satisfying, too, when you get an answer that sheds new light on something or just makes sense or was - felt like you found a clever way to get to it. Kids enjoy that. Young kids enjoy that. We're very effective in math education of destroying that natural love, that natural curiosity. But I would encourage people to resist the efforts we've put into squeezing that out of people and try to get that natural curiosity back."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "I want to go to some specifics that just - I just found really interesting from the book. One is that you were talking about negative numbers and basically, like, negative two, negative 200. They can be a little baffling to people. How is it possible that you have negative of something? But I think in our day-to-day lives, we do see them. In negative temperatures, you're like, oh, that's real cold."
+    },
+    {
+      "author": "ORLIN",
+      "text": "And really, debt, which is also kind of made up. I mean, debt is just this social construct we've imagined, and we've kind of built our society on it. Negative numbers are very useful for talking about debt. So since debt feels very real to us, negative numbers feel very real to us. When I've taught middle school, that's always the entry point I use for talking about negatives 'cause negative four can feel a little abstract until it's - you say, you owe that kid $4. And that's very concrete. That's something any middle schooler can appreciate as real."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Totally. I think what was most interesting to me about this is that you talked about how a lot of influential mathematicians throughout history would talk a lot of crap about negative numbers. And they would do..."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Oh, yeah, yeah."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah. They would do these elaborate calculations to avoid them, right?"
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, yeah. Oh, yeah, they view them as nonsense, right? I mean, it's there - it's in \"Alice In Wonderland.\" One of the things that the queen asks Alice is, like, what's seven take away nine? And Alice, like, as the voice of reason, is like, seven take away nine? You can't do that. You can't. If you have seven apples, you can't take away nine apples. You would need - you can't take away more than is there. And the Red Queen is belligerent and yells at Alice for giving such a foolish answer, which - but it's just common sense. It really was. It was in the 19th century. This is, you know, a time when mathematicians certainly knew how to manipulate negative numbers. They were really in wide use in mathematics. But if you pressed certain people on it, people who knew the math, they'd still say they don't make any sense, right? Like, they don't feel like real numbers."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "I mean, what was fascinating to me was it reminded me that there was and still probably is plenty of disagreement about math, how it works, how it should work. It's not this entirely fixed set of rules."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, definitely. Yeah, no. I mean, it's been done differently in different places at different times and then sort of in perpetual renegotiation. Yeah. I mean, the stuff we teach to kids these days, at a lot of points throughout history, would have felt very, very abstract."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "It's almost like knowing that people disagree about math makes me feel less alone in learning math or being confused by it."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah. That's something I've been thinking about a lot. What we present in math class are heavily digested, like, carefully packaged versions of ideas that took a long time for people to work out. It was really a messy process to - coming up with the mathematical notations and the mathematical ideas that we use. And then we compress them all down to this tiny little box that goes in your textbook that says, this is the formula you need to learn. And I'm not saying we want to present all the mess 'cause mess is also hard to learn. But it's worth people knowing that this isn't something someone just sat down and thought up one day. It was a slow iterative process, like learning anything."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "OK. Takeaway 4 - remember that not everyone agrees on how math should be done or how to calculate an answer to a mathematical problem, or even what math is. And when mathematicians try to discover or prove new ideas, they spend a lot of time lost and confused. So it's OK if you get confused by math, too."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "This might not be in vogue in school, but I feel like, well, in general, it's OK to question things. It's OK to say, I don't understand the way you're teaching this, or this doesn't really make sense to me."
+    },
+    {
+      "author": "ORLIN",
+      "text": "Yeah, yeah. I love that in math students. I mean, it's a sign of life, right? I think the danger in math is that you become discouraged and beaten down by the relentless onslaught of practice and learn this rule and learn that rule. And you stop trying to digest it into your world. You stop trying to incorporate it into your way of thinking, and it just becomes this game that you play in that one room, the math classroom, and then you step out into the world, and it has nothing to do with any of that. Whereas the whole beauty of math is it should have a little something to do with everything. There are very few places in life where you can rely on math alone, and you don't need any other knowledge. But almost everywhere in life, a little bit of mathematical thinking is a really helpful ingredient."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "What do you recommend for people who get a lot of anxiety about doing any sort of math?"
+    },
+    {
+      "author": "ORLIN",
+      "text": "I would say you are more capable than you think you are, and this isn't a referendum on your intelligence. We are weirdly tied up into knots in our culture on mathematics being some kind of measure of how smart you are, like, what your brain can do. And that's just not what math is for. That's not really what math is. And math isn't fundamentally different than other things you've learned. If you're someone who has math anxiety, you're probably someone with wonderful deep wells of knowledge about all sorts of other things. You can build that for math. You are capable."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "All right. It's time for a recap. You can think of numbers as nouns, the building blocks of math, and operations like addition and subtraction as verbs. Now, in the book, Ben presents an alternative idea that you could also call operations like addition and subtraction prepositions and say the equals sign is a verb. But you'll have to read his explanation of that one."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "He also talks about algebra as the grammar of math and fractions as synonyms for each other. Like, one-half and three-sixths, those are synonyms. Next, when you're doing math in your head or just quickly on paper, round, always round. And lastly, remember, even mathematicians disagree about math and find it confusing at times. So it's understandable that the rest of us do, too."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "For more LIFE KIT, check out our other episodes. We have one on how to avoid common financial mistakes and another on lowering your grocery bill. You can find those at npr.org/lifekit. And if you love LIFE KIT and want even more, subscribe to our newsletter at npr.org/lifekitnewsletter. Also we love hearing from you, so if you have episode ideas or feedback you want to share, email us at lifekit@npr.org."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "This episode of LIFE KIT was produced by Gabriel Dunatov and Sylvie Douglis. Our visuals editor is Beck Harlan, and our digital editor is Malaka Gharib. Meghan Keane is our supervising editor, and Beth Donovan is our executive producer. Our production team also includes Andee Tagle, Clare Marie Schneider and Margaret Cirino. Engineering support comes from Tiffany Vera Castro and Kwesi Lee."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "I'm Marielle Segarra. Thanks for listening."
+    }
+  ],
+  "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2489029106.mp3",
+  "img": "https://media.npr.org/assets/img/2024/09/04/template-1-example_wide-b3d9750367239e1f95aed475acd179cba781b319.jpg?s=1400&c=100&f=jpeg",
+  "authors": [
+    "MARIELLE SEGARRA, HOST",
+    "SEGARRA",
+    "BEN ORLIN",
+    "ORLIN"
+  ]
+}

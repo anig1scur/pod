@@ -1,0 +1,246 @@
+{
+  "title": "Curious about crypto? What you need to know to get started with digital currencies",
+  "url": "https://www.npr.org/transcripts/1111234226",
+  "intro": "If the words \"crypto,\" \"Bitcoin,\" \"blockchain,\" \"mining,\" feel overwhelming or confusing Life Kit is here to help. In this episode, experts to demystify cryptocurrencies and give you the tools to decide whether buying some is a good option for you.",
+  "transcript": [
+    {
+      "author": "ANDEE TAGLE, HOST",
+      "text": "This is NPR's LIFE KIT. I'm Andee Tagle, one of the producers of this show. And in this episode of LIFE KIT, we're going to explore cryptocurrency. This is not an easy task, friends. Hold onto your hats, and keep your arms and legs inside the vehicle. In my humble millennial opinion, there are few frontiers less maddening or mystifying than that of crypto. Altcoin, bitcoin, cold wallets, DLT, NFTs, public keys - the jargon alone can stop you in your tracks, to say nothing of all the headlines, but this stuff is worth getting to know. Simply put, crypto technology offers a new kind of financial freedom not available to you with the cards or coins in your back pocket."
+    },
+    {
+      "author": "LAURA SHIN",
+      "text": "Crypto represents a new way of offering services and products on the internet that wasn't possible before. Up until bitcoin came about, all services online were provided by centralized companies or centralized organizations. But there's no company that has done this. There's no CEO of bitcoin. There's no employees that were hired or anything like that."
+    },
+    {
+      "author": "TAGLE",
+      "text": "This decentralization holds promise and power, but like any new frontier, crypto is not without its dangers. So if you want to start digging for that so-called digital gold, you should know upfront it's not a task for the faint of heart."
+    },
+    {
+      "author": "ESWAR PRASAD",
+      "text": "Do not put all of your savings or your retirement money into bitcoin, but if you have a little extra pot of money lying around there where you're willing to take a big gamble where you might get a very large return but potentially also have that part of your investment portfolio go to a value of zero, then go for it. But do so with your eyes wide open that you're taking on a huge amount of risk."
+    },
+    {
+      "author": "TAGLE",
+      "text": "This episode of LIFE KIT - crypto 101. Takeaway one - before we can talk about how to get involved with cryptocurrency, we need to understand what exactly crypto is. To do that, we're going to start with a little sightseeing with Laura Shin, a crypto journalist and host of the crypto podcast \"Unchained.\" She's going to explain cryptocurrency by walking us through the idea of a blockchain, the technology on which cryptocurrency lives."
+    },
+    {
+      "author": "SHIN",
+      "text": "Let's say there's a village of 100 people or something."
+    },
+    {
+      "author": "TAGLE",
+      "text": "And in that village - we'll call it Cryptoland - there's a rule."
+    },
+    {
+      "author": "SHIN",
+      "text": "Every day at noon, we all gather in the town square, and what we do is we all call out all the transactions that we have completed since the day before. So, for instance, maybe I'll say that I paid you $5 for bread, and you'll say that you paid somebody $50 for a bicycle, you know, whatever it is. And we all, all the villagers, keep a ledger where we write down all the transactions. So this is the same thing as a blockchain, except that with a blockchain, instead of humans calling out and then writing down the transactions, we have these anonymous computers around the world that do that."
+    },
+    {
+      "author": "TAGLE",
+      "text": "Unlike here in Regular Money Land, where every purchase you make with a card is verified by one place, like your bank, in Cryptoland, everyone, or computer, on the network sees every purchase made with cryptocurrency and has to come to agreement."
+    },
+    {
+      "author": "PRASAD",
+      "text": "The entire community says, yes, we, too, agree that these transactions are valid, that in fact the transaction is confirmed. So this is not done by a single agency or institution. There is no individual agency or powerful individual who's running the whole system. It's run by the collective of the people."
+    },
+    {
+      "author": "TAGLE",
+      "text": "That's Eswar Prasad, by the way."
+    },
+    {
+      "author": "PRASAD",
+      "text": "I'm a professor at Cornell University and a senior fellow at the Brookings Institution, and I recently wrote a book called \"The Future Of Money: How The Digital Revolution Is Transforming Currencies And Finance.\""
+    },
+    {
+      "author": "TAGLE",
+      "text": "He explains that the blockchain and cryptocurrency are secured through a technological process of incentivization. OK, stay with me here. To keep the chain safe and protect from invaders, the Cryptoland community needs to agree upon and confirm every transaction. To ensure that work gets done, every villager, or computer, in Cryptoland is offered a reward to validate transactions - a bitcoin, for example. But in order to get paid, you have to be the first to solve a numerical puzzle for the community."
+    },
+    {
+      "author": "PRASAD",
+      "text": "Everybody in the village goes out and tries to validate the transaction, but whoever gets to solve this numerical puzzle first is the one who gets the privilege. And it turns out that once that puzzle is solved, it becomes very easy for everybody else in the village to make sure that that puzzle has been solved correctly. So quickly, the entire community arrives at a consensus that this block of transactions is indeed a valid block of transactions. So then the entire village can agree. But it's done this without having designated one person as, so to speak, the chief validator."
+    },
+    {
+      "author": "TAGLE",
+      "text": "I know, right? A puzzle? You're telling me I have to solve a puzzle to prove that I actually paid for a cup of coffee? Not exactly. If you're looking to be a casual investor in crypto, you don't have to sweat that part."
+    },
+    {
+      "author": "PRASAD",
+      "text": "To transact with bitcoin, you don't have to worry about the puzzles at all."
+    },
+    {
+      "author": "TAGLE",
+      "text": "So unlike our mythical Cryptoland village, when you use bitcoin, there are other people who have very powerful computers and are trying to solve the puzzles as fast as they can. This keeps the system going."
+    },
+    {
+      "author": "PRASAD",
+      "text": "And people have set up, you know, whole rigs of these computers, thousands or tens of thousands of these very specialized devices that run 24/7. So every time a new puzzle is created, they go out and run to try to solve it. Somebody gets lucky. Then the next puzzle comes up and then everybody races again."
+    },
+    {
+      "author": "SHIN",
+      "text": "And the thing is that miners are very self-motivated, right? They're doing this to earn money."
+    },
+    {
+      "author": "TAGLE",
+      "text": "These people are usually called miners. And if you really wanted to, you could also try and solve the puzzle, but it takes a lot of computing power. It's not something that your average laptop can handle. Plus, the economics of mining these days might not be worth it. Basically, how much money a miner puts into mining can cost more than the bitcoin itself. As the average consumer, all you need to know is every time you use cryptocurrency, this is the process that's happening."
+    },
+    {
+      "author": "PRASAD",
+      "text": "All you care about is making sure that your transaction is accepted as valid and that when you conduct a transaction, your account balance and the account balance of the person that you're taking money from or giving it to is appropriately updated. So all of the other stuff about validating the transactions happens in the background."
+    },
+    {
+      "author": "TAGLE",
+      "text": "The last important big picture thing to know about crypto is, why would these villagers - us, everyone - want to use crypto instead of just going to the bank? Well, it goes back to the idea we introduced at the top of the episode, and it's takeaway two. Cryptocurrency is a decentralized currency. It's peer to peer, or villager to villager, to keep our example going. It doesn't have a third party overseeing it, and that's powerful."
+    },
+    {
+      "author": "PRASAD",
+      "text": "If you think about a traditional bank or credit card provider, most of their information is maintained on one or a couple of servers, so they are potentially vulnerable to hacking. The blockchain, by contrast, is very secure, and the security, somewhat ironically, comes from the transparency and from the multiplicity of computers or nodes on which those ledgers are maintained."
+    },
+    {
+      "author": "TAGLE",
+      "text": "There's a lot of benefit in that - privacy, for one, yes. But it also creates channels for people who might not have access to standard bank accounts or stable financial institutions, and it offers ease of access for international money transfer."
+    },
+    {
+      "author": "SHIN",
+      "text": "In the case of Ukraine, you know, within the first week of the war, the Ukrainian government tweeted out their bitcoin ether and tether addresses, and donations poured in from around the world. The minister of Ukraine was saying that all together, they had fundraised about $100 million worth of crypto. I mean, it's really remarkable."
+    },
+    {
+      "author": "TAGLE",
+      "text": "All right. Still curious about investing? Great. Let's get into it. Takeaway three is understand your own risk tolerance before getting into crypto. In theory, crypto, Eswar says, is attractive because it's supposed to preserve its value much better after forces like inflation."
+    },
+    {
+      "author": "PRASAD",
+      "text": "And why is this? Bitcoin devotees will tell you that it's because of the scarcity of bitcoin. It turns out that the bitcoin algorithm imposes a hard cap of 21 million bitcoins. There will never be more than 21 million bitcoins. Of these, about 19 million have been created so far. So the idea is that it's something like digital gold. After all, if you think about U.S. dollars, the Federal Reserve, the U.S. central bank, can print essentially an infinite amount of them. And it's been printing a lot of dollars in the last 15 years or so to prevent the financial system from collapsing."
+    },
+    {
+      "author": "TAGLE",
+      "text": "Eswar says currencies like bitcoin were seen as potentially inflation-proof, but he says just because something is scarce doesn't mean it necessarily retains value."
+    },
+    {
+      "author": "PRASAD",
+      "text": "So what we've seen in the last few months is that bitcoin is basically just a speculative, risky asset. Its price went up when the prices of tech stock and a lot of other risky assets were going up and there was a lot of money floating around in the economy. Now that the Fed is hiking interest rates and now that inflation is rising, just like other risky assets, bitcoin is plunging in value as well. And in fact, there is a more fundamental question about why bitcoin should have any value at all. As I have argued, it's not working very well at what it was intended to be, which is as a medium of exchange. Certainly there are some rich people for whom cryptocurrencies may be playthings, and they can afford some losses. But I really worry about unsophisticated retail investors who may have got into these investments without realizing what sort of risks they're taking on. And these are very risky."
+    },
+    {
+      "author": "TAGLE",
+      "text": "Big-picture question here - should everyone consider investing in crypto?"
+    },
+    {
+      "author": "PRASAD",
+      "text": "So a lot of people seem to be taken in by the razzle-dazzle of the technology and are buying into bitcoin just because they see, you know, their friends, their neighbors, in some cases their kids making money in cryptocurrency. So there is an urge. So for anybody who asks me whether they should invest in cryptocurrencies, my response is, if you're willing to, you know, essentially roll the dice on an investment and want to take a risk on a small part of your portfolio, go for it. If you don't have a huge amount of money in the bank or in your investments, if you don't have a huge tolerance for risks, you might still want to go into this, but do so with your eyes wide open that you're taking on a huge amount of risk."
+    },
+    {
+      "author": "TAGLE",
+      "text": "OK. So what I heard there is people who have income to spare - people who have excess income, people who have a high tolerance for risk, people who have done their research and know what they're getting into is a gamble. Does that all sound about right?"
+    },
+    {
+      "author": "PRASAD",
+      "text": "Said much better than I could have."
+    },
+    {
+      "author": "TAGLE",
+      "text": "(Laughter) That is absolutely not true."
+    },
+    {
+      "author": "TAGLE",
+      "text": "So with that in mind, with everything that you just said, let's - bring me into the market. Let's say I have a hundred dollars that I want to spend, and I've decided this is an investment I want to make, even heeding your warnings. Can you walk me through how exactly we would go about buying it? You know, is there some seedy underground website on the dark web that I need the code to? How does this work?"
+    },
+    {
+      "author": "PRASAD",
+      "text": "It turns out these days it's very easy to buy cryptocurrencies either directly or bet on cryptocurrencies using financial products whose value is linked to cryptocurrencies. But there are many exchanges out there, such as Coinbase - not that I want this to be a commercial for Coinbase - but you can very easily set up an account and you have your digital wallet and off you go, trading in whatever cryptocurrency you want. So it's become really quite trivial. There are certain brokerages also that offer access to cryptocurrency-related products. So if you're willing to roll the dice, there are many options for you out there."
+    },
+    {
+      "author": "TAGLE",
+      "text": "See? Doesn't have to be that complicated. Takeaway four - find a cryptocurrency exchange. That will give you access to all the different kinds of crypto coins you've likely heard about. But there are so many. Laura says you don't need to read up on every coin if you're just getting started."
+    },
+    {
+      "author": "SHIN",
+      "text": "I would just go for - I wouldn't go for kind of one of the lesser-known coins. If people are trying to do that in a sort of speculative way, yeah, I just - I think for an educational experience, it's probably not good. A lot of these - especially depending on how obscure you go, they can sort of trade like penny stocks. And frankly, oftentimes, especially if it's quite obscure, it can be kind of a group of insiders that are organizing a sort of pump-and-dump. And so you might think you're kind of getting in on the ground floor, but unless you're, like, literally coordinating the pump-and-dump, you are probably going to be left holding the bag. So I would just go for something with - you know, that's been around a long time, that has a lot of usage. And from there, I would just start figuring out how you might want to play around with it."
+    },
+    {
+      "author": "TAGLE",
+      "text": "OK. Are there fees involved to get started?"
+    },
+    {
+      "author": "SHIN",
+      "text": "Yes. So a lot of these exchanges - yeah, to purchase, there will be some kind of fee. And then to use the blockchain itself, there is also a fee. As demand goes down on the blockchains, they should get cheaper. Some - I'm not sure actually what they are at the moment, now that the markets have sort of crashed."
+    },
+    {
+      "author": "TAGLE",
+      "text": "There ever a best time for crypto - to start getting involved in crypto?"
+    },
+    {
+      "author": "SHIN",
+      "text": "You know, I actually probably would say now is a good time because since the markets have crashed, hopefully we will see some of the scams and - or at least just, like, less legitimate projects go by the wayside. I find that when the markets are more frothy, that there's a big upsurge in all of - so in a way, I actually think that it's good to get involved at a time when kind of there's going to be fewer of these either less legitimate or kind of scammy (ph) type things happening."
+    },
+    {
+      "author": "TAGLE",
+      "text": "There will be market ups and downs. So again, assess your own risk level and how much you want to invest. Remember, it is not a sure bet - far from it. And while we're talking about risk, let's move to takeaway No. 5 - secure your coins. Here's Laura."
+    },
+    {
+      "author": "SHIN",
+      "text": "No. 1 thing that I recommend people learn is how to secure their coins. And they don't have to necessarily do it themselves. There is kind of two main ways. One would be that you would buy coins on an exchange and then you would entrust the exchange to keep your coins secure. And this is really similar to kind of how we trust our banks to keep our money secure."
+    },
+    {
+      "author": "TAGLE",
+      "text": "You manage those coins with keys. There are private keys - essentially an email that allows you to send money - and your public keys - a similar kind of address where people can send money to you. So there are a lot of people who have this philosophy - not your keys, not your coins, meaning you should be the one to secure your own coins."
+    },
+    {
+      "author": "SHIN",
+      "text": "On the flip side, for people who go that route, there are also these cautionary tales of people who decide that they are going to secure their own coins. And, for instance, they get a hardware device and then they lose the password to it. And, yes, they have the physical device where the bitcoins are, but they cannot access them because they can't open the devices."
+    },
+    {
+      "author": "TAGLE",
+      "text": "There are pitfalls either way, but you'll just need to decide if you want a crypto exchange to manage all of this or if you are."
+    },
+    {
+      "author": "SHIN",
+      "text": "Whether or not you're going to allow the exchange to manage your private keys or whether you yourself are going to manage your private keys is kind of a decision you need to make in the beginning. If you decide to have the exchange do it, then you should definitely use what's called second-factor authentication. However, people should know, in crypto, there is a very, very common way that people have their money stolen this way. Let's say that I'm the hacker, and I want to steal your coins. So I'll call up Sprint, and I'll say that I'm you and that I want to move my phone from T-Mobile over to Sprint. So Sprint gets your phone number moved over to my device. So then now I go to your, you know, whatever your crypto account is, and I type forgot password - I -  you know, I type in your email address, click forgot password and then I change your password. I lock you out. I move all your coins to my wallet. And because crypto is like cash - it's like digital cash - once that money's moved, nobody - you know, you can't call, like, customer service on Bitcoin or Ether or whatever. And they can't send the money back to you. So if you're going to use a second factor, you could use, for instance, an app such as Google Authenticator, which will do kind of time-based codes. And another option is some people use Google Voice phone numbers. So there's a number of ways to do that."
+    },
+    {
+      "author": "TAGLE",
+      "text": "Now, some financial regulators, people in Congress, even members of the crypto industry are interested in more regulation. But like Laura said, if you get scammed, you're out of luck. I know, folks, this is all a lot. But maybe now that you have a better grasp of Cryptoland (ph), some of this sounds like an exciting adventure, not just a terrifying blindfolded safari like this story started out for me. Remember, this is all still new, and lots will likely change. Who knows where cryptocurrency could take us in the future?"
+    },
+    {
+      "author": "TAGLE",
+      "text": "Finally, I'd love to hear about what you most enjoy about working in this field, about covering crypto and where you hope it will go. You know, do you think cryptocurrency has the power to change our relationship to money in the next 10 years or 20 years or 50 years?"
+    },
+    {
+      "author": "PRASAD",
+      "text": "The technology behind Bitcoin, the blockchain technology, is really a marvel. I have said that it doesn't work very well at what it was intended to do, but if you just think about what it was intended to accomplish and the fact that it actually works at all, it is really a marvel. And this blockchain technology is actually going to have a lot of interesting applications. You and I might someday be able to trade various kinds of financial assets or even real assets, such as houses and cars, without having to rely on a real-estate attorney or a bank because we could conduct a lot of these transactions on the blockchain, which is actually quite secure."
+    },
+    {
+      "author": "PRASAD",
+      "text": "The other interesting aspect is that the emergence of cryptocurrencies, and especially the emergence of stablecoins, has really given central banks a kick in the pants because, you know, digital technologies and digital payment systems are becoming prevalent in many countries. And the use of cash is declining in countries like China and Sweden. People hardly use cash anymore. So the emergence of stablecoins is causing central banks, even in countries like the U.S., to start thinking about issuing digital versions of their own currencies."
+    },
+    {
+      "author": "PRASAD",
+      "text": "So the day when we might not have physical currency and might have only digital payment options, either something like PayPal or a stablecoin, or perhaps a digital dollar - that day is fast coming, and I think that day might have come eventually, but the emergence of cryptocurrencies and stablecoins has really catalyzed a lot of progress towards that. And the blockchain technology, I think, is really going to be transformative in terms of various elements of finance. So much as I'm negative about Bitcoin, I'm quite positive about the blockchain technology and the transformative potential it has for money, finance and our societies at large."
+    },
+    {
+      "author": "TAGLE",
+      "text": "To recap, before you dabble, you need to educate yourself on blockchain and cryptocurrency. Revisit Cryptoland Village and remember that this is exciting. Cryptocurrency is decentralized, and there's a lot of potential freedom and power in that. If you do want to invest, make sure you understand your risk tolerance first. When you find a cryptocurrency exchange that feels good to you, make sure to create a system to secure your coins. From there, feel free to send a few NFT's LIFE KIT's way."
+    },
+    {
+      "author": "TAGLE",
+      "text": "For more LIFE KIT, check out our other episodes. I hosted one on emotions and money. We have another on ethical investing, a ton on smarter budgeting and lots more on everything from parenting to mental health. And if you love LIFE KIT and want more, subscribe to our newsletter at npr.org/lifekitnewsletter. And now, a completely random tip."
+    },
+    {
+      "author": "UNIDENTIFIED PERSON",
+      "text": "My life hack is my local Buy Nothing group. Just listened to your episode about how to stop stress-spending, and I've been having a lot of luck by looking on my Buy Nothing group and also shopping at a local thrift store."
+    },
+    {
+      "author": "TAGLE",
+      "text": "If you've got a good tip, leave us a voicemail at 202-216-9823 or email us a voice memo at lifekit@npr.org. This episode of LIFE KIT was produced by Mansee Khurana. Our visuals editor is Beck Harlan. Our digital editor is Dalia Mortada. Meghan Keane is the supervising editor. Beth Donovan is the executive producer. Our production team also includes me, Andee Tagle, Audrey Nguyen, Michelle Aslam and Sylvie Douglis. Our intern is Vanessa Handy. Audio engineering support from Stacey Abbott and Patrick Murray. Thanks, guys. Special thanks to David Gura from the business desk, as well. I'm Andee Tagle. Thanks for listening."
+    }
+  ],
+  "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5941087189.mp3",
+  "img": "https://media.npr.org/assets/img/2022/07/22/gettyimages-1332976426_wide-5a10e218c9826401e9be78bf201f4fec7b372934.jpg?s=1400&c=100&f=jpeg",
+  "authors": [
+    "ANDEE TAGLE, HOST",
+    "LAURA SHIN",
+    "TAGLE",
+    "ESWAR PRASAD",
+    "SHIN",
+    "PRASAD",
+    "UNIDENTIFIED PERSON"
+  ]
+}

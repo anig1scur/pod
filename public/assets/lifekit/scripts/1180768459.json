@@ -1,0 +1,247 @@
+{
+  "title": "AI-generated images are everywhere. Here's how to spot them",
+  "url": "https://www.npr.org/transcripts/1180768459",
+  "intro": "It's easy to be fooled by AI-generated images and other content. We talk about how to identify them, how media literacy can help, plus how to use these tools responsibly.",
+  "transcript": [
+    {
+      "author": "MARIELLE SEGARRA, HOST",
+      "text": "You're listening to LIFE KIT..."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "...From NPR."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Hey, everybody. It's Marielle. There's this image that went viral earlier this year of the pope looking, honestly, pretty stylish. He was wearing this white, puffy designer coat and rocking an enormous crucifix necklace outside of it. And he looks like he's just, you know, out for his morning coffee run. So I know Pope Francis is supposed to be, like, the relatable pope, but I regret to inform you that this image is fake. It was created using AI - artificial intelligence software. Shannon Bond is a correspondent at NPR. She covers misinformation, and she says if you look closely, you can see the clues."
+    },
+    {
+      "author": "SHANNON BOND, BYLINE",
+      "text": "You know, one of the sort of classic tells that people talk a lot about is that these image generators can really struggle with creating realistic hands. Hands are, for some reason, particularly tricky - also things like teeth and accessories like glasses and jewelry. And so, you know, that was an example we saw with the image of the pope wearing the coat. He seemed to be holding a coffee cup in his hand, but his fingers weren't actually, like, holding on to the coffee cup. And if you looked at the side of his eyeglasses, it sort of disappeared into his face. Like, there wasn't a rim."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "The guy who made this image, by the way, is quoted in BuzzFeed saying, \"I just thought it was funny to see the pope in a funny jacket.\" And it may seem like, OK, what's the big deal? This picture wasn't hurting anybody. But it does show that AI tools can make fake images that are convincing enough at first glance. And obviously, that can be abused, and it can be a way to spread lies and misinformation. On this episode of LIFE KIT, Shannon and I are going to talk about what you can do to spot AI-generated images, audio and video. We'll also talk about how to use these tools responsibly and to talk to the kids and teens in your life about them."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "So one way AI can be abused is politically, to make people think a politician or a government official said or did something they didn't. Recently, Shannon reported on a video posted by the presidential campaign for Florida Governor Ron DeSantis. It included images of former President Trump hugging Anthony Fauci. Those images were apparently fake, AI-generated. This general topic came up at a recent Senate hearing with the company that makes the software programs ChatGPT and DALL-E."
+    },
+    {
+      "author": "BOND",
+      "text": "Senator Richard Blumenthal from Connecticut - he played a synthetic version of his voice. And then when you heard it compared - right? - to his real voice, you know, it sounded similar but maybe not exact. We can take a listen."
+    },
+    {
+      "author": "AI-GENERATED VOICE",
+      "text": "(As Richard Blumenthal) We have seen how algorithmic biases can perpetuate discrimination and prejudice and how the lack of transparency can undermine public trust. This is not the future we want."
+    },
+    {
+      "author": "RICHARD BLUMENTHAL",
+      "text": "If you were listening from home, you might have thought that voice was mine and the words from me. But in fact, that voice was not mine. The words were not mine."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah. Wow. I could not tell the difference between those two. It doesn't seem obvious hearing them back to back."
+    },
+    {
+      "author": "BOND",
+      "text": "Yeah. I mean, I think it sounded like he might have just been playing a recording of himself maybe, right? I mean, it can be pretty uncanny. And if you're missing any sort of other context clues, it is really hard to tell this apart. And the people that I've been talking to about these questions about detecting AI and how to spot fakes, there's a real issue here, which is there's sort of an arms race, right? The software is rapidly improving. So newer versions of some of these image generators are actually much better at making hands. And as we've heard, you know, the voice technology is getting increasingly accurate, and, you know, videos are also getting better and better. And so there's a real danger in relying too heavily on these sort of - these tells that might be disappearing."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Are there any tools that you can use to help you figure out when something is AI? Like, you could paste the photo, for instance, into some kind of software, and it'll tell you?"
+    },
+    {
+      "author": "BOND",
+      "text": "Yes, there is detector software, and it's - it can be accurate to a certain degree. But first of all, it won't catch everything. And again, the software is sort of constantly improving. And in some ways, it'll improve because of the things that can get caught by detectors, right? And so again, then the software gets better, and it can't be caught by the detector, so the detector needs to get better. And it ends up - you know, I think that can be really difficult for people to sort of keep up. And I also think in some cases, these sort of tools can be difficult for people who aren't really versed in digital forensics to understand and use. And so, you know, there's this issue where you're - we don't want to encourage people to be too skeptical, in a way, as well, about this content because that, itself, can backfire."
+    },
+    {
+      "author": "BOND",
+      "text": "You know, if you're telling everybody that they need to be sort of doing a pixel-by-pixel analysis of every photo they see, I mean, first of all, I just don't think that's realistic. I mean, that's not the way we interact with the internet, right? It's not, like, what you're thinking when you're scrolling through Twitter or Instagram. There's also this idea that it could give bad actors the opportunity to discredit real images and video as fake, right? If there's this idea that you can say anything is fake, then that's something that can actually be weaponized against us. And so we can't rely too much on these technological interventions."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah. I wonder, if you can't rely on looking at tells or running photos or videos through some kind of detection tool, is there anything else you could do? I mean, it seems like context is important, right?"
+    },
+    {
+      "author": "BOND",
+      "text": "Yeah. A lot of this comes back to sort of some real basics of media literacy, right? Or one of the researchers I spoke with, Irene Solaiman from the AI company Hugging Face - she calls this people literacy. And it's the idea that, right, you don't need, like, sophisticated technological analysis. You need to do things like think about context. You need to slow down. And this can sound, like, pretty dry, but it's actually really important advice not just for thinking about AI-generated content but pretty much, you know, anything that you're encountering on the internet. I mean, I cover dis- and misinformation. You know, these are the kinds of tools we talk a lot about in just terms of helping people, like, navigate what they're seeing. I mean, think about it. When you see something that is really appealing to you online, like, what is it doing? It's probably triggering your emotions."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Right. How do you actually verify if something in a photo is true? If you're looking at it, let's say it triggers an emotional reaction, and then you want to see, did this really happen?"
+    },
+    {
+      "author": "BOND",
+      "text": "So there's a method that's been developed by a research scientist named Mike Caulfield that's called the SIFT method that's a - there's a pretty good framework for this. And SIFT stands for stop, investigate the source, find better coverage and trace the original context. And so, like, one really basic thing is, you know, say it's something about, you know, a public figure, like the pope. There's probably not going to be just one photo of this, right? There's probably going to be additional photos from multiple sources, you know, if this is a public event. You know, so that's just kind of one of the real basics."
+    },
+    {
+      "author": "BOND",
+      "text": "There is technology like Google reverse image search, where you can click on a photo, and basically, Google will look and see if it's appeared elsewhere on the internet. And Google has just recently announced some improvements to this reverse image search to actually make it a lot easier to see, you know, has a photo appeared online before? You know, in what context? And, you know, that can be - like, this is, again, not just about AI-generated photos. That can actually be really helpful about kind of any images that are shared with misleading or false context. You might have seen, you know, during hurricanes, sometimes, people will share - like, there's this viral image of a shark swimming on a flooded highway."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah."
+    },
+    {
+      "author": "BOND",
+      "text": "Those things get shared over and over again, and that's kind of a good way to say, like, hey, wait. This actually is not - like, this is a really old photo."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Right. It might be a real photo that wasn't altered, but it says it's from a certain place, and it actually is from a different place, different time."
+    },
+    {
+      "author": "BOND",
+      "text": "Exactly. So, you know, that can be a really important step to do. We were just talking about audio and just, like, how accurate that Blumenthal audio sounded. That is a real challenge. And we've seen already scammers have been using these kind of spoofed, AI-generated audio to call up people and impersonate their relatives or a friend in distress asking for money. You know, this has raised enough alarm that the Federal Trade Commission actually has put out a warning about this. And, like, that's really basic advice there. Like, if you get that kind of call, like, don't immediately, you know, open up your - grab your credit card and give your credit card number or, you know, start sending something on Venmo. Call them back at a known number that you know is theirs to confirm, like, did you really call me? Or, you know, is this really you?"
+    },
+    {
+      "author": "SEGARRA",
+      "text": "There are some fakes that don't seem - they don't seem malicious on the face of them, and so they've tricked me before. Like, if I see something that's accusing a public figure of doing a certain thing, I'm usually going to give that more scrutiny because, like you say, it triggers a certain emotion in me - right? - but I don't usually do that when I see videos that trigger, like, a positive emotion. I saw this thing that I sent to a friend the other day. It was, like, just a woman opening up, I guess, clams or oysters, like, giant clams or oysters and - in some part of the world, and she found gold pearls inside. But I sent it to him. I just thought it was cool. And then he was like, that's definitely a fake. And I was super embarrassed. But also, I was like, why? Why would somebody fake this?"
+    },
+    {
+      "author": "BOND",
+      "text": "I mean, I think we saw - like, so remember back to last summer when DALL-E - the OpenAI image generator - first launched, and then we quickly had a couple others? There's one called Midjourney. There's one called Stable Diffusion. And I think people love playing around with these. I mean, that's how we got this Pope photo. That was not meant to be some sort of, like, misleading - like, I don't know. There was no sort of, you know, deep intention behind showing the pope in a Balenciaga puffy coat. You know, the guy who made it apparently was just, like - he was just playing around, and he thought it would be funny."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah."
+    },
+    {
+      "author": "BOND",
+      "text": "And that's what's really cool about this technology. Like, you know, you can have a lot of fun. You can use it for satire. You can, you know, use it with your friends. I think the problem is that - you know, we haven't really grappled with is this stuff gets decontextualized, right? So it's one thing if, you know, you're going to create that photo and post it and say, hey, I made this. Isn't it so cool what Midjourney can do right now? It can, you know, make this, you know, amazing image. But then that might get shared elsewhere without the context, without any kind of disclaimer that it was created by AI. And, you know, what do we do with that. And whose responsibility is it? This is something that has not been at all settled. We're just in this real kind of Wild West right now where there aren't any norms around this. And actually we're sort of - we're in the process of developing norms around this."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah."
+    },
+    {
+      "author": "BOND",
+      "text": "It will not be the last time we - you know, you fall for what looks like a really cool video, right?"
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah. And I imagine it could also be a way for an account, say, on Instagram to get a lot of followers if they have, like, cool nature content, even if a lot of it's fake, you know?"
+    },
+    {
+      "author": "BOND",
+      "text": "Right. Yeah. There's good ways to monetize this. You know, there's - it's causing huge disturbances in the art world. The way this technology, especially the image technology, works is it's trained on actual images out in the world. And so you have artists who are very concerned that basically, you know, DALL-E can create a painting or a photograph in the style of a known artist. And what does that mean, you know, for their livelihoods? You can imagine there's all sorts of ways in which people can be using these things not - again, not maliciously but in ways that are really going to disrupt the way we think about, you know, creating and interacting with content online."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Right. What about the language-based AI like ChatGPT, which seems to be everywhere these days? Those chatbots can basically - you can ask it a question, and then it'll spit out an answer. Or it'll maybe do computer programming for you or write you a poem or whatever you ask it to do."
+    },
+    {
+      "author": "BOND",
+      "text": "Yeah, I mean they're incredibly - these systems are incredibly good at producing, you know, all different kinds of texts. They can sound like a person wrote it. It can sound - they can imitate Shakespeare. As you said, they can do computer programming. ChatGPT recently released an iPhone app, and I was using it the other night. You know, I have a 7-year-old. He has 10 million questions about everything in the world. And we were using it to, like, ask questions and see what it came up with. And it is pretty striking how much it sounds very persuasive, right? You can ask it a question, and it'll give you an answer that does sound plausible. It's really important to understand just because they sound, like, realistic, that doesn't mean that they're true or accurate. Here's how Gary Marcus, a cognitive scientist and professor emeritus at New York University, put it."
+    },
+    {
+      "author": "GARY MARCUS",
+      "text": "They don't have models of the world. They don't reason. They don't know what facts are. They're not built for that. They're basically autocomplete on steroids. They predict what words would be plausible in some context. And plausible's not the same as true."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "So they make mistakes. A lot of them."
+    },
+    {
+      "author": "BOND",
+      "text": "Yeah, they make mistakes. Yeah. And they make things up. I think there's a couple of things to think about. These chatbots are producing text that sounds really authoritative, but they can be wrong. So they can just, like, insert errors. They can do things like make up quotations. They can make up research papers. Our colleague Geoff Brumfiel, who reports about science for NPR - you know, he was able to get ChatGPT to just, like, fully invent a news story that he never wrote. And some of this stuff is - you know, is less serious, but then you - some of it's much more serious. There was a case where ChatGPT fabricated an allegation of sexual harassment against a law professor. And so, you know, again, even though they have this format that makes it really seem like you are talking A, to a person, and that B, that the person is giving you authoritative information, that is not always the case. And so it's really important to, like, double check anything that you hear from a chatbot, even if it comes with a link to a source. Like, does that source say what the chatbot is - says it says."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Right. So how should you - if you're going to use something like chatbot, like, how should - what role would it play in your work or your life?"
+    },
+    {
+      "author": "BOND",
+      "text": "I mean, I have found, playing around with these things, you know, I think they can be really - first of all, it just can be really fun, right? They can be - it's fun to see what they can do, how they answer a question. One of the questions my son was asking ChatGPT the other night when we were asking questions was, why is Shaquille O'Neal so tall? He's, like, obsessed with basketball right now, right? And, you know, it's - the answer started off like, pretty plausible. It was like, well, you know, these characteristics come from genetics. But then it kind of went in this weird direction where it said, and also, he became very famous playing basketball. So the reason that Shaquille O'Neal is tall is because of his genetics and also because he likes playing basketball."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Oh, right. That doesn't make any sense."
+    },
+    {
+      "author": "BOND",
+      "text": "Right. Right. Doesn't make any sense. But I think it was really instructive, actually, to say like, oh, look. It got that wrong and that was really obviously wrong. But if you were looking for information, you might not know that the thing it's telling you is wrong. So I think some of the advice here is to just double check if - I mean, if you are actually getting, like, concrete pieces of information from a chatbot or some other kind of, you know, language producing software. Actually just check out the facts. Like, does this seem true?"
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Right."
+    },
+    {
+      "author": "BOND",
+      "text": "You know, one of the folks I've been talking to about using AI is a professor at the Wharton School at the University of Pennsylvania named Ethan Mollick. And he teaches, you know, graduate students about entrepreneurship. And, you know, he's really interesting. He is really embraced using AI in the classroom. And, you know, he even requires his students to use AI as part of their work. But he's also wary about the ways, you know, that it can get things wrong. And so this is how he described, you know, what he sees as the best way to use it."
+    },
+    {
+      "author": "ETHAN MOLLICK",
+      "text": "You could think of it as, like, an infinitely helpful intern with access to all of human knowledge who makes stuff up every once in a while."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "You know, I'm wondering if ChatGPT makes stuff up because it's embarrassed if it doesn't know the answer."
+    },
+    {
+      "author": "BOND",
+      "text": "Well, see how you - think about how we're even talking about it, like, saying that it knows or that it's making things up. Like, it's really hard to talk about these things without even, like, attributing some kind of intentionality or, like, kind of, like, personhood to this. But it's really important to remember, they're not thinking, and they're not - they don't understand, right? They can play chess against you, but that doesn't mean they have a conception of, like, what chess is or what a chess board is. Like, it's broken everything down into sort of the system of statistical relationships. And that's where things can get really weird."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "You mentioned that you're doing - going through these exercises with your son with ChatGPT, and it sounds like you're both kind of learning about its limitations at the same time. Is that something you suggest that parents do, that they kind of - that they talk to their kids about AI and its uses but also many limitations?"
+    },
+    {
+      "author": "BOND",
+      "text": "I think it's incredibly important because, like I said, we're sort of in this moment where we're trying to develop norms around this stuff. And I think a lot of parents are trying to figure this out. Like, you want to kind of be there with your kid and kind of walk them through and talk about it and, like, have a conversation. And so, you know, some of this stuff, you know, is - you know, you have to think about the age you're at. You know, my kid's 7. Like, he doesn't have unfettered access to the internet or to any of these tools. And so we are just sort of talking about, like, you know, how this works. Does that sound right? That doesn't - you know, maybe that's kind of weird. Like, how - or how better should we ask this question to try to get it to give us the answers that we're looking for, like, to keep it focused?"
+    },
+    {
+      "author": "BOND",
+      "text": "I would think, you know, I think for older kids, you know, a really important thing to talk about - and that adults should be aware about, too - is, like, if you're interacting with these systems, like, think about the personal information you might be sharing. Probably don't put your personal health information into it. I think there's also, you know, conversations to be had about the ethics, like, of why you're using this. What are you going to use this to create? I mean, certainly with kids, that's going to come up in the context of school, right? I mean, you know, what's happening in high schools and universities, professors are trying - and teachers are trying to deal with, you know, what appears to be, you know, a lot of kids using ChatGPT to do their homework."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah."
+    },
+    {
+      "author": "BOND",
+      "text": "And so thinking about, you know, what you're using it for and how you're disclosing if you have created something with AI..."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Yeah."
+    },
+    {
+      "author": "BOND",
+      "text": "...Something that you create might be shared, you know, out of context. And, you know, what's your responsibility to label it and to say this was made with DALL-E, or this was - you know, I asked ChatGPT this, and this is the answer that I got?"
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Shannon, thank you so much for being here. This has just been super informative. I feel like I learned a lot."
+    },
+    {
+      "author": "BOND",
+      "text": "Thanks for having me. And this is really me. This is not my AI voice. Don't worry."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "Oh, my God. That terrifies me, by the way."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "For more LIFE KIT, check out our other episodes. We have one on how to find balance when you're spending too much time looking at screens and another on what to do when you're anxious. You can find those at npr.org/lifekit. And if you love LIFE KIT and want even more, subscribe to our newsletter at npr.org/lifekitnewsletter. Also, have you signed up for LIFE KIT+ yet? Becoming a subscriber to LIFE KIT+ means you're supporting the work we do here at NPR. Subscribers also get to listen to the show without any sponsor breaks. To find out more, head over to plus.npr.org/lifekit. And to everyone who's already subscribed, thank you."
+    },
+    {
+      "author": "SEGARRA",
+      "text": "This episode of LIFE KIT was produced by Thomas Lu. Our visuals editor is Beck Harlan, and our visual producer is Kaz Fantone. Our digital editors are Malaka Gharib and Danielle Nett. Meghan Keane is the supervising editor, and Beth Donovan is our executive producer. Our production team also includes Andee Tagle, Audrey Nguyen, Clare Marie Schneider, Margaret Cirino and Sylvie Douglis. Engineering support comes from Josh Newell, Stu Rushfield and Stacey Abbott. I'm Marielle Segarra. Thanks for listening."
+    }
+  ],
+  "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4268531480.mp3",
+  "img": "https://media.npr.org/assets/img/2023/06/08/detectingai_02_wide-cd4b50b3083d941a95fa6e4f3458e6ebd05fd312.jpg?s=1400&c=100&f=jpeg",
+  "authors": [
+    "MARIELLE SEGARRA, HOST",
+    "SEGARRA",
+    "SHANNON BOND, BYLINE",
+    "BOND",
+    "AI-GENERATED VOICE",
+    "RICHARD BLUMENTHAL",
+    "GARY MARCUS",
+    "ETHAN MOLLICK"
+  ]
+}
