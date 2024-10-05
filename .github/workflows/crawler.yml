@@ -19,6 +19,8 @@ jobs:
             script: think_fast_talk_smart_crawler.py
           - type: sciam
             script: scientific_american_crawler.py
+          - type: lifekit
+            script: npr_life_kit_crawler.py
     steps:
     - uses: actions/checkout@v2
 

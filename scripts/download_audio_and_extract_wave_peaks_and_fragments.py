@@ -12,12 +12,14 @@ from glob import glob
 
 TYPE = os.environ.get("TYPE", "lifekit")
 
+# for github workflow, 临时最多处理 10 个
+MAX_AUDIO_PROCESS = 10
+PROCESS_COUNT = 0
+
 SCRIPTS_DIR = os.path.join(
     os.path.dirname(__file__), f"../public/assets/{TYPE}/scripts"
 )
-AUDIOS_DIR = os.path.join(
-    os.path.dirname(__file__), f"../public/assets/{TYPE}/audios"
-)
+AUDIOS_DIR = os.path.join(os.path.dirname(__file__), f"../public/assets/{TYPE}/audios")
 
 
 def get_mp3_duration(file_path):
@@ -103,7 +105,8 @@ def process_json_file(json_file_path):
         if not os.path.exists(file_path):
             if not download_audio(data.get("audio"), file_path):
                 return
-
+        global PROCESS_COUNT
+        PROCESS_COUNT += 1
         if data.get("wave_peaks") is None:
             data["wave_peaks"] = get_audio_peaks(file_path)
 
@@ -153,6 +156,8 @@ def process_json_files():
     update_typescript_file()
     for json_file in glob(os.path.join(SCRIPTS_DIR, "*.json")):
         print(f"Processing {json_file}")
+        if PROCESS_COUNT >= MAX_AUDIO_PROCESS:
+            break
         process_json_file(json_file)
 
 
