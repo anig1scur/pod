@@ -47,7 +47,7 @@ const Index = () => {
           <PodcastCard
             href='/lifekit'
             title="NPR Life Kit"
-            description="Get practical tips for everyday life."
+            description="Everyone needs a little help being a human. From sleep to saving money to parenting and more, host Marielle Segarra talks to experts to get the best advice out there. Life Kit is here to help you get it together."
             difficulty={ 3 }
             logoUrl={ Lifekit }
           />

@@ -20,7 +20,9 @@ Pod currently supports two types of podcasts:
 
 3. **[Think Fast Talk Smart](https://www.gsb.stanford.edu/business-podcasts/think-fast-talk-smart-podcast)**
 
-I am planning to add more like NPR (Short Wave, Like Kit, ... ), TED, talk shows, etc in the future. This service is not provided by the official source. All materials are sourced from the internet for educational purposes. Please contact me if there are any copyright concerns.
+4. **[Life Kit from NPR](https://www.npr.org/podcasts/510338/all-guides)**
+
+I am planning to add more like The Atlantic, TED, talk shows, etc in the future. This service is not provided by the official source. All materials are sourced from the internet for educational purposes. Please contact me if there are any copyright concerns.
 
 ## Supported
 

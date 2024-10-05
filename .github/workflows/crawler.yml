@@ -4,7 +4,7 @@ on:
   issue_comment:
     types: [created]  # for convenient test
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   crawl_episode:
