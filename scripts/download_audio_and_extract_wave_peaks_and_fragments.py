@@ -12,8 +12,8 @@ from glob import glob
 
 TYPE = os.environ.get("TYPE", "lifekit")
 
-# 本地下载太慢了，for github workflow, 临时最多处理 10 个
-MAX_AUDIO_PROCESS = 10
+# 本地下载太慢了，for github workflow, 临时最多处理 50 个
+MAX_AUDIO_PROCESS = 50
 PROCESS_COUNT = 0
 
 SCRIPTS_DIR = os.path.join(
