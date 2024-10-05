@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import SixMins from '@assets/6mins/logo.gif';
 import Tfts from '@assets/tfts/logo.webp';
 import Sciam from '@assets/sciam/logo.png';
+import Lifekit from '@assets/lifekit/lifekit.png';
 
 
 interface PodcastCardProps {
@@ -21,7 +22,7 @@ const PodcastCard: React.FC<PodcastCardProps> = ({ href, title, description, dif
   const stars = '★'.repeat(difficulty) + '☆'.repeat(5 - difficulty);
 
   return (
-    <Link to={ href } className="max-w-sm border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+    <Link to={ href } className="max-w-sm w-[33.3%] border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
       <img className="w-full h-48 object-cover border-b-[3px] border-black" src={ logoUrl } alt={ title } />
       <div className="px-6 py-4">
         <div className="font-bold text-3xl mb-2">{ title }</div>
@@ -43,7 +44,14 @@ const Index = () => {
       <Header />
       <div className="mt-10">
         <div className="flex flex-wrap gap-10">
-        <PodcastCard
+          <PodcastCard
+            href='/lifekit'
+            title="NPR Life Kit"
+            description="Get practical tips for everyday life."
+            difficulty={ 3 }
+            logoUrl={ Lifekit }
+          />
+          <PodcastCard
             href='/tfts'
             title="Think fast talk smart"
             description="Learn how to communicate more effectively in professional settings."
@@ -64,6 +72,7 @@ const Index = () => {
             difficulty={ 4 }
             logoUrl={ Sciam }
           />
+
         </div>
       </div>
     </div>

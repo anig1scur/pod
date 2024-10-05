@@ -10,7 +10,7 @@ import aeneas.executetask
 from aeneas.task import Task
 from glob import glob
 
-TYPE = os.environ.get("TYPE", "sciam")
+TYPE = os.environ.get("TYPE", "lifekit")
 
 SCRIPTS_DIR = os.path.join(
     os.path.dirname(__file__), f"../public/assets/{TYPE}/scripts"

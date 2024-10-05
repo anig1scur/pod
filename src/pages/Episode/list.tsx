@@ -15,6 +15,7 @@ export enum podType {
   sciam = 'sciam',
   epod = 'epod',
   tfts = 'tfts',
+  lifekit = 'lifekit',
 }
 
 export const FullNameMap = {
@@ -22,6 +23,7 @@ export const FullNameMap = {
   [podType.sciam]: 'Scientific American',
   [podType.epod]: 'English Pod',
   [podType.tfts]: 'Think Fast Talk Smart',
+  [podType.lifekit]: 'NPR Life Kit',
 };
 
 

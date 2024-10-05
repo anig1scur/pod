@@ -21,9 +21,9 @@ const Info: FC<infoProps> = (props) => {
     <div className='info'>
       <div className='introduction'>
         <h3>Introduction</h3>
-        { intro.map((para, index) => (
+        { Array.isArray(intro) ? intro.map((para, index) => (
           <p key={ index }>{ para }</p>
-        )) }
+        )) : <p>{ intro }</p> }
       </div>
       { vocab &&
         <div className='vocabulary'>
