@@ -12,7 +12,7 @@ from glob import glob
 
 TYPE = os.environ.get("TYPE", "lifekit")
 
-# for github workflow, 临时最多处理 10 个
+# 本地下载太慢了，for github workflow, 临时最多处理 10 个
 MAX_AUDIO_PROCESS = 10
 PROCESS_COUNT = 0
 
