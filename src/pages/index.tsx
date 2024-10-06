@@ -22,7 +22,7 @@ const PodcastCard: React.FC<PodcastCardProps> = ({ href, title, description, dif
   const stars = '★'.repeat(difficulty) + '☆'.repeat(5 - difficulty);
 
   return (
-    <Link to={ href } className="max-w-sm w-[33.3%] border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+    <Link to={ href } className="min-w-48 w-[25%] border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
       <img className="w-full h-48 object-cover border-b-[3px] border-black" src={ logoUrl } alt={ title } />
       <div className="px-6 py-4">
         <div className="font-bold text-3xl mb-2">{ title }</div>
@@ -47,7 +47,7 @@ const Index = () => {
           <PodcastCard
             href='/lifekit'
             title="NPR Life Kit"
-            description="Everyone needs a little help being a human. From sleep to saving money to parenting and more, host Marielle Segarra talks to experts to get the best advice out there. Life Kit is here to help you get it together."
+            description="Everyone needs a little help being a human. From sleep to saving money to parenting and more, life Kit is here to help you get it together."
             difficulty={ 3 }
             logoUrl={ Lifekit }
           />

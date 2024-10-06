@@ -26,6 +26,15 @@ export const FullNameMap = {
   [podType.lifekit]: 'NPR Life Kit',
 };
 
+export const SourceMap = {
+  [podType.sixmins]: 'https://www.bbc.co.uk/learningenglish/english/features/6-minute-english',
+  [podType.sciam]: 'https://www.scientificamerican.com/podcast/60-second-science/',
+  [podType.epod]: 'https://www.englishpod.com/',
+  [podType.tfts]: 'https://www.gsb.stanford.edu/insights/think-fast-talk-smart-podcast',
+  [podType.lifekit]: 'https://www.npr.org/lifekit',
+};
+
+
 
 const EpisodeList = () => {
   const { id } = useParams<{ id: string }>();
@@ -114,8 +123,10 @@ const EpisodeList = () => {
     <div className="flex flex-col m-auto">
       <Header />
       <main className='flex flex-nowrap gap-8 flex-col mt-10'>
-        <div className='flex flex-row gap-8'>
-          <h1>{ FullNameMap[id as podType] }</h1>
+        <div className='flex flex-row gap-8 justify-between'>
+          <a href={ SourceMap[id as podType] } target='_blank' rel='noreferrer' className='hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block '>
+            <h1>{ FullNameMap[id as podType] }</h1>
+          </a>
           <div className='search-bar'>
             <input
               className='border-b-[3px] border-black'
