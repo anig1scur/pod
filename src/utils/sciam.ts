@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308001",
+    "title": "Stem Cell Treatments for Diabetes and a Dolphin\u2019s Smile",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/fallout-from-hurricane-helene-stem-cell-treatments-for-diabetes-and-spread/",
+    "audio": "https://traffic.megaphone.fm/SAM4573688667.mp3?updated=1728073527"
+  },
+  {
     "id": "1307993",
     "title": "Infinite Tiling Presents a Modern Mathematical Challenge",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2794,6 +2801,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308001",
   "1307993",
   "1307976",
   "1307964",
