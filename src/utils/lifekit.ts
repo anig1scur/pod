@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1210935823",
+    "title": "Personal style when your body changes",
+    "img": "https://media.npr.org/assets/img/2024/10/04/template-5-example_wide-5eada42268a59fe83dd40f4cbfc6a441934ef827.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1210935823",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1079774953.mp3"
+  },
+  {
     "id": "1203261212",
     "title": "Stress-busting skills to try in everyday life",
     "img": "https://media.npr.org/assets/img/2024/10/02/template-2-example_wide-9f2f1615c2c475822a9778e69419ea0d8c567ca3.jpg?s=1400&c=100&f=jpeg",
@@ -2923,6 +2930,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1210935823",
   "1203261212",
   "1202891560",
   "1201730555",
