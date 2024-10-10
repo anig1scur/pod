@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1210938350",
+    "title": "How to deal with climate anxiety",
+    "img": "https://media.npr.org/assets/img/2024/10/08/template-1-example-14-_wide-0616231c171b451cfa952c54236c0b8e793aae33.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1210938350",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7417267432.mp3"
+  },
+  {
     "id": "1210938281",
     "title": "How to refinance your mortgage",
     "img": "https://media.npr.org/assets/img/2024/10/04/template-1-example-12-_wide-e13f53e94c6dfa54dde230c40249288e0371cc55.jpg?s=1400&c=100&f=jpeg",
@@ -2937,6 +2944,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1210938350",
   "1210938281",
   "1210935823",
   "1203261212",
