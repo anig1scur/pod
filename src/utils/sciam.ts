@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308025",
+    "title": "Traditional Music Shows Global Similarities in How We Sing",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/does-singing-have-an-evolutionary-purpose/",
+    "audio": "https://traffic.megaphone.fm/SAM5724711773.mp3?updated=1728606024"
+  },
+  {
     "id": "1308013",
     "title": "The Danger of Hurricane Downpours and the End of \u2018Climate Havens\u2019",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2808,6 +2815,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308025",
   "1308013",
   "1308001",
   "1307993",
