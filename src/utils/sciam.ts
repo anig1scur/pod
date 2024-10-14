@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308034",
+    "title": "Hurricane Milton Delays Launch of Europa Clipper, and Science Nobel Awards Highlight AI",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/microrna-protein-folding-and-machine-learning-work-win-the-science-nobels/",
+    "audio": "https://traffic.megaphone.fm/SAM8598074220.mp3?updated=1728679152"
+  },
+  {
     "id": "1308025",
     "title": "Traditional Music Shows Global Similarities in How We Sing",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2815,6 +2822,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308034",
   "1308025",
   "1308013",
   "1308001",
