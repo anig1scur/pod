@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308073",
+    "title": "The Doctor Will See You, And Stop Judging You, Now",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-implicit-bias-affects-your-medical-care/",
+    "audio": "https://traffic.megaphone.fm/SAM3654742149.mp3?updated=1728999306"
+  },
+  {
     "id": "1308034",
     "title": "Hurricane Milton Delays Launch of Europa Clipper, and Science Nobel Awards Highlight AI",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2822,6 +2829,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308073",
   "1308034",
   "1308025",
   "1308013",
