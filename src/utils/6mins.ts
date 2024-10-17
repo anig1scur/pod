@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "241017__tech_that_refuses_to_die",
+    "title": "Tech that refuses to die",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jrrlvz.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-241017",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/241017_6_minute_english_tech_that_refuses_to_die_download.mp3"
+  },
+  {
     "id": "241010__did_taylor_swift_fans_cause_an_earthquake",
     "title": "Did Taylor Swift fans cause an earthquake?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jszrlh.jpg",
@@ -3579,6 +3586,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "241017__tech_that_refuses_to_die",
   "241010__did_taylor_swift_fans_cause_an_earthquake",
   "241003__what_decides_our_taste",
   "240926__learning_a_new_food_culture",
