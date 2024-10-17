@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1210942202",
+    "title": "How \"parts\" therapy can help you heal",
+    "img": "https://media.npr.org/assets/img/2024/10/16/template-1-example-2-_wide-0d5c9605b83d2cd87d996a781c9f1b98e9789e4e.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1210942202",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9572658134.mp3"
+  },
+  {
     "id": "1210938536",
     "title": "What to do when your house floods",
     "img": "https://media.npr.org/assets/img/2024/10/11/template-2-example-1-_wide-aee7492414286c8507b39cad46a0141a2423c28e.jpg?s=1400&c=100&f=jpeg",
@@ -2951,6 +2958,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1210942202",
   "1210938536",
   "1210938350",
   "1210938281",
