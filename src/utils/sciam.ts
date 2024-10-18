@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308086",
+    "title": "AI in the Election Is about More Than Just Misinformation",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/ai-regulation-and-the-challenges-of-misinformation-in-the-2024-presidential/",
+    "audio": "https://traffic.megaphone.fm/SAM1699155120.mp3?updated=1729195543"
+  },
+  {
     "id": "1308073",
     "title": "The Doctor Will See You, And Stop Judging You, Now",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2829,6 +2836,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308086",
   "1308073",
   "1308034",
   "1308025",
