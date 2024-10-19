@@ -270,6 +270,8 @@
   }
 
   .episode {
+
+    @apply pb-10;
     >main {
       @apply flex flex-nowrap gap-20 w-full;
 

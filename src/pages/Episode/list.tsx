@@ -120,7 +120,7 @@ const EpisodeList = () => {
 
 
   return (
-    <div className="flex flex-col m-auto">
+    <div className="flex flex-col m-auto pb-10">
       <Header />
       <main className='flex flex-nowrap gap-8 flex-col mt-10'>
         <div className='flex flex-row gap-8 justify-between'>
