@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308091",
+    "title": "Microbes Are Evolving to Eat Cleaning Supplies, and Whooping Cough Is Making a Comeback",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/whooping-cough-makes-a-comeback-microbes-evolve-to-eat-cleaners-and-solar/",
+    "audio": "https://traffic.megaphone.fm/SAM8352540331.mp3?updated=1729291912"
+  },
+  {
     "id": "1308086",
     "title": "AI in the Election Is about More Than Just Misinformation",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png",
@@ -2836,6 +2843,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308091",
   "1308086",
   "1308073",
   "1308034",
