@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1211483966",
+    "title": "How to avoid counterfeit and unsafe products online",
+    "img": "https://media.npr.org/assets/img/2024/10/17/template-4-example_wide-90fe418111462f188f878a72ffd455ce65c0a4a1.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1211483966",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3534440097.mp3"
+  },
+  {
     "id": "1210942202",
     "title": "How \"parts\" therapy can help you heal",
     "img": "https://media.npr.org/assets/img/2024/10/16/template-1-example-2-_wide-0d5c9605b83d2cd87d996a781c9f1b98e9789e4e.jpg?s=1400&c=100&f=jpeg",
@@ -2958,6 +2965,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1211483966",
   "1210942202",
   "1210938536",
   "1210938350",
