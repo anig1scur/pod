@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308102",
+    "title": "What Do Societal Beauty Standards Have to Do with Breast Cancer?",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-societys-beauty-standards-could-impact-breast-cancer-outcomes/",
+    "audio": "https://traffic.megaphone.fm/SAM9290131149.mp3?updated=1729617194"
+  },
+  {
     "id": "1308091",
     "title": "Microbes Are Evolving to Eat Cleaning Supplies, and Whooping Cough Is Making a Comeback",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png",
@@ -2843,6 +2850,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308102",
   "1308091",
   "1308086",
   "1308073",
