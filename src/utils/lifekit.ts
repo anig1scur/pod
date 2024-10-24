@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1211596751",
+    "title": "Should you let your kid quit something?",
+    "img": "https://media.npr.org/assets/img/2024/10/23/template-1-example-1-_wide-011cff9e556103ed51c6c306184de52f302fcfa4.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1211596751",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2835043399.mp3"
+  },
+  {
     "id": "1211483966",
     "title": "How to avoid counterfeit and unsafe products online",
     "img": "https://media.npr.org/assets/img/2024/10/17/template-4-example_wide-90fe418111462f188f878a72ffd455ce65c0a4a1.jpg?s=1400&c=100&f=jpeg",
@@ -2965,6 +2972,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1211596751",
   "1211483966",
   "1210942202",
   "1210938536",
