@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308112",
+    "title": "Spooky Lakes and the Science of \u2018Haunted Hydrology\u2019",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/celebrating-spooky-lake-month-with-its-creator-geo-rutherford/",
+    "audio": "https://traffic.megaphone.fm/SAM1488976961.mp3?updated=1729718049"
+  },
+  {
     "id": "1308102",
     "title": "What Do Societal Beauty Standards Have to Do with Breast Cancer?",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png",
@@ -2850,6 +2857,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308112",
   "1308102",
   "1308091",
   "1308086",
