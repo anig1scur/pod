@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308121",
+    "title": "Could Weight-Loss Treatments Lead to an Uptick in Scurvy?",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/an-enormous-meteorite-bird-flu-in-washington-state-and-a-troubling-scurvy/",
+    "audio": "https://traffic.megaphone.fm/SAM4192534130.mp3?updated=1729889299"
+  },
+  {
     "id": "1308112",
     "title": "Spooky Lakes and the Science of \u2018Haunted Hydrology\u2019",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2857,6 +2864,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308121",
   "1308112",
   "1308102",
   "1308091",
