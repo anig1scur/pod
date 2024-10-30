@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308132",
+    "title": "Why We Love to Be Spooked",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/exploring-the-science-of-spookiness-at-the-recreational-fear-lab/",
+    "audio": "https://traffic.megaphone.fm/SAM8114252592.mp3?updated=1730227105"
+  },
+  {
     "id": "1308121",
     "title": "Could Weight-Loss Treatments Lead to an Uptick in Scurvy?",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -2864,6 +2871,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308132",
   "1308121",
   "1308112",
   "1308102",
