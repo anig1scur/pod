@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "241031__why_you_need_a_good_night's_sleep",
+    "title": "Why you need a good night's sleep",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jsj2kk.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-241031",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/241031_6_min_eng_why_you_need_a_good_night's_sleep_download.mp3"
+  },
+  {
     "id": "241024__divorce_why_does_it_happen",
     "title": "Divorce: Why does it happen?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jrrxpt.jpg",
@@ -3593,6 +3600,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "241031__why_you_need_a_good_night's_sleep",
   "241024__divorce_why_does_it_happen",
   "241017__tech_that_refuses_to_die",
   "241010__did_taylor_swift_fans_cause_an_earthquake",
