@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1211596943",
+    "title": "How to find lost objects: Techniques that really work",
+    "img": "https://media.npr.org/assets/img/2024/10/30/template-1-example-1-_wide-fde030c029d756f103da4637eed3bbf775c5c51d.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1211596943",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1710799986.mp3"
+  },
+  {
     "id": "1211596878",
     "title": "Dear Life Kit: I need a gut check for a sticky situation",
     "img": "https://media.npr.org/assets/img/2024/10/25/template-4-example_wide-da61c8b1edfaace085a73f8b269f833f0f624855.jpg?s=1400&c=100&f=jpeg",
@@ -2986,6 +2993,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1211596943",
   "1211596878",
   "1211596810",
   "1211596751",
