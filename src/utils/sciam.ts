@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308159",
+    "title": "Your 2024 Election Rundown, from Immigration to Education",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-the-2024-election-could-change-access-to-education-in-the-u-s-and/",
+    "audio": "https://traffic.megaphone.fm/SAM6401653770.mp3?updated=1730582008"
+  },
+  {
     "id": "1308150",
     "title": "Your 2024 Election Rundown, from Health Care to Nuclear Proliferation",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2878,6 +2885,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308159",
   "1308150",
   "1308132",
   "1308121",
