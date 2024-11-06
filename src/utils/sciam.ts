@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308166",
+    "title": "Medieval Elites Cared about Their Zodiac Signs, Too",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/astrology-was-an-important-science-for-medieval-people/",
+    "audio": "https://traffic.megaphone.fm/SAM5773513976.mp3?updated=1730839800"
+  },
+  {
     "id": "1308159",
     "title": "Your 2024 Election Rundown, from Immigration to Education",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -2885,6 +2892,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308166",
   "1308159",
   "1308150",
   "1308132",
