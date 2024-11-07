@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1211597187",
+    "title": "How to recover from a bad night of sleep",
+    "img": "https://media.npr.org/assets/img/2024/11/04/template-1-example-13-_wide-1dfc6543f06452d92eddf98f623e01f13b1009a2.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1211597187",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8609404047.mp3"
+  },
+  {
     "id": "1211596943",
     "title": "How to find lost objects: Techniques that really work",
     "img": "https://media.npr.org/assets/img/2024/10/30/template-1-example-1-_wide-fde030c029d756f103da4637eed3bbf775c5c51d.jpg?s=1400&c=100&f=jpeg",
@@ -2993,6 +3000,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1211597187",
   "1211596943",
   "1211596878",
   "1211596810",
