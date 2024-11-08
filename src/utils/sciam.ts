@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308175",
+    "title": "The Impact of Weight Stigma on Health",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/is-weight-really-the-problem/",
+    "audio": "https://traffic.megaphone.fm/SAM8436793307.mp3?updated=1731011486"
+  },
+  {
     "id": "1308166",
     "title": "Medieval Elites Cared about Their Zodiac Signs, Too",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -2892,6 +2899,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308175",
   "1308166",
   "1308159",
   "1308150",
