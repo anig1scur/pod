@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308181",
+    "title": "Mud Bath Really Does Make Baseballs Easier to Grip",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/water-under-threat-wooden-satellites-and-a-mud-bath-for-baseballs/",
+    "audio": "https://traffic.megaphone.fm/SAM8175186370.mp3?updated=1731107197"
+  },
+  {
     "id": "1308175",
     "title": "The Impact of Weight Stigma on Health",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2899,6 +2906,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308181",
   "1308175",
   "1308166",
   "1308159",
