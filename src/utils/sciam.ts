@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308188",
+    "title": "Insights into Insects with an Entomologist",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/insects-played-pivotal-roles-in-the-evolution-of-human-culture/",
+    "audio": "https://traffic.megaphone.fm/SAM6600229468.mp3?updated=1731445626"
+  },
+  {
     "id": "1308181",
     "title": "Mud Bath Really Does Make Baseballs Easier to Grip",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -2906,6 +2913,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308188",
   "1308181",
   "1308175",
   "1308166",
