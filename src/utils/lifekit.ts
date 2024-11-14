@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1212866778",
+    "title": "A stress-free guide to organizing important paperwork",
+    "img": "https://media.npr.org/assets/img/2024/11/13/template-1-example-13-_wide-7991ecebd07142049dd22101400064d94fe7aeda.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1212866778",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2473399196.mp3"
+  },
+  {
     "id": "1212541655",
     "title": "How long do leftovers last? And other food safety questions, answered",
     "img": "https://media.npr.org/assets/img/2024/11/08/template-1-example-17-_wide-85d2f1e132448ca4a18f21f804dc8ee2818eb05c.jpg?s=1400&c=100&f=jpeg",
@@ -3007,6 +3014,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1212866778",
   "1212541655",
   "1211597187",
   "1211596943",
