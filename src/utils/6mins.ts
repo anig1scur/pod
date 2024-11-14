@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "241114__the_bond_between_sisters",
+    "title": "The bond between sisters",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jyf8vv.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-241114",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/241114_6_minute_english_the_bond_between_sisters_download.mp3"
+  },
+  {
     "id": "241107__having_acne",
     "title": "Having acne",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jwvz0m.jpg",
@@ -3607,6 +3614,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "241114__the_bond_between_sisters",
   "241107__having_acne",
   "241031__why_you_need_a_good_night's_sleep",
   "241024__divorce_why_does_it_happen",
