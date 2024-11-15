@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308200",
+    "title": "Reflecting on the Arecibo Message, Our First Attempt to Speak with the Stars",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/celebrating-the-50th-anniversary-of-the-arecibo-message/",
+    "audio": "https://traffic.megaphone.fm/SAM9530419007.mp3?updated=1731619399"
+  },
+  {
     "id": "1308188",
     "title": "Insights into Insects with an Entomologist",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -2913,6 +2920,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308200",
   "1308188",
   "1308181",
   "1308175",
