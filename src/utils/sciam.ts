@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308236",
+    "title": "Unscheduled C-Sections May Depend on the Color of Your Skin",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-is-causing-disparities-in-c-section-rates-between-black-and-white/",
+    "audio": "https://traffic.megaphone.fm/SAM4533234910.mp3?updated=1732048666"
+  },
+  {
     "id": "1308207",
     "title": "An Off Day in Brooklyn\u2014And on Uranus",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -2927,6 +2934,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308236",
   "1308207",
   "1308200",
   "1308188",
