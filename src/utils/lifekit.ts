@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1215189213",
+    "title": "Going home for the holidays? Here's how to cope with travel stress",
+    "img": "https://media.npr.org/assets/img/2024/11/21/template-1-example-21-_wide-35ba601bf5273d53c743398b07a182b3813626f4.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1215189213",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7075459084.mp3"
+  },
+  {
     "id": "1214380329",
     "title": "Got two left feet? A guide to dance",
     "img": "https://media.npr.org/assets/img/2024/11/19/template-1-example-16-_wide-7c6904336bce95f644d147375252ef14f6321f45.jpg?s=1400&c=100&f=jpeg",
@@ -3028,6 +3035,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1215189213",
   "1214380329",
   "1213978434",
   "1212866778",
