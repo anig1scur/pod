@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308256",
+    "title": "RFK, Jr., Could Run the Agency That Oversees CDC, FDA and NIH. Here\u2019s What That Means for Public Health",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/rfk-jr-could-run-the-agency-that-oversees-the-cdc-fda-and-nih-heres-what/",
+    "audio": "https://traffic.megaphone.fm/SAM8685525847.mp3?updated=1732309728"
+  },
+  {
     "id": "1308249",
     "title": "Could AI Ghosts of Ancient Civilizations Help Us Connect with Bygone Cultures?",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2941,6 +2948,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308256",
   "1308249",
   "1308236",
   "1308207",
