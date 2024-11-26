@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1215240048",
+    "title": "What people get wrong about hangovers",
+    "img": "https://media.npr.org/assets/img/2024/11/21/template-5-example-1-_wide-3007964b3eda8431dfb1b81cecc5d207d3b5eda6.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1215240048",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4342887569.mp3"
+  },
+  {
     "id": "1215189213",
     "title": "Going home for the holidays? Here's how to cope with travel stress",
     "img": "https://media.npr.org/assets/img/2024/11/21/template-1-example-21-_wide-35ba601bf5273d53c743398b07a182b3813626f4.jpg?s=1400&c=100&f=jpeg",
@@ -3035,6 +3042,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1215240048",
   "1215189213",
   "1214380329",
   "1213978434",
