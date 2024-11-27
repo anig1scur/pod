@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308265",
+    "title": "A Psychologist\u2019s Tips for Avoiding Overconsumption This Holiday Season",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-psychologists-tips-for-avoiding-overconsumption-this-black-friday/",
+    "audio": "https://traffic.megaphone.fm/SAM9459700180.mp3?updated=1732551729"
+  },
+  {
     "id": "1308256",
     "title": "RFK, Jr., Could Run the Agency That Oversees CDC, FDA and NIH. Here\u2019s What That Means for Public Health",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -2948,6 +2955,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308265",
   "1308256",
   "1308249",
   "1308236",
