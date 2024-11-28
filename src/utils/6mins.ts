@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "241128__how_babies_learn_to_talk",
+    "title": "How babies learn to talk",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0jzxhyz.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2024/ep-241128",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/241128_6_minute_english_how_babies_learn_to_talk_download.mp3"
+  },
+  {
     "id": "241121__the_secrets_to_a_healthy_old_age",
     "title": "The secrets to a healthy old age",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0k03d95.jpg",
@@ -3621,6 +3628,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "241128__how_babies_learn_to_talk",
   "241121__the_secrets_to_a_healthy_old_age",
   "241114__the_bond_between_sisters",
   "241107__having_acne",
