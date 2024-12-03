@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1216842307",
+    "title": "5 ways to cut back your spending",
+    "img": "https://media.npr.org/assets/img/2024/11/22/template-4-example-1-_wide-c2a97470095a36de109d4256c13fa367db73ffdc.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1216842307",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9219962220.mp3"
+  },
+  {
     "id": "1215240048",
     "title": "What people get wrong about hangovers",
     "img": "https://media.npr.org/assets/img/2024/11/21/template-5-example-1-_wide-3007964b3eda8431dfb1b81cecc5d207d3b5eda6.jpg?s=1400&c=100&f=jpeg",
@@ -3042,6 +3049,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1216842307",
   "1215240048",
   "1215189213",
   "1214380329",
