@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308290",
+    "title": "Why Anthony Fauci Is Concerned about Bird Flu and Public Division",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/anthony-fauci-warns-of-bird-flu-dangers-and-how-public-division-could-make/",
+    "audio": "https://traffic.megaphone.fm/SAM8863902249.mp3?updated=1733257875"
+  },
+  {
     "id": "1308265",
     "title": "A Psychologist\u2019s Tips for Avoiding Overconsumption This Holiday Season",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -2955,6 +2962,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308290",
   "1308265",
   "1308256",
   "1308249",
