@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1217308647",
+    "title": "How to support a grieving friend",
+    "img": "https://media.npr.org/assets/img/2024/12/04/template-1-example-18-_wide-1d6952e4c30005da34b3e8a40d8da9d810c075e7.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1217308647",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6507426685.mp3"
+  },
+  {
     "id": "1216842307",
     "title": "5 ways to cut back your spending",
     "img": "https://media.npr.org/assets/img/2024/11/22/template-4-example-1-_wide-c2a97470095a36de109d4256c13fa367db73ffdc.jpg?s=1400&c=100&f=jpeg",
@@ -3049,6 +3056,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1217308647",
   "1216842307",
   "1215240048",
   "1215189213",
