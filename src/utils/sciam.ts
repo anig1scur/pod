@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308303",
+    "title": "Could Menstruation Be Causing Low Iron Levels?",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/iron-deficiency-and-anemia-may-be-more-common-in-young-women-than-doctors/",
+    "audio": "https://traffic.megaphone.fm/SAM8297240622.mp3?updated=1733422465"
+  },
+  {
     "id": "1308290",
     "title": "Why Anthony Fauci Is Concerned about Bird Flu and Public Division",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -2962,6 +2969,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308303",
   "1308290",
   "1308265",
   "1308256",
