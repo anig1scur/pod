@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1218396323",
+    "title": "How to thrive, not just survive in winter",
+    "img": "https://media.npr.org/assets/img/2024/12/06/template-1-example-20-_wide-f5f1748c0dc4dc86737f429f5f3dc8575b847bf7.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1218396323",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/ondemand.npr.org/anon.npr-mp3/npr/lifekit/2024/12/20241209_lifekit_9b3635a9-5ddb-45a4-8433-342b840116f6.mp3"
+  },
+  {
     "id": "1217308647",
     "title": "How to support a grieving friend",
     "img": "https://media.npr.org/assets/img/2024/12/04/template-1-example-18-_wide-1d6952e4c30005da34b3e8a40d8da9d810c075e7.jpg?s=1400&c=100&f=jpeg",
@@ -3056,6 +3063,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1218396323",
   "1217308647",
   "1216842307",
   "1215240048",
