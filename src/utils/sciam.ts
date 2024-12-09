@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308308",
+    "title": "Leaded Gasoline Tied to Uptick in Mental Health Disorders, and a Mysterious Outbreak Occurs in the DRC",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/lead-in-gasoline-linked-to-mental-illness-and-disease-x-spreads-in-the/",
+    "audio": "https://traffic.megaphone.fm/SAM4746975006.mp3?updated=1733522889"
+  },
+  {
     "id": "1308303",
     "title": "Could Menstruation Be Causing Low Iron Levels?",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2969,6 +2976,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308308",
   "1308303",
   "1308290",
   "1308265",
