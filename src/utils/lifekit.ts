@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1218737982",
+    "title": "Why you should take a 'fart walk' after a meal",
+    "img": "https://media.npr.org/assets/img/2024/12/11/template-1-example-21-_wide-25c9f115cdf7f63ce4982041c4c571e190c5bdb9.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1218737982",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1547060077.mp3"
+  },
+  {
     "id": "1218437732",
     "title": "Dear Life Kit: My family stresses me out around the holidays",
     "img": "https://media.npr.org/assets/img/2024/12/06/template-1-example-18-_wide-ab7d882f1acd3fac45889e56b42506ae7731183d.jpg?s=1400&c=100&f=jpeg",
@@ -3070,6 +3077,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1218737982",
   "1218437732",
   "1218396323",
   "1217308647",
