@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308331",
+    "title": "Why Are Zoos Controversial?",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/modern-zoos-are-trailblazing-animal-conservation-efforts/",
+    "audio": "https://traffic.megaphone.fm/SAM3936475349.mp3?updated=1734041249"
+  },
+  {
     "id": "1308318",
     "title": "Will AI Audio Replace Podcasts? Not So Fast",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -2983,6 +2990,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308331",
   "1308318",
   "1308308",
   "1308303",
