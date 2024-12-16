@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308341",
+    "title": "Audio and Imagery, Interpreted by AI, Are Improving Conservation Studies",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/ai-and-other-emerging-technologies-are-expanding-conservation-studies/",
+    "audio": "https://traffic.megaphone.fm/SAM6242751314.mp3?updated=1734135767"
+  },
+  {
     "id": "1308331",
     "title": "Why Are Zoos Controversial?",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2990,6 +2997,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308341",
   "1308331",
   "1308318",
   "1308308",
