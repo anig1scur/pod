@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308372",
+    "title": "Today\u2019s Conservationists Are Inspired by Homeland and Heritage",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/can-a-new-generation-of-conservationists-make-the-field-more-accessible/",
+    "audio": "https://traffic.megaphone.fm/SAM2148658146.mp3?updated=1734487569"
+  },
+  {
     "id": "1308341",
     "title": "Audio and Imagery, Interpreted by AI, Are Improving Conservation Studies",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -2997,6 +3004,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308372",
   "1308341",
   "1308331",
   "1308318",
