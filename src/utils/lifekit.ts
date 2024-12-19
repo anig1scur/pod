@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1220280842",
+    "title": "Should I buy that thing? A framework to help you decide",
+    "img": "https://media.npr.org/assets/img/2024/12/17/gettyimages-1188391742_wide-9d65680fae13afb9b49f487a94f958921c2f7d69.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1220280842",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2747916325.mp3"
+  },
+  {
     "id": "1219887518",
     "title": "How to optimize your circadian rhythm",
     "img": "https://media.npr.org/assets/img/2024/12/12/template-1-example-24-_wide-c05ed86c4816d21bcc32927c846ff8c44bd6afc1.jpg?s=1400&c=100&f=jpeg",
@@ -3084,6 +3091,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1220280842",
   "1219887518",
   "1218737982",
   "1218437732",
