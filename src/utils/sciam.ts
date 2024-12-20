@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308392",
+    "title": "Conservation Efforts Are Bringing Pandas, Wolves and Panthers Back from the Brink",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/conservation-efforts-save-pandas-wolves-and-panthers-from-extinction/",
+    "audio": "https://traffic.megaphone.fm/SAM5307187168.mp3?updated=1734686155"
+  },
+  {
     "id": "1308372",
     "title": "Today\u2019s Conservationists Are Inspired by Homeland and Heritage",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3004,6 +3011,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308392",
   "1308372",
   "1308341",
   "1308331",
