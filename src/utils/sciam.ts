@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308402",
+    "title": "The Climate, Health and Tech Stories We\u2019re Following in 2025",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/reviewing-the-climate-health-and-tech-stories-we-covered-in-2024/",
+    "audio": "https://traffic.megaphone.fm/SAM8456368762.mp3?updated=1734721062"
+  },
+  {
     "id": "1308392",
     "title": "Conservation Efforts Are Bringing Pandas, Wolves and Panthers Back from the Brink",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3011,6 +3018,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308402",
   "1308392",
   "1308372",
   "1308341",
