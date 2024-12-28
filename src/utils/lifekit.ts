@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1221596345",
+    "title": "How to cut down on drinking",
+    "img": "https://media.npr.org/assets/img/2024/12/17/dry-january_lk_drink-less_martini-ice-cube_wide-5986f2240305b317625a074d107ea2ad45f3500a.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1221596345",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1293239261.mp3"
+  },
+  {
     "id": "1220280842",
     "title": "Should I buy that thing? A framework to help you decide",
     "img": "https://media.npr.org/assets/img/2024/12/17/gettyimages-1188391742_wide-9d65680fae13afb9b49f487a94f958921c2f7d69.jpg?s=1400&c=100&f=jpeg",
@@ -3091,6 +3098,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1221596345",
   "1220280842",
   "1219887518",
   "1218737982",
