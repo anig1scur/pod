@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1222276523",
+    "title": "Take a moment to reflect before the new year",
+    "img": "https://media.npr.org/assets/img/2024/12/20/lk_reflection_2_wide-39374632aacd4b5a5c667c99afe8650bf319f359.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1222276523",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4738641244.mp3"
+  },
+  {
     "id": "1221596345",
     "title": "How to cut down on drinking",
     "img": "https://media.npr.org/assets/img/2024/12/17/dry-january_lk_drink-less_martini-ice-cube_wide-5986f2240305b317625a074d107ea2ad45f3500a.jpg?s=1400&c=100&f=jpeg",
@@ -3098,6 +3105,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1222276523",
   "1221596345",
   "1220280842",
   "1219887518",
