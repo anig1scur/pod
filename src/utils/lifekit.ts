@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1222340401",
+    "title": "Financial habits to leave behind in 2025",
+    "img": "https://media.npr.org/assets/img/2024/12/20/lk_money-habits_2_wide-7e2e991d24bac547ca090addcea1a8e9e2cbd4b5.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1222340401",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1488361690.mp3"
+  },
+  {
     "id": "1222276523",
     "title": "Take a moment to reflect before the new year",
     "img": "https://media.npr.org/assets/img/2024/12/20/lk_reflection_2_wide-39374632aacd4b5a5c667c99afe8650bf319f359.jpg?s=1400&c=100&f=jpeg",
@@ -3105,6 +3112,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1222340401",
   "1222276523",
   "1221596345",
   "1220280842",
