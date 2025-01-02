@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250102__are_you_drinking_enough_water",
+    "title": "Are you drinking enough water?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0k7kzkd.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250102",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250102_6_minute_english_are_you_drinking_enough_water_download.mp3"
+  },
+  {
     "id": "241226__embarrassed_to_go_to_the_doctor",
     "title": "mbarrassed to go to the doctor?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0k7vh9q.jpg",
@@ -3656,6 +3663,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250102__are_you_drinking_enough_water",
   "241226__embarrassed_to_go_to_the_doctor",
   "241219__call_centres_are_you_talking_to_ai",
   "241212__making_mum_friends",
