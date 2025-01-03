@@ -140,6 +140,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1293239261.mp3"
   },
   {
+    "id": "1221439458",
+    "title": "How to stop overanalyzing romantic relationships",
+    "img": "https://media.npr.org/assets/img/2024/12/17/template-1-example-10-_wide-4a1eda128cf82541e0c94c056fd003ef3bdc8e3b.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1221439458",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7049732684.mp3"
+  },
+  {
     "id": "1220280842",
     "title": "Should I buy that thing? A framework to help you decide",
     "img": "https://media.npr.org/assets/img/2024/12/17/gettyimages-1188391742_wide-9d65680fae13afb9b49f487a94f958921c2f7d69.jpg?s=1400&c=100&f=jpeg",
@@ -3115,6 +3122,7 @@ export const episodeIds = [
   "1222340401",
   "1222276523",
   "1221596345",
+  "1221439458",
   "1220280842",
   "1219887518",
   "1218737982",
