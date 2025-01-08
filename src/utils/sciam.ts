@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308446",
+    "title": "Nature Affects Our Hormones and Changes Our Microbiome",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-the-outdoors-affects-our-nervous-system-and-changes-our-microbiome/",
+    "audio": "https://traffic.megaphone.fm/SAM1841238827.mp3?updated=1736269273"
+  },
+  {
     "id": "1308402",
     "title": "The Climate, Health and Tech Stories We\u2019re Following in 2025",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3018,6 +3025,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308446",
   "1308402",
   "1308392",
   "1308372",
