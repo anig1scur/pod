@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250109__eating_50_year_old_stew",
+    "title": "50-year-old stew",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0k95fdb.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250109",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250109_6_minute_english_eating_50_year_old_stew_download.mp3"
+  },
+  {
     "id": "250102__are_you_drinking_enough_water",
     "title": "Are you drinking enough water?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0k7kzkd.jpg",
@@ -3663,6 +3670,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250109__eating_50_year_old_stew",
   "250102__are_you_drinking_enough_water",
   "241226__embarrassed_to_go_to_the_doctor",
   "241219__call_centres_are_you_talking_to_ai",
