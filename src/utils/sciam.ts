@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308459",
+    "title": "Largest Camera in the World Will Look for Planet Nine",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/will-we-find-planet-nine-with-the-vera-rubin-observatorys-new-telescope/",
+    "audio": "https://traffic.megaphone.fm/SAM9187360584.mp3?updated=1736470041"
+  },
+  {
     "id": "1308446",
     "title": "Nature Affects Our Hormones and Changes Our Microbiome",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3025,6 +3032,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308459",
   "1308446",
   "1308402",
   "1308392",
