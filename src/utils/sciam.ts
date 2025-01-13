@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308466",
+    "title": "A Death from Bird Flu, a Cosmic Kiss and Wildfires in L.A.",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-reason-wildfires-in-l-a-were-so-destructive-and-an-update-on-public/",
+    "audio": "https://traffic.megaphone.fm/SAM1246979905.mp3?updated=1736545778"
+  },
+  {
     "id": "1308459",
     "title": "Largest Camera in the World Will Look for Planet Nine",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3032,6 +3039,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308466",
   "1308459",
   "1308446",
   "1308402",
