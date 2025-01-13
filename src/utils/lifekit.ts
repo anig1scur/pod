@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1224599770",
+    "title": "What you need to know about cardio",
+    "img": "https://media.npr.org/assets/img/2025/01/10/template-1-example-17-_wide-a6acef534dd971a9ecc7dea55b5935e1ff479f42.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1224599770",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7153699429.mp3"
+  },
+  {
     "id": "1223663767",
     "title": "How to cook when you're not into cooking",
     "img": "https://media.npr.org/assets/img/2025/01/08/template-1-example-14-_wide-43933ee5e8012c00cec87f0e9abf6a22d27d5ffd.jpg?s=1400&c=100&f=jpeg",
@@ -3140,6 +3147,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1224599770",
   "1223663767",
   "1223358007",
   "1222474630",
