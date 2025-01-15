@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1224682731",
+    "title": "The cost of being there: budget for your friend's celebrations",
+    "img": "https://media.npr.org/assets/img/2025/01/10/template-2-example-1-_wide-627c65a246b10a8ff382f003d65a72898cfd0bec.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1224682731",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9992080254.mp3"
+  },
+  {
     "id": "1224599770",
     "title": "What you need to know about cardio",
     "img": "https://media.npr.org/assets/img/2025/01/10/template-1-example-17-_wide-a6acef534dd971a9ecc7dea55b5935e1ff479f42.jpg?s=1400&c=100&f=jpeg",
@@ -3147,6 +3154,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1224682731",
   "1224599770",
   "1223663767",
   "1223358007",
