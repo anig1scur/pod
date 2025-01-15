@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308479",
+    "title": "Mishandled Response to the Bird Flu Leaves U.S. Vulnerable to Outbreak",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/government-and-industry-response-to-bird-flu-could-allow-disease-to-evolve/",
+    "audio": "https://traffic.megaphone.fm/SAM1956381942.mp3?updated=1736889600"
+  },
+  {
     "id": "1308466",
     "title": "A Death from Bird Flu, a Cosmic Kiss and Wildfires in L.A.",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3039,6 +3046,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308479",
   "1308466",
   "1308459",
   "1308446",
