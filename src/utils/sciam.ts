@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308492",
+    "title": "The Ways We Express Pain Point to Universality in Language",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/linguists-point-to-expressions-of-pain-as-a-possible-universal-language/",
+    "audio": "https://traffic.megaphone.fm/SAM7160282974.mp3?updated=1737054948"
+  },
+  {
     "id": "1308479",
     "title": "Mishandled Response to the Bird Flu Leaves U.S. Vulnerable to Outbreak",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3046,6 +3053,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308492",
   "1308479",
   "1308466",
   "1308459",
