@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308502",
+    "title": "A Mixed Bag for Private Spaceflight, a New Spider Species and the Health Risks of Alcohol",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-health-risks-of-alcohol-a-red-dye-ban-and-commercial-space-launches/",
+    "audio": "https://traffic.megaphone.fm/SAM1526563643.mp3?updated=1737154197"
+  },
+  {
     "id": "1308492",
     "title": "The Ways We Express Pain Point to Universality in Language",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3053,6 +3060,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308502",
   "1308492",
   "1308479",
   "1308466",
