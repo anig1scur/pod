@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1225890658",
+    "title": "How to improve your posture",
+    "img": "https://media.npr.org/assets/img/2025/01/17/lk_posture_2_wide-0cceffce05b9387096bb85804d0d62d2e9eaa27c.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1225890658",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2502845288.mp3"
+  },
+  {
     "id": "1224682731",
     "title": "The cost of being there: budget for your friend's celebrations",
     "img": "https://media.npr.org/assets/img/2025/01/10/template-2-example-1-_wide-627c65a246b10a8ff382f003d65a72898cfd0bec.jpg?s=1400&c=100&f=jpeg",
@@ -3154,6 +3161,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1225890658",
   "1224682731",
   "1224599770",
   "1223663767",
