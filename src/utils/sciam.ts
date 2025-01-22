@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308526",
+    "title": "What Happens to the Open Internet without Net Neutrality?",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-the-federal-court-decision-on-net-neutrality-means-for-the-internet/",
+    "audio": "https://traffic.megaphone.fm/SAM4200931134.mp3?updated=1737493071"
+  },
+  {
     "id": "1308502",
     "title": "A Mixed Bag for Private Spaceflight, a New Spider Species and the Health Risks of Alcohol",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3060,6 +3067,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308526",
   "1308502",
   "1308492",
   "1308479",
