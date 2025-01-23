@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1226281133",
+    "title": "How to travel on a budget",
+    "img": "https://media.npr.org/assets/img/2025/01/22/template-1-example-21-_wide-ff73469a056bf2f679d562e648964412f555feac.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1226281133",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7630089885.mp3"
+  },
+  {
     "id": "1225890658",
     "title": "How to improve your posture",
     "img": "https://media.npr.org/assets/img/2025/01/17/lk_posture_2_wide-0cceffce05b9387096bb85804d0d62d2e9eaa27c.jpg?s=1400&c=100&f=jpeg",
@@ -3161,6 +3168,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1226281133",
   "1225890658",
   "1224682731",
   "1224599770",
