@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250123__how_the_world_learned_to_love_fast_food",
+    "title": "How the world learned to love fast food",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0khxhcl.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250123",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250123_6_minute_english_how_the_world_learned_to_love_fast_food_download.mp3"
+  },
+  {
     "id": "250116__which_country_has_the_best_schools",
     "title": "Which country has the best schools?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0kdtpcn.jpg",
@@ -3677,6 +3684,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250123__how_the_world_learned_to_love_fast_food",
   "250116__which_country_has_the_best_schools",
   "250109__eating_50_year_old_stew",
   "250102__are_you_drinking_enough_water",
