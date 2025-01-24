@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308545",
+    "title": "Turning Outdoor Enthusiasts into Community Scientists",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/community-science-initiatives-you-can-do-on-a-trip-to-the-outdoors/",
+    "audio": "https://traffic.megaphone.fm/SAM4416357610.mp3?updated=1737662941"
+  },
+  {
     "id": "1308526",
     "title": "What Happens to the Open Internet without Net Neutrality?",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3067,6 +3074,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308545",
   "1308526",
   "1308502",
   "1308492",
