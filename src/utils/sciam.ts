@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308555",
+    "title": "WHO Withdrawal, Bird Flu News and the Way \u2018Prehab\u2019 Affects Surgical Outcomes",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-would-a-u-s-withdrawal-from-the-who-mean-for-global-health/",
+    "audio": "https://traffic.megaphone.fm/SAM6995974477.mp3?updated=1737761860"
+  },
+  {
     "id": "1308545",
     "title": "Turning Outdoor Enthusiasts into Community Scientists",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3074,6 +3081,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308555",
   "1308545",
   "1308526",
   "1308502",
