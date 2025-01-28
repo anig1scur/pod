@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1227458694",
+    "title": "Dear Life Kit: He kissed me then took it back",
+    "img": "https://media.npr.org/assets/img/2025/01/24/template-1-example-22-_wide-4a81e5f3c3b7562e1c8a624ba09b198edef94dc5.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1227458694",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7248499783.mp3"
+  },
+  {
     "id": "1226281133",
     "title": "How to travel on a budget",
     "img": "https://media.npr.org/assets/img/2025/01/22/template-1-example-21-_wide-ff73469a056bf2f679d562e648964412f555feac.jpg?s=1400&c=100&f=jpeg",
@@ -3168,6 +3175,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1227458694",
   "1226281133",
   "1225890658",
   "1224682731",
