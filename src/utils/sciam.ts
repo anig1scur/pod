@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308566",
+    "title": "Why 2025 is an Exciting Year in Heliophysics",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/2025-missions-to-the-sun-seek-to-study-space-weather-and-shape-of-the/",
+    "audio": "https://traffic.megaphone.fm/SAM9581282908.mp3?updated=1738087196"
+  },
+  {
     "id": "1308555",
     "title": "WHO Withdrawal, Bird Flu News and the Way \u2018Prehab\u2019 Affects Surgical Outcomes",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3081,6 +3088,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308566",
   "1308555",
   "1308545",
   "1308526",
