@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1227850888",
+    "title": "How to recover after a workout",
+    "img": "https://media.npr.org/assets/img/2025/01/29/template-1-example-24-_wide-c26e4ab5a4f99794f6b88fc42abd4f080855fb2c.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1227850888",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3844537460.mp3"
+  },
+  {
     "id": "1227458694",
     "title": "Dear Life Kit: He kissed me then took it back",
     "img": "https://media.npr.org/assets/img/2025/01/24/template-1-example-22-_wide-4a81e5f3c3b7562e1c8a624ba09b198edef94dc5.jpg?s=1400&c=100&f=jpeg",
@@ -3175,6 +3182,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1227850888",
   "1227458694",
   "1226281133",
   "1225890658",
