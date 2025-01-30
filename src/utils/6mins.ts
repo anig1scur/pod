@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250130__becoming_a_musician",
+    "title": "coming a musician",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0kjsfj6.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/250130",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250130_6_minute_english_becoming_a_musician_download.mp3"
+  },
+  {
     "id": "250123__how_the_world_learned_to_love_fast_food",
     "title": "How the world learned to love fast food",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0khxhcl.jpg",
@@ -3684,6 +3691,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250130__becoming_a_musician",
   "250123__how_the_world_learned_to_love_fast_food",
   "250116__which_country_has_the_best_schools",
   "250109__eating_50_year_old_stew",
