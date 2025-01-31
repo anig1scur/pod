@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308579",
+    "title": "Can Hopeful Skepticism Replace Harmful Cynicism?",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-science-of-cynicism-and-the-transformative-psychological-power-of-hope/",
+    "audio": "https://traffic.megaphone.fm/SAM7818878815.mp3?updated=1738266076"
+  },
+  {
     "id": "1308566",
     "title": "Why 2025 is an Exciting Year in Heliophysics",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3088,6 +3095,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308579",
   "1308566",
   "1308555",
   "1308545",
