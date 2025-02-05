@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308594",
+    "title": "Avoiding Outrage Fatigue while Staying Informed",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-to-avoid-outrage-fatigue-and-tune-in-without-burning-out/",
+    "audio": "https://traffic.megaphone.fm/SAM7915871869.mp3?updated=1738717054"
+  },
+  {
     "id": "1308586",
     "title": "Tuberculosis Outbreak, Highly Pathogenic Bird Flu Strain and Polar Bear Hair",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3102,6 +3109,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308594",
   "1308586",
   "1308579",
   "1308566",
