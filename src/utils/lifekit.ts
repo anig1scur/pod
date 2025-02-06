@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1229439864",
+    "title": "How to 'shift' your emotions",
+    "img": "https://media.npr.org/assets/img/2025/02/05/life-kit_shift_kross_2_wide-846045d703d7433320f0934c8459232c2b79ba80.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1229439864",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8086825438.mp3"
+  },
+  {
     "id": "1228912523",
     "title": "How to combat parental burnout",
     "img": "https://media.npr.org/assets/img/2025/01/29/template-1-example-28-_wide-42adb8915aed26b7223e237629b44373b188c508.jpg?s=1400&c=100&f=jpeg",
@@ -3189,6 +3196,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1229439864",
   "1228912523",
   "1227850888",
   "1227458694",
