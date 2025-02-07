@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308603",
+    "title": "Funding Freeze and Communications Hold Create Confusion for U.S. Researchers",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/trump-executive-orders-create-confusion-for-science-and-health-agencies/",
+    "audio": "https://traffic.megaphone.fm/SAM8030932533.mp3?updated=1738883994"
+  },
+  {
     "id": "1308594",
     "title": "Avoiding Outrage Fatigue while Staying Informed",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3109,6 +3116,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308603",
   "1308594",
   "1308586",
   "1308579",
