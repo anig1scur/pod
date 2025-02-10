@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308610",
+    "title": "What We\u2019ve Learned about Superstrong Shrimp, How Deep Canyons Formed on the Moon, and What Bonobos Know",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/do-you-really-have-a-spoonful-of-microplastics-in-your-brain/",
+    "audio": "https://traffic.megaphone.fm/SAM8154738396.mp3?updated=1738964251"
+  },
+  {
     "id": "1308603",
     "title": "Funding Freeze and Communications Hold Create Confusion for U.S. Researchers",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3116,6 +3123,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308610",
   "1308603",
   "1308594",
   "1308586",
