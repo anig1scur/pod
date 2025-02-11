@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1230674438",
+    "title": "The benefits of a plant-based diet on your gut",
+    "img": "https://media.npr.org/assets/img/2025/02/06/lk_plant_variety_2_wide-d0b4932eb2c0877899e20d2871bddd7dcaaef371.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1230674438",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2052447512.mp3"
+  },
+  {
     "id": "1229439864",
     "title": "How to 'shift' your emotions",
     "img": "https://media.npr.org/assets/img/2025/02/05/life-kit_shift_kross_2_wide-846045d703d7433320f0934c8459232c2b79ba80.jpg?s=1400&c=100&f=jpeg",
@@ -3196,6 +3203,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1230674438",
   "1229439864",
   "1228912523",
   "1227850888",
