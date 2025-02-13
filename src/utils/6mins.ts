@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250213__rage_bait",
+    "title": "Rage bait: How online anger makes money",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0knds21.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250213",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250213_6_minute_english_rage_bait_download.mp3"
+  },
+  {
     "id": "250206__why_smells_make_us_feel_at_home",
     "title": "Why smells make us feel at home",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0kk2s5r.jpg",
@@ -3698,6 +3705,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250213__rage_bait",
   "250206__why_smells_make_us_feel_at_home",
   "250130__becoming_a_musician",
   "250123__how_the_world_learned_to_love_fast_food",
