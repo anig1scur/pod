@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1231104443",
+    "title": "How to get on the same page about money with your partner",
+    "img": "https://media.npr.org/assets/img/2025/02/12/template-1-example-29-_wide-a8d091a8e47090fbf3c496b0121e081e5851132b.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1231104443",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9375838222.mp3"
+  },
+  {
     "id": "1230674438",
     "title": "The benefits of a plant-based diet on your gut",
     "img": "https://media.npr.org/assets/img/2025/02/06/lk_plant_variety_2_wide-d0b4932eb2c0877899e20d2871bddd7dcaaef371.jpg?s=1400&c=100&f=jpeg",
@@ -3203,6 +3210,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1231104443",
   "1230674438",
   "1229439864",
   "1228912523",
