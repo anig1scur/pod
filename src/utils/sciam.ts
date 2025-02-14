@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308637",
+    "title": "Love Isn\u2019t Just about Romance. Here\u2019s How Nonromantic Bonds Shape Our Lives",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-friendships-matter-more-than-you-think/",
+    "audio": "https://traffic.megaphone.fm/SAM1033665857.mp3?updated=1739486185"
+  },
+  {
     "id": "1308623",
     "title": "When It Comes to Impending Asteroid 2024 YR4, Risk of Impact Is a Wait-and-See Question",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3130,6 +3137,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308637",
   "1308623",
   "1308610",
   "1308603",
