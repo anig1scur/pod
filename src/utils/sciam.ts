@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308667",
+    "title": "The Air around Us Is Full of Life",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/carl-zimmer-on-his-new-book-air-borne-and-what-public-health-experts-learned/",
+    "audio": "https://traffic.megaphone.fm/SAM6385860943.mp3?updated=1739915956"
+  },
+  {
     "id": "1308637",
     "title": "Love Isn\u2019t Just about Romance. Here\u2019s How Nonromantic Bonds Shape Our Lives",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3137,6 +3144,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308667",
   "1308637",
   "1308623",
   "1308610",
