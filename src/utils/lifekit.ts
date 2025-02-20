@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1232637574",
+    "title": "Buy now, pay later loans are becoming more popular. Here's what to know",
+    "img": "https://media.npr.org/assets/img/2025/02/19/template-2-example-3-_wide-a35a077ab96a52607b9d87df1495f7d62997a71d.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1232637574",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5177947134.mp3"
+  },
+  {
     "id": "1231104443",
     "title": "How to get on the same page about money with your partner",
     "img": "https://media.npr.org/assets/img/2025/02/12/template-1-example-29-_wide-a8d091a8e47090fbf3c496b0121e081e5851132b.jpg?s=1400&c=100&f=jpeg",
@@ -3210,6 +3217,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1232637574",
   "1231104443",
   "1230674438",
   "1229439864",
