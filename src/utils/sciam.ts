@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308677",
+    "title": "\u00a0Where Did Curly Hair Come From? Biological Anthropology May Provide Insights",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/biological-anthropology-points-to-possible-reasons-for-hair-and-skin-tone/",
+    "audio": "https://traffic.megaphone.fm/SAM6858839612.mp3?updated=1740081776"
+  },
+  {
     "id": "1308667",
     "title": "The Air around Us Is Full of Life",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3144,6 +3151,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308677",
   "1308667",
   "1308637",
   "1308623",
