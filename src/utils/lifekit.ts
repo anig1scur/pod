@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1233706272",
+    "title": "Techniques to help you figure out how to make a big life change",
+    "img": "https://media.npr.org/assets/img/2025/02/21/template-1-example-31-_wide-0d9015302243dbb6fa2ef587659ebf13dabff2ef.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1233706272",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9978750995.mp3"
+  },
+  {
     "id": "1232637574",
     "title": "Buy now, pay later loans are becoming more popular. Here's what to know",
     "img": "https://media.npr.org/assets/img/2025/02/19/template-2-example-3-_wide-a35a077ab96a52607b9d87df1495f7d62997a71d.jpg?s=1400&c=100&f=jpeg",
@@ -3217,6 +3224,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1233706272",
   "1232637574",
   "1231104443",
   "1230674438",
