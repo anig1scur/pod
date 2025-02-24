@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308684",
+    "title": "Measles Outbreaks, Asteroid Risks and Fish Friends",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-latest-on-the-texas-measles-outbreak-asteroid-2024-yr4-risks-and-fish/",
+    "audio": "https://traffic.megaphone.fm/SAM3792386711.mp3?updated=1740171351"
+  },
+  {
     "id": "1308677",
     "title": "\u00a0Where Did Curly Hair Come From? Biological Anthropology May Provide Insights",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3151,6 +3158,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308684",
   "1308677",
   "1308667",
   "1308637",
