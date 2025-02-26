@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308695",
+    "title": "Saying Farewell to the Gaia Mission, Which Mapped the Milky Way",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/gaia-spacecraft-stops-data-collection-for-milky-way-map/",
+    "audio": "https://traffic.megaphone.fm/SAM3304804319.mp3?updated=1740494751"
+  },
+  {
     "id": "1308684",
     "title": "Measles Outbreaks, Asteroid Risks and Fish Friends",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3158,6 +3165,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308695",
   "1308684",
   "1308677",
   "1308667",
