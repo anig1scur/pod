@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250227__a_vaccine_for_cancer",
+    "title": "A vaccine for cancer",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0knxlgh.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250227",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250227_6_minute_english_a_vaccine_for_cancer_download.mp3"
+  },
+  {
     "id": "250220__young_women_on_social_media_",
     "title": "Young women on social media ",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0kp27qm.jpg",
@@ -3712,6 +3719,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250227__a_vaccine_for_cancer",
   "250220__young_women_on_social_media_",
   "250213__rage_bait",
   "250206__why_smells_make_us_feel_at_home",
