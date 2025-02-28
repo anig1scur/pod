@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308709",
+    "title": "Why You Can\u2019t Get That Song Out of Your Head",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-do-songs-get-stuck-in-your-head/",
+    "audio": "https://traffic.megaphone.fm/SAM7804198061.mp3?updated=1740684117"
+  },
+  {
     "id": "1308695",
     "title": "Saying Farewell to the Gaia Mission, Which Mapped the Milky Way",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3165,6 +3172,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308709",
   "1308695",
   "1308684",
   "1308677",
