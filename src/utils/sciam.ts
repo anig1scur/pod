@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308718",
+    "title": "The Latest on Measles in the U.S, a Mystery Illness in the DRC and the Flu Vaccines",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/first-measles-death-outbreaks-of-mysterious-illness-in-drc-and-microbes-in/",
+    "audio": "https://traffic.megaphone.fm/SAM2257739281.mp3?updated=1740768828"
+  },
+  {
     "id": "1308709",
     "title": "Why You Can\u2019t Get That Song Out of Your Head",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3172,6 +3179,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308718",
   "1308709",
   "1308695",
   "1308684",
