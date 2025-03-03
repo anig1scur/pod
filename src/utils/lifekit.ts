@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1235624348",
+    "title": "Dear Life Kit: Can I tell my friend she texts me too much?",
+    "img": "https://media.npr.org/assets/img/2025/03/02/lk_dlk_texting2_wide-eb2b5cb5f94a2fc28d00ed4c580c58ff31e65fb8.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1235624348",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3793407927.mp3"
+  },
+  {
     "id": "1234145483",
     "title": "How to create your own spiritual practices",
     "img": "https://media.npr.org/assets/img/2025/02/21/lk_spiritual-practice_2_wide-d068bb82cccb091e0285f245d7e5c74884db9038.jpg?s=1400&c=100&f=jpeg",
@@ -3238,6 +3245,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1235624348",
   "1234145483",
   "1233779195",
   "1233706272",
