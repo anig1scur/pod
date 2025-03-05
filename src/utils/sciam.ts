@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308728",
+    "title": "How Plastics in the Brain Connect to the Wider Debate over Petroleum",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-are-microplastics-getting-into-our-brain/",
+    "audio": "https://traffic.megaphone.fm/SAM1152056537.mp3?updated=1741117894"
+  },
+  {
     "id": "1308718",
     "title": "The Latest on Measles in the U.S, a Mystery Illness in the DRC and the Flu Vaccines",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3179,6 +3186,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308728",
   "1308718",
   "1308709",
   "1308695",
