@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308753",
+    "title": "Measles Misinformation Sparks Concern, Supreme Court Weakens EPA, and Scientists Engineer Woolly Mice",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/measles-misinformation-sparks-concern-supreme-court-limits-epa-power-and/",
+    "audio": "https://traffic.megaphone.fm/SAM1662279180.mp3?updated=1741375951"
+  },
+  {
     "id": "1308743",
     "title": "Author John Green on How Tuberculosis Shaped Our Modern World",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3193,6 +3200,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308753",
   "1308743",
   "1308728",
   "1308718",
