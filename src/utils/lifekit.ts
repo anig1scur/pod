@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1237470060",
+    "title": "OMG how embarrassing! How to stop feeling so awkward",
+    "img": "https://media.npr.org/assets/img/2025/03/07/lk_awkward_2_wide-da7c6ce5db1d92bffe4e75a3e240f9f0978112b0.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1237470060",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9578935057.mp3"
+  },
+  {
     "id": "1236242670",
     "title": "The key to happiness? Know thyself, says Gretchen Rubin",
     "img": "https://media.npr.org/assets/img/2025/03/05/lk_happiness_2_wide-2e54a24de3143e72efd941fc72013bdaebb6c388.jpg?s=1400&c=100&f=jpeg",
@@ -3252,6 +3259,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1237470060",
   "1236242670",
   "1235624348",
   "1234145483",
