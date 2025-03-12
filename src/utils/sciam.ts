@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308766",
+    "title": "On COVID\u2019s Fifth Anniversary, the U.S. Remains Vulnerable to Infectious Disease",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/kansas-tuberculosis-outbreak-emphasizes-the-importance-of-public-health/",
+    "audio": "https://traffic.megaphone.fm/SAM3308386989.mp3?updated=1741727888"
+  },
+  {
     "id": "1308753",
     "title": "Measles Misinformation Sparks Concern, Supreme Court Weakens EPA, and Scientists Engineer Woolly Mice",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3200,6 +3207,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308766",
   "1308753",
   "1308743",
   "1308728",
