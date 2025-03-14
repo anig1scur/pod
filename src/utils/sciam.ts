@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308781",
+    "title": "Robotics Researchers Bring The Electric State\u2019s Cosmo to Life",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/robotics-researcher-creates-the-real-cosmo-from-netflixs-movie-the-electric/",
+    "audio": "https://traffic.megaphone.fm/SAM7527561976.mp3?updated=1741893638"
+  },
+  {
     "id": "1308766",
     "title": "On COVID\u2019s Fifth Anniversary, the U.S. Remains Vulnerable to Infectious Disease",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3207,6 +3214,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308781",
   "1308766",
   "1308753",
   "1308743",
