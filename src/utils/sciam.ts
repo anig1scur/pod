@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308790",
+    "title": "New NASA Missions, Bonus Moons for Saturn and Whale Urine That Balances Ocean Chemistry",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/recent-deregulation-at-the-epa-spherex-and-punch-launch-and-saturns-many/",
+    "audio": "https://traffic.megaphone.fm/SAM5456040525.mp3?updated=1741978742"
+  },
+  {
     "id": "1308781",
     "title": "Robotics Researchers Bring The Electric State\u2019s Cosmo to Life",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3214,6 +3221,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308790",
   "1308781",
   "1308766",
   "1308753",
