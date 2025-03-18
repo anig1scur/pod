@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1239156778",
+    "title": "Don't panic when the markets are down",
+    "img": "https://media.npr.org/assets/img/2025/03/13/lk_investing_down-market_2_wide-449736c743a5d06ea6ceac4875b4f1b2518decb7.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1239156778",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8848981836.mp3"
+  },
+  {
     "id": "1239050318",
     "title": "What's in your lotion? A guide to personal care product safety",
     "img": "https://media.npr.org/assets/img/2025/03/13/lk_personal-care-product-ingredients_2_wide-821e41ad231fc78a8e95ba9aca6e258d8d5d0764.jpg?s=1400&c=100&f=jpeg",
@@ -3273,6 +3280,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1239156778",
   "1239050318",
   "1238261951",
   "1237470060",
