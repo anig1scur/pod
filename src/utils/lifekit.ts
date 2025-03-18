@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1239050318",
+    "title": "What's in your lotion? A guide to personal care product safety",
+    "img": "https://media.npr.org/assets/img/2025/03/13/lk_personal-care-product-ingredients_2_wide-821e41ad231fc78a8e95ba9aca6e258d8d5d0764.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1239050318",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7872742771.mp3"
+  },
+  {
     "id": "1238261951",
     "title": "Too many goals and too little time? How to focus your attention",
     "img": "https://media.npr.org/assets/img/2025/03/12/lk_attention_2_wide-58af14b2ac0cf0b173b72fcf08cfb931510d2c96.jpg?s=1400&c=100&f=jpeg",
@@ -3266,6 +3273,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1239050318",
   "1238261951",
   "1237470060",
   "1236242670",
