@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250320__healthy_meals_on_a_budget",
+    "title": "Healthy meals on a budget",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ksjtkf.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250320",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250320_6_minute_english_healthy_meals_on_a_budget_download.mp3"
+  },
+  {
     "id": "250313__should_we_eat_less_rice",
     "title": "Should we eat less rice?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0krykvb.jpg",
@@ -3733,6 +3740,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250320__healthy_meals_on_a_budget",
   "250313__should_we_eat_less_rice",
   "250306_the-country_that_measures_happiness",
   "250227__a_vaccine_for_cancer",
