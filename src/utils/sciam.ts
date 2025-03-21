@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308840",
+    "title": "The Neurosurgeon Who Advised Severance Breaks Down Its Science",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-real-is-severance-the-shows-neurosurgery-consultant-breaks-down-its/",
+    "audio": "https://traffic.megaphone.fm/SAM5292325478.mp3?updated=1742495545"
+  },
+  {
     "id": "1308822",
     "title": "Debunking Colonoscopy Myths That Could Be Putting Your Health at Risk",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3228,6 +3235,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308840",
   "1308822",
   "1308790",
   "1308781",
