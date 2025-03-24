@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308848",
+    "title": "NASA Astronauts Finally Return, Seals Hold Their Breath, and Penguin Poop Stresses Out Krill",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasa-astronauts-return-seals-hold-their-breath-underwater-and-penguin-poop/",
+    "audio": "https://traffic.megaphone.fm/SAM1574127803.mp3?updated=1742587790"
+  },
+  {
     "id": "1308840",
     "title": "The Neurosurgeon Who Advised Severance Breaks Down Its Science",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3235,6 +3242,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308848",
   "1308840",
   "1308822",
   "1308790",
