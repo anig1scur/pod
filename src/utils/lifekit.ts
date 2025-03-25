@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1240552694",
+    "title": "Car safety 101: Crashes, road rage, weather and more",
+    "img": "https://media.npr.org/assets/img/2025/03/21/lk_car-safety_road-rage_car-accident_2_wide-94e293f040ada50e7f371b316ccffaa930671143.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1240552694",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4195592591.mp3"
+  },
+  {
     "id": "1239646551",
     "title": "How to maintain an exercise routine as you age",
     "img": "https://media.npr.org/assets/img/2025/03/19/lk_exercise-as-you-age_2_wide-8e8499dedd73f61cfb692361b916e0018d2588a1.jpg?s=1400&c=100&f=jpeg",
@@ -3287,6 +3294,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1240552694",
   "1239646551",
   "1239156778",
   "1239050318",
