@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308864",
+    "title": "Invasive Plants Are Not the Enemy",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-calling-a-plant-invasive-oversimplifies-the-problem/",
+    "audio": "https://traffic.megaphone.fm/SAM4135645653.mp3?updated=1742938001"
+  },
+  {
     "id": "1308848",
     "title": "NASA Astronauts Finally Return, Seals Hold Their Breath, and Penguin Poop Stresses Out Krill",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3242,6 +3249,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308864",
   "1308848",
   "1308840",
   "1308822",
