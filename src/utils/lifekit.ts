@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1241163671",
+    "title": "How to raise kids in a multilingual home",
+    "img": "https://media.npr.org/assets/img/2025/03/26/lk_bilingual-kids_bista_2_wide-dfd17bd4de5b6b526ebd9051db592c84ca5b3216.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1241163671",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3174578406.mp3"
+  },
+  {
     "id": "1240552694",
     "title": "Car safety 101: Crashes, road rage, weather and more",
     "img": "https://media.npr.org/assets/img/2025/03/21/lk_car-safety_road-rage_car-accident_2_wide-94e293f040ada50e7f371b316ccffaa930671143.jpg?s=1400&c=100&f=jpeg",
@@ -3294,6 +3301,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1241163671",
   "1240552694",
   "1239646551",
   "1239156778",
