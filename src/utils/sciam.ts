@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308884",
+    "title": "There\u2019s Nothing Small about this Nanoscale Research",
+    "img": "https://static.scientificamerican.com/dam/m/1b9a1655f8e26a71/original/Science-Quickly-MIT-Nano-Podcast-Art.png?m=1743122782.909",
+    "url": "https://www.scientificamerican.com/podcast/episode/studying-science-medicine-and-engineering-at-a-nanoscale-at-an-m-i-t-clean/",
+    "audio": "https://traffic.megaphone.fm/SAM9219843153.mp3?updated=1743123202"
+  },
+  {
     "id": "1308864",
     "title": "Invasive Plants Are Not the Enemy",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3249,6 +3256,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308884",
   "1308864",
   "1308848",
   "1308840",
