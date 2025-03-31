@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308895",
+    "title": "Shark Sounds, Molecules on Mars and Continued Federal Cuts",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-sounds-of-sharks-meaning-behind-mars-molecule-and-federal-cuts-to/",
+    "audio": "https://traffic.megaphone.fm/SAM2343584560.mp3?updated=1743186429"
+  },
+  {
     "id": "1308884",
     "title": "There\u2019s Nothing Small about this Nanoscale Research",
     "img": "https://static.scientificamerican.com/dam/m/1b9a1655f8e26a71/original/Science-Quickly-MIT-Nano-Podcast-Art.png?m=1743122782.909",
@@ -3256,6 +3263,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308895",
   "1308884",
   "1308864",
   "1308848",
