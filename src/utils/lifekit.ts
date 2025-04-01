@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1241892526",
+    "title": "Over-the-counter pain medications 101",
+    "img": "https://media.npr.org/assets/img/2025/03/28/lk_otc-pain-meds_2_wide-54b76535377f30ecfe779e84bd8bac7d4892401a.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1241892526",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8982823299.mp3"
+  },
+  {
     "id": "1241163671",
     "title": "How to raise kids in a multilingual home",
     "img": "https://media.npr.org/assets/img/2025/03/26/lk_bilingual-kids_bista_2_wide-dfd17bd4de5b6b526ebd9051db592c84ca5b3216.jpg?s=1400&c=100&f=jpeg",
@@ -3301,6 +3308,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1241892526",
   "1241163671",
   "1240552694",
   "1239646551",
