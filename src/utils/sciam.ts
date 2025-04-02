@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308910",
+    "title": "Unpacking the Mystery of Squirting: What Science Really Says",
+    "img": "https://static.scientificamerican.com/dam/m/2fc2b923a140a1a4/original/Science-Quickly-squirting-episode-art.png?m=1743538786.464",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-is-squirting-the-science-behind-the-controversial-phenomenon-explained/",
+    "audio": "https://traffic.megaphone.fm/SAM5984226656.mp3?updated=1743471562"
+  },
+  {
     "id": "1308895",
     "title": "Shark Sounds, Molecules on Mars and Continued Federal Cuts",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3263,6 +3270,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308910",
   "1308895",
   "1308884",
   "1308864",
