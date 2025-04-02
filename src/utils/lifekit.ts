@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1241995529",
+    "title": "A beginner's guide to bartering",
+    "img": "https://media.npr.org/assets/img/2025/03/28/template-1-example-40-_wide-55c0a09046ef39ea1d2e16f322c9cf706e7adc0d.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1241995529",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7603619270.mp3"
+  },
+  {
     "id": "1241892526",
     "title": "Over-the-counter pain medications 101",
     "img": "https://media.npr.org/assets/img/2025/03/28/lk_otc-pain-meds_2_wide-54b76535377f30ecfe779e84bd8bac7d4892401a.jpg?s=1400&c=100&f=jpeg",
@@ -3308,6 +3315,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1241995529",
   "1241892526",
   "1241163671",
   "1240552694",
