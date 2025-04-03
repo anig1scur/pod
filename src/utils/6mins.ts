@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250403__are_we_getting_more_allergic_to_things",
+    "title": "Are we getting more allergic to things?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0kx9gb4.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/250403",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250403_6_minute_english_are_we_getting_more_allergic_to_things_download.mp3"
+  },
+  {
     "id": "250327__can_we_boost_the_immune_system",
     "title": "we boost the immune system?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ktyly2.jpg",
@@ -3747,6 +3754,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250403__are_we_getting_more_allergic_to_things",
   "250327__can_we_boost_the_immune_system",
   "250320__healthy_meals_on_a_budget",
   "250313__should_we_eat_less_rice",
