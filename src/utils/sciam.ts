@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308931",
+    "title": "Losing USAID\u2019s Public Health Programs Imperils the World",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-happens-when-usaids-global-public-health-programs-go-away/",
+    "audio": "https://traffic.megaphone.fm/SAM2575702494.mp3?updated=1743708422"
+  },
+  {
     "id": "1308910",
     "title": "Unpacking the Mystery of Squirting: What Science Really Says",
     "img": "https://static.scientificamerican.com/dam/m/2fc2b923a140a1a4/original/Science-Quickly-squirting-episode-art.png?m=1743538786.464",
@@ -3270,6 +3277,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308931",
   "1308910",
   "1308895",
   "1308884",
