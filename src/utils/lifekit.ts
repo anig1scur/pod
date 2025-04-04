@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1242489331",
+    "title": "How to find a supportive queer community",
+    "img": "https://media.npr.org/assets/img/2025/04/02/lk_finding-your-queer-community_2_wide-68913bcef63f003a332393f5d9b539121d7ab2ba.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1242489331",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3191655349.mp3"
+  },
+  {
     "id": "1241995529",
     "title": "A beginner's guide to bartering",
     "img": "https://media.npr.org/assets/img/2025/03/28/template-1-example-40-_wide-55c0a09046ef39ea1d2e16f322c9cf706e7adc0d.jpg?s=1400&c=100&f=jpeg",
@@ -3315,6 +3322,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1242489331",
   "1241995529",
   "1241892526",
   "1241163671",
