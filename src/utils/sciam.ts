@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308944",
+    "title": "American Lifespans, Monkeys That Yodel, Measles, and More",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/asteroid-2024-yr4-could-hit-the-moon-measles-cases-rise-and-states-sue-hhs/",
+    "audio": "https://traffic.megaphone.fm/SAM7797829455.mp3?updated=1743794467"
+  },
+  {
     "id": "1308931",
     "title": "Losing USAID\u2019s Public Health Programs Imperils the World",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3277,6 +3284,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308944",
   "1308931",
   "1308910",
   "1308895",
