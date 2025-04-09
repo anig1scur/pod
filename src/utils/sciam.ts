@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308955",
+    "title": "Bacterial Vaginosis Sometimes Acts like an STI",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/if-bacterial-vaginosis-acts-like-an-sti-should-it-be-treated-like-one/",
+    "audio": "https://traffic.megaphone.fm/SAM4847266317.mp3?updated=1744148420"
+  },
+  {
     "id": "1308944",
     "title": "American Lifespans, Monkeys That Yodel, Measles, and More",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3284,6 +3291,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308955",
   "1308944",
   "1308931",
   "1308910",
