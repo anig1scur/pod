@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308977",
+    "title": "How Is This Prenatal Blood Test Detecting Cancer in Pregnant Patients?",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/noninvasive-prenatal-blood-testing-finds-cancer-in-some-pregnant-people/",
+    "audio": "https://traffic.megaphone.fm/SAM8064665434.mp3?updated=1744315393"
+  },
+  {
     "id": "1308955",
     "title": "Bacterial Vaginosis Sometimes Acts like an STI",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3291,6 +3298,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308977",
   "1308955",
   "1308944",
   "1308931",
