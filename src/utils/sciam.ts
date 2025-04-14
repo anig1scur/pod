@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1308988",
+    "title": "A Long Day on Uranus, a Better Method of Making Coffee and Disputed Dino Decline",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/length-of-a-day-on-uranus-revised-pour-height-influences-coffee-quality-and/",
+    "audio": "https://traffic.megaphone.fm/SAM5860609827.mp3?updated=1744400042"
+  },
+  {
     "id": "1308977",
     "title": "How Is This Prenatal Blood Test Detecting Cancer in Pregnant Patients?",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3298,6 +3305,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1308988",
   "1308977",
   "1308955",
   "1308944",
