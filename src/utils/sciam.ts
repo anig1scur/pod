@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309019",
+    "title": "A Nontoxic Disinfectant That Is Safe for Surfaces and Skin",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/hypochlorous-acid-is-a-natural-disinfectant-for-surfaces-and-skin/",
+    "audio": "https://traffic.megaphone.fm/SAM2858536358.mp3?updated=1744747425"
+  },
+  {
     "id": "1308988",
     "title": "A Long Day on Uranus, a Better Method of Making Coffee and Disputed Dino Decline",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3305,6 +3312,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309019",
   "1308988",
   "1308977",
   "1308955",
