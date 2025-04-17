@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1245273498",
+    "title": "Can I afford to buy a house?",
+    "img": "https://media.npr.org/assets/img/2025/04/10/lk_afford-a-home_2_wide-fd6fd21cb2199546e228ba44e2b24e16aea644c1.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1245273498",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9922717200.mp3"
+  },
+  {
     "id": "1243870148",
     "title": "DLK: In our relationship, her dog comes first. Now I'm having doubts about us",
     "img": "https://media.npr.org/assets/img/2025/04/09/lk_dlk_dog_doubt_blue_3_wide-dd678d708a3195579a3eae3c11eae1fd69f3d69b.jpg?s=1400&c=100&f=jpeg",
@@ -3336,6 +3343,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1245273498",
   "1243870148",
   "1243303430",
   "1242489331",
