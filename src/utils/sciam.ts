@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309034",
+    "title": "The Past 35 Years of Science and Technology from Our Editor Gary Stix\u2019s Perspective",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/scientific-american-editor-gary-stix-talks-about-his-35-years-of-editing-the/",
+    "audio": "https://traffic.megaphone.fm/SAM8367391940.mp3?updated=1744924001"
+  },
+  {
     "id": "1309019",
     "title": "A Nontoxic Disinfectant That Is Safe for Surfaces and Skin",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3312,6 +3319,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309034",
   "1309019",
   "1308988",
   "1308977",
