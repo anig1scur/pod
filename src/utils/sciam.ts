@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309044",
+    "title": "Public Health Focuses on Childhood, Magnetic Poles Once Wandered, and Colossal Squid Discovered",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/measles-whooping-cough-the-laschamp-event-and-a-colossal-squid/",
+    "audio": "https://traffic.megaphone.fm/SAM5708103166.mp3?updated=1745008016"
+  },
+  {
     "id": "1309034",
     "title": "The Past 35 Years of Science and Technology from Our Editor Gary Stix\u2019s Perspective",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3319,6 +3326,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309044",
   "1309034",
   "1309019",
   "1308988",
