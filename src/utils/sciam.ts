@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309058",
+    "title": "Misunderstood and Maligned Snakes Are Worthy Our Sympathy",
+    "img": "https://static.scientificamerican.com/dam/m/691c20a9bed4b804/original/SQ-Slither-Episode-Art.png?m=1745351096.48",
+    "url": "https://www.scientificamerican.com/podcast/episode/slither-by-stephen-s-hall-explores-our-fear-and-fascination-around-snakes/",
+    "audio": "https://traffic.megaphone.fm/SAM4897739940.mp3?updated=1745338908"
+  },
+  {
     "id": "1309044",
     "title": "Public Health Focuses on Childhood, Magnetic Poles Once Wandered, and Colossal Squid Discovered",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3326,6 +3333,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309058",
   "1309044",
   "1309034",
   "1309019",
