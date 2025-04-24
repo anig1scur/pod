@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250424__how_climate_change_affects_animal_migration",
+    "title": "How climate change affects animal migration",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l51h7q.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250424",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250424_6_minute_english_how_climate_change_affects_animal_migration_download.mp3"
+  },
+  {
     "id": "250417__can_ai_solve_crime",
     "title": "AI solve crime?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l4q5s3.jpg",
@@ -3768,6 +3775,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250424__how_climate_change_affects_animal_migration",
   "250417__can_ai_solve_crime",
   "250410__learning_multiple_languages",
   "250403__are_we_getting_more_allergic_to_things",
