@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309068",
+    "title": "How to Find Hidden Nature in Any Urban Park Near You",
+    "img": "https://static.scientificamerican.com/dam/m/32adf7d775f2b5da/original/2504_SQ_FRI_WILD_NYC-Science-Quickly-website-Span.jpeg?m=1745533589.099",
+    "url": "https://www.scientificamerican.com/podcast/episode/wild-nyc-author-ryan-mandelbaum-takes-a-wildlife-filled-walk-in-prospect/",
+    "audio": "https://traffic.megaphone.fm/SAM3821334158.mp3?updated=1745534633"
+  },
+  {
     "id": "1309058",
     "title": "Misunderstood and Maligned Snakes Are Worthy Our Sympathy",
     "img": "https://static.scientificamerican.com/dam/m/691c20a9bed4b804/original/SQ-Slither-Episode-Art.png?m=1745351096.48",
@@ -3333,6 +3340,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309068",
   "1309058",
   "1309044",
   "1309034",
