@@ -126,6 +126,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9922717200.mp3"
   },
   {
+    "id": "1244802158",
+    "title": "The art and pleasure of writing a letter",
+    "img": "https://media.npr.org/assets/img/2025/04/10/lk_letter-writing_2_wide-5847066aca2f1b7afb176b23cadf23d707bf5233.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1244802158",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6974427066.mp3"
+  },
+  {
     "id": "1243870148",
     "title": "DLK: In our relationship, her dog comes first. Now I'm having doubts about us",
     "img": "https://media.npr.org/assets/img/2025/04/09/lk_dlk_dog_doubt_blue_3_wide-dd678d708a3195579a3eae3c11eae1fd69f3d69b.jpg?s=1400&c=100&f=jpeg",
@@ -3344,6 +3351,7 @@ export const episodeIds = [
   "989609489",
   "985307780",
   "1245273498",
+  "1244802158",
   "1243870148",
   "1243303430",
   "1242489331",
