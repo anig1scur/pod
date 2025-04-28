@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1247707501",
+    "title": "How to handle your money during tariff uncertainty",
+    "img": "https://media.npr.org/assets/img/2025/04/25/lk_bad-economy_3_wide-8317f679a0d7ab5262ea12305af41d0b62625c69.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1247707501",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2958052543.mp3"
+  },
+  {
     "id": "1245273498",
     "title": "Can I afford to buy a house?",
     "img": "https://media.npr.org/assets/img/2025/04/10/lk_afford-a-home_2_wide-fd6fd21cb2199546e228ba44e2b24e16aea644c1.jpg?s=1400&c=100&f=jpeg",
@@ -3350,6 +3357,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1247707501",
   "1245273498",
   "1244802158",
   "1243870148",
