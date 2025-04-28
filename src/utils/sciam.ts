@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309073",
+    "title": "Solar Shadow Play, Seances for Science, and More from Our 1925 Coverage",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/scientific-americans-1925-coverage-of-eclipses-mediums-and-inventions/",
+    "audio": "https://traffic.megaphone.fm/SAM9305711184.mp3?updated=1745529043"
+  },
+  {
     "id": "1309068",
     "title": "How to Find Hidden Nature in Any Urban Park Near You",
     "img": "https://static.scientificamerican.com/dam/m/32adf7d775f2b5da/original/2504_SQ_FRI_WILD_NYC-Science-Quickly-website-Span.jpeg?m=1745533589.099",
@@ -3340,6 +3347,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309073",
   "1309068",
   "1309058",
   "1309044",
