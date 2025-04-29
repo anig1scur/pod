@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1247777253",
+    "title": "What to eat for better sleep",
+    "img": "https://media.npr.org/assets/img/2025/04/25/lk_eat-better-sleep-better_2_wide-2e1b4f0e195a1868653a65b90d67fe811d1d140b.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1247777253",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1590673701.mp3"
+  },
+  {
     "id": "1247707501",
     "title": "How to handle your money during tariff uncertainty",
     "img": "https://media.npr.org/assets/img/2025/04/25/lk_bad-economy_3_wide-8317f679a0d7ab5262ea12305af41d0b62625c69.jpg?s=1400&c=100&f=jpeg",
@@ -3357,6 +3364,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1247777253",
   "1247707501",
   "1245273498",
   "1244802158",
