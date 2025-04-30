@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309080",
+    "title": "AI Offers Digital Immortality for Deceased Loved Ones\u2014But Should It?",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/griefbots-create-digital-immortality-and-raise-ethical-concerns-around-ai/",
+    "audio": "https://traffic.megaphone.fm/SAM7137356972.mp3?updated=1745958825"
+  },
+  {
     "id": "1309073",
     "title": "Solar Shadow Play, Seances for Science, and More from Our 1925 Coverage",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3347,6 +3354,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309080",
   "1309073",
   "1309068",
   "1309058",
