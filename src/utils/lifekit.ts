@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1248444363",
+    "title": "Here's why your feet hurt \u2014 and what you can do about it",
+    "img": "https://media.npr.org/assets/img/2025/04/29/template-2-example-4-_wide-0c260ce66f3108bcac557ab53dc7b0175d78b718.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1248444363",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1103403785.mp3"
+  },
+  {
     "id": "1247777253",
     "title": "What to eat for better sleep",
     "img": "https://media.npr.org/assets/img/2025/04/25/lk_eat-better-sleep-better_2_wide-2e1b4f0e195a1868653a65b90d67fe811d1d140b.jpg?s=1400&c=100&f=jpeg",
@@ -3364,6 +3371,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1248444363",
   "1247777253",
   "1247707501",
   "1245273498",
