@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309092",
+    "title": "These Fungi Are Facing Extinction\u2014Here\u2019s Why That Matters",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-threatened-fungi-on-the-iucn-red-list-are-important-to-our-ecology/",
+    "audio": "https://traffic.megaphone.fm/SAM5776912353.mp3?updated=1746129692"
+  },
+  {
     "id": "1309080",
     "title": "AI Offers Digital Immortality for Deceased Loved Ones\u2014But Should It?",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3354,6 +3361,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309092",
   "1309080",
   "1309073",
   "1309068",
