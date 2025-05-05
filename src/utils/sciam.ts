@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309097",
+    "title": "Jupiter\u2019s Cyclones, Amazon\u2019s Satellites and T. rex Collagen",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/new-data-released-from-nasas-juno-mission-and-new-satellites-launched-for/",
+    "audio": "https://traffic.megaphone.fm/SAM6523097200.mp3?updated=1746199645"
+  },
+  {
     "id": "1309092",
     "title": "These Fungi Are Facing Extinction\u2014Here\u2019s Why That Matters",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3361,6 +3368,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309097",
   "1309092",
   "1309080",
   "1309073",
