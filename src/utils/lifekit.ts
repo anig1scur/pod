@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1249331176",
+    "title": "How to maintain your friendships after kids",
+    "img": "https://media.npr.org/assets/img/2025/05/02/lk_parent-friend_2_wide-517e25dd997796f2b235d878319c6861ea0fe495.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1249331176",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8374591577.mp3"
+  },
+  {
     "id": "1249236659",
     "title": "Often ignored spring cleaning tips",
     "img": "https://media.npr.org/assets/img/2025/05/02/lk_spring-cleaning_2_wide-b74ec20dbb312826c69b0cc0f8dafd8ab5fb7fe1.jpg?s=1400&c=100&f=jpeg",
@@ -3378,6 +3385,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1249331176",
   "1249236659",
   "1248444363",
   "1247777253",
