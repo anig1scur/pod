@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309108",
+    "title": "Fitness Doesn\u2019t Have to Be about Denial and Shame",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/casey-johnstons-book-a-physical-education-is-a-lesson-in-finding-a-better/",
+    "audio": "https://traffic.megaphone.fm/SAM4401931942.mp3?updated=1746561196"
+  },
+  {
     "id": "1309097",
     "title": "Jupiter\u2019s Cyclones, Amazon\u2019s Satellites and T. rex Collagen",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3368,6 +3375,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309108",
   "1309097",
   "1309092",
   "1309080",
