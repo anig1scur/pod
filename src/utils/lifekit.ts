@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1249919757",
+    "title": "How to bring the house down at karaoke",
+    "img": "https://media.npr.org/assets/img/2025/05/07/lk_karaoke_2_wide-5a02cf7595a961cfdb7eef6a0ab07dd79c61f1ab.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1249919757",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2931435390.mp3"
+  },
+  {
     "id": "1249331176",
     "title": "How to maintain your friendships after kids",
     "img": "https://media.npr.org/assets/img/2025/05/02/lk_parent-friend_2_wide-517e25dd997796f2b235d878319c6861ea0fe495.jpg?s=1400&c=100&f=jpeg",
@@ -3385,6 +3392,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1249919757",
   "1249331176",
   "1249236659",
   "1248444363",
