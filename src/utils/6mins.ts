@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250508__should_animals_be_kept_in_zoos_",
+    "title": "Should animals be kept in zoos?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l51mg9.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250508",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250508_6_minute_english_should_animals_be_kept_in_zoos_download_.mp3"
+  },
+  {
     "id": "250501__can_cows_prevent_wildfires_",
     "title": "cows prevent wildfires?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l51vdn.jpg",
@@ -3782,6 +3789,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250508__should_animals_be_kept_in_zoos_",
   "250501__can_cows_prevent_wildfires_",
   "250424__how_climate_change_affects_animal_migration",
   "250417__can_ai_solve_crime",
