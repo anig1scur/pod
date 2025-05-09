@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309125",
+    "title": "The Only Particle Collider in the U.S. Will Be Replaced with an Upgrade",
+    "img": "https://static.scientificamerican.com/dam/m/10072b3ef3dcfc1e/original/Science-Quickly-Podcast-Brookhaven-Span.jpeg?m=1746737435.491",
+    "url": "https://www.scientificamerican.com/podcast/episode/measuring-gluons-and-quarks-at-the-brookhaven-relativistic-heavy-ion/",
+    "audio": "https://traffic.megaphone.fm/SAM1509616458.mp3?updated=1746736366"
+  },
+  {
     "id": "1309108",
     "title": "Fitness Doesn\u2019t Have to Be about Denial and Shame",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3375,6 +3382,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309125",
   "1309108",
   "1309097",
   "1309092",
