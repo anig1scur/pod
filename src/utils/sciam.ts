@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309134",
+    "title": "Sinking Cities, Waving Cuttlefish and Falling Spacecraft",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/kosmos-482-falls-cuttlefish-wave-and-the-wealthy-warm-the-climate/",
+    "audio": "https://traffic.megaphone.fm/SAM4252301065.mp3?updated=1746809214"
+  },
+  {
     "id": "1309125",
     "title": "The Only Particle Collider in the U.S. Will Be Replaced with an Upgrade",
     "img": "https://static.scientificamerican.com/dam/m/10072b3ef3dcfc1e/original/Science-Quickly-Podcast-Brookhaven-Span.jpeg?m=1746737435.491",
@@ -3382,6 +3389,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309134",
   "1309125",
   "1309108",
   "1309097",
