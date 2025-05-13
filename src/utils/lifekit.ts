@@ -168,6 +168,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2958052543.mp3"
   },
   {
+    "id": "1246202688",
+    "title": "The etiquette of texting",
+    "img": "https://media.npr.org/assets/img/2025/04/11/template-1-example-45-_wide-f684c168f0ac0ca467f2608a63c2fd87b018883c.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1246202688",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3197918010.mp3"
+  },
+  {
     "id": "1245273498",
     "title": "Can I afford to buy a house?",
     "img": "https://media.npr.org/assets/img/2025/04/10/lk_afford-a-home_2_wide-fd6fd21cb2199546e228ba44e2b24e16aea644c1.jpg?s=1400&c=100&f=jpeg",
@@ -3406,6 +3413,7 @@ export const episodeIds = [
   "1248444363",
   "1247777253",
   "1247707501",
+  "1246202688",
   "1245273498",
   "1244802158",
   "1243870148",
