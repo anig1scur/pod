@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1250902328",
+    "title": "The connecting power of 'magical questions'",
+    "img": "https://media.npr.org/assets/img/2025/05/09/lk_magical-questions_3_wide-c0b12767d8c7828574dc674ae12f3a6d10c7c3a7.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1250902328",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6295402382.mp3"
+  },
+  {
     "id": "1249919757",
     "title": "How to bring the house down at karaoke",
     "img": "https://media.npr.org/assets/img/2025/05/07/lk_karaoke_2_wide-5a02cf7595a961cfdb7eef6a0ab07dd79c61f1ab.jpg?s=1400&c=100&f=jpeg",
@@ -3392,6 +3399,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1250902328",
   "1249919757",
   "1249331176",
   "1249236659",
