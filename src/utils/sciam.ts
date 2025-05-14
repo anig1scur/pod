@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309145",
+    "title": "Declining MMR Vaccination Rates Make West Texas Outbreak a Threat to Measles Elimination",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/west-texas-measles-cases-threaten-elimination-status-in-the-u-s-heres-why/",
+    "audio": "https://traffic.megaphone.fm/SAM6601291927.mp3?updated=1747164890"
+  },
+  {
     "id": "1309134",
     "title": "Sinking Cities, Waving Cuttlefish and Falling Spacecraft",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3389,6 +3396,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309145",
   "1309134",
   "1309125",
   "1309108",
