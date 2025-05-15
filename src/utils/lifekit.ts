@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1251545884",
+    "title": "How to stay calm in emergency situations",
+    "img": "https://media.npr.org/assets/img/2025/05/14/gettyimages-2163642960-copy2_wide-60d23d03dbd1d29ce16218af234a21681aa8ac87.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1251545884",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4272724472.mp3"
+  },
+  {
     "id": "1250902328",
     "title": "The connecting power of 'magical questions'",
     "img": "https://media.npr.org/assets/img/2025/05/09/lk_magical-questions_3_wide-c0b12767d8c7828574dc674ae12f3a6d10c7c3a7.jpg?s=1400&c=100&f=jpeg",
@@ -3406,6 +3413,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1251545884",
   "1250902328",
   "1249919757",
   "1249331176",
