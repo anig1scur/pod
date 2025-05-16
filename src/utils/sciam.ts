@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309161",
+    "title": "Polar Geoengineering Experiments Bet Big on Freezing Arctic Ice",
+    "img": "https://static.scientificamerican.com/dam/m/5c7d6aa6edaa51b8/original/Science-Quickly-Polar-Engineering-Podcast-Span-Art.png?m=1747271540.39",
+    "url": "https://www.scientificamerican.com/podcast/episode/real-ice-experiments-with-polar-geoengineering-to-refreeze-melting-arctic/",
+    "audio": "https://traffic.megaphone.fm/SAM5817155489.mp3?updated=1747259277"
+  },
+  {
     "id": "1309145",
     "title": "Declining MMR Vaccination Rates Make West Texas Outbreak a Threat to Measles Elimination",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3396,6 +3403,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309161",
   "1309145",
   "1309134",
   "1309125",
