@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309169",
+    "title": "Accidental Alchemy, Flamingo Food Tornado, and Kosmos-482 Lands",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/where-did-kosmos-482-land-no-one-is-sure/",
+    "audio": "https://traffic.megaphone.fm/SAM7178922480.mp3?updated=1747408042"
+  },
+  {
     "id": "1309161",
     "title": "Polar Geoengineering Experiments Bet Big on Freezing Arctic Ice",
     "img": "https://static.scientificamerican.com/dam/m/5c7d6aa6edaa51b8/original/Science-Quickly-Polar-Engineering-Podcast-Span-Art.png?m=1747271540.39",
@@ -3403,6 +3410,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309169",
   "1309161",
   "1309145",
   "1309134",
