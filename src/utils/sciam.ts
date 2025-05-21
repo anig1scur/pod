@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309195",
+    "title": "Could Mitochondria Be Rewriting the Rules of Biology?",
+    "img": "https://static.scientificamerican.com/dam/m/60ecff36814ca950/original/2505_SQ_WED_MITOCHONDRIA_YT_THUMBNAIL_1-4.png?m=1747444747.946",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-if-mitochondria-arent-only-the-powerhouse-of-the-cell/",
+    "audio": "https://traffic.megaphone.fm/SAM8344313760.mp3?updated=1747770707"
+  },
+  {
     "id": "1309169",
     "title": "Accidental Alchemy, Flamingo Food Tornado, and Kosmos-482 Lands",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3410,6 +3417,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309195",
   "1309169",
   "1309161",
   "1309145",
