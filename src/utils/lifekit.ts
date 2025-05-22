@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1252898739",
+    "title": "Dear Life Kit: I'm having neighbor drama",
+    "img": "https://media.npr.org/assets/img/2025/05/21/dlk_neighbors_conflict_2_3_wide-0fa1f38baa7596dd6a7bdbc9dc140412e1f98c73.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1252898739",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1718839207.mp3"
+  },
+  {
     "id": "1252435989",
     "title": "How to lead a more creative life",
     "img": "https://media.npr.org/assets/img/2025/05/15/lk_creativity-shortwave_2_wide-5aca8be1f01c223ffcb72a24646c8c9c60e29c4a.jpg?s=1400&c=100&f=jpeg",
@@ -3427,6 +3434,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1252898739",
   "1252435989",
   "1252360705",
   "1251545884",
