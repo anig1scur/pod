@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250522__foods_that_go_crunch",
+    "title": "Foods that go crunch",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l7p3dy.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250522",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250522_6_minute_english_foods_that_go_crunch_download.mp3"
+  },
+  {
     "id": "250515__which_cooking_oil_is_the_best",
     "title": "Which cooking oil is the best?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l51sz0.jpg",
@@ -3796,6 +3803,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250522__foods_that_go_crunch",
   "250515__which_cooking_oil_is_the_best",
   "250508__should_animals_be_kept_in_zoos_",
   "250501__can_cows_prevent_wildfires_",
