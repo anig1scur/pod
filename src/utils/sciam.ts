@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309208",
+    "title": "Building an LLM for Dolphin Chatter",
+    "img": "https://static.scientificamerican.com/dam/m/5d9b9c607243196d/original/2505_SQ_FRI_AI_DOLPHINS-Art.png?m=1747946433.981",
+    "url": "https://www.scientificamerican.com/podcast/episode/dolphingemma-could-enable-ai-communication-with-dolphins/",
+    "audio": "https://traffic.megaphone.fm/SAM3269628561.mp3?updated=1747943970"
+  },
+  {
     "id": "1309195",
     "title": "Could Mitochondria Be Rewriting the Rules of Biology?",
     "img": "https://static.scientificamerican.com/dam/m/60ecff36814ca950/original/2505_SQ_WED_MITOCHONDRIA_YT_THUMBNAIL_1-4.png?m=1747444747.946",
@@ -3417,6 +3424,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309208",
   "1309195",
   "1309169",
   "1309161",
