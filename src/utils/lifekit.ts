@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1253209925",
+    "title": "How to pack for your summer travel",
+    "img": "https://media.npr.org/assets/img/2025/05/21/lk_travel-packing_repackage_2_wide-659ce1886de766e292b921524af0134bbd5efe93.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1253209925",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9901636883.mp3"
+  },
+  {
     "id": "1252898739",
     "title": "Dear Life Kit: I'm having neighbor drama",
     "img": "https://media.npr.org/assets/img/2025/05/21/dlk_neighbors_conflict_2_3_wide-0fa1f38baa7596dd6a7bdbc9dc140412e1f98c73.jpg?s=1400&c=100&f=jpeg",
@@ -3434,6 +3441,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1253209925",
   "1252898739",
   "1252435989",
   "1252360705",
