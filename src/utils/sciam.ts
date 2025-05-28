@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309219",
+    "title": "This Male Fertility Test Makes Assessing Sperm Health a More Accurate At-Home Affair",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/diagnosing-male-infertility-with-adhesion-test-that-captures-sperm-motility/",
+    "audio": "https://traffic.megaphone.fm/SAM1652087445.mp3?updated=1748369817"
+  },
+  {
     "id": "1309208",
     "title": "Building an LLM for Dolphin Chatter",
     "img": "https://static.scientificamerican.com/dam/m/5d9b9c607243196d/original/2505_SQ_FRI_AI_DOLPHINS-Art.png?m=1747946433.981",
@@ -3424,6 +3431,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309219",
   "1309208",
   "1309195",
   "1309169",
