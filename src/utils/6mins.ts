@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250529__what's_your_favourite_kind_of_noodle",
+    "title": "What's your favourite kind of noodle?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l8j9wd.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250529",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250529_6_minute_english_what's_your_favourite_kind_of_noodle_download.mp3"
+  },
+  {
     "id": "250522__foods_that_go_crunch",
     "title": "Foods that go crunch",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l7p3dy.jpg",
@@ -3803,6 +3810,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250529__what's_your_favourite_kind_of_noodle",
   "250522__foods_that_go_crunch",
   "250515__which_cooking_oil_is_the_best",
   "250508__should_animals_be_kept_in_zoos_",
