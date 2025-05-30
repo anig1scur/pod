@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309228",
+    "title": "Global Flourishing Study Reflects Youth Struggles and Ripple Effects of Childhood Challenges",
+    "img": "https://static.scientificamerican.com/dam/m/2a6c9d42161e5558/original/2505_SQ_FRI_GLOBAL_FLOURISH-Podcast-Art.png?m=1748545240.752",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-the-first-results-from-the-global-flourishing-study-tell-us-about-age/",
+    "audio": "https://traffic.megaphone.fm/SAM5421839968.mp3?updated=1748544613"
+  },
+  {
     "id": "1309219",
     "title": "This Male Fertility Test Makes Assessing Sperm Health a More Accurate At-Home Affair",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3431,6 +3438,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309228",
   "1309219",
   "1309208",
   "1309195",
