@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1253522947",
+    "title": "How to make decisions you won't regret",
+    "img": "https://media.npr.org/assets/img/2025/05/30/lk_decision-making-2_wide-190de0d244ddd0f426d7d97269f5b52e5a768ba7.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1253522947",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4870109880.mp3"
+  },
+  {
     "id": "1253209925",
     "title": "How to pack for your summer travel",
     "img": "https://media.npr.org/assets/img/2025/05/21/lk_travel-packing_repackage_2_wide-659ce1886de766e292b921524af0134bbd5efe93.jpg?s=1400&c=100&f=jpeg",
@@ -3441,6 +3448,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1253522947",
   "1253209925",
   "1252898739",
   "1252435989",
