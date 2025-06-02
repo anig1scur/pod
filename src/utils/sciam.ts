@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309236",
+    "title": "Megalodon Diets, Teeth Sensitivity and a Bunch of Vaccine News",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/first-vaccine-for-gonorrhea-rolls-out-measles-outbreak-in-texas-slows-and/",
+    "audio": "https://traffic.megaphone.fm/SAM6828784576.mp3?updated=1748626791"
+  },
+  {
     "id": "1309228",
     "title": "Global Flourishing Study Reflects Youth Struggles and Ripple Effects of Childhood Challenges",
     "img": "https://static.scientificamerican.com/dam/m/2a6c9d42161e5558/original/2505_SQ_FRI_GLOBAL_FLOURISH-Podcast-Art.png?m=1748545240.752",
@@ -3438,6 +3445,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309236",
   "1309228",
   "1309219",
   "1309208",
