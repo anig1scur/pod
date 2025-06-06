@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309255",
+    "title": "Summer Brings Hurricanes, Tornadoes and Extreme Heat\u2014And an Underresourced National Weather Service",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-national-weather-service-is-understaffed-and-underfunded-heres-why-that/",
+    "audio": "https://traffic.megaphone.fm/SAM7801156673.mp3?updated=1749160988"
+  },
+  {
     "id": "1309236",
     "title": "Megalodon Diets, Teeth Sensitivity and a Bunch of Vaccine News",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3445,6 +3452,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309255",
   "1309236",
   "1309228",
   "1309219",
