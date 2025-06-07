@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1253689649",
+    "title": "Our favorite tips on exercise, sleep, and play",
+    "img": "https://media.npr.org/assets/img/2025/06/04/lk_10percenthappier_2_wide-917fb7421bb2a421173c3f55fd90d5c0cf717e32.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1253689649",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6375105773.mp3"
+  },
+  {
     "id": "1253552414",
     "title": "So you got laid off. What next?",
     "img": "https://media.npr.org/assets/img/2025/05/30/lk_layoffs_2_wide-0d39ea88d920eade61186ad335c220b674d23740.jpg?s=1400&c=100&f=jpeg",
@@ -3455,6 +3462,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1253689649",
   "1253552414",
   "1253522947",
   "1253209925",
