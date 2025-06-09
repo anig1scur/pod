@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309262",
+    "title": "New Doubts about Milky Way\u2013Andromeda Collision, Explanation of 2023 Marine Heat Wave and Worms That Build Towers",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/milky-way-andromeda-collision-is-in-doubt-north-atlantic-ocean-heat-surged/",
+    "audio": "https://traffic.megaphone.fm/SAM7347244533.mp3?updated=1749240535"
+  },
+  {
     "id": "1309255",
     "title": "Summer Brings Hurricanes, Tornadoes and Extreme Heat\u2014And an Underresourced National Weather Service",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3452,6 +3459,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309262",
   "1309255",
   "1309236",
   "1309228",
