@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1253891560",
+    "title": "Easy practices for online privacy",
+    "img": "https://media.npr.org/assets/img/2025/06/05/lk_data-security_2_wide-29cdea4f22a469fd158bd4edb0a4e9d7e038fdb9.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1253891560",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3075291857.mp3"
+  },
+  {
     "id": "1253689649",
     "title": "Our favorite tips on exercise, sleep, and play",
     "img": "https://media.npr.org/assets/img/2025/06/04/lk_10percenthappier_2_wide-917fb7421bb2a421173c3f55fd90d5c0cf717e32.jpg?s=1400&c=100&f=jpeg",
@@ -3462,6 +3469,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1253891560",
   "1253689649",
   "1253552414",
   "1253522947",
