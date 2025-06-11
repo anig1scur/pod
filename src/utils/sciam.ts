@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309274",
+    "title": "Animal Lifespans Offer Clues about the Science of Aging",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-some-animals-live-for-days-and-others-live-for-decades/",
+    "audio": "https://traffic.megaphone.fm/SAM2640027921.mp3?updated=1749583159"
+  },
+  {
     "id": "1309262",
     "title": "New Doubts about Milky Way\u2013Andromeda Collision, Explanation of 2023 Marine Heat Wave and Worms That Build Towers",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3459,6 +3466,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309274",
   "1309262",
   "1309255",
   "1309236",
