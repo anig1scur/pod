@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1254056489",
+    "title": "Protect your home this hurricane season",
+    "img": "https://media.npr.org/assets/img/2025/06/06/lk_hurricane-prep-home_2_wide-38ee895811c534f01bc723b4774eb49f819d24cf.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1254056489",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3531317442.mp3"
+  },
+  {
     "id": "1253891560",
     "title": "Easy practices for online privacy",
     "img": "https://media.npr.org/assets/img/2025/06/05/lk_data-security_2_wide-29cdea4f22a469fd158bd4edb0a4e9d7e038fdb9.jpg?s=1400&c=100&f=jpeg",
@@ -3469,6 +3476,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1254056489",
   "1253891560",
   "1253689649",
   "1253552414",
