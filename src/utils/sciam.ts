@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309284",
+    "title": "These Hamster Dads Are a Cut above the Rest",
+    "img": "https://static.scientificamerican.com/dam/m/2726579b365c70c8/original/Science-Quickly-hamster-dad-podcast-span.png?m=1749760692.447",
+    "url": "https://www.scientificamerican.com/podcast/episode/djungarian-hamsters-are-unusually-involved-fathers/",
+    "audio": "https://traffic.megaphone.fm/SAM2277588353.mp3?updated=1749749088"
+  },
+  {
     "id": "1309274",
     "title": "Animal Lifespans Offer Clues about the Science of Aging",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3466,6 +3473,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309284",
   "1309274",
   "1309262",
   "1309255",
