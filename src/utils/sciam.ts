@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309293",
+    "title": "RFK, Jr., Fires CDC Vaccine Panel, Oceans Are Acidifying, and Pangolins Face Newly Understood Threat",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/rfk-jr-fires-cdc-vaccine-panel-experts-ocean-acidification-hits-dangerous/",
+    "audio": "https://traffic.megaphone.fm/SAM5775885003.mp3?updated=1749846330"
+  },
+  {
     "id": "1309284",
     "title": "These Hamster Dads Are a Cut above the Rest",
     "img": "https://static.scientificamerican.com/dam/m/2726579b365c70c8/original/Science-Quickly-hamster-dad-podcast-span.png?m=1749760692.447",
@@ -3473,6 +3480,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309293",
   "1309284",
   "1309274",
   "1309262",
