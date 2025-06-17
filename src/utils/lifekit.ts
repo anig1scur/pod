@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1254264638",
+    "title": "Your pelvic floor is essential. Here's how to take better care of it",
+    "img": "https://media.npr.org/assets/img/2025/06/12/lk_pelvic-floor_2-_wide-e810ce164f6d4c0df75af081e9a89192f8faf039.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1254264638",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5785743895.mp3"
+  },
+  {
     "id": "1254056489",
     "title": "Protect your home this hurricane season",
     "img": "https://media.npr.org/assets/img/2025/06/06/lk_hurricane-prep-home_2_wide-38ee895811c534f01bc723b4774eb49f819d24cf.jpg?s=1400&c=100&f=jpeg",
@@ -3476,6 +3483,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1254264638",
   "1254056489",
   "1253891560",
   "1253689649",
