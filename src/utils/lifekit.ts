@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1254291429",
+    "title": "Flight cancelled again? Try these tips.",
+    "img": "https://media.npr.org/assets/img/2025/06/10/lk_travel_awry_2_wide-a1ca713b9ee81c68a61d6ee7ccf3b6751e0a86ab.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1254291429",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/ondemand.npr.org/anon.npr-mp3/npr/lifekit/2025/06/20250617_lifekit_39b82777-88ae-40d8-adde-775035eee6ed.mp3"
+  },
+  {
     "id": "1254264638",
     "title": "Your pelvic floor is essential. Here's how to take better care of it",
     "img": "https://media.npr.org/assets/img/2025/06/12/lk_pelvic-floor_2-_wide-e810ce164f6d4c0df75af081e9a89192f8faf039.jpg?s=1400&c=100&f=jpeg",
@@ -3483,6 +3490,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1254291429",
   "1254264638",
   "1254056489",
   "1253891560",
