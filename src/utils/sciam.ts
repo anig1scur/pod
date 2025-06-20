@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309336",
+    "title": "Testosterone Therapy Is Booming. But Is It Actually Safe?",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-is-testosterone-replacement-therapy-and-is-it-safe/",
+    "audio": "https://traffic.megaphone.fm/SAM9501709951.mp3?updated=1750276051"
+  },
+  {
     "id": "1309324",
     "title": "Exercise Isn\u2019t Just for Your Muscles\u2014It\u2019s Great for Your Gut, Too",
     "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
@@ -3487,6 +3494,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309336",
   "1309324",
   "1309293",
   "1309284",
