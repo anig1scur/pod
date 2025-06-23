@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309342",
+    "title": "How Bird Flu Became a Human Pandemic Threat",
+    "img": "https://static.scientificamerican.com/dam/m/73baa48b44a594a0/original/2506_SQ_MON_BIRDFLU_1_Website_Span2.png?m=1750658381.523",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-h5n1-went-from-an-illness-in-wild-birds-to-a-global-pandemic-threat/",
+    "audio": "https://traffic.megaphone.fm/SAM2942313293.mp3?updated=1750654588"
+  },
+  {
     "id": "1309336",
     "title": "Testosterone Therapy Is Booming. But Is It Actually Safe?",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3494,6 +3501,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309342",
   "1309336",
   "1309324",
   "1309293",
