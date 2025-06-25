@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1254640166",
+    "title": "Stay safe this heat wave",
+    "img": "https://media.npr.org/assets/img/2025/06/23/template-4-example-3_wide-b1bf5130a916ce4ba1f976e5bd28bb76e610f2f2.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1254640166",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9120047689.mp3"
+  },
+  {
     "id": "1254614616",
     "title": "How to keep cool while saving energy",
     "img": "https://media.npr.org/assets/img/2025/06/06/lk_energy-savings-2_wide-3283ae6cc4fb65446ff1ea7278ebc3470cdd2653.jpg?s=1400&c=100&f=jpeg",
@@ -3504,6 +3511,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1254640166",
   "1254614616",
   "1254414880",
   "1254291429",
