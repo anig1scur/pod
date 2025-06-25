@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309352",
+    "title": "Why Dairy Farmers Were Surprised by Bird Flu Cases in Their Herds",
+    "img": "https://static.scientificamerican.com/dam/m/6f136222bb293a91/original/202505_SQ_BIRDFLU_EP2_website.jpeg?m=1750777723.494",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-bird-flu-went-from-devastating-poultry-farms-to-infecting-dairy-herds/",
+    "audio": "https://traffic.megaphone.fm/SAM7812971544.mp3?updated=1750712086"
+  },
+  {
     "id": "1309342",
     "title": "How Bird Flu Became a Human Pandemic Threat",
     "img": "https://static.scientificamerican.com/dam/m/73baa48b44a594a0/original/2506_SQ_MON_BIRDFLU_1_Website_Span2.png?m=1750658381.523",
@@ -3501,6 +3508,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309352",
   "1309342",
   "1309336",
   "1309324",
