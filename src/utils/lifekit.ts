@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1254804018",
+    "title": "Want to build muscle? Eat more plants",
+    "img": "https://media.npr.org/assets/img/2025/06/24/lk_plant-protein_2_wide-e944b19cf716d88985653b49947be7e1e813eecd.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1254804018",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8354830233.mp3"
+  },
+  {
     "id": "1254640166",
     "title": "Stay safe this heat wave",
     "img": "https://media.npr.org/assets/img/2025/06/23/template-4-example-3_wide-b1bf5130a916ce4ba1f976e5bd28bb76e610f2f2.jpg?s=1400&c=100&f=jpeg",
@@ -3511,6 +3518,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1254804018",
   "1254640166",
   "1254614616",
   "1254414880",
