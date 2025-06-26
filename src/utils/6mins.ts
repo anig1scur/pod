@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250626__are_plant_based_substitutes_healthier_than_meat",
+    "title": "Are plant-based substitutes healthier than meat?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ljw6f0.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250626",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250626_6_minute_english_are_plant_based_substitutes_healthier_than_meat_download.mp3"
+  },
+  {
     "id": "250612__how_do_babies_communicate",
     "title": "How do babies communicate?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0l917pj.jpg",
@@ -3831,6 +3838,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250626__are_plant_based_substitutes_healthier_than_meat",
   "250612__how_do_babies_communicate",
   "250612__can_climate_change_affect_our_mental_health",
   "250605__how_important_is_politeness",
