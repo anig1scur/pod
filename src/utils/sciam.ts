@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309366",
+    "title": "This is How We Fight Bird Flu If H5N1 Becomes the Next Human Pandemic",
+    "img": "https://static.scientificamerican.com/dam/m/52bafa3e6eb99699/original/202505_SQ_BIRDFLU_EP3_website_thumbnail-2.jpeg?m=1750973295.447",
+    "url": "https://www.scientificamerican.com/podcast/episode/creating-bird-flu-vaccines-for-humans-at-a-biosecure-laboratory/",
+    "audio": "https://traffic.megaphone.fm/SAM4394086081.mp3?updated=1750975119"
+  },
+  {
     "id": "1309352",
     "title": "Why Dairy Farmers Were Surprised by Bird Flu Cases in Their Herds",
     "img": "https://static.scientificamerican.com/dam/m/6f136222bb293a91/original/202505_SQ_BIRDFLU_EP2_website.jpeg?m=1750777723.494",
@@ -3508,6 +3515,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309366",
   "1309352",
   "1309342",
   "1309336",
