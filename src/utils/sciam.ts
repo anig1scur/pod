@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1309372",
+    "title": "Talking to the Host of Drilled about the Legal Battles around Standing Rock",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-did-the-company-behind-the-dakota-access-pipeline-sue-greenpeace/",
+    "audio": "https://traffic.megaphone.fm/SAM9158946015.mp3?updated=1751048911"
+  },
+  {
     "id": "1309366",
     "title": "This is How We Fight Bird Flu If H5N1 Becomes the Next Human Pandemic",
     "img": "https://static.scientificamerican.com/dam/m/52bafa3e6eb99699/original/202505_SQ_BIRDFLU_EP3_website_thumbnail-2.jpeg?m=1750973295.447",
@@ -3515,6 +3522,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309372",
   "1309366",
   "1309352",
   "1309342",
