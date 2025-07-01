@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1255016003",
+    "title": "What a break from sex can teach you",
+    "img": "https://media.npr.org/assets/img/2025/06/27/lk_dry-season_1_wide-47e15b865c6a9a96fc5286ce4fbc4eff49f9c9b3.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1255016003",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2475319171.mp3"
+  },
+  {
     "id": "1254804018",
     "title": "Want to build muscle? Eat more plants",
     "img": "https://media.npr.org/assets/img/2025/06/24/lk_plant-protein_2_wide-e944b19cf716d88985653b49947be7e1e813eecd.jpg?s=1400&c=100&f=jpeg",
@@ -3518,6 +3525,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1255016003",
   "1254804018",
   "1254640166",
   "1254614616",
