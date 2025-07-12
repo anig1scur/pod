@@ -119,6 +119,20 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1255443718",
+    "title": "How to crave movement more than screen time",
+    "img": "https://media.npr.org/assets/img/2025/06/16/lk_crave-movement_scrolling_2_wide-b0739432a91d8dc46a17a051b7f21c3bcb7147cf.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1255443718",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7711003844.mp3"
+  },
+  {
+    "id": "1255321709",
+    "title": "How to avoid mosquito bites",
+    "img": "https://media.npr.org/assets/img/2025/07/03/lk_moquitoes_spray_2_wide-b5427d61641adb7bba30a52ffe3315adb87507a5.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1255321709",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7685902028.mp3"
+  },
+  {
     "id": "1255016003",
     "title": "What a break from sex can teach you",
     "img": "https://media.npr.org/assets/img/2025/06/27/lk_dry-season_1_wide-47e15b865c6a9a96fc5286ce4fbc4eff49f9c9b3.jpg?s=1400&c=100&f=jpeg",
@@ -3525,6 +3539,8 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1255443718",
+  "1255321709",
   "1255016003",
   "1254804018",
   "1254640166",
