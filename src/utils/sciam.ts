@@ -1,5 +1,33 @@
 export const episodes = [
   {
+    "id": "1309422",
+    "title": "Brains Process Speech and Singing Differently",
+    "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-and-why-humans-began-to-sing-a-musicology-and-neuroscience-perspective/",
+    "audio": "https://traffic.megaphone.fm/SAM7822918655.mp3?updated=1751920009"
+  },
+  {
+    "id": "1309410",
+    "title": "Hear the Sounds of a Sick Coral Reef",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/tracking-coral-reef-health-with-bioacoustics/",
+    "audio": "https://traffic.megaphone.fm/SAM1457788954.mp3?updated=1751919883"
+  },
+  {
+    "id": "1309399",
+    "title": "This Astronaut\u2019s Space Photography Puts Fireworks to Shame",
+    "img": "https://static.scientificamerican.com/dam/m/1408d9779c3d1c3/original/NASA-Astronaut-Interview-Lead-Image.png?m=1751579192.845",
+    "url": "https://www.scientificamerican.com/podcast/episode/astronaut-matthew-dominick-speaks-to-scientific-american-live-from-the/",
+    "audio": "https://traffic.megaphone.fm/SAM3070841377.mp3?updated=1751566572"
+  },
+  {
+    "id": "1309382",
+    "title": "AI Could Broaden the Applications of Entertaining Drone Shows",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/could-ai-make-drone-shows-less-technically-challenging/",
+    "audio": "https://traffic.megaphone.fm/SAM3471641536.mp3?updated=1751401226"
+  },
+  {
     "id": "1309372",
     "title": "Talking to the Host of Drilled about the Legal Battles around Standing Rock",
     "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
@@ -3522,6 +3550,10 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309422",
+  "1309410",
+  "1309399",
+  "1309382",
   "1309372",
   "1309366",
   "1309352",
