@@ -7,6 +7,20 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250710__do_you_need_to_declutter_your_home_",
+    "title": "Do you need to declutter your home?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lmp929.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250710",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250710_6_minute_english_do_you_need_to_declutter_your_home__download.mp3"
+  },
+  {
+    "id": "250703__how_do_you_say_sorry",
+    "title": "How do you say sorry?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lmmv13.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250703",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250703_6_minute_english_how_do_you_say_sorry_download.mp3"
+  },
+  {
     "id": "250626__are_plant_based_substitutes_healthier_than_meat",
     "title": "Are plant-based substitutes healthier than meat?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ljw6f0.jpg",
@@ -3838,6 +3852,8 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250710__do_you_need_to_declutter_your_home_",
+  "250703__how_do_you_say_sorry",
   "250626__are_plant_based_substitutes_healthier_than_meat",
   "250612__how_do_babies_communicate",
   "250612__can_climate_change_affect_our_mental_health",
