@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309458",
+    "title": "The Surprising Science of Dungeons and Dragons",
+    "img": "https://static.scientificamerican.com/dam/m/417a74d4562688d5/original/2507_SQ_FRI_D-D_thumbnail.png?m=1752788079.431",
+    "url": "https://www.scientificamerican.com/podcast/episode/dropout-tvs-brennan-lee-mulligan-brings-dungeons-and-dragons-to-the-masses/",
+    "audio": "https://traffic.megaphone.fm/SAM1903867758.mp3?updated=1752790482"
+  },
+  {
+    "id": "1309446",
+    "title": "The LIGO Lab Is Pushing the Boundaries of Gravitational-Wave Research",
+    "img": "https://static.scientificamerican.com/dam/m/2aa7a88fd614388f/original/2507_SQ_FRI_MIT_LIGO_thumbnail.png?m=1752678608.794",
+    "url": "https://www.scientificamerican.com/podcast/episode/cosmic-explorer-laser-breakthroughs-and-the-next-generation-of-gravitational/",
+    "audio": "https://traffic.megaphone.fm/SAM6317858276.mp3?updated=1752609718"
+  },
+  {
+    "id": "1309429",
+    "title": "Bariatric Surgery Does Not Resolve Weight Stigma for Everyone",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/weight-stigma-persists-for-some-patients-after-bariatric-surgery/",
+    "audio": "https://traffic.megaphone.fm/SAM5430857085.mp3?updated=1752180935"
+  },
+  {
     "id": "1309422",
     "title": "Brains Process Speech and Singing Differently",
     "img": "https://static.scientificamerican.com/dam/m/15dfc46f0f10e613/original/SQ-Friday-EP-Art.png?m=1715878940.917",
@@ -3550,6 +3571,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309458",
+  "1309446",
+  "1309429",
   "1309422",
   "1309410",
   "1309399",
