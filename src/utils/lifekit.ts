@@ -119,6 +119,20 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1255699453",
+    "title": "Why it's so hard to accept compliments",
+    "img": "https://media.npr.org/assets/img/2025/07/03/lk_compliment_wide-a00efee6093ffc54a35f7b25a148065777f9104f.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1255699453",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7861963901.mp3"
+  },
+  {
+    "id": "1255667278",
+    "title": "Grow your dating confidence and ask someone out IRL",
+    "img": "https://media.npr.org/assets/img/2025/07/11/template-5-example-1-_wide-83643977a2d22c315a251f81c4bb2ea9c3192b05.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1255667278",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7781227508.mp3"
+  },
+  {
     "id": "1255443718",
     "title": "How to crave movement more than screen time",
     "img": "https://media.npr.org/assets/img/2025/06/16/lk_crave-movement_scrolling_2_wide-b0739432a91d8dc46a17a051b7f21c3bcb7147cf.jpg?s=1400&c=100&f=jpeg",
@@ -3539,6 +3553,8 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1255699453",
+  "1255667278",
   "1255443718",
   "1255321709",
   "1255016003",
