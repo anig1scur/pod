@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309486",
+    "title": "What It\u2019s Like to Live and Work on the Greenland Ice Sheet",
+    "img": "https://static.scientificamerican.com/dam/m/279f51fadedd1a96/original/2507_SQ_FRI_GREENLAND-Article-Span.jpeg?m=1753449672.54",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-scientists-on-greenlands-ice-sheet-are-learning-about-our-changing/",
+    "audio": "https://traffic.megaphone.fm/SAM3577346253.mp3?updated=1753295462"
+  },
+  {
+    "id": "1309475",
+    "title": "Bring These Scientific American\u2013Recommended Books to the Beach This Summer",
+    "img": "https://static.scientificamerican.com/dam/m/13cd94f78565ba32/original/2507_SQ_WED_SUMMER_BOOKS_thumbnail.png?m=1753218815.672",
+    "url": "https://www.scientificamerican.com/podcast/episode/nonfiction-and-fiction-summer-reading-recommendations-from-scientific/",
+    "audio": "https://traffic.megaphone.fm/SAM9210032753.mp3?updated=1753217520"
+  },
+  {
+    "id": "1309463",
+    "title": "Were the Wright Brothers First in Flight? Inside a 1925 Dispute",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/who-was-first-in-flight-this-1925-scientific-american-piece-dives-into-a/",
+    "audio": "https://traffic.megaphone.fm/SAM7288826711.mp3?updated=1752865769"
+  },
+  {
     "id": "1309458",
     "title": "The Surprising Science of Dungeons and Dragons",
     "img": "https://static.scientificamerican.com/dam/m/417a74d4562688d5/original/2507_SQ_FRI_D-D_thumbnail.png?m=1752788079.431",
@@ -3571,6 +3592,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309486",
+  "1309475",
+  "1309463",
   "1309458",
   "1309446",
   "1309429",
