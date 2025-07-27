@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1256040787",
+    "title": "Dear Life Kit: I'm jealous of my partner's weight loss",
+    "img": "https://media.npr.org/assets/img/2025/07/22/lk_body-image_blue_3_wide-f91504dabeb66fa8ffa6f27cff1697c2ee24baf4.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1256040787",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6072026024.mp3"
+  },
+  {
     "id": "1255699453",
     "title": "Why it's so hard to accept compliments",
     "img": "https://media.npr.org/assets/img/2025/07/03/lk_compliment_wide-a00efee6093ffc54a35f7b25a148065777f9104f.jpg?s=1400&c=100&f=jpeg",
@@ -3553,6 +3560,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1256040787",
   "1255699453",
   "1255667278",
   "1255443718",
