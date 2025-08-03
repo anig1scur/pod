@@ -119,6 +119,27 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1256500270",
+    "title": "Are seed oils really bad for you? Researchers unpack RFK Jr.'s claims",
+    "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+    "url": "https://www.npr.org/transcripts/1256500270",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7947447777.mp3"
+  },
+  {
+    "id": "1256371493",
+    "title": "Hidden ways technology can influence your parenting decisions",
+    "img": "https://media.npr.org/assets/img/2025/07/25/lk_parenting-tec-h_2_wide-f3c8187edb7b848fdb3510d8556c28c88550451f.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1256371493",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6622359677.mp3"
+  },
+  {
+    "id": "1256346007",
+    "title": "How journaling can help you through hard times",
+    "img": "https://media.npr.org/assets/img/2025/07/25/lk_book-of-alchemy_2_wide-d66cbb3c1ceb12322174d6eff4b401ab715e2536.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1256346007",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8971005134.mp3"
+  },
+  {
     "id": "1256040787",
     "title": "Dear Life Kit: I'm jealous of my partner's weight loss",
     "img": "https://media.npr.org/assets/img/2025/07/22/lk_body-image_blue_3_wide-f91504dabeb66fa8ffa6f27cff1697c2ee24baf4.jpg?s=1400&c=100&f=jpeg",
@@ -3560,6 +3581,9 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1256500270",
+  "1256371493",
+  "1256346007",
   "1256040787",
   "1255699453",
   "1255667278",
