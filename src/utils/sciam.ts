@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309520",
+    "title": "Claude 4 Chatbot Raises Questions about AI Consciousness",
+    "img": "https://static.scientificamerican.com/dam/m/353d79785b99eacc/original/Science-Quickly-AI-Consciousness-Podcast-Span-Art.jpeg?m=1753997290.474",
+    "url": "https://www.scientificamerican.com/podcast/episode/anthropics-claude-4-chatbot-suggests-it-might-be-conscious/",
+    "audio": "https://traffic.megaphone.fm/SAM7448640905.mp3"
+  },
+  {
+    "id": "1309502",
+    "title": "This Summer\u2019s Extreme Weather Explained: Flash Floods and Corn Sweat",
+    "img": "https://static.scientificamerican.com/dam/m/225cfca2d98f2cb5/original/SQ-Wednesday-EP-Art.png?m=1716342177.955",
+    "url": "https://www.scientificamerican.com/podcast/episode/this-summer-of-extreme-weather-features-flash-floods-and-corn-sweat/",
+    "audio": "https://traffic.megaphone.fm/SAM8558284016.mp3?updated=1753812024"
+  },
+  {
+    "id": "1309491",
+    "title": "Summer Meteor Showers, Short Summer Days and Ancient Arthropods",
+    "img": "https://static.scientificamerican.com/dam/m/450fc996fe659a91/original/SQ-Monday-EP-Art.png?m=1717792183.71",
+    "url": "https://www.scientificamerican.com/podcast/episode/see-southern-delta-aquariids-and-alpha-capricornids-meteor-showers-this/",
+    "audio": "https://traffic.megaphone.fm/SAM5267927724.mp3?updated=1753471791"
+  },
+  {
     "id": "1309486",
     "title": "What It\u2019s Like to Live and Work on the Greenland Ice Sheet",
     "img": "https://static.scientificamerican.com/dam/m/279f51fadedd1a96/original/2507_SQ_FRI_GREENLAND-Article-Span.jpeg?m=1753449672.54",
@@ -3592,6 +3613,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309520",
+  "1309502",
+  "1309491",
   "1309486",
   "1309475",
   "1309463",
