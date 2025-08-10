@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309549",
+    "title": "A Meteorologist in Congress Fights for Climate Science",
+    "img": "https://static.scientificamerican.com/dam/m/f0fb6dd431fdbd/webimage-2507_SQ_WED_REP_SORENSEN-Podcast-Span-Art.png?m=1754586614.659",
+    "url": "https://www.scientificamerican.com/podcast/episode/congressman-eric-sorensen-on-defending-climate-science-depoliticizing/",
+    "audio": "https://traffic.megaphone.fm/SAM3848798870.mp3"
+  },
+  {
+    "id": "1309538",
+    "title": "NASA Faces Deep Budget Cuts\u2014Every Living Former Science Chief of the Agency Is Sounding the Alarm",
+    "img": "https://static.scientificamerican.com/dam/m/19107f26d137becd/original/2508_SQ_WED_NASA_FUNDING_UPDATE-Podcast-Span-Art.png?m=1754421195.872",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasa-budget-cuts-could-halt-space-missions-climate-research-experts-warn/",
+    "audio": "https://traffic.megaphone.fm/SAM5050287729.mp3"
+  },
+  {
+    "id": "1309526",
+    "title": "Russia\u2019s Earthquake, Wonders of Walking and Plant Genetics",
+    "img": "https://static.scientificamerican.com/dam/m/40208bd502b8eef0/original/SQ_0804_MON-Podcast-Span-Art.png?m=1754077361.609",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-quick-paced-15-minute-stroll-every-day-could-help-you-live-longer/",
+    "audio": "https://traffic.megaphone.fm/SAM2522785608.mp3"
+  },
+  {
     "id": "1309520",
     "title": "Claude 4 Chatbot Raises Questions about AI Consciousness",
     "img": "https://static.scientificamerican.com/dam/m/353d79785b99eacc/original/Science-Quickly-AI-Consciousness-Podcast-Span-Art.jpeg?m=1753997290.474",
@@ -3613,6 +3634,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309549",
+  "1309538",
+  "1309526",
   "1309520",
   "1309502",
   "1309491",
