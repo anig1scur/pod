@@ -119,6 +119,13 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9474175233.mp3"
   },
   {
+    "id": "1256758547",
+    "title": "Be a houseguest who gets invited back",
+    "img": "https://media.npr.org/assets/img/2025/07/31/lk_houseguest_2_wide-5f9cde10735da407559b7406397941af8c9491e2.jpg?s=1400&c=100&f=jpeg",
+    "url": "https://www.npr.org/transcripts/1256758547",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7547877092.mp3"
+  },
+  {
     "id": "1256500270",
     "title": "Are seed oils really bad for you? Researchers unpack RFK Jr.'s claims",
     "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
@@ -3581,6 +3588,7 @@ export const episodeIds = [
   "989826953",
   "989609489",
   "985307780",
+  "1256758547",
   "1256500270",
   "1256371493",
   "1256346007",
