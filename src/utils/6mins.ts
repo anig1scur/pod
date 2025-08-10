@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250807__are_you_flourishing",
+    "title": "Are you flourishing?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lrgmsx.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250807",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250807_6_minute_english_are_you_flourishing_download.mp3"
+  },
+  {
     "id": "250731__what_is_the_manosphere",
     "title": "What is the manosphere?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lrfl5p.jpg",
@@ -3873,6 +3880,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250807__are_you_flourishing",
   "250731__what_is_the_manosphere",
   "250724__degrowth",
   "250717__how_can_we_help_wild_bees",
