@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250814__grown-ups_buying_kids'_toys_",
+    "title": "Grown-ups buying kids\u2019 toys",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lwd382.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250814",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250814_6_minute_english_grown-ups_buying_kids'_toys_download_.mp3"
+  },
+  {
     "id": "250807__are_you_flourishing",
     "title": "Are you flourishing?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lrgmsx.jpg",
@@ -3880,6 +3887,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250814__grown-ups_buying_kids'_toys_",
   "250807__are_you_flourishing",
   "250731__what_is_the_manosphere",
   "250724__degrowth",
