@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5494619",
+    "title": "Tiny pep talks for everyday problems",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1600x900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2b%2Fc1%2F321272c04bd5a3e61658896dae1a%2F4fe80432-042b-48b7-92b8-9e9a1ea90baf.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5494619",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1368814538.mp3"
+  },
+  {
     "id": "999881629",
     "title": "Rational Advice For A Chaotic Housing Market",
     "img": "https://media.npr.org/assets/img/2021/05/24/harlan_wamu_affordability-74_wide-55372c31acc22497cf01451d078c79c3c44c068a.jpg?s=1400&c=100&f=jpeg",
@@ -3571,6 +3578,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5494619",
   "999881629",
   "999050796",
   "999050761",
