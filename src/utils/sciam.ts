@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309574",
+    "title": "Sam Kean\u2019s New Book Dinner with King Tut Explores the Wild World of Experimental Archaeology",
+    "img": "https://static.scientificamerican.com/dam/m/3975ff4096f043b4/original/2508_SQ_FRI_KING_TUT_thumbnail.png?m=1755201781.808",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-is-experimental-archaeology-sam-kean-explores-ancient-tools-surgeries/",
+    "audio": "https://traffic.megaphone.fm/SAM8156598759.mp3"
+  },
+  {
+    "id": "1309566",
+    "title": "This Hormone-Free Pill Could Finally Expand Birth Control Options for Men",
+    "img": "https://static.scientificamerican.com/dam/m/27ec18b3edc51848/original/2508_SQ_WED_MALE_BIRTH_CONTROL_thumbnail.jpeg?m=1755096852.223",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-male-birth-control-pill-moves-to-the-next-clinical-trial-stage/",
+    "audio": "https://traffic.megaphone.fm/SAM5425560181.mp3"
+  },
+  {
+    "id": "1309555",
+    "title": "Rogue Worlds May Not Be So Lonely After All, Europa Clipper Completes Key Test, and RFK, Jr., Pulls $500 Million in mRNA Vaccine Funding",
+    "img": "https://static.scientificamerican.com/dam/m/7451467241630da2/original/2508_SQ_MON_AUG_11-Podcast-Span-Art.jpeg?m=1754666465.424",
+    "url": "https://www.scientificamerican.com/podcast/episode/rogue-worlds-may-not-be-so-lonely-after-all-nasas-europa-mission-advances/",
+    "audio": "https://traffic.megaphone.fm/SAM6284450227.mp3"
+  },
+  {
     "id": "1309549",
     "title": "A Meteorologist in Congress Fights for Climate Science",
     "img": "https://static.scientificamerican.com/dam/m/f0fb6dd431fdbd/webimage-2507_SQ_WED_REP_SORENSEN-Podcast-Span-Art.png?m=1754586614.659",
@@ -3634,6 +3655,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309574",
+  "1309566",
+  "1309555",
   "1309549",
   "1309538",
   "1309526",
