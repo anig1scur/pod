@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309620",
+    "title": "The Mystery of America\u2019s Peanut Allergy Surge\u2014And the Promising Science behind New Treatments",
+    "img": "https://static.scientificamerican.com/dam/m/53d1e895b9220f24/original/2508_SQ_FRI_PEANUT_ALLERGY-Podcast-Span-Art.jpeg?m=1755705957.329",
+    "url": "https://www.scientificamerican.com/podcast/episode/new-treatments-for-peanut-allergies-offer-hope-despite-lingering-questions/",
+    "audio": "https://traffic.megaphone.fm/SAM7586115703.mp3"
+  },
+  {
+    "id": "1309610",
+    "title": "What Can Nature Teach Us about Sex and Gender?",
+    "img": "https://static.scientificamerican.com/dam/m/575dc57cf70675e9/original/2508_SQ_WED_SEXUAL_EVOLUTION-Podcast-Span-Art.jpeg?m=1755628105.539",
+    "url": "https://www.scientificamerican.com/podcast/episode/nathan-lentss-new-book-explores-how-animal-behavior-and-evolution-challenge/",
+    "audio": "https://traffic.megaphone.fm/SAM6824786209.mp3"
+  },
+  {
+    "id": "1309580",
+    "title": "Chikungunya Outbreak, Glacial Outbursts and a New Human Ancestor",
+    "img": "https://static.scientificamerican.com/dam/m/6fdab380ce70c8be/original/2508_SQ_MON_AUG_18_thumbnail.png?m=1755626606.931",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-new-human-ancestor-has-been-discovered-and-how-a-virus-outbreak-in/",
+    "audio": "https://traffic.megaphone.fm/SAM7102448073.mp3"
+  },
+  {
     "id": "1309574",
     "title": "Sam Kean\u2019s New Book Dinner with King Tut Explores the Wild World of Experimental Archaeology",
     "img": "https://static.scientificamerican.com/dam/m/3975ff4096f043b4/original/2508_SQ_FRI_KING_TUT_thumbnail.png?m=1755201781.808",
@@ -3655,6 +3676,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309620",
+  "1309610",
+  "1309580",
   "1309574",
   "1309566",
   "1309555",
