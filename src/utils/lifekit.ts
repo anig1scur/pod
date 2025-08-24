@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5508952",
+    "title": "Ouch, I've got a crick! Neck pain 101",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F06%2F7c%2Fa5e14c3a454da4abb3c120a74994%2F9ee178cd-eb03-4fd4-82bd-8904be61e277.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5508952",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3398496487.mp3"
+  },
+  {
+    "id": "nx-s1-5502645",
+    "title": "Quitting isn't always bad. How to know when it's time to walk away",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd2%2F8a%2Fe52a6a2b4989815ad4c6ced45bc7%2F17615b3b-4d85-4c94-a045-37226df0b21c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5502645",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8487633830.mp3"
+  },
+  {
     "id": "nx-s1-5494619",
     "title": "Tiny pep talks for everyday problems",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1600x900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2b%2Fc1%2F321272c04bd5a3e61658896dae1a%2F4fe80432-042b-48b7-92b8-9e9a1ea90baf.jpg",
@@ -3578,6 +3592,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5508952",
+  "nx-s1-5502645",
   "nx-s1-5494619",
   "999881629",
   "999050796",
