@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309647",
+    "title": "The Storm That Drowned a City\u2014And the Science That Saw It Coming",
+    "img": "https://static.scientificamerican.com/dam/m/7cd65996d90e573a/original/2508_SQ_FRI_KATRINA_ANNIVERSARY-Podcast-Span-Art.jpeg?m=1756411789.808",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-science-behind-hurricane-katrina-what-researchers-knew-before-the-2005/",
+    "audio": "https://traffic.megaphone.fm/SAM5938212084.mp3"
+  },
+  {
+    "id": "1309637",
+    "title": "Mining the Deep Sea Could Threaten a Source of Ocean Oxygen",
+    "img": "https://static.scientificamerican.com/dam/m/daf59f24444a159/original/2508_SQ_WED_DARK_OXYGEN-Podcast-Span-Image.jpeg?m=1756241856.764",
+    "url": "https://www.scientificamerican.com/podcast/episode/deep-sea-nodules-may-produce-oxygen-raising-concerns-over-ocean-mining/",
+    "audio": "https://traffic.megaphone.fm/SAM2724862895.mp3"
+  },
+  {
+    "id": "1309629",
+    "title": "Scientific American Celebrates 180 Years with Stories of Scientific U-turns",
+    "img": "https://static.scientificamerican.com/dam/m/6277c9a53e80ab0/original/2508_SQ_MON_AUG-Podcast-Span-Art.jpeg?m=1755735213.794",
+    "url": "https://www.scientificamerican.com/podcast/episode/180-years-of-scientific-american-means-180-degree-turns-in-science-here-are/",
+    "audio": "https://traffic.megaphone.fm/SAM8773249329.mp3"
+  },
+  {
     "id": "1309620",
     "title": "The Mystery of America\u2019s Peanut Allergy Surge\u2014And the Promising Science behind New Treatments",
     "img": "https://static.scientificamerican.com/dam/m/53d1e895b9220f24/original/2508_SQ_FRI_PEANUT_ALLERGY-Podcast-Span-Art.jpeg?m=1755705957.329",
@@ -3676,6 +3697,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309647",
+  "1309637",
+  "1309629",
   "1309620",
   "1309610",
   "1309580",
