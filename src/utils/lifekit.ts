@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5527205",
+    "title": "LISTEN: Give your body a fall reset with these head-to-toe health tips",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F26%2Fc4%2F5c45685a452a8acd3282201ca2c1%2F8983efd0-b1a1-4734-a903-16ce8ba2acf2.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5527205",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8568339612.mp3"
+  },
+  {
+    "id": "nx-s1-5519760",
+    "title": "Dear Life Kit: When money makes relationships murky",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F56%2F0c4eaf5348a7bf40bb31a1a22680%2F4813b70a-dc2d-4b3d-a337-1e33a0694370.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5519760",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5383916765.mp3"
+  },
+  {
     "id": "nx-s1-5511437",
     "title": "How to deal with intrusive thoughts",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2F54%2F98ce1daa4783b0ff21b886c3d426%2F5fae8fb9-4372-4e59-9469-c9ef30d0b6e0.jpg",
@@ -3599,6 +3613,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5527205",
+  "nx-s1-5519760",
   "nx-s1-5511437",
   "nx-s1-5508952",
   "nx-s1-5502645",
