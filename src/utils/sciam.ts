@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1309675",
+    "title": "Experts Warn of Growing Threats amid CDC Resignations",
+    "img": "https://static.scientificamerican.com/dam/m/5a48e9329bd50312/original/2509_SQ_FRI_CDC_UPDATE-Podcast-Span-Art.jpeg?m=1757018647.321",
+    "url": "https://www.scientificamerican.com/podcast/episode/inside-the-cdcs-breakdown-legal-battles-staff-exodus-and-public-health/",
+    "audio": "https://traffic.megaphone.fm/SAM8492545502.mp3"
+  },
+  {
+    "id": "1309666",
+    "title": "How to Read Hurricane Maps and Avoid Common Mistakes",
+    "img": "https://static.scientificamerican.com/dam/m/7b296bb803d50b51/original/2509_SQ_WED_HURRICANE_FORECAST.jpeg?m=1756839020.365",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-to-know-about-hurricane-season-and-forecast-accuracy/",
+    "audio": "https://traffic.megaphone.fm/SAM5968659968.mp3"
+  },
+  {
     "id": "1309647",
     "title": "The Storm That Drowned a City\u2014And the Science That Saw It Coming",
     "img": "https://static.scientificamerican.com/dam/m/7cd65996d90e573a/original/2508_SQ_FRI_KATRINA_ANNIVERSARY-Podcast-Span-Art.jpeg?m=1756411789.808",
@@ -3697,6 +3711,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309675",
+  "1309666",
   "1309647",
   "1309637",
   "1309629",
