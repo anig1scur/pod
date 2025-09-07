@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250904__the_joys_of_writing_lists",
+    "title": "The joys of writing lists",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lx636w.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250904",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250904_6_minute_english_the_joys_of_writing_lists_download.mp3"
+  },
+  {
     "id": "250828__whats_it_like_to_be_a_twin",
     "title": "What's it like to be a twin?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0lwxhjz.jpg",
@@ -3901,6 +3908,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250904__the_joys_of_writing_lists",
   "250828__whats_it_like_to_be_a_twin",
   "250821__whats_your_favourite_snack",
   "250814__grown-ups_buying_kids'_toys_",
