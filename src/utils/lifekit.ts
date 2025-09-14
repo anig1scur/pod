@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5537729",
+    "title": "Samin Nosrat's recipe for gathering with friends",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F7e%2Fe3e331ec4dfb9b92842380f2a0b0%2Fa35766e0-1152-41ce-a1cb-dc783477a290.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5537729",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5280682213.mp3"
+  },
+  {
+    "id": "nx-s1-5534415",
+    "title": "Budgeting for college students",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff2%2F38%2F1996a04641658ee53ac4999fe01e%2F36cd40b7-9289-4ce4-9745-a36700bda50c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5534415",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6351084894.mp3"
+  },
+  {
     "id": "nx-s1-5527205",
     "title": "LISTEN: Give your body a fall reset with these head-to-toe health tips",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F26%2Fc4%2F5c45685a452a8acd3282201ca2c1%2F8983efd0-b1a1-4734-a903-16ce8ba2acf2.jpg",
@@ -7,11 +21,25 @@ export const episodes = [
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8568339612.mp3"
   },
   {
+    "id": "nx-s1-5522434",
+    "title": "Teens are using AI. Here\u2019s how parents can talk about it",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6e%2F04%2Ff66a719b443892b0c554b57afbfc%2F7db891bd-db5b-4f85-ad35-64ec48d82993.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5522434",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3796688957.mp3"
+  },
+  {
     "id": "nx-s1-5519760",
     "title": "Dear Life Kit: When money makes relationships murky",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F56%2F0c4eaf5348a7bf40bb31a1a22680%2F4813b70a-dc2d-4b3d-a337-1e33a0694370.jpg",
     "url": "https://www.npr.org/transcripts/nx-s1-5519760",
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5383916765.mp3"
+  },
+  {
+    "id": "nx-s1-5517315",
+    "title": "Road safety for pedestrians and cyclists",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5d%2F82%2F34ac65d4443eb41b2395e84fc5b8%2F60de4c04-9ed4-45d7-b1d0-7e5d9a97cd2a.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5517315",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6843519401.mp3"
   },
   {
     "id": "nx-s1-5511437",
@@ -3613,8 +3641,12 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5537729",
+  "nx-s1-5534415",
   "nx-s1-5527205",
+  "nx-s1-5522434",
   "nx-s1-5519760",
+  "nx-s1-5517315",
   "nx-s1-5511437",
   "nx-s1-5508952",
   "nx-s1-5502645",
