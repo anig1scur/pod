@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309706",
+    "title": "How Your Brain Constructs\u2014And Sometimes Distorts\u2014Your Experience of the World",
+    "img": "https://static.scientificamerican.com/dam/m/595ed346b29774ec/original/2509_SQ_FRI_DANIEL_YON_thumbnail.png?m=1757615688.816",
+    "url": "https://www.scientificamerican.com/podcast/episode/daniel-yon-explains-why-your-brain-is-a-brilliant-illusionist/",
+    "audio": "https://traffic.megaphone.fm/SAM4518074123.mp3"
+  },
+  {
+    "id": "1309695",
+    "title": "Alpha-Gal Syndrome Explained: The Tick-Borne Allergy Affecting Diets Worldwide",
+    "img": "https://static.scientificamerican.com/dam/m/9854401cba44fa6/original/2509_SQ_WED_TICK_ALLERGY-Podcast-Span-Art.jpeg?m=1757447539.0",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-is-alpha-gal-syndrome-symptoms-causes-and-way-to-get-tested/",
+    "audio": "https://traffic.megaphone.fm/SAM5942263444.mp3"
+  },
+  {
+    "id": "1309688",
+    "title": "Marsquakes, Vaccine Politics and Mammoth Microbiomes",
+    "img": "https://static.scientificamerican.com/dam/m/6d7b20fad9179816/original/2509_SQ_MON_SEPT_08-Podcast-Span-Art.jpeg?m=1757099703.449",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasas-insight-lander-reveals-marss-lumpy-mantle-in-new-seismic-study/",
+    "audio": "https://traffic.megaphone.fm/SAM5499083621.mp3"
+  },
+  {
     "id": "1309675",
     "title": "Experts Warn of Growing Threats amid CDC Resignations",
     "img": "https://static.scientificamerican.com/dam/m/5a48e9329bd50312/original/2509_SQ_FRI_CDC_UPDATE-Podcast-Span-Art.jpeg?m=1757018647.321",
@@ -3711,6 +3732,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309706",
+  "1309695",
+  "1309688",
   "1309675",
   "1309666",
   "1309647",
