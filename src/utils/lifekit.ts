@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5543380",
+    "title": "What to do when your health insurance denies coverage",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2Fb7%2Fed84502442be8ac37d0f324d29fe%2Fad805f07-458a-43ca-a41f-ce47e103d71c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5543380",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9413257809.mp3"
+  },
+  {
+    "id": "nx-s1-5542347",
+    "title": "Overcoming romantic obsession",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff1%2F3c%2F89efaf884330a77d6f6f1aeb30d6%2F890b7eed-8005-44af-9c75-a846db303677.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5542347",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4634257278.mp3"
+  },
+  {
     "id": "nx-s1-5537729",
     "title": "Samin Nosrat's recipe for gathering with friends",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F7e%2Fe3e331ec4dfb9b92842380f2a0b0%2Fa35766e0-1152-41ce-a1cb-dc783477a290.jpg",
@@ -3641,6 +3655,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5543380",
+  "nx-s1-5542347",
   "nx-s1-5537729",
   "nx-s1-5534415",
   "nx-s1-5527205",
