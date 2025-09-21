@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309754",
+    "title": "The Linguistic Science behind Viral Social Media Slang",
+    "img": "https://static.scientificamerican.com/dam/m/2b7b40820f522288/original/2509_SQ_FRI_ETYMOLOGY-Podcast-Span-Art.jpeg?m=1758130665.759",
+    "url": "https://www.scientificamerican.com/podcast/episode/etymology-nerd-adam-aleksic-on-how-internet-culture-is-transforming-the-way/",
+    "audio": "https://traffic.megaphone.fm/SAM5647127341.mp3"
+  },
+  {
+    "id": "1309742",
+    "title": "Can Your Microbiome Affect Your Mood?",
+    "img": "https://static.scientificamerican.com/dam/m/56b72855a9cc4b9b/original/2509_SQ_WED_GUT_HEALTH-Podcast-Span-Art.jpeg?m=1758049242.69",
+    "url": "https://www.scientificamerican.com/podcast/episode/new-research-shows-gut-cells-communicate-directly-with-the-brain/",
+    "audio": "https://traffic.megaphone.fm/SAM1892009032.mp3"
+  },
+  {
+    "id": "1309712",
+    "title": "Kissing Bugs, Koalas and Clues to Life on Mars",
+    "img": "https://static.scientificamerican.com/dam/m/4622ee4179e44e20/original/2509_SQ_MON_SEPT_15-Podcast-Span-Art.jpeg?m=1757701007.442",
+    "url": "https://www.scientificamerican.com/podcast/episode/covid-deaths-decline-but-vaccine-access-remains-uneven-in-the-u-s/",
+    "audio": "https://traffic.megaphone.fm/SAM5203523525.mp3"
+  },
+  {
     "id": "1309706",
     "title": "How Your Brain Constructs\u2014And Sometimes Distorts\u2014Your Experience of the World",
     "img": "https://static.scientificamerican.com/dam/m/595ed346b29774ec/original/2509_SQ_FRI_DANIEL_YON_thumbnail.png?m=1757615688.816",
@@ -3732,6 +3753,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309754",
+  "1309742",
+  "1309712",
   "1309706",
   "1309695",
   "1309688",
