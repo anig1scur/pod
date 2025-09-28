@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5552711",
+    "title": "A smarter way to pick the right college",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2Fa2%2F803a97ac48068b947a2806c5764e%2F93f3ac3f-7c82-4959-9a75-711d8b5745e2.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5552711",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6262301476.mp3"
+  },
+  {
+    "id": "nx-s1-5547245",
+    "title": "How to maintain a healthy interracial relationship",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2Fb5%2F08f779cb46beba59bfec8cb41461%2Fcb256102-5e9f-4d3e-b590-7479674560dd.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5547245",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3802735074.mp3"
+  },
+  {
     "id": "nx-s1-5543380",
     "title": "What to do when your health insurance denies coverage",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2Fb7%2Fed84502442be8ac37d0f324d29fe%2Fad805f07-458a-43ca-a41f-ce47e103d71c.jpg",
@@ -3655,6 +3669,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5552711",
+  "nx-s1-5547245",
   "nx-s1-5543380",
   "nx-s1-5542347",
   "nx-s1-5537729",
