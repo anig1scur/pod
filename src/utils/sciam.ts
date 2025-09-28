@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309785",
+    "title": "A Composer\u2019s \u2018Brain\u2019 Makes Music Years after His Death",
+    "img": "https://static.scientificamerican.com/dam/m/62f6d95d708bc7d4/original/2509_SQ_FRI_BRAIN_MUSIC-1-1.jpeg?m=1758895018.361",
+    "url": "https://www.scientificamerican.com/podcast/episode/neuroscience-and-art-collide-in-a-posthumous-composition-by-alvin-lucier-in/",
+    "audio": "https://traffic.megaphone.fm/SAM1673659105.mp3"
+  },
+  {
+    "id": "1309776",
+    "title": "Replaceable You: Adventures in Human Anatomy with Mary Roach",
+    "img": "https://static.scientificamerican.com/dam/m/7217bbeb750e499f/original/2509_SQ_WED_REPLACEABLE_YOU-Podcast-Span-Art.jpg?m=1758727722.346",
+    "url": "https://www.scientificamerican.com/podcast/episode/mary-roachs-new-book-replaceable-you-explores-challenges-in-replacing-body/",
+    "audio": "https://traffic.megaphone.fm/SAM4448774701.mp3"
+  },
+  {
+    "id": "1309759",
+    "title": "Vaccine Policy Shift, Brain Changes in Athletes and Ants That Harness Another Species\u2019 DNA",
+    "img": "https://static.scientificamerican.com/dam/m/e6dcddde1ff81ed/original/2509_SQ_MON_SEPT_22-Podcast-Span-Art.jpeg?m=1758312387.198",
+    "url": "https://www.scientificamerican.com/podcast/episode/vaccine-panel-overhaul-head-trauma-in-sports-and-strange-reproduction-in/",
+    "audio": "https://traffic.megaphone.fm/SAM6000248185.mp3"
+  },
+  {
     "id": "1309754",
     "title": "The Linguistic Science behind Viral Social Media Slang",
     "img": "https://static.scientificamerican.com/dam/m/2b7b40820f522288/original/2509_SQ_FRI_ETYMOLOGY-Podcast-Span-Art.jpeg?m=1758130665.759",
@@ -3753,6 +3774,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309785",
+  "1309776",
+  "1309759",
   "1309754",
   "1309742",
   "1309712",
