@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "250925__the_criminal_trade_in_ancient_objects",
+    "title": "The criminal trade in ancient objects",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m4gwtm.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-250925",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/250925_6_minute_english_the_criminal_trade_in_ancient_objects_download.mp3"
+  },
+  {
     "id": "250918__would_you_like_a_robot_companion",
     "title": "Would you like a robot companion?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m2y79v.jpg",
@@ -3922,6 +3929,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "250925__the_criminal_trade_in_ancient_objects",
   "250918__would_you_like_a_robot_companion",
   "250911__what_causes_hearing_loss",
   "250904__the_joys_of_writing_lists",
