@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5560213",
+    "title": "How to talk toddler",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F3c%2Fa9a935784fff8ecb400ddec8690a%2F735e9bdd-61b4-448d-9c6c-6d01c98aff17.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5560213",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2497321383.mp3"
+  },
+  {
+    "id": "nx-s1-5553340",
+    "title": "Can you afford to make a big life change?",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8c%2F62%2F8c89d1d64444b5871e43e8f74353%2Fe8640916-bafe-4eee-8b7e-2766aa875290.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5553340",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7602715099.mp3"
+  },
+  {
     "id": "nx-s1-5552711",
     "title": "A smarter way to pick the right college",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2Fa2%2F803a97ac48068b947a2806c5764e%2F93f3ac3f-7c82-4959-9a75-711d8b5745e2.jpg",
@@ -3669,6 +3683,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5560213",
+  "nx-s1-5553340",
   "nx-s1-5552711",
   "nx-s1-5547245",
   "nx-s1-5543380",
