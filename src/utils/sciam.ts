@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309812",
+    "title": "Go Inside a Room That Lets You Hear Your Nervous System",
+    "img": "https://static.scientificamerican.com/dam/m/17e334f92104f91a/original/2510_SQ_FRI_ANECHOIC_CHAMBER-Podcast-Span-Art.jpeg?m=1759444339.9",
+    "url": "https://www.scientificamerican.com/podcast/episode/an-anechoic-chamber-at-nokia-bell-labs-reveals-the-hidden-sounds-of-your/",
+    "audio": "https://traffic.megaphone.fm/SAM5250881494.mp3"
+  },
+  {
+    "id": "1309803",
+    "title": "Why Top CDC Experts Are Resigning, and What It Means for Public Health",
+    "img": "https://static.scientificamerican.com/dam/m/3b997fb7683090ca/original/2510_SQ_WED_CDC_thumbnail.jpg?m=1759261811.17",
+    "url": "https://www.scientificamerican.com/podcast/episode/demetre-daskalakis-on-rfk-jr-vaccine-schedule-changes-and-cdcs-future/",
+    "audio": "https://traffic.megaphone.fm/SAM1308745128.mp3"
+  },
+  {
+    "id": "1309793",
+    "title": "Trump\u2019s Tylenol Claim Sparks FDA Action\u2014But What Does the Research Say?",
+    "img": "https://static.scientificamerican.com/dam/m/6fa1f296ee5a6d02/original/2509_SQ_MON_SEPT_29_thumbnail.jpg?m=1758918200.439",
+    "url": "https://www.scientificamerican.com/podcast/episode/endangered-sharks-caught-in-rare-mating-ritual-beneath-the-waves/",
+    "audio": "https://traffic.megaphone.fm/SAM8567653518.mp3"
+  },
+  {
     "id": "1309785",
     "title": "A Composer\u2019s \u2018Brain\u2019 Makes Music Years after His Death",
     "img": "https://static.scientificamerican.com/dam/m/62f6d95d708bc7d4/original/2509_SQ_FRI_BRAIN_MUSIC-1-1.jpeg?m=1758895018.361",
@@ -3774,6 +3795,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309812",
+  "1309803",
+  "1309793",
   "1309785",
   "1309776",
   "1309759",
