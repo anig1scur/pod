@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5567143",
+    "title": "Dear Life Kit: I'm at my breaking point",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F2b%2Fa3c1793a4c778b1d9d52c5f7f30c%2Fa49c8b01-b697-45ab-af25-0db27d7ef468.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5567143",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9242770424.mp3"
+  },
+  {
+    "id": "nx-s1-5563866",
+    "title": "How to support a loved one through cancer treatment",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faa%2Fe2%2F2ac9370f423db9f06465ee24e873%2F177a2e85-eb52-447a-9639-0032e63eed36.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5563866",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7693604964.mp3"
+  },
+  {
+    "id": "nx-s1-5561992",
+    "title": "In credit card debt? There\u2019s a path out",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe3%2F34%2F7826b213481096dab2d6e77996a3%2F20c5389f-5411-4d54-bb62-aa3328d2e42b.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5561992",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3055173806.mp3"
+  },
+  {
     "id": "nx-s1-5560213",
     "title": "How to talk toddler",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F3c%2Fa9a935784fff8ecb400ddec8690a%2F735e9bdd-61b4-448d-9c6c-6d01c98aff17.jpg",
@@ -3683,6 +3704,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5567143",
+  "nx-s1-5563866",
+  "nx-s1-5561992",
   "nx-s1-5560213",
   "nx-s1-5553340",
   "nx-s1-5552711",
