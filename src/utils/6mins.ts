@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "251009__what_makes_a_good_citizen",
+    "title": "What makes a good citizen?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m6ml3h.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-251009",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/251009_6_minute_english_what_makes_a_good_citizen_download.mp3"
+  },
+  {
     "id": "251002__have_you_ever_seen_a_whale",
     "title": "Have you ever seen a whale?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m5mxq1.jpg",
@@ -3936,6 +3943,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "251009__what_makes_a_good_citizen",
   "251002__have_you_ever_seen_a_whale",
   "250925__the_criminal_trade_in_ancient_objects",
   "250918__would_you_like_a_robot_companion",
