@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309844",
+    "title": "What It\u2019s like to Be the President\u2019s Doctor",
+    "img": "https://static.scientificamerican.com/dam/m/1bea482fcbee64cd/original/2510_SQ_FRI_PRESIDENT_DOC_thumbnail.jpg?m=1760037377.995",
+    "url": "https://www.scientificamerican.com/podcast/episode/inside-the-medical-challenges-of-presidential-health-care/",
+    "audio": "https://traffic.megaphone.fm/SAM3298069421.mp3"
+  },
+  {
+    "id": "1309827",
+    "title": "Chris Hadfield Imagines a Suspenseful Twist on Cold War History in His New Book",
+    "img": "https://static.scientificamerican.com/dam/m/1b5bcf47e45d7bd2/original/2510_SQ_WED_FINAL_ORBIT.png?m=1759940327.115",
+    "url": "https://www.scientificamerican.com/podcast/episode/astronaut-chris-hadfield-explores-cold-war-geopolitics-in-new-novel/",
+    "audio": "https://traffic.megaphone.fm/SAM4572143221.mp3"
+  },
+  {
+    "id": "1309817",
+    "title": "Enceladus\u2019s Alien Ocean, Ancient Fungi and the Flavor of Influenza",
+    "img": "https://static.scientificamerican.com/dam/m/1f4cb3094aaeea0e/original/2510_SQ_MON_OCT_06-Podcast-Span-Art.jpg?m=1759512627.864",
+    "url": "https://www.scientificamerican.com/podcast/episode/saturns-moon-enceladus-may-harbor-life-study-finds-complex-organic-molecules/",
+    "audio": "https://traffic.megaphone.fm/SAM3476385381.mp3"
+  },
+  {
     "id": "1309812",
     "title": "Go Inside a Room That Lets You Hear Your Nervous System",
     "img": "https://static.scientificamerican.com/dam/m/17e334f92104f91a/original/2510_SQ_FRI_ANECHOIC_CHAMBER-Podcast-Span-Art.jpeg?m=1759444339.9",
@@ -3795,6 +3816,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309844",
+  "1309827",
+  "1309817",
   "1309812",
   "1309803",
   "1309793",
