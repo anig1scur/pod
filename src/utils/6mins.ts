@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "251016__are_we_too_fixated_on_protein",
+    "title": "Are we too fixated on protein?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m7792b.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-251016",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/251016_6_minute_english_are_we_too_fixated_on_protein_download.mp3"
+  },
+  {
     "id": "251009__what_makes_a_good_citizen",
     "title": "What makes a good citizen?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m6ml3h.jpg",
@@ -3943,6 +3950,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "251016__are_we_too_fixated_on_protein",
   "251009__what_makes_a_good_citizen",
   "251002__have_you_ever_seen_a_whale",
   "250925__the_criminal_trade_in_ancient_objects",
