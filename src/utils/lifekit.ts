@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5576201",
+    "title": "Roy Choi's tips for healthy and flavorful meals",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F41%2Fa989218e41e19ec0247ae887bfb7%2F561f6a53-a6c1-433c-a928-1d8c80b07417.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5576201",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9644712347.mp3"
+  },
+  {
+    "id": "nx-s1-5570966",
+    "title": "Coming up with a business idea that takes off",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2Fe3%2F064b90d24446bfe5effca2fd0413%2F3408119c-8e28-407c-84a5-6461ba7c5895.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5570966",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9200813053.mp3"
+  },
+  {
     "id": "nx-s1-5567143",
     "title": "Dear Life Kit: I'm at my breaking point",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F2b%2Fa3c1793a4c778b1d9d52c5f7f30c%2Fa49c8b01-b697-45ab-af25-0db27d7ef468.jpg",
@@ -3704,6 +3718,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5576201",
+  "nx-s1-5570966",
   "nx-s1-5567143",
   "nx-s1-5563866",
   "nx-s1-5561992",
