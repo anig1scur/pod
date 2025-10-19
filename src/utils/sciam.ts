@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309892",
+    "title": "How a Space Rock Became a Scientific Breakthrough\u2014And a Black Market Commodity",
+    "img": "https://static.scientificamerican.com/dam/m/1dbedc6a08a61216/original/2510_SQ_WED_SOMALIAN_METEORITE-Podcast-Span-Art.jpeg?m=1760646841.733",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-el-ali-meteorites-journey-from-landmark-to-loot/",
+    "audio": "https://traffic.megaphone.fm/SAM2815789138.mp3"
+  },
+  {
+    "id": "1309884",
+    "title": "A Surgeon Explains the Alarming Rise of Lung Cancer in Nonsmoking Women",
+    "img": "https://static.scientificamerican.com/dam/m/55491f6479191b56/original/2510_SQ_WED_LUNG_CANCER.png?m=1760470442.787",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-lung-cancer-is-increasing-among-nonsmoking-women-under-age-65/",
+    "audio": "https://traffic.megaphone.fm/SAM6385185224.mp3"
+  },
+  {
+    "id": "1309852",
+    "title": "Nobel Prizes, COVID Vaccine Updates and Malnutrition in Gaza",
+    "img": "https://static.scientificamerican.com/dam/m/18d2de2fea1f5e8e/original/2510_SQ_MON_OCT_13_thumbnail.png?m=1760115143.267",
+    "url": "https://www.scientificamerican.com/podcast/episode/2025-nobel-prize-winners-in-medicine-physics-and-chemistry-explained/",
+    "audio": "https://traffic.megaphone.fm/SAM1157841576.mp3"
+  },
+  {
     "id": "1309844",
     "title": "What It\u2019s like to Be the President\u2019s Doctor",
     "img": "https://static.scientificamerican.com/dam/m/1bea482fcbee64cd/original/2510_SQ_FRI_PRESIDENT_DOC_thumbnail.jpg?m=1760037377.995",
@@ -3816,6 +3837,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309892",
+  "1309884",
+  "1309852",
   "1309844",
   "1309827",
   "1309817",
