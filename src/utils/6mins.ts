@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "251023__did_a_civilisation_exist_on_earth_before_humans",
+    "title": "Did a civilisation exist on Earth before humans?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m7fsdt.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-251023",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/251023_6_minute_english_did_a_civilisation_exist_on_earth_before_humans_download.mp3"
+  },
+  {
     "id": "251016__are_we_too_fixated_on_protein",
     "title": "Are we too fixated on protein?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m7792b.jpg",
@@ -3950,6 +3957,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "251023__did_a_civilisation_exist_on_earth_before_humans",
   "251016__are_we_too_fixated_on_protein",
   "251009__what_makes_a_good_citizen",
   "251002__have_you_ever_seen_a_whale",
