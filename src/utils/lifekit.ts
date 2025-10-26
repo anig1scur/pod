@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5582827",
+    "title": "How parents can be screentime role models",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F00%2F2ae678b9446ab81cabc70a246bc2%2Fa1d762d4-08c6-4c3f-b10a-c53e6820e661.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5582827",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7549909151.mp3"
+  },
+  {
+    "id": "nx-s1-5577945",
+    "title": "Frustrated by a relationship? Questions to ask yourself to move forward",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F59%2Fdc%2F8342b9ab4580b45994b80fcb01f3%2Ff99aed63-6592-4f17-8b6e-1ae7e56e6866.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5577945",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7726812247.mp3"
+  },
+  {
     "id": "nx-s1-5576201",
     "title": "Roy Choi's tips for healthy and flavorful meals",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F41%2Fa989218e41e19ec0247ae887bfb7%2F561f6a53-a6c1-433c-a928-1d8c80b07417.jpg",
@@ -3718,6 +3732,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5582827",
+  "nx-s1-5577945",
   "nx-s1-5576201",
   "nx-s1-5570966",
   "nx-s1-5567143",
