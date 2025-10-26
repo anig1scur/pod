@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309914",
+    "title": "Why Pregnant People Are Left Out of Drug Safety Studies",
+    "img": "https://static.scientificamerican.com/dam/m/2f82b42e4304d09c/original/2510_SQ_FRI_PREGNANCY.png?m=1761234818.782",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-dangerous-data-gap-in-pregnancy-drug-research/",
+    "audio": "https://traffic.megaphone.fm/SAM5197137472.mp3"
+  },
+  {
+    "id": "1309903",
+    "title": "Why Some Apologies Feel Hollow\u2014And Others Don\u2019t",
+    "img": "https://static.scientificamerican.com/dam/m/33622e95e93398fe/original/2510_SQ_WED_SORRY_thumbnail.png?m=1761141728.115",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-word-choice-and-effort-make-apologies-sound-genuine-according-to/",
+    "audio": "https://traffic.megaphone.fm/SAM9178391079.mp3"
+  },
+  {
+    "id": "1309898",
+    "title": "Global Superbugs Surge, Chikungunya Hits Long Island, and Satellites Leak Data",
+    "img": "https://static.scientificamerican.com/dam/m/afad0b0ebd0a07f/original/2510_SQ_MON_OCT_13-October-10-2025-at-11-58-25-1.jpeg?m=1760731942.426",
+    "url": "https://www.scientificamerican.com/podcast/episode/who-reports-global-rise-in-antibiotic-resistance-and-superbug-deaths/",
+    "audio": "https://traffic.megaphone.fm/SAM5849940615.mp3"
+  },
+  {
     "id": "1309892",
     "title": "How a Space Rock Became a Scientific Breakthrough\u2014And a Black Market Commodity",
     "img": "https://static.scientificamerican.com/dam/m/1dbedc6a08a61216/original/2510_SQ_WED_SOMALIAN_METEORITE-Podcast-Span-Art.jpeg?m=1760646841.733",
@@ -3837,6 +3858,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309914",
+  "1309903",
+  "1309898",
   "1309892",
   "1309884",
   "1309852",
