@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5590279",
+    "title": "How introverts and extroverts can be better friends",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2F51%2Fabbf192e459d812841d09448e05d%2F12e44f09-351e-4adb-9f7c-82ce96125647.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5590279",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1974886126.mp3"
+  },
+  {
+    "id": "nx-s1-5585263",
+    "title": "Do collagen supplements really work?",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff6%2F5c%2Fb609d55e4e31b741bc77a074b10b%2F7b4af846-8f7f-46b9-a6af-ed849e7e7c4e.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5585263",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6856924226.mp3"
+  },
+  {
     "id": "nx-s1-5582827",
     "title": "How parents can be screentime role models",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F00%2F2ae678b9446ab81cabc70a246bc2%2Fa1d762d4-08c6-4c3f-b10a-c53e6820e661.jpg",
@@ -3732,6 +3746,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5590279",
+  "nx-s1-5585263",
   "nx-s1-5582827",
   "nx-s1-5577945",
   "nx-s1-5576201",
