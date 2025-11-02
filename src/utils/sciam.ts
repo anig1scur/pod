@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309948",
+    "title": "Gut Reactions to Your Favorite Halloween Candy",
+    "img": "https://static.scientificamerican.com/dam/m/70c6008ee75316c5/original/2510_SQ_FRI_HALLOWEEN_CANDY-Podcast-Span-Art.jpeg?m=1761852096.203",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-some-treats-are-trickier-for-your-gut-microbiome/",
+    "audio": "https://traffic.megaphone.fm/SAM2392519329.mp3"
+  },
+  {
+    "id": "1309934",
+    "title": "Will American Ownership Change What TikTok Shows You?",
+    "img": "https://static.scientificamerican.com/dam/m/266c27e84e26155f/original/2510_SQ_WED_TIKTOK-Podcast-Span-Art.jpeg?m=1761679380.449",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-tiktoks-u-s-spin-off-means-for-its-algorithm-and-content-moderation/",
+    "audio": "https://traffic.megaphone.fm/SAM4582199367.mp3"
+  },
+  {
+    "id": "1309921",
+    "title": "Mosquitoes Invade Iceland, Earth Darkens, and Bird Flu Returns",
+    "img": "https://static.scientificamerican.com/dam/m/b0e409961fdcc50/original/2510_SQ_MON_OCT_27-Podcast-Span-Art.jpeg?m=1761569165.158",
+    "url": "https://www.scientificamerican.com/podcast/episode/mosquitoes-found-in-iceland-for-the-first-time-amid-climate-change/",
+    "audio": "https://traffic.megaphone.fm/SAM6691732971.mp3"
+  },
+  {
     "id": "1309914",
     "title": "Why Pregnant People Are Left Out of Drug Safety Studies",
     "img": "https://static.scientificamerican.com/dam/m/2f82b42e4304d09c/original/2510_SQ_FRI_PREGNANCY.png?m=1761234818.782",
@@ -3858,6 +3879,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309948",
+  "1309934",
+  "1309921",
   "1309914",
   "1309903",
   "1309898",
