@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "251106__do_you_like_garlic",
+    "title": "Do you like garlic?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m9xlwy.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-251106",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/251106_6_minute_english_do_you_like_garlic_download.mp3"
+  },
+  {
     "id": "251030__is_breakfast_the_most_important_meal_of_the_day",
     "title": "Is breakfast the most important meal of the day?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0m8hz3r.jpg",
@@ -3964,6 +3971,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "251106__do_you_like_garlic",
   "251030__is_breakfast_the_most_important_meal_of_the_day",
   "251023__did_a_civilisation_exist_on_earth_before_humans",
   "251016__are_we_too_fixated_on_protein",
