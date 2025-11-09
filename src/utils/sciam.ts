@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1309983",
+    "title": "Why Headaches Remain One of Medicine\u2019s Most Misunderstood Disorders",
+    "img": "https://static.scientificamerican.com/dam/m/3e3571afb59edad0/original/2511_SQ_FRI_HEADACHES-Podcast-Span-Art.jpeg?m=1762455418.705",
+    "url": "https://www.scientificamerican.com/podcast/episode/tom-zeller-jr-on-migraine-research-gender-bias-and-the-cultural-stigma-of/",
+    "audio": "https://traffic.megaphone.fm/SAM7326461330.mp3"
+  },
+  {
+    "id": "1309969",
+    "title": "Why We Struggle to Say No\u2014And How to Get Better at It",
+    "img": "https://static.scientificamerican.com/dam/m/5f3629386e6cd4c/original/2511_SQ_WED_DEFIANCE-Podcast-Span-Art.jpeg?m=1762293436.088",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-psychology-behind-standing-up-and-saying-no/",
+    "audio": "https://traffic.megaphone.fm/SAM6542886968.mp3"
+  },
+  {
+    "id": "1309958",
+    "title": "Hurricane Melissa Was One of the Strongest Atlantic Storms Ever. Here\u2019s Why",
+    "img": "https://static.scientificamerican.com/dam/m/d8d284fa52af194/original/2511_SQ_MON_NOV_03_thumbnail.png?m=1761937364.672",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-hurricane-melissa-was-one-of-the-most-powerful-atlantic-storms-in/",
+    "audio": "https://traffic.megaphone.fm/SAM6999735207.mp3"
+  },
+  {
     "id": "1309948",
     "title": "Gut Reactions to Your Favorite Halloween Candy",
     "img": "https://static.scientificamerican.com/dam/m/70c6008ee75316c5/original/2510_SQ_FRI_HALLOWEEN_CANDY-Podcast-Span-Art.jpeg?m=1761852096.203",
@@ -3879,6 +3900,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1309983",
+  "1309969",
+  "1309958",
   "1309948",
   "1309934",
   "1309921",
