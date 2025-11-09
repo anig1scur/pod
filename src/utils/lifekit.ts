@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5599936",
+    "title": "How to repair after a fight with your partner",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F29%2Fe6%2Fa738547040aa827bf178f2e59bc5%2F603b648a-6f61-437e-bc3c-dd56d875fa2e.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5599936",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7259271168.mp3"
+  },
+  {
+    "id": "nx-s1-5597043",
+    "title": "Smart home decoration tips from designer Vern Yip",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd0%2F81%2Fefb4720f4fb7a3ac4458b3d50ef6%2Fd8284a42-0182-4ac0-b12b-7b42de6d198f.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5597043",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6169612347.mp3"
+  },
+  {
+    "id": "nx-s1-5592923",
+    "title": "How to get lower prices on prescription drugs",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F91%2F78f3d7f24636af345a59e7cfb8d5%2F6119606a-8cf4-494b-890a-9cf5b8aaab6c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5592923",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1445255570.mp3"
+  },
+  {
     "id": "nx-s1-5590279",
     "title": "How introverts and extroverts can be better friends",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2F51%2Fabbf192e459d812841d09448e05d%2F12e44f09-351e-4adb-9f7c-82ce96125647.jpg",
@@ -3746,6 +3767,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5599936",
+  "nx-s1-5597043",
+  "nx-s1-5592923",
   "nx-s1-5590279",
   "nx-s1-5585263",
   "nx-s1-5582827",
