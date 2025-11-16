@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5602078",
+    "title": "How to afford food when money is tight",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb0%2F8c%2F674cfb70491a8697d9a53bc26f31%2F9c4ed439-454b-43dd-ba7b-0f26822dde0f.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5602078",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5652403269.mp3"
+  },
+  {
     "id": "nx-s1-5599936",
     "title": "How to repair after a fight with your partner",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F29%2Fe6%2Fa738547040aa827bf178f2e59bc5%2F603b648a-6f61-437e-bc3c-dd56d875fa2e.jpg",
@@ -3767,6 +3774,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5602078",
   "nx-s1-5599936",
   "nx-s1-5597043",
   "nx-s1-5592923",
