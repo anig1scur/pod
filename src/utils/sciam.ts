@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310017",
+    "title": "How mRNA Vaccines Could Transform Cancer Treatment",
+    "img": "https://static.scientificamerican.com/dam/m/71cd8f08d70b8fde/original/2511_SQ_WED_CANCER_VAX-Podcast-Span-Image.jpeg?m=1763073417.157",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-new-kind-of-vaccine-offers-hope-for-surviving-pancreatic-cancer/",
+    "audio": "https://traffic.megaphone.fm/SAM1779983874.mp3"
+  },
+  {
+    "id": "1310002",
+    "title": "How AI Is Transforming the Grieving Process",
+    "img": "https://static.scientificamerican.com/dam/m/21108660f4b41a7c/original/2511_SQ_WED_AI_GHOSTS-Podcast-Span-Art.jpeg?m=1762890644.346",
+    "url": "https://www.scientificamerican.com/podcast/episode/can-talking-to-an-ai-version-of-a-loved-one-help-you-grieve/",
+    "audio": "https://traffic.megaphone.fm/SAM1328254902.mp3"
+  },
+  {
+    "id": "1309992",
+    "title": "What Food Texture Teaches Us about Perception, Culture and Language",
+    "img": "https://static.scientificamerican.com/dam/m/292ca62a0a92e39f/original/2511_SQ_MON_NOV_10-Podcast-Span-Art.jpeg?m=1762548826.312",
+    "url": "https://www.scientificamerican.com/podcast/episode/exploring-food-texture-and-taste-perception-with-kendra-pierre-louis/",
+    "audio": "https://traffic.megaphone.fm/SAM2245962729.mp3"
+  },
+  {
     "id": "1309983",
     "title": "Why Headaches Remain One of Medicine\u2019s Most Misunderstood Disorders",
     "img": "https://static.scientificamerican.com/dam/m/3e3571afb59edad0/original/2511_SQ_FRI_HEADACHES-Podcast-Span-Art.jpeg?m=1762455418.705",
@@ -3900,6 +3921,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310017",
+  "1310002",
+  "1309992",
   "1309983",
   "1309969",
   "1309958",
