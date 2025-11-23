@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310076",
+    "title": "Nanocosmos Shows Nature\u2019s Invisible Art",
+    "img": "https://static.scientificamerican.com/dam/m/554b16e27c6ff794/original/2511_SQ_FRI_NANOCOSMOS-Podcast-Span-Art.jpeg?m=1763663221.83",
+    "url": "https://www.scientificamerican.com/podcast/episode/michael-bensons-nanocosmos-explores-natural-design-through-scanning-electron/",
+    "audio": "https://traffic.megaphone.fm/SAM7701446855.mp3"
+  },
+  {
+    "id": "1310055",
+    "title": "How to Keep Your Gut Happy This Holiday Season",
+    "img": "https://static.scientificamerican.com/dam/m/3c15432358ab00c8/original/2511_SQ_WED_GUT_HEALTH_3-Podcast-Span-Image.jpeg?m=1763502212.283",
+    "url": "https://www.scientificamerican.com/podcast/episode/gut-health-tips-for-thanksgiving-and-holiday-stress/",
+    "audio": "https://traffic.megaphone.fm/SAM8536862213.mp3"
+  },
+  {
+    "id": "1310030",
+    "title": "The Human Network behind a Digital Time Capsule",
+    "img": "https://static.scientificamerican.com/dam/m/74e70536121c7b3d/original/2511_SQ_MON_NOV_17-Podcast-Span-Art.jpeg?m=1763153341.169",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-technology-and-friendship-preserved-a-20-year-e-mail-time-capsule/",
+    "audio": "https://traffic.megaphone.fm/SAM1069619589.mp3"
+  },
+  {
     "id": "1310017",
     "title": "How mRNA Vaccines Could Transform Cancer Treatment",
     "img": "https://static.scientificamerican.com/dam/m/71cd8f08d70b8fde/original/2511_SQ_WED_CANCER_VAX-Podcast-Span-Image.jpeg?m=1763073417.157",
@@ -3921,6 +3942,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310076",
+  "1310055",
+  "1310030",
   "1310017",
   "1310002",
   "1309992",
