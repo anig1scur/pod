@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "251120__do_you_have_good_dining_etiquette",
+    "title": "Do you have good dining etiquette?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mhljlg.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-251120",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/251120_6_minute_english_do_you_have_good_dining_etiquette_download.mp3"
+  },
+  {
     "id": "251113__how_important_is_play",
     "title": "How important is play?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mg33c2.jpg",
@@ -3978,6 +3985,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "251120__do_you_have_good_dining_etiquette",
   "251113__how_important_is_play",
   "251106__do_you_like_garlic",
   "251030__is_breakfast_the_most_important_meal_of_the_day",
