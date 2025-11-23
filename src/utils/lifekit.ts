@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5611009",
+    "title": "How to work with your social anxiety",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2F73%2Ff2ada1f44040aeb4f0070e58a8b0%2F5858dcb4-6319-4723-8987-3d967f5fa029.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5611009",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8806284087.mp3"
+  },
+  {
+    "id": "nx-s1-5609306",
+    "title": "5 fitness and mental health tips for men",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2Fa8%2Fcce46d864c59bd06cba98a2e25a6%2Fe4f65392-34a8-44fa-999c-e09f33321f47.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5609306",
+    "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3699104863.mp3"
+  },
+  {
     "id": "nx-s1-5602078",
     "title": "How to afford food when money is tight",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb0%2F8c%2F674cfb70491a8697d9a53bc26f31%2F9c4ed439-454b-43dd-ba7b-0f26822dde0f.jpg",
@@ -3774,6 +3788,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5611009",
+  "nx-s1-5609306",
   "nx-s1-5602078",
   "nx-s1-5599936",
   "nx-s1-5597043",
