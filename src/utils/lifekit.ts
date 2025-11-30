@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5619118",
+    "title": "Don't fall for these marketing tactics this holiday season",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2Fca%2F0ca0f4894b92a1624d70f665fd2b%2Ff393c5b9-eebf-4f8c-a366-0a14427503b4.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5619118",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6024388694.mp3"
+  },
+  {
     "id": "nx-s1-5611009",
     "title": "How to work with your social anxiety",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2F73%2Ff2ada1f44040aeb4f0070e58a8b0%2F5858dcb4-6319-4723-8987-3d967f5fa029.jpg",
@@ -3788,6 +3795,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5619118",
   "nx-s1-5611009",
   "nx-s1-5609306",
   "nx-s1-5602078",
