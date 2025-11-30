@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1310099",
+    "title": "How Wild Turkeys Made a Comeback from Near Extinction",
+    "img": "https://static.scientificamerican.com/dam/m/4484cd04ad3205d0/original/2511_SQ_WED_WILD_TURKEYS.png?m=1764009203.966",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-conservation-success-that-saved-wild-turkeys-across-the-country/",
+    "audio": "https://traffic.megaphone.fm/SAM5528589844.mp3"
+  },
+  {
+    "id": "1310086",
+    "title": "Tamer Raccoons, COP30 Recap, New Fluoride Research",
+    "img": "https://static.scientificamerican.com/dam/m/38423061710f2324/original/2511_SQ_MON_NOV_24_thumbnail.png?m=1763759570.094",
+    "url": "https://www.scientificamerican.com/podcast/episode/cop30-in-brazil-highlights-global-climate-challenges-and-indigenous-voices/",
+    "audio": "https://traffic.megaphone.fm/SAM9165620018.mp3"
+  },
+  {
     "id": "1310076",
     "title": "Nanocosmos Shows Nature\u2019s Invisible Art",
     "img": "https://static.scientificamerican.com/dam/m/554b16e27c6ff794/original/2511_SQ_FRI_NANOCOSMOS-Podcast-Span-Art.jpeg?m=1763663221.83",
@@ -3942,6 +3956,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310099",
+  "1310086",
   "1310076",
   "1310055",
   "1310030",
