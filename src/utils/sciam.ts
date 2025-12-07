@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1310134",
+    "title": "Is There New Hope for Treating Postpartum Depression?",
+    "img": "https://static.scientificamerican.com/dam/m/4d71c2e4dcd73fba/original/2512_SQ_FRI_POSTPARTUM-Podcast-Span-Art.jpeg?m=1764883495.514",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-zuranolone-a-fast-acting-drug-might-help-those-suffering-with-postpartum/",
+    "audio": "https://traffic.megaphone.fm/SAM2834480302.mp3"
+  },
+  {
+    "id": "1310118",
+    "title": "Scientific American Shares Its First-Ever Best Fiction and Nonfiction Books of the Year",
+    "img": "https://static.scientificamerican.com/dam/m/1a256aa813c570e0/original/2512_SQ_WED_BOOKS_2025-Podcast-Span-Image.jpeg?m=1764712626.617",
+    "url": "https://www.scientificamerican.com/podcast/episode/scientific-americans-best-fiction-and-nonfiction-picks-for-science-minded/",
+    "audio": "https://traffic.megaphone.fm/SAM8741701249.mp3"
+  },
+  {
     "id": "1310099",
     "title": "How Wild Turkeys Made a Comeback from Near Extinction",
     "img": "https://static.scientificamerican.com/dam/m/4484cd04ad3205d0/original/2511_SQ_WED_WILD_TURKEYS.png?m=1764009203.966",
@@ -3956,6 +3970,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310134",
+  "1310118",
   "1310099",
   "1310086",
   "1310076",
