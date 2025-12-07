@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5627064",
+    "title": "Curious about investing? Here's what to know",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7000x3937+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2F0e%2F09906fd44169a089e1e8586f5e59%2F94274917-7f5d-47c3-aa65-809e6d339b4d.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5627064",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9824736530.mp3"
+  },
+  {
+    "id": "nx-s1-5622083",
+    "title": "The key to a less frantic holiday season",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4272x2403+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F98%2F534959ce40308312631df92bbfed%2Fc7e0bb78-aab2-4d27-a251-99c203179891.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5622083",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7173257999.mp3"
+  },
+  {
     "id": "nx-s1-5619118",
     "title": "Don't fall for these marketing tactics this holiday season",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2Fca%2F0ca0f4894b92a1624d70f665fd2b%2Ff393c5b9-eebf-4f8c-a366-0a14427503b4.jpg",
@@ -3795,6 +3809,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5627064",
+  "nx-s1-5622083",
   "nx-s1-5619118",
   "nx-s1-5611009",
   "nx-s1-5609306",
