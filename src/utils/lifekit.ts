@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5640122",
+    "title": "Watch out for these holiday scams",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2999x1687+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd9%2Fb4%2F8994ec0d4e9abe9450c8c5c9d4f0%2F928c390c-6160-4252-b8ca-6cc933abaf29.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5640122",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7012934577.mp3"
+  },
+  {
+    "id": "nx-s1-5637472",
+    "title": "How to maintain emotional intimacy in long-term relationships",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+155/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8d%2Fac%2F3a5e85874528af6dc2216d5cbc20%2F3bcc1fec-4a94-4515-8197-016c87321348.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5637472",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2342677703.mp3"
+  },
+  {
+    "id": "nx-s1-5634838",
+    "title": "What to know about prostate cancer",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3750x2109+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7e%2Fc6%2Ff1e3fa684101b44b14cf50d541e5%2Fafbc88be-0863-4a1b-8dd7-76b97d3ee27d.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5634838",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8051953014.mp3"
+  },
+  {
     "id": "nx-s1-5627064",
     "title": "Curious about investing? Here's what to know",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7000x3937+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2F0e%2F09906fd44169a089e1e8586f5e59%2F94274917-7f5d-47c3-aa65-809e6d339b4d.jpg",
@@ -3809,6 +3830,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5640122",
+  "nx-s1-5637472",
+  "nx-s1-5634838",
   "nx-s1-5627064",
   "nx-s1-5622083",
   "nx-s1-5619118",
