@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310186",
+    "title": "Inside the Empire of AI: Karen Hao on Power, Ideology and Environmental Costs",
+    "img": "https://static.scientificamerican.com/dam/m/6f135620a726aa4b/original/2512_SQ_FRI_EMPIRE_AI.png?m=1765475752.465",
+    "url": "https://www.scientificamerican.com/podcast/episode/ai-as-the-new-empire-karen-hao-explains-the-hidden-costs-of-openais/",
+    "audio": "https://traffic.megaphone.fm/SAM4526179652.mp3"
+  },
+  {
+    "id": "1310169",
+    "title": "NASA\u2019s Perseverance Rover Faces New Uncertainty on Mars",
+    "img": "https://static.scientificamerican.com/dam/m/33ff9ca69ab42eb0/original/2512_SQ_WED_MARS_MISSION-1.png?m=1765313509.507",
+    "url": "https://www.scientificamerican.com/podcast/episode/can-nasa-bring-mars-rocks-back-to-earth/",
+    "audio": "https://traffic.megaphone.fm/SAM9331677498.mp3"
+  },
+  {
+    "id": "1310150",
+    "title": "Puppy Power, Vaccines under Fire, Satellite Warning",
+    "img": "https://static.scientificamerican.com/dam/m/5b055bc7c77585d9/original/2512_SQ_MON_DEC_08.png?m=1764964811.255",
+    "url": "https://www.scientificamerican.com/podcast/episode/vaccine-controversies-and-measles-outbreaks-space-pollution-puppy-power/",
+    "audio": "https://traffic.megaphone.fm/SAM8466846961.mp3"
+  },
+  {
     "id": "1310134",
     "title": "Is There New Hope for Treating Postpartum Depression?",
     "img": "https://static.scientificamerican.com/dam/m/4d71c2e4dcd73fba/original/2512_SQ_FRI_POSTPARTUM-Podcast-Span-Art.jpeg?m=1764883495.514",
@@ -3970,6 +3991,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310186",
+  "1310169",
+  "1310150",
   "1310134",
   "1310118",
   "1310099",
