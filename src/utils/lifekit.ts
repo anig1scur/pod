@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5647792",
+    "title": "How to get a great haircut",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6720x3780+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F85%2F7fb210bc45b1838999458952dc4e%2F31c31dec-f5f5-421e-b2f7-109f7f72c10e.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5647792",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR9562347562.mp3"
+  },
+  {
+    "id": "nx-s1-5645195",
+    "title": "Dear Life Kit: I have the same holiday drama with my family every year",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5520x3105+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F0a%2Ff14dab904ee8bd47d8c489a732a6%2Fa8fe4fe0-d1cb-4fd7-af0b-4d96ccca0764.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5645195",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR7862853387.mp3"
+  },
+  {
+    "id": "nx-s1-5643042",
+    "title": "How to cope if you can't find a job",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5080x2858+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff4%2F79%2Fde660e0d473ea3a75e5e7b2b6f5b%2Ff1b2d347-6160-4ff5-accd-8b83f5e91404.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5643042",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5465341744.mp3"
+  },
+  {
     "id": "nx-s1-5640122",
     "title": "Watch out for these holiday scams",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2999x1687+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd9%2Fb4%2F8994ec0d4e9abe9450c8c5c9d4f0%2F928c390c-6160-4252-b8ca-6cc933abaf29.jpg",
@@ -3830,6 +3851,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5647792",
+  "nx-s1-5645195",
+  "nx-s1-5643042",
   "nx-s1-5640122",
   "nx-s1-5637472",
   "nx-s1-5634838",
