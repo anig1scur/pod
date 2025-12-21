@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "251218__finding_and_eating_wild_food",
+    "title": "Finding and eating wild food",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mpb0gn.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2025/ep-251218",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/251218_6_minute_english_finding_and_eating_wild_food_download.mp3"
+  },
+  {
     "id": "251211__how_are_horses_helping_to_heal_humans",
     "title": "How are horses helping to heal humans?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mmkvtl.jpg",
@@ -4006,6 +4013,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "251218__finding_and_eating_wild_food",
   "251211__how_are_horses_helping_to_heal_humans",
   "251204__whats_your_favourite_flavour_of_crisp_",
   "251127__how_are_influencers_affecting_politics",
