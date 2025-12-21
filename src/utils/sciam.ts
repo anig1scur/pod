@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310234",
+    "title": "The Secret Voices of Hawaiian Monk Seals: Scientists Uncover 20 New Underwater Calls",
+    "img": "https://static.scientificamerican.com/dam/m/27483425f7c65dba/original/2512_SQ_FRI_SEALS.png?m=1766068310.194",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-scientists-are-decoding-hawaiian-monk-seal-communication/",
+    "audio": "https://traffic.megaphone.fm/SAM8306315772.mp3"
+  },
+  {
+    "id": "1310222",
+    "title": "Orcas on the Brink\u2014What a Dog Named Eba and a Team of Scientists Are Fighting For",
+    "img": "https://static.scientificamerican.com/dam/m/2e47737a36fbe6bc/original/2512_SQ_WED_ORCAS-Podcast-Span-Image.jpeg?m=1765919159.666",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-a-critical-orca-community-is-slipping-toward-extinction/",
+    "audio": "https://traffic.megaphone.fm/SAM9951483227.mp3"
+  },
+  {
+    "id": "1310195",
+    "title": "A Hobbit Mystery Is Solved, 2025 Nears a Climate Record, and More Parents Refuse Vitamin K for Newborns",
+    "img": "https://static.scientificamerican.com/dam/m/2d01fdff0f17d8c1/original/2512_SQ_MON_DEC_15.png?m=1765574393.042",
+    "url": "https://www.scientificamerican.com/podcast/episode/2025-nears-climate-heat-record-mpox-variant-discovered-and-hobbit-extinction/",
+    "audio": "https://traffic.megaphone.fm/SAM4862054860.mp3"
+  },
+  {
     "id": "1310186",
     "title": "Inside the Empire of AI: Karen Hao on Power, Ideology and Environmental Costs",
     "img": "https://static.scientificamerican.com/dam/m/6f135620a726aa4b/original/2512_SQ_FRI_EMPIRE_AI.png?m=1765475752.465",
@@ -3991,6 +4012,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310234",
+  "1310222",
+  "1310195",
   "1310186",
   "1310169",
   "1310150",
