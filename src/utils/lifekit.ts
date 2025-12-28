@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5652011",
+    "title": "How to be a better gift giver",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4328x2435+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Ff0%2F2be5b3bb4a5d8fd03e6198958c99%2F70140e96-d88a-40dd-8d9a-0508dbba50f5.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5652011",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2549237791.mp3"
+  },
+  {
+    "id": "nx-s1-5648340",
+    "title": "How to talk about death and dying",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x2700+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1f%2F1c%2F80c16af84e529d2ab29919c521d7%2F759aaec2-42d2-41e8-b01d-e0041bc7585c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5648340",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1795955521.mp3"
+  },
+  {
     "id": "nx-s1-5647792",
     "title": "How to get a great haircut",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6720x3780+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F85%2F7fb210bc45b1838999458952dc4e%2F31c31dec-f5f5-421e-b2f7-109f7f72c10e.jpg",
@@ -3851,6 +3865,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5652011",
+  "nx-s1-5648340",
   "nx-s1-5647792",
   "nx-s1-5645195",
   "nx-s1-5643042",
