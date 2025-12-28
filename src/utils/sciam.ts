@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1310253",
+    "title": "Fighting Drought and Heat: The Science of Growing Climate-Resilient Christmas Trees",
+    "img": "https://static.scientificamerican.com/dam/m/548065697774353f/original/2512_SQ_WED_CLIMATE_TREE.png?m=1766510255.511",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-researchers-are-doing-to-protect-christmas-trees-in-a-warming-world/",
+    "audio": "https://traffic.megaphone.fm/SAM3088765441.mp3"
+  },
+  {
+    "id": "1310243",
+    "title": "From Agency Chaos to Dark Energy Shocks: How Politics, Health, Climate Policy and Space Science Defined 2025",
+    "img": "https://static.scientificamerican.com/dam/m/16bd397fa0cf7c25/original/2512_SQ_MON_DEC_22-Podcast-Span-Image.jpeg?m=1766164313.057",
+    "url": "https://www.scientificamerican.com/podcast/episode/2025s-scientific-landscape-upended-as-federal-overhauls-public-health/",
+    "audio": "https://traffic.megaphone.fm/SAM7335523771.mp3"
+  },
+  {
     "id": "1310234",
     "title": "The Secret Voices of Hawaiian Monk Seals: Scientists Uncover 20 New Underwater Calls",
     "img": "https://static.scientificamerican.com/dam/m/27483425f7c65dba/original/2512_SQ_FRI_SEALS.png?m=1766068310.194",
@@ -4012,6 +4026,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310253",
+  "1310243",
   "1310234",
   "1310222",
   "1310195",
