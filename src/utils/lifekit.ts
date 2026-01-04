@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5661536",
+    "title": "How to set resolutions you'll actually keep",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2250+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3a%2Feb%2F3efb3da946e88cbc899cc20a5245%2F2c4e4a02-d1f1-4f53-bfa1-2bd2c6f06bb4.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5661536",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5135602122.mp3"
+  },
+  {
+    "id": "nx-s1-5660806",
+    "title": "Get into strength training in 2026",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2Ff9%2Fee8fc6f64ad8b2890cd0e1ad126a%2F9fd46c61-0f9b-4643-95e6-ff0a555a9ceb.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5660806",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8830300818.mp3"
+  },
+  {
     "id": "nx-s1-5652011",
     "title": "How to be a better gift giver",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4328x2435+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Ff0%2F2be5b3bb4a5d8fd03e6198958c99%2F70140e96-d88a-40dd-8d9a-0508dbba50f5.jpg",
@@ -3865,6 +3879,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5661536",
+  "nx-s1-5660806",
   "nx-s1-5652011",
   "nx-s1-5648340",
   "nx-s1-5647792",
