@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260108__is_social_media_dead",
+    "title": "Is social media dead?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0msfbfh.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260108",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260108_6_minute_english_is_social_media_dead_download.mp3"
+  },
+  {
     "id": "260101__is_it_ok_to_disagree",
     "title": "Is it OK to disagree?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mnt4gl.jpg",
@@ -4027,6 +4034,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260108__is_social_media_dead",
   "260101__is_it_ok_to_disagree",
   "251225__was_Christmas_better_in_the_past",
   "251218__finding_and_eating_wild_food",
