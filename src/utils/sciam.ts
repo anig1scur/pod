@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310315",
+    "title": "Inside the Weight-Loss Drug Revolution: Promises, Pitfalls and a Pharma Arms Race",
+    "img": "https://static.scientificamerican.com/dam/m/720dc99ac96b0a6d/original/2601_SQ_FRI_GLP1.png?m=1767904913.413",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-weight-loss-drug-revolution-from-shots-to-pills-and-the-science-behind/",
+    "audio": "https://traffic.megaphone.fm/SAM7620981983.mp3"
+  },
+  {
+    "id": "1310293",
+    "title": "From Vaccines to Gender-Affirming Care: What New Policy Shifts Means for Kids",
+    "img": "https://static.scientificamerican.com/dam/m/ac013d6cd12ee89/original/2601_SQ_WED_CHILD_HEALTH.png?m=1767733302.202",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-new-public-health-changes-could-leave-vulnerable-children-behind/",
+    "audio": "https://traffic.megaphone.fm/SAM4523670832.mp3"
+  },
+  {
+    "id": "1310281",
+    "title": "Want to Make Your Resolution Stick This Year? Behavioral Science Has the Answers",
+    "img": "https://static.scientificamerican.com/dam/m/68600f0fb39618db/original/2601_SQ_MON_CHANGE_HABITS-1.png?m=1767109324.205",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-to-keep-your-new-years-resolutions-behavioral-science-tips-that-work/",
+    "audio": "https://traffic.megaphone.fm/SAM9135566051.mp3"
+  },
+  {
     "id": "1310253",
     "title": "Fighting Drought and Heat: The Science of Growing Climate-Resilient Christmas Trees",
     "img": "https://static.scientificamerican.com/dam/m/548065697774353f/original/2512_SQ_WED_CLIMATE_TREE.png?m=1766510255.511",
@@ -4026,6 +4047,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310315",
+  "1310293",
+  "1310281",
   "1310253",
   "1310243",
   "1310234",
