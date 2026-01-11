@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5670255",
+    "title": "Stressed about sleep? Don't make these mistakes",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8d%2F43%2F61cf0dd449d89365cea45236a875%2F9ff70389-fc3d-4e29-ad98-c4ac908b999e.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5670255",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5014635647.mp3"
+  },
+  {
+    "id": "nx-s1-5667582",
+    "title": "How to build a village",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2250+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fce%2F14%2Feada03f34b7f8f1eab6d29c4e587%2F07a35cd1-faa3-4603-b8f1-930d0d01dc44.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5667582",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR2613548091.mp3"
+  },
+  {
+    "id": "nx-s1-5662557",
+    "title": "The science of losing weight",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4747x2670+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F32%2F5b%2Fe2e6ff7b42c5a04074fba87b02d9%2F6bd816f7-3f12-4568-b65f-f9a1843af350.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5662557",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6959900636.mp3"
+  },
+  {
     "id": "nx-s1-5661536",
     "title": "How to set resolutions you'll actually keep",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2250+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3a%2Feb%2F3efb3da946e88cbc899cc20a5245%2F2c4e4a02-d1f1-4f53-bfa1-2bd2c6f06bb4.jpg",
@@ -3879,6 +3900,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5670255",
+  "nx-s1-5667582",
+  "nx-s1-5662557",
   "nx-s1-5661536",
   "nx-s1-5660806",
   "nx-s1-5652011",
