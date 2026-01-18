@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310352",
+    "title": "Venezuela, Oil and a Warming Planet: What\u2019s at Stake",
+    "img": "https://static.scientificamerican.com/dam/m/772dc385b7d707f4/original/2601_SQ_WED_VENEZUELA_OIL.png?m=1768506411.89",
+    "url": "https://www.scientificamerican.com/podcast/episode/in-venezuela-big-oil-collides-with-a-hotter-planet/",
+    "audio": "https://traffic.megaphone.fm/SAM2684309955.mp3"
+  },
+  {
+    "id": "1310334",
+    "title": "How Seed Oils Became Controversial\u2014And What the Science Really Says",
+    "img": "https://static.scientificamerican.com/dam/m/16807221fc47d22f/original/2601_SQ_WED_SEED_OILS.png?m=1768338331.897",
+    "url": "https://www.scientificamerican.com/podcast/episode/are-seed-oils-bad-for-you-debunking-a-viral-social-media-myth/",
+    "audio": "https://traffic.megaphone.fm/SAM8632457187.mp3"
+  },
+  {
+    "id": "1310323",
+    "title": "How Woodpeckers Peck with Power, Why Flu Is Spiking, and What AI and Robots Mean for Tech\u2019s Future",
+    "img": "https://static.scientificamerican.com/dam/m/51b04c42f039bf84/original/2601_SQ_MON_JAN_12.png?m=1767991120.262",
+    "url": "https://www.scientificamerican.com/podcast/episode/woodpeckers-secret-strength-revealed-plus-flu-surge-ai-sleep-predictions-and/",
+    "audio": "https://traffic.megaphone.fm/SAM2690883462.mp3"
+  },
+  {
     "id": "1310315",
     "title": "Inside the Weight-Loss Drug Revolution: Promises, Pitfalls and a Pharma Arms Race",
     "img": "https://static.scientificamerican.com/dam/m/720dc99ac96b0a6d/original/2601_SQ_FRI_GLP1.png?m=1767904913.413",
@@ -4047,6 +4068,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310352",
+  "1310334",
+  "1310323",
   "1310315",
   "1310293",
   "1310281",
