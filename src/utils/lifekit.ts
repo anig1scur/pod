@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5676052",
+    "title": "How to make your solo trip a success",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3132+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2F5a%2F4dc3f7da40abbcf06e26a0319c96%2Ffbca1e5d-e975-4190-9229-6433f415d41a.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5676052",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4233815557.mp3"
+  },
+  {
+    "id": "nx-s1-5675362",
+    "title": "A proven method to make a habit stick",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8400x4725+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F71%2Ff9eb47644dbe91e77e06419948bb%2F16c22a56-9295-4e71-add2-b47d28107cb9.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5675362",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5009980682.mp3"
+  },
+  {
+    "id": "nx-s1-5672637",
+    "title": "Tips to save money across all parts of your life",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa0%2Fcf%2F0c49789148c79d299399f71f021c%2F025eafcb-036d-4043-b62c-3bf34ac06bd7.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5672637",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3488721674.mp3"
+  },
+  {
     "id": "nx-s1-5670255",
     "title": "Stressed about sleep? Don't make these mistakes",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8d%2F43%2F61cf0dd449d89365cea45236a875%2F9ff70389-fc3d-4e29-ad98-c4ac908b999e.jpg",
@@ -3900,6 +3921,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5676052",
+  "nx-s1-5675362",
+  "nx-s1-5672637",
   "nx-s1-5670255",
   "nx-s1-5667582",
   "nx-s1-5662557",
