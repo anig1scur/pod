@@ -74,17 +74,19 @@ const Episode: FC<episodeProps> = (props) => {
   }, [curIndex]);
 
   useEffect(() => {
-    const pod_audio_url = `./assets/${ pid }/audios/${ episodeIds[curIndex] }.mp3`;
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    const pod_audio_url = `${baseUrl}assets/${pid}/audios/${episodeIds[curIndex]}.mp3`.replace(/\/+/g, '/');
 
     if (episodeData) {
       fetch(pod_audio_url, { method: "HEAD" }).then((res) => {
-        if (res.ok) {
+        const contentType = res.headers.get("content-type") || "";
+        if (res.ok && contentType.includes("audio/")) {
           setAudioUrl(pod_audio_url);
         } else {
-          if (episodeData) {
-            setAudioUrl(episodeData.audio.replace("http://", "https://"));
-          }
+          setAudioUrl(episodeData.audio.replace("http://", "https://"));
         }
+      }).catch(() => {
+        setAudioUrl(episodeData.audio.replace("http://", "https://"));
       });
     }
 

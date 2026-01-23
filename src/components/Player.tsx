@@ -15,7 +15,7 @@ export type PlayerProps = {
 
 const Player: FC<PlayerProps> = (props) => {
   const { last, next, toNext, toLast, audio_url, waveFormRef, duration } = props;
-  const [playState, setPlayState] = useState<'loading' | 'playing' | 'paused'>('paused');
+  const [playState, setPlayState] = useState<'loading' | 'playing' | 'paused'>('playing');
   const [currentTime, setCurrentTime] = useState(0);
 
   useEffect(() => {
@@ -57,7 +57,7 @@ const Player: FC<PlayerProps> = (props) => {
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
     if (e.key === ' ') {
       e.preventDefault();
-      setPlayState(prev => prev === 'paused' ? 'playing' : 'paused');
+      setPlayState(prev => (prev === 'playing' || prev === 'loading') ? 'paused' : 'playing');
     }
 
     if ((e.ctrlKey || e.metaKey) && e.key === 'ArrowRight') {
@@ -105,7 +105,9 @@ const Player: FC<PlayerProps> = (props) => {
           setPlayState('loading');
         } }
         onSeek={ (time) => {
-          setPlayState('loading');
+          if (playState !== 'paused') {
+            setPlayState('loading');
+          }
           setCurrentTime(time);
         } }
         onError={ () => {
@@ -115,7 +117,17 @@ const Player: FC<PlayerProps> = (props) => {
           setCurrentTime(time);
         } }
         onSeeked={ () => {
-          setPlayState('playing');
+          if (playState !== 'paused') {
+            setPlayState('playing');
+          }
+        } }
+        onReady={ () => {
+          if (playState !== 'paused') {
+            setPlayState('playing');
+          }
+        } }
+        onAutoplayFailed={ () => {
+          setPlayState('paused');
         } }
       />
 

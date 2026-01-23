@@ -11,7 +11,9 @@ export type WaveFormProps = {
   onError?: () => void;
   onSeek?: (time: number) => void;
   onSeeked?: () => void;
+  onReady?: () => void;
   onAudioProcess?: (time: number) => void;
+  onAutoplayFailed?: () => void;
 };
 
 export type WaveFormHandle = {
@@ -32,6 +34,12 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
         container: waveform.current,
         waveColor: props.waveColor || 'pink',
         progressColor: props.progressColor || '#D93D86',
+      });
+
+      _wavesurfer.on('ready', () => {
+        if (props.onReady) {
+          props.onReady();
+        }
       });
 
       _wavesurfer.on('interaction', () => {
@@ -81,11 +89,15 @@ const WaveForm = forwardRef<WaveFormHandle, WaveFormProps>((props, ref) => {
 
   useEffect(() => {
     if (props.playing) {
-      wavesurfer.current?.play();
+      wavesurfer.current?.play().catch((err) => {
+        if (err.name === 'NotAllowedError' || err.name === 'AbortError') {
+          props.onAutoplayFailed?.();
+        }
+      });
     } else {
       wavesurfer.current?.pause();
     }
-  }, [props.playing]);
+  }, [props.playing, props.onAutoplayFailed, props.url]);
 
   useImperativeHandle(ref, () => ({
     seek(time: number) {
