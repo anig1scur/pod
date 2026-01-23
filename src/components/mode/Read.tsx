@@ -1,12 +1,15 @@
 import { FC, useEffect, useState } from 'react';
-import { Scripts } from '@/types';
+import { Fragment, Scripts } from '@/types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLanguage, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import { splitTextIntoChunks, applyBionicReading } from '@/utils/episode';
+import { WaveFormHandle } from '../WaveForm';
+import { splitTextIntoChunks, applyBionicReading, findMatchedFragment } from '@/utils/episode';
 export type readProps = {
   scripts: Scripts;
   words: Set<string>;
   displayAuthor: boolean;
+  fragments?: Fragment[];
+  audioRef: React.RefObject<WaveFormHandle>;
   pdfBtn?: React.ReactNode;
 }
 
@@ -23,11 +26,22 @@ export type TranslateRsp = {
   }
 }
 const Read: FC<readProps> = (props) => {
-  const { scripts, words, displayAuthor = true, pdfBtn } = props;
+  const { scripts, words, displayAuthor = true, pdfBtn, fragments, audioRef } = props;
   const [translations, setTranslations] = useState<string[]>([]);
   const [showTranslations, setShowTranslations] = useState<boolean[]>([]);
 
   const [bionicReading, setBionicReading] = useState(false);
+
+  const handleScriptClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const target = e.target as HTMLElement;
+    const script = target.closest('.script') as HTMLElement;
+
+    if (!script) return;
+
+    if (script.dataset.begin) {
+      audioRef.current?.seekTo(parseInt(script.dataset.begin));
+    }
+  };
 
   if (!words || words.size === 0) {
     return <div>Loading...</div>
@@ -98,10 +112,11 @@ const Read: FC<readProps> = (props) => {
         { scripts.map((script, script_index) => {
 
           const chunks = splitTextIntoChunks(script.text, 100);
-          return <div key={ script_index } className='script flex-col'>
+          const matchedFragment = findMatchedFragment(fragments || [], script.text);
+          return <div key={ script_index } className='script flex-col cursor-pointer rounded p-2 transition-colors' onClick={ handleScriptClick } data-begin={ matchedFragment?.begin }>
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
             { chunks.map((chunk, chunk_index) => (
-              <div key={ chunk_index } className='my-1'>
+              <div key={ chunk_index } className='my-1 hover:bg-[pink]'>
                 { chunk.split(' ').map((word, word_index) => (
                   bionicReading ? <span
                     dangerouslySetInnerHTML={ { __html: applyBionicReading(word) } }
@@ -120,13 +135,19 @@ const Read: FC<readProps> = (props) => {
                     <FontAwesomeIcon
                       className='cursor-pointer text-gray-800 mx-2'
                       icon={ faLanguage }
-                      onClick={ () => handleTranslate(script.text, script_index) }
+                        onClick={ (e) => {
+                          e.stopPropagation();
+                          handleTranslate(script.text, script_index);
+                        } }
                       title="Translate to Chinese"
                     />
                     <FontAwesomeIcon
                       className='cursor-pointer text-gray-800'
                       icon={ showTranslations[script_index] ? faEye : faEyeSlash }
-                      onClick={ () => toggleTranslation(script_index) }
+                        onClick={ (e) => {
+                          e.stopPropagation();
+                          toggleTranslation(script_index);
+                        } }
                       title={ showTranslations[script_index] ? "Hide translation" : "Show translation" }
                     />
                   </span>

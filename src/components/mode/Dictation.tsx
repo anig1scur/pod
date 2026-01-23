@@ -77,7 +77,7 @@ const Dictation: FC<dictationProps> = (props) => {
         scripts.map((script, script_index) => {
           const matchedFragment = findMatchedFragment(fragments || [], script.text);
           const sentenceWithDelimiters = pairWordsWithDelimiters(script.text.split(/([,;.])/));
-          return <div key={ script_index } className='script' onClick={ handleScriptClick } data-begin={ matchedFragment?.begin } data-end={ matchedFragment?.end }>
+          return <div key={ script_index } className='script cursor-pointer rounded p-2 transition-colors' onClick={ handleScriptClick } data-begin={ matchedFragment?.begin } data-end={ matchedFragment?.end }>
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
             <div>{ sentenceWithDelimiters.map((s, sIdx) => {
               let sentence = s.text;

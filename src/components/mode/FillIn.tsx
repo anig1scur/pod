@@ -1,19 +1,33 @@
 import React, { FC, ReactNode, useCallback, useRef } from 'react';
 import { Fragment, Scripts } from '@/types';
+import { WaveFormHandle } from '../WaveForm';
+import { findMatchedFragment } from '@/utils/episode';
 
 export type fillInProps = {
   words: Set<string>;
   scripts: Scripts;
   displayAuthor: boolean;
   fragments?: Fragment[];
+  audioRef: React.RefObject<WaveFormHandle>;
   pdfBtn?: ReactNode;
 }
 
 
 const FillIn: FC<fillInProps> = (props) => {
-  const { scripts, words, pdfBtn, displayAuthor = true } = props;
+  const { scripts, words, pdfBtn, displayAuthor = true, audioRef, fragments } = props;
   const inputRefs = useRef<HTMLInputElement[]>([]);
   const blanks = useRef<HTMLSpanElement[]>([]);
+
+  const handleScriptClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const target = e.target as HTMLElement;
+    const script = target.closest('.script') as HTMLElement;
+
+    if (!script) return;
+
+    if (script.dataset.begin) {
+      audioRef.current?.seekTo(parseInt(script.dataset.begin));
+    }
+  };
 
   const checkAnswer = useCallback(() => {
     blanks.current.forEach(element => {
@@ -70,9 +84,10 @@ const FillIn: FC<fillInProps> = (props) => {
     <div className='scripts'>
       {
         scripts.map((script, script_index) => {
-          return <div key={ script_index } className='script'>
+          const matchedFragment = findMatchedFragment(fragments || [], script.text);
+          return <div key={ script_index } className='script cursor-pointer rounded p-2 transition-colors' onClick={ handleScriptClick } data-begin={ matchedFragment?.begin }>
             { displayAuthor && <h3 title={ script.author }>{ script.author }</h3> }
-            <div>{ script.text.split(' ').map((word, word_index) => {
+            <div className="hover:bg-[pink]">{ script.text.split(' ').map((word, word_index) => {
               if (words.has(word)) {
                 const el = <div className="blank"
                   key={ word_index }
@@ -86,6 +101,7 @@ const FillIn: FC<fillInProps> = (props) => {
                         maxLength={ 1 }
                         data-index={ now }
                         onKeyDown={ (e) => handleKeyDown(e) }
+                        onClick={ (e) => e.stopPropagation() }
                         type='text'
                         ref={ (ele) => inputRefs.current[now] = ele! }
                       />
