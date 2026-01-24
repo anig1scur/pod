@@ -92,6 +92,12 @@ const Episode: FC<episodeProps> = (props) => {
 
   }, [curIndex, episodeData, pid]);
 
+  useEffect(() => {
+    if (episodeData) {
+      document.title = episodeData.title;
+    }
+  }, [episodeData]);
+
   if (!episodeData) {
     return null;
   }

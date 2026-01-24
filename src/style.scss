@@ -23,6 +23,9 @@
 
   #root {
     padding: 10px 10% 0 10%;
+    @media (max-width: 768px) {
+        padding: 10px 16px 0 16px;
+      }
   }
 }
 
@@ -129,6 +132,9 @@
 
       input {
         @apply text-left text-lg w-96 mr-2 font-medium border-b-2 border-black outline-none;
+        @media (max-width: 768px) {
+            @apply w-full;
+          }
 
         &.wrong {
           @apply text-red-500;
@@ -274,16 +280,33 @@
     @apply pb-10;
     >main {
       @apply flex flex-nowrap gap-20 w-full;
+      @media (max-width: 1024px) {
+          @apply gap-8;
+        }
+      
+        @media (max-width: 768px) {
+          @apply flex-wrap gap-8;
+        }
 
       .meta {
         @apply flex flex-col gap-4 max-w-[40%];
+        @media (max-width: 768px) {
+            @apply max-w-full w-full;
+          }
       }
 
       .pro {
         flex: 0 1 60%;
+        @media (max-width: 768px) {
+            flex: 0 1 100%;
+          }
 
         .operation {
           @apply flex justify-between;
+          @media (max-width: 500px) {
+              flex-direction: column;
+              gap: 16px;
+            }
         }
       }
     }
@@ -321,6 +344,9 @@
 
   .dropdown {
     @apply relative w-64;
+    @media (max-width: 500px) {
+        @apply w-full;
+      }
 
     .selected {
       @apply flex font-medium items-center gap-2 p-2 border-[3px] border-black rounded-lg cursor-pointer;
@@ -345,6 +371,17 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 
+    @media (max-width: 1280px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    
+      @media (max-width: 640px) {
+        grid-template-columns: 1fr;
+      }
     .episode_card img {
       @apply h-56 w-full object-cover rounded-lg;
       cursor: pointer;
@@ -405,6 +442,9 @@
 
   input {
     width: 320px;
+    @media (max-width: 640px) {
+        width: 100%;
+      }
 
     background-color: transparent;
 

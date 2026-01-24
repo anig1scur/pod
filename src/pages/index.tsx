@@ -22,7 +22,7 @@ const PodcastCard: React.FC<PodcastCardProps> = ({ href, title, description, dif
   const stars = '★'.repeat(difficulty) + '☆'.repeat(5 - difficulty);
 
   return (
-    <Link to={ href } className="min-w-48 w-[31%] border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+    <Link to={ href } className="w-full md:w-[48%] lg:w-[31%] border-black border-[3px] cursor-pointer rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
       <img className="w-full h-48 object-cover border-b-[3px] border-black" src={ logoUrl } alt={ title } />
       <div className="px-6 py-4">
         <div className="font-bold text-3xl mb-2">{ title }</div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, lazy } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import Header from '@/components/Header';
 
 type Episode = {
@@ -38,9 +38,12 @@ export const SourceMap = {
 
 const EpisodeList = () => {
   const { id } = useParams<{ id: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [episodes, setEpisodes] = useState<Episode[]>([]);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [searchTerm, setSearchTerm] = useState('');
+
+  const currentPage = parseInt(searchParams.get('page') || '1', 10);
+  const searchTerm = searchParams.get('q') || '';
+
   const [filteredEpisodes, setFilteredEpisodes] = useState<Episode[]>([]);
 
   const perPage = 12;
@@ -57,6 +60,9 @@ const EpisodeList = () => {
     };
 
     if (id) {
+      if (FullNameMap[id as podType]) {
+        document.title = FullNameMap[id as podType];
+      }
       fetchEpisodes();
     }
   }, [id]);
@@ -73,7 +79,13 @@ const EpisodeList = () => {
   const currentEpisodes = filteredEpisodes.slice(indexOfFirstEpisode, indexOfLastEpisode);
 
   const handleClick = (pageNumber: number) => {
-    setCurrentPage(pageNumber);
+    setSearchParams(prev => {
+      const newParams = new URLSearchParams(prev);
+      newParams.set('page', String(pageNumber));
+      return newParams;
+    });
+    // scrollTo top
+    window.scrollTo(0, 0);
   };
 
   const renderPagination = () => {
@@ -123,18 +135,27 @@ const EpisodeList = () => {
     <div className="flex flex-col m-auto pb-10">
       <Header />
       <main className='flex flex-nowrap gap-8 flex-col mt-10'>
-        <div className='flex flex-row gap-8 justify-between'>
+        <div className='flex flex-col sm:flex-row gap-4 sm:gap-8 justify-between items-start sm:items-center'>
           <a href={ SourceMap[id as podType] } target='_blank' rel='noreferrer' className='hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block '>
             <h1>{ FullNameMap[id as podType] }</h1>
           </a>
-          <div className='search-bar'>
+          <div className='search-bar w-full sm:w-auto'>
             <input
-              className='border-b-[3px] border-black'
+              className='border-b-[3px] border-black w-full sm:w-80'
               type="text"
               value={ searchTerm }
               onChange={ e => {
-                setCurrentPage(1);
-                setSearchTerm(e.target.value)
+                const term = e.target.value;
+                setSearchParams(prev => {
+                  const newParams = new URLSearchParams(prev);
+                  if (term) {
+                    newParams.set('q', term);
+                  } else {
+                    newParams.delete('q');
+                  }
+                  newParams.set('page', '1');
+                  return newParams;
+                });
               } }
             />
           </div></div>
