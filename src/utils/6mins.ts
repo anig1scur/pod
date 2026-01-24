@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260122__scared_of_speaking_English",
+    "title": "Scared of speaking English?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mrbhpb.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/260122",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260122_6_minute_english_scared_of_speaking_English_download.mp3"
+  },
+  {
     "id": "260115__what_english_phrases_really_mean",
     "title": "What English phrases really mean",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mtqxmw.jpg",
@@ -4041,6 +4048,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260122__scared_of_speaking_English",
   "260115__what_english_phrases_really_mean",
   "260108__is_social_media_dead",
   "260101__is_it_ok_to_disagree",
