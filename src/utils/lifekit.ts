@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5684364",
+    "title": "A snowstorm is on the way. Here\u2019s what to do.",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2250+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F42%2F6d%2Fc0dba1104f96aa0388ba8b8c045d%2F1b68da86-0029-4d4d-8230-e0813ae2a1c6.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5684364",
+    "audio": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8981837598.mp3"
+  },
+  {
     "id": "nx-s1-5676052",
     "title": "How to make your solo trip a success",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3132+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2F5a%2F4dc3f7da40abbcf06e26a0319c96%2Ffbca1e5d-e975-4190-9229-6433f415d41a.jpg",
@@ -3921,6 +3928,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5684364",
   "nx-s1-5676052",
   "nx-s1-5675362",
   "nx-s1-5672637",
