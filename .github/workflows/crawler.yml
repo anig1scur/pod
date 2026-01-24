@@ -5,6 +5,9 @@ on:
     types: [created]  # for convenient test
   schedule:
     - cron: '30 2 * * sun'
+  push:
+    paths:
+      - 'public/assets/6mins/scripts/**'
 
 jobs:
   crawl_episode:

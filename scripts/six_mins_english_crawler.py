@@ -116,23 +116,82 @@ def extract_episode_data(url):
             if text and not found_question_section:
                 last_p_before_question = text.strip()
             # For transcript section, collect the author and text
-            elif current_section == "transcript" and element.find("strong"):
-                strong_text = element.find("strong").decode_contents().strip()
-                if "<br/>" in strong_text or "<br>" in strong_text:
-                    author, _, _ = strong_text.partition(
-                        "<br/>" if "<br/>" in strong_text else "<br>"
-                    )
-                else:
-                    author = strong_text
-                text = clean_text(element).replace(author, "", 1).strip()
-                author.replace("\u00a0", "'")
-                if author and author not in data["authors"]:
-                    data["authors"].append(author)
 
-                if text and text != "Note: This is not a word-for-word transcript.":
-                    # 这么替换有点宽泛了?
-                    text = text.replace(" ’", "’")
-                    data[current_section].append({"author": author, "text": text})
+            # elif current_section == "transcript" and element.find("strong"):
+            #     strong_text = element.find("strong").decode_contents().strip()
+            #     if "<br/>" in strong_text or "<br>" in strong_text:
+            #         author, _, _ = strong_text.partition(
+            #             "<br/>" if "<br/>" in strong_text else "<br>"
+            #         )
+            #     else:
+            #         author = strong_text
+            #     text = clean_text(element).replace(author, "", 1).strip()
+            #     author.replace("\u00a0", "'")
+            #     if author and author not in data["authors"]:
+            #         data["authors"].append(author)
+
+            #     if text and text != "Note: This is not a word-for-word transcript.":
+            #         # 这么替换有点宽泛了?
+            #         text = text.replace(" ’", "’")
+            #         data[current_section].append({"author": author, "text": text})
+
+            elif current_section == "transcript":
+                # Iterate over the children of the paragraph to handle multiple speakers
+                current_author = None
+                current_text_parts = []
+                
+                for child in element.children:
+                    if child.name == "strong":
+                        # Check if it's an author: followed by <br>
+                        is_author = False
+                        next_sib = child.next_sibling
+                        while next_sib and isinstance(next_sib, str) and not next_sib.strip():
+                             next_sib = next_sib.next_sibling
+                        
+                        if next_sib and next_sib.name == "br":
+                             is_author = True
+
+                        if is_author:
+                            # Save previous part
+                            if current_author and current_text_parts:
+                                full_text = "".join(current_text_parts).strip()
+                                full_text = full_text.replace(" ’", "’")
+                                if full_text and full_text != "Note: This is not a word-for-word transcript.":
+                                    data[current_section].append({"author": current_author, "text": full_text})
+                            
+                            # New author
+                            current_text_parts = []
+                            strong_text = child.get_text(strip=True)
+                            if "<br/>" in strong_text or "<br>" in strong_text:
+                                author, _, _ = strong_text.partition(
+                                    "<br/>" if "<br/>" in strong_text else "<br>"
+                                )
+                            else:
+                                author = strong_text
+                            
+                            author = author.replace("\u00a0", "'")
+                            if author:
+                                current_author = author
+                                if author not in data["authors"]:
+                                    data["authors"].append(author)
+                        else:
+                            # Just bold text, append to current text
+                            text_chunk = child.get_text(separator=" ", strip=True).replace("\xa0", " ")
+                            current_text_parts.append(text_chunk + " ")
+                    
+                    elif child.name == "br":
+                        continue
+                    else:
+                        text_chunk = child.get_text(separator=" ", strip=True).replace("\xa0", " ") if hasattr(child, "get_text") else str(child).strip()
+                        if text_chunk:
+                            current_text_parts.append(text_chunk + " ")
+                
+                # Save the last part
+                if current_author and current_text_parts:
+                    full_text = "".join(current_text_parts).strip()
+                    full_text = full_text.replace(" ’", "’")
+                    if full_text and full_text != "Note: This is not a word-for-word transcript.":
+                        data[current_section].append({"author": current_author, "text": full_text})
             elif current_section == "vocab" and element.find("strong"):
                 vocab_text = element.find("strong").get_text(strip=True)
                 desc_text = clean_text(element).replace(vocab_text, "").strip()
