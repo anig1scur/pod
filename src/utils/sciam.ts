@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310403",
+    "title": "Could a smudge of DNA help unlock Leonardo da Vinci\u2019s genius? A forensic scientist explains",
+    "img": "https://static.scientificamerican.com/dam/m/4ab548ea3f068f0c/original/2601_SQ_FRI_DAVINCI_DNA_thumbnail-1.png?m=1769188164.206",
+    "url": "https://www.scientificamerican.com/podcast/episode/forensic-science-meets-ancient-art-inside-the-quest-for-leonardo-da-vincis/",
+    "audio": "https://traffic.megaphone.fm/SAM7133553791.mp3"
+  },
+  {
+    "id": "1310387",
+    "title": "Consciousness explained? What brains, AI and dream states reveal",
+    "img": "https://static.scientificamerican.com/dam/m/71532da075e1f6ee/original/2601_SQ_WED_CONSCIOUSNESS-Span-Image.jpeg?m=1768587856.891",
+    "url": "https://www.scientificamerican.com/podcast/episode/can-science-really-explain-consciousness/",
+    "audio": "https://traffic.megaphone.fm/SAM8349531458.mp3"
+  },
+  {
+    "id": "1310362",
+    "title": "EPA\u2019s pollution rule change worries experts, cancer survival hits milestone, and astronauts evacuate the ISS",
+    "img": "https://static.scientificamerican.com/dam/m/3bf270fa8c214419/original/2601_MON_JAN-19_thumbnail.png?m=1768588369.055",
+    "url": "https://www.scientificamerican.com/podcast/episode/epa-rule-sparks-air-quality-concerns-cancer-survival-hits-record-high-and/",
+    "audio": "https://traffic.megaphone.fm/SAM9857625718.mp3"
+  },
+  {
     "id": "1310352",
     "title": "Venezuela, Oil and a Warming Planet: What\u2019s at Stake",
     "img": "https://static.scientificamerican.com/dam/m/772dc385b7d707f4/original/2601_SQ_WED_VENEZUELA_OIL.png?m=1768506411.89",
@@ -4068,6 +4089,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310403",
+  "1310387",
+  "1310362",
   "1310352",
   "1310334",
   "1310323",
