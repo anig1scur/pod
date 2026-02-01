@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310445",
+    "title": "Rediscovering Katharine Burr Blodgett\u2019s scientific brilliance",
+    "img": "https://static.scientificamerican.com/dam/m/b3d59164331b08ab/original/2601_SQ_WED_LWOS.png?m=1769698749.983",
+    "url": "https://www.scientificamerican.com/podcast/episode/katharine-burr-blodgetts-legacy-comes-to-light/",
+    "audio": "https://traffic.megaphone.fm/SAM2775630412.mp3"
+  },
+  {
+    "id": "1310429",
+    "title": "Eat more garlic to smell attractive? The surprising ways diet can shape your body scent",
+    "img": "https://static.scientificamerican.com/dam/m/d8a882d7beb723f1/original/2601_SQ_WED_SMELLS_THUMBNAIL-1.png?m=1769534056.007",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-surprising-science-behind-how-certain-foods-can-make-you-smell-more/",
+    "audio": "https://traffic.megaphone.fm/SAM2862958012.mp3"
+  },
+  {
+    "id": "1310419",
+    "title": "NASA gears up for a historic lunar flyby, AI gives stroke patients hope, and researchers discover the oldest known cave art",
+    "img": "https://static.scientificamerican.com/dam/m/81f4d19ea9e91988/original/2601_SQ_MON_JAN_26_thumbnail-1.png?m=1769197954.583",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasa-readies-for-artemis-ii-mission-ai-powered-speech-gives-stroke-patients/",
+    "audio": "https://traffic.megaphone.fm/SAM2280769357.mp3"
+  },
+  {
     "id": "1310403",
     "title": "Could a smudge of DNA help unlock Leonardo da Vinci\u2019s genius? A forensic scientist explains",
     "img": "https://static.scientificamerican.com/dam/m/4ab548ea3f068f0c/original/2601_SQ_FRI_DAVINCI_DNA_thumbnail-1.png?m=1769188164.206",
@@ -4089,6 +4110,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310445",
+  "1310429",
+  "1310419",
   "1310403",
   "1310387",
   "1310362",
