@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5686639",
+    "title": "How to interpret the new dietary guidelines",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3499x1968+1+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2Fda%2F2600387648f58dafdfc8d98545f1%2F52e3f599-e221-4ec6-b621-8dba3ca271a7.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5686639",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3056674885.mp3"
+  },
+  {
     "id": "nx-s1-5684364",
     "title": "A snowstorm is on the way. Here\u2019s what to do.",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2250+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F42%2F6d%2Fc0dba1104f96aa0388ba8b8c045d%2F1b68da86-0029-4d4d-8230-e0813ae2a1c6.jpg",
@@ -3928,6 +3935,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5686639",
   "nx-s1-5684364",
   "nx-s1-5676052",
   "nx-s1-5675362",
