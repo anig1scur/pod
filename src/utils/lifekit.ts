@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5701467",
+    "title": "Dear Life Kit: My boyfriend\u2019s female friendships stress me out",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F50%2Fb3%2Fbee450204135bf5e93ea9aac9c58%2F8a0d8263-9c07-4cd8-9cbe-bd56c84c4355.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5701467",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR5627017111.mp3"
+  },
+  {
+    "id": "nx-s1-5697370",
+    "title": "Money tips no one taught you",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbc%2F4a%2F621bbd794b9c98ab3982889d77bb%2Fe4bbdd08-93b2-43a1-90c7-50ad399f364e.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5697370",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1407591998.mp3"
+  },
+  {
+    "id": "nx-s1-5694017",
+    "title": "7 kinds of rest (other than sleep)",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8c%2Fb2%2F9d92381d44aa9b27bf7197a5fc1a%2F0ef501ef-d7f2-45fa-ad9d-59c10e17bcaa.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5694017",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3814386371.mp3"
+  },
+  {
     "id": "nx-s1-5686639",
     "title": "How to interpret the new dietary guidelines",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3499x1968+1+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2Fda%2F2600387648f58dafdfc8d98545f1%2F52e3f599-e221-4ec6-b621-8dba3ca271a7.jpg",
@@ -3935,6 +3956,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5701467",
+  "nx-s1-5697370",
+  "nx-s1-5694017",
   "nx-s1-5686639",
   "nx-s1-5684364",
   "nx-s1-5676052",
