@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310493",
+    "title": "Psychiatry\u2019s rule book faces a major rethink",
+    "img": "https://static.scientificamerican.com/dam/m/6da5784c225d4520/original/2602_SQ_FRI_DSM.png?m=1770326699.459",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-push-to-redraw-the-map-of-mental-illness/",
+    "audio": "https://traffic.megaphone.fm/SAM3094952243.mp3"
+  },
+  {
+    "id": "1310472",
+    "title": "Some people experience an inability to burp. An expert who treats this little-known disorder explains why",
+    "img": "https://static.scientificamerican.com/dam/m/510dc089e457564e/original/2602_SQ_WED_BURPING_thumbnail-1.png?m=1770154290.1",
+    "url": "https://www.scientificamerican.com/podcast/episode/daily-misery-why-some-people-cant-burp-and-how-botox-comes-to-the-rescue/",
+    "audio": "https://traffic.megaphone.fm/SAM3896217383.mp3"
+  },
+  {
+    "id": "1310457",
+    "title": "AI illuminates DNA\u2019s \u2018dark matter,\u2019 doctors make artificial lungs, and a lipstick vine defies evolution",
+    "img": "https://static.scientificamerican.com/dam/m/7524e68b937f3868/original/2602_SQ_MON_FEB_02_thumbnail-1.png?m=1769797885.157",
+    "url": "https://www.scientificamerican.com/podcast/episode/decoding-dnas-dark-matter-with-ai-keeping-a-man-alive-without-lungs-and/",
+    "audio": "https://traffic.megaphone.fm/SAM1920258088.mp3"
+  },
+  {
     "id": "1310445",
     "title": "Rediscovering Katharine Burr Blodgett\u2019s scientific brilliance",
     "img": "https://static.scientificamerican.com/dam/m/b3d59164331b08ab/original/2601_SQ_WED_LWOS.png?m=1769698749.983",
@@ -4110,6 +4131,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310493",
+  "1310472",
+  "1310457",
   "1310445",
   "1310429",
   "1310419",
