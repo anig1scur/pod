@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260205__rethinking_dyslexia",
+    "title": "Rethinking dyslexia",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mvf8hw.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260205",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260205_6_minute_english_rethinking_dyslexia_download.mp3"
+  },
+  {
     "id": "260129__why_are_billionaires_building_bunkers",
     "title": "Why are billionaires building bunkers?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mvcnh7.jpg",
@@ -4055,6 +4062,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260205__rethinking_dyslexia",
   "260129__why_are_billionaires_building_bunkers",
   "260122__scared_of_speaking_English",
   "260115__what_english_phrases_really_mean",
