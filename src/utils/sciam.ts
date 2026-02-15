@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310540",
+    "title": "A kiss is a tender act of love. How it originated remains a mystery",
+    "img": "https://static.scientificamerican.com/dam/m/3bb3d85b33f1b0e9/original/2602_SQ_FRI_KISSING.png?m=1770927858.508",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-story-of-the-first-kiss-21-5-million-years-ago/",
+    "audio": "https://traffic.megaphone.fm/SAM3408625301.mp3"
+  },
+  {
+    "id": "1310522",
+    "title": "Heated Rivalry: The linguistics behind Ilya\u2019s Russian",
+    "img": "https://static.scientificamerican.com/dam/m/c0d6a45457364a41/original/2602_SQ_WED_HEATED_RIVALRY.png?m=1770752241.947",
+    "url": "https://www.scientificamerican.com/podcast/episode/inside-the-russian-dialect-coaching-behind-heated-rivalry/",
+    "audio": "https://traffic.megaphone.fm/SAM3892992099.mp3"
+  },
+  {
+    "id": "1310507",
+    "title": "Babies keep the beat as Artemis slips, solar flares blast and PFAS rise",
+    "img": "https://static.scientificamerican.com/dam/m/80f2d3410c4b3c30/original/2602_SQ_MON_FEB_09.png?m=1770396154.138",
+    "url": "https://www.scientificamerican.com/podcast/episode/babies-are-born-with-rhythm-as-nasas-artemis-ii-faces-delays-and-solar/",
+    "audio": "https://traffic.megaphone.fm/SAM7684456710.mp3"
+  },
+  {
     "id": "1310493",
     "title": "Psychiatry\u2019s rule book faces a major rethink",
     "img": "https://static.scientificamerican.com/dam/m/6da5784c225d4520/original/2602_SQ_FRI_DSM.png?m=1770326699.459",
@@ -4131,6 +4152,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310540",
+  "1310522",
+  "1310507",
   "1310493",
   "1310472",
   "1310457",
