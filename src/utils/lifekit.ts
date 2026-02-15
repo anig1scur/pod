@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5711411",
+    "title": "Don't mess with your cuticles (and other nail advice)",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5932x3337+1+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F82%2F4a700f3c4539914df78ec9cb77a9%2Fe364cd32-c9de-437f-a44a-49d325ef7243.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5711411",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR8114433060.mp3"
+  },
+  {
+    "id": "nx-s1-5707594",
+    "title": "Health insurance hell: Why do I need a prior authorization?",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc1%2F93%2Fc50394a94a8fbcaea9561bcf24f4%2Fce5e4fb2-c442-4246-8b46-18b63977a674.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5707594",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3607887319.mp3"
+  },
+  {
+    "id": "nx-s1-5704760",
+    "title": "Why \"we should hang out\" won't make you real friends",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F71%2Fad%2F269fe8cb4778b181d54f4528665f%2Ffd2fd107-64e9-4b5c-814d-f480c1c77e27.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5704760",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6762744815.mp3"
+  },
+  {
     "id": "nx-s1-5701467",
     "title": "Dear Life Kit: My boyfriend\u2019s female friendships stress me out",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1125+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F50%2Fb3%2Fbee450204135bf5e93ea9aac9c58%2F8a0d8263-9c07-4cd8-9cbe-bd56c84c4355.jpg",
@@ -3956,6 +3977,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5711411",
+  "nx-s1-5707594",
+  "nx-s1-5704760",
   "nx-s1-5701467",
   "nx-s1-5697370",
   "nx-s1-5694017",
