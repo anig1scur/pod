@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310608",
+    "title": "We all know ice is slippery. The physics behind it is more complex than you\u2019d think",
+    "img": "https://static.scientificamerican.com/dam/m/3a635c39ff9fac05/original/2602_SQ_FRI_ICE_SKATING-1.png?m=1771537450.788",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-makes-ice-slippery-scientists-may-have-finally-figured-it-out/",
+    "audio": "https://traffic.megaphone.fm/SAM5873311658.mp3"
+  },
+  {
+    "id": "1310588",
+    "title": "How AI-powered \u2018smart homes\u2019 could transform care for people with dementia",
+    "img": "https://static.scientificamerican.com/dam/m/f6e66231e7231e64/original/2602_SQ_WED_ALZ_AI-1.png?m=1771353951.849",
+    "url": "https://www.scientificamerican.com/podcast/episode/ai-tools-that-ease-caregiver-burnout/",
+    "audio": "https://traffic.megaphone.fm/SAM5214622709.mp3"
+  },
+  {
+    "id": "1310556",
+    "title": "Trump guts climate policy, polar vortex disrupts winter, and Olympic \u2018Penisgate\u2019 rumors fly",
+    "img": "https://static.scientificamerican.com/dam/m/03edc382dddb0d1b/original/2602_SQ_MON_FEB_16.png?m=1771011201.993",
+    "url": "https://www.scientificamerican.com/podcast/episode/trump-rejects-climate-science-winter-goes-haywire-and-penisgate-rumors-arise/",
+    "audio": "https://traffic.megaphone.fm/SAM2237022219.mp3"
+  },
+  {
     "id": "1310540",
     "title": "A kiss is a tender act of love. How it originated remains a mystery",
     "img": "https://static.scientificamerican.com/dam/m/3bb3d85b33f1b0e9/original/2602_SQ_FRI_KISSING.png?m=1770927858.508",
@@ -4152,6 +4173,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310608",
+  "1310588",
+  "1310556",
   "1310540",
   "1310522",
   "1310507",
