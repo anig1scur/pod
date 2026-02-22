@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260219__dreaming_of_being_a_chef",
+    "title": "Dreaming of being a chef",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0my0wv3.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260219",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260219_6_minute_english_dreaming_of_being_a_chef_download.mp3"
+  },
+  {
     "id": "260212__artistic_swimming",
     "title": "Artistic swimming",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0mzjhdg.jpg",
@@ -4069,6 +4076,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260219__dreaming_of_being_a_chef",
   "260212__artistic_swimming",
   "260205__rethinking_dyslexia",
   "260129__why_are_billionaires_building_bunkers",
