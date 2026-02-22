@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5718419",
+    "title": "Tired of being tired? Natural ways to get the energy you crave",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6999x3937+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F23%2F36%2F9b3de86749fdb380ae1058e139fe%2Ffd6b213d-269e-4116-8b6b-a2f775dc76f6.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5718419",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR4109805342.mp3"
+  },
+  {
     "id": "nx-s1-5711411",
     "title": "Don't mess with your cuticles (and other nail advice)",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5932x3337+1+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F82%2F4a700f3c4539914df78ec9cb77a9%2Fe364cd32-c9de-437f-a44a-49d325ef7243.jpg",
@@ -3977,6 +3984,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5718419",
   "nx-s1-5711411",
   "nx-s1-5707594",
   "nx-s1-5704760",
