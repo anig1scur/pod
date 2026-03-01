@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5724152",
+    "title": "Want to protect your money? Diversify your investments",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F0e%2F8d7f89b747cdbeb51633ff8b7716%2Fe5c27b4a-03c6-4103-a3a1-621c7422195b.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5724152",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1900996367.mp3"
+  },
+  {
     "id": "nx-s1-5718419",
     "title": "Tired of being tired? Natural ways to get the energy you crave",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6999x3937+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F23%2F36%2F9b3de86749fdb380ae1058e139fe%2Ffd6b213d-269e-4116-8b6b-a2f775dc76f6.jpg",
@@ -3984,6 +3991,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5724152",
   "nx-s1-5718419",
   "nx-s1-5711411",
   "nx-s1-5707594",
