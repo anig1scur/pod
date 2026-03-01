@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310656",
+    "title": "17-year-old cracks the code on poacher tracking",
+    "img": "https://static.scientificamerican.com/dam/m/60b869eae12ca58/original/2602_SQ_FRI_ELEPHANTS.png?m=1772120225.646",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-a-teens-ai-model-could-help-stop-poaching-in-rainforests/",
+    "audio": "https://traffic.megaphone.fm/SAM7223762320.mp3"
+  },
+  {
+    "id": "1310635",
+    "title": "What science reveals about polyamorous relationships",
+    "img": "https://static.scientificamerican.com/dam/m/326341767d0911de/original/2602_SQ_WED_POLYAMORY.png?m=1771887103.341",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-polyamory-works-according-to-relationship-researchers/",
+    "audio": "https://traffic.megaphone.fm/SAM2376000626.mp3"
+  },
+  {
+    "id": "1310622",
+    "title": "Desert dino find, flu shot U\u2011turn, universal vaxx hope, air toxin warning",
+    "img": "https://static.scientificamerican.com/dam/m/614c938944e0c040/original/2602_SQ_MON_FEB_23.png?m=1771615790.665",
+    "url": "https://www.scientificamerican.com/podcast/episode/scientists-identify-new-spinosaurid-moderna-flu-shot-back-on-track-universal/",
+    "audio": "https://traffic.megaphone.fm/SAM1696344778.mp3?updated=1771794181"
+  },
+  {
     "id": "1310608",
     "title": "We all know ice is slippery. The physics behind it is more complex than you\u2019d think",
     "img": "https://static.scientificamerican.com/dam/m/3a635c39ff9fac05/original/2602_SQ_FRI_ICE_SKATING-1.png?m=1771537450.788",
@@ -4173,6 +4194,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310656",
+  "1310635",
+  "1310622",
   "1310608",
   "1310588",
   "1310556",
