@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260305__why_are_some_animals_black_and_white",
+    "title": "Why are some animals black and white?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n0gjlg.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260305",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260305_6_minute_english_why_are_some_animals_black_and_white_download.mp3"
+  },
+  {
     "id": "260226__the_power_of_pepper",
     "title": "The power of pepper",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n08w2y.jpg",
@@ -4083,6 +4090,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260305__why_are_some_animals_black_and_white",
   "260226__the_power_of_pepper",
   "260219__dreaming_of_being_a_chef",
   "260212__artistic_swimming",
