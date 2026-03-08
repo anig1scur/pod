@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5732973",
+    "title": "Dr. Sanjay Gupta wants to reframe your understanding of pain",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F25%2Fe3%2F13cfa9c141b9929293e0c1a2f362%2F77d30a23-5b4b-4a30-9693-3710d84be76e.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5732973",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3789647221.mp3"
+  },
+  {
+    "id": "nx-s1-5729063",
+    "title": "Common mistakes parents make when installing a car seat",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdb%2Fde%2Ff6708f2b47dab4ae77b20f01d344%2Fdca58e82-a409-4865-b736-08c81d06445d.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5729063",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR1668559311.mp3"
+  },
+  {
+    "id": "nx-s1-5726874",
+    "title": "4 myths about women's health",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2Fd7%2F65f813de4d4585aea29d4d3e20a8%2F64cf8c79-1b7c-4687-9b01-e9f301eba3b7.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5726874",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR6167549753.mp3"
+  },
+  {
     "id": "nx-s1-5724152",
     "title": "Want to protect your money? Diversify your investments",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2F0e%2F8d7f89b747cdbeb51633ff8b7716%2Fe5c27b4a-03c6-4103-a3a1-621c7422195b.jpg",
@@ -3991,6 +4012,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5732973",
+  "nx-s1-5729063",
+  "nx-s1-5726874",
   "nx-s1-5724152",
   "nx-s1-5718419",
   "nx-s1-5711411",
