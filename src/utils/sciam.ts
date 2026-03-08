@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310709",
+    "title": "Michael Pollan on why consciousness is a mystery\u2014and why protecting it matters",
+    "img": "https://static.scientificamerican.com/dam/m/3cea041d2b20460c/original/2603_SQ_WED_MICHAEL_POLLAN.png?m=1772735739.543",
+    "url": "https://www.scientificamerican.com/podcast/episode/is-ai-conscious-michael-pollan-weighs-in-on-the-debate/",
+    "audio": "https://traffic.megaphone.fm/SAM3183527935.mp3"
+  },
+  {
+    "id": "1310687",
+    "title": "The BBC tech journalist who achieved hot dog eating glory\u2014by hacking AI",
+    "img": "https://static.scientificamerican.com/dam/m/5410b372aad3810a/original/2603_SQ_WED_HACKING_AI.png?m=1772576124.894",
+    "url": "https://www.scientificamerican.com/podcast/episode/this-bbc-tech-reporter-hacked-chatgpt-with-a-simple-trick-involving-hot-dogs/",
+    "audio": "https://traffic.megaphone.fm/SAM6656148700.mp3"
+  },
+  {
+    "id": "1310669",
+    "title": "Women\u2019s heart health worsens, NASA announces Artemis update, researchers solve reindeer antler mystery",
+    "img": "https://static.scientificamerican.com/dam/m/10dd2daa638df032/original/2603_SQ_MON_MARCH_02.png?m=1772226831.029",
+    "url": "https://www.scientificamerican.com/podcast/episode/womens-heart-health-artemis-update-female-reindeer-antlers-mystery/",
+    "audio": "https://traffic.megaphone.fm/SAM5759697412.mp3"
+  },
+  {
     "id": "1310656",
     "title": "17-year-old cracks the code on poacher tracking",
     "img": "https://static.scientificamerican.com/dam/m/60b869eae12ca58/original/2602_SQ_FRI_ELEPHANTS.png?m=1772120225.646",
@@ -4194,6 +4215,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310709",
+  "1310687",
+  "1310669",
   "1310656",
   "1310635",
   "1310622",
