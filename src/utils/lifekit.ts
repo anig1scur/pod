@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5745163",
+    "title": "How to avoid this year's common tax scams",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3593x2021+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F23%2F197b909e4ee882ad6cff1cb64678%2F5235f454-2361-4b6c-b6cb-0a4281f6032a.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5745163",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/3a24a6a5-11db-4f49-8390-62a1323dc24a/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5742809",
+    "title": "How to get better at staying off your phone",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fda%2F0d%2Fae4389d840ee96004ba8faa07ad1%2F9254b778-c912-44b8-8eb2-d120d6c6bcf6.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5742809",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/914e1a7f-a21a-4e9a-a6a7-30ef605c8bcb/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5732973",
     "title": "Dr. Sanjay Gupta wants to reframe your understanding of pain",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F25%2Fe3%2F13cfa9c141b9929293e0c1a2f362%2F77d30a23-5b4b-4a30-9693-3710d84be76e.jpg",
@@ -4012,6 +4026,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5745163",
+  "nx-s1-5742809",
   "nx-s1-5732973",
   "nx-s1-5729063",
   "nx-s1-5726874",
