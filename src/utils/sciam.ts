@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310761",
+    "title": "The dark roots of RFK, Jr.\u2019s public health ideology",
+    "img": "https://static.scientificamerican.com/dam/m/2177c47f1790239c/original/2603_SQ_FRI_RFK.png?m=1773349626.582",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-rfk-jr-s-controversial-ideas-are-shaping-americans-health/",
+    "audio": "https://traffic.megaphone.fm/SAM3262451870.mp3"
+  },
+  {
+    "id": "1310742",
+    "title": "How The Traitors reveals the psychology behind lying",
+    "img": "https://static.scientificamerican.com/dam/m/5e598803078d7c69/original/2603_SQ_WED_TRAITORS.png?m=1773171968.348",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-were-bad-at-detecting-lies-according-to-scientists-and-the-traitors/",
+    "audio": "https://traffic.megaphone.fm/SAM9309941909.mp3"
+  },
+  {
+    "id": "1310725",
+    "title": "U.S. measles cases surge, AI powers wars, global warming is in a hurry",
+    "img": "https://static.scientificamerican.com/dam/m/15fac8e01c19da5f/original/2603_SQ_MON_MARCH_09.png?m=1772833220.873",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-measles-surge-ai-in-warfare-and-accelerated-global-warming/",
+    "audio": "https://traffic.megaphone.fm/SAM5319531884.mp3"
+  },
+  {
     "id": "1310709",
     "title": "Michael Pollan on why consciousness is a mystery\u2014and why protecting it matters",
     "img": "https://static.scientificamerican.com/dam/m/3cea041d2b20460c/original/2603_SQ_WED_MICHAEL_POLLAN.png?m=1772735739.543",
@@ -4215,6 +4236,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310761",
+  "1310742",
+  "1310725",
   "1310709",
   "1310687",
   "1310669",
