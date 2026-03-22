@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310839",
+    "title": "Andy Weir on Ryan Gosling, alien contact and the wild science of Project Hail Mary\n",
+    "img": "https://static.scientificamerican.com/dam/m/507f8946844c5924/original/2603_SQ_FRI_HAIL_MARY.png?m=1773942429.702",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-real-science-and-the-fun-fiction-behind-project-hail-mary/",
+    "audio": "https://traffic.megaphone.fm/SAM8626369014.mp3"
+  },
+  {
+    "id": "1310820",
+    "title": "Weight loss was just the beginning: How the GLP-1 story is evolving",
+    "img": "https://static.scientificamerican.com/dam/m/2fbb1bd57ca9d025/original/2603_SQ_WED_COMPOUNDED_DRUGS.png?m=1773776661.522",
+    "url": "https://www.scientificamerican.com/podcast/episode/beyond-weight-loss-how-the-glp-1-story-is-evolving/",
+    "audio": "https://traffic.megaphone.fm/SAM3815352598.mp3"
+  },
+  {
+    "id": "1310778",
+    "title": "Oil reserves tapped as nuclear assertions face pushback, warming fuels hail, and microbiome affects the brain",
+    "img": "https://static.scientificamerican.com/dam/m/2936f7039f663064/original/2603_SQ_MON_MARCH_16.png?m=1773427493.143",
+    "url": "https://www.scientificamerican.com/podcast/episode/oil-shock-nuclear-doubts-climate-change-driven-hail-and-new-insights-on-the/",
+    "audio": "https://traffic.megaphone.fm/SAM7126665513.mp3"
+  },
+  {
     "id": "1310761",
     "title": "The dark roots of RFK, Jr.\u2019s public health ideology",
     "img": "https://static.scientificamerican.com/dam/m/2177c47f1790239c/original/2603_SQ_FRI_RFK.png?m=1773349626.582",
@@ -4236,6 +4257,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310839",
+  "1310820",
+  "1310778",
   "1310761",
   "1310742",
   "1310725",
