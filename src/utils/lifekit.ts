@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5752408",
+    "title": "Don't get taken for a ride by your car insurer",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F59%2F29%2Fc651ec314ea5a176d1c0c9cb40c0%2F086c32a0-5c5f-401b-9820-b172eebca028.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5752408",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/42d164e8-234e-4af6-a5f3-ae14ef4aa062/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5749561",
+    "title": "Good vibes only? The science behind optimism and manifestation",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0b%2Fa4%2F219cda314c0592faf0afce4a660b%2Fd3920d31-9133-456b-bbab-8ab8e8981f79.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5749561",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/378b74a3-16bd-4b88-be6b-5f679c00cf56/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5745163",
     "title": "How to avoid this year's common tax scams",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3593x2021+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F23%2F197b909e4ee882ad6cff1cb64678%2F5235f454-2361-4b6c-b6cb-0a4281f6032a.jpg",
@@ -250,6 +264,13 @@ export const episodes = [
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2Fa8%2Fcce46d864c59bd06cba98a2e25a6%2Fe4f65392-34a8-44fa-999c-e09f33321f47.jpg",
     "url": "https://www.npr.org/transcripts/nx-s1-5609306",
     "audio": "https://chrt.fm/track/138C95/prfx.byspotify.com/e/play.podtrac.com/npr-510338/traffic.megaphone.fm/NPR3699104863.mp3"
+  },
+  {
+    "id": "nx-s1-5607309",
+    "title": "Dear Life Kit: I\u2019m sick of all this unwanted attention",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F20%2Fe8c6b090488ca3e55a036b007904%2F7970e7ae-3682-4630-beb2-0562bd74721d.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5607309",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/0cc6a4a3-835d-4c1e-92c3-646b05c8ac78/audio/128/default.mp3"
   },
   {
     "id": "nx-s1-5602078",
@@ -4026,6 +4047,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5752408",
+  "nx-s1-5749561",
   "nx-s1-5745163",
   "nx-s1-5742809",
   "nx-s1-5732973",
@@ -4062,6 +4085,7 @@ export const episodeIds = [
   "nx-s1-5619118",
   "nx-s1-5611009",
   "nx-s1-5609306",
+  "nx-s1-5607309",
   "nx-s1-5602078",
   "nx-s1-5599936",
   "nx-s1-5597043",
