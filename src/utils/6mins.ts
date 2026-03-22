@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260319__how_do_we_adapt_to_the_cold",
+    "title": "How do we adapt to the cold?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n5tw2m.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260319",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260319_6_minute_english_how_do_we_adapt_to_the_cold_download.mp3"
+  },
+  {
     "id": "260312_should_we_pay_more_for_chocolate",
     "title": "Should we pay more for chocolate?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n3pqfh.jpg",
@@ -4097,6 +4104,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260319__how_do_we_adapt_to_the_cold",
   "260312_should_we_pay_more_for_chocolate",
   "260305__why_are_some_animals_black_and_white",
   "260226__the_power_of_pepper",
