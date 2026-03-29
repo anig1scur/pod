@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310880",
+    "title": "The surprising science of pain can help you finally feel better",
+    "img": "https://static.scientificamerican.com/dam/m/32b9522a317ba910/original/2603_SQ_FRI_SCIENCE_PAIN.png?m=1774469687.584",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-truth-about-pain-that-your-doctor-might-not-tell-you/",
+    "audio": "https://traffic.megaphone.fm/SAM6174323237.mp3"
+  },
+  {
+    "id": "1310863",
+    "title": "Is AI solving proofs\u2014or just dividing our opinions?",
+    "img": "https://static.scientificamerican.com/dam/m/3d56ee804c234bf5/original/2603_SQ_WED_MATH_AI.png?m=1774292743.629",
+    "url": "https://www.scientificamerican.com/podcast/episode/can-ai-actually-solve-real-math-proofs-researchers-put-it-to-the-test/",
+    "audio": "https://traffic.megaphone.fm/SAM1319193764.mp3"
+  },
+  {
+    "id": "1310850",
+    "title": "Spring heat, a blow to RFK, Jr.\u2019s vaccine policy, lead in kids\u2019 clothes",
+    "img": "https://static.scientificamerican.com/dam/m/3557c42768a73913/original/2603_SQ_MON_MARCH_23.png?m=1774038209.608",
+    "url": "https://www.scientificamerican.com/podcast/episode/spring-heat-dome-a-blow-to-rfk-jr-s-health-agenda-spacex-starlink-milestone/",
+    "audio": "https://traffic.megaphone.fm/SAM2620188876.mp3"
+  },
+  {
     "id": "1310839",
     "title": "Andy Weir on Ryan Gosling, alien contact and the wild science of Project Hail Mary\n",
     "img": "https://static.scientificamerican.com/dam/m/507f8946844c5924/original/2603_SQ_FRI_HAIL_MARY.png?m=1773942429.702",
@@ -4257,6 +4278,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310880",
+  "1310863",
+  "1310850",
   "1310839",
   "1310820",
   "1310778",
