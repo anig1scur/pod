@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310929",
+    "title": "NASA\u2019s Artemis II mission sends astronauts\u2014and an upgraded space toilet\u2014around the moon",
+    "img": "https://static.scientificamerican.com/dam/asset/dd6156b2-53bc-44b0-83d0-75655a031925/2604_SQ_FRI_ARTEMIS.png?m=1775165292.1",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasas-artemis-ii-astronauts-put-spacecraft-systems-to-the-test-on-10-day/",
+    "audio": "https://traffic.megaphone.fm/SAM3403458627.mp3"
+  },
+  {
+    "id": "1310908",
+    "title": "The chin is an evolutionary puzzle. Researchers may have finally solved it",
+    "img": "https://static.scientificamerican.com/dam/asset/dbc1c704-0f3f-45f3-a517-ecc303f75608/2604_SQ_WED_CHINS.png?m=1774986230.028",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-do-we-have-chins-researchers-may-finally-know/",
+    "audio": "https://traffic.megaphone.fm/SAM1306031559.mp3"
+  },
+  {
+    "id": "1310894",
+    "title": "Nuclear spaceflight, Iran war\u2019s emissions crisis and a strong Lyme vaccine trial result",
+    "img": "https://static.scientificamerican.com/dam/m/419862d59451339/original/2603_SQ_MON_MARCH_30.png?m=1774636298.811",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasas-nuclear-mars-mission-iran-wars-carbon-emissions-surge-and-pfizers/",
+    "audio": "https://traffic.megaphone.fm/SAM7786978788.mp3"
+  },
+  {
     "id": "1310880",
     "title": "The surprising science of pain can help you finally feel better",
     "img": "https://static.scientificamerican.com/dam/m/32b9522a317ba910/original/2603_SQ_FRI_SCIENCE_PAIN.png?m=1774469687.584",
@@ -4278,6 +4299,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310929",
+  "1310908",
+  "1310894",
   "1310880",
   "1310863",
   "1310850",
