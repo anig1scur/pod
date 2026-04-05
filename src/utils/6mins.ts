@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260402__saunas",
+    "title": "Are saunas good for you?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nb1cbj.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260402",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260402_6_minute_english_saunas_download.mp3"
+  },
+  {
     "id": "260326__weight_loss_drugs_",
     "title": "Weight loss drugs",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n8fq0r.jpg",
@@ -4111,6 +4118,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260402__saunas",
   "260326__weight_loss_drugs_",
   "260319__how_do_we_adapt_to_the_cold",
   "260312_should_we_pay_more_for_chocolate",
