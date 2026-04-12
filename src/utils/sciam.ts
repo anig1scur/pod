@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1310982",
+    "title": "Alexis Hall talks space whales, AI and reinventing a classic",
+    "img": "https://static.scientificamerican.com/dam/asset/36312eb2-9c28-4004-ba2e-efdeac0e8db8/2604_SQ_WED_HELLS_HEART.png?m=1775585496.667",
+    "url": "https://www.scientificamerican.com/podcast/episode/this-sci-fi-twist-on-moby-dick-will-blow-your-mind/",
+    "audio": "https://traffic.megaphone.fm/SAM5946283473.mp3"
+  },
+  {
+    "id": "1310960",
+    "title": "Experts warn that communities underestimate measles\u2019 danger",
+    "img": "https://static.scientificamerican.com/dam/asset/0c03ef2c-8bc4-47c7-aace-7561cca5421b/2604_SQ_WED_MEASLES.png?m=1775575411.159",
+    "url": "https://www.scientificamerican.com/podcast/episode/health-experts-warn-of-rising-measles-cases-in-undervaccinated-communities/",
+    "audio": "https://traffic.megaphone.fm/SAM6256962750.mp3"
+  },
+  {
+    "id": "1310945",
+    "title": "NASA\u2019s Artemis II nears the moon, oil trumps endangered species, snowpack plummets",
+    "img": "https://static.scientificamerican.com/dam/asset/23d2a4d7-f943-46f6-84d6-666186d54c7f/2604_SQ_MON_APR_06.png?m=1775248887.68",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasas-artemis-ii-endangered-species-and-oil-low-western-u-s-snowpack/",
+    "audio": "https://traffic.megaphone.fm/SAM2728846810.mp3"
+  },
+  {
     "id": "1310929",
     "title": "NASA\u2019s Artemis II mission sends astronauts\u2014and an upgraded space toilet\u2014around the moon",
     "img": "https://static.scientificamerican.com/dam/asset/dd6156b2-53bc-44b0-83d0-75655a031925/2604_SQ_FRI_ARTEMIS.png?m=1775165292.1",
@@ -4299,6 +4320,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1310982",
+  "1310960",
+  "1310945",
   "1310929",
   "1310908",
   "1310894",
