@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5775865",
+    "title": "What it takes to get a book published",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F75%2F57759390445caf03b6c5def79231%2F228a4c53-e3c4-4f21-8076-e8670093b4cf.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5775865",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/b75f1e4a-6636-41ec-8a3f-de01ce58736d/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5773268",
+    "title": "Protein is personal. Here's how to calculate your optimal intake",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F55%2F96%2Fa7c4c4164329bb0651a63a714a82%2Ff6210ccc-14b0-4902-b29d-780d06885fc9.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5773268",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/aa4ced6b-00ae-4007-82b4-57198c47bc85/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5766186",
     "title": "How to get 'financially naked' with your partner",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F57%2Fef%2F8cf6d66e4c18b8472c669c7d7acd%2F8170174c-5a0a-43d5-b441-10934992fbf8.jpg",
@@ -4061,6 +4075,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5775865",
+  "nx-s1-5773268",
   "nx-s1-5766186",
   "nx-s1-5761457",
   "nx-s1-5752408",
