@@ -1,5 +1,5 @@
 import { FC, useEffect, useState, useRef } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import Header from '@/components/Header';
 import FillIn from '@/components/mode/FillIn';
 import Dictation from '@/components/mode/Dictation';
@@ -14,6 +14,8 @@ import { loadVocab, VocabType } from '@/utils/words';
 import Dropdown from '@/components/Dropdown';
 import { podType } from './list';
 import PdfExporter from '@/components/PdfExporter';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
 
 // for skip template intro audio
 const START_TIME_MAP = new Map<podType, number>([
@@ -109,9 +111,18 @@ const Episode: FC<episodeProps> = (props) => {
       <Header />
       <main className='mt-10'>
         <section className="meta">
-          <h1><a target='_blank' className='
-          hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block
-          ' href={ episodeData.url }>{ episodeData.title }</a></h1>
+          <div className='flex flex-wrap items-center justify-between gap-4'>
+            <h1><a target='_blank' className='
+            hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block
+            ' href={ episodeData.url }>{ episodeData.title }</a></h1>
+            <Link
+              to={ `/video/${ pid }/${ episodeIds[curIndex] }` }
+              className='rounded-full border-[3px] border-black px-5 py-2 text-lg font-semibold transition hover:-translate-y-0.5'
+            >
+              <FontAwesomeIcon icon={ faVideo } className='mr-2' />
+              Video preview
+            </Link>
+          </div>
           {/* FIXME: the start time of sciam is not regular */ }
           <Player
             duration={ episodeData.duration }

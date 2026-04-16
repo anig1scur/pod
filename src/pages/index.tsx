@@ -5,6 +5,7 @@ import SixMins from '@assets/6mins/logo.gif';
 import Tfts from '@assets/tfts/logo.webp';
 import Sciam from '@assets/sciam/logo.png';
 import Lifekit from '@assets/lifekit/lifekit.png';
+import RemotionDemo from '@assets/remotion-demo/ancestral-altar.jpg';
 
 
 interface PodcastCardProps {
@@ -72,6 +73,13 @@ const Index = () => {
             difficulty={ 4 }
             logoUrl={ Sciam }
           />
+          {/* <PodcastCard
+            href='/video/lifekit/1136051123'
+            title="Dynamic Video Demo"
+            description="Generate a browser-based podcast video page dynamically from any episode data, then preview it with bilingual cues and cover art."
+            difficulty={ 4 }
+            logoUrl={ RemotionDemo }
+          /> */}
 
         </div>
       </div>

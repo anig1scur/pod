@@ -161,10 +161,26 @@ const EpisodeList = () => {
           </div></div>
         <div className="episodes-grid">
           { currentEpisodes.map(episode => (
-            <Link key={ episode.id } to={ `${ episode.id }` } className='episode_card'>
-              <img src={ episode.img } alt={ episode.title } />
-              <div className="episode-title">{ episode.title }</div>
-            </Link>
+            <div key={ episode.id } className='episode_card'>
+              <Link to={ `${ episode.id }` }>
+                <img src={ episode.img } alt={ episode.title } />
+                <div className="episode-title">{ episode.title }</div>
+              </Link>
+              {/* <div className='px-3 pb-3 flex gap-2 flex-wrap'>
+                <Link
+                  to={ `${ episode.id }` }
+                  className='rounded-full border-[2px] border-black px-3 py-1 text-sm font-semibold'
+                >
+                  Read
+                </Link>
+                <Link
+                  to={ `/video/${ id }/${ episode.id }` }
+                  className='rounded-full border-[2px] border-black px-3 py-1 text-sm font-semibold bg-[#fff8ef]'
+                >
+                  Video
+                </Link>
+              </div> */}
+            </div>
           )) }
         </div>
         { renderPagination() }
