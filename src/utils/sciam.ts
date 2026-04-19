@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311047",
+    "title": "The dinosaurs at your window: How birds survived the asteroid that killed all other dinosaurs",
+    "img": "https://static.scientificamerican.com/dam/asset/edc776ce-2963-4bbc-b0a3-c2d87b26c2f9/2604_SQ_FRI_BIRDS_DINO.png?m=1776283083.435",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-birds-were-the-only-dinosaurs-to-survive-earths-worst-day/",
+    "audio": "https://traffic.megaphone.fm/SAM9121745440.mp3"
+  },
+  {
+    "id": "1311030",
+    "title": "The fans who went from collecting Pok\u00e9mon to studying bugs and fossils",
+    "img": "https://static.scientificamerican.com/dam/asset/d105be30-586d-401d-b076-765a8a8d0624/2604_SQ_WED_POKEMON.png?m=1776196691.313",
+    "url": "https://www.scientificamerican.com/podcast/episode/30-years-of-pokemon-how-the-japanese-franchise-mirrors-real-world-science/",
+    "audio": "https://traffic.megaphone.fm/SAM6797304907.mp3"
+  },
+  {
+    "id": "1310998",
+    "title": "Artemis proves NASA can return to the moon. Now comes the hard question: Why?",
+    "img": "https://static.scientificamerican.com/dam/asset/699255e1-7565-403b-a8b6-7525d22c382c/2604_SQ_MON_APR_13.png?m=1775857602.525",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-artemis-ii-mission-worked-but-should-we-really-keep-returning-to-the/",
+    "audio": "https://traffic.megaphone.fm/SAM8125773390.mp3"
+  },
+  {
     "id": "1310982",
     "title": "Alexis Hall talks space whales, AI and reinventing a classic",
     "img": "https://static.scientificamerican.com/dam/asset/36312eb2-9c28-4004-ba2e-efdeac0e8db8/2604_SQ_WED_HELLS_HEART.png?m=1775585496.667",
@@ -4320,6 +4341,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311047",
+  "1311030",
+  "1310998",
   "1310982",
   "1310960",
   "1310945",
