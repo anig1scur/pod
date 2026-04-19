@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5786894",
+    "title": "Don't rely only on anti-histamines this allergy season",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F96%2Fa540a26f4c00aa1a9f4a0ba8b94f%2F3047646c-7e18-42eb-b327-5d6433125a92.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5786894",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/cf5ee4e8-cd14-4cb1-a489-f9f56a1651b1/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5781308",
+    "title": "How to be a working parent? Lower your standards",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F83%2Fcb9737fb4a97a7880410ce411631%2Feba5b2c8-6667-4189-8141-58f19a5954ef.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5781308",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/59289977-9f30-4676-8934-de88d2ac0a48/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5775865",
     "title": "What it takes to get a book published",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F75%2F57759390445caf03b6c5def79231%2F228a4c53-e3c4-4f21-8076-e8670093b4cf.jpg",
@@ -4075,6 +4089,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5786894",
+  "nx-s1-5781308",
   "nx-s1-5775865",
   "nx-s1-5773268",
   "nx-s1-5766186",
