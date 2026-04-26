@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5791662",
+    "title": "Feeling drained? Here's how to lighten your mental load",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2Fc4%2F91a1eae040b58a04cd4402d97422%2F3c09a786-29fb-467a-8717-d3945dedae1f.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5791662",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/48931766-a9de-46fa-94a6-e35137c366a2/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5789099",
+    "title": "Make the most of a high-deductible health plan",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8e%2Fca%2F81e987064df491039fc92073b791%2F32fb06d5-d968-4172-a9a3-ee793f943024.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5789099",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/a9dbc348-6421-425a-9275-c94fc37adbd9/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5786894",
     "title": "Don't rely only on anti-histamines this allergy season",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F96%2Fa540a26f4c00aa1a9f4a0ba8b94f%2F3047646c-7e18-42eb-b327-5d6433125a92.jpg",
@@ -26,6 +40,13 @@ export const episodes = [
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F55%2F96%2Fa7c4c4164329bb0651a63a714a82%2Ff6210ccc-14b0-4902-b29d-780d06885fc9.jpg",
     "url": "https://www.npr.org/transcripts/nx-s1-5773268",
     "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/aa4ced6b-00ae-4007-82b4-57198c47bc85/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5770481",
+    "title": "Using AI chatbots can impact your teen's mental health. Here's what to do",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1901x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F06%2Fdd%2F6e8d4e544c7185f691ad4acf06ab%2F12d364cb-5fd9-4dea-b8f5-225e9a1aa8f4.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5770481",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/de290989-9da4-4a98-b97b-2f194300d865/audio/128/default.mp3"
   },
   {
     "id": "nx-s1-5766186",
@@ -4089,10 +4110,13 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5791662",
+  "nx-s1-5789099",
   "nx-s1-5786894",
   "nx-s1-5781308",
   "nx-s1-5775865",
   "nx-s1-5773268",
+  "nx-s1-5770481",
   "nx-s1-5766186",
   "nx-s1-5761457",
   "nx-s1-5752408",
