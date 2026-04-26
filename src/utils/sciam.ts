@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311099",
+    "title": "The global wildlife trade may be spreading diseases faster than ever",
+    "img": "https://static.scientificamerican.com/dam/asset/cca35cc1-c08e-4065-ab7a-a86d5ed98a40/2604_SQ_FRI_WILDLIFE.png?m=1776972309.838",
+    "url": "https://www.scientificamerican.com/podcast/episode/from-pet-stores-to-pandemics-how-wildlife-trade-helps-diseases-jump-to-humans/",
+    "audio": "https://traffic.megaphone.fm/SAM4032231728.mp3"
+  },
+  {
+    "id": "1311079",
+    "title": "Amid climate doom, here\u2019s an Earth Day reminder about spectacular environmental wins",
+    "img": "https://static.scientificamerican.com/dam/asset/aee592a7-43c9-4fa1-8f1e-4415d75f498b/2604_SQ_WED_EARTH_DAY.png?m=1776800294.334",
+    "url": "https://www.scientificamerican.com/podcast/episode/this-earth-day-three-experts-share-tips-on-how-to-feel-hopeful-about-the-environment/",
+    "audio": "https://traffic.megaphone.fm/SAM1317623746.mp3"
+  },
+  {
+    "id": "1311061",
+    "title": "\u2018Cocaine hippos,\u2019 faster aging with HIV and the hidden dangers of inflammation",
+    "img": "https://static.scientificamerican.com/dam/asset/243839cc-f0cb-4212-9dcc-305dcf0a018c/2604_SQ_MON_APR_20.png?m=1776445298.903",
+    "url": "https://www.scientificamerican.com/podcast/episode/cocaine-hippos-raise-tough-questions-and-scientists-uncover-insights-on-faster-aging-and-heart-risks/",
+    "audio": "https://traffic.megaphone.fm/SAM7746661547.mp3"
+  },
+  {
     "id": "1311047",
     "title": "The dinosaurs at your window: How birds survived the asteroid that killed all other dinosaurs",
     "img": "https://static.scientificamerican.com/dam/asset/edc776ce-2963-4bbc-b0a3-c2d87b26c2f9/2604_SQ_FRI_BIRDS_DINO.png?m=1776283083.435",
@@ -4341,6 +4362,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311099",
+  "1311079",
+  "1311061",
   "1311047",
   "1311030",
   "1310998",
