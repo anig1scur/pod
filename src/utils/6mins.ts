@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260423__why_are_we_all_so_stressed",
+    "title": "Why are we all so stressed?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n8wsks.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260423",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260423_6_minute_english_why_are_we_all_so_stressed_download.mp3"
+  },
+  {
     "id": "260416_love_the_foods_you_hate",
     "title": "ove the foods you hate",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n65603.jpg",
@@ -4132,6 +4139,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260423__why_are_we_all_so_stressed",
   "260416_love_the_foods_you_hate",
   "260409__the_future_of_food",
   "260402__saunas",
