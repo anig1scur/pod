@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311146",
+    "title": "Inside the ibogaine rush: How psychedelic therapy is going mainstream",
+    "img": "https://static.scientificamerican.com/dam/asset/30b6bc17-f1b2-4121-9560-99feb4e5d5a7/2605_SQ_FRI_PSYCHEDELICS.jpeg?m=1777581849.619",
+    "url": "https://www.scientificamerican.com/podcast/episode/trump-ibogaine-and-the-science-behind-the-psychedelics-boom-in-the-u-s/",
+    "audio": "https://traffic.megaphone.fm/SAM2367139535.mp3"
+  },
+  {
+    "id": "1311130",
+    "title": "How Star Trek, Missy Elliott and queer theory help explain the deepest questions in physics\n",
+    "img": "https://static.scientificamerican.com/dam/asset/092b716f-18f7-441d-b9fc-ba5166a717bb/2605_SQ_FRI_CHANDA_BOOK.png?m=1777402046.813",
+    "url": "https://www.scientificamerican.com/podcast/episode/chanda-prescod-weinstein-connects-physics-poetry-and-pop-culture/",
+    "audio": "https://traffic.megaphone.fm/SAM3420646905.mp3"
+  },
+  {
+    "id": "1311116",
+    "title": "Organic molecules on Mars, good news about suicide hotline, the AI voice clone advantage",
+    "img": "https://static.scientificamerican.com/dam/asset/e75b08cf-7f67-4f05-bff2-d92a94279878/2604_SQ_MON_APR_27.png?m=1777055307.953",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasa-curiosity-discovery-suicide-hotline-hope-the-ai-voice-clone-upper-hand/",
+    "audio": "https://traffic.megaphone.fm/SAM2995633888.mp3"
+  },
+  {
     "id": "1311099",
     "title": "The global wildlife trade may be spreading diseases faster than ever",
     "img": "https://static.scientificamerican.com/dam/asset/cca35cc1-c08e-4065-ab7a-a86d5ed98a40/2604_SQ_FRI_WILDLIFE.png?m=1776972309.838",
@@ -4362,6 +4383,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311146",
+  "1311130",
+  "1311116",
   "1311099",
   "1311079",
   "1311061",
