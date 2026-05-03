@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260430__should_we_eat_ultra_processed_food",
+    "title": "Should we eat ultra-processed food?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nds5wl.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260430",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260430_6_minute_english_should_we_eat_ultra_processed_food_download.mp3"
+  },
+  {
     "id": "260423__why_are_we_all_so_stressed",
     "title": "Why are we all so stressed?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0n8wsks.jpg",
@@ -4139,6 +4146,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260430__should_we_eat_ultra_processed_food",
   "260423__why_are_we_all_so_stressed",
   "260416_love_the_foods_you_hate",
   "260409__the_future_of_food",
