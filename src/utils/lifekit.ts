@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5800878",
+    "title": "Explosive power: exercises to boost mobility and prevent injury",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8a%2F9e%2F18e7eda94abb9830af817eb85063%2Fc7327c96-2f83-4d21-9633-5acce86c1236.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5800878",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/3dbca685-aa3e-426f-bfe2-2eda160eb15f/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5798951",
+    "title": "You don't have to use dating apps. But if you do - some tips!",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2048x1152+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F32%2F045d84d0403292c46ed6b8c167b4%2F9ea92331-dd43-4103-b8fb-7a45b37cdd9c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5798951",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/af85b627-ade1-48e6-a670-ec576ed87158/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5791662",
     "title": "Feeling drained? Here's how to lighten your mental load",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2Fc4%2F91a1eae040b58a04cd4402d97422%2F3c09a786-29fb-467a-8717-d3945dedae1f.jpg",
@@ -4110,6 +4124,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5800878",
+  "nx-s1-5798951",
   "nx-s1-5791662",
   "nx-s1-5789099",
   "nx-s1-5786894",
