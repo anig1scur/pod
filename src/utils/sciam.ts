@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311193",
+    "title": "\u2018Wolverine\u2019 stack, \u2018peptide parties,\u2019 \u2018biohacking\u2019: Is the peptide craze backed by science?",
+    "img": "https://static.scientificamerican.com/dam/asset/a372350e-f111-451d-a733-fdb6e93f3445/2605_SQ_FRI_PEPTIDES.jpeg?m=1778179684.941",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-science-behind-social-medias-peptide-obsession/",
+    "audio": "https://traffic.megaphone.fm/SAM2380770088.mp3"
+  },
+  {
+    "id": "1311176",
+    "title": "What happens when you let AI agents run an entire start-up",
+    "img": "https://static.scientificamerican.com/dam/asset/956ce5a6-5aa5-4cd2-b933-188472eb20a6/2605_SQ_WED_AI_AGENT.png?m=1777999274.641",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-are-ai-agents-inside-a-real-experiment-where-ai-ran-a-start-up/",
+    "audio": "https://traffic.megaphone.fm/SAM5316961334.mp3"
+  },
+  {
+    "id": "1311158",
+    "title": "Scorpion stingers with metals, preeclampsia hope, more cuts to U.S. wind energy",
+    "img": "https://static.scientificamerican.com/dam/asset/70d794cf-805c-4427-99c6-dc46047f1692/2605_SQ_MON_MAY_04.jpeg?m=1777666357.815",
+    "url": "https://www.scientificamerican.com/podcast/episode/metallic-scorpion-stingers-preeclampsia-hope-canceled-wind-energy-projects/",
+    "audio": "https://traffic.megaphone.fm/SAM3518440128.mp3"
+  },
+  {
     "id": "1311146",
     "title": "Inside the ibogaine rush: How psychedelic therapy is going mainstream",
     "img": "https://static.scientificamerican.com/dam/asset/30b6bc17-f1b2-4121-9560-99feb4e5d5a7/2605_SQ_FRI_PSYCHEDELICS.jpeg?m=1777581849.619",
@@ -4383,6 +4404,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311193",
+  "1311176",
+  "1311158",
   "1311146",
   "1311130",
   "1311116",
