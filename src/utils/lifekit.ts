@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5821628",
+    "title": "Are there 'forever chemicals' in your drinking water?",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2F51%2Fdc0d4750415abd2b73957e1acab1%2F1ffe92b5-5431-4ab1-bf20-81972a982377.png",
+    "url": "https://www.npr.org/transcripts/nx-s1-5821628",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/8e2f1260-0891-45b3-a3ad-cd9781907faf/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5818440",
+    "title": "Secrets to a successful couple's trip",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0a%2F76%2Fa7310e43468b8a053c686d439221%2F82331090-525d-4443-93a2-b4697c1b3e32.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5818440",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/b7f810e9-3165-40cb-b059-9dbb7738d32b/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5816219",
+    "title": "5 tips to help you poop better",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa2%2F8f%2F068bc6174fc5a574f84b92c57b20%2F8d708fb9-128b-4832-a414-c79b0f9a80dd.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5816219",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/80abf2b4-46b5-49d8-807c-723f1d9613c6/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5814146",
     "title": "Unsure which retirement account to choose? We have some tips",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F90%2F98%2F0bfb2aa44d69a368a04fc0b51b12%2F7250e481-c5fe-4602-8b92-a14c1bc943ef.jpg",
@@ -4131,6 +4152,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5821628",
+  "nx-s1-5818440",
+  "nx-s1-5816219",
   "nx-s1-5814146",
   "nx-s1-5800878",
   "nx-s1-5798951",
