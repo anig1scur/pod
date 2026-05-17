@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311252",
+    "title": "Black women\u2019s \u2018womb crisis\u2019 extends far beyond maternal mortality",
+    "img": "https://static.scientificamerican.com/dam/asset/f5c76817-293f-4590-a151-0b2a46a211a7/2605_SQ_FRI_KEMI_DOLL.png?m=1778793703.811",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-black-women-are-at-greater-risk-for-fibroids-and-endometrial-cancer/",
+    "audio": "https://traffic.megaphone.fm/SAM4383048659.mp3"
+  },
+  {
+    "id": "1311227",
+    "title": "Why everyone is obsessed with protein\u2014and whether you actually need more",
+    "img": "https://static.scientificamerican.com/dam/asset/729deaae-5f0d-4bdb-ac53-712a86cf8c70/2605_SQ_WED_PROTEIN.png?m=1778618998.715",
+    "url": "https://www.scientificamerican.com/podcast/episode/do-you-need-more-protein-what-science-says-about-high-protein-diets/",
+    "audio": "https://traffic.megaphone.fm/SAM3605665507.mp3"
+  },
+  {
+    "id": "1311208",
+    "title": "Hantavirus outbreak occurs at sea, microplastics may contribute to warming, and Alaska landslide sparks tsunami",
+    "img": "https://static.scientificamerican.com/dam/asset/aa51f1dc-6019-44d5-8207-ab164f7c7878/2605_SQ_MON_MAY_11.png?m=1778269837.675",
+    "url": "https://www.scientificamerican.com/podcast/episode/hantavirus-cruise-ship-outbreak-risk-of-microplastics-caused-climate-warming-and-alaska-landslide-tsunami/",
+    "audio": "https://traffic.megaphone.fm/SAM5200939797.mp3"
+  },
+  {
     "id": "1311193",
     "title": "\u2018Wolverine\u2019 stack, \u2018peptide parties,\u2019 \u2018biohacking\u2019: Is the peptide craze backed by science?",
     "img": "https://static.scientificamerican.com/dam/asset/a372350e-f111-451d-a733-fdb6e93f3445/2605_SQ_FRI_PEPTIDES.jpeg?m=1778179684.941",
@@ -4404,6 +4425,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311252",
+  "1311227",
+  "1311208",
   "1311193",
   "1311176",
   "1311158",
