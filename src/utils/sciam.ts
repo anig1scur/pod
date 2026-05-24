@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311320",
+    "title": "This researcher made up a disease to test AI. It failed miserably",
+    "img": "https://static.scientificamerican.com/dam/asset/6a58a5d0-14b3-4578-ae09-d10478612c47/2605_SQ_FRI_AI_DISEASE.png?m=1779301200.097",
+    "url": "https://www.scientificamerican.com/podcast/episode/bixonimania-the-fake-illness-that-ai-fell-for/",
+    "audio": "https://traffic.megaphone.fm/SAM1356681845.mp3"
+  },
+  {
+    "id": "1311300",
+    "title": "Putting a nuclear reactor on the moon: big promise, bigger challenges",
+    "img": "https://static.scientificamerican.com/dam/asset/115bb9d5-4230-4c48-9eea-8bdaae84da5c/2605_SQ_WED_NUCLEAR_SPACE.png?m=1779296904.031",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasas-plan-for-a-nuclear-reactor-on-the-moon-could-change-space-exploration-forever-if-it-works/",
+    "audio": "https://traffic.megaphone.fm/SAM9766301891.mp3"
+  },
+  {
+    "id": "1311266",
+    "title": "Hantavirus outbreak has new updates, PCOS is now PMOS, fish hides in another animal\u2019s \u2018butthole\u2019",
+    "img": "https://static.scientificamerican.com/dam/asset/f10cf52c-cbd2-4ec5-8bf4-f67a45c659f9/2605_SQ_MON_MAY_18.png?m=1779298571.764",
+    "url": "https://www.scientificamerican.com/podcast/episode/hantavirus-cruise-ship-pcos-name-change-a-fish-that-hides-in-another-animals-butthole/",
+    "audio": "https://traffic.megaphone.fm/SAM6733318457.mp3"
+  },
+  {
     "id": "1311252",
     "title": "Black women\u2019s \u2018womb crisis\u2019 extends far beyond maternal mortality",
     "img": "https://static.scientificamerican.com/dam/asset/f5c76817-293f-4590-a151-0b2a46a211a7/2605_SQ_FRI_KEMI_DOLL.png?m=1778793703.811",
@@ -4425,6 +4446,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311320",
+  "1311300",
+  "1311266",
   "1311252",
   "1311227",
   "1311208",
