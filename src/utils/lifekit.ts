@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5829131",
+    "title": "Why you should kill your lawn",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2Fe6%2F3bd6d56d4d2f962b192334c45663%2F8857b45f-4af1-4d51-82a7-1b1abed0a5f2.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5829131",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/e70ec549-1e5a-484e-a94b-266e85c33dec/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5826128",
+    "title": "The dos and don'ts of baby talk",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1069+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F44%2Ff1081e914c7eb3d47b1a2ac336c2%2Ff932d348-07a8-41d5-b956-8fca230a411c.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5826128",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/bc37e705-cfc3-4df0-9c8c-46714bec9f7b/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5821628",
     "title": "Are there 'forever chemicals' in your drinking water?",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2F51%2Fdc0d4750415abd2b73957e1acab1%2F1ffe92b5-5431-4ab1-bf20-81972a982377.png",
@@ -4152,6 +4166,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5829131",
+  "nx-s1-5826128",
   "nx-s1-5821628",
   "nx-s1-5818440",
   "nx-s1-5816219",
