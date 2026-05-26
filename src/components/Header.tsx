@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from '@/components/Logo';
 import Dialog from '@/components/Dialog';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuestionCircle, faStar, faHistory } from '@fortawesome/free-solid-svg-icons';
+import { faQuestionCircle, faStar, faClockRotateLeft } from '@fortawesome/free-solid-svg-icons';
 import { getHistory, getFavorites } from '@/utils/storage';
 import { Link } from 'react-router-dom';
 
@@ -24,8 +24,8 @@ const About = () => {
         <h3>POD ! 的词汇表有哪些？</h3>
         <p>
           Pod 的词汇表取自网络，包括
-          <a href='https://github.com/anig1scur/CEFR-Vocabulary-List/' target='_blank'>CEFR</a>,
-          <a href='https://www.eapfoundation.com/vocab/academic/awllists/' target='_blank'>AWL</a>,
+          <a href='https://github.com/anig1scur/CEFR-Vocabulary-List/' target='_blank'>CEFR</a>,{' '}
+          <a href='https://www.eapfoundation.com/vocab/academic/awllists/' target='_blank'>AWL</a>,{' '}
           <a href='https://www.vocabulary.com/lists/128536' target='_blank'>GRE 5000</a>,
           以及 GRE Manhattan / Mason 系列词汇表。
         </p>
@@ -36,7 +36,7 @@ const About = () => {
           点击右上角的 <a href='https://github.com/anig1scur/pod/' className='github bg-black mx-1'></a> 进入 GitHub 仓库，点击 Issues 提交。
         </p>
       </li>
-    </ul>
+    </ul>;
 };
 
 const HistoryPanel = () => {
@@ -116,11 +116,11 @@ const Header = () => {
           onCancel={ () => setShowFavorites(false) }
         />
 
-        {/* History */}
+        {/* History — faClockRotateLeft is the FA v6 name for the old faHistory */}
         <FontAwesomeIcon
           title='play history'
           className='cursor-pointer w-5 h-5 mx-2'
-          icon={ faHistory }
+          icon={ faClockRotateLeft }
           onClick={ () => setShowHistory(true) }
         />
         <Dialog

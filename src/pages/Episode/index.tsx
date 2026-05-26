@@ -15,8 +15,7 @@ import Dropdown from '@/components/Dropdown';
 import { podType } from './list';
 import PdfExporter from '@/components/PdfExporter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faVideo, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
-import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
+import { faVideo, faStar } from '@fortawesome/free-solid-svg-icons';
 import { addHistory, toggleFavorite, isFavorite } from '@/utils/storage';
 
 // for skip template intro audio
@@ -134,14 +133,14 @@ const Episode: FC<episodeProps> = (props) => {
               </a>
             </h1>
             <div className='flex items-center gap-2 flex-shrink-0'>
-              {/* Favorite toggle */}
+              {/* Favorite toggle — solid star, dimmed when not favorited */}
               <button
                 title={ favorited ? 'Remove from favorites' : 'Add to favorites' }
                 onClick={ handleFavoriteToggle }
                 className='rounded-full border-[3px] border-black px-3 py-1 text-base font-semibold transition hover:-translate-y-0.5 bg-white h-auto'
-                style={ { color: favorited ? '#D93D86' : 'inherit' } }
+                style={ { color: favorited ? '#D93D86' : '#aaa' } }
               >
-                <FontAwesomeIcon icon={ favorited ? faStarSolid : faStarRegular } />
+                <FontAwesomeIcon icon={ faStar } />
               </button>
               {/* Video preview */}
               <Link
