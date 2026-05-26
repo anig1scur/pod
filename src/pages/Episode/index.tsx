@@ -15,7 +15,9 @@ import Dropdown from '@/components/Dropdown';
 import { podType } from './list';
 import PdfExporter from '@/components/PdfExporter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faVideo, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
+import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
+import { addHistory, toggleFavorite, isFavorite } from '@/utils/storage';
 
 // for skip template intro audio
 const START_TIME_MAP = new Map<podType, number>([
@@ -37,6 +39,7 @@ const Episode: FC<episodeProps> = (props) => {
   const [curIndex, setCurIndex] = useState<number>(episodeIds.indexOf(eid) < 0 ? 0 : episodeIds.indexOf(eid));
   const [curVocab, setCurVocab] = useState<VocabType>(VocabType.AWL_570);
   const [words, setWords] = useState<Set<string>>(new Set());
+  const [favorited, setFavorited] = useState<boolean>(false);
   const waveFormRef = useRef<WaveFormHandle>(null);
 
   useEffect(() => {
@@ -97,8 +100,18 @@ const Episode: FC<episodeProps> = (props) => {
   useEffect(() => {
     if (episodeData) {
       document.title = episodeData.title;
+      // Record play history
+      addHistory({ pid, eid: episodeIds[curIndex], title: episodeData.title });
+      // Sync favorite state
+      setFavorited(isFavorite(`${ pid }:${ episodeIds[curIndex] }`));
     }
   }, [episodeData]);
+
+  const handleFavoriteToggle = () => {
+    const key = `${ pid }:${ episodeIds[curIndex] }`;
+    const added = toggleFavorite(key);
+    setFavorited(added);
+  };
 
   if (!episodeData) {
     return null;
@@ -109,21 +122,43 @@ const Episode: FC<episodeProps> = (props) => {
   return (
     <div className="episode">
       <Header />
-      <main className='mt-10'>
+      <main className='mt-6'>
         <section className="meta">
-          <div className='flex flex-wrap items-center justify-between gap-4'>
-            <h1><a target='_blank' className='
-            hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-2 inline-block
-            ' href={ episodeData.url }>{ episodeData.title }</a></h1>
-            <Link
-              to={ `/video/${ pid }/${ episodeIds[curIndex] }` }
-              className='rounded-full border-[3px] border-black px-5 py-2 text-lg font-semibold transition hover:-translate-y-0.5'
-            >
-              <FontAwesomeIcon icon={ faVideo } className='mr-2' />
-              Video preview
-            </Link>
+          {/* Title row */}
+          <div className='flex flex-wrap items-start justify-between gap-3 mb-2'>
+            <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight'>
+              <a
+                target='_blank'
+                className='hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-1 inline-block'
+                href={ episodeData.url }
+              >
+                { episodeData.title }
+              </a>
+            </h1>
+            {/* Action buttons */}
+            <div className='flex items-center gap-2 flex-shrink-0'>
+              {/* Favorite toggle */}
+              <button
+                title={ favorited ? 'Remove from favorites' : 'Add to favorites' }
+                onClick={ handleFavoriteToggle }
+                className='rounded-full border-[3px] border-black px-3 py-1 text-base font-semibold transition hover:-translate-y-0.5 bg-white h-auto'
+                style={ { color: favorited ? '#D93D86' : 'inherit' } }
+              >
+                <FontAwesomeIcon icon={ favorited ? faStarSolid : faStarRegular } />
+              </button>
+              {/* Video preview */}
+              <Link
+                to={ `/video/${ pid }/${ episodeIds[curIndex] }` }
+                className='rounded-full border-[3px] border-black px-4 py-1 text-base font-semibold transition hover:-translate-y-0.5'
+              >
+                <FontAwesomeIcon icon={ faVideo } className='mr-1' />
+                <span className='hidden sm:inline'>Video</span>
+              </Link>
+            </div>
           </div>
-          {/* FIXME: the start time of sciam is not regular */ }
+
+          {/* Player – always present with play button in .control */}
+          {/* FIXME: the start time of sciam is not regular */}
           <Player
             duration={ episodeData.duration }
             waveFormRef={ waveFormRef }
