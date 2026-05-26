@@ -24,7 +24,7 @@
   #root {
     padding: 10px 10% 0 10%;
     @media (max-width: 768px) {
-        padding: 10px 16px 0 16px;
+        padding: 10px 12px 0 12px;
       }
   }
 }
@@ -66,13 +66,14 @@
   }
 
   .player {
-    @apply border-[3px] border-black rounded-lg p-4 flex gap-1 flex-col;
+    @apply border-[3px] border-black rounded-lg p-3 flex gap-1 flex-col;
 
     .control {
-      @apply flex items-center gap-4 mt-4;
+      @apply flex items-center gap-2 sm:gap-4 mt-3;
 
       >div {
-        @apply w-8 h-8 bg-contain bg-no-repeat bg-center cursor-pointer;
+        /* Slightly smaller on mobile, standard on sm+ */
+        @apply w-7 h-7 sm:w-8 sm:h-8 bg-contain bg-no-repeat bg-center cursor-pointer flex-shrink-0;
       }
 
       .last {
@@ -104,12 +105,13 @@
         background-image: url("/icons/forward.svg");
       }
 
+      /* Hide the next-episode title label on very small screens */
       .title {
-        @apply w-full px-3 leading-8 text-ellipsis cursor-text text-left text-nowrap overflow-hidden bg-black text-white rounded-lg;
+        @apply hidden sm:block w-full px-3 leading-8 text-ellipsis cursor-text text-left text-nowrap overflow-hidden bg-black text-white rounded-lg;
       }
 
       .progress {
-        @apply flex w-32 justify-between items-center
+        @apply flex w-24 sm:w-32 justify-between items-center text-sm sm:text-base;
       }
     }
   }
@@ -268,7 +270,8 @@
   }
 
   header {
-    @apply h-28 flex w-full justify-between items-center;
+    /* Compact on mobile */
+    @apply h-20 sm:h-28 flex w-full justify-between items-center;
   }
 
   h1 {
@@ -285,7 +288,7 @@
         }
       
         @media (max-width: 768px) {
-          @apply flex-wrap gap-8;
+          @apply flex-wrap gap-6;
         }
 
       .meta {
@@ -379,11 +382,15 @@
         grid-template-columns: repeat(2, 1fr);
       }
     
+      /* 2-column on mobile for more compact density */
       @media (max-width: 640px) {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
       }
+
     .episode_card img {
-      @apply h-56 w-full object-cover rounded-lg;
+      /* Shorter on mobile */
+      @apply h-32 sm:h-56 w-full object-cover rounded-lg;
       cursor: pointer;
       display: flex;
       flex-direction: column;
@@ -396,8 +403,11 @@
     }
 
     .episode-title {
-      margin-top: 8px;
-      font-size: 17px;
+      margin-top: 6px;
+      font-size: 14px;
+      @media (min-width: 640px) {
+        font-size: 17px;
+      }
       font-weight: bold;
     }
   }
@@ -406,16 +416,24 @@
 .pagination {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
   margin-top: 20px;
 
   button {
-    padding: 10px 20px;
-    margin: 0 5px;
+    padding: 8px 14px;
+    @media (min-width: 640px) {
+      padding: 10px 20px;
+    }
+    margin: 0 2px;
     border: none;
     background-color: black;
     color: white;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
+    @media (min-width: 640px) {
+      font-size: 16px;
+    }
 
     &.active,
     &:hover {
