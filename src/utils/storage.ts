@@ -1,17 +1,28 @@
-// localStorage utility for play history and favorites
+/**
+ * storage.ts — lightweight localStorage helpers for play history & favorites.
+ * No external dependencies. All data is stored locally in the browser.
+ */
 
-const HISTORY_KEY = 'pod_history';
+const HISTORY_KEY = 'pod_play_history';
 const FAVORITES_KEY = 'pod_favorites';
 const MAX_HISTORY = 50;
+
+// ─── Types ────────────────────────────────────────────────────────────────────
 
 export type HistoryEntry = {
   pid: string;
   eid: string;
   title: string;
-  playedAt: string; // ISO timestamp
+  playedAt: number; // Unix ms timestamp
 };
 
-// ── Play History ─────────────────────────────────────────────────────────────
+export type FavoriteEntry = {
+  key: string;   // "pid:eid"
+  title: string;
+  addedAt: number;
+};
+
+// ─── History ──────────────────────────────────────────────────────────────────
 
 export function getHistory(): HistoryEntry[] {
   try {
@@ -22,15 +33,20 @@ export function getHistory(): HistoryEntry[] {
 }
 
 export function addHistory(entry: Omit<HistoryEntry, 'playedAt'>): void {
-  const history = getHistory().filter(h => !(h.pid === entry.pid && h.eid === entry.eid));
-  history.unshift({ ...entry, playedAt: new Date().toISOString() });
-  if (history.length > MAX_HISTORY) history.length = MAX_HISTORY;
-  localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  try {
+    let history = getHistory();
+    history = history.filter(h => !(h.pid === entry.pid && h.eid === entry.eid));
+    history.unshift({ ...entry, playedAt: Date.now() });
+    if (history.length > MAX_HISTORY) history = history.slice(0, MAX_HISTORY);
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch {
+    // ignore storage errors
+  }
 }
 
-// ── Favorites ────────────────────────────────────────────────────────────────
+// ─── Favorites ────────────────────────────────────────────────────────────────
 
-export function getFavorites(): string[] {
+export function getFavorites(): FavoriteEntry[] {
   try {
     return JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]');
   } catch {
@@ -38,24 +54,27 @@ export function getFavorites(): string[] {
   }
 }
 
-/**
- * Toggle a favorite by its key (format: "pid:eid").
- * Returns true if the item was added, false if removed.
- */
-export function toggleFavorite(key: string): boolean {
-  const favs = getFavorites();
-  const idx = favs.indexOf(key);
-  if (idx >= 0) {
-    favs.splice(idx, 1);
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs));
-    return false;
-  } else {
-    favs.unshift(key);
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs));
-    return true;
-  }
+export function isFavorite(key: string): boolean {
+  return getFavorites().some(f => f.key === key);
 }
 
-export function isFavorite(key: string): boolean {
-  return getFavorites().includes(key);
+/**
+ * Toggle a favorite. Returns true if ADDED, false if REMOVED.
+ */
+export function toggleFavorite(key: string, title = ''): boolean {
+  try {
+    const favorites = getFavorites();
+    const idx = favorites.findIndex(f => f.key === key);
+    if (idx >= 0) {
+      favorites.splice(idx, 1);
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+      return false;
+    } else {
+      favorites.unshift({ key, title, addedAt: Date.now() });
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+      return true;
+    }
+  } catch {
+    return false;
+  }
 }

@@ -47,7 +47,6 @@ const Episode: FC<episodeProps> = (props) => {
       const fetchedWords = await loadVocab(curVocab || 'C1');
       setWords(new Set(fetchedWords));
     };
-
     fetchWords();
   }, [curVocab]);
 
@@ -74,7 +73,7 @@ const Episode: FC<episodeProps> = (props) => {
 
   useEffect(() => {
     if (episodeIds.length > 0) {
-      navigate(`/${ pid }/${ episodeIds[curIndex] }`)
+      navigate(`/${ pid }/${ episodeIds[curIndex] }`);
     }
   }, [curIndex]);
 
@@ -94,7 +93,6 @@ const Episode: FC<episodeProps> = (props) => {
         setAudioUrl(episodeData.audio.replace("http://", "https://"));
       });
     }
-
   }, [curIndex, episodeData, pid]);
 
   useEffect(() => {
@@ -109,7 +107,7 @@ const Episode: FC<episodeProps> = (props) => {
 
   const handleFavoriteToggle = () => {
     const key = `${ pid }:${ episodeIds[curIndex] }`;
-    const added = toggleFavorite(key);
+    const added = toggleFavorite(key, episodeData?.title || key);
     setFavorited(added);
   };
 
@@ -117,16 +115,16 @@ const Episode: FC<episodeProps> = (props) => {
     return null;
   }
 
-  const PDF = <PdfExporter id={ eid } scripts={ episodeData.transcript } words={ words } title={ episodeData.title } mode={ mode } />
+  const PDF = <PdfExporter id={ eid } scripts={ episodeData.transcript } words={ words } title={ episodeData.title } mode={ mode } />;
 
   return (
     <div className="episode">
       <Header />
       <main className='mt-6'>
         <section className="meta">
-          {/* Title row */}
+          {/* Title + action buttons */}
           <div className='flex flex-wrap items-start justify-between gap-3 mb-2'>
-            <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight'>
+            <h1 className='text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight mb-0'>
               <a
                 target='_blank'
                 className='hover:outline-dashed hover:outline-[#D93D86] hover:outline-4 pb-1 inline-block'
@@ -135,7 +133,6 @@ const Episode: FC<episodeProps> = (props) => {
                 { episodeData.title }
               </a>
             </h1>
-            {/* Action buttons */}
             <div className='flex items-center gap-2 flex-shrink-0'>
               {/* Favorite toggle */}
               <button
@@ -157,7 +154,6 @@ const Episode: FC<episodeProps> = (props) => {
             </div>
           </div>
 
-          {/* Player – always present with play button in .control */}
           {/* FIXME: the start time of sciam is not regular */}
           <Player
             duration={ episodeData.duration }
@@ -167,11 +163,9 @@ const Episode: FC<episodeProps> = (props) => {
             peaks={ episodeData.wave_peaks }
             last={ episodeIds[curIndex - 1] }
             next={ episodeIds[curIndex + 1] }
-            toLast={ () => {
-              setCurIndex(curIndex - 1);
-            } } toNext={ () => {
-              setCurIndex(curIndex + 1);
-            } } />
+            toLast={ () => { setCurIndex(curIndex - 1); } }
+            toNext={ () => { setCurIndex(curIndex + 1); } }
+          />
           <Info vocab={ episodeData.vocab } intro={ episodeData.intro } />
         </section>
         <section className="pro">
@@ -182,25 +176,20 @@ const Episode: FC<episodeProps> = (props) => {
           {
             (() => {
               const { authors, transcript } = episodeData;
-
               const hideAuthor = authors.length <= 1 || groupBy(transcript, 'author').size <= 1;
-              const props = {
+              const modeProps = {
                 fragments: episodeData.fragments,
                 scripts: episodeData.transcript,
                 words: words,
                 displayAuthor: !hideAuthor,
                 audioRef: waveFormRef,
                 pdfBtn: PDF,
-              }
+              };
               switch (mode) {
-                case Mode.F:
-                  return <FillIn { ...props } />;
-                case Mode.D:
-                  return <Dictation { ...props } />;
-                case Mode.R:
-                  return <Read { ...props } />;
-                default:
-                  return null;
+                case Mode.F: return <FillIn { ...modeProps } />;
+                case Mode.D: return <Dictation { ...modeProps } />;
+                case Mode.R: return <Read { ...modeProps } />;
+                default: return null;
               }
             })()
           }
