@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "nx-s1-5836651",
+    "title": "Gold is having a moment. Is now the time to invest?",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F04%2Fc1%2Ff81317544ac5810b08c15a1909eb%2Fee402b14-ad7e-4651-bd3c-3f81c8fc8073.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5836651",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/7a772ece-0aea-4f2a-a6c5-c37343698df0/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5831621",
+    "title": "On the fence about parenthood? Listen to this",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6c%2F26%2F75590cdd4a49a0224ef37d181505%2Fdb52fe48-02f9-41c3-8261-3d34ab80d212.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5831621",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/7426be44-50e8-446c-b3e8-98f30274c6e2/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5829131",
     "title": "Why you should kill your lawn",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2Fe6%2F3bd6d56d4d2f962b192334c45663%2F8857b45f-4af1-4d51-82a7-1b1abed0a5f2.jpg",
@@ -4166,6 +4180,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5836651",
+  "nx-s1-5831621",
   "nx-s1-5829131",
   "nx-s1-5826128",
   "nx-s1-5821628",
