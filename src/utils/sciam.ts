@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1311357",
+    "title": "What our phones, playlists and AI companions reveal about being human",
+    "img": "https://static.scientificamerican.com/dam/asset/0000039b-87f2-49dd-88bb-16d4f7618b3e/2605_SQ_FRI_BODY_DIGITAL.png?m=1780004975.4",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-smartphones-and-ai-are-reshaping-our-bodies-and-minds/",
+    "audio": "https://traffic.megaphone.fm/SAM1432002072.mp3"
+  },
+  {
+    "id": "1311339",
+    "title": "A new book debunks the myth of human selfishness\u2014and makes the case for an \u2018ecocivilization\u2019",
+    "img": "https://static.scientificamerican.com/dam/asset/84791ded-c61f-4b41-bec8-5ed8b5c815ee/2605_SQ_WED_ECOCIVILIZATION.png?m=1779824740.764",
+    "url": "https://www.scientificamerican.com/podcast/episode/are-humans-really-selfish-rewriting-the-rules-of-civilization/",
+    "audio": "https://traffic.megaphone.fm/SAM1705422930.mp3"
+  },
+  {
     "id": "1311320",
     "title": "This researcher made up a disease to test AI. It failed miserably",
     "img": "https://static.scientificamerican.com/dam/asset/6a58a5d0-14b3-4578-ae09-d10478612c47/2605_SQ_FRI_AI_DISEASE.png?m=1779301200.097",
@@ -4446,6 +4460,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311357",
+  "1311339",
   "1311320",
   "1311300",
   "1311266",
