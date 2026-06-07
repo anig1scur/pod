@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5837939",
+    "title": "Make your small space feel bigger",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5323x2994+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa0%2F9c%2Fdfdcbdbe403a91f4d6fc6ad8ad86%2Fa22b0d10-399c-4cbe-a513-023e4d0e4ea4.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5837939",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/1bcecb84-adf2-4277-b04c-98cd75d37b65/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5836651",
     "title": "Gold is having a moment. Is now the time to invest?",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F04%2Fc1%2Ff81317544ac5810b08c15a1909eb%2Fee402b14-ad7e-4651-bd3c-3f81c8fc8073.jpg",
@@ -4180,6 +4187,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5837939",
   "nx-s1-5836651",
   "nx-s1-5831621",
   "nx-s1-5829131",
