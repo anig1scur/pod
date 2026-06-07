@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311402",
+    "title": "Inside the multiyear effort to rename PCOS",
+    "img": "https://static.scientificamerican.com/dam/asset/7e44e159-3753-4f70-9101-65a7cbd11e2f/2606_SQ_FRI_PCOS_CHANGE-1.jpeg?m=1780604797.456",
+    "url": "https://www.scientificamerican.com/podcast/episode/pcos-is-now-pmos-what-went-behind-renaming-the-common-condition/",
+    "audio": "https://traffic.megaphone.fm/SAM6041692265.mp3"
+  },
+  {
+    "id": "1311388",
+    "title": "How elevators, pizza and card shuffles reveal the surprising math of everyday life",
+    "img": "https://static.scientificamerican.com/dam/asset/352f479a-32d5-48ec-a001-dd887e0aaa66/2606_SQ_WED_MATH_NEWSLETTER.png?m=1780431130.02",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-reason-why-elevators-feel-slow-and-the-surprising-math-behind-everyday-life/",
+    "audio": "https://traffic.megaphone.fm/SAM7791447548.mp3"
+  },
+  {
+    "id": "1311368",
+    "title": "A new Ebola outbreak has killed hundreds\u2014and the U.S. response is alarming experts",
+    "img": "https://static.scientificamerican.com/dam/asset/7ed8163d-90fb-4601-85ae-e1602bc51d3e/2606_SQ_MON_JUNE_01.png?m=1780087810.436",
+    "url": "https://www.scientificamerican.com/podcast/episode/scientists-are-racing-to-stop-a-type-of-ebola-we-have-no-vaccine-for/",
+    "audio": "https://traffic.megaphone.fm/SAM7840580881.mp3"
+  },
+  {
     "id": "1311357",
     "title": "What our phones, playlists and AI companions reveal about being human",
     "img": "https://static.scientificamerican.com/dam/asset/0000039b-87f2-49dd-88bb-16d4f7618b3e/2605_SQ_FRI_BODY_DIGITAL.png?m=1780004975.4",
@@ -4460,6 +4481,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311402",
+  "1311388",
+  "1311368",
   "1311357",
   "1311339",
   "1311320",
