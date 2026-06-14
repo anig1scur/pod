@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311451",
+    "title": "Disclosure Day raises a big question: How do you talk to aliens?",
+    "img": "https://static.scientificamerican.com/dam/asset/9ae92a69-3aee-4a58-9884-866c5e13f314/2606_SQ_FRI_DISCLOSURE_DAY-1.png?m=1781207959.682",
+    "url": "https://www.scientificamerican.com/podcast/episode/disclosure-day-and-interspecies-communication-alien-language-isnt-just-weird-noises/",
+    "audio": "https://traffic.megaphone.fm/SAM1253001956.mp3"
+  },
+  {
+    "id": "1311429",
+    "title": "Inside the high-stakes effort to bring natural grass to World Cup stadiums",
+    "img": "https://static.scientificamerican.com/dam/asset/6d1cc81e-6f23-4845-ab2e-64b5e47c634e/2606_SQ_WED_TURF_GRASS.png?m=1781036926.21",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-surprising-science-behind-the-2026-world-cup-grass/",
+    "audio": "https://traffic.megaphone.fm/SAM6869797287.mp3"
+  },
+  {
+    "id": "1311413",
+    "title": "World Cup kicks off amid outbreak tracking as Mars mission ends and AI fights heat up\n",
+    "img": "https://static.scientificamerican.com/dam/asset/3e048b12-6aff-4f51-8a15-7b411e253800/2606_SQ_MON_JUNE_08.png?m=1780679504.623",
+    "url": "https://www.scientificamerican.com/podcast/episode/world-cup-begins-under-health-watch-as-new-ai-rules-spark-debate-and-ancient-romes-road-network-expands/",
+    "audio": "https://traffic.megaphone.fm/SAM7712388534.mp3"
+  },
+  {
     "id": "1311402",
     "title": "Inside the multiyear effort to rename PCOS",
     "img": "https://static.scientificamerican.com/dam/asset/7e44e159-3753-4f70-9101-65a7cbd11e2f/2606_SQ_FRI_PCOS_CHANGE-1.jpeg?m=1780604797.456",
@@ -4481,6 +4502,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311451",
+  "1311429",
+  "1311413",
   "1311402",
   "1311388",
   "1311368",
