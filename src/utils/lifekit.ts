@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5853588",
+    "title": "Tired of eating leftovers? Turn your odds and ends into creative meals",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F27%2F47f511e14c9c9d729b5a89fcdecf%2F6f81257d-bb21-4121-9259-ce264dbb42d3.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5853588",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/7584e251-feb9-439b-b692-04aec0a47726/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5850775",
+    "title": "Used to be an avid reader? How to get back into books",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F48%2F39ec935447deb80867bd8f363cec%2F39520f48-033d-41cf-b101-0aa88887e9a0.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5850775",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/e11fbd76-e8a5-4ae4-9efb-4897316e8673/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5847859",
+    "title": "How to have a safe, healthy summer",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2Fd4%2F8fff9c624b99ac81135fa287f644%2F7bd430eb-4858-4571-b7dc-733031ad01e3.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5847859",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/8ff5b48c-546e-478b-a721-bca6fe36524c/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5837939",
     "title": "Make your small space feel bigger",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5323x2994+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa0%2F9c%2Fdfdcbdbe403a91f4d6fc6ad8ad86%2Fa22b0d10-399c-4cbe-a513-023e4d0e4ea4.jpg",
@@ -4187,6 +4208,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5853588",
+  "nx-s1-5850775",
+  "nx-s1-5847859",
   "nx-s1-5837939",
   "nx-s1-5836651",
   "nx-s1-5831621",
