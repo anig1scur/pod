@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311590",
+    "title": "How viruses may reshape the body\u2019s \u2018soil\u2019 to promote cancer growth",
+    "img": "https://static.scientificamerican.com/dam/asset/970b75e3-6c98-4443-96b6-244ffc1b7ec8/2606_SQ_FRI_YAS_CANCER.png?m=1781812126.739",
+    "url": "https://www.scientificamerican.com/podcast/episode/scientists-are-uncovering-how-common-viruses-may-quietly-increase-cancer-risk/",
+    "audio": "https://traffic.megaphone.fm/SAM1690441484.mp3"
+  },
+  {
+    "id": "1311574",
+    "title": "Learning from unexpected results: This neuroscientist is redefining how the brain learns",
+    "img": "https://static.scientificamerican.com/dam/asset/36f8a867-08bd-46c8-a363-39669bab7677/2606_SQ_WED_YAS_NEUROSCIENCE.png?m=1781640946.054",
+    "url": "https://www.scientificamerican.com/podcast/episode/neuroscientist-kaue-m-costa-redefines-how-the-brain-learns/",
+    "audio": "https://traffic.megaphone.fm/SAM6840499214.mp3"
+  },
+  {
+    "id": "1311467",
+    "title": "How Erini Lambrides went from seeking theater stardom to studying the stars at NASA",
+    "img": "https://static.scientificamerican.com/dam/asset/7dd021ed-4697-44c9-84f7-7778ade854d7/2606_SQ_MON_YAS_SPACE-1.png?m=1781291611.663",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-an-aspiring-actress-from-brooklyn-stumbled-into-an-astrophysics-career-at-nasa/",
+    "audio": "https://traffic.megaphone.fm/SAM2999181062.mp3"
+  },
+  {
     "id": "1311451",
     "title": "Disclosure Day raises a big question: How do you talk to aliens?",
     "img": "https://static.scientificamerican.com/dam/asset/9ae92a69-3aee-4a58-9884-866c5e13f314/2606_SQ_FRI_DISCLOSURE_DAY-1.png?m=1781207959.682",
@@ -4502,6 +4523,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311590",
+  "1311574",
+  "1311467",
   "1311451",
   "1311429",
   "1311413",
