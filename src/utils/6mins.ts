@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260618__limiting_screen_time_for_children",
+    "title": "miting screen time for children",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nh80l5.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260618",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260618_6_minute_english_limiting_screen_time_for_children_download.mp3"
+  },
+  {
     "id": "260611__how_advertisers_make_us_spend_money",
     "title": "How advertisers make us spend money",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nr4td0.jpg",
@@ -4188,6 +4195,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260618__limiting_screen_time_for_children",
   "260611__how_advertisers_make_us_spend_money",
   "260604__the_power_of_poetry",
   "260528__living_with_debt",
