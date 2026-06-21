@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5862111",
+    "title": "Practical advice for modern dads",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fda%2Fda%2F0928c34b4e4987f2a499681e27fc%2F62a11e58-99c6-438c-89c9-578edc3dd1b4.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5862111",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/04cbc7e2-ea69-4c4d-a49d-2a86f3a998fd/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5856439",
+    "title": "How to reclaim the magic of summer, according to Gretchen Rubin",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F89%2F82%2F43fc26f346c39b496e4efaf6d047%2F511a946c-2dcf-4930-9a4d-41d79fb4bfd7.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5856439",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/189c438e-0b9b-4b3b-94d3-34bba3402657/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5855005",
+    "title": "Stop overthinking skin care. What's essential and what's hype",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F15%2F33%2Fd8254a4b4d8c9b32e41b901c8c0f%2F1f50d1e2-d058-44b4-86f1-2da975015216.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5855005",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/9c433d08-ea39-4f6e-846b-abeb78fe6cdd/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5853588",
     "title": "Tired of eating leftovers? Turn your odds and ends into creative meals",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F27%2F47f511e14c9c9d729b5a89fcdecf%2F6f81257d-bb21-4121-9259-ce264dbb42d3.jpg",
@@ -4208,6 +4229,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5862111",
+  "nx-s1-5856439",
+  "nx-s1-5855005",
   "nx-s1-5853588",
   "nx-s1-5850775",
   "nx-s1-5847859",
