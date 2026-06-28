@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "nx-s1-5869378",
+    "title": "How to dump an energy vampire",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F28%2F00bd668146ef853431f2c935b23e%2Fa5a805fc-a182-4461-a915-601cae662764.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5869378",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/b737560f-7eff-4fce-8529-61fb30b65c78/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5866799",
+    "title": "The ingredients for a 'nice life'",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc1%2F1c%2Ff5efa3534c8a844092ff5a2dec9f%2F21d184ff-92c1-4d53-af95-8a7440c71455.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5866799",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/caee7e70-a0b8-40d7-a500-42f594fbb6f3/audio/128/default.mp3"
+  },
+  {
+    "id": "nx-s1-5863499",
+    "title": "Should I take a probiotic? And other gut questions, answered",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F29%2F9f%2F5463c919480ba05cba2f7071eea9%2Fd2f7c5e0-c40e-4b6b-abea-e4c633ceb1e0.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5863499",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/fea1574a-8287-4905-aff3-db7e138924ea/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5862111",
     "title": "Practical advice for modern dads",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fda%2Fda%2F0928c34b4e4987f2a499681e27fc%2F62a11e58-99c6-438c-89c9-578edc3dd1b4.jpg",
@@ -4229,6 +4250,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5869378",
+  "nx-s1-5866799",
+  "nx-s1-5863499",
   "nx-s1-5862111",
   "nx-s1-5856439",
   "nx-s1-5855005",
