@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1311604",
+    "title": "Ebola cases surge, the World Cup heats up, and fatherhood changes the brain",
+    "img": "https://static.scientificamerican.com/dam/asset/ccd7700b-5acc-45c5-954f-c0e8959c5c03/2606_SQ_MON_JUNE_22-1.png?m=1781894615.518",
+    "url": "https://www.scientificamerican.com/podcast/episode/ebola-outbreak-latest-world-cup-heat-risks-and-dad-brains/",
+    "audio": "https://traffic.megaphone.fm/SAM3430398321.mp3"
+  },
+  {
     "id": "1311590",
     "title": "How viruses may reshape the body\u2019s \u2018soil\u2019 to promote cancer growth",
     "img": "https://static.scientificamerican.com/dam/asset/970b75e3-6c98-4443-96b6-244ffc1b7ec8/2606_SQ_FRI_YAS_CANCER.png?m=1781812126.739",
@@ -4523,6 +4530,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311604",
   "1311590",
   "1311574",
   "1311467",
