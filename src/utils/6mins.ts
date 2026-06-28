@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260625__stress_free_family_meals",
+    "title": "Stress-free family meals",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ntvbdk.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260625",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260625_6_minute_english_stress_free_family_meals_download.mp3"
+  },
+  {
     "id": "260618__limiting_screen_time_for_children",
     "title": "miting screen time for children",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nh80l5.jpg",
@@ -4195,6 +4202,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260625__stress_free_family_meals",
   "260618__limiting_screen_time_for_children",
   "260611__how_advertisers_make_us_spend_money",
   "260604__the_power_of_poetry",
