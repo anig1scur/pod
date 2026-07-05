@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260702__rude_emails",
+    "title": "Rude emails",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nvr7gj.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260702",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260702_6_minute_english_rude_emails_download.mp3"
+  },
+  {
     "id": "260625__stress_free_family_meals",
     "title": "Stress-free family meals",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ntvbdk.jpg",
@@ -4202,6 +4209,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260702__rude_emails",
   "260625__stress_free_family_meals",
   "260618__limiting_screen_time_for_children",
   "260611__how_advertisers_make_us_spend_money",
