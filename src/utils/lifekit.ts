@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "nx-s1-5875410",
+    "title": "How to save at restaurants if you're burnt out on cooking",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F62%2F18%2F472524534c77948cfac9835fba17%2Fe0944931-1542-447f-8ce1-ef569c38f7c1.jpg",
+    "url": "https://www.npr.org/transcripts/nx-s1-5875410",
+    "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/c8a10946-b02f-4930-a29a-1ec02654120c/audio/128/default.mp3"
+  },
+  {
     "id": "nx-s1-5869378",
     "title": "How to dump an energy vampire",
     "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F28%2F00bd668146ef853431f2c935b23e%2Fa5a805fc-a182-4461-a915-601cae662764.jpg",
@@ -4250,6 +4257,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "nx-s1-5875410",
   "nx-s1-5869378",
   "nx-s1-5866799",
   "nx-s1-5863499",
