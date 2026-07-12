@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260709__should_we_cycle_more",
+    "title": "Should we cycle more?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nwc6ky.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260709",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260709_6_minute_english_should_we_cycle_more_download.mp3"
+  },
+  {
     "id": "260702__rude_emails",
     "title": "Rude emails",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nvr7gj.jpg",
@@ -4209,6 +4216,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260709__should_we_cycle_more",
   "260702__rude_emails",
   "260625__stress_free_family_meals",
   "260618__limiting_screen_time_for_children",
