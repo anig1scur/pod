@@ -1,5 +1,12 @@
 export const episodes = [
   {
+    "id": "1311758",
+    "title": "Are we too afraid of the sun? Scientists rethink sun exposure risks and benefits",
+    "img": "https://static.scientificamerican.com/dam/asset/85e193c5-31ea-45eb-8087-9941aedf9147/2606_SQ_WED_SUN_EXPOSURE.png?m=1784812772.615",
+    "url": "https://www.scientificamerican.com/podcast/episode/sunlight-benefits-and-risks-what-science-says-about-healthy-sun-exposure/",
+    "audio": "https://traffic.megaphone.fm/SAM9129831979.mp3"
+  },
+  {
     "id": "1311604",
     "title": "Ebola cases surge, the World Cup heats up, and fatherhood changes the brain",
     "img": "https://static.scientificamerican.com/dam/asset/ccd7700b-5acc-45c5-954f-c0e8959c5c03/2606_SQ_MON_JUNE_22-1.png?m=1781894615.518",
@@ -4530,6 +4537,7 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311758",
   "1311604",
   "1311590",
   "1311574",
