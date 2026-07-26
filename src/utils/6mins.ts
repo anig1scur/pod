@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260723__children_in",
+    "title": "dren in warzones ",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nvzfk2.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260723",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260723_6_minute_english_children_in_warzones.mp3"
+  },
+  {
     "id": "260716__what's_in_a_footballer's_brain",
     "title": "What's in a footballer's brain?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0ny1vpc.jpg",
@@ -4223,6 +4230,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260723__children_in",
   "260716__what's_in_a_footballer's_brain",
   "260709__should_we_cycle_more",
   "260702__rude_emails",
