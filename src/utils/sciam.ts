@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311791",
+    "title": "The untold science and drama of Lewis and Clark\u2019s expedition",
+    "img": "https://static.scientificamerican.com/dam/asset/4e2189f1-4764-47c4-82e0-d2ede5b0384e/2607_SQ_FRI_READING_03.png?m=1785440321.888",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-untold-science-and-drama-of-lewis-and-clarks-expedition/",
+    "audio": "https://traffic.megaphone.fm/SAM2940705326.mp3"
+  },
+  {
+    "id": "1311778",
+    "title": "Sciencey summer books we love: Pompeii, quantum physics, and more\n",
+    "img": "https://static.scientificamerican.com/dam/asset/1838903b-c401-47f8-94b3-92ae1f07a0b0/2607_SQ_WED_READING_02.png?m=1785264914.395",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-ultimate-science-summer-reading-list/",
+    "audio": "https://traffic.megaphone.fm/SAM6969623272.mp3"
+  },
+  {
+    "id": "1311770",
+    "title": "The science books our editors can\u2019t stop recommending this summer",
+    "img": "https://static.scientificamerican.com/dam/asset/60eae404-02d6-4b49-96c3-aa203dc2d40d/2607_SQ_MON_READING_01.png?m=1784918910.976",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-best-science-books-to-read-this-summer-according-to-scientific-american-editors/",
+    "audio": "https://traffic.megaphone.fm/SAM9370052879.mp3"
+  },
+  {
     "id": "1311758",
     "title": "Are we too afraid of the sun? Scientists rethink sun exposure risks and benefits",
     "img": "https://static.scientificamerican.com/dam/asset/85e193c5-31ea-45eb-8087-9941aedf9147/2606_SQ_WED_SUN_EXPOSURE.png?m=1784812772.615",
@@ -4537,6 +4558,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311791",
+  "1311778",
+  "1311770",
   "1311758",
   "1311604",
   "1311590",
