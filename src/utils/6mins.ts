@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260806__how_do_climate_scientists_make_predictions",
+    "title": "How do climate scientists make predictions?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p2sfsv.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260806",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260806_6_minute_english_how_do_climate_scientists_make_predictions_download.mp3"
+  },
+  {
     "id": "260730__the_enhanced_games",
     "title": "The Enhanced Games",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p05b1k.jpg",
@@ -4237,6 +4244,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260806__how_do_climate_scientists_make_predictions",
   "260730__the_enhanced_games",
   "260723__children_in",
   "260716__what's_in_a_footballer's_brain",
