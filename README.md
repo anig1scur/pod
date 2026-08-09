@@ -1,3 +1,5 @@
+
+
 <div align=center>
 <img  src="./logo.png" width="200"/>
 </div>
@@ -40,7 +42,7 @@ I am planning to add more like The Atlantic, TED, talk shows, etc in the future.
 4. **Export to PDF**
    - Export the whole transcript with highlighted vocabulary blank to PDF, for easy printing and practicing.
 
-## Suppo  rted Vocabulary
+## Supported Vocabulary
 
 1. CEFR (Common European Framework of Reference for Languages) B1-C1
 2. [AWL (Academic Word List) 570](https://www.eapfoundation.com/vocab/academic/awllists/)
