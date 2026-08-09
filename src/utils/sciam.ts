@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311829",
+    "title": "Why experts are worried cigarette smoking could be making a comeback among Gen Z\n",
+    "img": "https://static.scientificamerican.com/dam/asset/71a3f1aa-1ca7-4c45-b0dc-06cae1fd2099/2608_SQ_FRI_GENZ_SMOKING.png?m=1786041059.207",
+    "url": "https://www.scientificamerican.com/podcast/episode/smoking-was-supposed-to-be-fading-away-why-are-young-people-embracing-it-again/",
+    "audio": "https://traffic.megaphone.fm/SAM8235824645.mp3"
+  },
+  {
+    "id": "1311812",
+    "title": "YouTube inventor Simone Giertz turned robot comedy into a science career. Here\u2019s how",
+    "img": "https://static.scientificamerican.com/dam/asset/2f23e8da-aec3-447f-8b3e-9beb812abcca/2608_SQ_FRI_SIMONE_GIERTZ-Span.jpeg?m=1785795869.985",
+    "url": "https://www.scientificamerican.com/podcast/episode/youtube-star-simone-giertz-has-some-life-and-science-lessons-to-share-with-you/",
+    "audio": "https://traffic.megaphone.fm/SAM6865885159.mp3"
+  },
+  {
+    "id": "1311797",
+    "title": "Your salad could make you sick. Your protein obsession might not help, either",
+    "img": "https://static.scientificamerican.com/dam/asset/a7c816a6-bfe6-471f-9627-8c48c6c1fa71/2608_SQ_MON_AUG_03.png?m=1785528663.766",
+    "url": "https://www.scientificamerican.com/podcast/episode/cyclosporiasis-cases-surge-while-new-research-questions-protein-maxxing/",
+    "audio": "https://traffic.megaphone.fm/SAM5881517280.mp3"
+  },
+  {
     "id": "1311791",
     "title": "The untold science and drama of Lewis and Clark\u2019s expedition",
     "img": "https://static.scientificamerican.com/dam/asset/4e2189f1-4764-47c4-82e0-d2ede5b0384e/2607_SQ_FRI_READING_03.png?m=1785440321.888",
@@ -4558,6 +4579,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311829",
+  "1311812",
+  "1311797",
   "1311791",
   "1311778",
   "1311770",
