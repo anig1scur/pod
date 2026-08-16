@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260813__who_does_the_housework",
+    "title": "Who does the housework?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p444kb.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260813",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260813_6_minute_english_who_does_the_housework_download.mp3"
+  },
+  {
     "id": "260806__how_do_climate_scientists_make_predictions",
     "title": "How do climate scientists make predictions?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p2sfsv.jpg",
@@ -4244,6 +4251,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260813__who_does_the_housework",
   "260806__how_do_climate_scientists_make_predictions",
   "260730__the_enhanced_games",
   "260723__children_in",
