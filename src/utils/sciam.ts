@@ -1,5 +1,47 @@
 export const episodes = [
   {
+    "id": "1311938",
+    "title": "Researchers test magic mushrooms as an anorexia treatment",
+    "img": "https://static.scientificamerican.com/dam/asset/03f16eb5-0e32-41ea-b0c2-1a752291dd4d/2608_SQ_FRI_PSILOCYBIN_ANOREXIA.png?m=1787253145.466",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-happened-when-people-with-anorexia-tried-magic-mushrooms/",
+    "audio": "https://traffic.megaphone.fm/SAM5598124292.mp3"
+  },
+  {
+    "id": "1311919",
+    "title": "How the history of human creativity can help us navigate the age of AI",
+    "img": "https://static.scientificamerican.com/dam/asset/c89c1ed6-db81-4b5c-add4-e979041c94c4/2608_SQ_WED_MOTHERS_INVENTION.png?m=1787082564.669",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-generative-ai-is-reshaping-creativity-and-what-it-means-for-artists/",
+    "audio": "https://traffic.megaphone.fm/SAM4465453140.mp3"
+  },
+  {
+    "id": "1311892",
+    "title": "Total eclipse wonder, vaccine misinformation and the strongest case yet for coffee",
+    "img": "https://static.scientificamerican.com/dam/asset/c4bc7515-3bfd-471c-92e9-a21f17e2d9fe/2608_SQ_MON_AUG_17.png?m=1786725952.111",
+    "url": "https://www.scientificamerican.com/podcast/episode/total-solar-eclipse-vaccine-controversy-and-coffee-health-benefits/",
+    "audio": "https://traffic.megaphone.fm/SAM9139216488.mp3"
+  },
+  {
+    "id": "1311883",
+    "title": "The unlikely opera star: How AI helped a nonspeaking performer find his voice",
+    "img": "https://static.scientificamerican.com/dam/asset/246f046f-7e16-4b82-9e11-cadf66af2d5b/2608_SQ_FRI_SENSORIUM_AI.png?m=1786741019.705",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-nonspeaking-person-is-the-star-of-this-opera-ai-made-that-possible/",
+    "audio": "https://traffic.megaphone.fm/SAM8462221032.mp3"
+  },
+  {
+    "id": "1311865",
+    "title": "Could humans learn a language made entirely of music?",
+    "img": "https://static.scientificamerican.com/dam/asset/5c5b761c-6d93-40e9-b26c-55626072a371/2608_SQ_WED_MUSIC_LANGUAGE.png?m=1786483984.133",
+    "url": "https://www.scientificamerican.com/podcast/episode/could-rockys-musical-language-in-project-hail-mary-actually-work/",
+    "audio": "https://traffic.megaphone.fm/SAM4467915264.mp3"
+  },
+  {
+    "id": "1311846",
+    "title": "SpaceX moon crash, water utility cyberattacks and a new mRNA flu shot",
+    "img": "https://static.scientificamerican.com/dam/asset/61cbfbb3-890d-4969-849b-e80c1626cc6b/2608_SQ_MON_AUG_10.png?m=1786127314.506",
+    "url": "https://www.scientificamerican.com/podcast/episode/spacex-rocket-crashes-into-the-moon-as-cyberattacks-hit-u-s-water-systems/",
+    "audio": "https://traffic.megaphone.fm/SAM2191590114.mp3"
+  },
+  {
     "id": "1311829",
     "title": "Why experts are worried cigarette smoking could be making a comeback among Gen Z\n",
     "img": "https://static.scientificamerican.com/dam/asset/71a3f1aa-1ca7-4c45-b0dc-06cae1fd2099/2608_SQ_FRI_GENZ_SMOKING.png?m=1786041059.207",
@@ -4579,6 +4621,12 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311938",
+  "1311919",
+  "1311892",
+  "1311883",
+  "1311865",
+  "1311846",
   "1311829",
   "1311812",
   "1311797",
