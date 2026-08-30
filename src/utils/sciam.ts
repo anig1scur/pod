@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1311979",
+    "title": "The Endangered Species Act is getting weaker",
+    "img": "https://static.scientificamerican.com/dam/asset/3989c7ee-b91c-4fbf-a343-83bea04111df/2608_SQ_FRI_ESA.png?m=1787861209.315",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-changes-to-endangered-species-act-regulations-could-hurt-wildlife/",
+    "audio": "https://traffic.megaphone.fm/SAM1595353739.mp3"
+  },
+  {
+    "id": "1311961",
+    "title": "Sperm health may matter more for pregnancy than we realized",
+    "img": "https://static.scientificamerican.com/dam/asset/8fe1d33b-2820-499b-bfeb-3d7302789fd9/2608_SQ_WED_SPERM_MISCARRIAGES.png?m=1787684795.142",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-overlooked-role-of-sperm-dna-damage-in-recurrent-miscarriage/",
+    "audio": "https://traffic.megaphone.fm/SAM8814698133.mp3"
+  },
+  {
+    "id": "1311948",
+    "title": "Melting Arctic ice, threatened forests and the growing toll of extreme weather",
+    "img": "https://static.scientificamerican.com/dam/asset/ecb0c4a8-e65b-4b73-b432-f37449198570/2608_SQ_MON_AUG_24.png?m=1787339792.045",
+    "url": "https://www.scientificamerican.com/podcast/episode/climate-change-opens-arctic-shipping-routes-as-roadless-forest-protections-face-rollback/",
+    "audio": "https://traffic.megaphone.fm/SAM9717443602.mp3"
+  },
+  {
     "id": "1311938",
     "title": "Researchers test magic mushrooms as an anorexia treatment",
     "img": "https://static.scientificamerican.com/dam/asset/03f16eb5-0e32-41ea-b0c2-1a752291dd4d/2608_SQ_FRI_PSILOCYBIN_ANOREXIA.png?m=1787253145.466",
@@ -4621,6 +4642,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1311979",
+  "1311961",
+  "1311948",
   "1311938",
   "1311919",
   "1311892",
