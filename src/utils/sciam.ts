@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312017",
+    "title": "Can technology optimize companionship? A novelist imagines the extreme answer",
+    "img": "https://static.scientificamerican.com/dam/asset/fad55c07-f117-4905-8972-25deaaad16f0/2609_SQ_WED_SARAH_PIERCE.png?m=1788463384.446",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-a-novel-about-a-dating-app-for-dead-bodies-reveals-about-human-connection/",
+    "audio": "https://traffic.megaphone.fm/SAM8791016188.mp3"
+  },
+  {
+    "id": "1312005",
+    "title": "The hackers protecting America\u2019s water supply",
+    "img": "https://static.scientificamerican.com/dam/asset/a121c727-a1d9-4b83-8e0a-a23f9d2b67b6/2609_SQ_WED_WATER_CYBER-Span-art.jpeg?m=1788298415.42",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-hackers-protecting-americas-water-supply/",
+    "audio": "https://traffic.megaphone.fm/SAM8965867545.mp3"
+  },
+  {
+    "id": "1311991",
+    "title": "NASA launches Roman Space Telescope to uncover the universe\u2019s biggest mysteries\n",
+    "img": "https://static.scientificamerican.com/dam/asset/58f6998b-1604-4b92-b74e-c9703550064e/2608_SQ_MON_AUG_31.png?m=1788102084.327",
+    "url": "https://www.scientificamerican.com/podcast/episode/nasa-launches-roman-space-telescope-to-explore-dark-energy-and-distant-worlds/",
+    "audio": "https://traffic.megaphone.fm/SAM2473972963.mp3"
+  },
+  {
     "id": "1311979",
     "title": "The Endangered Species Act is getting weaker",
     "img": "https://static.scientificamerican.com/dam/asset/3989c7ee-b91c-4fbf-a343-83bea04111df/2608_SQ_FRI_ESA.png?m=1787861209.315",
@@ -4642,6 +4663,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312017",
+  "1312005",
+  "1311991",
   "1311979",
   "1311961",
   "1311948",
