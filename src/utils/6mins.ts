@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260903__storms_and_climate_change",
+    "title": "mate change and extreme weather",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0nmrk4t.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260903",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260903_6_minute_english_storms_and_climate_change_download.mp3"
+  },
+  {
     "id": "260827__smells",
     "title": "How do we describe smells?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p6hxjv.jpg",
@@ -4265,6 +4272,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260903__storms_and_climate_change",
   "260827__smells",
   "260820__sharing_the_road_with_driverless_cars",
   "260813__who_does_the_housework",
