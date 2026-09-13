@@ -1,5 +1,19 @@
 export const episodes = [
   {
+    "id": "1312052",
+    "title": "Can an AI chatbot replace human connection?",
+    "img": "https://static.scientificamerican.com/dam/asset/722de6c0-ef10-4ccd-a8ca-3ede086d8058/2609_SQ_FRI_ARTIFICAL_INTIMACY.png?m=1789073890.96",
+    "url": "https://www.scientificamerican.com/podcast/episode/are-ai-chatbots-making-us-less-human/",
+    "audio": "https://traffic.megaphone.fm/SAM6750486319.mp3"
+  },
+  {
+    "id": "1312038",
+    "title": "New science shows we crave both close friends and large networks",
+    "img": "https://static.scientificamerican.com/dam/asset/d666c57a-f730-4e99-a70d-3552a4db8a75/2609_SQ_WED_FRIENDSHIP-1.png?m=1788901213.287",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-science-of-friendship-and-loneliness/",
+    "audio": "https://traffic.megaphone.fm/SAM7091445305.mp3"
+  },
+  {
     "id": "1312017",
     "title": "Can technology optimize companionship? A novelist imagines the extreme answer",
     "img": "https://static.scientificamerican.com/dam/asset/fad55c07-f117-4905-8972-25deaaad16f0/2609_SQ_WED_SARAH_PIERCE.png?m=1788463384.446",
@@ -4663,6 +4677,8 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312052",
+  "1312038",
   "1312017",
   "1312005",
   "1311991",
