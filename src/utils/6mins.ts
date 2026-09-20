@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "260917__is_rejection_good_for_us",
+    "title": "Is rejection good for us?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p9z0sx.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/260917_6_minute_english_is_rejection_good_for_us_download.mp3"
+  },
+  {
     "id": "260910__can_apps_teach_you_a_language",
     "title": "pps teach you a language?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0p8rq0v.jpg",
@@ -4279,6 +4286,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "260917__is_rejection_good_for_us",
   "260910__can_apps_teach_you_a_language",
   "260903__storms_and_climate_change",
   "260827__smells",
