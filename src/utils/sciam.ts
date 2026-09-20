@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312105",
+    "title": "Listening to a forest before it changes forever\n",
+    "img": "https://static.scientificamerican.com/dam/asset/a2c3002d-e3a3-4af1-b1fb-a3fb98e3f057/2609_SQ_FRI_RAINFOREST.png?m=1789683979.972",
+    "url": "https://www.scientificamerican.com/podcast/episode/indonesia-is-moving-its-capital-will-a-forest-pay-the-price/",
+    "audio": "https://traffic.megaphone.fm/SAM2132355107.mp3"
+  },
+  {
+    "id": "1312090",
+    "title": "Unexplainable and Scientific American examine the mysteries science can\u2019t yet explain",
+    "img": "https://static.scientificamerican.com/dam/asset/c450a913-aaba-4de7-a849-a2da24064dd8/2609_SQ_FRI_UNEXPLAINABLE.png?m=1789485830.235",
+    "url": "https://www.scientificamerican.com/podcast/episode/voxs-unexplainable-explores-scientific-americans-biggest-unanswered-science-questions/",
+    "audio": "https://traffic.megaphone.fm/SAM4307756875.mp3"
+  },
+  {
+    "id": "1312063",
+    "title": "New 9/11 records, a controversial AI math breakthrough and the hidden costs of the AI boom\n",
+    "img": "https://static.scientificamerican.com/dam/asset/748d7842-3752-4837-a0a0-9ca1cb2eea6c/2609_SQ_MON_SEPT_14.png?m=1789156744.876",
+    "url": "https://www.scientificamerican.com/podcast/episode/25-years-after-9-11-ai-sparks-a-math-debate-as-data-center-pollution-concerns-grow/",
+    "audio": "https://traffic.megaphone.fm/SAM8705727348.mp3"
+  },
+  {
     "id": "1312052",
     "title": "Can an AI chatbot replace human connection?",
     "img": "https://static.scientificamerican.com/dam/asset/722de6c0-ef10-4ccd-a8ca-3ede086d8058/2609_SQ_FRI_ARTIFICAL_INTIMACY.png?m=1789073890.96",
@@ -4677,6 +4698,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312105",
+  "1312090",
+  "1312063",
   "1312052",
   "1312038",
   "1312017",
