@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312139",
+    "title": "Vox\u2019s Unexplainable and Scientific American take on dark matter, uncertainty and the unknowable\n",
+    "img": "https://static.scientificamerican.com/dam/asset/986c1305-beb1-4e08-bada-bcb9cde13aa9/2609_SQ_FRI_UNEXPLAINABLE_2.png?m=1790273802.943",
+    "url": "https://www.scientificamerican.com/podcast/episode/voxs-unexplainable-and-scientific-american-explore-the-mystery-of-dark-matter-and-the-limits-of-science/",
+    "audio": "https://traffic.megaphone.fm/SAM8582235814.mp3"
+  },
+  {
+    "id": "1312130",
+    "title": "Is \u2018poop maxxing\u2019 the key to health?",
+    "img": "https://static.scientificamerican.com/dam/asset/a30501d4-440e-4827-9a71-3059999af19e/2609_SQ_WED_POOP_MAXING.png?m=1790112827.804",
+    "url": "https://www.scientificamerican.com/podcast/episode/when-it-comes-to-poop-maxxing-are-you-optimizing-or-obsessing/",
+    "audio": "https://traffic.megaphone.fm/SAM6368002197.mp3"
+  },
+  {
+    "id": "1312116",
+    "title": "U.S. space weapons, AI regulation debates and the EPA\u2019s carbon emissions rollback\u00a0",
+    "img": "https://static.scientificamerican.com/dam/asset/43403fe1-9c5f-4a2e-8936-42ae6a9737d7/2609_SQ_MON_SEPT_21-1.png?m=1789760809.689",
+    "url": "https://www.scientificamerican.com/podcast/episode/space-weapons-ai-safety-concerns-and-the-epas-rollback-of-power-plant-emission-rules/",
+    "audio": "https://traffic.megaphone.fm/SAM4602794150.mp3"
+  },
+  {
     "id": "1312105",
     "title": "Listening to a forest before it changes forever\n",
     "img": "https://static.scientificamerican.com/dam/asset/a2c3002d-e3a3-4af1-b1fb-a3fb98e3f057/2609_SQ_FRI_RAINFOREST.png?m=1789683979.972",
@@ -4698,6 +4719,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312139",
+  "1312130",
+  "1312116",
   "1312105",
   "1312090",
   "1312063",
