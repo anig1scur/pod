@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312196",
+    "title": "Alexis Nikole Nelson, aka Black Forager, reveals the wild foods hiding outside your door\n",
+    "img": "https://static.scientificamerican.com/dam/asset/d07cb2ba-1af8-4b17-9b8d-a7f2012f545e/2610_SQ_FRI_FORAGER_COOKBOOK.png?m=1790798764.093",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-to-start-foraging-for-edible-plants-according-to-black-forager/",
+    "audio": "https://traffic.megaphone.fm/SAM8213057485.mp3"
+  },
+  {
+    "id": "1312181",
+    "title": "Can we vaccinate people against scams? Researchers are testing new ways to fight online fraud",
+    "img": "https://static.scientificamerican.com/dam/asset/02e13011-b5a9-4ece-bbf2-9e2f926cdd7b/2609_SQ_WED_ROMANTIC_SCAMS.png?m=1790708193.465",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-ai-powered-romance-scams-are-harder-than-ever-to-spot/",
+    "audio": "https://traffic.megaphone.fm/SAM2829985982.mp3"
+  },
+  {
+    "id": "1312149",
+    "title": "Life finds a way: Fire amoebas, plesiosaur vomit and sea turtle eggs\n",
+    "img": "https://static.scientificamerican.com/dam/asset/52f503f7-7298-46a7-80ed-496662de6b12/2609_SQ_MON_SEPT_28.png?m=1790370215.297",
+    "url": "https://www.scientificamerican.com/podcast/episode/growing-ai-energy-demands-the-search-for-subatomic-particles-and-the-hottest-amoeba/",
+    "audio": "https://traffic.megaphone.fm/SAM3233290623.mp3"
+  },
+  {
     "id": "1312139",
     "title": "Vox\u2019s Unexplainable and Scientific American take on dark matter, uncertainty and the unknowable\n",
     "img": "https://static.scientificamerican.com/dam/asset/986c1305-beb1-4e08-bada-bcb9cde13aa9/2609_SQ_FRI_UNEXPLAINABLE_2.png?m=1790273802.943",
@@ -4719,6 +4740,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312196",
+  "1312181",
+  "1312149",
   "1312139",
   "1312130",
   "1312116",
