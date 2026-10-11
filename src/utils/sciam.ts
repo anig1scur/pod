@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312232",
+    "title": "For some, IUD placement is painful. Does it have to be?\n",
+    "img": "https://static.scientificamerican.com/dam/asset/7eebcc70-de7d-4ee4-abbb-adbafc4d064a/2610_SQ_FRI_IUD.png?m=1791494913.434",
+    "url": "https://www.scientificamerican.com/podcast/episode/one-doctors-fight-to-make-iud-placement-better/",
+    "audio": "https://traffic.megaphone.fm/SAM6691933455.mp3"
+  },
+  {
+    "id": "1312217",
+    "title": "What the OpenAI-Hugging Face hack reveals about AI accountability",
+    "img": "https://static.scientificamerican.com/dam/asset/ebd32259-433b-432e-9711-79ab1eed4b29/2610_SQ_WED_AI.png?m=1791312245.514",
+    "url": "https://www.scientificamerican.com/podcast/episode/rogue-ai-or-human-error-the-real-story-behind-the-openai-hugging-face-incident/",
+    "audio": "https://traffic.megaphone.fm/SAM9764342167.mp3"
+  },
+  {
+    "id": "1312206",
+    "title": "Why scientists are watching California\u2019s coast and Florida\u2019s vaccines",
+    "img": "https://static.scientificamerican.com/dam/asset/b8aef920-41ee-444f-9a04-4058a5713c07/2610_SQ_MON_OCT_05.png?m=1790959112.336",
+    "url": "https://www.scientificamerican.com/podcast/episode/an-el-nino-fueled-ocean-wave-could-raise-california-flood-risks-as-floridas-vaccine-debate-sparks-outbreak-concerns/",
+    "audio": "https://traffic.megaphone.fm/SAM7497828937.mp3"
+  },
+  {
     "id": "1312196",
     "title": "Alexis Nikole Nelson, aka Black Forager, reveals the wild foods hiding outside your door\n",
     "img": "https://static.scientificamerican.com/dam/asset/d07cb2ba-1af8-4b17-9b8d-a7f2012f545e/2610_SQ_FRI_FORAGER_COOKBOOK.png?m=1790798764.093",
@@ -4740,6 +4761,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312232",
+  "1312217",
+  "1312206",
   "1312196",
   "1312181",
   "1312149",
