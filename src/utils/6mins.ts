@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "261008__are_people_drinking_less_alcohol",
+    "title": "Are people drinking less alcohol?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pffthk.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261008_6_minute_english_are_people_drinking_less_alcohol_download.mp3"
+  },
+  {
     "id": "261001__why_does_heartbreak_hurt_so_much",
     "title": "Why does heartbreak hurt so much?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pdbrwr.jpg",
@@ -4300,6 +4307,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "261008__are_people_drinking_less_alcohol",
   "261001__why_does_heartbreak_hurt_so_much",
   "260924__why_do_we_itch",
   "260917__is_rejection_good_for_us",
