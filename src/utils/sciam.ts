@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312269",
+    "title": "Are we addicted to our phones? Why you can\u2019t stop scrolling",
+    "img": "https://static.scientificamerican.com/dam/asset/df0d58e1-d534-49ec-bf05-b64ccb26bd5a/2610_SQ_FRI_SOCIAL_MEDIA.png?m=1792094455.949",
+    "url": "https://www.scientificamerican.com/podcast/episode/are-you-addicted-to-your-phone-what-scientists-say-about-screen-time-and-social-media/",
+    "audio": "https://traffic.megaphone.fm/SAM7053390349.mp3"
+  },
+  {
+    "id": "1312252",
+    "title": "What the science really says about Blue Zones and living past 100",
+    "img": "https://static.scientificamerican.com/dam/asset/3c503ca4-f563-487b-aff2-f8b4b3c7400c/2610_SQ_WED_MORBID.png?m=1791911830.909",
+    "url": "https://www.scientificamerican.com/podcast/episode/are-blue-zones-real-one-researcher-finds-the-data-deeply-flawed/",
+    "audio": "https://traffic.megaphone.fm/SAM9264046367.mp3"
+  },
+  {
+    "id": "1312242",
+    "title": "Light-controlled cells, multimessenger astronomy and lessons from an old turtle on aging",
+    "img": "https://static.scientificamerican.com/dam/asset/d6ef9d50-c92f-44b5-a584-23704d5f0ef6/2610_SQ_MON_OCT_12.png?m=1791575926.243",
+    "url": "https://www.scientificamerican.com/podcast/episode/nobel-week-light-controlled-brains-particles-from-outer-space-and-mirror-molecules/",
+    "audio": "https://traffic.megaphone.fm/SAM8148273256.mp3"
+  },
+  {
     "id": "1312232",
     "title": "For some, IUD placement is painful. Does it have to be?\n",
     "img": "https://static.scientificamerican.com/dam/asset/7eebcc70-de7d-4ee4-abbb-adbafc4d064a/2610_SQ_FRI_IUD.png?m=1791494913.434",
@@ -4761,6 +4782,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312269",
+  "1312252",
+  "1312242",
   "1312232",
   "1312217",
   "1312206",
