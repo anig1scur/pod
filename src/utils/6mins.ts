@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "261015__why_do_people_buy_gold",
+    "title": "Why do people buy gold?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pgrtq9.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261015_6_minute_english_why_do_people_buy_gold_download.mp3"
+  },
+  {
     "id": "261008__are_people_drinking_less_alcohol",
     "title": "Are people drinking less alcohol?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pffthk.jpg",
@@ -4307,6 +4314,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "261015__why_do_people_buy_gold",
   "261008__are_people_drinking_less_alcohol",
   "261001__why_does_heartbreak_hurt_so_much",
   "260924__why_do_we_itch",
