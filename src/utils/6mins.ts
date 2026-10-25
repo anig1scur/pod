@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "261022__what_should_you_eat_for_a_better_nights_sleep",
+    "title": "What should you eat for a better night\u2019s sleep?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0phpgsm.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261022_6_minute_english_what_should_you_eat_for_a_better_nights_sleep_download.mp3"
+  },
+  {
     "id": "261015__why_do_people_buy_gold",
     "title": "Why do people buy gold?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pgrtq9.jpg",
@@ -4314,6 +4321,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "261022__what_should_you_eat_for_a_better_nights_sleep",
   "261015__why_do_people_buy_gold",
   "261008__are_people_drinking_less_alcohol",
   "261001__why_does_heartbreak_hurt_so_much",
