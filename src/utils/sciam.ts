@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312318",
+    "title": "Can you train your brain to handle uncertainty better?",
+    "img": "https://static.scientificamerican.com/dam/asset/675257c1-eb71-4b12-b450-ceb5638009b3/2610_SQ_FRI_BRAIN-1.jpeg?m=1792685690.295",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-the-brain-handles-uncertainty-and-why-resilience-matters/",
+    "audio": "https://traffic.megaphone.fm/SAM1787700797.mp3"
+  },
+  {
+    "id": "1312304",
+    "title": "Slime mold aliens explore Pompeii in a new novel by Annalee Newitz\n",
+    "img": "https://static.scientificamerican.com/dam/asset/7c40feca-d4d7-49f0-a69b-c0ad65684d2e/2610_SQ_WED_ROAD-1-1.png?m=1792530611.541",
+    "url": "https://www.scientificamerican.com/podcast/episode/a-wall-is-also-a-road-explores-alien-consciousness-slime-mold-life-forms-and-pompeii/",
+    "audio": "https://traffic.megaphone.fm/SAM5395616473.mp3"
+  },
+  {
+    "id": "1312275",
+    "title": "Science surprises, from honeybees to microplastics\n",
+    "img": "https://static.scientificamerican.com/dam/asset/d9410eeb-2788-4f49-8f34-fc93e355d169/2610_SQ_MON_OCT_19.png?m=1792175484.98",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-mechanics-of-honeybee-stingers-microplastic-health-risks-and-new-findings-on-postmenopausal-ovaries/",
+    "audio": "https://traffic.megaphone.fm/SAM1921322667.mp3"
+  },
+  {
     "id": "1312269",
     "title": "Are we addicted to our phones? Why you can\u2019t stop scrolling",
     "img": "https://static.scientificamerican.com/dam/asset/df0d58e1-d534-49ec-bf05-b64ccb26bd5a/2610_SQ_FRI_SOCIAL_MEDIA.png?m=1792094455.949",
@@ -4782,6 +4803,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312318",
+  "1312304",
+  "1312275",
   "1312269",
   "1312252",
   "1312242",
