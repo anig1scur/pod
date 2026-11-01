@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312351",
+    "title": "The psychology behind our undying fascination with vampires",
+    "img": "https://static.scientificamerican.com/dam/asset/f63c63f1-0446-4d15-be51-d1eddaa61159/2610_SQ_FRI_VAMPIRES-1.png?m=1793303231.96",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-science-of-why-were-obsessed-with-vampires/",
+    "audio": "https://traffic.megaphone.fm/SAM5012716033.mp3"
+  },
+  {
+    "id": "1312340",
+    "title": "The science issues quietly driving the midterm elections",
+    "img": "https://static.scientificamerican.com/dam/asset/63a99a1b-774d-4cf4-929a-25fe07b899a0/2610_SQ_WED_MIDTERMS.png?m=1793114709.147",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-science-is-on-the-ballot-in-the-2026-midterm-elections/",
+    "audio": "https://traffic.megaphone.fm/SAM8765556155.mp3"
+  },
+  {
+    "id": "1312329",
+    "title": "Snakes that cartwheel, vultures that groan, and a Martian moon full of mystery\u00a0\n",
+    "img": "https://static.scientificamerican.com/dam/asset/5149eccc-60bb-49dd-adc7-1659be2d6186/2610_SQ_MON_OCT_26.png?m=1793205705.198",
+    "url": "https://www.scientificamerican.com/podcast/episode/snakes-that-cartwheel-vultures-that-groan-a-mysterious-martian-moon-and-more/",
+    "audio": "https://traffic.megaphone.fm/SAM2707890868.mp3"
+  },
+  {
     "id": "1312318",
     "title": "Can you train your brain to handle uncertainty better?",
     "img": "https://static.scientificamerican.com/dam/asset/675257c1-eb71-4b12-b450-ceb5638009b3/2610_SQ_FRI_BRAIN-1.jpeg?m=1792685690.295",
@@ -4803,6 +4824,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312351",
+  "1312340",
+  "1312329",
   "1312318",
   "1312304",
   "1312275",
