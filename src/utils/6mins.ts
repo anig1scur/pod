@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "261029__is_aircon_the_answer_to_a_heating_world",
+    "title": "Is aircon the answer to a heating world?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pjxyf3.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261029_6_minute_english_is_aircon_the_answer_to_a_heating_world_download.mp3"
+  },
+  {
     "id": "261022__what_should_you_eat_for_a_better_nights_sleep",
     "title": "What should you eat for a better night\u2019s sleep?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0phpgsm.jpg",
@@ -4321,6 +4328,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "261029__is_aircon_the_answer_to_a_heating_world",
   "261022__what_should_you_eat_for_a_better_nights_sleep",
   "261015__why_do_people_buy_gold",
   "261008__are_people_drinking_less_alcohol",
