@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "261105__could_vaccines_cure_cancer",
+    "title": "ould vaccines cure cancer?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pl6496.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261105_6_minute_english_could_vaccines_cure_cancer_download.mp3"
+  },
+  {
     "id": "261029__is_aircon_the_answer_to_a_heating_world",
     "title": "Is aircon the answer to a heating world?",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pjxyf3.jpg",
@@ -4328,6 +4335,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "261105__could_vaccines_cure_cancer",
   "261029__is_aircon_the_answer_to_a_heating_world",
   "261022__what_should_you_eat_for_a_better_nights_sleep",
   "261015__why_do_people_buy_gold",
