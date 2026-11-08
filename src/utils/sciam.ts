@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312481",
+    "title": "Kevin Roose explains why AI insiders are worried",
+    "img": "https://static.scientificamerican.com/dam/asset/e2fd2f22-11f5-436f-8924-ec88967747e5/2611_SQ_FRI_AI_RACE.png?m=1793912547.427",
+    "url": "https://www.scientificamerican.com/podcast/episode/kevin-roose-says-the-race-to-build-superintelligence-is-accelerating/",
+    "audio": "https://traffic.megaphone.fm/SAM8962111701.mp3"
+  },
+  {
+    "id": "1312466",
+    "title": "How soybeans conquered America\u00a0\n",
+    "img": "https://static.scientificamerican.com/dam/asset/e7820eb6-14c7-4f40-bc89-e369ee0053d5/2610_SQ_WED_SOYBEANS-1.png?m=1793730321.244",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-the-tiny-soybean-took-over-the-american-diet/",
+    "audio": "https://traffic.megaphone.fm/SAM9228418236.mp3"
+  },
+  {
+    "id": "1312456",
+    "title": "Ebola cases, AI math breakthrough and the dangers of making daylight saving time permanent",
+    "img": "https://static.scientificamerican.com/dam/asset/0b4794c3-cbe8-40be-87b5-a642066d6821/2611_SQ_MON_NOV_02-1.png?m=1793387079.32",
+    "url": "https://www.scientificamerican.com/podcast/episode/ebola-update-ai-math-scoop-and-permanent-daylight-saving-time/",
+    "audio": "https://traffic.megaphone.fm/SAM1856561542.mp3"
+  },
+  {
     "id": "1312351",
     "title": "The psychology behind our undying fascination with vampires",
     "img": "https://static.scientificamerican.com/dam/asset/f63c63f1-0446-4d15-be51-d1eddaa61159/2610_SQ_FRI_VAMPIRES-1.png?m=1793303231.96",
@@ -4824,6 +4845,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312481",
+  "1312466",
+  "1312456",
   "1312351",
   "1312340",
   "1312329",
