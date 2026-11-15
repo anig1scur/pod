@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312511",
+    "title": "Why it\u2019s taken us so long to understand the science of stuttering",
+    "img": "https://static.scientificamerican.com/dam/asset/4847e095-f1bc-4382-b332-e73d3f3f5ea5/2611_SQ_FRI_STUTTERING.png?m=1794502206.986",
+    "url": "https://www.scientificamerican.com/podcast/episode/the-neuroscience-behind-stuttering/",
+    "audio": "https://traffic.megaphone.fm/SAM1242753980.mp3"
+  },
+  {
+    "id": "1312500",
+    "title": "Why this record-breaking El Ni\u00f1o has scientists alarmed",
+    "img": "https://static.scientificamerican.com/dam/asset/7d9ad522-fcaf-4a6d-b6bb-6aa23daba99b/2611_SQ_WED_EL_NINO.png?m=1794345335.785",
+    "url": "https://www.scientificamerican.com/podcast/episode/what-an-exceptionally-powerful-el-nino-could-mean-for-hurricanes-drought-and-flooding/",
+    "audio": "https://traffic.megaphone.fm/SAM8314085743.mp3"
+  },
+  {
+    "id": "1312491",
+    "title": "A cat fart investigation, a deadly measles case and cyberattacks on supermarket freezers\n",
+    "img": "https://static.scientificamerican.com/dam/asset/20dc600f-4af6-4bf1-ab12-6dc3088ed9cb/2611_SQ_MON_NOV_09.png?m=1793995128.445",
+    "url": "https://www.scientificamerican.com/podcast/episode/why-measles-is-spreading-again-how-hackers-are-targeting-freezers-and-whether-cats-fart/",
+    "audio": "https://traffic.megaphone.fm/SAM8016403622.mp3"
+  },
+  {
     "id": "1312481",
     "title": "Kevin Roose explains why AI insiders are worried",
     "img": "https://static.scientificamerican.com/dam/asset/e2fd2f22-11f5-436f-8924-ec88967747e5/2611_SQ_FRI_AI_RACE.png?m=1793912547.427",
@@ -4845,6 +4866,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312511",
+  "1312500",
+  "1312491",
   "1312481",
   "1312466",
   "1312456",
