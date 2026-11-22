@@ -7,6 +7,13 @@ export const episodes = [
     "audio": "http://downloads.bbc.co.uk/learningenglish/features/6min/le_190613_6min_phone_embarrassing_download.mp3"
   },
   {
+    "id": "261119__are_microplastics_harming_us",
+    "title": "Are microplastics harming us?",
+    "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pnqvdy.jpg",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119",
+    "audio": "https://downloads.bbc.co.uk/learningenglish/features/6min/261119_6_minute_english_are_microplastics_harming_us_download.mp3"
+  },
+  {
     "id": "261112__learning_from_different_generations",
     "title": "from different generations",
     "img": "https://ichef.bbci.co.uk/images/ic/1200xn/p0pmgv7y.jpg",
@@ -4342,6 +4349,7 @@ export const episodes = [
 ];
 export const episodeIds = [
   "le_190613__phone_embarrassing",
+  "261119__are_microplastics_harming_us",
   "261112__learning_from_different_generations",
   "261105__could_vaccines_cure_cancer",
   "261029__is_aircon_the_answer_to_a_heating_world",
