@@ -1,5 +1,26 @@
 export const episodes = [
   {
+    "id": "1312574",
+    "title": "The opera-singing lemurs of Madagascar",
+    "img": "https://static.scientificamerican.com/dam/asset/aea678bb-3f72-4439-8897-4a763c1c2cd9/2611_SQ_FRI_LEMURS-1.png?m=1795123238.482",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-one-lemur-species-evolved-to-sing-like-an-opera-star/",
+    "audio": "https://traffic.megaphone.fm/SAM3706167200.mp3"
+  },
+  {
+    "id": "1312553",
+    "title": "Can fungi think? A mind-bending journey into the fungal world",
+    "img": "https://static.scientificamerican.com/dam/asset/1d404465-5dd3-4f30-989a-d9b2accbb2b1/2611_SQ_WED_BOOK_CLUB.png?m=1794943526.389",
+    "url": "https://www.scientificamerican.com/podcast/episode/how-fungi-reshape-our-understanding-of-intelligence-and-life/",
+    "audio": "https://traffic.megaphone.fm/SAM4070516580.mp3"
+  },
+  {
+    "id": "1312525",
+    "title": "Ancient frog bones mystery, a trip to the SciAm archives and some surprising climate news",
+    "img": "https://static.scientificamerican.com/dam/asset/eaf696df-facf-4217-9de5-04677c62ff3c/2611_SQ_MON_NOV_16.png?m=1794607712.731",
+    "url": "https://www.scientificamerican.com/podcast/episode/ancient-frog-murder-mystery-sciam-history-highlights-and-surprising-climate-news/",
+    "audio": "https://traffic.megaphone.fm/SAM3093856874.mp3"
+  },
+  {
     "id": "1312511",
     "title": "Why it\u2019s taken us so long to understand the science of stuttering",
     "img": "https://static.scientificamerican.com/dam/asset/4847e095-f1bc-4382-b332-e73d3f3f5ea5/2611_SQ_FRI_STUTTERING.png?m=1794502206.986",
@@ -4866,6 +4887,9 @@ export const episodes = [
   }
 ];
 export const episodeIds = [
+  "1312574",
+  "1312553",
+  "1312525",
   "1312511",
   "1312500",
   "1312491",
